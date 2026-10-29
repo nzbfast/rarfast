@@ -1,0 +1,34 @@
+program	arm	t exit	x exit	bytes x left for m.bin	which bytes	c.bin right	marks
+rar-7.23-macos-arm64	rar5.long-in-set	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar5.long-single	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar4-v29.long-in-set	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar4-v29.long-single	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar4-v20.long-in-set	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar4-v20.long-single	0	0	46666	first 46666	yes	all-ok
+rar-7.23-macos-arm64	rar5.control	0	0	120007	whole	-	all-ok
+rar-7.23-macos-arm64	rar5.control.alone	6	6	-1	none	-	checksum-error asks-for-volume
+rar-7.23-macos-arm64	rar5.no-flag.crc-fragment	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar5.no-flag.crc-fragment.end-says-last	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar5.no-flag.crc-fragment.alone	6	6	46666	first 46666	-	asks-for-volume
+rar-7.23-macos-arm64	rar5.no-flag.crc-whole	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar5.no-flag.crc-whole.end-says-last	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar5.no-flag.crc-whole.alone	6	6	-1	none	-	checksum-error asks-for-volume
+rar-7.23-macos-arm64	rar5.no-flag.no-crc	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar5.no-flag.no-crc.end-says-last	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar5.no-flag.no-crc.alone	6	6	46666	first 46666	-	asks-for-volume
+rar-7.23-macos-arm64	rar4-v29.control	0	0	120007	whole	-	all-ok
+rar-7.23-macos-arm64	rar4-v29.control.alone	6	6	-1	none	-	checksum-error asks-for-volume
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-fragment	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-fragment.end-says-last	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-fragment.alone	6	6	46666	first 46666	-	asks-for-volume
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-whole	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-whole.end-says-last	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar4-v29.no-flag.crc-whole.alone	6	6	-1	none	-	checksum-error asks-for-volume
+rar-7.23-macos-arm64	rar4-v20.control	0	0	120007	whole	-	all-ok
+rar-7.23-macos-arm64	rar4-v20.control.alone	6	6	-1	none	-	checksum-error asks-for-volume
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-fragment	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-fragment.end-says-last	0	0	46666	first 46666	-	all-ok
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-fragment.alone	6	6	46666	first 46666	-	asks-for-volume
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-whole	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-whole.end-says-last	3	3	-1	none	-	checksum-error
+rar-7.23-macos-arm64	rar4-v20.no-flag.crc-whole.alone	6	6	-1	none	-	checksum-error asks-for-volume

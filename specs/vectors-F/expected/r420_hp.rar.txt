@@ -1,0 +1,7 @@
+== r420_hp.rar (13276 bytes)
+  format: RAR 1.5/2.0/4.x
+  00000000: MARKER     (signature)
+  00000007: MAIN     hsize=13   crc=99ce flags=0x0080
+      main flags=(ENC_HEADERS)
+      reserved1=0x0000 reserved2=0x00000000
+      HEADERS ENCRYPTED: nothing past this point is parsable

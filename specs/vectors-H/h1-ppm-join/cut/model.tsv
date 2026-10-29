@@ -1,0 +1,129 @@
+archive	what a decoder written from SPEC-I's text meets
+i01_t1_default.file-cut-0	8192 of 8192 bytes; end pair read, 8 packed bytes not read
+i01_t1_default.file-cut-1	8192 of 8192 bytes; end pair read, 7 packed bytes not read
+i01_t1_default.data-cut-1	8192 of 8192 bytes; end pair read, 7 packed bytes not read
+i01_t1_default.file-cut-7	8192 of 8192 bytes; end pair read, 1 packed bytes not read
+i01_t1_default.data-cut-7	8192 of 8192 bytes; end pair read, 1 packed bytes not read
+i01_t1_default.file-cut-8	8192 of 8192 bytes; end pair read, 0 packed bytes not read
+i01_t1_default.data-cut-8	8192 of 8192 bytes; end pair read, 0 packed bytes not read
+i01_t1_default.file-cut-9	8192 of 8192 bytes; runs out in the second symbol after the declared size
+i01_t1_default.data-cut-9	8192 of 8192 bytes; runs out in the second symbol after the declared size
+i01_t1_default.file-cut-10	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.data-cut-10	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.file-cut-11	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.data-cut-11	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.file-cut-12	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.data-cut-12	8192 of 8192 bytes; runs out in the first symbol after the declared size
+i01_t1_default.file-cut-13	8186 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-13	8186 of 8192 bytes; runs out before the declared size
+i01_t1_default.file-cut-14	8180 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-14	8180 of 8192 bytes; runs out before the declared size
+i01_t1_default.file-cut-16	8167 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-16	8167 of 8192 bytes; runs out before the declared size
+i01_t1_default.file-cut-24	8129 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-24	8129 of 8192 bytes; runs out before the declared size
+i01_t1_default.file-cut-48	7980 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-48	7980 of 8192 bytes; runs out before the declared size
+i01_t1_default.file-cut-892	3454 of 8192 bytes; runs out before the declared size
+i01_t1_default.data-cut-892	3454 of 8192 bytes; runs out before the declared size
+i11_runs.file-cut-0	13800 of 13800 bytes; end pair read, 8 packed bytes not read
+i11_runs.file-cut-1	13800 of 13800 bytes; end pair read, 7 packed bytes not read
+i11_runs.data-cut-1	13800 of 13800 bytes; end pair read, 7 packed bytes not read
+i11_runs.file-cut-7	13800 of 13800 bytes; end pair read, 1 packed bytes not read
+i11_runs.data-cut-7	13800 of 13800 bytes; end pair read, 1 packed bytes not read
+i11_runs.file-cut-8	13800 of 13800 bytes; end pair read, 0 packed bytes not read
+i11_runs.data-cut-8	13800 of 13800 bytes; end pair read, 0 packed bytes not read
+i11_runs.file-cut-9	13800 of 13800 bytes; runs out in the second symbol after the declared size
+i11_runs.data-cut-9	13800 of 13800 bytes; runs out in the second symbol after the declared size
+i11_runs.file-cut-10	13800 of 13800 bytes; runs out in the second symbol after the declared size
+i11_runs.data-cut-10	13800 of 13800 bytes; runs out in the second symbol after the declared size
+i11_runs.file-cut-11	13800 of 13800 bytes; runs out in the first symbol after the declared size
+i11_runs.data-cut-11	13800 of 13800 bytes; runs out in the first symbol after the declared size
+i11_runs.file-cut-12	13792 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-12	13792 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-13	13791 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-13	13791 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-14	11221 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-14	11221 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-16	6081 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-16	6081 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-24	5824 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-24	5824 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-48	5501 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-48	5501 of 13800 bytes; runs out before the declared size
+i11_runs.file-cut-147	5240 of 13800 bytes; runs out before the declared size
+i11_runs.data-cut-147	5240 of 13800 bytes; runs out before the declared size
+sweep_o2.file-cut-0	3000 of 3000 bytes; end pair read, 8 packed bytes not read
+sweep_o2.file-cut-1	3000 of 3000 bytes; end pair read, 7 packed bytes not read
+sweep_o2.data-cut-1	3000 of 3000 bytes; end pair read, 7 packed bytes not read
+sweep_o2.file-cut-7	3000 of 3000 bytes; end pair read, 1 packed bytes not read
+sweep_o2.data-cut-7	3000 of 3000 bytes; end pair read, 1 packed bytes not read
+sweep_o2.file-cut-8	3000 of 3000 bytes; end pair read, 0 packed bytes not read
+sweep_o2.data-cut-8	3000 of 3000 bytes; end pair read, 0 packed bytes not read
+sweep_o2.file-cut-9	3000 of 3000 bytes; runs out in the second symbol after the declared size
+sweep_o2.data-cut-9	3000 of 3000 bytes; runs out in the second symbol after the declared size
+sweep_o2.file-cut-10	3000 of 3000 bytes; runs out in the second symbol after the declared size
+sweep_o2.data-cut-10	3000 of 3000 bytes; runs out in the second symbol after the declared size
+sweep_o2.file-cut-11	3000 of 3000 bytes; runs out in the first symbol after the declared size
+sweep_o2.data-cut-11	3000 of 3000 bytes; runs out in the first symbol after the declared size
+sweep_o2.file-cut-12	3000 of 3000 bytes; runs out in the first symbol after the declared size
+sweep_o2.data-cut-12	3000 of 3000 bytes; runs out in the first symbol after the declared size
+sweep_o2.file-cut-13	2995 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-13	2995 of 3000 bytes; runs out before the declared size
+sweep_o2.file-cut-14	2990 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-14	2990 of 3000 bytes; runs out before the declared size
+sweep_o2.file-cut-16	2979 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-16	2979 of 3000 bytes; runs out before the declared size
+sweep_o2.file-cut-24	2948 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-24	2948 of 3000 bytes; runs out before the declared size
+sweep_o2.file-cut-48	2857 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-48	2857 of 3000 bytes; runs out before the declared size
+sweep_o2.file-cut-470	1201 of 3000 bytes; runs out before the declared size
+sweep_o2.data-cut-470	1201 of 3000 bytes; runs out before the declared size
+i06_solid3.file-cut-0	5000 of 5000 bytes; end pair read, 8 packed bytes not read
+i06_solid3.file-cut-1	5000 of 5000 bytes; end pair read, 7 packed bytes not read
+i06_solid3.data-cut-1	5000 of 5000 bytes; end pair read, 7 packed bytes not read
+i06_solid3.file-cut-7	5000 of 5000 bytes; end pair read, 1 packed bytes not read
+i06_solid3.data-cut-7	5000 of 5000 bytes; end pair read, 1 packed bytes not read
+i06_solid3.file-cut-8	5000 of 5000 bytes; end pair read, 0 packed bytes not read
+i06_solid3.data-cut-8	5000 of 5000 bytes; end pair read, 0 packed bytes not read
+i06_solid3.file-cut-9	5000 of 5000 bytes; runs out in the first symbol after the declared size
+i06_solid3.data-cut-9	5000 of 5000 bytes; runs out in the first symbol after the declared size
+i06_solid3.file-cut-10	5000 of 5000 bytes; runs out in the first symbol after the declared size
+i06_solid3.data-cut-10	5000 of 5000 bytes; runs out in the first symbol after the declared size
+i06_solid3.file-cut-11	4998 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-11	4998 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-12	4995 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-12	4995 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-13	4993 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-13	4993 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-14	4987 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-14	4987 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-16	4978 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-16	4978 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-24	4939 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-24	4939 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-48	4800 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-48	4800 of 5000 bytes; runs out before the declared size
+i06_solid3.file-cut-433	2529 of 5000 bytes; runs out before the declared size
+i06_solid3.data-cut-433	2529 of 5000 bytes; runs out before the declared size
+t-ppm-cut-header-1.not-read-then-continue	a START header of 3 bytes cut to its first 1
+t-ppm-cut-header-1.zeros-read-then-continue	a START header of 3 bytes cut to its first 1
+t-ppm-cut-header-1.started-escape-kept-then-continue	a START header of 3 bytes cut to its first 1
+t-ppm-cut-header-1.started-escape-2-then-continue	a START header of 3 bytes cut to its first 1
+t-ppm-cut-header-1.then-start	a START header of 3 bytes cut to its first 1
+t-ppm-cut-header-2.not-read-then-continue	a START header of 3 bytes cut to its first 2
+t-ppm-cut-header-2.zeros-read-then-continue	a START header of 3 bytes cut to its first 2
+t-ppm-cut-header-2.started-escape-kept-then-continue	a START header of 3 bytes cut to its first 2
+t-ppm-cut-header-2.started-escape-2-then-continue	a START header of 3 bytes cut to its first 2
+t-ppm-cut-header-2.then-start	a START header of 3 bytes cut to its first 2
+z-ppm-cut-header-1.not-read-then-continue	a START header of 3 bytes cut to its first 1
+z-ppm-cut-header-1.zeros-read-then-continue	a START header of 3 bytes cut to its first 1
+z-ppm-cut-header-1.started-escape-kept-then-continue	a START header of 3 bytes cut to its first 1
+z-ppm-cut-header-1.started-escape-2-then-continue	a START header of 3 bytes cut to its first 1
+z-ppm-cut-header-1.then-start	a START header of 3 bytes cut to its first 1
+z-ppm-cut-header-2.not-read-then-continue	a START header of 3 bytes cut to its first 2
+z-ppm-cut-header-2.zeros-read-then-continue	a START header of 3 bytes cut to its first 2
+z-ppm-cut-header-2.started-escape-kept-then-continue	a START header of 3 bytes cut to its first 2
+z-ppm-cut-header-2.started-escape-2-then-continue	a START header of 3 bytes cut to its first 2
+z-ppm-cut-header-2.then-start	a START header of 3 bytes cut to its first 2

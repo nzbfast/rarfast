@@ -1,0 +1,12 @@
+source	r393_pw.rar: 9 encrypted members, salts (the last 8 bytes of each file header) ['dd08343969739da0']
+unrar	control: the genuine archive's own password, stated derivation	password of 6 characters, seed 20 bytes	good=yes	rc=0	
+unrar	stated derivation over all 127 characters	password of 127 characters, seed 262 bytes	good=yes	rc=0	
+unrar	stated derivation over all 128 characters	password of 128 characters, seed 264 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	stated derivation over all 129 characters	password of 129 characters, seed 266 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	stated derivation over all 200 characters	password of 200 characters, seed 408 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	stated derivation over the first 127 of 200 characters, tested with all 200	password of 127 characters, seed 262 bytes	good=yes	rc=0	
+unrar	stated derivation over the first 128 of 200 characters, tested with all 200	password of 128 characters, seed 264 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	127 characters of 2 UTF-8 bytes each, all used	password of 127 characters, seed 262 bytes	good=yes	rc=0	
+unrar	128 such characters, all used	password of 128 characters, seed 264 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	the first 127 of 128 such characters, tested with all 128	password of 127 characters, seed 262 bytes	good=yes	rc=0	
+summary	length arms done

@@ -1,0 +1,37 @@
+arm: copy-forward
+about: a copy member that comes BEFORE its source in the archive
+file: x.rar  3090 bytes  sha256 0c801038bc9533a7fa6c3895141d9f0912af4499ad5c3d79772849516d462bf7
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: c
+          Type: File reference
+        Target: big1
+          Size: 3000
+          Name: big1
+          Type: File
+          Size: 3000
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     c                                                              OK
+  Testing     big1                                                         100%  OK
+  All OK
+$ unrar x -p- x.rar o/
+exit 6
+  Extracting from x.rar
+  Extracting  o/c
+  Extracting  o/big1                                                       100%  OK
+  Total errors: 1
+stderr:
+  Cannot open o/big1
+  No such file or directory
+  Cannot copy o/big1 to o/c.
+  You need to unpack the entire archive to create file reference entries.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

@@ -1,0 +1,20 @@
+arm: copy-target-up-planted
+about: a copy member whose target is ../victim/t, with o/victim/t on disk inside the destination
+file: x.rar  3096 bytes  sha256 7ee0fdc03945235879bd0ad86276e84e34c765b1e696692e497fd2a1ea676ca3
+planted before the run: o/victim/t, a regular file of 7 bytes
+$ unrar x -p- x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/big1                                                        99%  OK
+  Extracting  o/c                                                            0%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+  file  o/c                         7 bytes  sha256 7b2441693c86  mode 644   (mtime the member's)
+  dir   o/victim
+  file  o/victim/t                  7 bytes  sha256 7b2441693c86  mode 644   (mtime the planted file's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

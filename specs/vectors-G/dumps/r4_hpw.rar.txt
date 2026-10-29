@@ -1,0 +1,6 @@
+== archives/r4_hpw.rar (420 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=99ce flags=0x0080 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] ?92 crc=4466 MISMATCH 0284 flags=0xeb32 hsize=51446 addsize=4230490392
+        rest=b12d96a88c06177507a4dcc7a60d4039276f095c7b9c87cabc351fe72020851c7021555c7388d9a04e31a4b10942453e401aee154e40de8dbe1f5dd4763cb736

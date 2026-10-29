@@ -1,0 +1,238 @@
+reading	what it is
+dist-0-base+1	dist ladder slot 0: base 1 in place of 0
+dist-0-bits+1	dist ladder slot 0: extra bits 1 in place of 0
+dist-1-base+1	dist ladder slot 1: base 2 in place of 1
+dist-1-base-1	dist ladder slot 1: base 0 in place of 1
+dist-1-bits+1	dist ladder slot 1: extra bits 1 in place of 0
+dist-10-base+1	dist ladder slot 10: base 33 in place of 32
+dist-10-base-1	dist ladder slot 10: base 31 in place of 32
+dist-10-bits+1	dist ladder slot 10: extra bits 5 in place of 4
+dist-11-base+1	dist ladder slot 11: base 49 in place of 48
+dist-11-base-1	dist ladder slot 11: base 47 in place of 48
+dist-11-bits+1	dist ladder slot 11: extra bits 5 in place of 4
+dist-12-base+1	dist ladder slot 12: base 65 in place of 64
+dist-12-base-1	dist ladder slot 12: base 63 in place of 64
+dist-12-bits+1	dist ladder slot 12: extra bits 6 in place of 5
+dist-12-bits-1	dist ladder slot 12: extra bits 4 in place of 5
+dist-13-base+1	dist ladder slot 13: base 97 in place of 96
+dist-13-base-1	dist ladder slot 13: base 95 in place of 96
+dist-13-bits+1	dist ladder slot 13: extra bits 6 in place of 5
+dist-13-bits-1	dist ladder slot 13: extra bits 4 in place of 5
+dist-14-base+1	dist ladder slot 14: base 129 in place of 128
+dist-14-base-1	dist ladder slot 14: base 127 in place of 128
+dist-14-bits+1	dist ladder slot 14: extra bits 7 in place of 6
+dist-14-bits-1	dist ladder slot 14: extra bits 5 in place of 6
+dist-15-base+1	dist ladder slot 15: base 193 in place of 192
+dist-15-base-1	dist ladder slot 15: base 191 in place of 192
+dist-15-bits+1	dist ladder slot 15: extra bits 7 in place of 6
+dist-15-bits-1	dist ladder slot 15: extra bits 5 in place of 6
+dist-16-base+1	dist ladder slot 16: base 257 in place of 256
+dist-16-base-1	dist ladder slot 16: base 255 in place of 256
+dist-16-bits+1	dist ladder slot 16: extra bits 8 in place of 7
+dist-16-bits-1	dist ladder slot 16: extra bits 6 in place of 7
+dist-17-base+1	dist ladder slot 17: base 385 in place of 384
+dist-17-base-1	dist ladder slot 17: base 383 in place of 384
+dist-17-bits+1	dist ladder slot 17: extra bits 8 in place of 7
+dist-17-bits-1	dist ladder slot 17: extra bits 6 in place of 7
+dist-18-base+1	dist ladder slot 18: base 513 in place of 512
+dist-18-base-1	dist ladder slot 18: base 511 in place of 512
+dist-18-bits+1	dist ladder slot 18: extra bits 9 in place of 8
+dist-18-bits-1	dist ladder slot 18: extra bits 7 in place of 8
+dist-19-base+1	dist ladder slot 19: base 769 in place of 768
+dist-19-base-1	dist ladder slot 19: base 767 in place of 768
+dist-19-bits+1	dist ladder slot 19: extra bits 9 in place of 8
+dist-19-bits-1	dist ladder slot 19: extra bits 7 in place of 8
+dist-2-base+1	dist ladder slot 2: base 3 in place of 2
+dist-2-base-1	dist ladder slot 2: base 1 in place of 2
+dist-2-bits+1	dist ladder slot 2: extra bits 1 in place of 0
+dist-20-base+1	dist ladder slot 20: base 1025 in place of 1024
+dist-20-base-1	dist ladder slot 20: base 1023 in place of 1024
+dist-20-bits+1	dist ladder slot 20: extra bits 10 in place of 9
+dist-20-bits-1	dist ladder slot 20: extra bits 8 in place of 9
+dist-21-base+1	dist ladder slot 21: base 1537 in place of 1536
+dist-21-base-1	dist ladder slot 21: base 1535 in place of 1536
+dist-21-bits+1	dist ladder slot 21: extra bits 10 in place of 9
+dist-21-bits-1	dist ladder slot 21: extra bits 8 in place of 9
+dist-22-base+1	dist ladder slot 22: base 2049 in place of 2048
+dist-22-base-1	dist ladder slot 22: base 2047 in place of 2048
+dist-22-bits+1	dist ladder slot 22: extra bits 11 in place of 10
+dist-22-bits-1	dist ladder slot 22: extra bits 9 in place of 10
+dist-23-base+1	dist ladder slot 23: base 3073 in place of 3072
+dist-23-base-1	dist ladder slot 23: base 3071 in place of 3072
+dist-23-bits+1	dist ladder slot 23: extra bits 11 in place of 10
+dist-23-bits-1	dist ladder slot 23: extra bits 9 in place of 10
+dist-24-base+1	dist ladder slot 24: base 4097 in place of 4096
+dist-24-base-1	dist ladder slot 24: base 4095 in place of 4096
+dist-24-bits+1	dist ladder slot 24: extra bits 12 in place of 11
+dist-24-bits-1	dist ladder slot 24: extra bits 10 in place of 11
+dist-25-base+1	dist ladder slot 25: base 6145 in place of 6144
+dist-25-base-1	dist ladder slot 25: base 6143 in place of 6144
+dist-25-bits+1	dist ladder slot 25: extra bits 12 in place of 11
+dist-25-bits-1	dist ladder slot 25: extra bits 10 in place of 11
+dist-26-base+1	dist ladder slot 26: base 8193 in place of 8192
+dist-26-base-1	dist ladder slot 26: base 8191 in place of 8192
+dist-26-bits+1	dist ladder slot 26: extra bits 13 in place of 12
+dist-26-bits-1	dist ladder slot 26: extra bits 11 in place of 12
+dist-27-base+1	dist ladder slot 27: base 12289 in place of 12288
+dist-27-base-1	dist ladder slot 27: base 12287 in place of 12288
+dist-27-bits+1	dist ladder slot 27: extra bits 13 in place of 12
+dist-27-bits-1	dist ladder slot 27: extra bits 11 in place of 12
+dist-28-base+1	dist ladder slot 28: base 16385 in place of 16384
+dist-28-base-1	dist ladder slot 28: base 16383 in place of 16384
+dist-28-bits+1	dist ladder slot 28: extra bits 14 in place of 13
+dist-28-bits-1	dist ladder slot 28: extra bits 12 in place of 13
+dist-29-base+1	dist ladder slot 29: base 24577 in place of 24576
+dist-29-base-1	dist ladder slot 29: base 24575 in place of 24576
+dist-29-bits+1	dist ladder slot 29: extra bits 14 in place of 13
+dist-29-bits-1	dist ladder slot 29: extra bits 12 in place of 13
+dist-3-base+1	dist ladder slot 3: base 4 in place of 3
+dist-3-base-1	dist ladder slot 3: base 2 in place of 3
+dist-3-bits+1	dist ladder slot 3: extra bits 1 in place of 0
+dist-30-base+1	dist ladder slot 30: base 32769 in place of 32768
+dist-30-base-1	dist ladder slot 30: base 32767 in place of 32768
+dist-30-bits+1	dist ladder slot 30: extra bits 15 in place of 14
+dist-30-bits-1	dist ladder slot 30: extra bits 13 in place of 14
+dist-31-base+1	dist ladder slot 31: base 49153 in place of 49152
+dist-31-base-1	dist ladder slot 31: base 49151 in place of 49152
+dist-31-bits+1	dist ladder slot 31: extra bits 15 in place of 14
+dist-31-bits-1	dist ladder slot 31: extra bits 13 in place of 14
+dist-32-base+1	dist ladder slot 32: base 65537 in place of 65536
+dist-32-base-1	dist ladder slot 32: base 65535 in place of 65536
+dist-32-bits+1	dist ladder slot 32: extra bits 16 in place of 15
+dist-32-bits-1	dist ladder slot 32: extra bits 14 in place of 15
+dist-33-base+1	dist ladder slot 33: base 98305 in place of 98304
+dist-33-base-1	dist ladder slot 33: base 98303 in place of 98304
+dist-33-bits+1	dist ladder slot 33: extra bits 16 in place of 15
+dist-33-bits-1	dist ladder slot 33: extra bits 14 in place of 15
+dist-34-base+1	dist ladder slot 34: base 131073 in place of 131072
+dist-34-base-1	dist ladder slot 34: base 131071 in place of 131072
+dist-34-bits+1	dist ladder slot 34: extra bits 17 in place of 16
+dist-34-bits-1	dist ladder slot 34: extra bits 15 in place of 16
+dist-35-base+1	dist ladder slot 35: base 196609 in place of 196608
+dist-35-base-1	dist ladder slot 35: base 196607 in place of 196608
+dist-35-bits+1	dist ladder slot 35: extra bits 17 in place of 16
+dist-35-bits-1	dist ladder slot 35: extra bits 15 in place of 16
+dist-36-base+1	dist ladder slot 36: base 262145 in place of 262144
+dist-36-base-1	dist ladder slot 36: base 262143 in place of 262144
+dist-36-bits+1	dist ladder slot 36: extra bits 17 in place of 16
+dist-36-bits-1	dist ladder slot 36: extra bits 15 in place of 16
+dist-37-base+1	dist ladder slot 37: base 327681 in place of 327680
+dist-37-base-1	dist ladder slot 37: base 327679 in place of 327680
+dist-37-bits+1	dist ladder slot 37: extra bits 17 in place of 16
+dist-37-bits-1	dist ladder slot 37: extra bits 15 in place of 16
+dist-38-base+1	dist ladder slot 38: base 393217 in place of 393216
+dist-38-base-1	dist ladder slot 38: base 393215 in place of 393216
+dist-38-bits+1	dist ladder slot 38: extra bits 17 in place of 16
+dist-38-bits-1	dist ladder slot 38: extra bits 15 in place of 16
+dist-39-base+1	dist ladder slot 39: base 458753 in place of 458752
+dist-39-base-1	dist ladder slot 39: base 458751 in place of 458752
+dist-39-bits+1	dist ladder slot 39: extra bits 17 in place of 16
+dist-39-bits-1	dist ladder slot 39: extra bits 15 in place of 16
+dist-4-base+1	dist ladder slot 4: base 5 in place of 4
+dist-4-base-1	dist ladder slot 4: base 3 in place of 4
+dist-4-bits+1	dist ladder slot 4: extra bits 2 in place of 1
+dist-4-bits-1	dist ladder slot 4: extra bits 0 in place of 1
+dist-40-base+1	dist ladder slot 40: base 524289 in place of 524288
+dist-40-base-1	dist ladder slot 40: base 524287 in place of 524288
+dist-40-bits+1	dist ladder slot 40: extra bits 17 in place of 16
+dist-40-bits-1	dist ladder slot 40: extra bits 15 in place of 16
+dist-41-base+1	dist ladder slot 41: base 589825 in place of 589824
+dist-41-base-1	dist ladder slot 41: base 589823 in place of 589824
+dist-41-bits+1	dist ladder slot 41: extra bits 17 in place of 16
+dist-41-bits-1	dist ladder slot 41: extra bits 15 in place of 16
+dist-42-base+1	dist ladder slot 42: base 655361 in place of 655360
+dist-42-base-1	dist ladder slot 42: base 655359 in place of 655360
+dist-42-bits+1	dist ladder slot 42: extra bits 17 in place of 16
+dist-42-bits-1	dist ladder slot 42: extra bits 15 in place of 16
+dist-43-base+1	dist ladder slot 43: base 720897 in place of 720896
+dist-43-base-1	dist ladder slot 43: base 720895 in place of 720896
+dist-43-bits+1	dist ladder slot 43: extra bits 17 in place of 16
+dist-43-bits-1	dist ladder slot 43: extra bits 15 in place of 16
+dist-44-base+1	dist ladder slot 44: base 786433 in place of 786432
+dist-44-base-1	dist ladder slot 44: base 786431 in place of 786432
+dist-44-bits+1	dist ladder slot 44: extra bits 17 in place of 16
+dist-44-bits-1	dist ladder slot 44: extra bits 15 in place of 16
+dist-45-base+1	dist ladder slot 45: base 851969 in place of 851968
+dist-45-base-1	dist ladder slot 45: base 851967 in place of 851968
+dist-45-bits+1	dist ladder slot 45: extra bits 17 in place of 16
+dist-45-bits-1	dist ladder slot 45: extra bits 15 in place of 16
+dist-46-base+1	dist ladder slot 46: base 917505 in place of 917504
+dist-46-base-1	dist ladder slot 46: base 917503 in place of 917504
+dist-46-bits+1	dist ladder slot 46: extra bits 17 in place of 16
+dist-46-bits-1	dist ladder slot 46: extra bits 15 in place of 16
+dist-47-base+1	dist ladder slot 47: base 983041 in place of 983040
+dist-47-base-1	dist ladder slot 47: base 983039 in place of 983040
+dist-47-bits+1	dist ladder slot 47: extra bits 17 in place of 16
+dist-47-bits-1	dist ladder slot 47: extra bits 15 in place of 16
+dist-48-base+1	dist ladder slot 48: base 1048577 in place of 1048576
+dist-48-base-1	dist ladder slot 48: base 1048575 in place of 1048576
+dist-48-bits+1	dist ladder slot 48: extra bits 19 in place of 18
+dist-48-bits-1	dist ladder slot 48: extra bits 17 in place of 18
+dist-49-base+1	dist ladder slot 49: base 1310721 in place of 1310720
+dist-49-base-1	dist ladder slot 49: base 1310719 in place of 1310720
+dist-49-bits+1	dist ladder slot 49: extra bits 19 in place of 18
+dist-49-bits-1	dist ladder slot 49: extra bits 17 in place of 18
+dist-5-base+1	dist ladder slot 5: base 7 in place of 6
+dist-5-base-1	dist ladder slot 5: base 5 in place of 6
+dist-5-bits+1	dist ladder slot 5: extra bits 2 in place of 1
+dist-5-bits-1	dist ladder slot 5: extra bits 0 in place of 1
+dist-50-base+1	dist ladder slot 50: base 1572865 in place of 1572864
+dist-50-base-1	dist ladder slot 50: base 1572863 in place of 1572864
+dist-50-bits+1	dist ladder slot 50: extra bits 19 in place of 18
+dist-50-bits-1	dist ladder slot 50: extra bits 17 in place of 18
+dist-51-base+1	dist ladder slot 51: base 1835009 in place of 1835008
+dist-51-base-1	dist ladder slot 51: base 1835007 in place of 1835008
+dist-51-bits+1	dist ladder slot 51: extra bits 19 in place of 18
+dist-51-bits-1	dist ladder slot 51: extra bits 17 in place of 18
+dist-52-base+1	dist ladder slot 52: base 2097153 in place of 2097152
+dist-52-base-1	dist ladder slot 52: base 2097151 in place of 2097152
+dist-52-bits+1	dist ladder slot 52: extra bits 19 in place of 18
+dist-52-bits-1	dist ladder slot 52: extra bits 17 in place of 18
+dist-53-base+1	dist ladder slot 53: base 2359297 in place of 2359296
+dist-53-base-1	dist ladder slot 53: base 2359295 in place of 2359296
+dist-53-bits+1	dist ladder slot 53: extra bits 19 in place of 18
+dist-53-bits-1	dist ladder slot 53: extra bits 17 in place of 18
+dist-54-base+1	dist ladder slot 54: base 2621441 in place of 2621440
+dist-54-base-1	dist ladder slot 54: base 2621439 in place of 2621440
+dist-54-bits+1	dist ladder slot 54: extra bits 19 in place of 18
+dist-54-bits-1	dist ladder slot 54: extra bits 17 in place of 18
+dist-55-base+1	dist ladder slot 55: base 2883585 in place of 2883584
+dist-55-base-1	dist ladder slot 55: base 2883583 in place of 2883584
+dist-55-bits+1	dist ladder slot 55: extra bits 19 in place of 18
+dist-55-bits-1	dist ladder slot 55: extra bits 17 in place of 18
+dist-56-base+1	dist ladder slot 56: base 3145729 in place of 3145728
+dist-56-base-1	dist ladder slot 56: base 3145727 in place of 3145728
+dist-56-bits+1	dist ladder slot 56: extra bits 19 in place of 18
+dist-56-bits-1	dist ladder slot 56: extra bits 17 in place of 18
+dist-57-base+1	dist ladder slot 57: base 3407873 in place of 3407872
+dist-57-base-1	dist ladder slot 57: base 3407871 in place of 3407872
+dist-57-bits+1	dist ladder slot 57: extra bits 19 in place of 18
+dist-57-bits-1	dist ladder slot 57: extra bits 17 in place of 18
+dist-58-base+1	dist ladder slot 58: base 3670017 in place of 3670016
+dist-58-base-1	dist ladder slot 58: base 3670015 in place of 3670016
+dist-58-bits+1	dist ladder slot 58: extra bits 19 in place of 18
+dist-58-bits-1	dist ladder slot 58: extra bits 17 in place of 18
+dist-59-base+1	dist ladder slot 59: base 3932161 in place of 3932160
+dist-59-base-1	dist ladder slot 59: base 3932159 in place of 3932160
+dist-59-bits+1	dist ladder slot 59: extra bits 19 in place of 18
+dist-59-bits-1	dist ladder slot 59: extra bits 17 in place of 18
+dist-6-base+1	dist ladder slot 6: base 9 in place of 8
+dist-6-base-1	dist ladder slot 6: base 7 in place of 8
+dist-6-bits+1	dist ladder slot 6: extra bits 3 in place of 2
+dist-6-bits-1	dist ladder slot 6: extra bits 1 in place of 2
+dist-7-base+1	dist ladder slot 7: base 13 in place of 12
+dist-7-base-1	dist ladder slot 7: base 11 in place of 12
+dist-7-bits+1	dist ladder slot 7: extra bits 3 in place of 2
+dist-7-bits-1	dist ladder slot 7: extra bits 1 in place of 2
+dist-8-base+1	dist ladder slot 8: base 17 in place of 16
+dist-8-base-1	dist ladder slot 8: base 15 in place of 16
+dist-8-bits+1	dist ladder slot 8: extra bits 4 in place of 3
+dist-8-bits-1	dist ladder slot 8: extra bits 2 in place of 3
+dist-9-base+1	dist ladder slot 9: base 25 in place of 24
+dist-9-base-1	dist ladder slot 9: base 23 in place of 24
+dist-9-bits+1	dist ladder slot 9: extra bits 4 in place of 3
+dist-9-bits-1	dist ladder slot 9: extra bits 2 in place of 3
+distance-plus-0	a fresh distance is the ladder base + 0 + its fields
+distance-plus-2	a fresh distance is the ladder base + 2 + its fields
+low-from-11	slot 10 reads its four bits directly
+low-from-9	slot 9 too takes its low part from the low distance alphabet

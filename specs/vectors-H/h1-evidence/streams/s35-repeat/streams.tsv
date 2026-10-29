@@ -1,0 +1,2 @@
+case	members	reading in the file headers	readings that give other bytes	what
+rotation	1	stated	rotation-none rotation-swap rotation-push short-not-pushed fresh-not-pushed repeat-leaves-last	distances 5, 9, 17 and 3 entered by a short, two fresh and a short match; then repeated distance matches choosing places 2, 3, 1, 3, 3, 0, 2, 1, with 258 after two of them, among literals that count up

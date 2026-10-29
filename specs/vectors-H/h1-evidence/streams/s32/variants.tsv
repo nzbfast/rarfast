@@ -1,0 +1,6 @@
+reading	what it is
+delta-replace	a symbol 0 to 15 IS the new length, the kept length ignored
+keep-never	the lengths are zeroed at every table read
+member-zeroes-kept	the kept code lengths are zero at the start of each member of a solid chain
+ppm-tail-read	the bytes of a member's packed data after its PPM data's end are read as a block header, tables and symbols
+ppm-zeroes-kept	a PPM block leaves the kept code lengths at zero

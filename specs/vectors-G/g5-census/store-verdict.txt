@@ -1,0 +1,30 @@
+== rar a -m1: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1480 (ver=0 solid=0 method=1 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1480 (ver=0 solid=0 method=1 dictbits=5 rest=0) name=b'm300k.bin'
+== rar a -m3: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1580 (ver=0 solid=0 method=3 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1580 (ver=0 solid=0 method=3 dictbits=5 rest=0) name=b'm300k.bin'
+== rar a -m5: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1680 (ver=0 solid=0 method=5 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x1400 (ver=0 solid=0 method=0 dictbits=5 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1680 (ver=0 solid=0 method=5 dictbits=5 rest=0) name=b'm300k.bin'
+== rar a -m3 -s -ds: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x1580 (ver=0 solid=0 method=3 dictbits=5 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x15c0 (ver=0 solid=1 method=3 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x15c0 (ver=0 solid=1 method=3 dictbits=5 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x15c0 (ver=0 solid=1 method=3 dictbits=5 rest=0) name=b'm300k.bin'
+== rar a -m5 -s -ds: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x1680 (ver=0 solid=0 method=5 dictbits=5 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x16c0 (ver=0 solid=1 method=5 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x16c0 (ver=0 solid=1 method=5 dictbits=5 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x16c0 (ver=0 solid=1 method=5 dictbits=5 rest=0) name=b'm300k.bin'
+== rar a -m3 -s -ds -msbin: n300k.bin t300k.txt n3m.bin m300k.bin
+ file_flags=0x4 unp_size=300000 comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) name=b'n300k.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x1580 (ver=0 solid=0 method=3 dictbits=5 rest=0) name=b't300k.txt'
+ file_flags=0x4 unp_size=3000000 comp_info=0x40 (ver=0 solid=1 method=0 dictbits=0 rest=0) name=b'n3m.bin'
+ file_flags=0x4 unp_size=300000 comp_info=0x40 (ver=0 solid=1 method=0 dictbits=0 rest=0) name=b'm300k.bin'

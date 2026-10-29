@@ -1,0 +1,112 @@
+arm: s5-groups-stored-start
+about: rar a -s2 -m3 -msx2: the second group begins with a stored member [archive flags 0x4; a.x1 clear method 3 packed 2012, b.x1 solid method 3 packed 108, m.x2 clear method 0 packed 1300, t.x3 clear method 3 packed 1363]
+file: x.rar  4931 bytes  sha256 b2834cd9d2a2fd35bd1d52fd6a32add4b675af2ab7c64f3efe0072f5a088da15
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2012
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.x1
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 8EE49B7B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1363
+         Ratio: 66%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          41%  OK
+  Testing     b.x1                                                          44%  OK
+  Testing     m.x2                                                          71%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 13650 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2012
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.x1
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 8EE49B7B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1363
+         Ratio: 66%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          41%  OK
+  Testing     b.x1                                                          44%  OK
+  Testing     m.x2                                                          71%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK

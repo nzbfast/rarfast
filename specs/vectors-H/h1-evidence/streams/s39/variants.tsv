@@ -1,0 +1,6 @@
+reading	what it is
+record-byte-plus-6	the one byte length form names x + 6 body bytes
+record-byte-plus-8	the one byte length form names x + 8 body bytes
+record-short-plus-0	a record whose first byte's low three bits are below 6 has that many body bytes, not one more
+record-short-plus-2	it has two more body bytes than those bits
+record-word-8-bits	the long length form is a field of 8 bits

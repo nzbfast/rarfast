@@ -1,0 +1,2 @@
+# Drawn bytes, not text: no tool is to print them into a diff.
+*.bin binary

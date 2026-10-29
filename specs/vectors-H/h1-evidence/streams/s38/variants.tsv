@@ -1,0 +1,6 @@
+reading	what it is
+input-one-byte	past the end of a member's packed data the input reads as zero bits; a main symbol whose first bit is fewer than 8 bits past the end is decoded, and at the first one that would begin 8 or more bits past it the member stops
+past-end-carried	a match that passes the member's declared end is cut there, and its rest is produced at the start of the next member of the chain
+tail-failure-keeps-block	a table read that fails after the declared size leaves the stream inside the block it was in
+tail-not-read	packed data left when the declared size has been produced is not read
+zero-at-header-skipped	a member declaring 0 bytes at a header expected point has its packed data passed over

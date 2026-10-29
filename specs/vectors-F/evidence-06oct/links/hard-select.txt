@@ -1,0 +1,38 @@
+arm: hard-select
+about: the same, the command selecting hard_a alone, nothing on disk
+file: x.rar  163 bytes  sha256 597ecd822bf171911eb0f85884518046fd643bbfa66d29bd11725b6cf9ced0e2
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+          Name: hard_a
+          Type: Hard link
+        Target: a.txt
+          Size: 6
+          Name: d
+          Type: Directory
+          Name: d/hard_b
+          Type: Hard link
+        Target: a.txt
+          Size: 6
+$ unrar t -p- x.rar hard_a
+exit 0
+  Testing archive x.rar
+  Testing     hard_a                                                         OK
+  All OK
+$ unrar x -p- x.rar hard_a o/
+exit 9
+  Extracting from x.rar
+  Extracting  o/hard_a
+  Total errors: 1
+stderr:
+  Cannot create hard link o/hard_a
+  You need to unpack the link target first
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

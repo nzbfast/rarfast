@@ -1,0 +1,213 @@
+plans tried 1592, archives kept 108
+edge:lit-rk4:+1                      guards 4.5            differing archives 2
+edge:lit-rk4:-1                      guards 4.5            differing archives 37
+edge:lit-rk3:+1                      guards 4.5            differing archives 2
+edge:lit-rk3:-1                      guards 4.5            differing archives 2
+edge:lit-rk2:+1                      guards 4.5            differing archives 2
+edge:lit-rk2:-1                      guards 4.5            differing archives 1
+edge:lit-rk1:+1                      guards 4.5            differing archives 2
+edge:lit-rk1:-1                      guards 4.5            differing archives 2
+edge:far-rk2:+1                      guards 4.7 V3         differing archives 1
+edge:far-rk2:-1                      guards 4.7 V3         differing archives 1
+edge:far-rk1:+1                      guards 4.7 V3         differing archives 2
+edge:far-rk1:-1                      guards 4.7 V3         differing archives 3
+edge:long-lenb:+1                    guards 4.7 V5         differing archives 5
+edge:long-lenb:-1                    guards 4.7 V5         differing archives 5
+edge:long-lena:+1                    guards 4.7 V5         differing archives 10
+edge:long-lena:-1                    guards 4.7 V5         differing archives 4
+edge:short-shb:+1                    guards 4.6            differing archives 4
+edge:short-shb:-1                    guards 4.6            differing archives 8
+edge:run-enter:+1                    guards 4.5.1          differing archives 2
+edge:run-enter:-1                    guards 4.5.1          differing archives 71
+edge:ring-over-256:+1                guards 4.6            differing archives 4
+edge:ring-over-256:-1                guards 4.6            differing archives 7
+edge:ring-thresh:+1                  guards 4.6            differing archives 4
+edge:ring-thresh:-1                  guards 4.6            differing archives 4
+edge:long-far-bonus:+1               guards 4.7 V11        differing archives 8
+edge:long-far-bonus:-1               guards 4.7 V11        differing archives 6
+edge:long-near-bonus:+1              guards 4.7 V11        differing archives 15
+edge:long-near-bonus:-1              guards 4.7 V11        differing archives 10
+edge:hits-hit:+1                     guards 4.7 V10        differing archives 1
+edge:hits-hit:-1                     guards 4.7 V10        differing archives 1
+edge:thresh-hits:+1                  guards 4.7 V8         differing archives 11
+edge:thresh-hits:-1                  guards 4.7 V8         differing archives 15
+edge:thresh-lit:+1                   guards 4.7 V8         differing archives 1
+edge:thresh-lit:-1                   guards 4.7 V8         differing archives 1
+edge:thresh-quiet:+1                 guards 4.7 V8         differing archives 3
+edge:thresh-quiet:-1                 guards 4.7 V8         differing archives 2
+edge:pref-lit-wrap:+1                guards 4.5 rule L     differing archives 39
+edge:pref-lit-wrap:-1                guards 4.5 rule L     differing archives 1
+edge:pref-long-wrap:+1               guards 4.7 V6         differing archives 9
+edge:pref-long-wrap:-1               guards 4.7 V6         differing archives 2
+edge:hits-cap:+1                     guards 4.7 V10        differing archives 3
+edge:hits-cap:-1                     guards 4.7 V10        differing archives 4
+edge:lit-ceiling:+1                  guards 4.1            differing archives 15
+edge:lit-ceiling:-1                  guards 4.1            differing archives 16
+edge:flg-ceiling:+1                  guards 4.1            differing archives 1
+edge:flg-ceiling:-1                  guards 4.1            differing archives 2
+edge:far-ceiling:+1                  guards 4.1            differing archives 6
+edge:far-ceiling:-1                  guards 4.1            differing archives 6
+edge:thresh-low:+1                   guards 3.2, 4.7 V8    differing archives 7
+edge:thresh-low:-1                   guards 3.2, 4.7 V8    differing archives 6
+edge:thresh-high:+1                  guards 4.7 V8         differing archives 2
+edge:thresh-high:-1                  guards 4.7 V8         differing archives 2
+solid-resets:lit                     guards 3.2            differing archives 4
+nonsolid-keeps:lit                   guards 3.2            differing archives 3
+solid-resets:flg                     guards 3.2            differing archives 3
+nonsolid-keeps:flg                   guards 3.2            differing archives 2
+solid-resets:far                     guards 3.2            differing archives 3
+nonsolid-keeps:far                   guards 3.2            differing archives 2
+solid-resets:near                    guards 3.2            differing archives 3
+nonsolid-keeps:near                  guards 3.2            differing archives 2
+solid-resets:ring                    guards 3.2            differing archives 3
+nonsolid-keeps:ring                  guards 3.2            differing archives 2
+solid-resets:last                    guards 3.2            differing archives 2
+nonsolid-keeps:last                  guards 3.2            differing archives 2
+solid-resets:avg_lit                 guards 3.2            differing archives 2
+nonsolid-keeps:avg_lit               guards 3.2            differing archives 2
+solid-resets:avg_far                 guards 3.2            differing archives 2
+nonsolid-keeps:avg_far               guards 3.2            differing archives 2
+solid-resets:avg_short               guards 3.2            differing archives 3
+nonsolid-keeps:avg_short             guards 3.2            differing archives 2
+solid-resets:avg_long                guards 3.2            differing archives 2
+nonsolid-keeps:avg_long              guards 3.2            differing archives 2
+solid-resets:hits                    guards 3.2            differing archives 2
+nonsolid-keeps:hits                  guards 3.2            differing archives 2
+solid-resets:thresh                  guards 3.2            differing archives 2
+nonsolid-keeps:thresh                guards 3.2            differing archives 2
+solid-resets:pref_lit                guards 3.2            differing archives 2
+nonsolid-keeps:pref_lit              guards 3.2            differing archives 2
+solid-resets:pref_long               guards 3.2            differing archives 2
+nonsolid-keeps:pref_long             guards 3.2            differing archives 2
+solid-resets:run                     guards 3.2            differing archives 3
+nonsolid-keeps:run                   guards 3.2            differing archives 2
+solid-resets:toggle                  guards 3.2            differing archives 3
+nonsolid-keeps:toggle                guards 3.2            differing archives 2
+solid-resets:window                  guards 3.2            differing archives 4
+nonsolid-keeps:window                guards 3.2            differing archives 2
+nonsolid-keeps:window-bytes          guards 3.2, 4.8       differing archives 3
+solid-keeps:runmode                  guards 3.2            differing archives 3
+nonsolid-keeps:runmode               guards 3.2            differing archives 2
+solid-keeps:repeats                  guards 3.2            differing archives 2
+nonsolid-keeps:repeats               guards 3.2            differing archives 2
+solid-keeps:flagleft                 guards 3.2            differing archives 2
+nonsolid-keeps:flagleft              guards 3.2            differing archives 2
+init:lit-reversed                    guards 3.2            differing archives 92
+init:lit-renormalised                guards 3.2            differing archives 88
+init:flg-identity                    guards 3.2            differing archives 92
+init:flg-reversed                    guards 3.2            differing archives 92
+init:flg-renormalised                guards 3.2            differing archives 63
+init:far-not-renormalised            guards 3.2            differing archives 31
+init:last-length-2                   guards 3.2            differing archives 2
+init:avg-lit-plus-1                  guards 3.2            differing archives 6
+init:avg-lit-minus-1                 guards 3.2            differing archives 6
+init:avg-far-1                       guards 3.2            differing archives 2
+init:avg-short-1                     guards 3.2            differing archives 3
+init:avg-long-1                      guards 3.2            differing archives 3
+init:hits-1                          guards 3.2            differing archives 10
+init:thresh-high                     guards 3.2            differing archives 5
+init:prefs-0                         guards 3.2            differing archives 37
+init:pref-lit-144                    guards 3.2            differing archives 46
+init:pref-long-144                   guards 3.2            differing archives 92
+renorm-weights-all-zero              guards 4.1            differing archives 43
+renorm-halves-weights                guards 4.1            differing archives 47
+renorm-four-classes                  guards 4.1            differing archives 39
+none-compares-under-threshold        guards 3.1, 4.6 S3    differing archives 7
+ring-counted-from-oldest             guards 4.6 S3         differing archives 31
+far-short-distance-plus-1            guards 4.6 S4         differing archives 7
+near-distance-without-plus-1         guards 4.6 S1         differing archives 21
+distance-65535-reads-zeros           guards 3.1, 4.8       differing archives 1
+run-match-resets-repeats             guards 4.5.2          differing archives 2
+exit-resets-repeats                  guards 4.5.2          differing archives 2
+escape-repeat-resets-repeats         guards 4.6 D6a        differing archives 5
+toggle-adds-to-short-average         guards 4.6 S3         differing archives 10
+far-short-adds-to-short-average      guards 4.6 S4         differing archives 2
+toggle-enters-ring                   guards 4.6 S3         differing archives 3
+toggle-sets-last                     guards 4.6 S3         differing archives 5
+promote-to-slot-0                    guards 4.1            differing archives 91
+promote-one-slot-up                  guards 4.1            differing archives 91
+promote-keeps-slot                   guards 4.1            differing archives 91
+promote-shifts                       guards 4.1            differing archives 92
+lit-not-promoted                     guards 4.5 rule L     differing archives 85
+flag-table-on-greater-or-equal       guards 4.4 D2         differing archives 92
+flag-256-is-slot-0                   guards 4.4 D3         differing archives 3
+flag-256-is-slot-255                 guards 4.4 D3         differing archives 3
+avg-lit-no-decay                     guards 4.5 rule L     differing archives 89
+avg-lit-decay-of-old                 guards 4.5 rule L     differing archives 49
+pref-lit-wraps-to-128                guards 4.5 rule L     differing archives 42
+pref-long-not-halved                 guards 4.5 rule L     differing archives 60
+pref-long-halved-upward              guards 4.5 rule L     differing archives 25
+pref-lit-halved-upward               guards 4.7 V6         differing archives 2
+literal-256-is-slot-255              guards 4.5.1          differing archives 7
+run-enter-ignores-flag-byte          guards 4.5.1          differing archives 75
+literal-not-counted-in-run           guards 4.5.1          differing archives 64
+literal-resets-repeats               guards 4.6            differing archives 8
+run-literal-leaves-average           guards 4.5.2          differing archives 52
+run-literal-leaves-preference        guards 4.5.2          differing archives 16
+exit-keeps-run                       guards 4.5.2          differing archives 7
+exit-run-becomes-1                   guards 4.5.2          differing archives 6
+run-match-lengths-swapped            guards 4.5.2          differing archives 4
+run-match-rank-reduced               guards 4.5.2          differing archives 2
+run-match-distance-plus-1            guards 4.5.2          differing archives 4
+run-match-enters-ring                guards 4.5.2          differing archives 2
+run-match-sets-last                  guards 4.5.2          differing archives 2
+long-keeps-run                       guards 4.7 V7         differing archives 14
+long-run-becomes-1                   guards 4.7 V7         differing archives 5
+long-resets-repeats                  guards 4.6            differing archives 6
+pref-long-wraps-to-128               guards 4.7 V6         differing archives 11
+pref-lit-not-halved                  guards 4.7 V6         differing archives 43
+long-low-bits-first                  guards 4.7            differing archives 84
+long-16-bit-form-adds-8              guards 4.7            differing archives 19
+avg-long-no-decay                    guards 4.7 V2         differing archives 29
+avg-long-decay-of-old                guards 4.7 V2         differing archives 28
+avg-far-adds-reduced                 guards 4.7 V1         differing archives 10
+avg-far-decay-of-old                 guards 4.7 V1         differing archives 9
+avg-far-no-decay                     guards 4.7 V1         differing archives 13
+long-256-is-slot-255                 guards 4.7 V4         differing archives 13
+far-not-promoted                     guards 4.7 V4         differing archives 35
+long-distance-plus-1                 guards 4.7 V9         differing archives 73
+threshold-first                      guards 4.7 V8, V10, V11 differing archives 15
+hits-count-codes-1-and-4             guards 4.7 V10        differing archives 4
+hits-skip-code-1-only                guards 4.7 V10        differing archives 4
+hits-skip-code-4-only                guards 4.7 V10        differing archives 4
+hits-hit-at-any-distance             guards 4.7 V10        differing archives 2
+hits-hit-at-any-length-code          guards 4.7 V10        differing archives 11
+hits-wrap-to-0                       guards 4.7 V10        differing archives 3
+hits-never-fall                      guards 4.7 V10        differing archives 11
+threshold-from-new-hits              guards 4.7 V8         differing archives 8
+threshold-from-new-avg-long          guards 4.7 V8         differing archives 3
+threshold-kept                       guards 4.7 V8         differing archives 24
+threshold-ignores-literal-average    guards 4.7 V8         differing archives 13
+threshold-ignores-length-average     guards 4.7 V8         differing archives 6
+long-not-entered-in-ring             guards 4.7 V13        differing archives 37
+long-last-not-set                    guards 4.7 V13        differing archives 13
+long-last-length-without-bonus       guards 4.7 V13        differing archives 11
+short-keeps-run                      guards 4.6            differing archives 7
+short-run-becomes-1                  guards 4.6            differing archives 4
+repeat-escape-at-1                   guards 4.6 D6a        differing archives 23
+repeat-escape-at-3                   guards 4.6 D6a        differing archives 10
+escape-0-keeps-repeats               guards 4.6 D6a        differing archives 1
+repeat-not-counted                   guards 4.6 S2         differing archives 10
+repeat-enters-ring                   guards 4.6 S2         differing archives 12
+repeat-adds-to-short-average         guards 4.6 S2         differing archives 10
+other-short-keeps-repeats            guards 4.6            differing archives 16
+toggle-keeps-repeats                 guards 4.6 S3         differing archives 2
+far-short-enters-ring                guards 4.6 S4         differing archives 3
+far-short-last-not-set               guards 4.6 S4         differing archives 4
+toggle-at-any-ring-index             guards 4.6 S3         differing archives 2
+none-compares-as-0                   guards 3.1, 4.6 S3    differing archives 7
+ring-match-moves-entry-up            guards 4.6 S3         differing archives 11
+ring-match-not-entered               guards 4.6 S3         differing archives 16
+ring-adds-to-short-average           guards 4.6 S3         differing archives 13
+ring-last-not-set                    guards 4.6 S3         differing archives 15
+ring-last-length-without-bonus       guards 4.6 S3         differing archives 11
+avg-short-no-decay                   guards 4.6 S1         differing archives 13
+avg-short-decay-of-old               guards 4.6 S1         differing archives 9
+near-256-is-rank-255                 guards 4.6 S1         differing archives 3
+near-moves-to-rank-0                 guards 4.6 S1         differing archives 13
+near-not-swapped                     guards 4.6 S1         differing archives 14
+near-not-entered-in-ring             guards 4.6 S1         differing archives 12
+near-last-not-set                    guards 4.6 S1         differing archives 12
+copy-without-overlap                 guards 4.8            differing archives 61
+distance-0-reads-65536-back          guards 4.8            differing archives 3
+none-reads-65535-back                guards 3.1, 4.8       differing archives 1

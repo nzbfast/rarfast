@@ -1,0 +1,6 @@
+== archives/r5_hpw.rar (526 bytes)
+  [0x0] SIGNATURE 526172211a070100
+  [0x8] ENCRYPT hdrcrc=07e46fc5 hdrsize=33 flags=0x0 extra=0 data=0
+        enc_version=0 enc_flags=0x1 kdf_count=15 salt=e7187d5dd0664784b4a6ae32a63f158b check=594844afd5aa1e2b4466b521
+  [0x2e] ?56 hdrcrc=4cd88861 MISMATCH 15e9fb19 hdrsize=12243 flags=0x40 extra=0 data=0
+        !! parsed to 0x36, header ends 0x3007 (gap 12241)

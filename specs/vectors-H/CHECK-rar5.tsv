@@ -1,0 +1,19 @@
+# a RAR 5 reader written from SPEC-H2's text (not kept at the tip; private commit be5c09422) over archives/ : archive, member, produced bytes, SHA-256, filter records
+archives/h5_delta_m5.rar	DELTA.BIN	120000	38360734b7675ba920db4457fb8ed9728097aa7f5289d51d20a86c4334c5e908	2 filters
+archives/h5_delta_off.rar	DELTA.BIN	120000	38360734b7675ba920db4457fb8ed9728097aa7f5289d51d20a86c4334c5e908	0 filters
+archives/h5_far_m5.rar	FAR.BIN	399999	32841e8be440dd0447f32db12d56307495f73eecc40be5c3691245123e7fa2c7	0 filters
+archives/h5_far_small_md.rar	FAR.BIN	399999	32841e8be440dd0447f32db12d56307495f73eecc40be5c3691245123e7fa2c7	0 filters
+archives/h5_lit_m1.rar	TEXT.TXT	200000	31ff8b5ce5191d02677237c018bdc9fd5d7f962ea38c68faa24ec02d03c9bda8	0 filters
+archives/h5_md_max.rar	FAR.BIN	399999	32841e8be440dd0447f32db12d56307495f73eecc40be5c3691245123e7fa2c7	0 filters
+archives/h5_runs_m5.rar	RUNS.BIN	120000	92a7faf4afc6f68096f5547926c020a134c76ab395e16c19fd03131e3895ea68	0 filters
+archives/h5_solid.rar	DELTA.BIN	120000	38360734b7675ba920db4457fb8ed9728097aa7f5289d51d20a86c4334c5e908	2 filters
+archives/h5_solid.rar	RUNS.BIN	120000	92a7faf4afc6f68096f5547926c020a134c76ab395e16c19fd03131e3895ea68	0 filters
+archives/h5_solid.rar	TEXT.TXT	200000	31ff8b5ce5191d02677237c018bdc9fd5d7f962ea38c68faa24ec02d03c9bda8	0 filters
+archives/h5_solid.rar	TINY.TXT	37	7df79f6d33304becbf35f32061379d60cc7aa50a9333c2546a099730e7b68c4a	0 filters
+archives/h5_solid_mixed.rar	RAND.BIN	24000	1b7aa3205ea3c54fd0537c44205a041b3aaed4759ccc28c30e4c0a3a92bed544	0 filters
+archives/h5_solid_mixed.rar	X86.BIN	64000	d921c508df8f30adaa6c01a7b1401560bf1bd0da0a5d6da7987c9274a17c7d5c	1 filters
+archives/h5_solid_mixed.rar	TEXT.TXT	200000	31ff8b5ce5191d02677237c018bdc9fd5d7f962ea38c68faa24ec02d03c9bda8	0 filters
+archives/h5_text_m3.rar	TEXT.TXT	200000	31ff8b5ce5191d02677237c018bdc9fd5d7f962ea38c68faa24ec02d03c9bda8	0 filters
+archives/h5_text_m5.rar	TEXT.TXT	200000	31ff8b5ce5191d02677237c018bdc9fd5d7f962ea38c68faa24ec02d03c9bda8	0 filters
+archives/h5_x86_m5.rar	X86.BIN	64000	d921c508df8f30adaa6c01a7b1401560bf1bd0da0a5d6da7987c9274a17c7d5c	1 filters
+archives/h5_x86_nofilter.rar	X86.BIN	64000	d921c508df8f30adaa6c01a7b1401560bf1bd0da0a5d6da7987c9274a17c7d5c	0 filters

@@ -1,0 +1,16 @@
+archive	bytes	sha256	writer	switches	programs(len:crc32:records)
+r393_bigrgb_c.rar	70691	2b5bdfffc9b7e9b200b69a26db80c74559f77ffae190737ef0f585a50e7b3636	rar 3.93 Linux i386 rar_static	-m3 -mcC+ BIGRGB.RAW	149:1c2c5dc8:10 
+r393_mixed_solid.rar	55458	e5ed56bd5f81fb88eb8e48216cf4b069a38b39d7182bf6d1551ef06fbfaffb9f	rar 3.93 Linux i386 rar_static	-m3 -m5 -s X86.BIN IA64.BIN IMAGE.BMP SOUND.WAV TABLE.BIN RGB.RAW PCM.RAW	120:3769893f:1 29:0e06077d:6 149:1c2c5dc8:1 216:bc85e701:2 
+r420_bigrgb_c.rar	70771	af6dd7ead683f6cb106bf4c97a116bad3c05b26305a8ae0b3cb59211a41dbf4d	rar 4.20 Linux x64 rar_static	-m3 -mcC+ BIGRGB.RAW	149:1c2c5dc8:5 
+r420_bmp_auto.rar	3567	ba83a6fa5ef59afa5ebb31bec45ba805b96388601a1432e1fba1d68f2073b22d	rar 4.20 Linux x64 rar_static	-m3 -m5 IMAGE.BMP	149:1c2c5dc8:1 
+r420_ia64_i.rar	7801	e2509447785fc89e7d6e5b8f692cb3e26a06cb8f3b6948d235086a814dbec173	rar 4.20 Linux x64 rar_static	-m3 -mcI+ IA64.BIN	120:3769893f:1 
+r420_mixed_nonsolid.rar	31147	6815be3fbf38ec44b6213c9fcff20ac4ef29bddbc3315c84d0f97e8a07fb9df7	rar 4.20 Linux x64 rar_static	-m3 -m5 X86.BIN IA64.BIN IMAGE.BMP SOUND.WAV TABLE.BIN	120:3769893f:1 149:1c2c5dc8:1 216:bc85e701:1 29:0e06077d:1 
+r420_mixed_solid.rar	55381	e22d5fcbbe32bf2b6b4b4499c7a00eb04547c4cdb1b8587510d47464ad9a7ef5	rar 4.20 Linux x64 rar_static	-m3 -m5 -s X86.BIN IA64.BIN IMAGE.BMP SOUND.WAV TABLE.BIN RGB.RAW PCM.RAW	120:3769893f:1 29:0e06077d:9 149:1c2c5dc8:1 216:bc85e701:2 
+r420_pcm_a2.rar	11624	82b538ebc6117de6f5ecef9285009a826600eead607238a1655ba71794169ecf	rar 4.20 Linux x64 rar_static	-m3 -mc2A+ PCM.RAW	216:bc85e701:1 
+r420_pcm_a4.rar	9691	8fe77d8ebca1eb1fabfc8826d49a1b0209498fb79bbd72b74890b4f8921dc4a5	rar 4.20 Linux x64 rar_static	-m3 -mc4A+ PCM.RAW	216:bc85e701:1 
+r420_rgb_c.rar	2929	5bc85fa225df0ea971f8f6fb7b565373e8269c03c637be684acba76fc805c7ad	rar 4.20 Linux x64 rar_static	-m3 -mcC+ RGB.RAW	149:1c2c5dc8:1 
+r420_tab_auto.rar	2996	891ed49032c17d4000f57ec83d888f458078af3af334c09d3b098d6fd9908d9d	rar 4.20 Linux x64 rar_static	-m3 -m5 TABLE.BIN	29:0e06077d:1 
+r420_tab_d3.rar	2758	754c170d46b390ebf73808c5cf08fe3388f4961d075f2cfad87073201905fec6	rar 4.20 Linux x64 rar_static	-m3 -mc3D+ TABLE.BIN	29:0e06077d:1 
+r420_wav_auto.rar	9905	9aed691a7e87e45762591c0cd987de2d0af6d0d634442522bc303af4c9945b1e	rar 4.20 Linux x64 rar_static	-m3 -m5 SOUND.WAV	216:bc85e701:1 
+r420_x86_auto.rar	6986	b3865e2e294b9bbd3bc4d7a940bd422fc2e3a9963175def256cabacc7c3bbf16	rar 4.20 Linux x64 rar_static	-m3 -m5 X86.BIN	
+r420_x86_e.rar	7130	39ba5f308677d76e60ffb8ddd9a010254290a18ffbdc436d41d0a739090b3df3	rar 4.20 Linux x64 rar_static	-m3 -mcE+ X86.BIN	53:ad576887:1 

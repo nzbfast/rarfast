@@ -1,0 +1,11 @@
+D1	delta	(1,)	in=01 02 03	dec=ff fd fa	enc=ff ff ff
+D2	delta	(3,)	in=01 02 03 10 20 f0 ff	dec=ff f0 10 fd d0 11 fa	enc=ff f1 11 fe e2 fd 13
+D3	delta	(5,)	in=09 08 07	dec=f7 f8 f9	enc=f7 f8 f9
+D4	delta	(2,)	in=00 ff 80 7f 01 02	dec=00 81 01 80 81 7e	enc=00 80 7f 01 80 7d
+R1	rgb	(6, 0)	in=01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12	dec=f8 f9 ec ee f1 d6 e2 e8 be d4 de a4 c4 d3 88 b2 c7 6a	enc=01 00 00 00 00 00 fe fd fd fd fd fd ff 00 00 00 00 00
+R2	rgb	(6, 1)	in=01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12	dec=ff ec f3 f0 d6 e5 df be d6 cc a4 c6 b7 88 b5 a0 c7 a3	enc=ff 00 00 00 00 00 01 00 00 00 00 ee fd fd fd fd fd fd
+R3	rgb	(3, 0)	in=10 20 30 05 06 07 f0 e0 d0 01 02 03 04	dec=e9 f9 f8 d9 09 06 c9 29 23 f4 59 4f 95	enc=10 f1 ef 11 fb e0 1a 26 de f0 0f 11 ef
+R4	rgb	(300, 2)	in=07 07 07 07 07 07 07 07 07 07 07	dec=f9 f9 eb f2 e4 dd eb d6 cf e4 c8	enc=f9 00 00 00 f9 07 00 00 00 00 00
+A1	audio	(1,)	in=05 2a 4f 74 99 be e3 08 2d 52 77 9c c1 e6 0b 30 55 7a 9f c4 e9 0e 33 58 7d a2 c7 ec 11 36 5b 80 a5 ca ef 14 39 5e 83 a8	dec=fb d1 82 0e 75 b7 d4 cc 9f 4d d6 3a 79 93 88 58 03 89 ea 26 3d 2f fc a4 27 85 be d2 c1 8b 30 b0 0b 5c 6b 4e 0f ac 24 97	enc=fb db db db db db db db db db db db db db db db db db db db db db db db db db db db db db db db db df df df df df df df
+A2	audio	(2,)	in=00 0b 16 21 2c 37 42 4d 58 63 6e 79 84 8f 9a a5 b0 bb c6 d1 dc e7 f2 fd 08 13 1e 29 34 3f 4a 55 60 6b 76 81 8c 97 a2 ad b8 c3 ce d9 e4 ef fa 05 10 1b 26 31 3c 47 52 5d 68 73 7e 89 94 9f aa b5 c0 cb d6 e1 ec f7	dec=00 7f f5 f3 df 5c be ba 92 0d 5b 55 19 92 cc c4 74 eb 11 07 a3 18 2a 1e a6 19 17 09 7d ee d8 c8 28 97 6d 5b a7 14 d6 c2 fa 65 13 fd 21 8a 24 0c 1c 83 09 ef eb 50 c2 a6 8e f1 4f 31 05 66 b0 90 50 af d9 c6 54 d1	enc=00 ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ec ec f5 ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ec ec
+A3	audio	(3,)	in=80 7f 00 ff 01	dec=80 00 ff 01 01	enc=80 81 81 7e 00

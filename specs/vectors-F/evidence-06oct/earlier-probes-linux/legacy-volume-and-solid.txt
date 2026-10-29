@@ -1,0 +1,19 @@
+1. leading fragment CRC32 of a split member
+   d250_vol.rar         AUDIO.RAW    version 20 from=0 into=1 crc=0x0e61344d  CRC32 of this fragment's packed bytes
+   d250_vol.r00         AUDIO.RAW    version 20 from=1 into=0 crc=0x4e28fc11  the whole member's unpacked CRC32
+   d250_vol.r00         DATA.BIN     version 20 from=0 into=1 crc=0x5c139d86  CRC32 of this fragment's packed bytes
+   d250_vol.r01         DATA.BIN     version 20 from=1 into=0 crc=0x5a96618b  the whole member's unpacked CRC32
+   d250_vol.r01         TABLE.BIN    version 20 from=0 into=1 crc=0x0080970d  CRC32 of this fragment's packed bytes
+   d250_vol.r02         TABLE.BIN    version 20 from=1 into=0 crc=0x078bdbe7  the whole member's unpacked CRC32
+
+2. where a volume declares its number
+   d250_vol.rar         first volume flag=False  no end block, so no number anywhere
+   d250_vol.r00         first volume flag=False  no end block, so no number anywhere
+   d250_vol.r01         first volume flag=False  no end block, so no number anywhere
+   d250_vol.r02         first volume flag=False  no end block, so no number anywhere
+
+3. the per member solid bit in a solid archive
+   d155_sol.rar         archive solid flag=True  unpack versions [15]  members with the solid bit set 0, clear 12
+   d250_sol.rar         archive solid flag=True  unpack versions [20]  members with the solid bit set 8, clear 4
+   r420_solid.rar       archive solid flag=True  unpack versions [20, 29]  members with the solid bit set 11, clear 1
+exit 0

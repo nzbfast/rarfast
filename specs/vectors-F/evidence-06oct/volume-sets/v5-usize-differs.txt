@@ -1,0 +1,73 @@
+arm: v5-usize-differs
+about: RAR 5: the continuing header declares 20 bytes, not 12
+file: x.part1.rar  94 bytes  sha256 38b2968a979f3da39bd05a9cdb962a81e2db07473e6be57f4bd1a71546ba4644
+file: x.part2.rar  97 bytes  sha256 f3f9c76a83ed4a380c85f1f3b832d93063f71f7575f72d6bc4dad5b6c6e8e8c4
+$ unrar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.part1.rar
+exit 0
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.part2.rar
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.part1.rar
+exit 0
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.part1.rar
+exit 0
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.part2.rar
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK

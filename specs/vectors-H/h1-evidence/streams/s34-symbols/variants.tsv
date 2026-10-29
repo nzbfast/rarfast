@@ -1,0 +1,5 @@
+reading	what it is
+258-ends-run	258 ends a low distance run
+258-first-fails	258 before any match fails the member
+repeat-leaves-last	a repeated distance match does not set the last length
+short-leaves-last	a short distance match does not set the last length

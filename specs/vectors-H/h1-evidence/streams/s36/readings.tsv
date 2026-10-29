@@ -1,0 +1,162 @@
+case	reading	failure	size:SHA-256 of each member it gives
+zero-repeat-at-start	zero-as-one	no failure	5:92e37c4fd9ec5d62195ce4b41a019f8c8996b6e87af760f22b86509795b473e5
+zero-repeat-at-start	before-start-zeros	fails: a repeated distance of zero	-
+zero-repeat-at-start	past-dictionary-honoured	fails: a repeated distance of zero	-
+zero-repeat-at-start	past-dictionary-wrapped	fails: a repeated distance of zero	-
+zero-repeat-at-start	past-dictionary-honoured-zeros	fails: a repeated distance of zero	-
+zero-repeat-at-start	stated	fails: a repeated distance of zero	-
+zero-repeat-place-3	zero-as-one	no failure	8:24c7db1b4c17e76aafada85e38385f94b01a6dfa44e9075d70069edab770f54a
+zero-repeat-place-3	before-start-zeros	fails: a repeated distance of zero	-
+zero-repeat-place-3	past-dictionary-honoured	fails: a repeated distance of zero	-
+zero-repeat-place-3	past-dictionary-wrapped	fails: a repeated distance of zero	-
+zero-repeat-place-3	past-dictionary-honoured-zeros	fails: a repeated distance of zero	-
+zero-repeat-place-3	stated	fails: a repeated distance of zero	-
+zero-repeat-64k-dict-0	zero-as-one	no failure	65541:2de2d039979b836753eb174e13df733d5ff25427645a04170a8f7f2c46060ca0
+zero-repeat-64k-dict-0	zero-as-64k	no failure	65541:b220e1219e459555f512e64b5497a92b13bbdbdbaeba187903b0ebfe2aa0b627
+zero-repeat-64k-dict-0	before-start-zeros	fails: a repeated distance of zero	-
+zero-repeat-64k-dict-0	past-dictionary-honoured	fails: a repeated distance of zero	-
+zero-repeat-64k-dict-0	past-dictionary-wrapped	fails: a repeated distance of zero	-
+zero-repeat-64k-dict-0	past-dictionary-honoured-zeros	fails: a repeated distance of zero	-
+zero-repeat-64k-dict-0	stated	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-0	zero-as-one	no failure	4194309:3f821e0bb3936482c9e5669c7d9056e55fa7e7363176cec605191f950c5b773b
+zero-repeat-4m-dict-0	zero-as-64k	no failure	4194309:3f821e0bb3936482c9e5669c7d9056e55fa7e7363176cec605191f950c5b773b
+zero-repeat-4m-dict-0	zero-as-4m	no failure	4194309:52079018d6b948749b0168f87585b21703efb250412c3317ddd84feecec4dea9
+zero-repeat-4m-dict-0	before-start-zeros	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-0	past-dictionary-honoured	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-0	past-dictionary-wrapped	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-0	past-dictionary-honoured-zeros	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-0	stated	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-6	zero-as-one	no failure	4194309:3f821e0bb3936482c9e5669c7d9056e55fa7e7363176cec605191f950c5b773b
+zero-repeat-4m-dict-6	zero-as-64k	no failure	4194309:3f821e0bb3936482c9e5669c7d9056e55fa7e7363176cec605191f950c5b773b
+zero-repeat-4m-dict-6	zero-as-4m	no failure	4194309:52079018d6b948749b0168f87585b21703efb250412c3317ddd84feecec4dea9
+zero-repeat-4m-dict-6	before-start-zeros	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-6	past-dictionary-honoured	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-6	past-dictionary-wrapped	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-6	past-dictionary-honoured-zeros	fails: a repeated distance of zero	-
+zero-repeat-4m-dict-6	stated	fails: a repeated distance of zero	-
+before-start	zero-as-one	fails: a distance before the start of the stream	-
+before-start	zero-as-64k	fails: a distance before the start of the stream	-
+before-start	zero-as-4m	fails: a distance before the start of the stream	-
+before-start	before-start-zeros	no failure	8:c1759002be24b2418932488eb7e1ccafebbed917c826856f1195e754d8698678
+before-start	past-dictionary-honoured	fails: a distance before the start of the stream	-
+before-start	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+before-start	past-dictionary-honoured-zeros	no failure	8:c1759002be24b2418932488eb7e1ccafebbed917c826856f1195e754d8698678
+before-start	stated	fails: a distance before the start of the stream	-
+before-start-far	zero-as-one	fails: a distance before the start of the stream	-
+before-start-far	zero-as-64k	fails: a distance before the start of the stream	-
+before-start-far	zero-as-4m	fails: a distance before the start of the stream	-
+before-start-far	past-dictionary-honoured	fails: a distance before the start of the stream	-
+before-start-far	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+before-start-far	stated	fails: a distance before the start of the stream	-
+past-dictionary-by-one	zero-as-one	fails: a distance past the declared dictionary	-
+past-dictionary-by-one	zero-as-64k	fails: a distance past the declared dictionary	-
+past-dictionary-by-one	zero-as-4m	fails: a distance past the declared dictionary	-
+past-dictionary-by-one	before-start-zeros	fails: a distance past the declared dictionary	-
+past-dictionary-by-one	past-dictionary-wrapped	no failure	65543:7a8ac01ae819c55979b73ef698e93d8b2678aca950f0a72d7e5b91dfa6cd3174
+past-dictionary-by-one	stated	fails: a distance past the declared dictionary	-
+past-dictionary-70000	zero-as-one	fails: a distance past the declared dictionary	-
+past-dictionary-70000	zero-as-64k	fails: a distance past the declared dictionary	-
+past-dictionary-70000	zero-as-4m	fails: a distance past the declared dictionary	-
+past-dictionary-70000	before-start-zeros	fails: a distance past the declared dictionary	-
+past-dictionary-70000	past-dictionary-wrapped	no failure	70006:768055b59637da40824c1499e3f1c8cfe20f847c7a31726036a0e3a6006703b1
+past-dictionary-70000	stated	fails: a distance past the declared dictionary	-
+past-dictionary-4m	zero-as-one	fails: a distance past the declared dictionary	-
+past-dictionary-4m	zero-as-64k	fails: a distance past the declared dictionary	-
+past-dictionary-4m	zero-as-4m	fails: a distance past the declared dictionary	-
+past-dictionary-4m	before-start-zeros	fails: a distance past the declared dictionary	-
+past-dictionary-4m	past-dictionary-honoured	no failure	4194311:07a38e279bc85b8b1cf6e9a7cbbcda76019f73b57b777e56e6ca62f6feb5d691
+past-dictionary-4m	past-dictionary-wrapped	no failure	4194311:a09a29b7ffb4049f8951e7b912d460006ccb0b9c894d7f1a7c492c256b52a05b
+past-dictionary-4m	past-dictionary-honoured-zeros	no failure	4194311:07a38e279bc85b8b1cf6e9a7cbbcda76019f73b57b777e56e6ca62f6feb5d691
+past-dictionary-4m	stated	fails: a distance past the declared dictionary	-
+past-dictionary-before-start	zero-as-one	fails: a distance past the declared dictionary	-
+past-dictionary-before-start	zero-as-64k	fails: a distance past the declared dictionary	-
+past-dictionary-before-start	zero-as-4m	fails: a distance past the declared dictionary	-
+past-dictionary-before-start	before-start-zeros	fails: a distance past the declared dictionary	-
+past-dictionary-before-start	past-dictionary-honoured	fails: a distance before the start of the stream	-
+past-dictionary-before-start	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+past-dictionary-before-start	stated	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40000	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40000	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40000	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40000	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40000	past-dictionary-wrapped	no failure	262151:732ec2c5665d76e4eb9042e19015761c1cf668fca8616d42f375225d9ab53db2
+window-dict-0-distance-40000	stated	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-0-distance-40001	past-dictionary-honoured	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-0-distance-40001	past-dictionary-wrapped	no failure	262152:a225ad0c9bc5ee5d167351baa81af928c66f6bcf96e4a608481adaeeaa988f34
+window-dict-0-distance-40001	past-dictionary-honoured-zeros	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-0-distance-40001	stated	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40000	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40000	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40000	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40000	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40000	past-dictionary-wrapped	no failure	262151:732ec2c5665d76e4eb9042e19015761c1cf668fca8616d42f375225d9ab53db2
+window-dict-1-distance-40000	stated	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-1-distance-40001	past-dictionary-honoured	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-1-distance-40001	past-dictionary-wrapped	no failure	262152:a225ad0c9bc5ee5d167351baa81af928c66f6bcf96e4a608481adaeeaa988f34
+window-dict-1-distance-40001	past-dictionary-honoured-zeros	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-1-distance-40001	stated	fails: a distance past the declared dictionary	-
+window-dict-2-distance-40001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-2-distance-40001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-2-distance-40001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-2-distance-40001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-2-distance-40001	past-dictionary-honoured	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-2-distance-40001	past-dictionary-wrapped	no failure	262152:a225ad0c9bc5ee5d167351baa81af928c66f6bcf96e4a608481adaeeaa988f34
+window-dict-2-distance-40001	past-dictionary-honoured-zeros	no failure	262152:6c7d0f14c8f4c298338e84d47ffdce1adcda5f95cb2863314f637cef1c49ed74
+window-dict-2-distance-40001	stated	fails: a distance past the declared dictionary	-
+window-dict-3-distance-80001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-3-distance-80001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-3-distance-80001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-3-distance-80001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-3-distance-80001	past-dictionary-honoured	no failure	524296:173a0896aa69d83ced2e16c98fdb82b02a5ce32beb898fe8c693758a056681b0
+window-dict-3-distance-80001	past-dictionary-wrapped	no failure	524296:2a6c915af1cc872f75bf0de91eb990e01f107352e490b137a0ff3745625a6b5d
+window-dict-3-distance-80001	past-dictionary-honoured-zeros	no failure	524296:173a0896aa69d83ced2e16c98fdb82b02a5ce32beb898fe8c693758a056681b0
+window-dict-3-distance-80001	stated	fails: a distance past the declared dictionary	-
+window-dict-4-distance-100001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-4-distance-100001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-4-distance-100001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-4-distance-100001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-4-distance-100001	past-dictionary-honoured	no failure	1048584:6592e313b283c522a5e7e4737240ea8d2ddf846cce2c422631b2a48b74ea496c
+window-dict-4-distance-100001	past-dictionary-wrapped	no failure	1048584:b45bb445e73f083c219231c3ef13ae6c7684b2e620f0f7961ee14b616e64a2b2
+window-dict-4-distance-100001	past-dictionary-honoured-zeros	no failure	1048584:6592e313b283c522a5e7e4737240ea8d2ddf846cce2c422631b2a48b74ea496c
+window-dict-4-distance-100001	stated	fails: a distance past the declared dictionary	-
+window-dict-5-distance-200001	zero-as-one	fails: a distance past the declared dictionary	-
+window-dict-5-distance-200001	zero-as-64k	fails: a distance past the declared dictionary	-
+window-dict-5-distance-200001	zero-as-4m	fails: a distance past the declared dictionary	-
+window-dict-5-distance-200001	before-start-zeros	fails: a distance past the declared dictionary	-
+window-dict-5-distance-200001	past-dictionary-honoured	no failure	2097160:8fdcdbdef7b2c1bb9dceacd2c365697d60801f1decead9d2ef145c20b0187ce3
+window-dict-5-distance-200001	past-dictionary-wrapped	no failure	2097160:26d8b09487d692a3b6564f68449855b8b97d6b09e97bc263eb2d19f5d623fdc9
+window-dict-5-distance-200001	past-dictionary-honoured-zeros	no failure	2097160:8fdcdbdef7b2c1bb9dceacd2c365697d60801f1decead9d2ef145c20b0187ce3
+window-dict-5-distance-200001	stated	fails: a distance past the declared dictionary	-
+start-10-distance-11	zero-as-one	fails: a distance before the start of the stream	-
+start-10-distance-11	zero-as-64k	fails: a distance before the start of the stream	-
+start-10-distance-11	zero-as-4m	fails: a distance before the start of the stream	-
+start-10-distance-11	before-start-zeros	no failure	31:d04aac6a984674d209699bf925c113100a44a7c3cb1a8cf6dd1f57d9a83e67a6
+start-10-distance-11	past-dictionary-honoured	fails: a distance before the start of the stream	-
+start-10-distance-11	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+start-10-distance-11	past-dictionary-honoured-zeros	no failure	31:d04aac6a984674d209699bf925c113100a44a7c3cb1a8cf6dd1f57d9a83e67a6
+start-10-distance-11	stated	fails: a distance before the start of the stream	-
+start-10-distance-12	zero-as-one	fails: a distance before the start of the stream	-
+start-10-distance-12	zero-as-64k	fails: a distance before the start of the stream	-
+start-10-distance-12	zero-as-4m	fails: a distance before the start of the stream	-
+start-10-distance-12	before-start-zeros	no failure	31:2b02bf855fdaa159aced50669ecaebaa0b97c00ef16a8535366266889840e0fc
+start-10-distance-12	past-dictionary-honoured	fails: a distance before the start of the stream	-
+start-10-distance-12	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+start-10-distance-12	past-dictionary-honoured-zeros	no failure	31:2b02bf855fdaa159aced50669ecaebaa0b97c00ef16a8535366266889840e0fc
+start-10-distance-12	stated	fails: a distance before the start of the stream	-
+start-300-distance-301	zero-as-one	fails: a distance before the start of the stream	-
+start-300-distance-301	zero-as-64k	fails: a distance before the start of the stream	-
+start-300-distance-301	zero-as-4m	fails: a distance before the start of the stream	-
+start-300-distance-301	before-start-zeros	no failure	310:1807fd3f92783b40bb1b8910add2e2a6230f328322679b65859e84ad350ff63a
+start-300-distance-301	past-dictionary-honoured	fails: a distance before the start of the stream	-
+start-300-distance-301	past-dictionary-wrapped	fails: a distance before the start of the stream	-
+start-300-distance-301	past-dictionary-honoured-zeros	no failure	310:1807fd3f92783b40bb1b8910add2e2a6230f328322679b65859e84ad350ff63a
+start-300-distance-301	stated	fails: a distance before the start of the stream	-
+overlap	overlap-as-block	no failure	361:16edf8b40c0381419924f26092f160f5067a6e8276e224653580d120ecd612d0

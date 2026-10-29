@@ -1,0 +1,19 @@
+program	archive	password	t exit	x all: exit	x all: written	x f3 f5: exit	x f3 f5: written	x the refused: exit	x the refused: written
+rar-7.23-linux-x86-64	solid.rar	PASS	0	0	0 1 2 3 4 5	0	3 5	-	-
+rar-7.23-linux-x86-64	separate.rar	PASS	0	0	0 1 2 3 4 5	0	3 5	-	-
+rar-7.23-linux-x86-64	solid.refuse-0.rar	PASS	11	11	1 2 3 4 5	11	3 5	11	-
+rar-7.23-linux-x86-64	solid.refuse-2.rar	PASS	11	11	0 1 3 4 5	11	3 5	11	-
+rar-7.23-linux-x86-64	solid.refuse-5.rar	PASS	11	11	0 1 2 3 4	11	3	11	-
+rar-7.23-linux-x86-64	solid.refuse-0-3.rar	PASS	11	11	1 2 4 5	11	5	11	-
+rar-7.23-linux-x86-64	solid.refuse-1-2-3-4.rar	PASS	11	11	0 5	11	5	11	-
+rar-7.23-linux-x86-64	solid.refuse-0-1-2-3-4-5.rar	PASS	11	11	-	11	-	11	-
+rar-7.23-linux-x86-64	separate.refuse-2.rar	PASS	11	11	0 1 3 4 5	0	3 5	11	-
+rar-7.23-linux-x86-64	separate.refuse-0-3.rar	PASS	11	11	1 2 4 5	11	5	11	-
+rar-7.23-linux-x86-64	solid.badsum-2.rar	PASS	0	0	0 1 2 3 4 5	0	3 5	0	2
+rar-7.23-linux-x86-64	separate.badsum-2.rar	PASS	0	0	0 1 2 3 4 5	0	3 5	0	2
+rar-7.23-linux-x86-64	solid.rar	WRONG	11	11	-	11	-	-	-
+rar-7.23-linux-x86-64	solid.rar	none	11	11	-	11	-	-	-
+rar-7.23-linux-x86-64	separate.rar	WRONG	11	11	-	11	-	-	-
+rar-7.23-linux-x86-64	separate.rar	none	11	11	-	11	-	-	-
+rar-7.23-linux-x86-64	solid.refuse-2.rar	WRONG	11	11	-	11	-	11	-
+rar-7.23-linux-x86-64	solid.badsum-2.rar	WRONG	11	11	-	11	-	11	-

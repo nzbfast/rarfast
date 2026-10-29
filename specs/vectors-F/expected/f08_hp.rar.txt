@@ -1,0 +1,5 @@
+== f08_hp.rar (238 bytes)
+  format: RAR 5.0
+  00000008: ENCRYPTION hsize=33   crc=8b9fa99a flags=0x0000(-)
+      encryption ver=0 flags=0x1 kdf=15 salt=91623ed0f4fbec320269d65557ef8851 check=cde0cc1a71d137335673fe6b
+  0000002e: header runs past EOF (size 12376)

@@ -1,0 +1,22 @@
+arm: hard-x-exclude
+about: the whole archive with -xa.txt (the target excluded)
+file: x.rar  163 bytes  sha256 597ecd822bf171911eb0f85884518046fd643bbfa66d29bd11725b6cf9ced0e2
+$ unrar x -p- -xa.txt x.rar o/
+exit 9
+  Extracting from x.rar
+  Extracting  o/hard_a
+  Creating    o/d                                                       OK
+  Extracting  o/d/hard_b
+  Total errors: 2
+stderr:
+  Cannot create hard link o/hard_a
+  You need to unpack the link target first
+  Cannot create hard link o/d/hard_b
+  You need to unpack the link target first
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  dir   o/d
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

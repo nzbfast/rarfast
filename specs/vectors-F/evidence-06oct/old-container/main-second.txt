@@ -1,0 +1,66 @@
+arm: main-second
+about: the main header comes after member a
+file: x.rar  164 bytes  sha256 0e1140d7c6b35b80da6266bed578b45f9a7d3bdb064f84389cfb1108d4c961fa
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     b.txt                                                         79%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 20 bytes, b'bravo bravo\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     b.txt                                                         79%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK

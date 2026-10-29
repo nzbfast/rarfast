@@ -1,0 +1,80 @@
+arm: dir-plain
+about: a directory entry d: flag 0x1, no data
+file: x.rar  116 bytes  sha256 c41ba063795ebf9208bc924e92d4e143b0ff6ea7951f080b78602c87dede0fc3
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: d
+          Type: Directory
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: drwxr-xr-x
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         54%  OK
+  Testing     d                                                         OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 14 bytes, b'alpha\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: d
+          Type: Directory
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: drwxr-xr-x
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         54%  OK
+  Testing     d                                                         OK
+  Testing     c.txt                                                        100%  OK
+  All OK

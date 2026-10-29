@@ -1,0 +1,16 @@
+program	archive	member	method	packed bytes	control (two halves)	fails with every piece of n bytes, n =	fails with a piece of 1 and then pieces of n, n =
+unrar-7.23-linux-x86-64	h5_delta_m5.rar	DELTA.BIN	5	40907	passes	none	none
+unrar-7.23-linux-x86-64	h5_delta_off.rar	DELTA.BIN	5	99557	passes	none	none
+unrar-7.23-linux-x86-64	h5_far_m5.rar	FAR.BIN	5	24801	passes	none	none
+unrar-7.23-linux-x86-64	h5_far_small_md.rar	FAR.BIN	5	49389	passes	none	none
+unrar-7.23-linux-x86-64	h5_lit_m1.rar	TEXT.TXT	1	45121	passes	none	none
+unrar-7.23-linux-x86-64	h5_md_max.rar	FAR.BIN	5	24801	passes	none	none
+unrar-7.23-linux-x86-64	h5_rand_m5.rar	RAND.BIN	0	24000	passes	none	none
+unrar-7.23-linux-x86-64	h5_runs_m5.rar	RUNS.BIN	5	11471	passes	none	none
+unrar-7.23-linux-x86-64	h5_solid.rar	DELTA.BIN	5	40897	passes	none	none
+unrar-7.23-linux-x86-64	h5_solid_mixed.rar	RAND.BIN	5	24071	passes	none	none
+unrar-7.23-linux-x86-64	h5_text_m3.rar	TEXT.TXT	3	37475	passes	none	none
+unrar-7.23-linux-x86-64	h5_text_m5.rar	TEXT.TXT	5	36121	passes	none	none
+unrar-7.23-linux-x86-64	h5_tiny.rar	TINY.TXT	0	37	passes	none	none
+unrar-7.23-linux-x86-64	h5_x86_m5.rar	X86.BIN	5	9196	passes	none	none
+unrar-7.23-linux-x86-64	h5_x86_nofilter.rar	X86.BIN	5	14900	passes	none	none

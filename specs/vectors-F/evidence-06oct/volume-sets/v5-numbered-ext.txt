@@ -1,0 +1,73 @@
+arm: v5-numbered-ext
+about: RAR 5: the two volumes named x.001 and x.002
+file: x.001  94 bytes  sha256 38b2968a979f3da39bd05a9cdb962a81e2db07473e6be57f4bd1a71546ba4644
+file: x.002  97 bytes  sha256 d446b51747c55ce3eeb7c8c22ee2f128f9c43b25f451f1673f7a9232e00e45f8
+$ unrar lt -p- x.001
+exit 0
+  Archive: x.001
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.001
+exit 0
+  Testing archive x.001
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.002
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.001
+exit 0
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.001
+exit 0
+  Archive: x.001
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.001
+exit 0
+  Testing archive x.001
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.002
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK

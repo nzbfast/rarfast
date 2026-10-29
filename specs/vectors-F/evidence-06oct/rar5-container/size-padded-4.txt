@@ -1,0 +1,52 @@
+arm: size-padded-4
+about: member b's header size written in 4 bytes (a longer encoding of the same number)
+file: x.rar  140 bytes  sha256 599eb06d51438dce061895aa9bd94fb7bdffbee0618597d55a2bf25fa501fae4
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Corrupt header is found
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         43%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 6 bytes, b'alpha\n'
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Corrupt header is found
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         43%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found

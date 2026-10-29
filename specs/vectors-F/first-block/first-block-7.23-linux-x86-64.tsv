@@ -1,0 +1,661 @@
+arm	program	command	password	exit	details	members listed	markers
+plain	rar	l	right	0	RAR 5	1	-
+plain	rar	l	wrong	0	RAR 5	1	-
+plain	rar	l	none	0	RAR 5	1	-
+plain	rar	t	right	0	-	0	all-ok
+plain	rar	t	wrong	0	-	0	all-ok
+plain	rar	t	none	0	-	0	all-ok
+plain	unrar	l	right	0	RAR 5	1	-
+plain	unrar	l	wrong	0	RAR 5	1	-
+plain	unrar	l	none	0	RAR 5	1	-
+plain	unrar	t	right	0	-	0	all-ok
+plain	unrar	t	wrong	0	-	0	all-ok
+plain	unrar	t	none	0	-	0	all-ok
+pdata	rar	l	right	0	RAR 5	1	-
+pdata	rar	l	wrong	0	RAR 5	1	-
+pdata	rar	l	none	0	RAR 5	1	-
+pdata	rar	t	right	0	-	0	all-ok
+pdata	rar	t	wrong	11	-	0	incorrect-password
+pdata	rar	t	none	11	-	0	incorrect-password
+pdata	unrar	l	right	0	RAR 5	1	-
+pdata	unrar	l	wrong	0	RAR 5	1	-
+pdata	unrar	l	none	0	RAR 5	1	-
+pdata	unrar	t	right	0	-	0	all-ok
+pdata	unrar	t	wrong	11	-	0	incorrect-password
+pdata	unrar	t	none	11	-	0	incorrect-password
+hp	rar	l	right	0	RAR 5, encrypted headers	1	-
+hp	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp	rar	t	right	0	-	0	all-ok
+hp	rar	t	wrong	11	-	0	incorrect-password
+hp	rar	t	none	11	-	0	incorrect-password
+hp	unrar	l	right	0	RAR 5, encrypted headers	1	-
+hp	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp	unrar	t	right	0	-	0	all-ok
+hp	unrar	t	wrong	11	-	0	incorrect-password
+hp	unrar	t	none	11	-	0	incorrect-password
+hp-lead-1001	rar	l	right	0	RAR 5, SFX, encrypted headers	1	-
+hp-lead-1001	rar	l	wrong	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-1001	rar	l	none	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-1001	rar	t	right	0	-	0	all-ok
+hp-lead-1001	rar	t	wrong	11	-	0	incorrect-password
+hp-lead-1001	rar	t	none	11	-	0	incorrect-password
+hp-lead-1001	unrar	l	right	0	RAR 5, SFX, encrypted headers	1	-
+hp-lead-1001	unrar	l	wrong	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-1001	unrar	l	none	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-1001	unrar	t	right	0	-	0	all-ok
+hp-lead-1001	unrar	t	wrong	11	-	0	incorrect-password
+hp-lead-1001	unrar	t	none	11	-	0	incorrect-password
+hp-lead-reach-last	rar	l	right	0	RAR 5, SFX, encrypted headers	1	-
+hp-lead-reach-last	rar	l	wrong	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-reach-last	rar	l	none	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-reach-last	rar	t	right	0	-	0	all-ok
+hp-lead-reach-last	rar	t	wrong	11	-	0	incorrect-password
+hp-lead-reach-last	rar	t	none	11	-	0	incorrect-password
+hp-lead-reach-last	unrar	l	right	0	RAR 5, SFX, encrypted headers	1	-
+hp-lead-reach-last	unrar	l	wrong	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-reach-last	unrar	l	none	11	RAR 5, SFX, encrypted headers	0	incorrect-password,zero-files
+hp-lead-reach-last	unrar	t	right	0	-	0	all-ok
+hp-lead-reach-last	unrar	t	wrong	11	-	0	incorrect-password
+hp-lead-reach-last	unrar	t	none	11	-	0	incorrect-password
+hp-lead-reach-miss	rar	l	right	0	-	0	not-rar
+hp-lead-reach-miss	rar	l	wrong	0	-	0	not-rar
+hp-lead-reach-miss	rar	l	none	0	-	0	not-rar
+hp-lead-reach-miss	rar	t	right	13	-	0	no-files
+hp-lead-reach-miss	rar	t	wrong	13	-	0	no-files
+hp-lead-reach-miss	rar	t	none	13	-	0	no-files
+hp-lead-reach-miss	unrar	l	right	0	-	0	not-rar
+hp-lead-reach-miss	unrar	l	wrong	0	-	0	not-rar
+hp-lead-reach-miss	unrar	l	none	0	-	0	not-rar
+hp-lead-reach-miss	unrar	t	right	13	-	0	no-files
+hp-lead-reach-miss	unrar	t	wrong	13	-	0	no-files
+hp-lead-reach-miss	unrar	t	none	13	-	0	no-files
+plain-lead-1001	rar	l	right	0	RAR 5, SFX	1	-
+plain-lead-1001	rar	l	wrong	0	RAR 5, SFX	1	-
+plain-lead-1001	rar	l	none	0	RAR 5, SFX	1	-
+plain-lead-1001	rar	t	right	0	-	0	all-ok
+plain-lead-1001	rar	t	wrong	0	-	0	all-ok
+plain-lead-1001	rar	t	none	0	-	0	all-ok
+plain-lead-1001	unrar	l	right	0	RAR 5, SFX	1	-
+plain-lead-1001	unrar	l	wrong	0	RAR 5, SFX	1	-
+plain-lead-1001	unrar	l	none	0	RAR 5, SFX	1	-
+plain-lead-1001	unrar	t	right	0	-	0	all-ok
+plain-lead-1001	unrar	t	wrong	0	-	0	all-ok
+plain-lead-1001	unrar	t	none	0	-	0	all-ok
+pdata-lead-1001	rar	l	right	0	RAR 5, SFX	1	-
+pdata-lead-1001	rar	l	wrong	0	RAR 5, SFX	1	-
+pdata-lead-1001	rar	l	none	0	RAR 5, SFX	1	-
+pdata-lead-1001	rar	t	right	0	-	0	all-ok
+pdata-lead-1001	rar	t	wrong	11	-	0	incorrect-password
+pdata-lead-1001	rar	t	none	11	-	0	incorrect-password
+pdata-lead-1001	unrar	l	right	0	RAR 5, SFX	1	-
+pdata-lead-1001	unrar	l	wrong	0	RAR 5, SFX	1	-
+pdata-lead-1001	unrar	l	none	0	RAR 5, SFX	1	-
+pdata-lead-1001	unrar	t	right	0	-	0	all-ok
+pdata-lead-1001	unrar	t	wrong	11	-	0	incorrect-password
+pdata-lead-1001	unrar	t	none	11	-	0	incorrect-password
+hp-crc-bad	rar	l	right	3	RAR 5, encrypted headers	1	corrupt-header,main-corrupt
+hp-crc-bad	rar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-crc-bad	rar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-crc-bad	rar	t	right	3	-	0	corrupt-header,main-corrupt
+hp-crc-bad	rar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+hp-crc-bad	rar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+hp-crc-bad	unrar	l	right	3	RAR 5, encrypted headers	1	corrupt-header,main-corrupt
+hp-crc-bad	unrar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-crc-bad	unrar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-crc-bad	unrar	t	right	3	-	0	corrupt-header,main-corrupt
+hp-crc-bad	unrar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+hp-crc-bad	unrar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+plain-crc-bad	rar	l	right	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	rar	l	wrong	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	rar	l	none	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	rar	t	right	3	-	0	corrupt-header,main-corrupt
+plain-crc-bad	rar	t	wrong	3	-	0	corrupt-header,main-corrupt
+plain-crc-bad	rar	t	none	3	-	0	corrupt-header,main-corrupt
+plain-crc-bad	unrar	l	right	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	unrar	l	wrong	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	unrar	l	none	3	RAR 5	1	corrupt-header,main-corrupt
+plain-crc-bad	unrar	t	right	3	-	0	corrupt-header,main-corrupt
+plain-crc-bad	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt
+plain-crc-bad	unrar	t	none	3	-	0	corrupt-header,main-corrupt
+hp-type-0	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-0	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-0	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-0	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-0	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-0	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-0	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-1	rar	l	right	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	rar	l	wrong	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	rar	l	none	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	rar	t	right	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-1	rar	t	wrong	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-1	rar	t	none	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-1	unrar	l	right	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	unrar	l	wrong	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	unrar	l	none	3	RAR 5	0	corrupt-header,unexpected-end,zero-files
+hp-type-1	unrar	t	right	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-1	unrar	t	wrong	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-1	unrar	t	none	3	-	0	corrupt-header,unexpected-end,no-files
+hp-type-2	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-2	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-2	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-2	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-2	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-2	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-2	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-3	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-3	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-5	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-5	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-6	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-6	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-127	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-127	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-type-128	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-128	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-type-4-two-bytes	rar	l	right	0	RAR 5, encrypted headers	1	-
+hp-type-4-two-bytes	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-two-bytes	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-two-bytes	rar	t	right	0	-	0	all-ok
+hp-type-4-two-bytes	rar	t	wrong	11	-	0	incorrect-password
+hp-type-4-two-bytes	rar	t	none	11	-	0	incorrect-password
+hp-type-4-two-bytes	unrar	l	right	0	RAR 5, encrypted headers	1	-
+hp-type-4-two-bytes	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-two-bytes	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-two-bytes	unrar	t	right	0	-	0	all-ok
+hp-type-4-two-bytes	unrar	t	wrong	11	-	0	incorrect-password
+hp-type-4-two-bytes	unrar	t	none	11	-	0	incorrect-password
+plain-type-2	rar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	rar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	rar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	rar	t	right	10	-	0	main-corrupt,no-files
+plain-type-2	rar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-2	rar	t	none	10	-	0	main-corrupt,no-files
+plain-type-2	unrar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	unrar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	unrar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-2	unrar	t	right	10	-	0	main-corrupt,no-files
+plain-type-2	unrar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-2	unrar	t	none	10	-	0	main-corrupt,no-files
+plain-type-3	rar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	rar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	rar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	rar	t	right	10	-	0	main-corrupt,no-files
+plain-type-3	rar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-3	rar	t	none	10	-	0	main-corrupt,no-files
+plain-type-3	unrar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	unrar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	unrar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-3	unrar	t	right	10	-	0	main-corrupt,no-files
+plain-type-3	unrar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-3	unrar	t	none	10	-	0	main-corrupt,no-files
+plain-type-4	rar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	rar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	rar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	rar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-4	rar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-4	rar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-4	unrar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	unrar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	unrar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+plain-type-4	unrar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-4	unrar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-4	unrar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+plain-type-5	rar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	rar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	rar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	rar	t	right	10	-	0	main-corrupt,no-files
+plain-type-5	rar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-5	rar	t	none	10	-	0	main-corrupt,no-files
+plain-type-5	unrar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	unrar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	unrar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-5	unrar	t	right	10	-	0	main-corrupt,no-files
+plain-type-5	unrar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-5	unrar	t	none	10	-	0	main-corrupt,no-files
+plain-type-6	rar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	rar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	rar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	rar	t	right	10	-	0	main-corrupt,no-files
+plain-type-6	rar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-6	rar	t	none	10	-	0	main-corrupt,no-files
+plain-type-6	unrar	l	right	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	unrar	l	wrong	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	unrar	l	none	0	RAR 5	0	main-corrupt,zero-files
+plain-type-6	unrar	t	right	10	-	0	main-corrupt,no-files
+plain-type-6	unrar	t	wrong	10	-	0	main-corrupt,no-files
+plain-type-6	unrar	t	none	10	-	0	main-corrupt,no-files
+pdata-type-4	rar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	rar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	rar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	rar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+pdata-type-4	rar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+pdata-type-4	rar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+pdata-type-4	unrar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	unrar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	unrar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+pdata-type-4	unrar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+pdata-type-4	unrar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+pdata-type-4	unrar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+hp-size-two-bytes	rar	l	right	0	RAR 5, encrypted headers	1	-
+hp-size-two-bytes	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-size-two-bytes	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-size-two-bytes	rar	t	right	0	-	0	all-ok
+hp-size-two-bytes	rar	t	wrong	11	-	0	incorrect-password
+hp-size-two-bytes	rar	t	none	11	-	0	incorrect-password
+hp-size-two-bytes	unrar	l	right	0	RAR 5, encrypted headers	1	-
+hp-size-two-bytes	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-size-two-bytes	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-size-two-bytes	unrar	t	right	0	-	0	all-ok
+hp-size-two-bytes	unrar	t	wrong	11	-	0	incorrect-password
+hp-size-two-bytes	unrar	t	none	11	-	0	incorrect-password
+hp-size-zero	rar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	rar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	rar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	rar	t	right	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-zero	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-zero	rar	t	none	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-zero	unrar	l	right	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	unrar	l	wrong	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	unrar	l	none	3	RAR 5	0	corrupt-header,main-corrupt,zero-files
+hp-size-zero	unrar	t	right	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-zero	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-zero	unrar	t	none	3	-	0	corrupt-header,main-corrupt,no-files
+hp-size-past-end	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-size-past-end	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-size-past-end	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-size-past-end	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-size-past-end	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-size-past-end	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-size-past-end	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-only	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-only	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-1	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-1	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-4	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-4	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-5	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-5	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-6	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-6	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-sig-plus-7	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-sig-plus-7	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-less-1	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-less-1	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-whole	rar	l	right	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	rar	l	wrong	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	rar	l	none	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	rar	t	right	10	-	0	main-corrupt,no-files
+hp-cut-first-block-whole	rar	t	wrong	10	-	0	main-corrupt,no-files
+hp-cut-first-block-whole	rar	t	none	10	-	0	main-corrupt,no-files
+hp-cut-first-block-whole	unrar	l	right	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	unrar	l	wrong	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	unrar	l	none	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-cut-first-block-whole	unrar	t	right	10	-	0	main-corrupt,no-files
+hp-cut-first-block-whole	unrar	t	wrong	10	-	0	main-corrupt,no-files
+hp-cut-first-block-whole	unrar	t	none	10	-	0	main-corrupt,no-files
+hp-cut-first-block-plus-16	rar	l	right	1	RAR 5, encrypted headers	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-plus-16	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-cut-first-block-plus-16	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-cut-first-block-plus-16	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-plus-16	rar	t	wrong	11	-	0	incorrect-password
+hp-cut-first-block-plus-16	rar	t	none	11	-	0	incorrect-password
+hp-cut-first-block-plus-16	unrar	l	right	1	RAR 5, encrypted headers	0	main-corrupt,unexpected-end,zero-files
+hp-cut-first-block-plus-16	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-cut-first-block-plus-16	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-cut-first-block-plus-16	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-cut-first-block-plus-16	unrar	t	wrong	11	-	0	incorrect-password
+hp-cut-first-block-plus-16	unrar	t	none	11	-	0	incorrect-password
+plain-cut-sig-plus-6	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-sig-plus-6	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-sig-plus-6	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-sig-plus-6	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-sig-plus-6	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-sig-plus-6	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-sig-plus-6	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+plain-cut-first-block-less-1	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-less-1	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+plain-cut-first-block-whole	rar	l	right	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	rar	l	wrong	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	rar	l	none	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	rar	t	right	10	-	0	no-files
+plain-cut-first-block-whole	rar	t	wrong	10	-	0	no-files
+plain-cut-first-block-whole	rar	t	none	10	-	0	no-files
+plain-cut-first-block-whole	unrar	l	right	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	unrar	l	wrong	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	unrar	l	none	0	RAR 5	0	zero-files
+plain-cut-first-block-whole	unrar	t	right	10	-	0	no-files
+plain-cut-first-block-whole	unrar	t	wrong	10	-	0	no-files
+plain-cut-first-block-whole	unrar	t	none	10	-	0	no-files
+hp-sig-byte8-01	rar	l	right	0	-	0	not-rar
+hp-sig-byte8-01	rar	l	wrong	0	-	0	not-rar
+hp-sig-byte8-01	rar	l	none	0	-	0	not-rar
+hp-sig-byte8-01	rar	t	right	13	-	0	no-files
+hp-sig-byte8-01	rar	t	wrong	13	-	0	no-files
+hp-sig-byte8-01	rar	t	none	13	-	0	no-files
+hp-sig-byte8-01	unrar	l	right	0	-	0	not-rar
+hp-sig-byte8-01	unrar	l	wrong	0	-	0	not-rar
+hp-sig-byte8-01	unrar	l	none	0	-	0	not-rar
+hp-sig-byte8-01	unrar	t	right	13	-	0	no-files
+hp-sig-byte8-01	unrar	t	wrong	13	-	0	no-files
+hp-sig-byte8-01	unrar	t	none	13	-	0	no-files
+hp-old-sig	rar	l	right	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	rar	l	wrong	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	rar	l	none	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	rar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-old-sig	rar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-old-sig	rar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-old-sig	unrar	l	right	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	unrar	l	wrong	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	unrar	l	none	3	RAR 1.5	0	corrupt-header,main-corrupt,unexpected-end,zero-files
+hp-old-sig	unrar	t	right	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-old-sig	unrar	t	wrong	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-old-sig	unrar	t	none	3	-	0	corrupt-header,main-corrupt,unexpected-end,no-files
+hp-version-1	rar	l	right	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	rar	l	wrong	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	rar	l	none	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	rar	t	right	2	-	0	unknown-encryption,no-files
+hp-version-1	rar	t	wrong	2	-	0	unknown-encryption,no-files
+hp-version-1	rar	t	none	2	-	0	unknown-encryption,no-files
+hp-version-1	unrar	l	right	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	unrar	l	wrong	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	unrar	l	none	2	RAR 5	0	unknown-encryption,zero-files
+hp-version-1	unrar	t	right	2	-	0	unknown-encryption,no-files
+hp-version-1	unrar	t	wrong	2	-	0	unknown-encryption,no-files
+hp-version-1	unrar	t	none	2	-	0	unknown-encryption,no-files
+hp-type-4-bare	rar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	rar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	rar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	rar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-bare	rar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-bare	rar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-bare	unrar	l	right	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	unrar	l	wrong	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	unrar	l	none	3	RAR 5, encrypted headers	0	corrupt-header,checksum-error,zero-files
+hp-type-4-bare	unrar	t	right	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-bare	unrar	t	wrong	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-bare	unrar	t	none	3	-	0	corrupt-header,checksum-error,no-files
+hp-type-4-long	rar	l	right	0	RAR 5, encrypted headers	1	-
+hp-type-4-long	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-long	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-long	rar	t	right	0	-	0	all-ok
+hp-type-4-long	rar	t	wrong	11	-	0	incorrect-password
+hp-type-4-long	rar	t	none	11	-	0	incorrect-password
+hp-type-4-long	unrar	l	right	0	RAR 5, encrypted headers	1	-
+hp-type-4-long	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-long	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-type-4-long	unrar	t	right	0	-	0	all-ok
+hp-type-4-long	unrar	t	wrong	11	-	0	incorrect-password
+hp-type-4-long	unrar	t	none	11	-	0	incorrect-password
+hp-type-4-long-cut	rar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	rar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	rar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	rar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-cut	rar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-cut	rar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-cut	unrar	l	right	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	unrar	l	wrong	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	unrar	l	none	1	RAR 5	0	main-corrupt,unexpected-end,zero-files
+hp-type-4-long-cut	unrar	t	right	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-cut	unrar	t	wrong	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-cut	unrar	t	none	1	-	0	main-corrupt,unexpected-end,no-files
+hp-type-4-long-whole	rar	l	right	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	rar	l	wrong	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	rar	l	none	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	rar	t	right	10	-	0	main-corrupt,no-files
+hp-type-4-long-whole	rar	t	wrong	10	-	0	main-corrupt,no-files
+hp-type-4-long-whole	rar	t	none	10	-	0	main-corrupt,no-files
+hp-type-4-long-whole	unrar	l	right	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	unrar	l	wrong	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	unrar	l	none	0	RAR 5, encrypted headers	0	main-corrupt,zero-files
+hp-type-4-long-whole	unrar	t	right	10	-	0	main-corrupt,no-files
+hp-type-4-long-whole	unrar	t	wrong	10	-	0	main-corrupt,no-files
+hp-type-4-long-whole	unrar	t	none	10	-	0	main-corrupt,no-files
+empty	rar	l	right	0	-	0	not-rar
+empty	rar	l	wrong	0	-	0	not-rar
+empty	rar	l	none	0	-	0	not-rar
+empty	rar	t	right	13	-	0	no-files
+empty	rar	t	wrong	13	-	0	no-files
+empty	rar	t	none	13	-	0	no-files
+empty	unrar	l	right	0	-	0	not-rar
+empty	unrar	l	wrong	0	-	0	not-rar
+empty	unrar	l	none	0	-	0	not-rar
+empty	unrar	t	right	13	-	0	no-files
+empty	unrar	t	wrong	13	-	0	no-files
+empty	unrar	t	none	13	-	0	no-files
+text	rar	l	right	0	-	0	not-rar
+text	rar	l	wrong	0	-	0	not-rar
+text	rar	l	none	0	-	0	not-rar
+text	rar	t	right	13	-	0	no-files
+text	rar	t	wrong	13	-	0	no-files
+text	rar	t	none	13	-	0	no-files
+text	unrar	l	right	0	-	0	not-rar
+text	unrar	l	wrong	0	-	0	not-rar
+text	unrar	l	none	0	-	0	not-rar
+text	unrar	t	right	13	-	0	no-files
+text	unrar	t	wrong	13	-	0	no-files
+text	unrar	t	none	13	-	0	no-files
+rar-word	rar	l	right	0	-	0	not-rar
+rar-word	rar	l	wrong	0	-	0	not-rar
+rar-word	rar	l	none	0	-	0	not-rar
+rar-word	rar	t	right	13	-	0	no-files
+rar-word	rar	t	wrong	13	-	0	no-files
+rar-word	rar	t	none	13	-	0	no-files
+rar-word	unrar	l	right	0	-	0	not-rar
+rar-word	unrar	l	wrong	0	-	0	not-rar
+rar-word	unrar	l	none	0	-	0	not-rar
+rar-word	unrar	t	right	13	-	0	no-files
+rar-word	unrar	t	wrong	13	-	0	no-files
+rar-word	unrar	t	none	13	-	0	no-files
+hp-second-volume	rar	l	right	0	RAR 5, volume 2, encrypted headers	1	-
+hp-second-volume	rar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-second-volume	rar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-second-volume	rar	t	right	6	-	0	no-files
+hp-second-volume	rar	t	wrong	11	-	0	incorrect-password
+hp-second-volume	rar	t	none	11	-	0	incorrect-password
+hp-second-volume	unrar	l	right	0	RAR 5, volume 2, encrypted headers	1	-
+hp-second-volume	unrar	l	wrong	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-second-volume	unrar	l	none	11	RAR 5, encrypted headers	0	incorrect-password,zero-files
+hp-second-volume	unrar	t	right	6	-	0	no-files
+hp-second-volume	unrar	t	wrong	11	-	0	incorrect-password
+hp-second-volume	unrar	t	none	11	-	0	incorrect-password
+rar4-hp	rar	l	right	0	RAR 1.5, encrypted headers	12	-
+rar4-hp	rar	l	wrong	3	RAR 1.5, encrypted headers	0	checksum-error,zero-files
+rar4-hp	rar	l	none	3	RAR 1.5, encrypted headers	0	checksum-error,zero-files
+rar4-hp	rar	t	right	0	-	0	all-ok
+rar4-hp	rar	t	wrong	3	-	0	checksum-error,no-files
+rar4-hp	rar	t	none	3	-	0	checksum-error,no-files
+rar4-hp	unrar	l	right	0	RAR 1.5, encrypted headers	12	-
+rar4-hp	unrar	l	wrong	3	RAR 1.5, encrypted headers	0	checksum-error,zero-files
+rar4-hp	unrar	l	none	3	RAR 1.5, encrypted headers	0	checksum-error,zero-files
+rar4-hp	unrar	t	right	0	-	0	all-ok
+rar4-hp	unrar	t	wrong	3	-	0	checksum-error,no-files
+rar4-hp	unrar	t	none	3	-	0	checksum-error,no-files
+rar4-plain	rar	l	right	0	RAR 1.5	12	-
+rar4-plain	rar	l	wrong	0	RAR 1.5	12	-
+rar4-plain	rar	l	none	0	RAR 1.5	12	-
+rar4-plain	rar	t	right	0	-	0	all-ok
+rar4-plain	rar	t	wrong	0	-	0	all-ok
+rar4-plain	rar	t	none	0	-	0	all-ok
+rar4-plain	unrar	l	right	0	RAR 1.5	12	-
+rar4-plain	unrar	l	wrong	0	RAR 1.5	12	-
+rar4-plain	unrar	l	none	0	RAR 1.5	12	-
+rar4-plain	unrar	t	right	0	-	0	all-ok
+rar4-plain	unrar	t	wrong	0	-	0	all-ok
+rar4-plain	unrar	t	none	0	-	0	all-ok
+missing	rar	l	right	10	-	0	cannot-open,no-such-file
+missing	rar	l	wrong	10	-	0	cannot-open,no-such-file
+missing	rar	l	none	10	-	0	cannot-open,no-such-file
+missing	rar	t	right	10	-	0	no-files,cannot-open,no-such-file
+missing	rar	t	wrong	10	-	0	no-files,cannot-open,no-such-file
+missing	rar	t	none	10	-	0	no-files,cannot-open,no-such-file
+missing	unrar	l	right	10	-	0	cannot-open,no-such-file
+missing	unrar	l	wrong	10	-	0	cannot-open,no-such-file
+missing	unrar	l	none	10	-	0	cannot-open,no-such-file
+missing	unrar	t	right	10	-	0	no-files,cannot-open,no-such-file
+missing	unrar	t	wrong	10	-	0	no-files,cannot-open,no-such-file
+missing	unrar	t	none	10	-	0	no-files,cannot-open,no-such-file
+directory	rar	l	right	0	-	0	-
+directory	rar	l	wrong	0	-	0	-
+directory	rar	l	none	0	-	0	-
+directory	rar	t	right	10	-	0	no-files
+directory	rar	t	wrong	10	-	0	no-files
+directory	rar	t	none	10	-	0	no-files
+directory	unrar	l	right	0	-	0	-
+directory	unrar	l	wrong	0	-	0	-
+directory	unrar	l	none	0	-	0	-
+directory	unrar	t	right	10	-	0	no-files
+directory	unrar	t	wrong	10	-	0	no-files
+directory	unrar	t	none	10	-	0	no-files

@@ -1,0 +1,69 @@
+section	arm	token	program	arguments	exit	stdout bytes	stderr bytes
+environment	system	full	cmd	["/c", "ver"]	0	48	0
+environment	system	full	cmd	["/c", "chcp"]	0	25	0
+environment	system	full	tzutil	["/g"]	0	3	0
+environment	system	full	python.exe	["--version"]	0	16	0
+environment	system	full	openssl	["version"]	0	62	0
+long-password	long-password	full	Rar.exe	["a", "-ma5", "-m0", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11yz", "t.rar", "hello.txt"]	0	287	88
+long-password	long-password	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11yz", "t.rar"]	0	201	0
+long-password	long-password	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11y", "t.rar"]	0	201	0
+long-password	long-password	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11", "t.rar"]	0	201	0
+long-password	long-password	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "t.rar"]	11	117	34
+probes	b3-astral	full	python.exe+trace_probe.py	["<the call log>", "b3-rar3-kdf-probe.py", "astral", "--fixtures", "<fixtures>", "--unrar", "<UnRAR.exe>", "--work", "w-astral"]	0	1708	0
+probes	b3-astral	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	1167	0
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	0	1167	0
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-astral	full	UnRAR.exe	["t", "-p\ud83d\udd11key", "a.rar"]	3	1096	655
+probes	b3-length	full	python.exe+trace_probe.py	["<the call log>", "b3-rar3-kdf-probe.py", "length", "--fixtures", "<fixtures>", "--unrar", "<UnRAR.exe>", "--work", "w-length"]	0	1894	0
+probes	b3-length	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	1167	0
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	0	1167	0
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	3	1096	655
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	3	1096	655
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	3	1096	655
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	0	1167	0
+probes	b3-length	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	3	1096	655
+probes	b3-length	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	0	1167	0
+probes	b3-length	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	3	1096	655
+probes	b3-length	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	0	1167	0
+probes	k5-rar5	full	python.exe+trace_probe.py	["<the call log>", "k-evidence-probe.py", "rar5", "--unrar", "<UnRAR.exe>", "--work", "w-rar5"]	0	11909	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-psecret", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	2	121	267
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	2	121	267
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	2	121	270
+probes	k5-rar5	full	UnRAR.exe	["t", "-panother one", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-panother one", "a.rar"]	11	210	33
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-p\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9\u00e9", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\u00e9", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11y", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\ud83d\udd11y", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-p\ud83d\udd11", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pp\u00e1ss\u20ac", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	3	283	78
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	3	283	78
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	11	117	67
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0
+probes	k5-rar5	full	UnRAR.exe	["t", "-psecret", "a.rar"]	3	283	161
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	3	293	39
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	3	293	39
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	3	283	78
+probes	k5-rar5	full	UnRAR.exe	["t", "-pSecret", "a.rar"]	0	294	0

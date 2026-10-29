@@ -1,0 +1,58 @@
+35 streams kept, 55 variants
+h2-zero                      differs on 17 kept streams: the second difference taken from the NEW first difference (so it is always 0)
+h2-negated                   differs on 4 kept streams: the second difference with its sign turned
+second-difference-wrapped    differs on 16 kept streams: the second difference wrapped to a signed byte
+h3-h4-new                    differs on 14 kept streams: the two older second differences taken after the shift (both equal the newest)
+no-h4                        differs on 13 kept streams: no fourth history term
+round-to-zero                differs on 16 kept streams: the division by 8 rounding toward zero
+round-nearest                differs on 20 kept streams: the division by 8 rounding to nearest
+no-cross-term                differs on 10 kept streams: no term for the stream-wide difference
+byte-plus                    differs on 22 kept streams: the byte is prediction PLUS residual
+error-unsigned               differs on 18 kept streams: the residual taken as 0 to 255, not as a signed byte
+error-scale-1                differs on 18 kept streams: the error not scaled (times 1 in place of 8)
+error-scale-4                differs on 15 kept streams: the error times 4
+error-scale-16               differs on 12 kept streams: the error times 16
+cross-after                  differs on 20 kept streams: the accumulators see the stream-wide difference this sample leaves, not the one it began with
+directions-swapped           differs on 21 kept streams: the odd accumulator raises its weight and the even one lowers it
+no-keep-option               differs on 7 kept streams: the eleven minimum taken over the ten weight changes only, so a weight always moves
+cross-unwrapped              differs on 16 kept streams: the stream-wide difference kept as b - y, not wrapped to a signed byte
+own-unwrapped                differs on 19 kept streams: the channel's own first difference kept as b - y, not wrapped to a signed byte
+difference-saturated         differs on 19 kept streams: the first difference held to -128 to 127 by saturation, not by wrapping
+cross-per-channel            differs on 10 kept streams: the fifth multiplier is the channel's OWN last first difference
+cross-from-last-byte         differs on 10 kept streams: the stream-wide difference is this byte minus the last multimedia byte of ANY channel
+previous-from-output         differs on 3 kept streams: the channel's previous byte is the output byte C positions back, whatever block wrote it
+period-16                    differs on 20 kept streams: adaptation every 16 samples of a channel
+period-64                    differs on 20 kept streams: adaptation every 64 samples of a channel
+adapt-one-early              differs on 21 kept streams: adaptation at samples 31, 63, ... of a channel
+adapt-one-late               differs on 20 kept streams: adaptation at samples 33, 65, ... of a channel
+count-stream-wide            differs on 11 kept streams: one sample count for all channels
+adapt-before-accumulate      differs on 18 kept streams: the sample that triggers adaptation is not counted in the accumulators it judges
+tie-highest                  differs on 3 kept streams: a tie for the minimum goes to the HIGHEST index
+tie-keep-last                differs on 3 kept streams: a tie between keeping the weights and a change goes to the change
+count-reset-at-header        differs on 3 kept streams: a channel's sample count starts again at every multimedia header
+sums-cleared-at-header       differs on 3 kept streams: the accumulators are cleared at every multimedia header
+no-clear                     differs on 17 kept streams: the accumulators are not cleared at adaptation
+floor-minus-16               differs on 6 kept streams: a weight never goes below -16
+floor-minus-18               differs on 3 kept streams: a weight may reach -18
+ceiling-17                   differs on 4 kept streams: a weight may reach 17
+ceiling-15                   differs on 6 kept streams: a weight never goes above 15
+channel-reset-at-header      differs on 3 kept streams: every multimedia header sets the current channel to 0
+channel-wraps-at-header      differs on 3 kept streams: a current channel at or above the new count is reduced modulo the count
+lz-header-resets-channel     differs on 3 kept streams: an LZ header sets the current channel to 0
+terminator-rotates           differs on 3 kept streams: the terminator advances the channel
+table-of-channel-0           differs on 7 kept streams: every residual is read with channel 0's table
+upper-channels-cleared       differs on 3 kept streams: a multimedia header clears the state of the channels at or above its count
+header-resets-model          differs on 3 kept streams: every multimedia header clears the whole model
+header-resets-cross          differs on 3 kept streams: every multimedia header clears the stream-wide difference
+lz-resets-model              differs on 3 kept streams: an LZ header clears the whole model
+tail-header-resets-channel   differs on 1 kept streams: a header read in a member's tail sets the current channel to 0
+tail-header-resets-model     differs on 1 kept streams: a header read in a member's tail clears the model
+tail-terminator-rotates      differs on 1 kept streams: the terminator met in a member's tail advances the channel
+solid-member-fresh-model     differs on 3 kept streams: a solid member starts with a cleared model
+solid-member-channel-0       differs on 3 kept streams: a solid member starts on channel 0
+non-solid-keeps-model        differs on 3 kept streams: a member that is not solid keeps the model of the member before it
+non-solid-keeps-channel      differs on 3 kept streams: a member that is not solid keeps the current channel of the member before it
+start-weight-one             differs on 21 kept streams: the first weight of every channel starts at 1
+start-byte-128               differs on 22 kept streams: every channel's previous byte starts at 128
+ends of the weight range reached on kept streams under the stated reading (weight number from 0, value): w0=-17 w0=16 w1=-17 w1=16 w2=-17 w2=16 w3=-17 w3=16 w4=-17 w4=16
+variants with no stream: none

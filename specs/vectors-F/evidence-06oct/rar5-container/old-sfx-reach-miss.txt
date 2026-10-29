@@ -1,0 +1,22 @@
+arm: old-sfx-reach-miss
+about: 4,194,283 bytes ahead of the older container's signature
+file: x.rar  4194402 bytes  sha256 be685e4a08259cd3bef88115daaf36484f3769bae20116ef00ed63023eec1de2
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar

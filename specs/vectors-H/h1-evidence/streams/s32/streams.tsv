@@ -1,0 +1,5 @@
+case	members	reading in the file headers	readings that give other bytes	what
+keep-at-stream-start	1	stated	-	the first block of a stream has its keep bit set
+kept-across-members	2	stated	member-zeroes-kept keep-never delta-replace	two members of one solid chain: the first ends with 256 and bits 0, 1; the second begins with a block header whose keep bit is set and whose deltas change one length
+kept-across-ppm	3	stated	ppm-zeroes-kept keep-never	three members of one solid chain: an LZ member ending with 256 and bits 0, 1; a genuine PPM member's packed data cut at the end of its PPM data (9 bytes, one byte of output); an LZ member whose block header has the keep bit set and every delta zero, with a short distance match reaching the PPM member's byte
+ppm-tail	3	stated	ppm-tail-read ppm-zeroes-kept	the same with the PPM member's packed data whole (17 bytes): the 8 bytes after its PPM data's end are an LZ block header with the keep bit clear, tables giving main symbols 0 and 256 one bit each, and 256 with bits 0, 1

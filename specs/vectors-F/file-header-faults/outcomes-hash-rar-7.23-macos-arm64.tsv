@@ -1,0 +1,23 @@
+program	group	arm	lt exit	t exit	x exit	lt entries	second entry has	t OK	t ?	t checksum error	t corrupt	members	other files	of them b.txt's bytes	first other name's length
+rar	hash	blake.hash-cut-1	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.hash-cut-16	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.hash-cut-31	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.hash-cut-32	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.hash-no-kind	0	0	0	3	m	2	1	0	0	===	0	0	0
+rar	hash	blake+data.hash-cut-1	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.hash-cut-16	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.hash-cut-31	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.hash-cut-32	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.hash-no-kind	0	0	0	3	m	2	1	0	0	=!=	0	0	0
+rar	hash	blake.a-hash-cut-1	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.last-hash-whole	0	0	0	3	mb	3	0	0	0	===	0	0	0
+rar	hash	blake.last-hash-cut-1	0	0	0	3	mb	3	0	0	0	===	0	0	0
+rar	hash	blake.last-hash-cut-16	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.last-hash-cut-32	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake.last-hash-no-kind	0	3	3	3	mb	2	0	1	0	===	0	0	0
+rar	hash	blake+data.last-hash-whole	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.last-hash-cut-1	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.last-hash-cut-16	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.last-hash-cut-32	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake+data.last-hash-no-kind	0	3	3	3	mb	2	0	1	0	=!=	0	0	0
+rar	hash	blake.a-last-hash-cut-1	0	3	3	3	mb	2	0	1	0	===	0	0	0

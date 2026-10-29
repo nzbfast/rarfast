@@ -1,0 +1,13 @@
+set	arm	t exit	x exit	x -kb exit	t total errors	E00: t error lines, t OK, x, x -kb	E01: t error lines, t OK, x, x -kb	E02: t error lines, t OK, x, x -kb	E03: t error lines, t OK, x, x -kb	E04: t error lines, t OK, x, x -kb	E05: t error lines, t OK, x, x -kb	E06: t error lines, t OK, x, x -kb	E07: t error lines, t OK, x, x -kb
+R	none	0	0	0	none	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+R	lead	3	3	3	1	0, OK, true, true	2, no OK, absent, wrong 147456	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+R	trail	3	3	3	1	0, OK, true, true	1, no OK, absent, wrong 147340	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+L	none	0	0	0	none	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+L	lead	3	3	3	2	0, OK, true, true	2, no OK, absent, wrong 147456	1, no OK, absent, wrong 147456	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+L	trail	3	3	3	2	0, OK, true, true	1, no OK, absent, wrong 147456	1, no OK, absent, wrong 147456	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+N	none	0	0	0	none	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+N	lead	3	3	3	1	0, OK, true, true	2, no OK, absent, wrong 147456	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+N	trail	3	3	3	1	0, OK, true, true	1, no OK, absent, wrong 147351	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+RX	none	0	0	0	none	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+RX	lead	3	3	3	2	0, OK, true, true	1, no OK, absent, wrong 1628572	1, no OK, absent, wrong 3145728	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true
+RX	trail	3	3	3	2	0, OK, true, true	1, no OK, absent, wrong 3145728	1, no OK, absent, wrong 3145728	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true	0, OK, true, true

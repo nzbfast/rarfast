@@ -1,0 +1,29 @@
+[workspace]
+members = ["crates/rarkit", "crates/rarkit-cli", "crates/rarkit-testdata"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.98"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/nzbfast/rarfast"
+keywords = ["rar", "unrar", "archive", "compression"]
+categories = ["compression", "command-line-utilities"]
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+# cargo-fuzz builds set `--cfg fuzzing` (spec K 6: the KDF exponent clamp).
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(fuzzing)"] }
+
+# The crypto primitives run their own vectors' worth of work in debug test
+# builds (a RAR 3 derivation is 262,144 SHA-1 rounds); optimise them there.
+[profile.dev.package]
+sha1 = { opt-level = 3 }
+sha2 = { opt-level = 3 }
+aes = { opt-level = 3 }
+
+# No `[profile.release]` here, and that is a measured decision: thin LTO
+# with one codegen unit was built and measured across the bench groups.
+# It makes the encrypted RAR 5 legs 1.3x to 1.7x faster and costs 1 to 7
+# percent of wall on about forty other legs that code layout moved, so it
+# is not the default.

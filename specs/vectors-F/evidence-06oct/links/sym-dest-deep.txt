@@ -1,0 +1,70 @@
+arm: sym-dest-deep
+about: the same archive extracted to the relative destination p/q/
+file: x.rar  1211 bytes  sha256 39c36b480b4fdd6f14439c298f7f2ab44a7ce2ae75974909104955f62190cdaa
+$ unrar x -p- x.rar p/q/
+exit 1
+  Extracting from x.rar
+  Creating    p                                                         OK
+  Creating    p/q                                                       OK
+  Extracting  p/q/a.txt                                                      4%  OK
+  Extracting  p/q/top.txt                                                    8%  OK
+  Creating    p/q/d                                                     OK
+  Creating    p/q/d/e                                                   OK
+  Extracting  p/q/sym_rel                                                    OK
+  Extracting  p/q/sym_dangling                                               OK
+  Extracting  p/q/sym_abs
+  Extracting  p/q/sym_up
+  Extracting  p/q/sym_up1
+  Extracting  p/q/dotdot_only
+  Extracting  p/q/d/up_in                                                    OK
+  Extracting  p/q/d/e/up_in2                                                 OK
+  Extracting  p/q/d/up_out
+  Extracting  p/q/d/e/up_out3
+  Extracting  p/q/dotdot_mid
+  Extracting  p/q/dotdot_mid2
+  Extracting  p/q/d/dotdot_late
+  Extracting  p/q/dotslash                                                   OK
+  Extracting  p/q/dotslash_up
+  Extracting  p/q/d/dot_then_up                                              OK
+  Extracting  p/q/dslash                                                     OK
+  Extracting  p/q/d/dslash_up                                                OK
+  Extracting  p/q/trail                                                      OK
+  Extracting  p/q/sym_dir                                                    OK
+  Extracting  p/q/dots3                                                      OK
+  Extracting  p/q/tilde                                                      OK
+  Total errors: 10
+stderr:
+  Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+the arm's directory after the run:
+  dir   o
+  dir   p
+  dir   victim
+  dir   p/q
+  file  p/q/a.txt                   6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  dir   p/q/d
+  link  p/q/dots3              -> .../a.txt   (mtime the member's)
+  link  p/q/dotslash           -> ./top.txt   (mtime the member's)
+  link  p/q/dslash             -> d//e   (mtime the member's)
+  link  p/q/sym_dangling       -> nothere   (mtime the member's)
+  link  p/q/sym_dir            -> d   (mtime the member's)
+  link  p/q/sym_rel            -> a.txt   (mtime the member's)
+  link  p/q/tilde              -> ~/a.txt   (mtime the member's)
+  file  p/q/top.txt                16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+  link  p/q/trail              -> d/   (mtime the member's)
+  link  p/q/d/dot_then_up      -> ./../top.txt   (mtime the member's)
+  link  p/q/d/dslash_up        -> ..//top.txt   (mtime the member's)
+  dir   p/q/d/e
+  link  p/q/d/up_in            -> ../top.txt   (mtime the member's)
+  link  p/q/d/e/up_in2         -> ../../top.txt   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

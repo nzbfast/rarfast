@@ -1,0 +1,5 @@
+# Rows fixtures.tsv asks for that did NOT become fixtures, with the
+# reason. A refusal is a finding, so it is recorded here rather than
+# dropped: README section 6 says what each one means.
+id	reason
+r550_uni	reference unrar: rc=9 files=8 mismatch=0

@@ -1,0 +1,17 @@
+== f10_qo.rar (11931 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=11   crc=2c57b965 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x0(-)
+      extra LOCATOR flags=0x1 quick_open_offset=11805
+  00000018: FILE       hsize=31   crc=8d255662 flags=0x0002(DATA) data=16
+      name=b'hello.txt' fflags=0x6(MTIME|CRC32) unp=16 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=cdfd0cc2
+  0000004c: FILE       hsize=32   crc=e04c53b8 flags=0x0002(DATA) data=11700
+      name=b'text.txt' fflags=0x6(MTIME|CRC32) unp=11700 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=527a6e2c
+  00002e25: SERVICE    hsize=14   crc=bd133855 flags=0x0006(DATA|EDITOR_MAY_DROP) data=91
+      name=b'QO' fflags=0x0(-) unp=91 attr=0x0 host=1 ver=0 solid=0 method=0 dict=128KiB
+  00002e93: END        hsize=3    crc=5156771d flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x0(LAST)

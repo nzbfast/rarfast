@@ -1,0 +1,22 @@
+arm: ov-solid-o-minus
+about: a solid archive written by rar a -s -m3 with a.txt and c.txt in the way, -o-
+file: x.rar  2475 bytes  sha256 67785ae6b9aa813c0c153e22454f07467f141d28a981d5554de82b6159a0d072
+planted before the run: o/a.txt, a regular file of 6 bytes; o/c.txt, a regular file of 6 bytes
+$ unrar x -p- -o- x.rar o/
+exit 0
+  Extracting from x.rar
+  Skipping    a.txt                                                         84%
+  Extracting  o/b.txt                                                       89%  OK
+  Skipping    c.txt                                                         95%
+  Extracting  o/d.txt                                                      100%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+  file  o/b.txt                  4300 bytes  sha256 0f5781d48d15  mode 644   (mtime the member's)
+  file  o/c.txt                     6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+  file  o/d.txt                  4100 bytes  sha256 7aec21637703  mode 644   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

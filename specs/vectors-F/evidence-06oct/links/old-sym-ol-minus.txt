@@ -1,0 +1,19 @@
+arm: old-sym-ol-minus
+about: the same, -ol-
+file: x.rar  647 bytes  sha256 12ba560bab4df3d0193a4296b3dc02743f364dfe9e276e562b2b42bfa4ec7533
+$ unrar x -p- -ol- x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       10%  OK
+  Extracting  o/top.txt                                                     18%  OK
+  Creating    o/d                                                       OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+  dir   o/d
+  file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

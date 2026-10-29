@@ -1,0 +1,31 @@
+archive	bytes	sha256	writer	command	what it pins
+f01_stored.rar	83	0877ccc3ef2dbc1cade54a9f18b029824141e19a2341dd7a52df94f19606ec48	rar 7.23	rar a -ep1 -m0	one stored member; the smallest complete RAR 5 archive: main, file, end
+f02_dirs.rar	151	91d8a3509cc8895a03a8a01c6f52c9277ff7e138337aed0927a8ad7d2335acbc	rar 7.23	rar a -r -m0	directory entries, written AFTER the file they contain
+f03_m3.rar	146	92d27871fc1d14a6070745e94fff56676fd0c9f4f4fa918d170e71677ebbb522	rar 7.23	rar a -ep1 -m3	compression info: method 3 and a dictionary above the minimum
+f04_solid.rar	195	ed4d5bb4218bc6421e01d3c640fd96f17898d055d366c532ee385e7d2b32b78a	rar 7.23	rar a -ep1 -m3 -s	archive solid flag plus the per-member solid bit on the second member
+f05_blake.rar	115	36b4d63369f16e9c01fc665877032a0f85d71a90705876e4894d09da559ea24b	rar 7.23	rar a -ep1 -m0 -htb	BLAKE2sp hash extra record instead of the CRC32 file flag
+f06_comment.rar	134	12335215936156c82a03b4246fb49432ad480ece0543fb06e5d381d08ba28a75	rar 7.23	rar a -ep1 -m0 -z	CMT service record ahead of the members
+f07_pw.rar	133	2a1218554c0d142b1218459e16c1f5c9fad3e65003d4d8d245788953fefdf8f0	rar 7.23	rar a -ep1 -m0 -pSecret	file encryption extra record with a password check value
+f08_hp.rar	238	0e387b34fdb9848036047659864f4f9c6c2630d369130b8f73525eb4c746d67e	rar 7.23	rar a -ep1 -m0 -hpSecret	archive encryption header; every later header encrypted
+f09_rr.rar	13015	796b9cc78a5c12b37c1e9a928abb9dd972dd2cad6d313e8651eb0f258f3fad41	rar 7.23	rar a -ep1 -m0 -rr3	RR service record and the locator's recovery offset
+f10_qo.rar	11931	ac6552af8a2ea28356033b3bcf43c9ce25440f21a50cb47989e14ebaaa5bd1e1	rar 7.23	rar a -ep1 -m0 -qo+	QO service record and the locator's quick open offset
+f11_svol.part1.rar	4096	e007166a959371245959a33cb5de08c431844afa9d9d9252a8259c49a719010a	rar 7.23	rar a -ep1 -m0 -v4k	stored member split over four volumes; volume padding after the end record
+f11_svol.part2.rar	4096	aa7be0318ea35de62d37142e95bbf20214952b133b0965ad2ce488350a74189c	rar 7.23	rar a -ep1 -m0 -v4k	middle volume: split before and after, volume number 1
+f11_svol.part3.rar	4096	e07ad7562ec9ab7e46fc1fbc326d83be26d3948c265a4a843bb25f841c51a9db	rar 7.23	rar a -ep1 -m0 -v4k	middle volume
+f11_svol.part4.rar	213	8f5aa38ac324726f53f86472d99d52ca7ab36ce1fdb368f61f7a52fc1bd9bc25	rar 7.23	rar a -ep1 -m0 -v4k	last volume: the whole-member CRC32 lands here
+f12_cvol.part1.rar	4096	2d1615432e3ac0c79c9a7b7e86b6b122c6fd100ce8e200252b7217b81039d5bb	rar 7.23	rar a -ep1 -m3 -v4k	compressed split member: fragment CRC32 is over PACKED bytes
+f12_cvol.part2.rar	4096	f33a3f9de64e3536227d9e7576103a27d8a2ca4927ebe39b81a5c82b3cdfcdcb	rar 7.23	rar a -ep1 -m3 -v4k	middle volume
+f12_cvol.part3.rar	4096	00c487622c56d96b021dd802dabad3da1e02d102b52349090647b9b1092020ff	rar 7.23	rar a -ep1 -m3 -v4k	middle volume
+f12_cvol.part4.rar	363	81d92d03668d102ba6b972e0268c30f154ff499adf5f78264c294e59bc05f9fc	rar 7.23	rar a -ep1 -m3 -v4k	last volume: whole-member unpacked CRC32
+f13_truncated.rar	73	bdc635b4acc7f6bc00280ba59073b0484d567fd920459b0adfd908d299ab3bbf	derived from f03	first half of f03_m3.rar	a source that ends inside a member: Truncated, not Corrupt
+f14_bad_header_crc.rar	83	0ecf443bff63e949c64bbb890a04c218d2614f444a65eb9d49c00957302074cd	derived from f01	one bit flipped in the file header CRC field	HeaderChecksum
+f15_bad_data_crc.rar	83	977213812cccebb2a2e82b13fc8c80d33018e2cfcf561c1eae130516abeea06c	derived from f01	one bit flipped in the stored member data	member checksum failure, not an error
+f16_sfx_prefix.rar	4179	1c60a251e80301fd42b6810782d007eb7089f9a9930a727ff3486cd908189d11	derived from f01	4,096 byte stub ahead of the signature	SFX offset search
+f17_htime_ns.rar	91	9f0f2ca6e078975d50f959c860db8e66f99005c620bbb0c5e6f2f8a7f60bed90	rar 7.23	rar a -ep1 -m0 (sub-second mtime)	TIME extra record, unix form with nanoseconds; the header's own mtime field is ABSENT
+f18_htime_ma.rar	99	01bcd2bf0e121f53f792261e21b270185d36b91957a05a916ab53a5d2157ace7	rar 7.23	rar a -ep1 -m0 -tsm -tsa	two times in one TIME record: the seconds block then the nanosecond block, mtime before atime
+f19_htime_win.rar	105	34006fba8e2efdb3dd036cc806e11d294e3f8ca165a85f19952331f1d3ce89b0	htime-record.py	rewrite of f01_stored.rar	WINDOWS form: three u64 FILETIMEs, chosen by record flag 0x0001 and not by host OS
+D140_M5.RAR	12917	7d3a4b7cae1469cb766bdc3530661c76a112835189784f5ee9ee6282ce68f349	DOS RAR 1.40.2 beta	a -r -y -m5	RAR 1.3/1.4 container: RE~^, unpack version 2, 21 byte file headers
+D155_M5.RAR	12996	59be03ba42b9020bbf505ef71c7226f7e06dde513a6f8880a2103aee909a87fd	DOS RAR 1.55	a -r -y -m5	RAR 1.5: a genuine directory entry marked by DOS attribute 0x10 alone
+D250_M5.RAR	12951	9e5c56989fe17fd7b46e20b3e2e71d051465e54c128b542953533c8513dae5a6	DOS RAR 2.50	a -r -y -m5	RAR 2.0: the same tree with the directory bits 0x00e0 set
+r420_m5.rar	13079	12225fce5983ded4896b2ae004bb2e87de0cbc28a6ce36557a23c291961a5903	rar 4.2.0 Linux x64	a -r -m5 -idq	RAR 2.9: unpack version 29 compressed, 20 for stored and directories
+r420_hp.rar	13276	d4504a8b9a50b5f80485909ca75bb225e13f1a211143f64a15b921a8f1cb22c8	rar 4.2.0 Linux x64	a -r -m3 -hpSecret -idq	RAR 4 header encryption: plaintext main header, flag 0x0080

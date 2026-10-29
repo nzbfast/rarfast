@@ -1,0 +1,32 @@
+reading	what it is
+short-0-base+1	short ladder slot 0: base 1 in place of 0
+short-0-bits+1	short ladder slot 0: extra bits 3 in place of 2
+short-0-bits-1	short ladder slot 0: extra bits 1 in place of 2
+short-1-base+1	short ladder slot 1: base 5 in place of 4
+short-1-base-1	short ladder slot 1: base 3 in place of 4
+short-1-bits+1	short ladder slot 1: extra bits 3 in place of 2
+short-1-bits-1	short ladder slot 1: extra bits 1 in place of 2
+short-2-base+1	short ladder slot 2: base 9 in place of 8
+short-2-base-1	short ladder slot 2: base 7 in place of 8
+short-2-bits+1	short ladder slot 2: extra bits 4 in place of 3
+short-2-bits-1	short ladder slot 2: extra bits 2 in place of 3
+short-3-base+1	short ladder slot 3: base 17 in place of 16
+short-3-base-1	short ladder slot 3: base 15 in place of 16
+short-3-bits+1	short ladder slot 3: extra bits 5 in place of 4
+short-3-bits-1	short ladder slot 3: extra bits 3 in place of 4
+short-4-base+1	short ladder slot 4: base 33 in place of 32
+short-4-base-1	short ladder slot 4: base 31 in place of 32
+short-4-bits+1	short ladder slot 4: extra bits 6 in place of 5
+short-4-bits-1	short ladder slot 4: extra bits 4 in place of 5
+short-5-base+1	short ladder slot 5: base 65 in place of 64
+short-5-base-1	short ladder slot 5: base 63 in place of 64
+short-5-bits+1	short ladder slot 5: extra bits 7 in place of 6
+short-5-bits-1	short ladder slot 5: extra bits 5 in place of 6
+short-6-base+1	short ladder slot 6: base 129 in place of 128
+short-6-base-1	short ladder slot 6: base 127 in place of 128
+short-6-bits+1	short ladder slot 6: extra bits 7 in place of 6
+short-6-bits-1	short ladder slot 6: extra bits 5 in place of 6
+short-7-base+1	short ladder slot 7: base 193 in place of 192
+short-7-base-1	short ladder slot 7: base 191 in place of 192
+short-7-bits+1	short ladder slot 7: extra bits 7 in place of 6
+short-7-bits-1	short ladder slot 7: extra bits 5 in place of 6

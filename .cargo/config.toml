@@ -1,0 +1,48 @@
+
+# EVERY FUNCTION STARTS ON A 64-BYTE LINE on Apple aarch64
+# (measured as a release setting, 27 Sep 2026). Without it an edit anywhere, even in
+# rarkit-cli alone, shifts every later function, so the engine's loops
+# move across fetch lines between builds whose engine text is identical:
+# 940 of 1226 unchanged rarkit functions moved start modulo 64 on a
+# CLI-only commit. With it, 0 move. It changes no instruction of any
+# rarkit function (only the padding between functions, never executed)
+# and costs about 4 percent of __text. Loop alignment (-align-loops) was
+# counted and REFUSED: its padding runs, +0.8 percent instructions.
+#
+# It applies to every profile and every crate built in THIS workspace,
+# the old arm inside `two_arm` included, and reaches `make release-pgo`
+# (whose flags ride RUSTC_WRAPPER). It does NOT reach a crate that depends
+# on rarkit from another workspace, and a RUSTFLAGS environment variable
+# replaces it. x86-64
+# (measured 27 Sep 2026): counted on a small x86-64 VPS
+# and timed on a Zen 4. Other targets are unmeasured and keep the default.
+[target.'cfg(any(all(target_arch = "aarch64", target_vendor = "apple"), target_arch = "x86_64"))']
+rustflags = ["-Cllvm-args=-align-all-functions=6"]
+
+# `pinned`: A MEASURING PROFILE, NOT THE SHIPPED BUILD
+# (the codegen-unit drift, measured 30 Sep 2026).
+# The release profile splits the `rarkit` crate into 16 codegen units, and
+# an edit anywhere in the crate re-partitions it, which decides what
+# inlines into what. On Apple aarch64 a plain release `rarfast` therefore
+# moves 3 to 5 percent in INSTRUCTIONS between two commits whose decode
+# path is identical (two revisions apart: text64 t -mt1 +5.06 percent);
+# the function alignment above cannot reach it, because it is code, not
+# placement. Built with `--profile pinned`, the same pair reads within
+# 0.13 percent on every row. Use it to A/B two commits by count on aarch64:
+#
+#     cargo build --profile pinned -p rarkit-cli     (target/pinned/rarfast)
+#
+# It is NOT the release setting, for three measured reasons: on x86-64 it
+# adds 3 to 12 percent instructions to the gate's serial legs; through
+# `make release-pgo` (the shipped build) it turns a 0.5 percent pair swing
+# into 8 to 18 percent; and every-crate forms move the old arm's gate
+# figures. The oracle arm and every dependency keep their defaults here.
+[profile.pinned]
+inherits = "release"
+
+[profile.pinned.package.rarkit]
+codegen-units = 1
+
+# The commit this tree was exported from: `rarfast --version` prints it.
+[env]
+RARFAST_BUILD_COMMIT = "a2ed2900a9f91acc4b180caea86d203a4bf83b4e"

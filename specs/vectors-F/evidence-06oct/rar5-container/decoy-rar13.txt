@@ -1,0 +1,30 @@
+arm: decoy-rar13
+about: the four bytes RE~^ and 60 bytes of 0xEE, then the sound archive
+file: x.rar  201 bytes  sha256 41d762deec51475d92851fee2f9ed9c6d3a744db944f6bf788260146d3b11d2a
+$ unrar lt -p- x.rar
+exit 0
+  Archive comment:
+  ￾Rar!
+  Archive: x.rar
+  Details: RAR 1.4, solid, lock
+$ unrar t -p- x.rar
+exit 10
+  Archive comment:
+  ￾Rar!
+  Testing archive x.rar
+  No files to extract
+$ unrar p -inul -p- x.rar
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  Archive comment:
+  ￾Rar!
+  Archive: x.rar
+  Details: RAR 1.4, solid, lock
+$ rar t -p- x.rar
+exit 10
+  Archive comment:
+  ￾Rar!
+  Testing archive x.rar
+  No files to extract

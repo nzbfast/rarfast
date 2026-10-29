@@ -1,0 +1,3 @@
+reading	what it is
+input-one-byte	past the end of a member's packed data the input reads as zero bits; a main symbol whose first bit is fewer than 8 bits past the end is decoded, and at the first one that would begin 8 or more bits past it the member stops
+input-zero-filled	past the end of a member's packed data the input reads as zero bits without limit

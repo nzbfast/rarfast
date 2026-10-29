@@ -1,0 +1,25 @@
+program	group	arm	lt exit	t exit	x exit	lt entries	second entry has	t OK	t ?	t checksum error	t corrupt	members	other files	of them b.txt's bytes	first other name's length
+rar	name	crc.name+3	0	0	0	3	c	3	0	0	0	=.=	1	1	8
+rar	name	crc.name+3+hdrcrc	3	3	3	3	c	3	0	0	2	=.=	1	1	8
+rar	name	crc.name-to-end	0	0	0	3	c	3	0	0	0	=.=	1	1	8
+rar	name	crc.name-to-end+hdrcrc	3	3	3	3	c	3	0	0	2	=.=	1	1	8
+rar	name	crc.name-past-end	0	0	0	3	c	3	0	0	0	=.=	1	1	8
+rar	name	crc.name-past-end+hdrcrc	3	3	3	3	c	3	0	0	2	=.=	1	1	8
+rar	name	crc.name-2byte	0	0	0	3	c	3	0	0	0	=.=	1	1	8
+rar	name	crc.name-2byte+hdrcrc	3	3	3	3	c	3	0	0	2	=.=	1	1	8
+rar	name	nosum.name+3	0	0	0	3	-	2	1	0	0	=.=	1	1	8
+rar	name	nosum.name-to-end	0	0	0	3	-	2	1	0	0	=.=	1	1	8
+rar	name	nosum.name-past-end	0	0	0	3	-	2	1	0	0	=.=	1	1	8
+rar	name	nosum.name-2byte	0	0	0	3	-	2	1	0	0	=.=	1	1	8
+rar	name	blake.name+3	0	0	0	3	-	2	1	0	0	=.=	1	1	7
+rar	name	blake.name+3+hdrcrc	3	3	3	3	-	2	1	0	2	=.=	1	1	7
+rar	name	blake.name-to-end	0	0	0	3	-	2	1	0	0	=.=	1	1	7
+rar	name	blake.name-to-end+hdrcrc	3	3	3	3	-	2	1	0	2	=.=	1	1	7
+rar	name	blake.name-past-end	0	0	0	3	-	2	1	0	0	=.=	1	1	7
+rar	name	blake.name-past-end+hdrcrc	3	3	3	3	-	2	1	0	2	=.=	1	1	7
+rar	name	blake.name-2byte	0	0	0	3	-	2	1	0	0	=.=	1	1	7
+rar	name	blake.name-2byte+hdrcrc	3	3	3	3	-	2	1	0	2	=.=	1	1	7
+rar	name	blake+data.name+3	0	0	0	3	-	2	1	0	0	=.=	1	0	7
+rar	name	blake+data.name-to-end	0	0	0	3	-	2	1	0	0	=.=	1	0	7
+rar	name	blake+data.name-past-end	0	0	0	3	-	2	1	0	0	=.=	1	0	7
+rar	name	blake+data.name-2byte	0	0	0	3	-	2	1	0	0	=.=	1	0	7

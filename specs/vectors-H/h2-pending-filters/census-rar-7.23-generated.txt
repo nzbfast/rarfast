@@ -1,0 +1,14 @@
+image.bin: 29 executables, 7239880 bytes; sound.raw: 4194304 bytes
+pend_image_m1.rar rc=0 2997463 bytes
+pend_sound_m1.rar rc=0 4004930 bytes
+pend_image_m3.rar rc=0 2221791 bytes
+pend_sound_m3.rar rc=0 3110714 bytes
+pend_image_m5.rar rc=0 2211689 bytes
+pend_sound_m5.rar rc=0 3099287 bytes
+pend_image_m1.rar	image.bin	7239880 bytes	records 0	by type {}	longest span 0	most waiting at once 0
+pend_image_m3.rar	image.bin	7239880 bytes	records 275	by type {0: 119, 1: 18, 2: 138}	longest span 65536	most waiting at once 20
+pend_image_m5.rar	image.bin	7239880 bytes	records 275	by type {0: 119, 1: 18, 2: 138}	longest span 65536	most waiting at once 20
+pend_sound_m1.rar	sound.raw	4194304 bytes	records 0	by type {}	longest span 0	most waiting at once 0
+pend_sound_m3.rar	sound.raw	4194304 bytes	records 305	by type {0: 305}	longest span 65536	most waiting at once 6
+pend_sound_m5.rar	sound.raw	4194304 bytes	records 305	by type {0: 305}	longest span 65536	most waiting at once 6
+records in all 1160; most waiting at once in any member 20

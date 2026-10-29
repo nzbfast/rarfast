@@ -1,0 +1,162 @@
+variant	section	other reading	streams on which it gives other bytes
+floor_bytes	3.4	unit region of floor(7S/8) rounded to units, not 84*floor(S/96)	m31_arena_random_o3
+floor_3_4	3.4	unit region of six units in eight	m33_arena_shrink_o4,m32_arena_random64_o4
+root_not_counted	3.5	the root context takes no unit from the top of the gap	m21_steered_r32,m13_lowent_o64
+root_127	3.5	the root's array takes 127 units, not 128	m21_steered_r32,m13_lowent_o64
+fifo	3.4.1	free lists first-in-first-out	m33_arena_shrink_o4,m32_arena_random64_o4
+take_gap_first	3.4.2	an array is taken from the gap before the free list	m33_arena_shrink_o4,m32_arena_random64_o4
+ctx_list_first	3.4.2	a context is taken from the free list before the gap	m33_arena_shrink_o4,m32_arena_random64_o4
+ctx_from_lo	3.4.2	a context is taken from the bottom of the gap	m33_arena_shrink_o4,m32_arena_random64_o4
+no_borrow	3.4.2	the unit region never grows downward	m21_steered_r32,m13_lowent_o64
+borrow_ge	3.4.2	it grows when the room equals the request	m11_mix_o4
+glue_never	3.4.2	free blocks are never merged	m33_arena_shrink_o4,m32_arena_random64_o4
+glue_always	3.4.2	free blocks are merged at every shortage	m13_lowent_o64,m14_mix_o22
+glue_254	3.4.4	the countdown restarts at 254	m32_arena_random64_o4
+glue_back	3.4.4	the gathered blocks are walked in the opposite order	m32_arena_random64_o4
+glue_nomerge	3.4.4	blocks are gathered and re-filed but adjacent ones not merged	m33_arena_shrink_o4,m32_arena_random64_o4
+shrink_split_always	3.4.2	a shrinking array is always split in place	m33_arena_shrink_o4
+grow_no_free	3.4.2	a grown array's old block is not given back	m21_steered_r32,m13_lowent_o64
+rescale_no_release	3.8	the array of a context that became binary is not given back	m21_steered_r32,m14_mix_o22
+rescale_no_shrink	3.8	an array that lost states keeps its block	m33_arena_shrink_o4,m11_mix_o4
+text_gt	3.9.2	restart when the text passes the unit region, not when it reaches it	m21_steered_r32,m28_steered_r4
+text_no_dec	3.9.2	the text position is not taken back by one at full order	m21_steered_r32,m33_arena_shrink_o4
+fall_minus1	3.5	the fall counter starts one lower	m03_skew_o4,m04_skew_o16
+run_nocap	3.5	the run start value is not capped at order 12	m04_skew_o16,m21_steered_r32
+run_no1	3.5	the run start value is minus min(order, 12), without the further 1	m03_skew_o4,m04_skew_o16
+root_total_256	3.5	the root's total starts at 256	m03_skew_o4,m04_skew_o16
+restart_keeps_tables	3.5	a restart on exhaustion keeps the two tables	m21_steered_r32,m13_lowent_o64
+p_cols_swapped	3.5	the eight start values are laid along the other index of a row	m03_skew_o4,m04_skew_o16
+p_row_plus1	3.5	the row divisor is i + 1	m03_skew_o4,m04_skew_o16
+q_init_x4	3.5	estimator sums start at (5i+10)*4	m03_skew_o4,m04_skew_o16
+q_count_7	3.5	estimator counts start at 7	m03_skew_o4,m04_skew_o16
+q_shift_4	3.5	estimator shifts start at 4	m03_skew_o4,m04_skew_o16
+bot16	3.6	the range floor is 2^16	m03_skew_o4,m04_skew_o16
+init_skip1	3.6	one byte is passed over before the four of the code	m03_skew_o4,m04_skew_o16
+bin15	3.6	a binary decision divides the range by 2^15	m03_skew_o4,m04_skew_o16
+lasthit_ge	3.7	a first-state hit counts when twice its frequency equals the total	m03_skew_o4,m04_skew_o16
+lasthit_keep	3.7	the hit flag is left as it was on a later-state hit and on an escape	m03_skew_o4,m04_skew_o16
+run_no_inc_a	3.7	the run counter does not rise on a first-state hit	m03_skew_o4,m04_skew_o16
+run_no_inc_b	3.7	the run counter does not rise on a binary hit	m03_skew_o4,m04_skew_o16
+run_no_reset	3.7	the run counter is not put back after an escape	m03_skew_o4,m04_skew_o16
+swap_ge	3.7	a later state moves up when its frequency equals the one before	m03_skew_o4,m04_skew_o16
+rescale_any	3.7	a later state passing 124 rescales whether or not it moved up	NONE
+esc_no_rescale	3.7	a state found after an escape never rescales	m01_text_o8,m07_lowent_o6
+high_stale_a	3.7	the high flag is not set when a multi-state context escapes	m03_skew_o4,m04_skew_o16
+high_stale_b	3.7	the high flag is not set in a binary context	m03_skew_o4,m04_skew_o16
+col_no_lasthit	3.7	the column leaves out the hit flag	m03_skew_o4,m04_skew_o16
+col_no_binclass	3.7	the column leaves out the parent's size class	m03_skew_o4,m04_skew_o16
+col_no_high	3.7	the column leaves out the high flag	m03_skew_o4,m04_skew_o16
+col_no_symhigh	3.7	the column leaves out the context's own symbol's high bit	m03_skew_o4,m04_skew_o16
+col_no_run	3.7	the column leaves out the run term	m03_skew_o4,m04_skew_o16
+col_run_le0	3.7	the run term also counts a run of exactly 0	m03_skew_o4,m04_skew_o16
+mean_no_round	3.7	the probability step is floor(p / 128)	m03_skew_o4,m04_skew_o16
+bin_cap_127	3.8	a binary context's frequency stops at 127	m03_skew_o4,m04_skew_o16
+bin_cap_none	3.8	a binary context's frequency does not stop at 128	m03_skew_o4,m04_skew_o16
+escinit_old_p	3.7	the escape start value is looked up with the probability before its update	m03_skew_o4,m04_skew_o16
+fall_no_inc	3.7	the fall counter does not rise on a climb	m03_skew_o4,m04_skew_o16
+root_estimator	3.7	a context of 256 symbols uses an estimator	m03_skew_o4,m04_skew_o16
+q_no_diff	3.7	the estimator index leaves out the parent comparison	m03_skew_o4,m04_skew_o16
+q_no_total	3.7	the estimator index leaves out the total comparison	m03_skew_o4,m04_skew_o16
+q_total_le	3.7	the total comparison is total <= 11 * count	m03_skew_o4,m04_skew_o16
+q_no_masked	3.7	the estimator index leaves out the masked comparison	m03_skew_o4,m04_skew_o16
+q_masked_ge	3.7	the masked comparison is masked >= unmasked	m03_skew_o4,m04_skew_o16
+q_no_high	3.7	the estimator index leaves out the high flag	m03_skew_o4,m04_skew_o16
+q_no_sub	3.7	the estimate is not subtracted from the sum	m03_skew_o4,m04_skew_o16
+x_zero	3.7	an estimate of 0 is used as 0	m03_skew_o4,m04_skew_o16
+q_no_update	3.7	the estimator's count is not stepped on success	m03_skew_o4,m04_skew_o16
+q_period_8	3.7	the estimator's shift may rise to 8	m01_text_o8,m05_wide_o2
+q_no_add	3.7	the estimator's sum is not raised on an escape	m03_skew_o4,m04_skew_o16
+rescale_no_front	3.8	rescale does not move the found state to the front	m01_text_o8,m08_lowent_o3
+adder_0	3.8	rescale never rounds up	m01_text_o8,m07_lowent_o6
+adder_1	3.8	rescale always rounds up	m03_skew_o4,m04_skew_o16
+rescale_no_plus4	3.8	rescale does not add the further 4 to the found state	m03_skew_o4,m04_skew_o16
+rescale_past_equal	3.8	a state moves left past equal frequencies	m01_text_o8,m07_lowent_o6
+rescale_z_not_added	3.8	dropped states are not added to the escape allowance	m03_skew_o4,m04_skew_o16
+bin_while	3.8	the halving of a context that became binary may run zero times	NONE
+esc_half_down	3.8	the escape allowance is halved rounding down	m03_skew_o4,m04_skew_o16
+no_reinforce	3.9.2	the parent is not reinforced	m03_skew_o4,m04_skew_o16
+reinforce_32	3.9.2	the parent is reinforced when the frequency is below 32	m04_skew_o16,m01_text_o8
+reinforce_bin_33	3.9.2	a binary parent rises while below 33	m07_lowent_o6,m06_wide_o3
+reinforce_swap_gt	3.9.2	the parent's state moves up only when strictly greater	m03_skew_o4,m04_skew_o16
+reinforce_116	3.9.2	a multi-state parent rises while below 116	m01_text_o8,m07_lowent_o6
+s0_no_fq	3.9.2	s0 leaves out the found frequency	m03_skew_o4,m04_skew_o16
+tot_no_a	3.9.2	the total's first increment is left out	m03_skew_o4,m04_skew_o16
+tot_a_le	3.9.2	the first increment tests 2k <= ns	m03_skew_o4,m04_skew_o16
+tot_no_b	3.9.2	the total's second increment is left out	m03_skew_o4,m04_skew_o16
+tot_b_lt	3.9.2	the second increment tests 4k < ns	m01_text_o8,m07_lowent_o6
+tot_b8_lt	3.9.2	the second increment tests total < 8k	m04_skew_o16,m01_text_o8
+bin2multi_31	3.9.2	a binary context's frequency doubles while below 31	m07_lowent_o6,m08_lowent_o3
+bin2multi_124	3.9.2	otherwise it becomes 124	m03_skew_o4,m04_skew_o16
+no_esc_init	3.9.2	the new total leaves out the escape start value	m03_skew_o4,m04_skew_o16
+ns_gt_2	3.9.2	the new total's last term tests ns > 2	m03_skew_o4,m04_skew_o16
+cf_plus5	3.9.2	cf uses total + 5	m03_skew_o4,m04_skew_o16
+cf_lt5	3.9.2	the split is at cf < 5 * sf	m03_skew_o4,m04_skew_o16
+cf_ge_sf	3.9.2	the first low step tests cf >= sf	m04_skew_o16,m01_text_o8
+cf_gt4	3.9.2	the second low step tests cf > 4 * sf	m04_skew_o16,m01_text_o8
+tot_plus4	3.9.2	the low branch adds 4 to the total	m03_skew_o4,m04_skew_o16
+cf_gt9	3.9.2	the first high step tests cf > 9 * sf	m03_skew_o4,m04_skew_o16
+cf_gt12	3.9.2	the second high step tests cf > 12 * sf	m03_skew_o4,m04_skew_o16
+cf_gt15	3.9.2	the third high step tests cf > 15 * sf	m03_skew_o4,m04_skew_o16
+succ_bin_freq_1	3.9.3	a new context under a binary one starts at frequency 1	m03_skew_o4,m04_skew_o16
+succ_2cf_lt	3.9.3	the new frequency's split tests 2cf < s0	NONE
+succ_5cf_ge	3.9.3	the low form tests 5cf >= s0	m04_skew_o16,m01_text_o8
+succ_no_minus1	3.9.3	the high form leaves out the minus 1	m03_skew_o4,m04_skew_o16
+init_bin_0	3.11	init_bin[0] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_1	3.11	init_bin[1] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_2	3.11	init_bin[2] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_3	3.11	init_bin[3] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_4	3.11	init_bin[4] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_5	3.11	init_bin[5] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_6	3.11	init_bin[6] larger by 64	m03_skew_o4,m04_skew_o16
+init_bin_7	3.11	init_bin[7] larger by 64	m01_text_o8,m07_lowent_o6
+esc_after_binary_0	3.11	esc_after_binary[0] larger by 1	m01_text_o8,m21_steered_r32
+esc_after_binary_1	3.11	esc_after_binary[1] larger by 1	m01_text_o8,m21_steered_r32
+esc_after_binary_2	3.11	esc_after_binary[2] larger by 1	m01_text_o8,m21_steered_r32
+esc_after_binary_3	3.11	esc_after_binary[3] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_4	3.11	esc_after_binary[4] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_5	3.11	esc_after_binary[5] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_6	3.11	esc_after_binary[6] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_7	3.11	esc_after_binary[7] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_8	3.11	esc_after_binary[8] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_9	3.11	esc_after_binary[9] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_10	3.11	esc_after_binary[10] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_11	3.11	esc_after_binary[11] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_12	3.11	esc_after_binary[12] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_13	3.11	esc_after_binary[13] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_14	3.11	esc_after_binary[14] larger by 1	m03_skew_o4,m04_skew_o16
+esc_after_binary_15	3.11	esc_after_binary[15] larger by 1	m03_skew_o4,m04_skew_o16
+bin_class_0	3.11	bin_class[0] = 2	m03_skew_o4,m04_skew_o16
+bin_class_1	3.11	bin_class[1] = 4	m03_skew_o4,m04_skew_o16
+bin_class_2	3.11	bin_class[2] = 2	m03_skew_o4,m04_skew_o16
+bin_class_10	3.11	bin_class[10] = 6	m01_text_o8,m07_lowent_o6
+bin_class_11	3.11	bin_class[11] = 4	m01_text_o8,m07_lowent_o6
+esc_class_edge_1	3.11	esc_class[1] = 0 (the run before it one longer)	m03_skew_o4,m04_skew_o16
+esc_class_edge_2	3.11	esc_class[2] = 1 (the run before it one longer)	m03_skew_o4,m04_skew_o16
+esc_class_edge_3	3.11	esc_class[3] = 2 (the run before it one longer)	m03_skew_o4,m04_skew_o16
+esc_class_edge_4	3.11	esc_class[4] = 3 (the run before it one longer)	m04_skew_o16,m01_text_o8
+esc_class_edge_6	3.11	esc_class[6] = 4 (the run before it one longer)	m01_text_o8,m07_lowent_o6
+esc_class_edge_9	3.11	esc_class[9] = 5 (the run before it one longer)	m01_text_o8,m07_lowent_o6
+esc_class_edge_13	3.11	esc_class[13] = 6 (the run before it one longer)	m01_text_o8,m07_lowent_o6
+esc_class_edge_18	3.11	esc_class[18] = 7 (the run before it one longer)	m01_text_o8,m07_lowent_o6
+esc_class_edge_24	3.11	esc_class[24] = 8 (the run before it one longer)	m01_text_o8,m07_lowent_o6
+esc_class_edge_31	3.11	esc_class[31] = 9 (the run before it one longer)	m08_lowent_o3,m21_steered_r32
+esc_class_edge_39	3.11	esc_class[39] = 10 (the run before it one longer)	m08_lowent_o3,m21_steered_r32
+esc_class_edge_48	3.11	esc_class[48] = 11 (the run before it one longer)	m08_lowent_o3,m02_random_o2
+esc_class_edge_58	3.11	esc_class[58] = 12 (the run before it one longer)	m08_lowent_o3,m05_wide_o2
+esc_class_edge_69	3.11	esc_class[69] = 13 (the run before it one longer)	m08_lowent_o3,m05_wide_o2
+esc_class_edge_81	3.11	esc_class[81] = 14 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_94	3.11	esc_class[94] = 15 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_108	3.11	esc_class[108] = 16 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_123	3.11	esc_class[123] = 17 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_139	3.11	esc_class[139] = 18 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_156	3.11	esc_class[156] = 19 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_174	3.11	esc_class[174] = 20 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_193	3.11	esc_class[193] = 21 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_213	3.11	esc_class[213] = 22 (the run before it one longer)	m05_wide_o2,m06_wide_o3
+esc_class_edge_234	3.11	esc_class[234] = 23 (the run before it one longer)	m06_wide_o3
+units_of_3	3.4.1	units_of[3] = 5	m21_steered_r32,m13_lowent_o64
+units_of_4	3.4.1	units_of[4] = 7	m21_steered_r32,m13_lowent_o64
+units_of_8	3.4.1	units_of[8] = 16	m21_steered_r32,m13_lowent_o64
+units_of_11	3.4.1	units_of[11] = 25	m21_steered_r32,m14_mix_o22
+units_of_12	3.4.1	units_of[12] = 29	m14_mix_o22,m33_arena_shrink_o4
+units_of_20	3.4.1	units_of[20] = 61	m33_arena_shrink_o4,m32_arena_random64_o4

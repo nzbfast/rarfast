@@ -1,0 +1,179 @@
+program	arm	password	exit	says recovery record found	says not found	says corrupt	says done	says password	files left
+rar	single150.nohdr	-	0	1	0	0	1	0	-
+rar	single150.nohdr+payload	-	0	1	0	1	1	0	fixed.outer.rar=outer(6156)
+rar	single150.nohdr+sig+payload	-	0	1	0	2	1	0	fixed.outer.rar=outer(6156)
+rar	outer150w.nohdr	-	0	1	0	0	1	0	fixed1.outer.rar=INNER(16262) fixed2.outer.rar=outer(17163)
+rar	outer150w.nohdr+small	-	0	1	0	1	1	0	fixed1.outer.rar=INNER(16262) fixed2.outer.rar=outer(17163)
+rar	outer150w.nohdr+sig+small	-	0	1	0	2	1	0	fixed1.outer.rar=INNER(16262) fixed2.outer.rar=outer(17163)
+rar	hp150.whole	given	0	1	0	0	1	0	-
+rar	hp150.whole	none	11	1	0	0	1	1	-
+rar	hp150.whole	wrong	11	1	0	0	1	1	-
+rar	hp150.data	given	0	1	0	1	1	0	fixed.outer.rar=outer(16990)
+rar	hp150.data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.sig	given	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.sig	none	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.sig	wrong	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.enchdr	given	3	1	0	4	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.enchdr	none	3	1	0	7	1	1	fixed.outer.rar=outer(6430)
+rar	hp150.enchdr	wrong	3	1	0	4	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrhdr	given	3	1	0	2	1	1	-
+rar	hp150.rrhdr	none	11	1	0	0	1	1	-
+rar	hp150.rrhdr	wrong	11	1	0	0	1	1	-
+rar	hp150.sig+data	given	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.sig+data	none	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.sig+data	wrong	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.enchdr+data	given	3	1	0	5	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.enchdr+data	none	3	1	0	8	1	1	fixed.outer.rar=outer(6430)
+rar	hp150.enchdr+data	wrong	3	1	0	5	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrhdr+data	given	3	1	0	3	1	1	fixed.outer.rar=outer(6430)
+rar	hp150.rrhdr+data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrhdr+data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrzero+data	given	3	1	0	3	1	1	fixed.outer.rar=outer(6430)
+rar	hp150.rrzero+data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrzero+data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp150.rrzero+sig+data	given	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.rrzero+sig+data	none	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.rrzero+sig+data	wrong	0	1	0	2	1	0	fixed.outer.rar=outer(6430)
+rar	hp150.rrgone+data	given	10	0	1	0	1	0	-
+rar	hp150.rrgone+data	none	10	0	2	0	1	1	-
+rar	hp150.rrgone+data	wrong	10	0	2	0	1	1	-
+rar	hp20.whole	given	0	1	0	0	1	0	-
+rar	hp20.whole	none	11	1	0	0	1	1	-
+rar	hp20.whole	wrong	11	1	0	0	1	1	-
+rar	hp20.data	given	0	1	0	1	1	0	fixed.outer.rar=outer(7558)
+rar	hp20.data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.sig	given	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp20.sig	none	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp20.sig	wrong	0	1	0	1	1	0	fixed.outer.rar=outer(6430)
+rar	hp20.enchdr	given	3	1	0	4	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.enchdr	none	3	1	0	4	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.enchdr	wrong	3	1	0	4	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.rrhdr	given	3	1	0	2	1	1	-
+rar	hp20.rrhdr	none	11	1	0	0	1	1	-
+rar	hp20.rrhdr	wrong	11	1	0	0	1	1	-
+rar	hp20.sig+data	given	10	1	1	2	1	0	-
+rar	hp20.sig+data	none	10	1	1	2	1	0	-
+rar	hp20.sig+data	wrong	10	1	1	2	1	0	-
+rar	hp20.enchdr+data	given	10	1	1	5	1	1	-
+rar	hp20.enchdr+data	none	10	1	1	5	1	1	-
+rar	hp20.enchdr+data	wrong	10	1	1	5	1	1	-
+rar	hp20.rrhdr+data	given	3	1	0	3	1	1	fixed.outer.rar=outer(6430)
+rar	hp20.rrhdr+data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.rrhdr+data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.rrzero+data	given	3	1	0	3	1	1	fixed.outer.rar=outer(6430)
+rar	hp20.rrzero+data	none	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.rrzero+data	wrong	11	1	0	1	1	1	fixed.outer.rar=outer(6438)
+rar	hp20.rrzero+sig+data	given	10	1	1	2	1	0	-
+rar	hp20.rrzero+sig+data	none	10	1	1	2	1	0	-
+rar	hp20.rrzero+sig+data	wrong	10	1	1	2	1	0	-
+rar	hp20.rrgone+data	given	10	0	1	0	1	0	-
+rar	hp20.rrgone+data	none	10	0	2	0	1	1	-
+rar	hp20.rrgone+data	wrong	10	0	2	0	1	1	-
+rar	ohp-iclear.whole	given	0	1	0	0	1	0	-
+rar	ohp-iclear.whole	none	11	1	0	0	1	1	-
+rar	ohp-iclear.whole	wrong	11	1	0	0	1	1	-
+rar	ohp-iclear.data	given	0	1	0	2	1	0	fixed.outer.rar=outer(21168)
+rar	ohp-iclear.data	none	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.sig	given	0	1	0	1	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.sig	none	0	1	0	1	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.sig	wrong	0	1	0	1	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.enchdr	given	3	1	0	4	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.enchdr	none	3	1	0	7	1	1	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.enchdr	wrong	3	1	0	4	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrhdr	given	3	1	0	2	1	1	-
+rar	ohp-iclear.rrhdr	none	11	1	0	0	1	1	-
+rar	ohp-iclear.rrhdr	wrong	11	1	0	0	1	1	-
+rar	ohp-iclear.sig+data	given	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.sig+data	none	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.sig+data	wrong	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.enchdr+data	given	3	1	0	6	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.enchdr+data	none	3	1	0	9	1	1	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.enchdr+data	wrong	3	1	0	6	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrhdr+data	given	3	1	0	4	1	1	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.rrhdr+data	none	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrhdr+data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrzero+data	given	3	1	0	4	1	1	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.rrzero+data	none	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrzero+data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(17526)
+rar	ohp-iclear.rrzero+sig+data	given	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.rrzero+sig+data	none	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.rrzero+sig+data	wrong	0	1	0	3	1	0	fixed.outer.rar=outer(17518)
+rar	ohp-iclear.rrgone+data	given	10	0	1	0	1	0	-
+rar	ohp-iclear.rrgone+data	none	10	0	2	0	1	1	-
+rar	ohp-iclear.rrgone+data	wrong	10	0	2	0	1	1	-
+rar	ohp-ihp.whole	given	0	1	0	0	1	0	-
+rar	ohp-ihp.whole	none	11	1	0	0	1	1	-
+rar	ohp-ihp.whole	wrong	11	1	0	0	1	1	-
+rar	ohp-ihp.data	given	0	1	0	2	1	0	fixed.outer.rar=outer(22008)
+rar	ohp-ihp.data	none	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.sig	given	0	1	0	1	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.sig	none	0	1	0	1	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.sig	wrong	0	1	0	1	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.enchdr	given	3	1	0	7	1	1	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.enchdr	none	3	1	0	4	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.enchdr	wrong	3	1	0	4	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrhdr	given	3	1	0	2	1	1	-
+rar	ohp-ihp.rrhdr	none	11	1	0	0	1	1	-
+rar	ohp-ihp.rrhdr	wrong	11	1	0	0	1	1	-
+rar	ohp-ihp.sig+data	given	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.sig+data	none	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.sig+data	wrong	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.enchdr+data	given	3	1	0	9	1	1	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.enchdr+data	none	3	1	0	6	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.enchdr+data	wrong	3	1	0	6	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrhdr+data	given	3	1	0	4	1	1	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.rrhdr+data	none	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrhdr+data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrzero+data	given	3	1	0	4	1	1	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.rrzero+data	none	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrzero+data	wrong	11	1	0	2	1	1	fixed.outer.rar=outer(18246)
+rar	ohp-ihp.rrzero+sig+data	given	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.rrzero+sig+data	none	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.rrzero+sig+data	wrong	0	1	0	3	1	0	fixed.outer.rar=outer(18238)
+rar	ohp-ihp.rrgone+data	given	10	0	1	0	1	0	-
+rar	ohp-ihp.rrgone+data	none	10	0	2	0	1	1	-
+rar	ohp-ihp.rrgone+data	wrong	10	0	2	0	1	1	-
+rar	oclear-ihp.whole	given	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.whole	none	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.whole	wrong	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.data	given	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.data	none	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.data	wrong	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.sig	given	0	1	0	1	1	0	fixed1.outer.rar=INNER(21470) fixed2.outer.rar=outer(32923)
+rar	oclear-ihp.sig	none	11	1	0	1	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.sig	wrong	11	1	0	1	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.enchdr	given	3	1	0	7	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.enchdr	none	3	1	0	7	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.enchdr	wrong	3	1	0	7	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.rrhdr	given	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrhdr	none	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrhdr	wrong	0	1	0	0	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.sig+data	given	3	1	0	5	1	0	fixed1.outer.rar=INNER(21470) fixed2.outer.rar=outer(32923)
+rar	oclear-ihp.sig+data	none	11	1	0	5	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.sig+data	wrong	11	1	0	5	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.enchdr+data	given	3	1	0	11	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.enchdr+data	none	3	1	0	11	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.enchdr+data	wrong	3	1	0	11	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(21544)
+rar	oclear-ihp.rrhdr+data	given	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrhdr+data	none	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrhdr+data	wrong	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrzero+data	given	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrzero+data	none	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrzero+data	wrong	3	1	0	4	1	0	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrzero+sig+data	given	3	1	0	5	1	0	fixed1.outer.rar=INNER(21470) fixed2.outer.rar=outer(32923)
+rar	oclear-ihp.rrzero+sig+data	none	11	1	0	5	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrzero+sig+data	wrong	11	1	0	5	1	1	fixed1.outer.rar=INNER(6438) fixed2.outer.rar=outer(17891)
+rar	oclear-ihp.rrgone+data	given	3	1	0	1	1	0	fixed.outer.rar=INNER(6438)
+rar	oclear-ihp.rrgone+data	none	3	1	0	1	1	0	fixed.outer.rar=INNER(6438)
+rar	oclear-ihp.rrgone+data	wrong	3	1	0	1	1	0	fixed.outer.rar=INNER(6438)
+rar	plain.whole	-	0	0	1	0	1	0	rebuilt.outer.rar=members[inner.rar,small.bin](7036)
+rar	plain.byte3	-	0	0	1	0	1	0	rebuilt.outer.rar=members[inner.rar,small.bin](7036)
+rar	plain.main	-	12	0	1	5	0	0	-
+rar	plain.byte3+main	-	12	0	1	1	0	0	-
+rar	plain.headgone	-	0	0	1	0	1	0	rebuilt.outer.rar=members[payload.bin](6968)
+rar	plain.stub	-	0	0	1	0	1	0	rebuilt.outer.rar=members[inner.rar,small.bin](7036)
+rar	plain.stub+byte3	-	0	0	1	0	1	0	rebuilt.outer.rar=members[inner.rar,small.bin](7036)

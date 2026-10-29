@@ -1,0 +1,51 @@
+## fuzzw-09oct, the last seven segments (02:01Z to 05:46Z on 10 Oct), as the driver printed them
+== segment 1 of 7, 1800 s, 2026-10-10T02:03:31Z
+[03:41:27] done fuzz:write_volumes rc=0 1802 s execs=113084 cov=15608
+[03:42:34] done fuzz:write_members rc=0 1869 s execs=40125 cov=17462
+== segment 2 of 7, 1800 s, 2026-10-10T02:42:36Z
+[04:12:42] done fuzz:write_volumes rc=0 1802 s execs=110036 cov=15701
+[04:13:14] done fuzz:write_members rc=0 1833 s execs=54872 cov=17539
+== segment 3 of 7, 1800 s, 2026-10-10T03:13:16Z
+[04:43:22] done fuzz:write_volumes rc=0 1802 s execs=104700 cov=15722
+[04:43:46] done fuzz:write_members rc=0 1826 s execs=39381 cov=17584
+== segment 4 of 7, 1800 s, 2026-10-10T03:43:48Z
+[05:13:54] done fuzz:write_volumes rc=0 1802 s execs=104923 cov=15734
+[05:15:19] done fuzz:write_members rc=0 1886 s execs=47132 cov=17654
+== segment 5 of 7, 1800 s, 2026-10-10T04:15:21Z
+[05:45:28] done fuzz:write_volumes rc=0 1802 s execs=102797 cov=15756
+[05:45:28] done fuzz:write_members rc=0 1802 s execs=59603 cov=17708
+== segment 6 of 7, 1800 s, 2026-10-10T04:45:30Z
+[06:15:37] done fuzz:write_volumes rc=0 1802 s execs=100470 cov=15771
+[06:15:37] done fuzz:write_members rc=0 1802 s execs=60855 cov=17746
+== segment 7 of 7, 1800 s, 2026-10-10T05:15:39Z
+[06:45:46] done fuzz:write_volumes rc=0 1802 s execs=101902 cov=15815
+[06:45:47] done fuzz:write_members rc=0 1802 s execs=41681 cov=17777
+## fuzz6-09oct, the last seven segments (02:01Z to 05:46Z on 10 Oct), as the driver printed them
+== segment 1 of 7, 1800 s, 2026-10-10T02:01:38Z
+[03:11:42] done fuzz:rar5_oracle_reframe rc=77 137 s execs=99297 cov=12821  panicked at fuzz_targets/oracle_support.rs:683:27:
+[03:39:26] done fuzz:rar5_member rc=0 1802 s execs=2397571 cov=3963
+[03:39:26] done fuzz:rar5_solid_chain rc=0 1802 s execs=3400748 cov=5628
+== segment 2 of 7, 1800 s, 2026-10-10T02:39:30Z
+[03:40:49] done fuzz:rar5_oracle_reframe rc=77 74 s execs=52117 cov=12854  panicked at fuzz_targets/oracle_support.rs:683:27:
+[04:09:36] done fuzz:rar5_member rc=0 1802 s execs=2361959 cov=3967
+[04:09:36] done fuzz:rar5_solid_chain rc=0 1802 s execs=3071105 cov=5649
+== segment 3 of 7, 1800 s, 2026-10-10T03:09:40Z
+[04:11:55] done fuzz:rar5_oracle_reframe rc=77 130 s execs=92238 cov=12909  panicked at fuzz_targets/oracle_support.rs:683:27:
+[04:39:47] done fuzz:rar5_member rc=0 1802 s execs=2403753 cov=3969
+[04:39:47] done fuzz:rar5_solid_chain rc=0 1802 s execs=3153893 cov=5670
+== segment 4 of 7, 1800 s, 2026-10-10T03:39:51Z
+[04:41:55] done fuzz:rar5_oracle_reframe rc=77 118 s execs=83646 cov=12931  panicked at fuzz_targets/oracle_support.rs:683:27:
+[05:09:58] done fuzz:rar5_member rc=0 1802 s execs=2371998 cov=3969
+[05:09:58] done fuzz:rar5_solid_chain rc=0 1802 s execs=3125099 cov=5679
+== segment 5 of 7, 1800 s, 2026-10-10T04:10:02Z
+[05:11:15] done fuzz:rar5_oracle_reframe rc=77 68 s execs=42541 cov=12932  panicked at fuzz_targets/oracle_support.rs:683:27:
+[05:40:09] done fuzz:rar5_member rc=0 1802 s execs=2326546 cov=3973
+[05:40:09] done fuzz:rar5_solid_chain rc=0 1801 s execs=3058477 cov=5695
+== segment 6 of 7, 1800 s, 2026-10-10T04:40:13Z
+[05:40:43] done fuzz:rar5_oracle_reframe rc=77 24 s execs=9300 cov=12913  panicked at fuzz_targets/oracle_support.rs:683:27:
+[06:10:20] done fuzz:rar5_member rc=0 1802 s execs=2428125 cov=3996
+[06:10:20] done fuzz:rar5_solid_chain rc=0 1802 s execs=3143773 cov=5713
+== segment 7 of 7, 1800 s, 2026-10-10T05:10:25Z
+[06:13:38] done fuzz:rar5_oracle_reframe rc=77 187 s execs=140109 cov=12898  panicked at fuzz_targets/oracle_support.rs:683:27:
+[06:40:32] done fuzz:rar5_member rc=0 1802 s execs=2424015 cov=4014
+[06:40:32] done fuzz:rar5_solid_chain rc=0 1802 s execs=3068809 cov=5725

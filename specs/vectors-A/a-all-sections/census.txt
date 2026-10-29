@@ -1,0 +1,333 @@
+d140_m0.rar    no compressed member
+d140_m1.rar    RAR 1.4 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d140_m2.rar    RAR 1.4 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 2 to 8; last steps that begin past the packed bytes 0
+d140_m3.rar    RAR 1.4 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d140_m4.rar    RAR 1.4 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d140_m5.rar    RAR 1.4 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d140_pw.rar    not decoded here (its members are encrypted)
+d140_sol.rar   RAR 1.4 container, 1 volume(s), solid,  9 compressed members,  178993 bytes: ALL REPRODUCED; unread bits after the last step 3 to 8; last steps that begin past the packed bytes 0
+d140_vol.rar   RAR 1.4 container, 4 volume(s), not solid,  9 compressed members,  178993 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_cmt.rar   its archive comment, 68 packed bytes with unpack version 15, decoded as a member that is not solid: 70 bytes, the low 16 bits of their CRC32 are the comment block's check
+d155_cmt.rar   RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_m0.rar    no compressed member
+d155_m1.rar    RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_m2.rar    RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 2 to 8; last steps that begin past the packed bytes 0
+d155_m3.rar    RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_m4.rar    RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_m5.rar    RAR 1.5 container, 1 volume(s), not solid,  8 compressed members,  178992 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+d155_pw.rar    not decoded here (its members are encrypted)
+d155_sol.rar   RAR 1.5 container, 1 volume(s), solid,  9 compressed members,  178993 bytes: ALL REPRODUCED; unread bits after the last step 3 to 8; last steps that begin past the packed bytes 0
+d155_vol.rar   RAR 1.5 container, 4 volume(s), not solid,  9 compressed members,  178993 bytes: ALL REPRODUCED; unread bits after the last step 1 to 8; last steps that begin past the packed bytes 0
+l15_rnd.rar    RAR 1.5 container, 3 volume(s), not solid,  1 compressed members, 4194304 bytes: ALL REPRODUCED; unread bits after the last step 3 to 3; last steps that begin past the packed bytes 0
+l15_txt.rar    RAR 1.5 container, 1 volume(s), not solid,  1 compressed members, 4194304 bytes: ALL REPRODUCED; unread bits after the last step 2 to 2; last steps that begin past the packed bytes 0
+
+17 archives decoded, 126 compressed members, 11073492 bytes, every member checked against the checksum its header carries
+never seen in them: copy of zeros (distance 0); copy of zeros (distance none); copy of zeros (distance beyond output); match past the member's size; repeat by the escape bit; long length under 8 in the 16 bit form; ring match at distance none; value 256, flag byte; value 256, literal; value 256, long distance; value 256, near rank; value 256, run match
+
+steps and events, all archives together:
+  copy overlapping itself                              1680
+  far short match                                      77656
+  literal                                              372117
+  long length in the 16 bit form                       110
+  long length in the counted form                      1415
+  long match                                           539717
+  near match                                           80202
+  repeat                                               158
+  ring match                                           1300
+  run match                                            4096
+  run mode entered                                     994
+  run-mode exit                                        948
+  run-mode literal                                     5157462
+  short code SHA, toggle off, index 0                  3629
+  short code SHA, toggle off, index 1                  1005
+  short code SHA, toggle off, index 10                 450
+  short code SHA, toggle off, index 11                 363
+  short code SHA, toggle off, index 12                 136
+  short code SHA, toggle off, index 13                 53
+  short code SHA, toggle off, index 2                  474
+  short code SHA, toggle off, index 3                  303
+  short code SHA, toggle off, index 4                  202
+  short code SHA, toggle off, index 5                  301
+  short code SHA, toggle off, index 6                  124
+  short code SHA, toggle off, index 7                  85
+  short code SHA, toggle off, index 8                  99
+  short code SHA, toggle off, index 9                  132
+  short code SHA, toggle on, index 0                   42656
+  short code SHA, toggle on, index 1                   4057
+  short code SHA, toggle on, index 10                  18
+  short code SHA, toggle on, index 11                  48
+  short code SHA, toggle on, index 12                  43
+  short code SHA, toggle on, index 13                  53
+  short code SHA, toggle on, index 14                  68074
+  short code SHA, toggle on, index 2                   1430
+  short code SHA, toggle on, index 3                   1065
+  short code SHA, toggle on, index 4                   933
+  short code SHA, toggle on, index 5                   986
+  short code SHA, toggle on, index 6                   1483
+  short code SHA, toggle on, index 7                   1344
+  short code SHA, toggle on, index 8                   1071
+  short code SHA, toggle on, index 9                   26
+  short code SHB, toggle off, index 0                  808
+  short code SHB, toggle off, index 1                  1753
+  short code SHB, toggle off, index 10                 24
+  short code SHB, toggle off, index 11                 55
+  short code SHB, toggle off, index 12                 26
+  short code SHB, toggle off, index 13                 19
+  short code SHB, toggle off, index 2                  1571
+  short code SHB, toggle off, index 3                  1791
+  short code SHB, toggle off, index 4                  2274
+  short code SHB, toggle off, index 5                  2430
+  short code SHB, toggle off, index 6                  1342
+  short code SHB, toggle off, index 7                  911
+  short code SHB, toggle off, index 8                  609
+  short code SHB, toggle on, index 0                   430
+  short code SHB, toggle on, index 1                   753
+  short code SHB, toggle on, index 11                  10
+  short code SHB, toggle on, index 12                  9
+  short code SHB, toggle on, index 13                  9
+  short code SHB, toggle on, index 14                  9582
+  short code SHB, toggle on, index 2                   569
+  short code SHB, toggle on, index 3                   763
+  short code SHB, toggle on, index 4                   919
+  short code SHB, toggle on, index 5                   858
+  short code SHB, toggle on, index 6                   477
+  short code SHB, toggle on, index 7                   385
+  short code SHB, toggle on, index 8                   312
+  table FAR re-weighted at its ceiling                 37
+  table FLG re-weighted at its ceiling                 29
+  table LIT re-weighted at its ceiling                 295
+  toggle                                               16
+  value 256, run-mode step                             19096
+codewords used:
+  far short length   LENB   28 of 256 values
+  flag byte          RK2   256 of 257 values
+  literal            RK0    57 of 257 values
+  literal            RK1   151 of 257 values
+  literal            RK2   219 of 257 values
+  literal            RK3   226 of 257 values
+  literal            RK4   254 of 257 values
+  long distance      RK0    45 of 257 values
+  long distance      RK1   195 of 257 values
+  long distance      RK2   256 of 257 values
+  long length        LENA   23 of 256 values
+  long length        LENB   46 of 256 values
+  near rank          RK2   256 of 257 values
+  ring length        LENA   44 of 256 values
+  run match          RK2   256 of 257 values
+  run-mode step      RK2   257 of 257 values
+  run-mode step      RK3   257 of 257 values
+  run-mode step      RK4   257 of 257 values
+
+genuine archives (of 17) each variant fails to reproduce:
+edge:lit-rk4:+1                      guards 4.5            fails on  2
+edge:lit-rk4:-1                      guards 4.5            fails on  0
+edge:lit-rk3:+1                      guards 4.5            fails on 15
+edge:lit-rk3:-1                      guards 4.5            fails on 15
+edge:lit-rk2:+1                      guards 4.5            fails on  0
+edge:lit-rk2:-1                      guards 4.5            fails on  0
+edge:lit-rk1:+1                      guards 4.5            fails on  0
+edge:lit-rk1:-1                      guards 4.5            fails on  0
+edge:far-rk2:+1                      guards 4.7 V3         fails on  2
+edge:far-rk2:-1                      guards 4.7 V3         fails on  2
+edge:far-rk1:+1                      guards 4.7 V3         fails on  9
+edge:far-rk1:-1                      guards 4.7 V3         fails on  2
+edge:long-lenb:+1                    guards 4.7 V5         fails on 15
+edge:long-lenb:-1                    guards 4.7 V5         fails on 15
+edge:long-lena:+1                    guards 4.7 V5         fails on 13
+edge:long-lena:-1                    guards 4.7 V5         fails on 13
+edge:short-shb:+1                    guards 4.6            fails on 15
+edge:short-shb:-1                    guards 4.6            fails on 15
+edge:run-enter:+1                    guards 4.5.1          fails on 15
+edge:run-enter:-1                    guards 4.5.1          fails on 15
+edge:ring-over-256:+1                guards 4.6            fails on  0
+edge:ring-over-256:-1                guards 4.6            fails on  0
+edge:ring-thresh:+1                  guards 4.6            fails on  0
+edge:ring-thresh:-1                  guards 4.6            fails on  0
+edge:long-far-bonus:+1               guards 4.7 V11        fails on  0
+edge:long-far-bonus:-1               guards 4.7 V11        fails on  0
+edge:long-near-bonus:+1              guards 4.7 V11        fails on 15
+edge:long-near-bonus:-1              guards 4.7 V11        fails on  3
+edge:hits-hit:+1                     guards 4.7 V10        fails on  0
+edge:hits-hit:-1                     guards 4.7 V10        fails on  0
+edge:thresh-hits:+1                  guards 4.7 V8         fails on  0
+edge:thresh-hits:-1                  guards 4.7 V8         fails on  0
+edge:thresh-lit:+1                   guards 4.7 V8         fails on  0
+edge:thresh-lit:-1                   guards 4.7 V8         fails on  0
+edge:thresh-quiet:+1                 guards 4.7 V8         fails on  0
+edge:thresh-quiet:-1                 guards 4.7 V8         fails on  0
+edge:pref-lit-wrap:+1                guards 4.5 rule L     fails on 15
+edge:pref-lit-wrap:-1                guards 4.5 rule L     fails on  0
+edge:pref-long-wrap:+1               guards 4.7 V6         fails on 13
+edge:pref-long-wrap:-1               guards 4.7 V6         fails on  0
+edge:hits-cap:+1                     guards 4.7 V10        fails on  0
+edge:hits-cap:-1                     guards 4.7 V10        fails on  0
+edge:lit-ceiling:+1                  guards 4.1            fails on 15
+edge:lit-ceiling:-1                  guards 4.1            fails on 15
+edge:flg-ceiling:+1                  guards 4.1            fails on  4
+edge:flg-ceiling:-1                  guards 4.1            fails on  0
+edge:far-ceiling:+1                  guards 4.1            fails on  4
+edge:far-ceiling:-1                  guards 4.1            fails on  4
+edge:thresh-low:+1                   guards 3.2, 4.7 V8    fails on  0
+edge:thresh-low:-1                   guards 3.2, 4.7 V8    fails on  0
+edge:thresh-high:+1                  guards 4.7 V8         fails on  0
+edge:thresh-high:-1                  guards 4.7 V8         fails on  0
+solid-resets:lit                     guards 3.2            fails on  2
+nonsolid-keeps:lit                   guards 3.2            fails on 13
+solid-resets:flg                     guards 3.2            fails on  2
+nonsolid-keeps:flg                   guards 3.2            fails on 13
+solid-resets:far                     guards 3.2            fails on  2
+nonsolid-keeps:far                   guards 3.2            fails on 13
+solid-resets:near                    guards 3.2            fails on  2
+nonsolid-keeps:near                  guards 3.2            fails on 13
+solid-resets:ring                    guards 3.2            fails on  0
+nonsolid-keeps:ring                  guards 3.2            fails on  0
+solid-resets:last                    guards 3.2            fails on  0
+nonsolid-keeps:last                  guards 3.2            fails on  0
+solid-resets:avg_lit                 guards 3.2            fails on  2
+nonsolid-keeps:avg_lit               guards 3.2            fails on 13
+solid-resets:avg_far                 guards 3.2            fails on  2
+nonsolid-keeps:avg_far               guards 3.2            fails on 13
+solid-resets:avg_short               guards 3.2            fails on  2
+nonsolid-keeps:avg_short             guards 3.2            fails on 13
+solid-resets:avg_long                guards 3.2            fails on  2
+nonsolid-keeps:avg_long              guards 3.2            fails on 13
+solid-resets:hits                    guards 3.2            fails on  0
+nonsolid-keeps:hits                  guards 3.2            fails on  0
+solid-resets:thresh                  guards 3.2            fails on  0
+nonsolid-keeps:thresh                guards 3.2            fails on 13
+solid-resets:pref_lit                guards 3.2            fails on  2
+nonsolid-keeps:pref_lit              guards 3.2            fails on 13
+solid-resets:pref_long               guards 3.2            fails on  2
+nonsolid-keeps:pref_long             guards 3.2            fails on 13
+solid-resets:run                     guards 3.2            fails on  2
+nonsolid-keeps:run                   guards 3.2            fails on 13
+solid-resets:toggle                  guards 3.2            fails on  2
+nonsolid-keeps:toggle                guards 3.2            fails on 13
+solid-resets:window                  guards 3.2            fails on  2
+nonsolid-keeps:window                guards 3.2            fails on  0
+nonsolid-keeps:window-bytes          guards 3.2, 4.8       fails on  0
+solid-keeps:runmode                  guards 3.2            fails on  2
+nonsolid-keeps:runmode               guards 3.2            fails on 13
+solid-keeps:repeats                  guards 3.2            fails on  0
+nonsolid-keeps:repeats               guards 3.2            fails on  0
+solid-keeps:flagleft                 guards 3.2            fails on  2
+nonsolid-keeps:flagleft              guards 3.2            fails on 13
+init:lit-reversed                    guards 3.2            fails on 15
+init:lit-renormalised                guards 3.2            fails on 15
+init:flg-identity                    guards 3.2            fails on 15
+init:flg-reversed                    guards 3.2            fails on 15
+init:flg-renormalised                guards 3.2            fails on 15
+init:far-not-renormalised            guards 3.2            fails on 15
+init:last-length-2                   guards 3.2            fails on  0
+init:avg-lit-plus-1                  guards 3.2            fails on  0
+init:avg-lit-minus-1                 guards 3.2            fails on  0
+init:avg-far-1                       guards 3.2            fails on  2
+init:avg-short-1                     guards 3.2            fails on  0
+init:avg-long-1                      guards 3.2            fails on  0
+init:hits-1                          guards 3.2            fails on  0
+init:thresh-high                     guards 3.2            fails on 13
+init:prefs-0                         guards 3.2            fails on 15
+init:pref-lit-144                    guards 3.2            fails on 15
+init:pref-long-144                   guards 3.2            fails on 15
+renorm-weights-all-zero              guards 4.1            fails on 15
+renorm-halves-weights                guards 4.1            fails on 15
+renorm-four-classes                  guards 4.1            fails on 15
+none-compares-under-threshold        guards 3.1, 4.6 S3    fails on  0
+ring-counted-from-oldest             guards 4.6 S3         fails on 15
+far-short-distance-plus-1            guards 4.6 S4         fails on 15
+near-distance-without-plus-1         guards 4.6 S1         fails on 15
+distance-65535-reads-zeros           guards 3.1, 4.8       fails on  0
+run-match-resets-repeats             guards 4.5.2          fails on 15
+exit-resets-repeats                  guards 4.5.2          fails on 15
+escape-repeat-resets-repeats         guards 4.6 D6a        fails on  0
+toggle-adds-to-short-average         guards 4.6 S3         fails on  0
+far-short-adds-to-short-average      guards 4.6 S4         fails on  0
+toggle-enters-ring                   guards 4.6 S3         fails on  0
+toggle-sets-last                     guards 4.6 S3         fails on  0
+promote-to-slot-0                    guards 4.1            fails on 15
+promote-one-slot-up                  guards 4.1            fails on 15
+promote-keeps-slot                   guards 4.1            fails on 15
+promote-shifts                       guards 4.1            fails on 15
+lit-not-promoted                     guards 4.5 rule L     fails on 15
+flag-table-on-greater-or-equal       guards 4.4 D2         fails on 15
+flag-256-is-slot-0                   guards 4.4 D3         fails on  0
+flag-256-is-slot-255                 guards 4.4 D3         fails on  0
+avg-lit-no-decay                     guards 4.5 rule L     fails on 15
+avg-lit-decay-of-old                 guards 4.5 rule L     fails on 15
+pref-lit-wraps-to-128                guards 4.5 rule L     fails on 15
+pref-long-not-halved                 guards 4.5 rule L     fails on 15
+pref-long-halved-upward              guards 4.5 rule L     fails on  2
+pref-lit-halved-upward               guards 4.7 V6         fails on  0
+literal-256-is-slot-255              guards 4.5.1          fails on  0
+run-enter-ignores-flag-byte          guards 4.5.1          fails on 15
+literal-not-counted-in-run           guards 4.5.1          fails on 15
+literal-resets-repeats               guards 4.6            fails on 15
+run-literal-leaves-average           guards 4.5.2          fails on 15
+run-literal-leaves-preference        guards 4.5.2          fails on  0
+exit-keeps-run                       guards 4.5.2          fails on  0
+exit-run-becomes-1                   guards 4.5.2          fails on  0
+run-match-lengths-swapped            guards 4.5.2          fails on 15
+run-match-rank-reduced               guards 4.5.2          fails on  0
+run-match-distance-plus-1            guards 4.5.2          fails on 15
+run-match-enters-ring                guards 4.5.2          fails on 15
+run-match-sets-last                  guards 4.5.2          fails on  0
+long-keeps-run                       guards 4.7 V7         fails on 15
+long-run-becomes-1                   guards 4.7 V7         fails on 15
+long-resets-repeats                  guards 4.6            fails on 15
+pref-long-wraps-to-128               guards 4.7 V6         fails on 15
+pref-lit-not-halved                  guards 4.7 V6         fails on 15
+long-low-bits-first                  guards 4.7            fails on 15
+long-16-bit-form-adds-8              guards 4.7            fails on 15
+avg-long-no-decay                    guards 4.7 V2         fails on 15
+avg-long-decay-of-old                guards 4.7 V2         fails on 15
+avg-far-adds-reduced                 guards 4.7 V1         fails on  0
+avg-far-decay-of-old                 guards 4.7 V1         fails on 15
+avg-far-no-decay                     guards 4.7 V1         fails on 15
+long-256-is-slot-255                 guards 4.7 V4         fails on  0
+far-not-promoted                     guards 4.7 V4         fails on 15
+long-distance-plus-1                 guards 4.7 V9         fails on 15
+threshold-first                      guards 4.7 V8, V10, V11 fails on 13
+hits-count-codes-1-and-4             guards 4.7 V10        fails on  0
+hits-skip-code-1-only                guards 4.7 V10        fails on  0
+hits-skip-code-4-only                guards 4.7 V10        fails on  0
+hits-hit-at-any-distance             guards 4.7 V10        fails on  0
+hits-hit-at-any-length-code          guards 4.7 V10        fails on 15
+hits-wrap-to-0                       guards 4.7 V10        fails on  0
+hits-never-fall                      guards 4.7 V10        fails on  4
+threshold-from-new-hits              guards 4.7 V8         fails on  0
+threshold-from-new-avg-long          guards 4.7 V8         fails on  0
+threshold-kept                       guards 4.7 V8         fails on 13
+threshold-ignores-literal-average    guards 4.7 V8         fails on 13
+threshold-ignores-length-average     guards 4.7 V8         fails on  2
+long-not-entered-in-ring             guards 4.7 V13        fails on 15
+long-last-not-set                    guards 4.7 V13        fails on 15
+long-last-length-without-bonus       guards 4.7 V13        fails on  0
+short-keeps-run                      guards 4.6            fails on 15
+short-run-becomes-1                  guards 4.6            fails on 15
+repeat-escape-at-1                   guards 4.6 D6a        fails on 15
+repeat-escape-at-3                   guards 4.6 D6a        fails on 15
+escape-0-keeps-repeats               guards 4.6 D6a        fails on  0
+repeat-not-counted                   guards 4.6 S2         fails on 15
+repeat-enters-ring                   guards 4.6 S2         fails on 15
+repeat-adds-to-short-average         guards 4.6 S2         fails on 15
+other-short-keeps-repeats            guards 4.6            fails on 15
+toggle-keeps-repeats                 guards 4.6 S3         fails on  0
+far-short-enters-ring                guards 4.6 S4         fails on  2
+far-short-last-not-set               guards 4.6 S4         fails on  0
+toggle-at-any-ring-index             guards 4.6 S3         fails on  0
+none-compares-as-0                   guards 3.1, 4.6 S3    fails on  0
+ring-match-moves-entry-up            guards 4.6 S3         fails on  0
+ring-match-not-entered               guards 4.6 S3         fails on 15
+ring-adds-to-short-average           guards 4.6 S3         fails on 15
+ring-last-not-set                    guards 4.6 S3         fails on 15
+ring-last-length-without-bonus       guards 4.6 S3         fails on 13
+avg-short-no-decay                   guards 4.6 S1         fails on 15
+avg-short-decay-of-old               guards 4.6 S1         fails on 15
+near-256-is-rank-255                 guards 4.6 S1         fails on  0
+near-moves-to-rank-0                 guards 4.6 S1         fails on 15
+near-not-swapped                     guards 4.6 S1         fails on 15
+near-not-entered-in-ring             guards 4.6 S1         fails on 15
+near-last-not-set                    guards 4.6 S1         fails on 15
+copy-without-overlap                 guards 4.8            fails on 15
+distance-0-reads-65536-back          guards 4.8            fails on  0
+none-reads-65535-back                guards 3.1, 4.8       fails on  0

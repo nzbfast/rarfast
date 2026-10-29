@@ -1,0 +1,3 @@
+Text copies of the specs/vectors-J tables the RAR 3 filter tests include,
+kept inside the crate so a vendored copy of crates/rarkit alone builds its
+lib tests. `make mirror-check` fails if any of them drifts from specs/.

@@ -1,0 +1,84 @@
+a-m0-40
+    rar a -ma5 -m0 -mt1 -idq -y -cfg- -z../c40.txt ../a-m0-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 0, b.txt method 0
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m1-40
+    rar a -ma5 -m1 -mt1 -idq -y -cfg- -z../c40.txt ../a-m1-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 1, b.txt method 1
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m2-40
+    rar a -ma5 -m2 -mt1 -idq -y -cfg- -z../c40.txt ../a-m2-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 2, b.txt method 2
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m3-40
+    rar a -ma5 -m3 -mt1 -idq -y -cfg- -z../c40.txt ../a-m3-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 3, b.txt method 3
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m4-40
+    rar a -ma5 -m4 -mt1 -idq -y -cfg- -z../c40.txt ../a-m4-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 4, b.txt method 4
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m5-40
+    rar a -ma5 -m5 -mt1 -idq -y -cfg- -z../c40.txt ../a-m5-40.rar a.txt b.txt   exit 0
+    comment text of 40 bytes; members: a.txt method 5, b.txt method 5
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 40, data area 40, data area IS the comment text
+a-m0-4k
+    rar a -ma5 -m0 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m0-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 0, b.txt method 0
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m1-4k
+    rar a -ma5 -m1 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m1-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 1, b.txt method 1
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m2-4k
+    rar a -ma5 -m2 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m2-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 2, b.txt method 2
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m3-4k
+    rar a -ma5 -m3 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m3-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 3, b.txt method 3
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m4-4k
+    rar a -ma5 -m4 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m4-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 4, b.txt method 4
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m5-4k
+    rar a -ma5 -m5 -mt1 -idq -y -cfg- -z../c4k.txt ../a-m5-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 5, b.txt method 5
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+a-m0-60k
+    rar a -ma5 -m0 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m0-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 0, b.txt method 0
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m1-60k
+    rar a -ma5 -m1 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m1-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 1, b.txt method 1
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m2-60k
+    rar a -ma5 -m2 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m2-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 2, b.txt method 2
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m3-60k
+    rar a -ma5 -m3 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m3-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 3, b.txt method 3
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m4-60k
+    rar a -ma5 -m4 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m4-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 4, b.txt method 4
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m5-60k
+    rar a -ma5 -m5 -mt1 -idq -y -cfg- -z../c60k.txt ../a-m5-60k.rar a.txt b.txt   exit 0
+    comment text of 61504 bytes; members: a.txt method 5, b.txt method 5
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+c-m3-4k
+    rar a -ma5 -m3 -mt1 -idq -y -cfg- ../c-m3-4k.rar a.txt b.txt && rar c -m3 -idq -y -cfg- -z../c4k.txt ../c-m3-4k.rar   exit 0,0
+    comment text of 3968 bytes; members: a.txt method 3, b.txt method 3
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text
+c-m5-60k
+    rar a -ma5 -m5 -mt1 -idq -y -cfg- ../c-m5-60k.rar a.txt b.txt && rar c -m5 -idq -y -cfg- -z../c60k.txt ../c-m5-60k.rar   exit 0,0
+    comment text of 61504 bytes; members: a.txt method 5, b.txt method 5
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 61504, data area 61504, data area IS the comment text
+a-m5-s-4k
+    rar a -ma5 -m5 -s -mt1 -idq -y -cfg- -z../c4k.txt ../a-m5-s-4k.rar a.txt b.txt   exit 0
+    comment text of 3968 bytes; members: a.txt method 5, b.txt method 5
+    CMT: header flags 0x0002, file flags 0x0004, compression information 0x0000 (method 0, version 0), unpacked 3968, data area 3968, data area IS the comment text

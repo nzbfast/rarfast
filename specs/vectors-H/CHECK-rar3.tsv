@@ -1,0 +1,43 @@
+# a RAR 3 reader written from SPEC-H1's text (not kept at the tip; private commit be5c09422) over legacy/ and ../vectors-J/archives/ : archive, member, declared, produced, SHA-256, verdict
+legacy/r393_m5.rar	EMPTY.DAT	0	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	OK
+legacy/r393_m5.rar	SUB\NESTED\DEEP.TXT	520	-	-	PPM
+legacy/r393_m5.rar	HELLO.TXT	16500	-	-	PPM
+legacy/r393_m5.rar	DATA.BIN	20192	20192	77fdbc15670517716e0f03c1b5df7f3ec25474222ec5e7ec2bfd140abc3eacf0	OK
+legacy/r420_m5.rar	EMPTY.DAT	0	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	OK
+legacy/r420_m5.rar	SUB\NESTED\DEEP.TXT	520	520	5bfa9c8395f23437aee50b66cf3d2fc98ec68da953f85756ac73b964536ba037	OK
+legacy/r420_m5.rar	HELLO.TXT	16500	16500	2e33918d47244cb22024316a48b0c56071044432df91dcb7d5f90d2be549d3c6	OK
+legacy/r420_m5.rar	DATA.BIN	20192	20192	77fdbc15670517716e0f03c1b5df7f3ec25474222ec5e7ec2bfd140abc3eacf0	OK
+legacy/r550ma4_m5.rar	SUB\NESTED\DEEP.TXT	520	520	5bfa9c8395f23437aee50b66cf3d2fc98ec68da953f85756ac73b964536ba037	OK
+legacy/r550ma4_m5.rar	HELLO.TXT	16500	16500	2e33918d47244cb22024316a48b0c56071044432df91dcb7d5f90d2be549d3c6	OK
+legacy/r550ma4_m5.rar	DATA.BIN	20192	20192	77fdbc15670517716e0f03c1b5df7f3ec25474222ec5e7ec2bfd140abc3eacf0	OK
+../vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	307200	307200	6ff7723d6f1c27a21615b4d3f7d36ed24734aeccd8480cc2b670fcf7ef439d5e	RECORDS 10
+../vectors-J/archives/r393_mixed_solid.rar	IA64.BIN	8192	8192	b8b06b6e96e97087770a9ff447456fbc69ac25927c0f5d8e702e1cab58336c66	RECORDS 1
+../vectors-J/archives/r393_mixed_solid.rar	TABLE.BIN	15000	15000	172a96105e4d0fe8403a87e560d9523f7fd0bb58209f0b07698177e5e14ad3a2	RECORDS 1
+../vectors-J/archives/r393_mixed_solid.rar	X86.BIN	12000	-	-	PPM
+../vectors-J/archives/r393_mixed_solid.rar	IMAGE.BMP	18486	18486	01ccc44471509806bf5ae56f26584e4b4238bc785c526eecd33e5fa1d7106244	RECORDS 1
+../vectors-J/archives/r393_mixed_solid.rar	PCM.RAW	16000	16000	5b363d91eb85b45cbcd0f4ae8653b97fcbe05a537270d424aa0fcf9fb0ea397d	RECORDS 1
+../vectors-J/archives/r393_mixed_solid.rar	RGB.RAW	18432	-	-	FAIL match distance beyond the window
+../vectors-J/archives/r393_mixed_solid.rar	SOUND.WAV	16044	-	-	PPM
+../vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	307200	307200	d7f678e6707844ecf491eb0c9e0e76567beb80634f6986310b319125127dadac	RECORDS 5
+../vectors-J/archives/r420_bmp_auto.rar	IMAGE.BMP	18486	18486	01ccc44471509806bf5ae56f26584e4b4238bc785c526eecd33e5fa1d7106244	RECORDS 1
+../vectors-J/archives/r420_ia64_i.rar	IA64.BIN	8192	8192	b8b06b6e96e97087770a9ff447456fbc69ac25927c0f5d8e702e1cab58336c66	RECORDS 1
+../vectors-J/archives/r420_mixed_nonsolid.rar	X86.BIN	12000	12000	d7633d656fda0ae2cd2c093ccbcfbd48c6cd224457b150a44fa1d4768b6856b5	OK
+../vectors-J/archives/r420_mixed_nonsolid.rar	IA64.BIN	8192	8192	b8b06b6e96e97087770a9ff447456fbc69ac25927c0f5d8e702e1cab58336c66	RECORDS 1
+../vectors-J/archives/r420_mixed_nonsolid.rar	IMAGE.BMP	18486	18486	01ccc44471509806bf5ae56f26584e4b4238bc785c526eecd33e5fa1d7106244	RECORDS 1
+../vectors-J/archives/r420_mixed_nonsolid.rar	SOUND.WAV	16044	16044	c4ac67fdad01402c7b41ae9867c30a0616a99b9cba4e8e8d6bddfffa5622ad65	RECORDS 1
+../vectors-J/archives/r420_mixed_nonsolid.rar	TABLE.BIN	15000	15000	172a96105e4d0fe8403a87e560d9523f7fd0bb58209f0b07698177e5e14ad3a2	RECORDS 1
+../vectors-J/archives/r420_mixed_solid.rar	IA64.BIN	8192	8192	b8b06b6e96e97087770a9ff447456fbc69ac25927c0f5d8e702e1cab58336c66	RECORDS 1
+../vectors-J/archives/r420_mixed_solid.rar	TABLE.BIN	15000	15000	172a96105e4d0fe8403a87e560d9523f7fd0bb58209f0b07698177e5e14ad3a2	RECORDS 1
+../vectors-J/archives/r420_mixed_solid.rar	X86.BIN	12000	12000	d7633d656fda0ae2cd2c093ccbcfbd48c6cd224457b150a44fa1d4768b6856b5	OK
+../vectors-J/archives/r420_mixed_solid.rar	IMAGE.BMP	18486	18486	01ccc44471509806bf5ae56f26584e4b4238bc785c526eecd33e5fa1d7106244	RECORDS 1
+../vectors-J/archives/r420_mixed_solid.rar	PCM.RAW	16000	16000	5b363d91eb85b45cbcd0f4ae8653b97fcbe05a537270d424aa0fcf9fb0ea397d	RECORDS 1
+../vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	18432	18432	3f594687b2461c7164d65cef428cebe347bbdb4687b3d569362e7fe93735de5b	RECORDS 8
+../vectors-J/archives/r420_mixed_solid.rar	SOUND.WAV	16044	16044	c4ac67fdad01402c7b41ae9867c30a0616a99b9cba4e8e8d6bddfffa5622ad65	RECORDS 1
+../vectors-J/archives/r420_pcm_a2.rar	PCM.RAW	16000	16000	41844a638a90a1e65275dcf138743310baf4d9e89a15becb3796f4adec0da9df	RECORDS 1
+../vectors-J/archives/r420_pcm_a4.rar	PCM.RAW	16000	16000	ca5796db4df37491b68d7f5707e82b1d90b15e94c64cba698d0c0caae46e4a83	RECORDS 1
+../vectors-J/archives/r420_rgb_c.rar	RGB.RAW	18432	18432	2ad58547d621f1d7e676f3b639f9bc0c6cb4f2d98baefc34265bf2543e1bb63c	RECORDS 1
+../vectors-J/archives/r420_tab_auto.rar	TABLE.BIN	15000	15000	172a96105e4d0fe8403a87e560d9523f7fd0bb58209f0b07698177e5e14ad3a2	RECORDS 1
+../vectors-J/archives/r420_tab_d3.rar	TABLE.BIN	15000	15000	26873b730225311e113b2591594bf3b6eabaf9062288caa7b6c3c1e9f1b8bc2b	RECORDS 1
+../vectors-J/archives/r420_wav_auto.rar	SOUND.WAV	16044	16044	c4ac67fdad01402c7b41ae9867c30a0616a99b9cba4e8e8d6bddfffa5622ad65	RECORDS 1
+../vectors-J/archives/r420_x86_auto.rar	X86.BIN	12000	12000	d7633d656fda0ae2cd2c093ccbcfbd48c6cd224457b150a44fa1d4768b6856b5	OK
+../vectors-J/archives/r420_x86_e.rar	X86.BIN	12000	12000	fa6903c1ad5449ef1675f92ba1fa50d866780692faf4f7885a19460e1f45529e	RECORDS 1

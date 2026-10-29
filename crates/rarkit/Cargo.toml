@@ -1,0 +1,573 @@
+[package]
+name = "rarkit"
+version = "0.9.0"
+description = "Reading, extracting, writing and repairing RAR archives."
+# 2021, not the workspace default: the carried code is 2021 code, and an
+# edition change would reject some of it for reasons that are not its own.
+edition = "2021"
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+publish = false
+# The gate bench (`two_arm`) belongs to a bench crate of its own, not
+# this one: every bench here is declared below, so it is never discovered.
+autobenches = false
+
+[lints]
+workspace = true
+
+[features]
+default = ["parallel"]
+# Worker threads for independent-member decode, compression, repair and
+# rev5::matches. No feature changes an output byte (API spec section 11).
+parallel = ["dep:rayon"]
+# Fixture helpers for this repository's own tests. Exposes nothing new to
+# production callers. It turns on every gate bench knob below, so a test
+# reaches each dial as it always has.
+test-support = [
+    "probe-dials",
+    "seam-knob",
+    "cipher-overlap-knob",
+    "x86-arm-knob",
+    "breadth-knob",
+    "offload-knob",
+]
+# Lib tests that need this repository around them: the RAR 3 filter tests
+# include `specs/vectors-J` and call `rarkit-oracle`. Off by default so a
+# vendored copy of this crate alone still builds its lib tests; `make ci`
+# turns it on.
+repo-tests = []
+# Every test, example, bench and fuzz target that compares this engine
+# with the previous one, or takes an input from the previous engine's
+# corpus, through the dev-only `rarkit-oracle` crate. Off by default: a
+# tree without that crate (the public one, where the `rarkit-oracle`
+# dev-dependency line below is dropped) builds and tests with this off,
+# and cannot turn it on. `make ci` turns it on, so the private tree runs
+# every comparison it ran before the feature existed.
+oracle-compare = []
+# Carried from the predecessor's feature set with the carried code that
+# names them (stage B port). Probe and bench aids only; never enabled by a
+# shipped build. Each is reviewed when its work package lands.
+fast = []
+ratio-lab = []
+bench-internals = []
+# The carried table sets' CONTROL ARM for a count: `RARKIT_CARRY_SETS=0` makes every
+# solid member open a fresh table set, as before sets were carried, so one binary
+# is both arms. A feature of its own, like the other count knobs; no
+# shipped build and no `make ci` target enables it.
+carry-sets-knob = []
+# The RAR 3 window's COPY CENSUS. It is its OWN feature and deliberately
+# NOT part of `bench-internals`, because the counting sits inside
+# `Window::copy`, which the gate bench calls on every H1 leg: under
+# `bench-internals` it would run INSIDE THE MEASURED ARM, which is the
+# defect the lookup-chain work had to fix in `PrefixTable::build`. Nothing
+# enables this but an explicit `--features copy-census` on a counting run.
+copy-census = []
+# THE TAPE PATH'S STAGE PROBE.
+# A scratch-only dial that splits the tape path's wall into its plan,
+# decode and apply stages by subtraction. It is deliberately NOT part of
+# `bench-internals`: a statistic computed inside a function the gate bench
+# calls would run inside the measured arm. Nothing shipped and no gate binary turns this on.
+h2-stage-probe = ["bench-internals"]
+fold-team-probe = []
+# THE TWO-LANE DECRYPT'S A/B ARM: the
+# overlapped member's CBC decrypt on TWO lanes against ONE, dialled
+# inside one binary. A feature OF ITS OWN and not part of
+# `bench-internals` or `test-support`, both of which the gate bench
+# turns on for every leg: the prize is 5 to 8 percent and code layout
+# alone moves an untouched leg about 7 percent, so the comparison must be
+# one binary against itself and the knob must not reach a gate binary
+# that is not asking for it. Nothing shipped enables this. It DEPENDS on
+# `test-support`, which is where `probe` itself lives, the same way
+# `h2-stage-probe` depends on `bench-internals`; the rule it keeps is the
+# other direction, that neither of those turns IT on.
+k-two-lane-probe = ["test-support"]
+
+# The in-lane resolution COUNT measured on 21 Sep 2026, which
+# is a lab instrument and nothing else. It is a feature OF ITS OWN and not
+# part of `bench-internals` on purpose: counting code behind
+# `bench-internals` is compiled into `two_arm`, where it both moves the
+# measured arms' code layout and can run inside one of them. Nothing in
+# this repository turns this on but the lab's own invocation, so no bench
+# binary carries a byte of it. Needs `bench-internals` beside it to reach
+# the seam, and `parallel` for the tape.
+h2-locality-census = []
+# THE APPLY WALK'S ABLATION ARMS (`probe::apply_arms`), a feature OF
+# ITS OWN for the same reason `h2-locality-census` is: a timed
+# hold showed that the reason applies to it too.
+#
+# The arms were first put behind `test-support`, which `two_arm`
+# enables through this crate's own dev dependency on itself, so
+# `tape::apply_walk` was monomorphised SEVEN times inside the gate
+# binary with `copy_match`, `literals_padded` and `stride_copy`
+# inlined into each. The engine's hottest loop, seven times over, in
+# the binary whose job is to measure that loop. On an Apple M1 Mac on 22 Sep
+# 2026 that cost 24 percent of `rar5_text_64m_m5_md128k`'s wall and 17
+# percent of `rar5_code_32m_m3`'s, while the three `_serial` rows,
+# which never enter that loop, did not move. Behind its own feature
+# the gate binary compiles the shipped walk and nothing else.
+h2-apply-arms = []
+# THE NARROW LANE'S INSTRUMENT (`lz20::lane_ref`), a wide reference for the
+# RAR 2.0 multimedia predictor beside the shipped model. It is a feature OF
+# ITS OWN, and not part of `test-support` or `bench-internals`, for the
+# reason `h2-apply-arms` above is: both of those reach the gate bench
+# through this crate's dev dependency on itself, and compiled code moves a
+# gate binary's code layout whether or not a leg calls it. Only
+# `fuzz/fuzz_targets/rar20_audio_lane.rs` and this crate's own tests turn
+# it on.
+audio-lane-ref = []
+
+# The SERIAL loop's A/B dial:
+# where `decode_block` holds its state while it runs, three byte exact
+# arms in one binary, chosen by `RARKIT_H2_SERIAL_ARM`. Its own feature
+# for the reason `h2-apply-arms` gives: the gate binary compiles the
+# shipped loop and nothing else.
+h2-serial-arms = []
+
+# THE FILTER PASS'S SUBTRACTION ARMS:
+# the RAR 5 filter pass with
+# its transform, or its records, taken out, so the untimed profile of the
+# parallel density rows can price what the pass costs the one apply thread.
+# A feature OF ITS OWN for the reason `h2-apply-arms` gives: `two_arm` turns
+# on `test-support` and `bench-internals`, and neither turns this on, so no
+# gate binary carries it.
+h2-filter-arms = []
+
+# The 8x16 verify and checksum lab:
+# one dial that overrides the
+# BLAKE2sp team allowance, and two raw hashing entries. A feature OF ITS OWN
+# for the reason `h2-apply-arms` gives: `two_arm` turns on `test-support` and
+# `bench-internals`, and neither turns this on, so no gate binary carries it.
+f8x16-probe = ["test-support"]
+
+# The RAR 5 key derivation's retained `Mac` form and its knob
+# `RARKIT_KDF_BLOCKS`. A feature
+# OF ITS OWN under the measured-arm rule: arm and knob code never sits
+# behind `test-support` or `bench-internals`, which `two_arm` turns on, so
+# the gate binary compiles the shipped block form and nothing else. The
+# block form's permanent differential runs under `cfg(test)` without it.
+kdf-arms = []
+
+# THE KDF CENSUS:
+# one stderr line per RAR 5 derivation naming its exponent and the SHA
+# kernel it takes. A feature OF ITS OWN under the measured-arm rule; no
+# shipped build and no gate binary turns it on.
+kdf-census = []
+
+# THE FAR LIST'S KNOB, and nothing else:
+# `RARKIT_FAR_LIST` and
+# `probe::set_far_list`, read where the apply stage chooses a tape's walk,
+# never inside `tape::apply`. A feature OF ITS OWN under the measured-arm
+# rule, and not `h2-apply-arms`, whose arms turn `tape::apply` into a
+# dispatch over eight walks (6,769 instructions against 1,674 by census):
+# a knob cell in that binary would price the list against a walk no build
+# ships. Built with this feature, `two_arm`'s `tape::apply` is the control's, so
+# the knob cell prices the list against the control's own walk in one binary.
+h2-far-list-knob = ["test-support"]
+
+# THE RAR 5 DECODE PATH'S PROBES:
+# the per-lane `LaneGuard`,
+# the per-block `WorkerGuard` in `tape::decode_one`, the lane and apply
+# stage clock reads and their notes, the pool hand-off, chunk plan and
+# decode-ahead counters. A feature OF ITS OWN for the reason `h2-apply-arms`
+# gives: under `test-support`, which `two_arm` turns on, they sat inside
+# the measured arm on every block and reshaped `member_piped` and
+# `decode_one` against the shipped `rarfast` (the gate
+# bench's bench-only shapes, measured). Their readers stay under `test-support` and
+# read zero without this; `make ci`'s test step turns it on, and nothing
+# shipped and no gate binary does. The DIALS stay under `test-support`.
+h2-probes = ["test-support"]
+
+# The wait census:
+# gauges at
+# every place a read's thread waits or works, read by
+# `examples/breadth_lanes.rs`. Never shipped; its sites sit on every tape
+# unit, so it is not part of `test-support`.
+wait-census = ["test-support"]
+
+# THE RAR 5 TAPE INSTRUMENTS (same claim): `internals::rar5::census` and
+# `apply_shape`, and the `tape::census_block` and `shape_block` behind
+# them. A feature OF ITS OWN and not `bench-internals`, which `two_arm`
+# turns on: compiled there, the two were extra callers of
+# `decode_block_tape` and `LazyDecodeTables::get`, so neither inlined into
+# `tape::decode_one` in the gate binary as both do in the shipped one (by
+# census). Only the H2 labs and `two_arm`'s `h2_split`
+# instrument leg turn it on; no gate binary does.
+h2-instruments = ["bench-internals"]
+
+# THE TREE WALK'S COUNT:
+# `encode::tree_census`, per position of the level 4 and 5 walk, the nodes,
+# compares, stores and cache lines another walker wrote in the same chunk.
+# A feature OF ITS OWN under the measured-arm rule; no shipped build and no
+# gate binary turns it on, and a build with it is slower by design.
+tree-walk-census = []
+
+# THE BACKWARD EXTENSION'S MEASURING DIALS:
+# `RARKIT_BACK` and
+# `RARKIT_L3_DEPTH`, read once where a plan is built, so the extension's
+# arms and level 3's chain depths are timed inside one binary. No shipped
+# build and no `make ci` target turns it on.
+reach-knob = []
+# THE PAIRED CHAIN SEARCH'S SWITCH:
+# `RARKIT_CHAIN_PAIR`
+# (`0` one position a search, as before the pair) and `RARKIT_PAIR_FROM`
+# (how many bytes into its span a position is first asked with the next),
+# read once where a plan is built, so the arms are counted and timed inside
+# one binary. It moves no byte at any setting. No shipped build and no
+# `make ci` target turns it on.
+pair-knob = []
+# THE PAIRED CHAIN SEARCH'S COUNT (same claim): `encode::chain::census`,
+# how many lists the lazy parse asked for, how many it had in hand, the
+# searches by kind and the links each followed, printed by `rarfast` as it
+# ends. A feature OF ITS OWN under the measured-arm rule; no shipped build
+# and no gate binary turns it on, and a build with it is slower by design.
+pair-census = []
+
+# THE GATE BENCH'S KNOBS.
+# `two_arm` lives in the workspace crate `rarkit-bench`, which depends on
+# this crate with `bench-internals` alone, so the gate binary compiles
+# rarkit's units at the shipped feature set and no `test-support` probe
+# or dial at all. Each dial `two_arm` sets is a feature OF ITS OWN, for
+# the reason `h2-apply-arms` gives: a dial compiled in turns a shipped
+# constant into a thread-local read, and `x86-arm-knob`'s sits inside the
+# inlined filter pass. Each compiles `probe` (through `probe-dials`) and its
+# own read sites and nothing else; `test-support` turns all five on;
+# `rarkit-bench` passes each through under the same name, and no gate
+# binary turns one on by default. Each read site tests its knob ALONE, so
+# its `cfg` line keeps its length and no line of the file moves: a moved
+# line moves the panic locations `rarfast` carries, and `rarfast` must stay
+# byte-identical.
+# `RARKIT_SEAM` and `RARKIT_SEAM_COALESCE`: the seam's floor and deliver unit.
+seam-knob = ["probe-dials"]
+# `RARKIT_CIPHER_OVERLAP` and `_CHUNK`, and the overlap counter the
+# `f/extract-one-stored-encrypted-overlap` leg reads.
+cipher-overlap-knob = ["probe-dials"]
+# `RARKIT_BENCH_X86_ARM`: which x86 address pass, RAR 3 and RAR 5.
+x86-arm-knob = ["probe-dials"]
+# `RARKIT_BENCH_BREADTH_ARM` and `RARKIT_BENCH_NARROW_AFTER`.
+breadth-knob = ["probe-dials"]
+# `RARKIT_BENCH_OFFLOAD_FLOOR`, `RARKIT_BENCH_SETTLE_SPIN`, `RARKIT_BENCH_TASK_SPIN`.
+offload-knob = ["probe-dials"]
+# The `probe` module itself: `test-support`'s counters, and the knobs' dials.
+probe-dials = []
+# THE TAPE UNIT's size dial for a count:
+# `RARKIT_TAPE_UNIT` sets the
+# packed bytes one tape unit may span, 0 for one block a unit. A feature OF
+# ITS OWN under the measured-arm rule: no shipped build and no gate binary
+# turns it on, so the shipped unit is `tape::TAPE_UNIT_BYTES`.
+tape-unit-knob = []
+# THE FRESH MATCH'S KNOB, for a timed run inside one binary:
+# the control's fast region compiled beside
+# the levers' and chosen once a block, `RARKIT_FRESH_MATCH=0` for the control's. A
+# feature OF ITS OWN under the measured-arm rule: no shipped build, no gate
+# binary and no `make ci` target turns it on.
+h2-fresh-match-knob = []
+# THE SEQUENCE OP'S KNOB, for a run inside one binary:
+# `RARKIT_SEQ` names the pieces a
+# run takes by letter (`f` the literal run folded into the operation after
+# it), so each is priced as an arm of its own. A feature OF ITS OWN under
+# the measured-arm rule: no shipped build, no gate binary and no `make ci`
+# target turns it on.
+h2-sequence-op-knob = []
+# THE ONE-PASS DECODE'S KNOB, for a timed run inside one binary:
+# `RARKIT_ONE_PASS=0`
+# sends a member decoded on one thread back to the paths it took before (the
+# checked serial loop alone, and the tape at one lane). A feature OF ITS OWN
+# under the measured-arm rule: no shipped build, no gate binary and no
+# `make ci` target turns it on.
+h2-one-pass-knob = []
+
+# THE WIDE READ'S PIECE KNOB:
+# `RARKIT_WIDE_PIECE_KIB` sets the piece `read::wide::plan` asks for first,
+# 128 for the plan before 1 MiB pieces, so the lever and the plan it
+# replaced are timed inside one binary. A feature OF ITS OWN under the
+# measured-arm rule: no shipped build and no gate binary turns it on.
+wide-piece-knob = []
+
+# THE WRITER'S WAVES for a count:
+# `RARKIT_BATCH_BLOCKS`
+# sets the parse blocks one batch of a carried run stages (32 before 30 Sep
+# 2026), and `RARKIT_WAVE_SLIDE=0` makes the chain levels' waves end on
+# their slowest block again. Neither moves a byte. A feature OF ITS OWN
+# under the measured-arm rule: no shipped build and no gate binary turns
+# it on, so the shipped figures are `encode::drive::BATCH_BLOCKS_MOST` and
+# sliding waves.
+wave-knob = []
+# THE COLD READ DEPTH KNOB:
+# `RARKIT_SPLIT_READS` sets how many concurrent reads one LZ packed fill is
+# cut into (1 is the single read before the lever), so the lever and the
+# path it replaced are timed inside one binary. A feature OF ITS OWN under
+# the measured-arm rule: no shipped build and no gate binary turns it on.
+# It also reads the stored seam's count words: `RARKIT_SEAM_FROM_MIB` (the
+# size from which a stored member is the seam's on its size alone, 0 for
+# every size), `RARKIT_WHOLE_SLAB_FROM_MIB` (the size from which the lent
+# path asks for whole slabs) and `RARKIT_SEAM_SAY=1` (which members the
+# seam took, on stderr).
+read-depth-knob = []
+
+# THE LANE CENSUS:
+# what the RAR 5 tape's batched region did turn by turn (bulk steps, seven
+# lane passes that took codes and that took none, scalar steps), summed
+# over a process and printed by `rarfast` as it ends. A feature OF ITS OWN
+# under the measured-arm rule; no shipped build and no gate binary turns
+# it on, and it reads no environment.
+lane-census = []
+
+# THE x86 WIDE-VECTOR KERNELS' FORM KNOB:
+# `RARKIT_X86_CRC` (and the
+# other kernels' variables as they land) choose a kernel FORM inside one
+# binary for a count, in place of run-time detection. A feature OF ITS
+# OWN under the measured-arm rule: no shipped build and no gate binary
+# turns it on, so the shipped dispatch is detection and nothing else.
+x86-wide-knob = []
+
+# THE x86 BLAKE2sp LEAF TEAM, A MEASURING ARM:
+# 
+# `RARKIT_B2SP_X86_TEAM=1` hashes a batch of 256 KiB or more on EIGHT
+# scalar leaves, one a task of the caller's pool, in place of the
+# eight-lane kernel on one thread, so the two are timed inside one binary.
+# The leaf team was declined on x86 on 19 Sep 2026 against a scalar
+# kernel and never retaken against the AVX-512VL kernel of 28 Sep. A
+# feature OF ITS OWN under the measured-arm rule: no shipped build and no
+# gate binary turns it on.
+b2sp-x86-team = []
+
+# THE READING SIDE'S ENVIRONMENT WORDS (`knob::reader_var`): the routes,
+# widths and memory dials a read once took from the environment in every
+# build (`RARKIT_SEQ_AHEAD`, `RARKIT_STORED_CUT`, `RARKIT_HUGE_PAGES` and
+# the rest, about sixty words). A shipped build reads none of them: with
+# this off every dial takes the default it took with its word unset, and
+# nothing of the environment reaches it. A feature OF ITS OWN and not part
+# of `test-support` or `bench-internals`: this crate's own tests set those
+# dials through `probe`, never through the environment, and a gate binary
+# must take the shipped routes. No shipped build and no gate binary turns
+# it on; a run that times one arm against another inside one binary does.
+reader-knobs = []
+# THE WRITING SIDE'S ENVIRONMENT WORDS (`knob::writer_var`):
+# `RARKIT_CHAIN_BUILD`, `RARKIT_CHAIN_BUILDERS` and `RARKIT_CHAIN_LINKS`,
+# which move no byte, read under the same rule as `reader-knobs`. No
+# shipped build and no gate binary turns it on.
+writer-knobs = []
+
+[dependencies]
+aes = { version = "0.9", features = ["zeroize"] }
+aho-corasick = "1.1"
+blake2s_simd = "1.0"
+crc32fast = "1.4"
+getrandom = "0.4"
+hmac = "0.13"
+memchr = "2"
+rayon = { version = "1.12.0", optional = true }
+sha1 = "0.11"
+sha2 = "0.11"
+zeroize = { version = "1.8", default-features = false, features = ["alloc", "zeroize_derive"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+# The seeded input makers every test, example and source test module
+# shares (bytes that do not compress, text that does). A dev-dependency
+# ONLY: never a normal or optional dependency of this crate.
+rarkit-testdata = { path = "../rarkit-testdata" }
+# The reference CBC mode, for `crypto::tests` alone: the mode this crate
+# now drives itself (`crypto::cbc`, and spec K 7's cipher targets) is
+# held block for block against it. No shipped build links it.
+cbc = { version = "0.2", features = ["zeroize"] }
+# Itself with `bench-internals`, so the benches and integration tests reach
+# the internal packages they measure and test.
+rarkit = { path = ".", features = ["bench-internals", "test-support"] }
+# `tests/thread_width.rs` builds a pool of its own, the way an APPLICATION
+# sizes one, to show the decode honours it. The engine never does this.
+rayon = "1.12.0"
+crc32fast = "1.4"
+sha2 = "0.11"
+# Used ONLY under `oracle-compare` (above). The public tree drops this
+# one line, as `make mirror-check` does; a dev-dependency reaches no
+# shipped binary, with the feature on or off.
+
+# The bench's `getrusage` arms only, matching the library's own `libc`
+# dependency: off unix the bench reports CPU and peak RSS as unavailable
+# rather than binding anything.
+[target.'cfg(unix)'.dev-dependencies]
+libc = "0.2"
+
+# The copy census example is SKIPPED unless its features are asked for.
+# `make ci`'s clippy builds every target of the workspace, and the census
+# lives behind `copy-census`, which nothing else turns on: without this
+# the example fails to resolve `internals::window_census` and takes the
+# whole gate down with it. `bench-internals` is in the list because that
+# is the seam the census is reached through.
+# The H2 labs that read the tape instruments, which live behind
+# `h2-instruments` so no gate binary compiles them; `make ci` lints them
+# under that feature.
+[[example]]
+name = "class_probe"
+required-features = ["bench-internals"]
+
+[[example]]
+name = "g_filter_plan"
+required-features = ["bench-internals"]
+
+[[example]]
+name = "g_filter_layout_count"
+required-features = ["bench-internals"]
+
+[[example]]
+name = "g_filter_layout_split"
+required-features = ["h2-filter-arms", "bench-internals"]
+
+[[example]]
+name = "g_filter_layout_shape"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "g_unrar_block_shape"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_apply_lab"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_symbol_census"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_apply_per_op"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_far_prefetch_lab"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_md_ladder"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_parallel_lab"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h2_serial_counters"
+required-features = ["h2-instruments"]
+
+[[example]]
+name = "h1_copy_census"
+required-features = ["copy-census", "bench-internals", "test-support"]
+
+# The `WriteOptions::workers` sweep. One arm per process,
+# so the peak RSS on a row is that arm's own; see the file's own header.
+[[example]]
+name = "h2_window_reach"
+required-features = ["bench-internals", "h2-locality-census"]
+
+
+# The filter pass on the parallel density rows, priced by subtraction
+# (the filter density rows). It dials
+# `h2-filter-arms`, so it is built only when that feature is asked for.
+
+# The serial code row by count, rarkit's arm alone
+# (the serial code row at level 1). It dials
+# `h2-filter-arms`, so it is built only when that feature is asked for.
+[[example]]
+name = "h2_code_serial_counts"
+required-features = ["h2-filter-arms", "bench-internals", "test-support"]
+
+[[example]]
+name = "h3_audio_reach"
+required-features = ["audio-lane-ref", "bench-internals"]
+
+# The Windows width probe:
+# it reads `probe`'s counters, so it needs `test-support`, and without
+# this entry `make ci`'s default-feature build would fail on it.
+[[example]]
+name = "w_windows_width_probe"
+required-features = ["test-support"]
+
+# The solid test's walking-thread profile (the solid decode width,
+# 23 Sep 2026): it reads `probe`'s counters.
+[[example]]
+name = "f_solid_decode_profile"
+required-features = ["test-support"]
+
+# The level 3 small-member screen:
+# plan dials over a directory
+# of members, one encoder, no container.
+[[example]]
+name = "g_m3_parse_screen"
+required-features = ["bench-internals"]
+
+[[example]]
+name = "h2_table_census"
+required-features = ["bench-internals"]
+
+# The examples that call the previous engine: private tree only.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# The integration tests that are comparisons with the previous engine
+# from end to end, or whose inputs come from it (its fixture corpus, or
+# `tests/support/creategate.rs`, which names its writer's types). Tests
+# that mix the two keep their own cases in the default build and gate
+# the comparing ones with `cfg(feature = "oracle-compare")` at the site.
+
+
+[[test]]
+name = "create_gate"
+
+[[test]]
+name = "crypto"
+
+
+[[test]]
+name = "leg_select"
+
+
+
+[[test]]
+name = "oracle_differentials_l"
+
+
+[[test]]
+name = "oracle_stacked_filters_27sep"
+
+
+
+
+
+
+
+[[test]]
+name = "rar5_lz_oracle"
+
+
+
+[[test]]
+name = "rar5_zero_byte_member_tables"
+
+[[test]]
+name = "solid_chain_decode_ahead"
+
+
+
+[[test]]
+name = "solid_chain_head_refusal"
+
+[[test]]
+name = "solid_chain_small_members"

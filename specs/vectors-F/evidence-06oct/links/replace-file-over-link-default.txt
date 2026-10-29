@@ -1,0 +1,22 @@
+arm: replace-file-over-link-default
+about: the same with no overwrite switch
+file: x.rar  95 bytes  sha256 d92637ff2a60bc794a89770fbb57ac523328584ee8ae3b98b0686a6b32f3279c
+planted before the run: o/a.txt, a symbolic link to ../victim/t
+$ unrar x -p- x.rar o/
+exit 12
+  Extracting from x.rar
+  Program aborted
+stderr:
+  Would you like to replace the existing file o/a.txt
+       7 bytes, modified on 2026-09-18 04:00
+  with a new one
+       6 bytes, modified on 2026-09-18 04:00
+  [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin
+  Inappropriate ioctl for device
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/a.txt                -> ../victim/t   (mtime the time of the run)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

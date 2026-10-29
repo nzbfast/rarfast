@@ -1,0 +1,74 @@
+arm: end-cut-in-header
+about: the file is cut six bytes into member c's header
+file: x.rar  98 bytes  sha256 0721c606a29d83985a76bf1c08d8c04c28096f8356f35f83ce0864d21f5d81b9
+$ unrar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 1
+  Testing archive x.rar
+  Testing     a.txt                                                         68%  OK
+  Testing     b.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 1
+stdout: 18 bytes, b'alpha\nbravo bravo\n'
+$ rar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 1
+  Testing archive x.rar
+  Testing     a.txt                                                         68%  OK
+  Testing     b.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  Unexpected end of archive

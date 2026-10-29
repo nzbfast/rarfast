@@ -1,0 +1,62 @@
+arm: s4-v29-select-last
+about: r420_solid.rar: as kept, the command selecting the last file alone [archive flags 0x0008; DATA.BIN clear version 29 method 0x35 packed 16244 unpacked 20192, TABLE.BIN solid version 29 method 0x35 packed 3200 unpacked 15000, EMPTY.DAT solid version 29 method 0x35 packed 2 unpacked 0, ONE.DAT solid version 29 method 0x35 packed 9 unpacked 1, AUDIO.RAW solid version 29 method 0x35 packed 21174 unpacked 36000, BIG.TXT solid version 29 method 0x35 packed 22482 unpacked 90000, SUB\NESTED\DEEP.TXT solid version 29 method 0x35 packed 170 unpacked 700, HELLO.TXT solid version 29 method 0x35 packed 3883 unpacked 16800, SUB\SIB.TXT solid version 29 method 0x35 packed 72 unpacked 300, SUB\NESTED solid dir version 20 method 0x30 packed 0 unpacked 0, EMPTYDIR solid dir version 20 method 0x30 packed 0 unpacked 0, SUB solid dir version 20 method 0x30 packed 0 unpacked 0]
+file: x.rar  67756 bytes  sha256 9daa390872ec85ced530784354902cd87320a05aee2aab48ea749ccdfd072dd7
+$ unrar lt -p- x.rar SUB/SIB.TXT
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 72
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F17E393
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar SUB/SIB.TXT
+exit 0
+  Testing archive x.rar
+  Skipping    DATA.BIN                                                      24%
+  Skipping    TABLE.BIN                                                     28%
+  Skipping    EMPTY.DAT                                                     28%
+  Skipping    ONE.DAT                                                       28%
+  Skipping    AUDIO.RAW                                                     60%
+  Skipping    BIG.TXT                                                       93%
+  Skipping    SUB/NESTED/DEEP.TXT                                           93%
+  Skipping    HELLO.TXT                                                     99%
+  Testing     SUB/SIB.TXT                                                   99%  OK
+  All OK
+$ unrar p -inul -p- x.rar SUB/SIB.TXT
+exit 0
+stdout: 300 bytes, b'Binary that but was archive was from but unit were symbol by order binary.\nSuffi' ...
+$ rar lt -p- x.rar SUB/SIB.TXT
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 72
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F17E393
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+$ rar t -p- x.rar SUB/SIB.TXT
+exit 0
+  Testing archive x.rar
+  Skipping    DATA.BIN                                                      24%
+  Skipping    TABLE.BIN                                                     28%
+  Skipping    EMPTY.DAT                                                     28%
+  Skipping    ONE.DAT                                                       28%
+  Skipping    AUDIO.RAW                                                     60%
+  Skipping    BIG.TXT                                                       93%
+  Skipping    SUB/NESTED/DEEP.TXT                                           93%
+  Skipping    HELLO.TXT                                                     99%
+  Testing     SUB/SIB.TXT                                                   99%  OK
+  All OK

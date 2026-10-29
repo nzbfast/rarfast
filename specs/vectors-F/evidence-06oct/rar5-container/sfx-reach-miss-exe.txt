@@ -1,0 +1,20 @@
+arm: sfx-reach-miss-exe
+about: the same file named x.exe
+file: x.exe  4194420 bytes  sha256 a41cd9a7016ff82f7407aa163f6abe30940b2cb100a17f84216e40d9ee9781a4
+$ unrar lt -p- x.exe
+exit 0
+  x.exe is not RAR archive
+$ unrar t -p- x.exe
+exit 10
+  x.exe is not RAR archive
+  No files to extract
+$ unrar p -inul -p- x.exe
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.exe
+exit 0
+  x.exe is not RAR archive
+$ rar t -p- x.exe
+exit 10
+  x.exe is not RAR archive
+  No files to extract

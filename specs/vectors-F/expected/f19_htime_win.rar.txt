@@ -1,0 +1,14 @@
+== f19_htime_win.rar (105 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=10   crc=e5b59233 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x0(-)
+      extra LOCATOR flags=0x1 quick_open_offset=0
+  00000017: FILE       hsize=53   crc=1fdc5a0d flags=0x0003(EXTRA|DATA) data=16
+      name=b'hello.txt' fflags=0x4(CRC32) unp=16 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      data crc32=cdfd0cc2
+      extra TIME flags=0xe(MTIME|CTIME|ATIME)
+        mtime=2020-01-02 03:04:05.000000100 (filetime 132224078450000001)
+        ctime=2021-02-03 04:05:06.000000200 (filetime 132567987060000002)
+        atime=2022-03-04 05:06:07.000000300 (filetime 132908439670000003)
+  00000061: END        hsize=3    crc=5156771d flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x0(LAST)

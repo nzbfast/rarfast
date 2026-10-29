@@ -1,0 +1,22 @@
+arm: not-an-archive
+about: 200 bytes of 0x4D and nothing else
+file: x.rar  200 bytes  sha256 38131c4231146c87b34ce38c4fe24931499e5032c7b00fa6333eb80258d932e9
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar

@@ -1,0 +1,37 @@
+rar a -r -idq -y -cfg- plain.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -m0 m0.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -m1 m1.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -m5 m5.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -md64m md64m.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -s solid.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- links-default.rar .   (in links)   exit 6
+rar a -r -idq -y -cfg- -ol links-ol.rar .   (in links)   exit 0
+rar a -r -idq -y -cfg- -oh links-oh.rar .   (in links)   exit 6
+rar a -r -idq -y -cfg- -oi:1 links-oi.rar .   (in links)   exit 6
+rar a -r -idq -y -cfg- -s -ol -oh -oi:1 links-all-solid.rar .   (in links)   exit 0
+rar a -r -idq -y -cfg- -ol -oh -htb links-ol-htb.rar .   (in links)   exit 0
+rar a -r -idq -y -cfg- -ol -oh -pxyz links-ol-p.rar .   (in links)   exit 0
+rar a -r -idq -y -cfg- -ams ams.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -ow ow.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -ts ts.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -tsm- tsm-.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -tsm- -tsc tsm-tsc.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -tsm1 tsm1.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -htb htb.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -rr5 rr5.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -qo+ qo-plus.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -qo- qo-minus.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -z../comment.txt cmt.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -k lock.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -v20k -m3 vol.rar .   (in vol)   exit 0
+rar a -r -idq -y -cfg- -v20k -m0 vol-m0.rar .   (in vol)   exit 0
+rar a -r -idq -y -cfg- -v20k -s vol-solid.rar .   (in vol)   exit 0
+rar a -r -idq -y -cfg- -v8k -m0 vol-many.rar .   (in vol)   exit 0
+rar a -r -idq -y -cfg- -pxyz pw.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -hpxyz hp.rar .   (in plain)   exit 0
+rar a -r -idq -y -cfg- -ep ep3-none.rar .   (in plain)   exit 0
+rar a -idq -y -cfg- -sistdin.txt si.rar   (in g5.work)   exit 0
+rar a -idq -y -cfg- -m0 -sistdin.txt si-m0.rar   (in g5.work)   exit 0
+rar a -idq -y -cfg- -ver ver.rar v.txt   (in ver)   exit 0
+rar a -idq -y -cfg- -ver ver.rar v.txt   (in ver)   exit 0
+rar a -idq -y -cfg- -ver ver.rar v.txt   (in ver)   exit 0

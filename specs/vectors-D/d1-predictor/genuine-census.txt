@@ -1,0 +1,49 @@
+d250_mm.rar	AUDIO.RAW	36000 bytes	LZ headers 1, multimedia headers 3 with channel counts [4, 4, 4] met on channels [0, 3, 3]	multimedia samples 36000, other bytes 0	adaptations 1124, 752 moved a weight	weights from -10 to 10, 0 samples times weights at an end	R=1	CRC32 as the header's
+d250_mm.rar	BIG.TXT	90000 bytes	LZ headers 1, multimedia headers 6 with channel counts [3, 3, 3, 3, 3, 3] met on channels [0, 0, 1, 2, 0, 1]	multimedia samples 90000, other bytes 0	adaptations 2811, 2748 moved a weight	weights from -17 to 11, 1344 samples times weights at an end	R=1	CRC32 as the header's
+d250_mm.rar	DATA.BIN	20192 bytes	LZ headers 1, multimedia headers 2 with channel counts [1, 1] met on channels [0, 0]	multimedia samples 20192, other bytes 0	adaptations 631, 590 moved a weight	weights from -17 to 11, 1568 samples times weights at an end	R=1	CRC32 as the header's
+d250_mm.rar	HELLO.TXT	16800 bytes	LZ headers 1, multimedia headers 2 with channel counts [3, 3] met on channels [0, 0]	multimedia samples 16800, other bytes 0	adaptations 525, 520 moved a weight	weights from -17 to 11, 161 samples times weights at an end	R=1	CRC32 as the header's
+d250_mm.rar	TABLE.BIN	15000 bytes	LZ headers 1, multimedia headers 1 with channel counts [3] met on channels [0]	multimedia samples 15000, other bytes 0	adaptations 468, 119 moved a weight	weights from -5 to 8, 0 samples times weights at an end	R=1	CRC32 as the header's
+members holding multimedia blocks: 5, of which 5 give the header's CRC32
+h2-zero                      fails the header's CRC32 on 5 members
+h2-negated                   fails the header's CRC32 on 1 members
+second-difference-wrapped    fails the header's CRC32 on 4 members
+h3-h4-new                    fails the header's CRC32 on 5 members
+no-h4                        fails the header's CRC32 on 5 members
+round-to-zero                fails the header's CRC32 on 3 members
+round-nearest                fails the header's CRC32 on 5 members
+no-cross-term                fails the header's CRC32 on 4 members
+byte-plus                    fails the header's CRC32 on 5 members
+error-unsigned               fails the header's CRC32 on 5 members
+error-scale-1                fails the header's CRC32 on 5 members
+error-scale-4                fails the header's CRC32 on 5 members
+error-scale-16               fails the header's CRC32 on 4 members
+cross-after                  fails the header's CRC32 on 5 members
+directions-swapped           fails the header's CRC32 on 5 members
+no-keep-option               fails the header's CRC32 on 5 members
+cross-unwrapped              fails the header's CRC32 on 3 members
+own-unwrapped                fails the header's CRC32 on 3 members
+difference-saturated         fails the header's CRC32 on 3 members
+cross-per-channel            fails the header's CRC32 on 4 members
+cross-from-last-byte         fails the header's CRC32 on 4 members
+period-16                    fails the header's CRC32 on 5 members
+period-64                    fails the header's CRC32 on 5 members
+adapt-one-early              fails the header's CRC32 on 5 members
+adapt-one-late               fails the header's CRC32 on 5 members
+count-stream-wide            fails the header's CRC32 on 4 members
+adapt-before-accumulate      fails the header's CRC32 on 5 members
+tie-highest                  fails the header's CRC32 on 5 members
+tie-keep-last                fails the header's CRC32 on 4 members
+count-reset-at-header        fails the header's CRC32 on 4 members
+sums-cleared-at-header       fails the header's CRC32 on 4 members
+no-clear                     fails the header's CRC32 on 5 members
+floor-minus-16               fails the header's CRC32 on 3 members
+floor-minus-18               fails the header's CRC32 on 2 members
+channel-reset-at-header      fails the header's CRC32 on 2 members
+terminator-rotates           fails the header's CRC32 on 3 members
+table-of-channel-0           fails the header's CRC32 on 4 members
+header-resets-model          fails the header's CRC32 on 4 members
+header-resets-cross          fails the header's CRC32 on 2 members
+non-solid-keeps-model        fails the header's CRC32 on 4 members
+start-weight-one             fails the header's CRC32 on 5 members
+start-byte-128               fails the header's CRC32 on 5 members
+variants no genuine member tells apart: previous-from-output ceiling-17 ceiling-15 channel-wraps-at-header lz-header-resets-channel upper-channels-cleared lz-resets-model tail-header-resets-channel tail-header-resets-model tail-terminator-rotates solid-member-fresh-model solid-member-channel-0 non-solid-keeps-channel

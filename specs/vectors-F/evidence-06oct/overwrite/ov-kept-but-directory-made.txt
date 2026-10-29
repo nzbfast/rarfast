@@ -1,0 +1,17 @@
+arm: ov-kept-but-directory-made
+about: one file kept by -o- beside a directory member
+file: x.rar  83 bytes  sha256 d558987a71bc0cea485faf76e35da13a3834f9e59ff77880edbb18a73fb4fb3f
+planted before the run: o/a.txt, a regular file of 6 bytes
+$ unrar x -p- -o- x.rar o/
+exit 0
+  Extracting from x.rar
+  Creating    o/d                                                       OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+  dir   o/d
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

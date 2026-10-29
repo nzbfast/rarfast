@@ -1,0 +1,91 @@
+file	sha256	what
+plain.rar	1193a1351882f0d8634a0dd0f18c38eadb43f996fa270847d27f4392e8b7f32a	base plain, as the genuine rar wrote it
+plain.arm.offset-same/plain.rar	1193a1351882f0d8634a0dd0f18c38eadb43f996fa270847d27f4392e8b7f32a	the offset the writer gave, written back (a control of the rewriting)
+plain.arm.offset-plus-1/plain.rar	9228b48f442920654f81e25c4cb6cb37b39fa39be93426ad791beaff76fcd286	one more than the writer's offset
+plain.arm.offset-minus-1/plain.rar	1ff72e7334773ebb84d539da9011a26ea68db73f24b0e7132fd5cddc0c202a41	one less than the writer's offset
+plain.arm.offset-in-qo-data/plain.rar	f692d7849960400f18dd5e71d8e70832937f3b995d9673fbb7b3887463b78d3f	20 bytes into the quick open record's data
+plain.arm.offset-on-file-header/plain.rar	434fba99b464d94ae99662f54f080e5fc0ffa00f0d198d74545e4213eaf8138a	the start of the second file header
+plain.arm.offset-in-file-header/plain.rar	58255e2311f1714fefb56ca463cb0b281bc6057775aa34eb0892e7db80749710	3 bytes into the second file header
+plain.arm.offset-in-member-data/plain.rar	646d956eec295a1c0ad49ec5e6c83d3a2d1251fe9c7f729440840fa313040c7c	a place inside the first member's data
+plain.arm.offset-on-end-header/plain.rar	f29e3e45b0f658466206e1cd9b7b83f877868aefb9246b3b86d6191133aea2ef	the start of the end header
+plain.arm.offset-at-file-end/plain.rar	4c0c0dc679bb1b87a1c520ef45018733347d03b1c6a9e9e78a28112fc9622560	the first byte past the end of the file
+plain.arm.offset-past-file-end/plain.rar	22dfd9d74cb9827bca52ad5756249f616e701a9c57e518a088fb763f4511eae2	1,000 bytes past the end of the file
+plain.arm.offset-1/plain.rar	a6f45cf667849420b5f556a81e3a72001ff2a09d3bb6c64d5e3642dcfa4875be	1, a place inside the main header itself
+plain.arm.offset-0-long-form/plain.rar	cbf2a36cbe626cd049836c379f324e9a2b455c54dd680058b87182ae30ca40d1	0, written in as many bytes as the writer's offset took
+plain.arm.trailing-zeros-control/plain.rar	da1a7c2a5ef2435575f8ebb64d0142eebba402d9784fe92a7fcc395f29c03d95	64 zero bytes added after the end header, the locator untouched
+plain.arm.offset-in-trailing-zeros/plain.rar	45b206b80fff1177d6def7edb2401f0934f4b5f4da5e36d9a494d1d020a43e45	64 zero bytes added after the end header, and the offset 10 bytes into them
+plain.arm.cut-at-qo/plain.rar	920993c0be8f5c771c481c232ff00a97525e5e4a6834631296cdeddd24488d41	the file ends where the quick open header would begin
+plain.arm.cut-in-qo-data/plain.rar	59327f8d4cd62eb4bf1bca1b1f597f6d58a6f7a61e7cc2046d59461fab3c960f	the file ends 20 bytes into the quick open record's data
+plain.arm.cut-at-end-header/plain.rar	1e655ad67858121a5b25447fda7736fac2e1417311c71d9740be57b7675ee2af	the file ends where the end header would begin
+plain.arm.cut-at-second-file-header/plain.rar	6237285ec21400e07547418cb638fae2146ff20812ed1967ac7874e10003f3e3	the file ends where the second file header would begin
+hp.rar	b1aa61d82889bf036734dbc797f28e73aee5c498d2259b9fb15befe34c38b397	base hp, as the genuine rar wrote it
+hp.arm.offset-same/hp.rar	b1aa61d82889bf036734dbc797f28e73aee5c498d2259b9fb15befe34c38b397	the offset the writer gave, written back (a control of the rewriting)
+hp.arm.offset-plus-1/hp.rar	ad864de1fcec90be622d6eda04726d8236130da828885da06aa93f8111315e74	one more than the writer's offset
+hp.arm.offset-minus-1/hp.rar	62ee65f334bd184522feda2969d797741986a3fdd366476d039d9f98d685c34d	one less than the writer's offset
+hp.arm.offset-in-qo-data/hp.rar	64a80e3ee4ce6be3ca730818bd47f5b86437dad566d35e823fde0057cb11d1a7	20 bytes into the quick open record's data
+hp.arm.offset-on-file-header/hp.rar	c3b95b76e5c79f1236173e5da0685395de73bfbe864dc7f267a0c9f466c7789f	the start of the second file header
+hp.arm.offset-in-file-header/hp.rar	2e3d2c21163bec412a4adf64a0b1982aa8b76a57269b595f4687d05516bc4be7	3 bytes into the second file header
+hp.arm.offset-in-member-data/hp.rar	d40cc30d827746729b225fd5cf7f58768d4f4690bbe1447017db8e1a88521c36	a place inside the first member's data
+hp.arm.offset-on-end-header/hp.rar	25e248c4030be5b485ed38b98db4bc6928b835ffbcd75684ca07b122635b5b32	the start of the end header
+hp.arm.offset-at-file-end/hp.rar	7f525d97bb215a7f5666cf5e474fb1f5f2161ff801448dc6dad0b3d7fae22aeb	the first byte past the end of the file
+hp.arm.offset-past-file-end/hp.rar	98d83aa149f52b2e7428f16231cdfc337089f4571f0afb2514de97a6f8801871	1,000 bytes past the end of the file
+hp.arm.offset-1/hp.rar	c13fff0fd098e0a32dbb90c7282bc3c010d074bb882bfdc90c0b5b3e0cb52416	1, a place inside the main header itself
+hp.arm.offset-0-long-form/hp.rar	1e1e9e1c76befe8941f41731f70132855953f3a5538f4f69c6bfdcf5ed688b5c	0, written in as many bytes as the writer's offset took
+hp.arm.trailing-zeros-control/hp.rar	e9dc6b417935800485f7671bc34f46256d662df2de78b6c76b3de16529cedacf	64 zero bytes added after the end header, the locator untouched
+hp.arm.offset-in-trailing-zeros/hp.rar	6983d53fd08ec245091b76ba5dc65916c0c6a6cf458e73d61ce7eb505018c5e1	64 zero bytes added after the end header, and the offset 10 bytes into them
+hp.arm.cut-at-qo/hp.rar	50a4c49f86356407dbee726a2487bad20fae8281b7b2fe7486df536df9d71397	the file ends where the quick open header would begin
+hp.arm.cut-in-qo-data/hp.rar	0315bf74d8c684acf91b167df902fa1a1c07688f54dcc1dab764bbbe4efebe9a	the file ends 20 bytes into the quick open record's data
+hp.arm.cut-at-end-header/hp.rar	d5f67e6667f9fb260482ccda5d3f0e99d7194b63085f7fc57c2fbb306dbc239b	the file ends where the end header would begin
+hp.arm.cut-at-second-file-header/hp.rar	0fa9700f8babf16787e580c0cab95324c74e0b4a017bd61cae65d0b20d26de38	the file ends where the second file header would begin
+vol.part1.rar	5ef4a3b4f3af57777fde2b07db5d11e1ad8a8a63e5afda07777ae1ea18f98633	base vol, as the genuine rar wrote it
+vol.part2.rar	3df703c5e022292dff84571607c875a2ed2629186c0f73db39065eef04a4e2d1	base vol, as the genuine rar wrote it
+vol.part3.rar	45c1088bacb985720758b11afc58699ae6a7d22688a114b8828306fe7233abac	base vol, as the genuine rar wrote it
+vol.part4.rar	9ccf49c67747d058ad25e0f44d5850e53e0dabcc25bcf66fcdf0b69cdb90f139	base vol, as the genuine rar wrote it
+vol.part5.rar	fd50e0d8c01ad374625df1a0107396bee05c3f871f05ff01c646a32a99172fe1	base vol, as the genuine rar wrote it
+vol.arm.offset-same/vol.part1.rar	5ef4a3b4f3af57777fde2b07db5d11e1ad8a8a63e5afda07777ae1ea18f98633	the offset the writer gave, written back (a control of the rewriting)
+vol.arm.offset-plus-1/vol.part1.rar	9479531016b286440c57f052cb2d58091f596b4f1436fcc0f64f26395d5207cb	one more than the writer's offset
+vol.arm.offset-minus-1/vol.part1.rar	5289e544e7f610139610150ea89132a98cc2629e2f5c6f0851c6258c4cfd2523	one less than the writer's offset
+vol.arm.offset-in-qo-data/vol.part1.rar	9bd652f2c392ab67c63aa5600986c0ba61a68d75a5c28271c8ba56ae1285ed93	20 bytes into the quick open record's data
+vol.arm.offset-on-file-header/vol.part1.rar	829cd79005babaaa44748d7d5acba6ad2bdd438974b34c11a34f9fa9075ba253	the start of the second file header
+vol.arm.offset-in-file-header/vol.part1.rar	308867a5de2a6f9dfc4559cd0d626bf16bc237fc10abb6e40671e0d3132acbcc	3 bytes into the second file header
+vol.arm.offset-in-member-data/vol.part1.rar	a938a679e1ffbc4dc47e1706842d328af161116ca6555b5d0af105c8549fcf8e	a place inside the first member's data
+vol.arm.offset-on-end-header/vol.part1.rar	f60ed6c0fd4e4ef6d55b8648c44f3fb1ad52f8370188ca97620e9bd130a4238a	the start of the end header
+vol.arm.offset-at-file-end/vol.part1.rar	9c58c3ced06b520ad8d0e122d76077df0405894525d0670e1d3a6460cc41ab81	the first byte past the end of the file
+vol.arm.offset-past-file-end/vol.part1.rar	3a69f9fc4a7c434346e9a857790ced2d3a139d21ffcc4073038524c087810bc8	1,000 bytes past the end of the file
+vol.arm.offset-1/vol.part1.rar	2676f0804d7527763e781a36aa8f56458fb35a486d0b698cdf86043172aec071	1, a place inside the main header itself
+vol.arm.offset-0-long-form/vol.part1.rar	ffc70156beb041f06ea5e3dd52b7ba0cdc2b5da73099fc19fab295a780b559c6	0, written in as many bytes as the writer's offset took
+vol.arm.trailing-zeros-control/vol.part1.rar	cf364d55ea832997f8d5a6382fd4152215d88407fee59934702efe5c985ffc78	64 zero bytes added after the end header, the locator untouched
+vol.arm.offset-in-trailing-zeros/vol.part1.rar	b14bf731b4efcfc9abe1d8cb87f6ad3bec73a98ed29a3ef1ec996a60152e37eb	64 zero bytes added after the end header, and the offset 10 bytes into them
+vol.arm.cut-at-qo/vol.part1.rar	8c325fb20a6ae1b31db95d4e48d6d47a24c8fb536afbd63182e8d46e737eea3a	the file ends where the quick open header would begin
+vol.arm.cut-in-qo-data/vol.part1.rar	765c0cab7cfc6cde7b4f096d318512939c32cc511aeef65ad095aa9dd7bf6fa6	the file ends 20 bytes into the quick open record's data
+vol.arm.cut-at-end-header/vol.part1.rar	0e308a718124e4957adb3b558eb6f1013b042d2b09d0a5f1ef30003e2449bafc	the file ends where the end header would begin
+vol.arm.cut-at-second-file-header/vol.part1.rar	b51825bcda59317d04384c3acb2074233bac73c94706f8d3bbf38e0376875734	the file ends where the second file header would begin
+vol.arm.second-volume-offset-plus-1/vol.part2.rar	89af360c94c7d1461d69ae61b8afe3068b51c156bd497a6984e857763406d768	the second volume's offset, one more
+vol.arm.second-volume-offset-in-member-data/vol.part2.rar	e62529897b24d7b7e8ee200114e6bbf5616cafccfd334d69e4605d79e21e2a93	the second volume's offset moved into its first member's data
+vol.arm.second-volume-offset-past-file-end/vol.part2.rar	1696f0e5c6d0ca66435d99a26b24852bb04b32c7d18cc36ca677c3ad73926af9	the second volume's offset 1,000 past its end
+hpvol.part1.rar	1d8cf4baf32eb7aed9c946285d91610d51dd8eb416ed5c1843e113d74140ac21	base hpvol, as the genuine rar wrote it
+hpvol.part2.rar	5b64d7e6faa1464ecd1269c1e22923bf83f6d1b62e9828fefcfc320d611c54a9	base hpvol, as the genuine rar wrote it
+hpvol.part3.rar	256b92e56cc7af99965dc02eae8657edbb1d59f12836507e0ec763297c8f9313	base hpvol, as the genuine rar wrote it
+hpvol.part4.rar	a1ad0effbc08830e278c26070a79522fc8c7d64e09ffdf712c622acd96b0689c	base hpvol, as the genuine rar wrote it
+hpvol.part5.rar	f92a9904ce806bba0ba2e3f9f645738227c9d0bd6f1b1dc1d812b5277dc95695	base hpvol, as the genuine rar wrote it
+hpvol.arm.offset-same/hpvol.part1.rar	1d8cf4baf32eb7aed9c946285d91610d51dd8eb416ed5c1843e113d74140ac21	the offset the writer gave, written back (a control of the rewriting)
+hpvol.arm.offset-plus-1/hpvol.part1.rar	05bb3225120c3c833f7e146dccee05f724d1fbe9328aba62847a721a97e18372	one more than the writer's offset
+hpvol.arm.offset-minus-1/hpvol.part1.rar	1dd23cedfdde671fc269d4c485f9c98ed37c371d99c703d1100a207d6c39d313	one less than the writer's offset
+hpvol.arm.offset-in-qo-data/hpvol.part1.rar	534774a181acbd6c4b036275e65437617a66ccb2dc2ee0ce712611b155a34cbd	20 bytes into the quick open record's data
+hpvol.arm.offset-on-file-header/hpvol.part1.rar	c5d4f4cbe674c4197355e03c454042b0ba0c03492c4d991a5f722cfbbd196bf7	the start of the second file header
+hpvol.arm.offset-in-file-header/hpvol.part1.rar	a165b0fbbc6ee0ad09f5f2a061978cd1d351eeff405c335ee90686328aa3165e	3 bytes into the second file header
+hpvol.arm.offset-in-member-data/hpvol.part1.rar	e2dfd7a310569801b32f60997768fae36dc55a25be99eb195fb7cd55fb4b3f78	a place inside the first member's data
+hpvol.arm.offset-on-end-header/hpvol.part1.rar	71d5137f780e0a1570f8bc40177c25e3d370b6b34861bdd6686d5e1f66f4da4d	the start of the end header
+hpvol.arm.offset-at-file-end/hpvol.part1.rar	6401c24161a488abaaaf9582c0b90eb88959be6f49bcad76bca855550aa249f7	the first byte past the end of the file
+hpvol.arm.offset-past-file-end/hpvol.part1.rar	d5e1409056ad52c406893f3a7dea49b8957630bbb2dbfb9377daae20b87559e0	1,000 bytes past the end of the file
+hpvol.arm.offset-1/hpvol.part1.rar	db96d59446cd30d085ff546b3a6d890b9f978028c6d664599e29bf11fdce923a	1, a place inside the main header itself
+hpvol.arm.offset-0-long-form/hpvol.part1.rar	c3f3537a1233a37504e9af980e48ff54c956ca9c8e3e61aa35b9548c465ae4c4	0, written in as many bytes as the writer's offset took
+hpvol.arm.trailing-zeros-control/hpvol.part1.rar	464434b7b3f9fecd4555b5cbee747641e77b4654e09f919a64d5ca4187f1ed68	64 zero bytes added after the end header, the locator untouched
+hpvol.arm.offset-in-trailing-zeros/hpvol.part1.rar	4f2c5356dcfa487592fc0d003e6a8869a64463e1e29313730874c25147956e3d	64 zero bytes added after the end header, and the offset 10 bytes into them
+hpvol.arm.cut-at-qo/hpvol.part1.rar	5e4d22ba19015843616a62419b8f29abcac80eca86c7684911f55807e93136a6	the file ends where the quick open header would begin
+hpvol.arm.cut-in-qo-data/hpvol.part1.rar	d4a057d00f05156d49ed7a9f3eda4db171328bb52281257672eeb3229d8fe025	the file ends 20 bytes into the quick open record's data
+hpvol.arm.cut-at-end-header/hpvol.part1.rar	f0c0e7d06a149a65d5371b5c89d36cd79e4b8f954e8197702ddc2cc29b795990	the file ends where the end header would begin
+hpvol.arm.cut-at-second-file-header/hpvol.part1.rar	fae4ee1c915920299cf67e48b306158a8862be73d5fa1f0d836763ba7d99b4ce	the file ends where the second file header would begin
+hpvol.arm.second-volume-offset-plus-1/hpvol.part2.rar	327543fba8ae5fbdd9f7080d17592998c387f499caa1a7fbd1b0380bede4e3c1	the second volume's offset, one more
+hpvol.arm.second-volume-offset-in-member-data/hpvol.part2.rar	bd617f4e7eff9b4b5631c644dfc0a7400abf1c2e5b41b494f0e4c5b7e66e03ba	the second volume's offset moved into its first member's data
+hpvol.arm.second-volume-offset-past-file-end/hpvol.part2.rar	304c5890a44ffa99263057b986da114e6ead99e830e758910b6e08fa80785eb0	the second volume's offset 1,000 past its end

@@ -1,0 +1,551 @@
+archive	program	command	exit	members listed	of them with no name	bytes printed	the destination holds	markers
+r4-control	unrar	t	0	-	-	-	-	all-ok
+r4-control	unrar	x	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	unrar	x-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	unrar	x-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r4-control	unrar	e	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	unrar	e-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	unrar	e-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r4-control	unrar	p	0	-	-	56	-	-
+r4-control	unrar	l	0	3	0	-	-	-
+r4-control	unrar	lt	0	3	0	-	-	-
+r4-control	unrar	lb	0	3	0	-	-	-
+r4-control	rar	t	0	-	-	-	-	all-ok
+r4-control	rar	x	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	rar	x-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	rar	x-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r4-control	rar	e	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	rar	e-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r4-control	rar	e-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r4-control	rar	p	0	-	-	56	-	-
+r4-control	rar	l	0	3	0	-	-	-
+r4-control	rar	lt	0	3	0	-	-	-
+r4-control	rar	lb	0	3	0	-	-	-
+r4-empty-file-alone	unrar	t	10	-	-	-	-	no-files
+r4-empty-file-alone	unrar	x	10	-	-	-	-	no-files
+r4-empty-file-alone	unrar	x-here	10	-	-	-	-	no-files
+r4-empty-file-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-file-alone	unrar	e	10	-	-	-	-	no-files
+r4-empty-file-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-empty-file-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-file-alone	unrar	p	10	-	-	0	-	-
+r4-empty-file-alone	unrar	l	0	1	1	-	-	-
+r4-empty-file-alone	unrar	lt	0	1	1	-	-	-
+r4-empty-file-alone	unrar	lb	0	0	0	-	-	-
+r4-empty-file-alone	rar	t	10	-	-	-	-	no-files
+r4-empty-file-alone	rar	x	10	-	-	-	-	no-files
+r4-empty-file-alone	rar	x-here	10	-	-	-	-	no-files
+r4-empty-file-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-file-alone	rar	e	10	-	-	-	-	no-files
+r4-empty-file-alone	rar	e-here	10	-	-	-	-	no-files
+r4-empty-file-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-file-alone	rar	p	10	-	-	0	-	-
+r4-empty-file-alone	rar	l	0	1	1	-	-	-
+r4-empty-file-alone	rar	lt	0	1	1	-	-	-
+r4-empty-file-alone	rar	lb	0	0	0	-	-	-
+r4-empty-file-among	unrar	t	0	-	-	-	-	all-ok
+r4-empty-file-among	unrar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	unrar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	unrar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-file-among	unrar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	unrar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-file-among	unrar	p	0	-	-	25	-	-
+r4-empty-file-among	unrar	l	0	3	1	-	-	-
+r4-empty-file-among	unrar	lt	0	3	1	-	-	-
+r4-empty-file-among	unrar	lb	0	2	0	-	-	-
+r4-empty-file-among	rar	t	0	-	-	-	-	all-ok
+r4-empty-file-among	rar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	rar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	rar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-file-among	rar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-file-among	rar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-file-among	rar	p	0	-	-	25	-	-
+r4-empty-file-among	rar	l	0	3	1	-	-	-
+r4-empty-file-among	rar	lt	0	3	1	-	-	-
+r4-empty-file-among	rar	lb	0	2	0	-	-	-
+r4-empty-directory-alone	unrar	t	10	-	-	-	-	no-files
+r4-empty-directory-alone	unrar	x	10	-	-	-	-	no-files
+r4-empty-directory-alone	unrar	x-here	10	-	-	-	-	no-files
+r4-empty-directory-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-directory-alone	unrar	e	10	-	-	-	-	no-files
+r4-empty-directory-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-empty-directory-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-directory-alone	unrar	p	10	-	-	0	-	-
+r4-empty-directory-alone	unrar	l	0	1	1	-	-	-
+r4-empty-directory-alone	unrar	lt	0	1	1	-	-	-
+r4-empty-directory-alone	unrar	lb	0	0	0	-	-	-
+r4-empty-directory-alone	rar	t	10	-	-	-	-	no-files
+r4-empty-directory-alone	rar	x	10	-	-	-	-	no-files
+r4-empty-directory-alone	rar	x-here	10	-	-	-	-	no-files
+r4-empty-directory-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-directory-alone	rar	e	10	-	-	-	-	no-files
+r4-empty-directory-alone	rar	e-here	10	-	-	-	-	no-files
+r4-empty-directory-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-empty-directory-alone	rar	p	10	-	-	0	-	-
+r4-empty-directory-alone	rar	l	0	1	1	-	-	-
+r4-empty-directory-alone	rar	lt	0	1	1	-	-	-
+r4-empty-directory-alone	rar	lb	0	0	0	-	-	-
+r4-empty-directory-among	unrar	t	0	-	-	-	-	all-ok
+r4-empty-directory-among	unrar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	unrar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	unrar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-directory-among	unrar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	unrar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-directory-among	unrar	p	0	-	-	25	-	-
+r4-empty-directory-among	unrar	l	0	3	1	-	-	-
+r4-empty-directory-among	unrar	lt	0	3	1	-	-	-
+r4-empty-directory-among	unrar	lb	0	2	0	-	-	-
+r4-empty-directory-among	rar	t	0	-	-	-	-	all-ok
+r4-empty-directory-among	rar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	rar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	rar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-directory-among	rar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-empty-directory-among	rar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r4-empty-directory-among	rar	p	0	-	-	25	-	-
+r4-empty-directory-among	rar	l	0	3	1	-	-	-
+r4-empty-directory-among	rar	lt	0	3	1	-	-	-
+r4-empty-directory-among	rar	lb	0	2	0	-	-	-
+r4-zero-first-byte-alone	unrar	t	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	unrar	x	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	unrar	x-here	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-zero-first-byte-alone	unrar	e	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-zero-first-byte-alone	unrar	p	10	-	-	0	-	-
+r4-zero-first-byte-alone	unrar	l	0	1	1	-	-	-
+r4-zero-first-byte-alone	unrar	lt	0	1	1	-	-	-
+r4-zero-first-byte-alone	unrar	lb	0	0	0	-	-	-
+r4-zero-first-byte-alone	rar	t	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	rar	x	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	rar	x-here	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-zero-first-byte-alone	rar	e	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	rar	e-here	10	-	-	-	-	no-files
+r4-zero-first-byte-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-zero-first-byte-alone	rar	p	10	-	-	0	-	-
+r4-zero-first-byte-alone	rar	l	0	1	1	-	-	-
+r4-zero-first-byte-alone	rar	lt	0	1	1	-	-	-
+r4-zero-first-byte-alone	rar	lb	0	0	0	-	-	-
+r4-file-named-d-slash-alone	unrar	t	0	-	-	-	-	all-ok
+r4-file-named-d-slash-alone	unrar	x	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	unrar	x-here	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	unrar	x-absent	9	-	-	-	MADE: d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	unrar	e	9	-	-	-	-	no-files,cannot-create,is-a-directory
+r4-file-named-d-slash-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-file-named-d-slash-alone	unrar	e-absent	9	-	-	-	MADE: -	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	unrar	p	0	-	-	31	-	-
+r4-file-named-d-slash-alone	unrar	l	0	1	0	-	-	-
+r4-file-named-d-slash-alone	unrar	lt	0	1	0	-	-	-
+r4-file-named-d-slash-alone	unrar	lb	0	1	0	-	-	-
+r4-file-named-d-slash-alone	rar	t	0	-	-	-	-	all-ok
+r4-file-named-d-slash-alone	rar	x	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	rar	x-here	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	rar	x-absent	9	-	-	-	MADE: d/	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	rar	e	9	-	-	-	-	no-files,cannot-create,is-a-directory
+r4-file-named-d-slash-alone	rar	e-here	10	-	-	-	-	no-files
+r4-file-named-d-slash-alone	rar	e-absent	9	-	-	-	MADE: -	no-files,cannot-create,is-a-directory,creating
+r4-file-named-d-slash-alone	rar	p	0	-	-	31	-	-
+r4-file-named-d-slash-alone	rar	l	0	1	0	-	-	-
+r4-file-named-d-slash-alone	rar	lt	0	1	0	-	-	-
+r4-file-named-d-slash-alone	rar	lb	0	1	0	-	-	-
+r4-file-named-d-slash-among	unrar	t	0	-	-	-	-	all-ok
+r4-file-named-d-slash-among	unrar	x	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	unrar	x-here	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	unrar	x-absent	9	-	-	-	MADE: a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	unrar	e	9	-	-	-	a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory
+r4-file-named-d-slash-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-file-named-d-slash-among	unrar	e-absent	9	-	-	-	MADE: a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	unrar	p	0	-	-	56	-	-
+r4-file-named-d-slash-among	unrar	l	0	3	0	-	-	-
+r4-file-named-d-slash-among	unrar	lt	0	3	0	-	-	-
+r4-file-named-d-slash-among	unrar	lb	0	3	0	-	-	-
+r4-file-named-d-slash-among	rar	t	0	-	-	-	-	all-ok
+r4-file-named-d-slash-among	rar	x	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	rar	x-here	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	rar	x-absent	9	-	-	-	MADE: a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	rar	e	9	-	-	-	a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory
+r4-file-named-d-slash-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r4-file-named-d-slash-among	rar	e-absent	9	-	-	-	MADE: a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r4-file-named-d-slash-among	rar	p	0	-	-	56	-	-
+r4-file-named-d-slash-among	rar	l	0	3	0	-	-	-
+r4-file-named-d-slash-among	rar	lt	0	3	0	-	-	-
+r4-file-named-d-slash-among	rar	lb	0	3	0	-	-	-
+r4-file-in-directory-alone	unrar	t	0	-	-	-	-	all-ok
+r4-file-in-directory-alone	unrar	x	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	unrar	x-here	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	unrar	x-absent	0	-	-	-	MADE: d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	unrar	e	0	-	-	-	m.txt=31	all-ok
+r4-file-in-directory-alone	unrar	e-here	0	-	-	-	m.txt=31	all-ok
+r4-file-in-directory-alone	unrar	e-absent	0	-	-	-	MADE: m.txt=31	all-ok,creating
+r4-file-in-directory-alone	unrar	p	0	-	-	31	-	-
+r4-file-in-directory-alone	unrar	l	0	1	0	-	-	-
+r4-file-in-directory-alone	unrar	lt	0	1	0	-	-	-
+r4-file-in-directory-alone	unrar	lb	0	1	0	-	-	-
+r4-file-in-directory-alone	rar	t	0	-	-	-	-	all-ok
+r4-file-in-directory-alone	rar	x	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	rar	x-here	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	rar	x-absent	0	-	-	-	MADE: d/ d/m.txt=31	all-ok,creating
+r4-file-in-directory-alone	rar	e	0	-	-	-	m.txt=31	all-ok
+r4-file-in-directory-alone	rar	e-here	0	-	-	-	m.txt=31	all-ok
+r4-file-in-directory-alone	rar	e-absent	0	-	-	-	MADE: m.txt=31	all-ok,creating
+r4-file-in-directory-alone	rar	p	0	-	-	31	-	-
+r4-file-in-directory-alone	rar	l	0	1	0	-	-	-
+r4-file-in-directory-alone	rar	lt	0	1	0	-	-	-
+r4-file-in-directory-alone	rar	lb	0	1	0	-	-	-
+r4-two-empty-files	unrar	t	10	-	-	-	-	no-files
+r4-two-empty-files	unrar	x	10	-	-	-	-	no-files
+r4-two-empty-files	unrar	x-here	10	-	-	-	-	no-files
+r4-two-empty-files	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-two-empty-files	unrar	e	10	-	-	-	-	no-files
+r4-two-empty-files	unrar	e-here	10	-	-	-	-	no-files
+r4-two-empty-files	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-two-empty-files	unrar	p	10	-	-	0	-	-
+r4-two-empty-files	unrar	l	0	2	2	-	-	-
+r4-two-empty-files	unrar	lt	0	2	2	-	-	-
+r4-two-empty-files	unrar	lb	0	0	0	-	-	-
+r4-two-empty-files	rar	t	10	-	-	-	-	no-files
+r4-two-empty-files	rar	x	10	-	-	-	-	no-files
+r4-two-empty-files	rar	x-here	10	-	-	-	-	no-files
+r4-two-empty-files	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r4-two-empty-files	rar	e	10	-	-	-	-	no-files
+r4-two-empty-files	rar	e-here	10	-	-	-	-	no-files
+r4-two-empty-files	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-two-empty-files	rar	p	10	-	-	0	-	-
+r4-two-empty-files	rar	l	0	2	2	-	-	-
+r4-two-empty-files	rar	lt	0	2	2	-	-	-
+r4-two-empty-files	rar	lb	0	0	0	-	-	-
+r4-directories-alone	unrar	t	0	-	-	-	-	all-ok
+r4-directories-alone	unrar	x	0	-	-	-	d/ d/e/	all-ok,creating
+r4-directories-alone	unrar	x-here	0	-	-	-	d/ d/e/	all-ok,creating
+r4-directories-alone	unrar	x-absent	0	-	-	-	MADE: d/ d/e/	all-ok,creating
+r4-directories-alone	unrar	e	10	-	-	-	-	no-files
+r4-directories-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-directories-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-directories-alone	unrar	p	10	-	-	0	-	-
+r4-directories-alone	unrar	l	0	2	0	-	-	-
+r4-directories-alone	unrar	lt	0	2	0	-	-	-
+r4-directories-alone	unrar	lb	0	2	0	-	-	-
+r4-directories-alone	rar	t	0	-	-	-	-	all-ok
+r4-directories-alone	rar	x	0	-	-	-	d/ d/e/	all-ok,creating
+r4-directories-alone	rar	x-here	0	-	-	-	d/ d/e/	all-ok,creating
+r4-directories-alone	rar	x-absent	0	-	-	-	MADE: d/ d/e/	all-ok,creating
+r4-directories-alone	rar	e	10	-	-	-	-	no-files
+r4-directories-alone	rar	e-here	10	-	-	-	-	no-files
+r4-directories-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-directories-alone	rar	p	10	-	-	0	-	-
+r4-directories-alone	rar	l	0	2	0	-	-	-
+r4-directories-alone	rar	lt	0	2	0	-	-	-
+r4-directories-alone	rar	lb	0	2	0	-	-	-
+r5-control	unrar	t	0	-	-	-	-	all-ok
+r5-control	unrar	x	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	unrar	x-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	unrar	x-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r5-control	unrar	e	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	unrar	e-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	unrar	e-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r5-control	unrar	p	0	-	-	56	-	-
+r5-control	unrar	l	0	3	0	-	-	-
+r5-control	unrar	lt	0	3	0	-	-	-
+r5-control	unrar	lb	0	3	0	-	-	-
+r5-control	rar	t	0	-	-	-	-	all-ok
+r5-control	rar	x	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	rar	x-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	rar	x-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r5-control	rar	e	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	rar	e-here	0	-	-	-	a.txt=13 m.txt=31 z.txt=12	all-ok
+r5-control	rar	e-absent	0	-	-	-	MADE: a.txt=13 m.txt=31 z.txt=12	all-ok,creating
+r5-control	rar	p	0	-	-	56	-	-
+r5-control	rar	l	0	3	0	-	-	-
+r5-control	rar	lt	0	3	0	-	-	-
+r5-control	rar	lb	0	3	0	-	-	-
+r5-empty-file-alone	unrar	t	10	-	-	-	-	no-files
+r5-empty-file-alone	unrar	x	10	-	-	-	-	no-files
+r5-empty-file-alone	unrar	x-here	10	-	-	-	-	no-files
+r5-empty-file-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-file-alone	unrar	e	10	-	-	-	-	no-files
+r5-empty-file-alone	unrar	e-here	10	-	-	-	-	no-files
+r5-empty-file-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-file-alone	unrar	p	10	-	-	0	-	-
+r5-empty-file-alone	unrar	l	0	1	1	-	-	-
+r5-empty-file-alone	unrar	lt	0	1	1	-	-	-
+r5-empty-file-alone	unrar	lb	0	0	0	-	-	-
+r5-empty-file-alone	rar	t	10	-	-	-	-	no-files
+r5-empty-file-alone	rar	x	10	-	-	-	-	no-files
+r5-empty-file-alone	rar	x-here	10	-	-	-	-	no-files
+r5-empty-file-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-file-alone	rar	e	10	-	-	-	-	no-files
+r5-empty-file-alone	rar	e-here	10	-	-	-	-	no-files
+r5-empty-file-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-file-alone	rar	p	10	-	-	0	-	-
+r5-empty-file-alone	rar	l	0	1	1	-	-	-
+r5-empty-file-alone	rar	lt	0	1	1	-	-	-
+r5-empty-file-alone	rar	lb	0	0	0	-	-	-
+r5-empty-file-among	unrar	t	0	-	-	-	-	all-ok
+r5-empty-file-among	unrar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	unrar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	unrar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-file-among	unrar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	unrar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-file-among	unrar	p	0	-	-	25	-	-
+r5-empty-file-among	unrar	l	0	3	1	-	-	-
+r5-empty-file-among	unrar	lt	0	3	1	-	-	-
+r5-empty-file-among	unrar	lb	0	2	0	-	-	-
+r5-empty-file-among	rar	t	0	-	-	-	-	all-ok
+r5-empty-file-among	rar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	rar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	rar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-file-among	rar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-file-among	rar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-file-among	rar	p	0	-	-	25	-	-
+r5-empty-file-among	rar	l	0	3	1	-	-	-
+r5-empty-file-among	rar	lt	0	3	1	-	-	-
+r5-empty-file-among	rar	lb	0	2	0	-	-	-
+r5-empty-directory-alone	unrar	t	10	-	-	-	-	no-files
+r5-empty-directory-alone	unrar	x	10	-	-	-	-	no-files
+r5-empty-directory-alone	unrar	x-here	10	-	-	-	-	no-files
+r5-empty-directory-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-directory-alone	unrar	e	10	-	-	-	-	no-files
+r5-empty-directory-alone	unrar	e-here	10	-	-	-	-	no-files
+r5-empty-directory-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-directory-alone	unrar	p	10	-	-	0	-	-
+r5-empty-directory-alone	unrar	l	0	1	1	-	-	-
+r5-empty-directory-alone	unrar	lt	0	1	1	-	-	-
+r5-empty-directory-alone	unrar	lb	0	0	0	-	-	-
+r5-empty-directory-alone	rar	t	10	-	-	-	-	no-files
+r5-empty-directory-alone	rar	x	10	-	-	-	-	no-files
+r5-empty-directory-alone	rar	x-here	10	-	-	-	-	no-files
+r5-empty-directory-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-directory-alone	rar	e	10	-	-	-	-	no-files
+r5-empty-directory-alone	rar	e-here	10	-	-	-	-	no-files
+r5-empty-directory-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-empty-directory-alone	rar	p	10	-	-	0	-	-
+r5-empty-directory-alone	rar	l	0	1	1	-	-	-
+r5-empty-directory-alone	rar	lt	0	1	1	-	-	-
+r5-empty-directory-alone	rar	lb	0	0	0	-	-	-
+r5-empty-directory-among	unrar	t	0	-	-	-	-	all-ok
+r5-empty-directory-among	unrar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	unrar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	unrar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-directory-among	unrar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	unrar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-directory-among	unrar	p	0	-	-	25	-	-
+r5-empty-directory-among	unrar	l	0	3	1	-	-	-
+r5-empty-directory-among	unrar	lt	0	3	1	-	-	-
+r5-empty-directory-among	unrar	lb	0	2	0	-	-	-
+r5-empty-directory-among	rar	t	0	-	-	-	-	all-ok
+r5-empty-directory-among	rar	x	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	rar	x-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	rar	x-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-directory-among	rar	e	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-empty-directory-among	rar	e-absent	0	-	-	-	MADE: a.txt=13 z.txt=12	all-ok,creating
+r5-empty-directory-among	rar	p	0	-	-	25	-	-
+r5-empty-directory-among	rar	l	0	3	1	-	-	-
+r5-empty-directory-among	rar	lt	0	3	1	-	-	-
+r5-empty-directory-among	rar	lb	0	2	0	-	-	-
+r5-zero-first-byte-alone	unrar	t	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	unrar	x	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	unrar	x-here	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-zero-first-byte-alone	unrar	e	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	unrar	e-here	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-zero-first-byte-alone	unrar	p	10	-	-	0	-	-
+r5-zero-first-byte-alone	unrar	l	0	1	1	-	-	-
+r5-zero-first-byte-alone	unrar	lt	0	1	1	-	-	-
+r5-zero-first-byte-alone	unrar	lb	0	0	0	-	-	-
+r5-zero-first-byte-alone	rar	t	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	rar	x	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	rar	x-here	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-zero-first-byte-alone	rar	e	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	rar	e-here	10	-	-	-	-	no-files
+r5-zero-first-byte-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-zero-first-byte-alone	rar	p	10	-	-	0	-	-
+r5-zero-first-byte-alone	rar	l	0	1	1	-	-	-
+r5-zero-first-byte-alone	rar	lt	0	1	1	-	-	-
+r5-zero-first-byte-alone	rar	lb	0	0	0	-	-	-
+r5-file-named-d-slash-alone	unrar	t	0	-	-	-	-	all-ok
+r5-file-named-d-slash-alone	unrar	x	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	unrar	x-here	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	unrar	x-absent	9	-	-	-	MADE: d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	unrar	e	9	-	-	-	-	no-files,cannot-create,is-a-directory
+r5-file-named-d-slash-alone	unrar	e-here	10	-	-	-	-	no-files
+r5-file-named-d-slash-alone	unrar	e-absent	9	-	-	-	MADE: -	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	unrar	p	0	-	-	31	-	-
+r5-file-named-d-slash-alone	unrar	l	0	1	0	-	-	-
+r5-file-named-d-slash-alone	unrar	lt	0	1	0	-	-	-
+r5-file-named-d-slash-alone	unrar	lb	0	1	0	-	-	-
+r5-file-named-d-slash-alone	rar	t	0	-	-	-	-	all-ok
+r5-file-named-d-slash-alone	rar	x	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	rar	x-here	9	-	-	-	d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	rar	x-absent	9	-	-	-	MADE: d/	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	rar	e	9	-	-	-	-	no-files,cannot-create,is-a-directory
+r5-file-named-d-slash-alone	rar	e-here	10	-	-	-	-	no-files
+r5-file-named-d-slash-alone	rar	e-absent	9	-	-	-	MADE: -	no-files,cannot-create,is-a-directory,creating
+r5-file-named-d-slash-alone	rar	p	0	-	-	31	-	-
+r5-file-named-d-slash-alone	rar	l	0	1	0	-	-	-
+r5-file-named-d-slash-alone	rar	lt	0	1	0	-	-	-
+r5-file-named-d-slash-alone	rar	lb	0	1	0	-	-	-
+r5-file-named-d-slash-among	unrar	t	0	-	-	-	-	all-ok
+r5-file-named-d-slash-among	unrar	x	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	unrar	x-here	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	unrar	x-absent	9	-	-	-	MADE: a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	unrar	e	9	-	-	-	a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory
+r5-file-named-d-slash-among	unrar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-file-named-d-slash-among	unrar	e-absent	9	-	-	-	MADE: a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	unrar	p	0	-	-	56	-	-
+r5-file-named-d-slash-among	unrar	l	0	3	0	-	-	-
+r5-file-named-d-slash-among	unrar	lt	0	3	0	-	-	-
+r5-file-named-d-slash-among	unrar	lb	0	3	0	-	-	-
+r5-file-named-d-slash-among	rar	t	0	-	-	-	-	all-ok
+r5-file-named-d-slash-among	rar	x	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	rar	x-here	9	-	-	-	a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	rar	x-absent	9	-	-	-	MADE: a.txt=13 d/ z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	rar	e	9	-	-	-	a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory
+r5-file-named-d-slash-among	rar	e-here	0	-	-	-	a.txt=13 z.txt=12	all-ok
+r5-file-named-d-slash-among	rar	e-absent	9	-	-	-	MADE: a.txt=13 z.txt=12	cannot-create,total-errors,is-a-directory,creating
+r5-file-named-d-slash-among	rar	p	0	-	-	56	-	-
+r5-file-named-d-slash-among	rar	l	0	3	0	-	-	-
+r5-file-named-d-slash-among	rar	lt	0	3	0	-	-	-
+r5-file-named-d-slash-among	rar	lb	0	3	0	-	-	-
+r5-file-in-directory-alone	unrar	t	0	-	-	-	-	all-ok
+r5-file-in-directory-alone	unrar	x	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	unrar	x-here	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	unrar	x-absent	0	-	-	-	MADE: d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	unrar	e	0	-	-	-	m.txt=31	all-ok
+r5-file-in-directory-alone	unrar	e-here	0	-	-	-	m.txt=31	all-ok
+r5-file-in-directory-alone	unrar	e-absent	0	-	-	-	MADE: m.txt=31	all-ok,creating
+r5-file-in-directory-alone	unrar	p	0	-	-	31	-	-
+r5-file-in-directory-alone	unrar	l	0	1	0	-	-	-
+r5-file-in-directory-alone	unrar	lt	0	1	0	-	-	-
+r5-file-in-directory-alone	unrar	lb	0	1	0	-	-	-
+r5-file-in-directory-alone	rar	t	0	-	-	-	-	all-ok
+r5-file-in-directory-alone	rar	x	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	rar	x-here	0	-	-	-	d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	rar	x-absent	0	-	-	-	MADE: d/ d/m.txt=31	all-ok,creating
+r5-file-in-directory-alone	rar	e	0	-	-	-	m.txt=31	all-ok
+r5-file-in-directory-alone	rar	e-here	0	-	-	-	m.txt=31	all-ok
+r5-file-in-directory-alone	rar	e-absent	0	-	-	-	MADE: m.txt=31	all-ok,creating
+r5-file-in-directory-alone	rar	p	0	-	-	31	-	-
+r5-file-in-directory-alone	rar	l	0	1	0	-	-	-
+r5-file-in-directory-alone	rar	lt	0	1	0	-	-	-
+r5-file-in-directory-alone	rar	lb	0	1	0	-	-	-
+r5-two-empty-files	unrar	t	10	-	-	-	-	no-files
+r5-two-empty-files	unrar	x	10	-	-	-	-	no-files
+r5-two-empty-files	unrar	x-here	10	-	-	-	-	no-files
+r5-two-empty-files	unrar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-two-empty-files	unrar	e	10	-	-	-	-	no-files
+r5-two-empty-files	unrar	e-here	10	-	-	-	-	no-files
+r5-two-empty-files	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-two-empty-files	unrar	p	10	-	-	0	-	-
+r5-two-empty-files	unrar	l	0	2	2	-	-	-
+r5-two-empty-files	unrar	lt	0	2	2	-	-	-
+r5-two-empty-files	unrar	lb	0	0	0	-	-	-
+r5-two-empty-files	rar	t	10	-	-	-	-	no-files
+r5-two-empty-files	rar	x	10	-	-	-	-	no-files
+r5-two-empty-files	rar	x-here	10	-	-	-	-	no-files
+r5-two-empty-files	rar	x-absent	10	-	-	-	NOT MADE	no-files
+r5-two-empty-files	rar	e	10	-	-	-	-	no-files
+r5-two-empty-files	rar	e-here	10	-	-	-	-	no-files
+r5-two-empty-files	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-two-empty-files	rar	p	10	-	-	0	-	-
+r5-two-empty-files	rar	l	0	2	2	-	-	-
+r5-two-empty-files	rar	lt	0	2	2	-	-	-
+r5-two-empty-files	rar	lb	0	0	0	-	-	-
+r5-directories-alone	unrar	t	0	-	-	-	-	all-ok
+r5-directories-alone	unrar	x	0	-	-	-	d/ d/e/	all-ok,creating
+r5-directories-alone	unrar	x-here	0	-	-	-	d/ d/e/	all-ok,creating
+r5-directories-alone	unrar	x-absent	0	-	-	-	MADE: d/ d/e/	all-ok,creating
+r5-directories-alone	unrar	e	10	-	-	-	-	no-files
+r5-directories-alone	unrar	e-here	10	-	-	-	-	no-files
+r5-directories-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-directories-alone	unrar	p	10	-	-	0	-	-
+r5-directories-alone	unrar	l	0	2	0	-	-	-
+r5-directories-alone	unrar	lt	0	2	0	-	-	-
+r5-directories-alone	unrar	lb	0	2	0	-	-	-
+r5-directories-alone	rar	t	0	-	-	-	-	all-ok
+r5-directories-alone	rar	x	0	-	-	-	d/ d/e/	all-ok,creating
+r5-directories-alone	rar	x-here	0	-	-	-	d/ d/e/	all-ok,creating
+r5-directories-alone	rar	x-absent	0	-	-	-	MADE: d/ d/e/	all-ok,creating
+r5-directories-alone	rar	e	10	-	-	-	-	no-files
+r5-directories-alone	rar	e-here	10	-	-	-	-	no-files
+r5-directories-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r5-directories-alone	rar	p	10	-	-	0	-	-
+r5-directories-alone	rar	l	0	2	0	-	-	-
+r5-directories-alone	rar	lt	0	2	0	-	-	-
+r5-directories-alone	rar	lb	0	2	0	-	-	-
+r4-bytes-e9-e8-alone	unrar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-alone	unrar	x	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	unrar	x-here	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	unrar	x-absent	0	-	-	-	MADE: hex:e9e8=31	all-ok,creating
+r4-bytes-e9-e8-alone	unrar	e	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	unrar	e-here	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	unrar	e-absent	0	-	-	-	MADE: hex:e9e8=31	all-ok,creating
+r4-bytes-e9-e8-alone	unrar	p	0	-	-	31	-	-
+r4-bytes-e9-e8-alone	unrar	l	0	1	0	-	-	-
+r4-bytes-e9-e8-alone	unrar	lt	0	1	0	-	-	-
+r4-bytes-e9-e8-alone	unrar	lb	0	1	0	-	-	-
+r4-bytes-e9-e8-alone	rar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-alone	rar	x	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	rar	x-here	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	rar	x-absent	0	-	-	-	MADE: hex:e9e8=31	all-ok,creating
+r4-bytes-e9-e8-alone	rar	e	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	rar	e-here	0	-	-	-	hex:e9e8=31	all-ok
+r4-bytes-e9-e8-alone	rar	e-absent	0	-	-	-	MADE: hex:e9e8=31	all-ok,creating
+r4-bytes-e9-e8-alone	rar	p	0	-	-	31	-	-
+r4-bytes-e9-e8-alone	rar	l	0	1	0	-	-	-
+r4-bytes-e9-e8-alone	rar	lt	0	1	0	-	-	-
+r4-bytes-e9-e8-alone	rar	lb	0	1	0	-	-	-
+r4-bytes-e9-e8-among	unrar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-among	unrar	x	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	unrar	x-here	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	unrar	x-absent	0	-	-	-	MADE: a.txt=13 hex:e9e8=31 z.txt=12	all-ok,creating
+r4-bytes-e9-e8-among	unrar	e	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	unrar	e-here	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	unrar	e-absent	0	-	-	-	MADE: a.txt=13 hex:e9e8=31 z.txt=12	all-ok,creating
+r4-bytes-e9-e8-among	unrar	p	0	-	-	56	-	-
+r4-bytes-e9-e8-among	unrar	l	0	3	0	-	-	-
+r4-bytes-e9-e8-among	unrar	lt	0	3	0	-	-	-
+r4-bytes-e9-e8-among	unrar	lb	0	3	0	-	-	-
+r4-bytes-e9-e8-among	rar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-among	rar	x	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	rar	x-here	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	rar	x-absent	0	-	-	-	MADE: a.txt=13 hex:e9e8=31 z.txt=12	all-ok,creating
+r4-bytes-e9-e8-among	rar	e	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	rar	e-here	0	-	-	-	a.txt=13 hex:e9e8=31 z.txt=12	all-ok
+r4-bytes-e9-e8-among	rar	e-absent	0	-	-	-	MADE: a.txt=13 hex:e9e8=31 z.txt=12	all-ok,creating
+r4-bytes-e9-e8-among	rar	p	0	-	-	56	-	-
+r4-bytes-e9-e8-among	rar	l	0	3	0	-	-	-
+r4-bytes-e9-e8-among	rar	lt	0	3	0	-	-	-
+r4-bytes-e9-e8-among	rar	lb	0	3	0	-	-	-
+r4-bytes-e9-e8-directory-alone	unrar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-directory-alone	unrar	x	0	-	-	-	e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	unrar	x-here	0	-	-	-	e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	unrar	x-absent	0	-	-	-	MADE: e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	unrar	e	10	-	-	-	-	no-files
+r4-bytes-e9-e8-directory-alone	unrar	e-here	10	-	-	-	-	no-files
+r4-bytes-e9-e8-directory-alone	unrar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-bytes-e9-e8-directory-alone	unrar	p	10	-	-	0	-	-
+r4-bytes-e9-e8-directory-alone	unrar	l	0	1	0	-	-	-
+r4-bytes-e9-e8-directory-alone	unrar	lt	0	1	0	-	-	-
+r4-bytes-e9-e8-directory-alone	unrar	lb	0	1	0	-	-	-
+r4-bytes-e9-e8-directory-alone	rar	t	0	-	-	-	-	all-ok
+r4-bytes-e9-e8-directory-alone	rar	x	0	-	-	-	e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	rar	x-here	0	-	-	-	e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	rar	x-absent	0	-	-	-	MADE: e9e8	all-ok,creating
+r4-bytes-e9-e8-directory-alone	rar	e	10	-	-	-	-	no-files
+r4-bytes-e9-e8-directory-alone	rar	e-here	10	-	-	-	-	no-files
+r4-bytes-e9-e8-directory-alone	rar	e-absent	10	-	-	-	NOT MADE	no-files
+r4-bytes-e9-e8-directory-alone	rar	p	10	-	-	0	-	-
+r4-bytes-e9-e8-directory-alone	rar	l	0	1	0	-	-	-
+r4-bytes-e9-e8-directory-alone	rar	lt	0	1	0	-	-	-
+r4-bytes-e9-e8-directory-alone	rar	lb	0	1	0	-	-	-

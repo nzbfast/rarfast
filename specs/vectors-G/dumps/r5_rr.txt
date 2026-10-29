@@ -1,0 +1,24 @@
+== archives/r5_rr.rar (10099 bytes)
+  [0x0] SIGNATURE 526172211a070100
+  [0x8] MAIN hdrcrc=df78c1fb hdrsize=15 flags=0x5 extra=11 data=0
+        archive_flags=0x8
+        extra area at 0x11 (11 bytes): 0a010399c58000dac58000
+          record size=10 type=1 body=0399c58000dac58000
+        !! parsed to 0x11, header ends 0x1c (gap 11)
+  [0x1c] FILE hdrcrc=5cdda696 hdrsize=32 flags=0x2 extra=0 data=8800
+        file_flags=0x6 unp_size=8800 attr=0x81a4 mtime=1600000000 crc=f57b75de
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'text.txt'
+        data area 0x41..0x22a1
+  [0x22a1] SERVICE hdrcrc=bbce482b hdrsize=14 flags=0x6 extra=0 data=46
+        file_flags=0x0 unp_size=46 attr=0x0 mtime=None crc=None
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'QO'
+        data area 0x22b4..0x22e2
+  [0x22e2] SERVICE hdrcrc=0dc1b265 hdrsize=18 flags=0x7 extra=3 data=1138
+        file_flags=0x0 unp_size=1138 attr=0x0 mtime=None crc=None
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'RR'
+        extra area at 0x22f6 (3 bytes): 020705
+          record size=2 type=7 body=05
+        !! parsed to 0x22f6, header ends 0x22f9 (gap 3)
+        data area 0x22f9..0x276b
+  [0x276b] ENDARC hdrcrc=5156771d hdrsize=3 flags=0x4 extra=0 data=0
+        end_flags=0x0

@@ -1,0 +1,2 @@
+case	members	reading in the file headers	readings that give other bytes	what
+bonus-edges	1	stated	bonus-1-from-1fff bonus-1-from-2001 bonus-2-from-3ffff bonus-2-from-40001 repeat-bonus last-without-bonus	fresh matches of length slot 1 at distances 0x1FFF, 0x2000, 0x2001, 0x3FFFF, 0x40000 and 0x40001; after each a marker, 258, a marker, a repeated distance match of length slot 2 and a marker

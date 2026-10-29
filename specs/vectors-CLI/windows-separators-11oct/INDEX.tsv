@@ -1,0 +1,22 @@
+section	arm	token	program	arguments	exit	stdout bytes	stderr bytes
+environment	system	full	cmd	["/c", "ver"]	0	48	0
+environment	system	full	cmd	["/c", "chcp"]	0	25	0
+environment	system	full	tzutil	["/g"]	0	3	0
+environment	system	full	python.exe	["--version"]	0	16	0
+environment	system	full	openssl	["version"]	0	62	0
+separators	made-directories	full	Rar.exe	["a", "-r", "with-dirs.rar", "a"]	0	465	0
+separators	made-directories	full	Rar.exe	["a", "file-only.rar", "a\\b\\f.txt"]	0	295	0
+separators	made-directories	full	UnRAR.exe	["lt", "with-dirs.rar"]	0	710	0
+separators	made-directories	full	UnRAR.exe	["lt", "file-only.rar"]	0	374	0
+separators	made-directories	full	UnRAR.exe	["x", "with-dirs.rar", "out-b-with-dirs\\"]	0	431	0
+separators	made-directories	full	UnRAR.exe	["x", "with-dirs.rar", "out-s-with-dirs/"]	0	431	0
+separators	made-directories	full	UnRAR.exe	["x", "file-only.rar", "out-b-file-only\\"]	0	431	0
+separators	made-directories	full	UnRAR.exe	["x", "file-only.rar", "out-s-file-only/"]	0	431	0
+separators	listing	full	Rar.exe	["a", "-r", "t.rar", "t"]	0	372	0
+separators	listing	full	UnRAR.exe	["l", "t.rar"]	0	396	0
+separators	listing	full	UnRAR.exe	["lb", "t.rar"]	0	12	0
+separators	listing	full	UnRAR.exe	["lt", "t.rar"]	0	531	0
+separators	listing	full	UnRAR.exe	["v", "t.rar"]	0	552	0
+separators	listing	full	UnRAR.exe	["vb", "t.rar"]	0	12	0
+separators	listing	full	Rar.exe	["l", "t.rar"]	0	446	0
+separators	listing	full	Rar.exe	["lb", "t.rar"]	0	12	0

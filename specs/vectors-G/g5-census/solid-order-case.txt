@@ -1,0 +1,6 @@
+# rar 7.23 for x86-64 Linux, 6 Oct 2026. Ten files of the same five bytes:
+#   a.txt A.txt B.txt b.txt x.C x.c y.TXT z.Txt Makefile makefile
+#   rar a -idq -cfg- -s -m3 s.rar *        then  unrar lb s.rar
+#   rar a -idq -cfg- -s -m3 -ds ds.rar *   then  unrar lb ds.rar
+solid: Makefile makefile x.C y.TXT z.Txt x.c A.txt B.txt a.txt b.txt 
+solid -ds: a.txt A.txt b.txt B.txt makefile Makefile x.c x.C y.TXT z.Txt 

@@ -1,0 +1,22 @@
+arm: sig-byte7-01
+about: the signature's eighth byte is 1
+file: x.rar  137 bytes  sha256 db9e1504a57b26f18b11afc3d09dfe4f6ab2267a99459da3bc89aa2d4ee4ff9b
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar

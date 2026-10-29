@@ -1,0 +1,5 @@
+id	meaning	bytes
+V1	reuse the last slot, start = P, length inherited, R0=771 R1=2 (the rar 3.93 RGB shape)	14 00 1c 06 06 10
+V2	select slot 1 (selector 2), start = P + 258 + 65278, length 65536, R0=3	f6 02 0a fe fe c0 00 40 00 00 86
+V3	reuse the last slot, start = P, length inherited, no registers (a 1-byte body)	00 00
+V4	select slot 0 (selector 1), start = P + 5, length 12000, no registers	a3 04 58 bb 80

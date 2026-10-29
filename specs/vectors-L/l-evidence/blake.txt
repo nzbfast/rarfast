@@ -1,0 +1,27 @@
+member	b0.bin	bytes=0	hash_type=0	crc32_in_header=False	digest=dd0e891776933f43c7d032b08a917e25741f8aa9a12c12e1cac8801500f2ca4f	matches=stated,blocks dealt in runs of 8 x 64 to one leaf
+member	b1.bin	bytes=1	hash_type=0	crc32_in_header=False	digest=456da349adc8eaa1ee5fd8397d9c181c21a8e9173ad90f22613fd34e1d576d44	matches=stated,blocks dealt in runs of 8 x 64 to one leaf
+member	b63.bin	bytes=63	hash_type=0	crc32_in_header=False	digest=fe713f6ccd82f0c81ccd7a7d0c8ef83c631e2e394217859d4af5025202923578	matches=stated,blocks dealt in runs of 8 x 64 to one leaf
+member	b64.bin	bytes=64	hash_type=0	crc32_in_header=False	digest=e375bba69fb1c84c7f202f06e71090695f81786b7413da0cd0126e15a0f80181	matches=stated,blocks dealt in runs of 8 x 64 to one leaf
+member	b65.bin	bytes=65	hash_type=0	crc32_in_header=False	digest=11a6af420901450dd27b0babec0c484c4f7710330040136a17e79df6c54106ae	matches=stated
+member	b448.bin	bytes=448	hash_type=0	crc32_in_header=False	digest=63db7eb39bfcaa71b67166262a2509a16b77339de156e5a536f4a0e146a6b3a0	matches=stated
+member	b449.bin	bytes=449	hash_type=0	crc32_in_header=False	digest=50fee55950b67d74b9c5e0a33271229dd6440868bb8a01dd061fdbf9fb94f893	matches=stated
+member	b511.bin	bytes=511	hash_type=0	crc32_in_header=False	digest=63a8cc6d628b88d471d4f81035b367f62b8a14dbf55bd9cca0d945dae8e226cf	matches=stated
+member	b512.bin	bytes=512	hash_type=0	crc32_in_header=False	digest=201135254f94f0cf5307da6ae28daf819258fd08df8249684ffbbded6c23e0e5	matches=stated
+member	b513.bin	bytes=513	hash_type=0	crc32_in_header=False	digest=4524c7cfa3a7cde180691ba1a3c0d4b9fc20ced214f27e65f5c76dbb0ff44c91	matches=stated
+member	b575.bin	bytes=575	hash_type=0	crc32_in_header=False	digest=5d5840af9d0597b9f3c4c06ab0c35221393159dc8ddcac1cdd11cdbdf67870d8	matches=stated
+member	b576.bin	bytes=576	hash_type=0	crc32_in_header=False	digest=bdb643cafa33476c9765185596cbf945c88589f9740affbaafee9613425145a2	matches=stated
+member	b1024.bin	bytes=1024	hash_type=0	crc32_in_header=False	digest=c172db3b0b7e122c3e1a5071348ce3bf39dab1772d9d3c1744e722c1eb0aed84	matches=stated
+member	b4096.bin	bytes=4096	hash_type=0	crc32_in_header=False	digest=3f24ed36a1ecaa90c53a5e2568dfb42198cc5d852cd1fe5210f64b3d36989483	matches=stated
+member	b4097.bin	bytes=4097	hash_type=0	crc32_in_header=False	digest=bbb0935c0ad88571fece336d8d4a3782c795821491ba9d86392236920288c8dd	matches=stated
+member	b40000.bin	bytes=40000	hash_type=0	crc32_in_header=False	digest=cb3473f9be7ea1579c57aade427c47a574c17e2a61ce7de899b97e4b55b33915	matches=stated
+member	b1048576.bin	bytes=1048576	hash_type=0	crc32_in_header=False	digest=d4cfd6100095d626c658c916c5a074c4c307e27bc7be0e1029ca4e23444af4ad	matches=stated
+member	b3000001.bin	bytes=3000001	hash_type=0	crc32_in_header=False	digest=69f79b6d3a365d97d1afe5983175aea9d32b6e4eabb9e2680d2aa34835206b05	matches=stated
+reading	stated	matches 18 of 18 members
+reading	plain BLAKE2s	matches 0 of 18 members
+reading	no leaf has the last-node flag	matches 0 of 18 members
+reading	every leaf has the last-node flag	matches 0 of 18 members
+reading	root without the last-node flag	matches 0 of 18 members
+reading	inner length 0	matches 0 of 18 members
+reading	root at node depth 0	matches 0 of 18 members
+reading	blocks dealt in runs of 8 x 64 to one leaf	matches 4 of 18 members
+summary	blake: stated definition matches 18 of 18

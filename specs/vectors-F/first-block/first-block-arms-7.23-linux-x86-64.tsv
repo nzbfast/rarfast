@@ -1,0 +1,56 @@
+arm	bytes	sha256	what the input is
+plain	89	be0a51662ba77695bea98c7b1202fb364807d924895aae0b0285c2bc99ebfd1f	as rar wrote it, no password
+pdata	152	ac39b3fc5e6c6a60abe9792acb4d99bdc3b3a874ea3f2283edc381529063725e	as rar wrote it with -pRIGHT: data encrypted, headers plain
+hp	254	d3bb26bcaf719ee83cc145c6a9a068828262ddf68df3ed118558686de21cf364	as rar wrote it with -hpRIGHT: headers encrypted
+hp-lead-1001	1255	ca8c3840045466e7d1bcdbe95586e555624b99fe64ca70608a139e4b25eaba4c	hp after 1001 bytes that are zero
+hp-lead-reach-last	4194536	47b61da192af130d33e33bfb475de4f8cd8d7de5798c964adf9a1a41de9f8fd8	hp after 4194282 bytes that are zero
+hp-lead-reach-miss	4194537	6ca1df68593dfcfa3e0970a537843a707c34bc9d8705afc142d8b0de4efe1e00	hp after 4194283 bytes that are zero
+plain-lead-1001	1090	f8b8f14958b35cc6c23511761a74c4ccf5722e891fed7cda568341ea89390411	plain after 1001 bytes that are zero
+pdata-lead-1001	1153	1e8565a9e203092b7697966224daa9288db2cda401321d9a8d4d16014461b64e	pdata after 1001 bytes that are zero
+hp-crc-bad	254	eff24f2c7faf5e596e8020426eeccc6b49841a06b82a18d359c05c59be035787	hp, one byte of the first block's checksum changed
+plain-crc-bad	89	05eecc91ad7ffa4438ed7acb82932b4928cb0a4ecdcbb01b61cb4249b4225840	plain, one byte of the first block's checksum changed
+hp-type-0	254	f1e39823dcdd2a345bc3408112a9e4c4ac79e1c373fa76e8b2c63f1580231aee	hp, first block's type written as 0, checksum made good
+hp-type-1	254	a8b8024a8d3ba70a32d83555e65eec5241c059164c89010347114ce1c936b7b3	hp, first block's type written as 1, checksum made good
+hp-type-2	254	82533ed3532b62238c5cdba5183ff5e1788d2a9aa3a16a83771eabecc1a67dcb	hp, first block's type written as 2, checksum made good
+hp-type-3	254	6c604ce8c3c60441916f6e5fe3cca4a13cd0ae8846265c3aac7aa6137655310d	hp, first block's type written as 3, checksum made good
+hp-type-5	254	82d190e3bdcf8434a47a934750160c985a80baa2168d12605e5a733c3e4f7c3a	hp, first block's type written as 5, checksum made good
+hp-type-6	254	9c48d993ab6545ed082778f33afde241b12050c411e61696b8450b78fd92b6b0	hp, first block's type written as 6, checksum made good
+hp-type-127	254	7fc1b0b51a22ecae82ad77b2dfa8f1fefee888ce5f38690b923fb9c215ba0f9d	hp, first block's type written as 127, checksum made good
+hp-type-128	255	212532d5b9277aefc545b03e96fb947c44af72678be82f2661733ca6d9e7b450	hp, first block's type written as 128, checksum made good
+hp-type-4-two-bytes	255	58925a2997330fc7699617c81a72bb9bc5549c878bf34b0bec136534193458a7	hp, type 4 written in two bytes (84 00), size and checksum made good
+plain-type-2	89	b9c82a9d1bfed6f7f0d9501961b0f662f8b15de8242059b179dc56e62d26dd12	plain, first block's type written as 2, checksum made good
+plain-type-3	89	eabcec7d229ac27d66ef24630cca7b14ddb36a6e0633a34af60ff1e703bf7c1d	plain, first block's type written as 3, checksum made good
+plain-type-4	89	f25405d0964612374232ac955b865dbee15a70cf476776dbd398cbab722d8b38	plain, first block's type written as 4, checksum made good
+plain-type-5	89	beb369952b4bfa8246bfb17c6c639e78858720f17be29e3177fd6aebbb77b734	plain, first block's type written as 5, checksum made good
+plain-type-6	89	99eee9702b67059ec1f5629c5431d520c6a9a47e31abbf784e09146d244b3a2f	plain, first block's type written as 6, checksum made good
+pdata-type-4	152	fd1404d9ce9b18ce24c5641b22cac38bd12867a316bb3101e533257306d47364	pdata, first block's type written as 4, checksum made good
+hp-size-two-bytes	255	32ecb30c371df5d0539468b2a17caab6f2fb992c4e3a4f9cb72a1fbf0f3e1214	hp, first block's size written in two bytes, checksum made good
+hp-size-zero	221	786118c03f3424606f79d0e496c37959ae3362b720c270cb4f1108936ded65ac	hp, a block of size 0 put ahead of everything after the first block
+hp-size-past-end	255	575dd6a8a72c2c5517c0b867dd0f1988db9ed18cb7d83bdc5e4bd6c04d363fa8	hp, first block's size field says more bytes than the file holds
+hp-cut-sig-only	8	05119c8f66241a863f3be866397ad061d073a9c80cc2adb13d1471a9a874661d	hp, cut to sig-only (8 bytes)
+hp-cut-sig-plus-1	9	2a0c6c84d9f037900cf47e0631b25b86876c2bc6cc8eafd9200ce1953019a60d	hp, cut to sig-plus-1 (9 bytes)
+hp-cut-sig-plus-4	12	b97c7fdd62ea65d1c61a8420b51654c7cc4b8ab367a757012baa3a089a71e390	hp, cut to sig-plus-4 (12 bytes)
+hp-cut-sig-plus-5	13	444aff71b3f0d99285919ea28ac472f815515fb886649ab6be06739d227ced62	hp, cut to sig-plus-5 (13 bytes)
+hp-cut-sig-plus-6	14	17960040835daa98252c5853657e8c105e581cbe460bc177ad16ddf1eacb83d5	hp, cut to sig-plus-6 (14 bytes)
+hp-cut-sig-plus-7	15	d28b101ad77c8afd595ff49344dceab435a219a83186c5537ac1117e3a1d3beb	hp, cut to sig-plus-7 (15 bytes)
+hp-cut-first-block-less-1	45	8a191011b38e36402fb84b5c39f215b59e75d2355864de92f9cb6782f470f9ec	hp, cut to first-block-less-1 (45 bytes)
+hp-cut-first-block-whole	46	9c03f2b36ecee0e6335882d4ea77a524b647155560f1c31563146ca5b825ebb4	hp, cut to first-block-whole (46 bytes)
+hp-cut-first-block-plus-16	62	86bcf4dfc5bbd3008e808e1cd2ec2feb73ecd64222831651993c39d81b76c79d	hp, cut to first-block-plus-16 (62 bytes)
+plain-cut-sig-plus-6	14	79f6eb4d2c8c028347f9662b9b922595482574beabf6903ff9e366d5ab605792	plain, cut to sig-plus-6 (14 bytes)
+plain-cut-first-block-less-1	22	592102c2725dc0f15ee769eaab517841007670b6995fd0e7059505da45d32641	plain, cut to first-block-less-1 (22 bytes)
+plain-cut-first-block-whole	23	87bf01a14d98ec57f01712c34408736877849882e2aeec13559a3df1f399a94e	plain, cut to first-block-whole (23 bytes)
+hp-sig-byte8-01	254	83e6b7c7ea9984a76a53a475f870b7401a2952f7626af8f1c234d5625b686ece	hp, eighth signature byte 01
+hp-old-sig	253	f5d8dab1cce8245b40ad1dd18a38db8fcc0b9c9aeb29d3af9c6985892384bcc3	hp's blocks after the older seven byte signature
+hp-version-1	254	fd5bef35bc1b79a92b581bb6cbd7246868cd2026ff9fe94ccf26fee08f1d72e8	hp, the encryption header's version field 1, checksum made good
+hp-type-4-bare	223	bb3fb346272e8c56910bba67f760f7f270113cb9ed5741633190a1147ca6d799	hp, first block a header of type 4 and flags 0 with no field after them
+hp-type-4-long	16756	ab33cd00f354edf4c3b02dcc539d99091b6bef73e7d2a6afc124a6979ce073af	hp, 16,500 bytes that are zero added to the first block's header, size and checksum made good
+hp-type-4-long-cut	16547	f5ef61a7f4988c0e44ebb49e3755a72da7506a64fb081ccbd1eec21a9390cda7	the same long first block, the file cut one byte before the block's end
+hp-type-4-long-whole	16548	a6dc85f136092388ca702c2097e834412991696cc449a270bda540f8baee6db0	the same long first block, the file ending where the block ends
+empty	0	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	a file of no bytes
+text	15	904330787961428ffcb3dc757d9f319755fb279da86413e97d37ad356a2cf8cf	fifteen bytes of text
+rar-word	4	59dc41f5025061619dc881a0e4747e588eafb12333356a392f8d2a02646a1e53	the four bytes Rar! and no more
+hp-second-volume	96142	fa8fce8f61b36d3a2427ffbd380aab0bd24906e24779f82e08a83d08f5cfbbd2	the second of two volumes written with -hpRIGHT, put alone
+rar4-hp	69132	b911207825991f24bc5b7c0eda0604ff357d243bd8d0720b61a181603a91d54b	a kept RAR 4 archive with encrypted headers
+rar4-plain	68789	4f8a73a48fee909d2f43a575433094865ae767880467bbd1d21eaeed21b0320c	a kept RAR 4 archive, no password
+missing	0	-	a path that names nothing
+directory	0	-	a path that names a directory

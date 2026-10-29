@@ -1,0 +1,139 @@
+r4_cmt.rar (430 bytes)
+    marker 526172211a0700
+    MAIN flags=0000 size=13 rest=000000000000
+    SUB flags=8000 packed=27 unpacked=17 host=3 crc=535c9d01 crc32(data area)=de231d43 dostime=00000000 version=29 method=33 attr=0 name=b'CMT' after-name=
+    FILE flags=8020 packed=300 unpacked=300 host=3 crc=59dfd160 crc32(data area)=59dfd160 dostime=512d6354 version=20 method=30 attr=81a4 name=b'hello.txt' after-name=
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_hpw.rar (420 bytes)
+    marker 526172211a0700
+    MAIN flags=0080 size=13 rest=000000000000
+    (not readable in clear from here: 400 bytes)
+r4_lock.rar (368 bytes)
+    marker 526172211a0700
+    MAIN flags=0004 size=13 rest=000000000000
+    FILE flags=8020 packed=300 unpacked=300 host=3 crc=59dfd160 crc32(data area)=59dfd160 dostime=512d6354 version=20 method=30 attr=81a4 name=b'hello.txt' after-name=
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_m3.rar (154 bytes)
+    marker 526172211a0700
+    MAIN flags=0000 size=13 rest=000000000000
+    FILE flags=8020 packed=87 unpacked=8800 host=3 crc=f57b75de crc32(data area)=401c6320 dostime=512d6354 version=29 method=33 attr=81a4 name=b'text.txt' after-name=
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_pw.rar (380 bytes)
+    marker 526172211a0700
+    MAIN flags=0000 size=13 rest=000000000000
+    FILE flags=8424 packed=304 unpacked=300 host=3 crc=59dfd160 crc32(data area)=ba03a726 dostime=512d6354 version=29 method=30 attr=81a4 name=b'hello.txt' after-name=996bc4b352bbc115
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_pwvol.part1.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0111 size=13 rest=000000000000
+    FILE flags=8426 packed=4007 unpacked=12000 host=3 crc=b0c0066b crc32(data area)=b0c0066b dostime=512d6354 version=29 method=30 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400f body=fe9bb62f000000000000000000
+    bytes after the end block: 0
+r4_pwvol.part2.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8427 packed=4007 unpacked=12000 host=3 crc=45d18b07 crc32(data area)=45d18b07 dostime=512d6354 version=29 method=30 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400f body=3b8768c0010000000000000000
+    bytes after the end block: 0
+r4_pwvol.part3.rar (4075 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8425 packed=3986 unpacked=12000 host=3 crc=ad4f5dcc crc32(data area)=d4dc7274 dostime=512d6354 version=29 method=30 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400e body=93b9a0bc020000000000000000
+    bytes after the end block: 0
+r4_pwvolc.part1.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0111 size=13 rest=000000000000
+    FILE flags=8426 packed=4007 unpacked=12000 host=3 crc=d883367d crc32(data area)=d883367d dostime=512d6354 version=29 method=33 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400f body=4d970242000000000000000000
+    bytes after the end block: 0
+r4_pwvolc.part2.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8427 packed=4007 unpacked=12000 host=3 crc=a54b9277 crc32(data area)=a54b9277 dostime=512d6354 version=29 method=33 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400f body=ee8f8772010000000000000000
+    bytes after the end block: 0
+r4_pwvolc.part3.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8427 packed=4007 unpacked=12000 host=3 crc=7a3e1696 crc32(data area)=7a3e1696 dostime=512d6354 version=29 method=33 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400f body=fd17e2e7020000000000000000
+    bytes after the end block: 0
+r4_pwvolc.part4.rar (116 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8425 packed=27 unpacked=12000 host=3 crc=ad4f5dcc crc32(data area)=10cd34e9 dostime=512d6354 version=29 method=33 attr=81a4 name=b'split.bin' after-name=f243e548f7bbd8be
+    END flags=400e body=e05389cf030000000000000000
+    bytes after the end block: 0
+r4_rr.rar (11517 bytes)
+    marker 526172211a0700
+    MAIN flags=0040 size=13 rest=000000000000
+    FILE flags=8020 packed=8800 unpacked=8800 host=3 crc=f57b75de crc32(data area)=f57b75de dostime=512d6354 version=20 method=30 attr=81a4 name=b'text.txt' after-name=
+    SUB flags=c000 packed=2596 unpacked=2596 host=3 crc=ecf6546c crc32(data area)=1d75fb0e dostime=00000000 version=29 method=30 attr=0 name=b'RR' after-name=50726f746563742b050000001200000000000000
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_solid.rar (215 bytes)
+    marker 526172211a0700
+    MAIN flags=0008 size=13 rest=000000000000
+    FILE flags=8080 packed=52 unpacked=300 host=3 crc=59dfd160 crc32(data area)=aa909c9a dostime=512d6354 version=29 method=35 attr=81a4 name=b'hello.txt' after-name=
+    FILE flags=8090 packed=55 unpacked=8800 host=3 crc=f57b75de crc32(data area)=4e79b94e dostime=512d6354 version=29 method=35 attr=81a4 name=b'text.txt' after-name=
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_store.rar (587 bytes)
+    marker 526172211a0700
+    MAIN flags=0000 size=13 rest=000000000000
+    FILE flags=8020 packed=300 unpacked=300 host=3 crc=59dfd160 crc32(data area)=59dfd160 dostime=512d6354 version=20 method=30 attr=81a4 name=b'hello.txt' after-name=
+    FILE flags=8020 packed=0 unpacked=0 host=3 crc=00000000 crc32(data area)=00000000 dostime=512d6354 version=20 method=30 attr=81a4 name=b'empty.dat' after-name=
+    FILE flags=8020 packed=50 unpacked=50 host=3 crc=1da83329 crc32(data area)=1da83329 dostime=512d6354 version=20 method=30 attr=81a4 name=b'sub\\nested\\deep.txt' after-name=
+    FILE flags=80e0 packed=0 unpacked=0 host=3 crc=00000000 crc32(data area)=00000000 dostime=512d6354 version=20 method=30 attr=41ed name=b'sub\\nested' after-name=
+    FILE flags=80e0 packed=0 unpacked=0 host=3 crc=00000000 crc32(data area)=00000000 dostime=512d6354 version=20 method=30 attr=41ed name=b'sub' after-name=
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_ts.rar (378 bytes)
+    marker 526172211a0700
+    MAIN flags=0000 size=13 rest=000000000000
+    FILE flags=9020 packed=300 unpacked=300 host=3 crc=59dfd160 crc32(data area)=59dfd160 dostime=512d6354 version=20 method=30 attr=81a4 name=b'hello.txt' after-name=800c46ab325d54632d51
+    END flags=4000 body=
+    bytes after the end block: 0
+r4_vol.part1.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0111 size=13 rest=000000000000
+    FILE flags=8022 packed=4015 unpacked=12000 host=3 crc=c06a21da crc32(data area)=c06a21da dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400f body=f4f76c56000000000000000000
+    bytes after the end block: 0
+r4_vol.part2.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8023 packed=4015 unpacked=12000 host=3 crc=b46544e7 crc32(data area)=b46544e7 dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400f body=3451a0d5010000000000000000
+    bytes after the end block: 0
+r4_vol.part3.rar (4051 bytes)
+    marker 526172211a0700
+    MAIN flags=0011 size=13 rest=000000000000
+    FILE flags=8021 packed=3970 unpacked=12000 host=3 crc=ad4f5dcc crc32(data area)=5868aafe dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400e body=0a2522bd020000000000000000
+    bytes after the end block: 0
+r4_volvn.r00 (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0001 size=13 rest=000000000000
+    FILE flags=8023 packed=4015 unpacked=12000 host=3 crc=b46544e7 crc32(data area)=b46544e7 dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400f body=ac62f1d3010000000000000000
+    bytes after the end block: 0
+r4_volvn.r01 (4051 bytes)
+    marker 526172211a0700
+    MAIN flags=0001 size=13 rest=000000000000
+    FILE flags=8021 packed=3970 unpacked=12000 host=3 crc=ad4f5dcc crc32(data area)=5868aafe dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400e body=7cfa2a67020000000000000000
+    bytes after the end block: 0
+r4_volvn.rar (4096 bytes)
+    marker 526172211a0700
+    MAIN flags=0101 size=13 rest=000000000000
+    FILE flags=8022 packed=4015 unpacked=12000 host=3 crc=c06a21da crc32(data area)=c06a21da dostime=512d6354 version=20 method=30 attr=81a4 name=b'split.bin' after-name=
+    END flags=400f body=6cc43d50000000000000000000
+    bytes after the end block: 0
+1 ("header checksum = low 16 bits of CRC32 from the type field to the header's end", False)
+71 ("header checksum = low 16 bits of CRC32 from the type field to the header's end", True)

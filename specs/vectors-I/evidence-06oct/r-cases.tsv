@@ -1,0 +1,173 @@
+case	question	reading the archive was coded under	bytes that reading prints	sha256 of them
+r01_header_mem_then_esc	memory byte before escape byte (h, m=0, e=255)	memory byte first	4256	989e2c9887f9325d40f3f8f3a854fe4d5ab32a7af3cbaf295e1b9fafbee24c62
+r02_header_esc_then_mem	the same three bytes coded as if the escape byte came first (e=0, m=255)	escape byte first	4256	989e2c9887f9325d40f3f8f3a854fe4d5ab32a7af3cbaf295e1b9fafbee24c62
+r03_order_r02_stated	order code r=2 coded with model order 2 (stated)	model order 2	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r02_statedp1	order code r=2 coded with model order 3 (stated+1)	model order 3	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r03_stated	order code r=3 coded with model order 3 (stated)	model order 3	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r03_statedp1	order code r=3 coded with model order 4 (stated+1)	model order 4	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r03_statedm1	order code r=3 coded with model order 2 (stated-1)	model order 2	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r08_stated	order code r=8 coded with model order 8 (stated)	model order 8	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r08_statedp1	order code r=8 coded with model order 9 (stated+1)	model order 9	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r08_statedm1	order code r=8 coded with model order 7 (stated-1)	model order 7	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r16_stated	order code r=16 coded with model order 16 (stated)	model order 16	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r16_statedp1	order code r=16 coded with model order 17 (stated+1)	model order 17	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r16_statedm1	order code r=16 coded with model order 15 (stated-1)	model order 15	8400	db06ecb52137b69bb99dc5a5595e623a566cd2ed6c6f80b87c5e21ba14bfe330
+r03_order_r17_stated	order code r=17 coded with model order 19 (stated)	model order 19	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r17_orderr	order code r=17 coded with model order 17 (order=r)	model order 17	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r17_statedp1	order code r=17 coded with model order 20 (stated+1)	model order 20	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r17_statedm1	order code r=17 coded with model order 18 (stated-1)	model order 18	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r17_16p2rm16	order code r=17 coded with model order 18 (16+2(r-16))	model order 18	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r18_stated	order code r=18 coded with model order 22 (stated)	model order 22	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r18_orderr	order code r=18 coded with model order 18 (order=r)	model order 18	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r18_statedp1	order code r=18 coded with model order 23 (stated+1)	model order 23	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r18_statedm1	order code r=18 coded with model order 21 (stated-1)	model order 21	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r18_16p2rm16	order code r=18 coded with model order 20 (16+2(r-16))	model order 20	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r24_stated	order code r=24 coded with model order 40 (stated)	model order 40	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r24_orderr	order code r=24 coded with model order 24 (order=r)	model order 24	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r24_statedp1	order code r=24 coded with model order 41 (stated+1)	model order 41	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r24_statedm1	order code r=24 coded with model order 39 (stated-1)	model order 39	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r24_16p2rm16	order code r=24 coded with model order 32 (16+2(r-16))	model order 32	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r31_stated	order code r=31 coded with model order 61 (stated)	model order 61	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r31_orderr	order code r=31 coded with model order 31 (order=r)	model order 31	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r31_statedp1	order code r=31 coded with model order 62 (stated+1)	model order 62	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r31_statedm1	order code r=31 coded with model order 60 (stated-1)	model order 60	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r31_16p2rm16	order code r=31 coded with model order 46 (16+2(r-16))	model order 46	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r32_stated	order code r=32 coded with model order 64 (stated)	model order 64	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r32_orderr	order code r=32 coded with model order 32 (order=r)	model order 32	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r32_statedp1	order code r=32 coded with model order 65 (stated+1)	model order 65	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r32_statedm1	order code r=32 coded with model order 63 (stated-1)	model order 63	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r03_order_r32_16p2rm16	order code r=32 coded with model order 48 (16+2(r-16))	model order 48	60000	07105b430109dc802b944e51366ee79fcb1da9df0297f2ec560aad9682c7da33
+r04_start_r01_as_order1	START block with order code r=1, coded with a model of order 1	accepted as order 1	2000	da9a1ae0027ed63cb0bf52f23ed547040d5e75b63260592d4cddd0162c0573dc
+r04_start_r01_as_order2	START block with order code r=1, coded with a model of order 2	accepted as order 2	2000	da9a1ae0027ed63cb0bf52f23ed547040d5e75b63260592d4cddd0162c0573dc
+r05_second_start_r01_continues_model	after a good block, a START block with r=1: continues_model	continues_model	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r05_second_start_r01_restarts_order2	after a good block, a START block with r=1: restarts_order2	restarts_order2	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r05_second_start_r01_restarts_order8	after a good block, a START block with r=1: restarts_order8	restarts_order8	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r05_second_start_r01_public_package_order1	after a good block, a START block with r=1: public_package_order1	public_package_order1	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r06_mem0_stated	memory byte 0 coded with an arena of 1048576 bytes (stated); 3 model starts	arena of 1048576 bytes	36000	8bf300850a8d2f3e3ed957ddf474d496afd056e57704bc9c4b95df491e854702
+r06_mem0_mp1million	memory byte 0 coded with an arena of 1000000 bytes ((m+1) million); 3 model starts	arena of 1000000 bytes	31000	a363215a13384f97266313b60871b93721e023634e7cc0df7c2aac7963874d17
+r06_mem0_mp2MiB	memory byte 0 coded with an arena of 2097152 bytes ((m+2) MiB); 3 model starts	arena of 2097152 bytes	76000	2fffc62ca46138b6e29bfb7fc631501a6486edd0cf7738dc1f033ec4bd020837
+r06_mem1_stated	memory byte 1 coded with an arena of 2097152 bytes (stated); 3 model starts	arena of 2097152 bytes	76000	2fffc62ca46138b6e29bfb7fc631501a6486edd0cf7738dc1f033ec4bd020837
+r06_mem1_mMiB	memory byte 1 coded with an arena of 1048576 bytes (m MiB); 3 model starts	arena of 1048576 bytes	36000	8bf300850a8d2f3e3ed957ddf474d496afd056e57704bc9c4b95df491e854702
+r06_mem1_mp1million	memory byte 1 coded with an arena of 2000000 bytes ((m+1) million); 3 model starts	arena of 2000000 bytes	72000	38d66c3e18e743e8f40fd307aa60136cf3fc3f6a272792f67a36a41add09049b
+r06_mem1_mp2MiB	memory byte 1 coded with an arena of 3145728 bytes ((m+2) MiB); 3 model starts	arena of 3145728 bytes	107000	4e91cb9da1495f8891917321e47e34ec9d0fb80ab63b024bf612fb070b5ee7db
+r06_mem2_stated	memory byte 2 coded with an arena of 3145728 bytes (stated); 3 model starts	arena of 3145728 bytes	107000	4e91cb9da1495f8891917321e47e34ec9d0fb80ab63b024bf612fb070b5ee7db
+r06_mem2_mMiB	memory byte 2 coded with an arena of 2097152 bytes (m MiB); 3 model starts	arena of 2097152 bytes	76000	2fffc62ca46138b6e29bfb7fc631501a6486edd0cf7738dc1f033ec4bd020837
+r06_mem2_mp1million	memory byte 2 coded with an arena of 3000000 bytes ((m+1) million); 3 model starts	arena of 3000000 bytes	103000	5cc93b08e8eb68a463bb1de149a14761dadba7f0ea6ab6e7adaf78ec4d23fc81
+r06_mem2_mp2MiB	memory byte 2 coded with an arena of 4194304 bytes ((m+2) MiB); 3 model starts	arena of 4194304 bytes	149000	a2aebdbf66dbf534ff45eebd5fbe020d55527490cbf9347cc19e6126b5542e97
+r07_mem255	memory byte 255 (256 MiB) on a small member	accepted	4256	989e2c9887f9325d40f3f8f3a854fe4d5ab32a7af3cbaf295e1b9fafbee24c62
+r07_mem127	memory byte 127 (128 MiB) on a small member	accepted	4256	989e2c9887f9325d40f3f8f3a854fe4d5ab32a7af3cbaf295e1b9fafbee24c62
+r08_second_start_bigger_new_size_used	block 1 START 1 MiB, block 2 START memory byte 1, coded with new size used	new size used	85000	04308aa5b50beab2d97ca6b234d1d02ab6919f3257c187906f09de873af3234f
+r08_second_start_bigger_first_size_kept	block 1 START 1 MiB, block 2 START memory byte 1, coded with first size kept	first size kept	39000	1e1dc701d4e2c9b2dc97348fe31064e4b46d4e6512353978d801084f033e37fc
+r09_no_esc_bit_start_value_2	first block without the 0x40 bit, coded with the escape byte taken as 2	escape byte starts as 2	714	50dbd3229730d01b04d6aa7a8a4fef7621f2315469ef82e783bd0aeca66996a5
+r09_no_esc_bit_start_value_0	first block without the 0x40 bit, coded with the escape byte taken as 0	escape byte starts as 0	714	50dbd3229730d01b04d6aa7a8a4fef7621f2315469ef82e783bd0aeca66996a5
+r09_no_esc_bit_start_value_1	first block without the 0x40 bit, coded with the escape byte taken as 1	escape byte starts as 1	714	50dbd3229730d01b04d6aa7a8a4fef7621f2315469ef82e783bd0aeca66996a5
+r09_no_esc_bit_start_value_255	first block without the 0x40 bit, coded with the escape byte taken as 255	escape byte starts as 255	714	50dbd3229730d01b04d6aa7a8a4fef7621f2315469ef82e783bd0aeca66996a5
+r10_start_without_esc_bit_kept	block 1 sets escape byte 77; block 2 is a START block without the 0x40 bit, coded with the escape byte kept	escape byte kept	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r10_start_without_esc_bit_back_to_2	block 1 sets escape byte 77; block 2 is a START block without the 0x40 bit, coded with the escape byte back to 2	escape byte back to 2	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r11_continue_without_esc_bit_kept	block 1 sets escape byte 77; block 2 CONTINUES without the 0x40 bit, coded with the escape byte kept	escape byte kept	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r11_continue_without_esc_bit_back_to_2	block 1 sets escape byte 77; block 2 CONTINUES without the 0x40 bit, coded with the escape byte back to 2	escape byte back to 2	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r12_continue_with_esc_bit	block 2 CONTINUES and carries a new escape byte 200	new escape byte taken, model kept	1430	aea66a83356691c41378c5254cf925f1d9b27aa6065a73bf84afab19bd1cc718
+r13_continue_order_bits_01	CONTINUE block whose order bits say r=1 after a START at r=8	order bits ignored, model continues	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r13_continue_order_bits_02	CONTINUE block whose order bits say r=2 after a START at r=8	order bits ignored, model continues	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r13_continue_order_bits_08	CONTINUE block whose order bits say r=8 after a START at r=8	order bits ignored, model continues	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r13_continue_order_bits_20	CONTINUE block whose order bits say r=20 after a START at r=8	order bits ignored, model continues	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r13_continue_order_bits_32	CONTINUE block whose order bits say r=32 after a START at r=8	order bits ignored, model continues	3000	4e1f66a19ebcf9864c56f5d98a5b2f7fa0b6011f91605b723fe53e6667c8ed50
+r14_continue_no_model	the first block of a member is a CONTINUE block (no model yet); coded as if a fresh order 8, 1 MiB model existed	decoded with some start model	1500	617239fe565ec3d92bf23340203d9a70828352ed37da90bd5dc94707b59a0f8a
+r20_code1	code 1 is a literal escape byte	stated	901	a7a0a303ebcd2d4ab362af8522b895bdb6d0ea8ead8562fc7b5d5ca807b1094b
+r21_code6_literal	code 6 is a literal escape byte	stated	901	a7a0a303ebcd2d4ab362af8522b895bdb6d0ea8ead8562fc7b5d5ca807b1094b
+r21_code6_nothing	code 6 produces nothing	produces nothing	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r21_code6_both	code 6 puts the escape byte and then itself	two literals	902	a376a6c87836879460563dde1f0f6cde3157671eaa07ac6bf16cbaeed892b2ca
+r21_code7_literal	code 7 is a literal escape byte	stated	901	a7a0a303ebcd2d4ab362af8522b895bdb6d0ea8ead8562fc7b5d5ca807b1094b
+r21_code7_nothing	code 7 produces nothing	produces nothing	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r21_code7_both	code 7 puts the escape byte and then itself	two literals	902	1d5ead319076eb67e375416d6a04cca78652d9ce64be3e1a7103638abd1c8c97
+r21_code100_literal	code 100 is a literal escape byte	stated	901	a7a0a303ebcd2d4ab362af8522b895bdb6d0ea8ead8562fc7b5d5ca807b1094b
+r21_code100_nothing	code 100 produces nothing	produces nothing	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r21_code100_both	code 100 puts the escape byte and then itself	two literals	902	36f479047013b069ac4724fb0508ee96e0e2cfc9a9787ad98b33bbb8a29e2613
+r21_code255_literal	code 255 is a literal escape byte	stated	901	a7a0a303ebcd2d4ab362af8522b895bdb6d0ea8ead8562fc7b5d5ca807b1094b
+r21_code255_nothing	code 255 produces nothing	produces nothing	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r21_code255_both	code 255 puts the escape byte and then itself	two literals	902	c0fdc38d5899cd33e32b310265436367eee33f1ac1c2582ea393f5bcfd340478
+r22_code5_l0_stated	code 5 with operand 0: a run of operand + 4	run of operand + 4 at distance 1	904	9cac19f105664ea4ef7ad982a148e3da892d86b559fe3fabf0c3ea2a0b8ffe55
+r22_code5_l0_lenp3	code 5 with operand 0: a run of operand + 3	run of operand + 3 at distance 1	903	b2cbe1d6f784728e4a6f8d185cb2506e2339667e23c17a56dbad2023981bb5d6
+r22_code5_l0_lenp5	code 5 with operand 0: a run of operand + 5	run of operand + 5 at distance 1	905	9b6b80e383e7e4e18447490d8726810d3c79d010d5bf3cfa266affaf3f3acbc1
+r22_code5_l1_stated	code 5 with operand 1: a run of operand + 4	run of operand + 4 at distance 1	905	9b6b80e383e7e4e18447490d8726810d3c79d010d5bf3cfa266affaf3f3acbc1
+r22_code5_l1_lenp3	code 5 with operand 1: a run of operand + 3	run of operand + 3 at distance 1	904	9cac19f105664ea4ef7ad982a148e3da892d86b559fe3fabf0c3ea2a0b8ffe55
+r22_code5_l1_lenp5	code 5 with operand 1: a run of operand + 5	run of operand + 5 at distance 1	906	38c6a8597e94317da9cb891291dd8c4d56be110c5a210c7860735b26fe6e4728
+r22_code5_l255_stated	code 5 with operand 255: a run of operand + 4	run of operand + 4 at distance 1	1159	30477d8fd2fe0c562bd3b5b0894f0937bf0b7b05a90fa3aafa537ded44c7d26e
+r22_code5_l255_lenp3	code 5 with operand 255: a run of operand + 3	run of operand + 3 at distance 1	1158	45ee3a8d3e2c5be5924774e970fc50831bf04759e7f9564cefba5dae3aaf9100
+r22_code5_l255_lenp5	code 5 with operand 255: a run of operand + 5	run of operand + 5 at distance 1	1160	2f6486754f38cff24946d4dbf28c78485ee2bafd54094df42676b18f544c74f1
+r23_code4_0_0_0_l0_stated	code 4 operands 0,0,0,0 read as distance 2, length 32 (stated)	distance 2 length 32	932	b0b4500ae7ccc95339511e5821dd8bfac080001a9a4548b3d0f74f4657acc487
+r23_code4_0_0_0_l0_distp1	code 4 operands 0,0,0,0 read as distance 1, length 32 (dist+1)	distance 1 length 32	932	db939fd07c4c5699903d9c0b13084aad700548fc89e73c981e185720abcd4862
+r23_code4_0_0_0_l0_distp3	code 4 operands 0,0,0,0 read as distance 3, length 32 (dist+3)	distance 3 length 32	932	db9ca132dd8e8240e22f75b7dfb8a5ceee7c2bf657ec9095007fa5d82ebc3d4a
+r23_code4_0_0_0_l0_lenp31	code 4 operands 0,0,0,0 read as distance 2, length 31 (len+31)	distance 2 length 31	931	79135340cf41e0220b8f413a698e048c8bfafcee3373f6abf757537bc99f0d00
+r23_code4_0_0_0_l0_lenp33	code 4 operands 0,0,0,0 read as distance 2, length 33 (len+33)	distance 2 length 33	933	0589221b50251d4edc67aa0af9fdd29956711e5b409bcea05f5501a0fea46cc7
+r23_code4_0_0_1_l5_stated	code 4 operands 0,0,1,5 read as distance 3, length 37 (stated)	distance 3 length 37	937	1d2ce381d73b393ea248c799598d75e6a21ee1a91c4967f470f3e93a8772271d
+r23_code4_0_0_1_l5_distp1	code 4 operands 0,0,1,5 read as distance 2, length 37 (dist+1)	distance 2 length 37	937	4e4b6d8d33c7ea7b8bc3449e1fc826c31bcac07123075ebf4dec445aeb2bfbcb
+r23_code4_0_0_1_l5_distp3	code 4 operands 0,0,1,5 read as distance 4, length 37 (dist+3)	distance 4 length 37	937	80f849d7015ed639a50c51a87160010934cae417509f5b22ed72f128efcfe58e
+r23_code4_0_0_1_l5_lenp31	code 4 operands 0,0,1,5 read as distance 3, length 36 (len+31)	distance 3 length 36	936	ea87246323598a3bcdc8fd73b463e04357a78d9ac57a0c7a77c05f9a59bdb801
+r23_code4_0_0_1_l5_lenp33	code 4 operands 0,0,1,5 read as distance 3, length 38 (len+33)	distance 3 length 38	938	25310779ec7407cb75478f46928f341c9f7bee7db74a68b4b758e07e647ac4eb
+r23_code4_0_1_2_l255_stated	code 4 operands 0,1,2,255 read as distance 260, length 287 (stated)	distance 260 length 287	1187	2886b7d382355f256a66b04dc015106f4a433637e0968bcb2fde624eb1dc99dd
+r23_code4_0_1_2_l255_distp1	code 4 operands 0,1,2,255 read as distance 259, length 287 (dist+1)	distance 259 length 287	1187	1ed7986676d82aca82a4debfde126687459d77a9236f15bc2f755eeee613d5b8
+r23_code4_0_1_2_l255_distp3	code 4 operands 0,1,2,255 read as distance 261, length 287 (dist+3)	distance 261 length 287	1187	e7ee6531646d6c105cef66b20e1f603ac58196a1012dd55051092884a62f1812
+r23_code4_0_1_2_l255_lenp31	code 4 operands 0,1,2,255 read as distance 260, length 286 (len+31)	distance 260 length 286	1186	5346fa47535beb6d0a83b2df0cfcd03713de95178208923a60bc27e464d25e27
+r23_code4_0_1_2_l255_lenp33	code 4 operands 0,1,2,255 read as distance 260, length 288 (len+33)	distance 260 length 288	1188	475bd361d27e34fe7f20115f9f69f2bc9740ca4dbe163cbd44c408cc66a6389d
+r23_code4_0_0_200_l40_stated	code 4 operands 0,0,200,40 read as distance 202, length 72 (stated)	distance 202 length 72	972	2dfdd6f1d5fe8e422ab53bc81d3c5e96d3dad3d557363a3de002db70cad54854
+r23_code4_0_0_200_l40_distp1	code 4 operands 0,0,200,40 read as distance 201, length 72 (dist+1)	distance 201 length 72	972	f617c87829b2384ff74fe582902342600af2b0d932636c9e01280b7b99040c6e
+r23_code4_0_0_200_l40_distp3	code 4 operands 0,0,200,40 read as distance 203, length 72 (dist+3)	distance 203 length 72	972	f8402fa697f0e32c736eebd2fa31e8a0ab1e89fab6281703fb2fa9d2d9bdcfc4
+r23_code4_0_0_200_l40_lenp31	code 4 operands 0,0,200,40 read as distance 202, length 71 (len+31)	distance 202 length 71	971	31b0cd6f0ea5e146d6f602cc9647db16b0ba6d630e8dd76d3ca830abd0fb5c77
+r23_code4_0_0_200_l40_lenp33	code 4 operands 0,0,200,40 read as distance 202, length 73 (len+33)	distance 202 length 73	973	8633c751b9be40f31b6e5d27901ef9ab30fe43702643bf9b90b9d895b7ceb21f
+r24_code4_distance_65538	code 4 operands 1,0,0,10: distance 65538, length 42	stated	70342	7d0c5a678f9f436bd0812f34f44c3543ac034bbf063231ae3fe24323cd64db48
+r25_code0_next_block_pad+0	code 0, then a CONTINUE block placed with next block at the first unread byte	next block at the first unread byte	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r25_code0_next_block_pad+1	code 0, then a CONTINUE block placed with one byte skipped	one byte skipped	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r25_code0_next_block_pad-1	code 0, then a CONTINUE block placed with one byte earlier	one byte earlier	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r26_code2_early_then_block_full_size	code 2 after part of the data, then a CONTINUE block; member declares both parts	code 2 acts as end of block; a new block follows in the same member	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r26_code2_early_then_block_short_size	the same stream; member declares only the first part	code 2 ends the member's data	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r26_code2_early_ignored	code 2 after part of the data and the SAME block goes on (no header)	code 2 ignored inside a member	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r27_member_end_E2	after the declared size the stream holds: E2	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r27_member_end_E0	after the declared size the stream holds: E0	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r27_member_end_nothing	after the declared size the stream holds: nothing	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r27_member_end_E1	after the declared size the stream holds: E1	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r27_member_end_E7	after the declared size the stream holds: E7	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r27_member_end_literal	after the declared size the stream holds: literal	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r28_run_past_end_by_1	a code 5 run of 104 whose last 1 bytes lie past the declared size	accepted, the run cut at the declared size	703	87c9a3219a076fff0e83ac2403ecf95d58a5c39325c9cbfd34e9b0a7cbeeced9
+r28_run_past_end_by_50	a code 5 run of 104 whose last 50 bytes lie past the declared size	accepted, the run cut at the declared size	654	d16ecb28e587a6963ed94713d56b1f1d6fe7cae64be52fba9657457169749324
+r28_match_past_end_by_22	a code 4 match of 82 whose last 22 bytes lie past the declared size	accepted, the match cut at the declared size	660	3c19ce72ef63b017563b071c8e4445434d4f3e2e8e482150b8ff7b1d9dbec06e
+r29_root_escape_at_end	an escape out of the root right after the declared size	member accepted	600	9a7cbada865387d0ff85514ba7623a767a98ce45ee16cbe4aaef27ff874f2f6a
+r29_root_escape_early	an escape out of the root with 300 declared bytes still owed	member accepted	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r30_truncated	packed data cut 40 bytes short	member accepted	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r31_distance_before_start	code 4 at distance 514 with only 100 bytes produced; expected bytes assume zeros come back	zeros are copied	432	d549a8f29522a99d5e8b2eeea4c72a722b6e1e60230d0eed00c882f36eb04dcf
+r40_solid_continue	solid: member 2 starts with a CONTINUE header	model carried across members	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r41_solid_trailer_ignored	solid: eight further bytes after member 1's end pair, then member 2's CONTINUE header	bytes after the end pair are not read	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r42_solid_m1_nopair_m2_CONTINUEheader	solid: member 1 ends with no pair after its declared size; member 2 begins with: CONTINUE header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_nopair_m2_STARTheader	solid: member 1 ends with no pair after its declared size; member 2 begins with: START header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_nopair_m2_noheader_rangeagain	solid: member 1 ends with no pair after its declared size; member 2 begins with: no header, range decoder set up again	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_nopair_m2_noheader_runon	solid: member 1 ends with no pair after its declared size; member 2 begins with: no header, the block running on	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E0_m2_CONTINUEheader	solid: member 1 ends with E0 after its declared size; member 2 begins with: CONTINUE header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E0_m2_STARTheader	solid: member 1 ends with E0 after its declared size; member 2 begins with: START header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E0_m2_noheader_rangeagain	solid: member 1 ends with E0 after its declared size; member 2 begins with: no header, range decoder set up again	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E2_m2_CONTINUEheader	solid: member 1 ends with E2 after its declared size; member 2 begins with: CONTINUE header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E2_m2_STARTheader	solid: member 1 ends with E2 after its declared size; member 2 begins with: START header	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r42_solid_m1_E2_m2_noheader_rangeagain	solid: member 1 ends with E2 after its declared size; member 2 begins with: no header, range decoder set up again	member 2 decodes	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r45_solid_symbols_past_size_decoded_and_dropped	solid: member 1 holds 60 more literals after its declared size and then the end pair; member 2's CONTINUE block is coded as if those were decoded and dropped	symbols past the declared size are decoded and dropped	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r45_solid_symbols_past_size_not_decoded	solid: member 1 holds 60 more literals after its declared size and then the end pair; member 2's CONTINUE block is coded as if those were not decoded	symbols past the declared size are not decoded	1101	e4dec9fe1a4da3d7f98883e5fc14bbd27ef80f857645f72cac1ef4f168943dfd
+r43_nonsolid_escape_reset	two NON-solid members; member 1 sets escape byte 77; member 2's START block has no 0x40 bit and is coded with the escape byte that starts again at 2	escape byte starts again at 2	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r43_nonsolid_escape_kept	two NON-solid members; member 1 sets escape byte 77; member 2's START block has no 0x40 bit and is coded with the escape byte that kept from the member before	escape byte kept from the member before	1428	c3fa8347bb5b6af4ed63e824c6d460db29f3b391e247736557804553ec3e1861
+r46_nonsolid_continue	two NON-solid members; member 2 starts with a CONTINUE block coded with member 1's model	model carried into a non-solid member	900	555379b99af9816efa7c7c5e340cc744b365e6270d8e5ada9c68aee52c876387
+r44_solid_run_past_end_dropped	solid: a run of 104 with 50 bytes past member 1's declared size; member 2 coded as if they are dropped	spare bytes dropped	954	2dbb851495522d826aa49ce35f1dced8f9d6c41656f4162747f1fdbadc9935ad
+r44_solid_run_past_end_carried	solid: a run of 104 with 50 bytes past member 1's declared size; member 2 coded as if they are carried into member 2	spare bytes carried into member 2	1004	6e04e7dac119579fffdcf4f6338b867c56c18e8252da0b12b355887b59b9dfc6
+r50_code0_then_lz_block	one member: a PPM block ended by code 0, then the genuine LZ block of i18's first member	the LZ block is read from the first unread byte	4896	7c6e4a7d1a9032f3f4d9cfcbfc47399a9d3776d8070424629f67ca97608ee613
+r50_code0_then_lz_block_pad1	the same with one byte between them	one byte skipped	4896	7c6e4a7d1a9032f3f4d9cfcbfc47399a9d3776d8070424629f67ca97608ee613
+r51_solid_ppm_empty_lz_member_ppm_model_kept	solid: a PPM member, the genuine empty lz member, then a CONTINUE block coded with the model kept	model and escape byte kept across the LZ member	1301	6b1579f8f38d9827ecb2ab11df22db2b06aed013f373b9682dabe81af82bd09d
+r51_solid_ppm_empty_lz_member_ppm_model_started_afresh	solid: a PPM member, the genuine empty lz member, then a CONTINUE block coded with the model started afresh	model and escape byte started afresh across the LZ member	1301	6b1579f8f38d9827ecb2ab11df22db2b06aed013f373b9682dabe81af82bd09d
+r51_solid_ppm_lz_member_ppm_model_kept	solid: a PPM member, the genuine lz member, then the two bytes that follow it in i18 and a CONTINUE block coded with the model kept	model and escape byte kept across the LZ member	5397	b34ce3655dbfc84bc14f2752d76e8f1cda897541d0b344adba2ccc2223b21841
+r51_solid_ppm_lz_member_ppm_model_started_afresh	solid: a PPM member, the genuine lz member, then the two bytes that follow it in i18 and a CONTINUE block coded with the model started afresh	model and escape byte started afresh across the LZ member	5397	b34ce3655dbfc84bc14f2752d76e8f1cda897541d0b344adba2ccc2223b21841
+r52_solid_ppm_no_pair_then_lz_member	solid: a PPM member with no end pair, then the genuine LZ member	the LZ member decodes	4896	7c6e4a7d1a9032f3f4d9cfcbfc47399a9d3776d8070424629f67ca97608ee613
+r60_filter_one_byte_length_x+7	a delta filter record of 35 body bytes framed with the one byte length form read as x + 7	length is x + 7	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r60_filter_one_byte_length_x+8	a delta filter record of 35 body bytes framed with the one byte length form read as x + 8	length is x + 8	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r60_filter_one_byte_length_x+6	a delta filter record of 35 body bytes framed with the one byte length form read as x + 6	length is x + 6	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r61_filter_short_length_fand7+1	a second record of 3 body bytes framed in the first byte alone, read as (f & 7) + 1	length is (f & 7) + 1	600	eebdb72e16df681a61f3a02f892d3c1398d6668f28f3c951f912e45ae4280cfb
+r61_filter_short_length_fand7	a second record of 3 body bytes framed in the first byte alone, read as (f & 7)	length is (f & 7)	600	eebdb72e16df681a61f3a02f892d3c1398d6668f28f3c951f912e45ae4280cfb
+r61_filter_short_length_fand7+2	a second record of 3 body bytes framed in the first byte alone, read as (f & 7) + 2	length is (f & 7) + 2	600	eebdb72e16df681a61f3a02f892d3c1398d6668f28f3c951f912e45ae4280cfb
+r62_filter_two_byte_length_high_first	the first record framed with the two byte length form read as x * 256 + y	length is x * 256 + y	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r62_filter_two_byte_length_low_first	the first record framed with the two byte length form read as y * 256 + x	length is y * 256 + x	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r63_filter_two_byte_length_300	a record of 300 body bytes (the program's, then zeros) in the two byte form	length is x * 256 + y	600	d69168b1c7d1fa8896ad2d1fb103e0c0db69bc415c468b8939240a5bf7afea3a
+r64_filter_junk_body	a record whose one body byte is zero	decoding goes on after it	600	9e4b55db84c2df6560d6de4f75fd3b29866cc3fccc79bfe31ad79f9e2da9fd61

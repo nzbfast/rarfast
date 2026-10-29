@@ -1,0 +1,7 @@
+case	reading	failure	size:SHA-256 of each member it gives
+rotation	rotation-none	no failure	391:ee59e167e3e8ee9ff4a8845f61631f45a1645797ba97ea91e68c9e41108c5463
+rotation	rotation-swap	no failure	391:80ef341456b8a7230834211c81eb67378914109849d1602334619ba40195d578
+rotation	rotation-push	no failure	391:d4e125c3b4c79c3d53e39cd695eff48e0829dc425efa9f74530545b96dcf2aff
+rotation	short-not-pushed	fails: a repeated distance of zero	-
+rotation	fresh-not-pushed	fails: a repeated distance of zero	-
+rotation	repeat-leaves-last	no failure	388:66047872a8b89c769c189557ee70bd1a8b01aa0cac5be8f6d6f975522d16250b

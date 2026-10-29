@@ -1,0 +1,5 @@
+case	reading	size:SHA-256 of each member	the bytes in hex when short
+length-in-one-byte	stated	12009:2e30679159f975c6f1d129afd510d2dedcb672ad71e71ebeedef7285e40d4d6d	-
+length-in-two-bytes	stated	12009:2e30679159f975c6f1d129afd510d2dedcb672ad71e71ebeedef7285e40d4d6d	-
+length-in-first-byte	stated	24012:47a414b58a4c9d5c837618d1a881f16044908ff9bdea3d4c7143e605ad1d6702	-
+short-record-in-two-bytes	stated	24012:47a414b58a4c9d5c837618d1a881f16044908ff9bdea3d4c7143e605ad1d6702	-

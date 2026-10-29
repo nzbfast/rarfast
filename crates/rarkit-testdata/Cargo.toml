@@ -1,0 +1,15 @@
+[package]
+name = "rarkit-testdata"
+version = "0.0.0"
+description = "Seeded input makers shared by rarkit's tests, examples and fuzz targets."
+# Spelled out and not inherited, and with no rust-version: `make
+# mirror-check` copies this crate beside a copy of crates/rarkit, outside
+# the workspace and its pinned toolchain, and builds it there as it stands.
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+
+# No dependencies, and none are to be added: this crate is named only as
+# a dev-dependency (and by the fuzz crates), so nothing here reaches the
+# engine's public surface or the shipped binary.
+[dependencies]

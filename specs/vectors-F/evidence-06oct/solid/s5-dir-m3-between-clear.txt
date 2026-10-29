@@ -1,0 +1,130 @@
+arm: s5-dir-m3-between-clear
+about: a directory header declaring method 3 with its bit clear, between a and b [archive flags 0x4; a.txt clear method 3 packed 2017, dd clear dir method 3 packed 0, b.txt solid method 3 packed 108, c.txt solid method 3 packed 116, d.txt solid method 3 packed 82]
+file: x.rar  2497 bytes  sha256 8d915f0ba4d348336a1846dcb2862fb86216c74e9c09c9b1741bda21ee13d44e
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: dd
+          Type: Directory
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: drwxr-xr-x
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         83%  OK
+  Testing     dd                                                        OK
+  Testing     b.txt                                                         90%  OK
+  Testing     c.txt                                                         95%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 19600 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: dd
+          Type: Directory
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: drwxr-xr-x
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         83%  OK
+  Testing     dd                                                        OK
+  Testing     b.txt                                                         90%  OK
+  Testing     c.txt                                                         95%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK

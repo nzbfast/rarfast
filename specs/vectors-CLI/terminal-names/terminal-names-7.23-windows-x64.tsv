@@ -1,0 +1,3969 @@
+# char	program	command	place	out pipe	out console	err pipe	err console	mixed
+U+0001	unrar	lb	name	01	263a	-	-	same
+U+0001	unrar	l	name	01	263a	-	-	same
+U+0001	unrar	l	comment	01	263a	-	-	same
+U+0001	unrar	lt	name	01	263a	-	-	same
+U+0001	unrar	lt	target	01	263a	-	-	same
+U+0001	unrar	lt	comment	01	263a	-	-	same
+U+0001	unrar	lta	name	01	263a	-	-	same
+U+0001	unrar	lta	target	01	263a	-	-	same
+U+0001	unrar	lta	comment	01	263a	-	-	same
+U+0001	unrar	v	name	01	263a	-	-	same
+U+0001	unrar	v	comment	01	263a	-	-	same
+U+0001	unrar	vb	name	01	263a	-	-	same
+U+0001	unrar	vt	name	01	263a	-	-	same
+U+0001	unrar	vt	target	01	263a	-	-	same
+U+0001	unrar	vt	comment	01	263a	-	-	same
+U+0001	unrar	vta	name	01	263a	-	-	same
+U+0001	unrar	vta	target	01	263a	-	-	same
+U+0001	unrar	vta	comment	01	263a	-	-	same
+U+0001	unrar	t	name	01	263a	-	-	same
+U+0001	unrar	t	comment	01	263a	-	-	same
+U+0001	unrar	x -o+	name	5f	005f	01 | 01 | 5f	263a | 263a | 005f	same
+U+0001	unrar	x -o+	comment	01	263a	-	-	same
+U+0001	unrar	e -o+	name	5f	005f	01 | 01 | 5f	263a | 263a | 005f	same
+U+0001	unrar	e -o+	comment	01	263a	-	-	same
+U+0001	unrar	bad:t	name	01	263a	01	263a	same
+U+0001	unrar	bad:t	comment	01	263a	-	-	same
+U+0001	unrar	bad:x -o+	name	5f	005f	01 | 01 | 5f | 01	263a | 263a | 005f | 263a	same
+U+0001	unrar	bad:x -o+	comment	01	263a	-	-	same
+U+0001	unrar	bad:p	name	-	-	01	263a	same
+U+0001	rar	lb	name	01	263a	-	-	same
+U+0001	rar	l	name	01	263a	-	-	same
+U+0001	rar	l	comment	01	263a	-	-	same
+U+0001	rar	lt	name	01	263a	-	-	same
+U+0001	rar	lt	target	01	263a	-	-	same
+U+0001	rar	lt	comment	01	263a	-	-	same
+U+0001	rar	lta	name	01	263a	-	-	same
+U+0001	rar	lta	target	01	263a	-	-	same
+U+0001	rar	lta	comment	01	263a	-	-	same
+U+0001	rar	v	name	01	263a	-	-	same
+U+0001	rar	v	comment	01	263a	-	-	same
+U+0001	rar	vb	name	01	263a	-	-	same
+U+0001	rar	vt	name	01	263a	-	-	same
+U+0001	rar	vt	target	01	263a	-	-	same
+U+0001	rar	vt	comment	01	263a	-	-	same
+U+0001	rar	vta	name	01	263a	-	-	same
+U+0001	rar	vta	target	01	263a	-	-	same
+U+0001	rar	vta	comment	01	263a	-	-	same
+U+0001	rar	t	name	01	263a	-	-	same
+U+0001	rar	t	comment	01	263a	-	-	same
+U+0001	rar	x -o+	name	5f	005f	01 | 01 | 5f	263a | 263a | 005f	same
+U+0001	rar	x -o+	comment	01	263a	-	-	same
+U+0001	rar	e -o+	name	5f	005f	01 | 01 | 5f	263a | 263a | 005f	same
+U+0001	rar	e -o+	comment	01	263a	-	-	same
+U+0001	rar	bad:t	name	01	263a	01	263a	same
+U+0001	rar	bad:t	comment	01	263a	-	-	same
+U+0001	rar	bad:x -o+	name	5f	005f	01 | 01 | 5f | 01	263a | 263a | 005f | 263a	same
+U+0001	rar	bad:x -o+	comment	01	263a	-	-	same
+U+0001	rar	bad:p	name	-	-	01	263a	same
+U+0001	rar	cw	comment	01	263a	-	-	same
+U+0001	rar	d	name	01	263a	-	-	same
+U+0001	rar	d	comment	01	263a	-	-	same
+U+0001	rar	r	name	01	263a	-	-	same
+U+0002	unrar	lb	name	02	263b	-	-	same
+U+0002	unrar	l	name	02	263b	-	-	same
+U+0002	unrar	l	comment	02	263b	-	-	same
+U+0002	unrar	lt	name	02	263b	-	-	same
+U+0002	unrar	lt	target	02	263b	-	-	same
+U+0002	unrar	lt	comment	02	263b	-	-	same
+U+0002	unrar	lta	name	02	263b	-	-	same
+U+0002	unrar	lta	target	02	263b	-	-	same
+U+0002	unrar	lta	comment	02	263b	-	-	same
+U+0002	unrar	v	name	02	263b	-	-	same
+U+0002	unrar	v	comment	02	263b	-	-	same
+U+0002	unrar	vb	name	02	263b	-	-	same
+U+0002	unrar	vt	name	02	263b	-	-	same
+U+0002	unrar	vt	target	02	263b	-	-	same
+U+0002	unrar	vt	comment	02	263b	-	-	same
+U+0002	unrar	vta	name	02	263b	-	-	same
+U+0002	unrar	vta	target	02	263b	-	-	same
+U+0002	unrar	vta	comment	02	263b	-	-	same
+U+0002	unrar	t	name	02	263b	-	-	same
+U+0002	unrar	t	comment	02	263b	-	-	same
+U+0002	unrar	x -o+	name	5f	005f	02 | 02 | 5f	263b | 263b | 005f	same
+U+0002	unrar	x -o+	comment	02	263b	-	-	same
+U+0002	unrar	e -o+	name	5f	005f	02 | 02 | 5f	263b | 263b | 005f	same
+U+0002	unrar	e -o+	comment	02	263b	-	-	same
+U+0002	unrar	bad:t	name	02	263b	02	263b	same
+U+0002	unrar	bad:t	comment	02	263b	-	-	same
+U+0002	unrar	bad:x -o+	name	5f	005f	02 | 02 | 5f | 02	263b | 263b | 005f | 263b	same
+U+0002	unrar	bad:x -o+	comment	02	263b	-	-	same
+U+0002	unrar	bad:p	name	-	-	02	263b	same
+U+0002	rar	lb	name	02	263b	-	-	same
+U+0002	rar	l	name	02	263b	-	-	same
+U+0002	rar	l	comment	02	263b	-	-	same
+U+0002	rar	lt	name	02	263b	-	-	same
+U+0002	rar	lt	target	02	263b	-	-	same
+U+0002	rar	lt	comment	02	263b	-	-	same
+U+0002	rar	lta	name	02	263b	-	-	same
+U+0002	rar	lta	target	02	263b	-	-	same
+U+0002	rar	lta	comment	02	263b	-	-	same
+U+0002	rar	v	name	02	263b	-	-	same
+U+0002	rar	v	comment	02	263b	-	-	same
+U+0002	rar	vb	name	02	263b	-	-	same
+U+0002	rar	vt	name	02	263b	-	-	same
+U+0002	rar	vt	target	02	263b	-	-	same
+U+0002	rar	vt	comment	02	263b	-	-	same
+U+0002	rar	vta	name	02	263b	-	-	same
+U+0002	rar	vta	target	02	263b	-	-	same
+U+0002	rar	vta	comment	02	263b	-	-	same
+U+0002	rar	t	name	02	263b	-	-	same
+U+0002	rar	t	comment	02	263b	-	-	same
+U+0002	rar	x -o+	name	5f	005f	02 | 02 | 5f	263b | 263b | 005f	same
+U+0002	rar	x -o+	comment	02	263b	-	-	same
+U+0002	rar	e -o+	name	5f	005f	02 | 02 | 5f	263b | 263b | 005f	same
+U+0002	rar	e -o+	comment	02	263b	-	-	same
+U+0002	rar	bad:t	name	02	263b	02	263b	same
+U+0002	rar	bad:t	comment	02	263b	-	-	same
+U+0002	rar	bad:x -o+	name	5f	005f	02 | 02 | 5f | 02	263b | 263b | 005f | 263b	same
+U+0002	rar	bad:x -o+	comment	02	263b	-	-	same
+U+0002	rar	bad:p	name	-	-	02	263b	same
+U+0002	rar	cw	comment	02	263b	-	-	same
+U+0002	rar	d	name	02	263b	-	-	same
+U+0002	rar	d	comment	02	263b	-	-	same
+U+0002	rar	r	name	02	263b	-	-	same
+U+0003	unrar	lb	name	03	2665	-	-	same
+U+0003	unrar	l	name	03	2665	-	-	same
+U+0003	unrar	l	comment	03	2665	-	-	same
+U+0003	unrar	lt	name	03	2665	-	-	same
+U+0003	unrar	lt	target	03	2665	-	-	same
+U+0003	unrar	lt	comment	03	2665	-	-	same
+U+0003	unrar	lta	name	03	2665	-	-	same
+U+0003	unrar	lta	target	03	2665	-	-	same
+U+0003	unrar	lta	comment	03	2665	-	-	same
+U+0003	unrar	v	name	03	2665	-	-	same
+U+0003	unrar	v	comment	03	2665	-	-	same
+U+0003	unrar	vb	name	03	2665	-	-	same
+U+0003	unrar	vt	name	03	2665	-	-	same
+U+0003	unrar	vt	target	03	2665	-	-	same
+U+0003	unrar	vt	comment	03	2665	-	-	same
+U+0003	unrar	vta	name	03	2665	-	-	same
+U+0003	unrar	vta	target	03	2665	-	-	same
+U+0003	unrar	vta	comment	03	2665	-	-	same
+U+0003	unrar	t	name	03	2665	-	-	same
+U+0003	unrar	t	comment	03	2665	-	-	same
+U+0003	unrar	x -o+	name	5f	005f	03 | 03 | 5f	2665 | 2665 | 005f	same
+U+0003	unrar	x -o+	comment	03	2665	-	-	same
+U+0003	unrar	e -o+	name	5f	005f	03 | 03 | 5f	2665 | 2665 | 005f	same
+U+0003	unrar	e -o+	comment	03	2665	-	-	same
+U+0003	unrar	bad:t	name	03	2665	03	2665	same
+U+0003	unrar	bad:t	comment	03	2665	-	-	same
+U+0003	unrar	bad:x -o+	name	5f	005f	03 | 03 | 5f | 03	2665 | 2665 | 005f | 2665	same
+U+0003	unrar	bad:x -o+	comment	03	2665	-	-	same
+U+0003	unrar	bad:p	name	-	-	03	2665	same
+U+0003	rar	lb	name	03	2665	-	-	same
+U+0003	rar	l	name	03	2665	-	-	same
+U+0003	rar	l	comment	03	2665	-	-	same
+U+0003	rar	lt	name	03	2665	-	-	same
+U+0003	rar	lt	target	03	2665	-	-	same
+U+0003	rar	lt	comment	03	2665	-	-	same
+U+0003	rar	lta	name	03	2665	-	-	same
+U+0003	rar	lta	target	03	2665	-	-	same
+U+0003	rar	lta	comment	03	2665	-	-	same
+U+0003	rar	v	name	03	2665	-	-	same
+U+0003	rar	v	comment	03	2665	-	-	same
+U+0003	rar	vb	name	03	2665	-	-	same
+U+0003	rar	vt	name	03	2665	-	-	same
+U+0003	rar	vt	target	03	2665	-	-	same
+U+0003	rar	vt	comment	03	2665	-	-	same
+U+0003	rar	vta	name	03	2665	-	-	same
+U+0003	rar	vta	target	03	2665	-	-	same
+U+0003	rar	vta	comment	03	2665	-	-	same
+U+0003	rar	t	name	03	2665	-	-	same
+U+0003	rar	t	comment	03	2665	-	-	same
+U+0003	rar	x -o+	name	5f	005f	03 | 03 | 5f	2665 | 2665 | 005f	same
+U+0003	rar	x -o+	comment	03	2665	-	-	same
+U+0003	rar	e -o+	name	5f	005f	03 | 03 | 5f	2665 | 2665 | 005f	same
+U+0003	rar	e -o+	comment	03	2665	-	-	same
+U+0003	rar	bad:t	name	03	2665	03	2665	same
+U+0003	rar	bad:t	comment	03	2665	-	-	same
+U+0003	rar	bad:x -o+	name	5f	005f	03 | 03 | 5f | 03	2665 | 2665 | 005f | 2665	same
+U+0003	rar	bad:x -o+	comment	03	2665	-	-	same
+U+0003	rar	bad:p	name	-	-	03	2665	same
+U+0003	rar	cw	comment	03	2665	-	-	same
+U+0003	rar	d	name	03	2665	-	-	same
+U+0003	rar	d	comment	03	2665	-	-	same
+U+0003	rar	r	name	03	2665	-	-	same
+U+0004	unrar	lb	name	04	2666	-	-	same
+U+0004	unrar	l	name	04	2666	-	-	same
+U+0004	unrar	l	comment	04	2666	-	-	same
+U+0004	unrar	lt	name	04	2666	-	-	same
+U+0004	unrar	lt	target	04	2666	-	-	same
+U+0004	unrar	lt	comment	04	2666	-	-	same
+U+0004	unrar	lta	name	04	2666	-	-	same
+U+0004	unrar	lta	target	04	2666	-	-	same
+U+0004	unrar	lta	comment	04	2666	-	-	same
+U+0004	unrar	v	name	04	2666	-	-	same
+U+0004	unrar	v	comment	04	2666	-	-	same
+U+0004	unrar	vb	name	04	2666	-	-	same
+U+0004	unrar	vt	name	04	2666	-	-	same
+U+0004	unrar	vt	target	04	2666	-	-	same
+U+0004	unrar	vt	comment	04	2666	-	-	same
+U+0004	unrar	vta	name	04	2666	-	-	same
+U+0004	unrar	vta	target	04	2666	-	-	same
+U+0004	unrar	vta	comment	04	2666	-	-	same
+U+0004	unrar	t	name	04	2666	-	-	same
+U+0004	unrar	t	comment	04	2666	-	-	same
+U+0004	unrar	x -o+	name	5f	005f	04 | 04 | 5f	2666 | 2666 | 005f	same
+U+0004	unrar	x -o+	comment	04	2666	-	-	same
+U+0004	unrar	e -o+	name	5f	005f	04 | 04 | 5f	2666 | 2666 | 005f	same
+U+0004	unrar	e -o+	comment	04	2666	-	-	same
+U+0004	unrar	bad:t	name	04	2666	04	2666	same
+U+0004	unrar	bad:t	comment	04	2666	-	-	same
+U+0004	unrar	bad:x -o+	name	5f	005f	04 | 04 | 5f | 04	2666 | 2666 | 005f | 2666	same
+U+0004	unrar	bad:x -o+	comment	04	2666	-	-	same
+U+0004	unrar	bad:p	name	-	-	04	2666	same
+U+0004	rar	lb	name	04	2666	-	-	same
+U+0004	rar	l	name	04	2666	-	-	same
+U+0004	rar	l	comment	04	2666	-	-	same
+U+0004	rar	lt	name	04	2666	-	-	same
+U+0004	rar	lt	target	04	2666	-	-	same
+U+0004	rar	lt	comment	04	2666	-	-	same
+U+0004	rar	lta	name	04	2666	-	-	same
+U+0004	rar	lta	target	04	2666	-	-	same
+U+0004	rar	lta	comment	04	2666	-	-	same
+U+0004	rar	v	name	04	2666	-	-	same
+U+0004	rar	v	comment	04	2666	-	-	same
+U+0004	rar	vb	name	04	2666	-	-	same
+U+0004	rar	vt	name	04	2666	-	-	same
+U+0004	rar	vt	target	04	2666	-	-	same
+U+0004	rar	vt	comment	04	2666	-	-	same
+U+0004	rar	vta	name	04	2666	-	-	same
+U+0004	rar	vta	target	04	2666	-	-	same
+U+0004	rar	vta	comment	04	2666	-	-	same
+U+0004	rar	t	name	04	2666	-	-	same
+U+0004	rar	t	comment	04	2666	-	-	same
+U+0004	rar	x -o+	name	5f	005f	04 | 04 | 5f	2666 | 2666 | 005f	same
+U+0004	rar	x -o+	comment	04	2666	-	-	same
+U+0004	rar	e -o+	name	5f	005f	04 | 04 | 5f	2666 | 2666 | 005f	same
+U+0004	rar	e -o+	comment	04	2666	-	-	same
+U+0004	rar	bad:t	name	04	2666	04	2666	same
+U+0004	rar	bad:t	comment	04	2666	-	-	same
+U+0004	rar	bad:x -o+	name	5f	005f	04 | 04 | 5f | 04	2666 | 2666 | 005f | 2666	same
+U+0004	rar	bad:x -o+	comment	04	2666	-	-	same
+U+0004	rar	bad:p	name	-	-	04	2666	same
+U+0004	rar	cw	comment	04	2666	-	-	same
+U+0004	rar	d	name	04	2666	-	-	same
+U+0004	rar	d	comment	04	2666	-	-	same
+U+0004	rar	r	name	04	2666	-	-	same
+U+0005	unrar	lb	name	05	2663	-	-	same
+U+0005	unrar	l	name	05	2663	-	-	same
+U+0005	unrar	l	comment	05	2663	-	-	same
+U+0005	unrar	lt	name	05	2663	-	-	same
+U+0005	unrar	lt	target	05	2663	-	-	same
+U+0005	unrar	lt	comment	05	2663	-	-	same
+U+0005	unrar	lta	name	05	2663	-	-	same
+U+0005	unrar	lta	target	05	2663	-	-	same
+U+0005	unrar	lta	comment	05	2663	-	-	same
+U+0005	unrar	v	name	05	2663	-	-	same
+U+0005	unrar	v	comment	05	2663	-	-	same
+U+0005	unrar	vb	name	05	2663	-	-	same
+U+0005	unrar	vt	name	05	2663	-	-	same
+U+0005	unrar	vt	target	05	2663	-	-	same
+U+0005	unrar	vt	comment	05	2663	-	-	same
+U+0005	unrar	vta	name	05	2663	-	-	same
+U+0005	unrar	vta	target	05	2663	-	-	same
+U+0005	unrar	vta	comment	05	2663	-	-	same
+U+0005	unrar	t	name	05	2663	-	-	same
+U+0005	unrar	t	comment	05	2663	-	-	same
+U+0005	unrar	x -o+	name	5f	005f	05 | 05 | 5f	2663 | 2663 | 005f	same
+U+0005	unrar	x -o+	comment	05	2663	-	-	same
+U+0005	unrar	e -o+	name	5f	005f	05 | 05 | 5f	2663 | 2663 | 005f	same
+U+0005	unrar	e -o+	comment	05	2663	-	-	same
+U+0005	unrar	bad:t	name	05	2663	05	2663	same
+U+0005	unrar	bad:t	comment	05	2663	-	-	same
+U+0005	unrar	bad:x -o+	name	5f	005f	05 | 05 | 5f | 05	2663 | 2663 | 005f | 2663	same
+U+0005	unrar	bad:x -o+	comment	05	2663	-	-	same
+U+0005	unrar	bad:p	name	-	-	05	2663	same
+U+0005	rar	lb	name	05	2663	-	-	same
+U+0005	rar	l	name	05	2663	-	-	same
+U+0005	rar	l	comment	05	2663	-	-	same
+U+0005	rar	lt	name	05	2663	-	-	same
+U+0005	rar	lt	target	05	2663	-	-	same
+U+0005	rar	lt	comment	05	2663	-	-	same
+U+0005	rar	lta	name	05	2663	-	-	same
+U+0005	rar	lta	target	05	2663	-	-	same
+U+0005	rar	lta	comment	05	2663	-	-	same
+U+0005	rar	v	name	05	2663	-	-	same
+U+0005	rar	v	comment	05	2663	-	-	same
+U+0005	rar	vb	name	05	2663	-	-	same
+U+0005	rar	vt	name	05	2663	-	-	same
+U+0005	rar	vt	target	05	2663	-	-	same
+U+0005	rar	vt	comment	05	2663	-	-	same
+U+0005	rar	vta	name	05	2663	-	-	same
+U+0005	rar	vta	target	05	2663	-	-	same
+U+0005	rar	vta	comment	05	2663	-	-	same
+U+0005	rar	t	name	05	2663	-	-	same
+U+0005	rar	t	comment	05	2663	-	-	same
+U+0005	rar	x -o+	name	5f	005f	05 | 05 | 5f	2663 | 2663 | 005f	same
+U+0005	rar	x -o+	comment	05	2663	-	-	same
+U+0005	rar	e -o+	name	5f	005f	05 | 05 | 5f	2663 | 2663 | 005f	same
+U+0005	rar	e -o+	comment	05	2663	-	-	same
+U+0005	rar	bad:t	name	05	2663	05	2663	same
+U+0005	rar	bad:t	comment	05	2663	-	-	same
+U+0005	rar	bad:x -o+	name	5f	005f	05 | 05 | 5f | 05	2663 | 2663 | 005f | 2663	same
+U+0005	rar	bad:x -o+	comment	05	2663	-	-	same
+U+0005	rar	bad:p	name	-	-	05	2663	same
+U+0005	rar	cw	comment	05	2663	-	-	same
+U+0005	rar	d	name	05	2663	-	-	same
+U+0005	rar	d	comment	05	2663	-	-	same
+U+0005	rar	r	name	05	2663	-	-	same
+U+0006	unrar	lb	name	06	2660	-	-	same
+U+0006	unrar	l	name	06	2660	-	-	same
+U+0006	unrar	l	comment	06	2660	-	-	same
+U+0006	unrar	lt	name	06	2660	-	-	same
+U+0006	unrar	lt	target	06	2660	-	-	same
+U+0006	unrar	lt	comment	06	2660	-	-	same
+U+0006	unrar	lta	name	06	2660	-	-	same
+U+0006	unrar	lta	target	06	2660	-	-	same
+U+0006	unrar	lta	comment	06	2660	-	-	same
+U+0006	unrar	v	name	06	2660	-	-	same
+U+0006	unrar	v	comment	06	2660	-	-	same
+U+0006	unrar	vb	name	06	2660	-	-	same
+U+0006	unrar	vt	name	06	2660	-	-	same
+U+0006	unrar	vt	target	06	2660	-	-	same
+U+0006	unrar	vt	comment	06	2660	-	-	same
+U+0006	unrar	vta	name	06	2660	-	-	same
+U+0006	unrar	vta	target	06	2660	-	-	same
+U+0006	unrar	vta	comment	06	2660	-	-	same
+U+0006	unrar	t	name	06	2660	-	-	same
+U+0006	unrar	t	comment	06	2660	-	-	same
+U+0006	unrar	x -o+	name	5f	005f	06 | 06 | 5f	2660 | 2660 | 005f	same
+U+0006	unrar	x -o+	comment	06	2660	-	-	same
+U+0006	unrar	e -o+	name	5f	005f	06 | 06 | 5f	2660 | 2660 | 005f	same
+U+0006	unrar	e -o+	comment	06	2660	-	-	same
+U+0006	unrar	bad:t	name	06	2660	06	2660	same
+U+0006	unrar	bad:t	comment	06	2660	-	-	same
+U+0006	unrar	bad:x -o+	name	5f	005f	06 | 06 | 5f | 06	2660 | 2660 | 005f | 2660	same
+U+0006	unrar	bad:x -o+	comment	06	2660	-	-	same
+U+0006	unrar	bad:p	name	-	-	06	2660	same
+U+0006	rar	lb	name	06	2660	-	-	same
+U+0006	rar	l	name	06	2660	-	-	same
+U+0006	rar	l	comment	06	2660	-	-	same
+U+0006	rar	lt	name	06	2660	-	-	same
+U+0006	rar	lt	target	06	2660	-	-	same
+U+0006	rar	lt	comment	06	2660	-	-	same
+U+0006	rar	lta	name	06	2660	-	-	same
+U+0006	rar	lta	target	06	2660	-	-	same
+U+0006	rar	lta	comment	06	2660	-	-	same
+U+0006	rar	v	name	06	2660	-	-	same
+U+0006	rar	v	comment	06	2660	-	-	same
+U+0006	rar	vb	name	06	2660	-	-	same
+U+0006	rar	vt	name	06	2660	-	-	same
+U+0006	rar	vt	target	06	2660	-	-	same
+U+0006	rar	vt	comment	06	2660	-	-	same
+U+0006	rar	vta	name	06	2660	-	-	same
+U+0006	rar	vta	target	06	2660	-	-	same
+U+0006	rar	vta	comment	06	2660	-	-	same
+U+0006	rar	t	name	06	2660	-	-	same
+U+0006	rar	t	comment	06	2660	-	-	same
+U+0006	rar	x -o+	name	5f	005f	06 | 06 | 5f	2660 | 2660 | 005f	same
+U+0006	rar	x -o+	comment	06	2660	-	-	same
+U+0006	rar	e -o+	name	5f	005f	06 | 06 | 5f	2660 | 2660 | 005f	same
+U+0006	rar	e -o+	comment	06	2660	-	-	same
+U+0006	rar	bad:t	name	06	2660	06	2660	same
+U+0006	rar	bad:t	comment	06	2660	-	-	same
+U+0006	rar	bad:x -o+	name	5f	005f	06 | 06 | 5f | 06	2660 | 2660 | 005f | 2660	same
+U+0006	rar	bad:x -o+	comment	06	2660	-	-	same
+U+0006	rar	bad:p	name	-	-	06	2660	same
+U+0006	rar	cw	comment	06	2660	-	-	same
+U+0006	rar	d	name	06	2660	-	-	same
+U+0006	rar	d	comment	06	2660	-	-	same
+U+0006	rar	r	name	06	2660	-	-	same
+U+0007	unrar	lb	name	07	cells:0073005c0051004e004e0051	-	-	same
+U+0007	unrar	l	name	07	cells:0020002d00720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e004e0051	-	-	same
+U+0007	unrar	l	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	lt	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	unrar	lt	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	unrar	lt	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	lta	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	unrar	lta	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	unrar	lta	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	v	name	07	cells:0020002d00720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e004e0051	-	-	same
+U+0007	unrar	v	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	vb	name	07	cells:0073005c0051004e004e0051	-	-	same
+U+0007	unrar	vt	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	unrar	vt	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	unrar	vt	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	vta	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	unrar	vta	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	unrar	vta	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	t	name	07	cells:00540065007300740069006e0067002000200020002000200073005c0051004e004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+0007	unrar	t	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	x -o+	name	5f	005f	07 | 07 | 5f	004e005100200074006f00200044005c0073005c0051004e005f	same
+U+0007	unrar	x -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	e -o+	name	5f	005f	07 | 07 | 5f	004e005100200074006f00200044005c0051004e005f	same
+U+0007	unrar	e -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	bad:t	name	07	cells:00540065007300740069006e0067002000200020002000200073005c0051004e004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003800380025	07	cells:0073005c0051004e004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0007	unrar	bad:t	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	bad:x -o+	name	5f	005f	07 | 07 | 5f | 07	004e005100200074006f00200044005c0073005c0051004e005f	same
+U+0007	unrar	bad:x -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	unrar	bad:p	name	-	-	07	cells:0073005c0051004e004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0007	rar	lb	name	07	cells:0073005c0051004e004e0051	-	-	same
+U+0007	rar	l	name	07	cells:0020002d00720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e004e0051	-	-	same
+U+0007	rar	l	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	lt	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	rar	lt	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	rar	lt	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	lta	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	rar	lta	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	rar	lta	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	v	name	07	cells:0020002d00720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e004e0051	-	-	same
+U+0007	rar	v	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	vb	name	07	cells:0073005c0051004e004e0051	-	-	same
+U+0007	rar	vt	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	rar	vt	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	rar	vt	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	vta	name	07	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e004e0051	-	-	same
+U+0007	rar	vta	target	07	cells:002000200020002000200020005400610072006700650074003a00200051005400540051	-	-	same
+U+0007	rar	vta	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	t	name	07	cells:00540065007300740069006e0067002000200020002000200073005c0051004e004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+0007	rar	t	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	x -o+	name	5f	005f	07 | 07 | 5f	004e005100200074006f00200044005c0073005c0051004e005f	same
+U+0007	rar	x -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	e -o+	name	5f	005f	07 | 07 | 5f	004e005100200074006f00200044005c0051004e005f	same
+U+0007	rar	e -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	bad:t	name	07	cells:00540065007300740069006e0067002000200020002000200073005c0051004e004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003800380025	07	cells:0073005c0051004e004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0007	rar	bad:t	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	bad:x -o+	name	5f	005f	07 | 07 | 5f | 07	004e005100200074006f00200044005c0073005c0051004e005f	same
+U+0007	rar	bad:x -o+	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	bad:p	name	-	-	07	cells:0073005c0051004e004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0007	rar	cw	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	d	name	07	cells:00440065006c006500740069006e006700200073005c0051004e004e0051	-	-	same
+U+0007	rar	d	comment	07	cells:0051004300430051	-	-	same
+U+0007	rar	r	name	07	cells:0046006f0075006e0064002000200073005c0051004e004e005100200020003800350025	-	-	same
+U+0008	unrar	lb	name	08	cells:0073005c0051004e0051	-	-	same
+U+0008	unrar	l	name	08	cells:0020002d00720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e0051	-	-	same
+U+0008	unrar	l	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	lt	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	unrar	lt	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	unrar	lt	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	lta	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	unrar	lta	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	unrar	lta	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	v	name	08	cells:0020002d00720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e0051	-	-	same
+U+0008	unrar	v	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	vb	name	08	cells:0073005c0051004e0051	-	-	same
+U+0008	unrar	vt	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	unrar	vt	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	unrar	vt	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	vta	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	unrar	vta	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	unrar	vta	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	t	name	08	cells:00540065007300740069006e0067002000200020002000200073005c0051004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+0008	unrar	t	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	x -o+	name	5f	005f	08 | 08 | 5f	005100200074006f00200044005c0073005c0051004e005f	same
+U+0008	unrar	x -o+	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	e -o+	name	5f	005f	08 | 08 | 5f	005100200074006f00200044005c0051004e005f	same
+U+0008	unrar	e -o+	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	bad:t	name	08	cells:00540065007300740069006e0067002000200020002000200073005c0051004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003900370025	08	cells:0073005c0051004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0008	unrar	bad:t	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	bad:x -o+	name	5f	005f	08 | 08 | 5f | 08	005100200074006f00200044005c0073005c0051004e005f	same
+U+0008	unrar	bad:x -o+	comment	08	cells:005100430051	-	-	same
+U+0008	unrar	bad:p	name	-	-	08	cells:0073005c0051004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0008	rar	lb	name	08	cells:0073005c0051004e0051	-	-	same
+U+0008	rar	l	name	08	cells:0020002d00720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e0051	-	-	same
+U+0008	rar	l	comment	08	cells:005100430051	-	-	same
+U+0008	rar	lt	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	rar	lt	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	rar	lt	comment	08	cells:005100430051	-	-	same
+U+0008	rar	lta	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	rar	lta	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	rar	lta	comment	08	cells:005100430051	-	-	same
+U+0008	rar	v	name	08	cells:0020002d00720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e0051	-	-	same
+U+0008	rar	v	comment	08	cells:005100430051	-	-	same
+U+0008	rar	vb	name	08	cells:0073005c0051004e0051	-	-	same
+U+0008	rar	vt	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	rar	vt	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	rar	vt	comment	08	cells:005100430051	-	-	same
+U+0008	rar	vta	name	08	cells:00200020002000200020002000200020004e0061006d0065003a00200073005c0051004e0051	-	-	same
+U+0008	rar	vta	target	08	cells:002000200020002000200020005400610072006700650074003a0020005100540051	-	-	same
+U+0008	rar	vta	comment	08	cells:005100430051	-	-	same
+U+0008	rar	t	name	08	cells:00540065007300740069006e0067002000200020002000200073005c0051004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+0008	rar	t	comment	08	cells:005100430051	-	-	same
+U+0008	rar	x -o+	name	5f	005f	08 | 08 | 5f	005100200074006f00200044005c0073005c0051004e005f	same
+U+0008	rar	x -o+	comment	08	cells:005100430051	-	-	same
+U+0008	rar	e -o+	name	5f	005f	08 | 08 | 5f	005100200074006f00200044005c0051004e005f	same
+U+0008	rar	e -o+	comment	08	cells:005100430051	-	-	same
+U+0008	rar	bad:t	name	08	cells:00540065007300740069006e0067002000200020002000200073005c0051004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003900370025	08	cells:0073005c0051004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0008	rar	bad:t	comment	08	cells:005100430051	-	-	same
+U+0008	rar	bad:x -o+	name	5f	005f	08 | 08 | 5f | 08	005100200074006f00200044005c0073005c0051004e005f	same
+U+0008	rar	bad:x -o+	comment	08	cells:005100430051	-	-	same
+U+0008	rar	bad:p	name	-	-	08	cells:0073005c0051004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+0008	rar	cw	comment	08	cells:005100430051	-	-	same
+U+0008	rar	d	name	08	cells:00440065006c006500740069006e006700200073005c0051004e0051	-	-	same
+U+0008	rar	d	comment	08	cells:005100430051	-	-	same
+U+0008	rar	r	name	08	cells:0046006f0075006e0064002000200073005c0051004e005100200020003900330025	-	-	same
+U+0009	unrar	lb	name	09	0020002000200020	-	-	same
+U+0009	unrar	l	name	09	00200020	-	-	same
+U+0009	unrar	l	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	lt	name	09	002000200020002000200020	-	-	same
+U+0009	unrar	lt	target	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	lt	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	lta	name	09	002000200020002000200020	-	-	same
+U+0009	unrar	lta	target	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	lta	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	v	name	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	v	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	vb	name	09	0020002000200020	-	-	same
+U+0009	unrar	vt	name	09	002000200020002000200020	-	-	same
+U+0009	unrar	vt	target	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	vt	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	vta	name	09	002000200020002000200020	-	-	same
+U+0009	unrar	vta	target	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	vta	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	t	name	09	00200020002000200020002000200020	-	-	same
+U+0009	unrar	t	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	x -o+	name	5f	005f	09 | 09 | 5f	0020002000200020 | 0020 | 005f	same
+U+0009	unrar	x -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	e -o+	name	5f	005f	09 | 09 | 5f	002000200020002000200020 | 002000200020 | 005f	same
+U+0009	unrar	e -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	bad:t	name	09	00200020002000200020002000200020	09	0020002000200020	same
+U+0009	unrar	bad:t	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	bad:x -o+	name	5f	005f	09 | 09 | 5f | 09	0020002000200020 | 0020 | 005f | 0020002000200020	same
+U+0009	unrar	bad:x -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	unrar	bad:p	name	-	-	09	0020002000200020	same
+U+0009	rar	lb	name	09	0020002000200020	-	-	same
+U+0009	rar	l	name	09	00200020	-	-	same
+U+0009	rar	l	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	lt	name	09	002000200020002000200020	-	-	same
+U+0009	rar	lt	target	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	lt	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	lta	name	09	002000200020002000200020	-	-	same
+U+0009	rar	lta	target	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	lta	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	v	name	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	v	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	vb	name	09	0020002000200020	-	-	same
+U+0009	rar	vt	name	09	002000200020002000200020	-	-	same
+U+0009	rar	vt	target	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	vt	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	vta	name	09	002000200020002000200020	-	-	same
+U+0009	rar	vta	target	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	vta	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	t	name	09	00200020002000200020002000200020	-	-	same
+U+0009	rar	t	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	x -o+	name	5f	005f	09 | 09 | 5f	0020002000200020 | 0020 | 005f	same
+U+0009	rar	x -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	e -o+	name	5f	005f	09 | 09 | 5f	002000200020002000200020 | 002000200020 | 005f	same
+U+0009	rar	e -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	bad:t	name	09	00200020002000200020002000200020	09	0020002000200020	same
+U+0009	rar	bad:t	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	bad:x -o+	name	5f	005f	09 | 09 | 5f | 09	0020002000200020 | 0020 | 005f | 0020002000200020	same
+U+0009	rar	bad:x -o+	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	bad:p	name	-	-	09	0020002000200020	same
+U+0009	rar	cw	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	d	name	09	002000200020	-	-	same
+U+0009	rar	d	comment	09	002000200020002000200020	-	-	same
+U+0009	rar	r	name	09	00200020002000200020	-	-	same
+U+000A	unrar	lb	name	0a	000a	-	-	same
+U+000A	unrar	l	name	0a	000a	-	-	same
+U+000A	unrar	l	comment	0a	000a	-	-	same
+U+000A	unrar	lt	name	0a	000a	-	-	same
+U+000A	unrar	lt	target	0a	000a	-	-	same
+U+000A	unrar	lt	comment	0a	000a	-	-	same
+U+000A	unrar	lta	name	0a	000a	-	-	same
+U+000A	unrar	lta	target	0a	000a	-	-	same
+U+000A	unrar	lta	comment	0a	000a	-	-	same
+U+000A	unrar	v	name	0a	000a	-	-	same
+U+000A	unrar	v	comment	0a	000a	-	-	same
+U+000A	unrar	vb	name	0a	000a	-	-	same
+U+000A	unrar	vt	name	0a	000a	-	-	same
+U+000A	unrar	vt	target	0a	000a	-	-	same
+U+000A	unrar	vt	comment	0a	000a	-	-	same
+U+000A	unrar	vta	name	0a	000a	-	-	same
+U+000A	unrar	vta	target	0a	000a	-	-	same
+U+000A	unrar	vta	comment	0a	000a	-	-	same
+U+000A	unrar	t	name	0a	000a	-	-	same
+U+000A	unrar	t	comment	0a	000a	-	-	same
+U+000A	unrar	x -o+	name	5f	005f	0a | 0a | 5f	000a | 000a | 005f	same
+U+000A	unrar	x -o+	comment	0a	000a	-	-	same
+U+000A	unrar	e -o+	name	5f	005f	0a | 0a | 5f	000a | 000a | 005f	same
+U+000A	unrar	e -o+	comment	0a	000a	-	-	same
+U+000A	unrar	bad:t	name	0a	000a	0a	000a	same
+U+000A	unrar	bad:t	comment	0a	000a	-	-	same
+U+000A	unrar	bad:x -o+	name	5f	005f	0a | 0a | 5f | 0a	000a | 000a | 005f | 000a	same
+U+000A	unrar	bad:x -o+	comment	0a	000a	-	-	same
+U+000A	unrar	bad:p	name	-	-	0a	000a	same
+U+000A	rar	lb	name	0a	000a	-	-	same
+U+000A	rar	l	name	0a	000a	-	-	same
+U+000A	rar	l	comment	0a	000a	-	-	same
+U+000A	rar	lt	name	0a	000a	-	-	same
+U+000A	rar	lt	target	0a	000a	-	-	same
+U+000A	rar	lt	comment	0a	000a	-	-	same
+U+000A	rar	lta	name	0a	000a	-	-	same
+U+000A	rar	lta	target	0a	000a	-	-	same
+U+000A	rar	lta	comment	0a	000a	-	-	same
+U+000A	rar	v	name	0a	000a	-	-	same
+U+000A	rar	v	comment	0a	000a	-	-	same
+U+000A	rar	vb	name	0a	000a	-	-	same
+U+000A	rar	vt	name	0a	000a	-	-	same
+U+000A	rar	vt	target	0a	000a	-	-	same
+U+000A	rar	vt	comment	0a	000a	-	-	same
+U+000A	rar	vta	name	0a	000a	-	-	same
+U+000A	rar	vta	target	0a	000a	-	-	same
+U+000A	rar	vta	comment	0a	000a	-	-	same
+U+000A	rar	t	name	0a	000a	-	-	same
+U+000A	rar	t	comment	0a	000a	-	-	same
+U+000A	rar	x -o+	name	5f	005f	0a | 0a | 5f	000a | 000a | 005f	same
+U+000A	rar	x -o+	comment	0a	000a	-	-	same
+U+000A	rar	e -o+	name	5f	005f	0a | 0a | 5f	000a | 000a | 005f	same
+U+000A	rar	e -o+	comment	0a	000a	-	-	same
+U+000A	rar	bad:t	name	0a	000a	0a	000a	same
+U+000A	rar	bad:t	comment	0a	000a	-	-	same
+U+000A	rar	bad:x -o+	name	5f	005f	0a | 0a | 5f | 0a	000a | 000a | 005f | 000a	same
+U+000A	rar	bad:x -o+	comment	0a	000a	-	-	same
+U+000A	rar	bad:p	name	-	-	0a	000a	same
+U+000A	rar	cw	comment	0a	000a	-	-	same
+U+000A	rar	d	name	0a	000a	-	-	same
+U+000A	rar	d	comment	0a	000a	-	-	same
+U+000A	rar	r	name	0a	000a	-	-	same
+U+000B	unrar	lb	name	0b	2642	-	-	same
+U+000B	unrar	l	name	0b	2642	-	-	same
+U+000B	unrar	l	comment	0b	2642	-	-	same
+U+000B	unrar	lt	name	0b	2642	-	-	same
+U+000B	unrar	lt	target	0b	2642	-	-	same
+U+000B	unrar	lt	comment	0b	2642	-	-	same
+U+000B	unrar	lta	name	0b	2642	-	-	same
+U+000B	unrar	lta	target	0b	2642	-	-	same
+U+000B	unrar	lta	comment	0b	2642	-	-	same
+U+000B	unrar	v	name	0b	2642	-	-	same
+U+000B	unrar	v	comment	0b	2642	-	-	same
+U+000B	unrar	vb	name	0b	2642	-	-	same
+U+000B	unrar	vt	name	0b	2642	-	-	same
+U+000B	unrar	vt	target	0b	2642	-	-	same
+U+000B	unrar	vt	comment	0b	2642	-	-	same
+U+000B	unrar	vta	name	0b	2642	-	-	same
+U+000B	unrar	vta	target	0b	2642	-	-	same
+U+000B	unrar	vta	comment	0b	2642	-	-	same
+U+000B	unrar	t	name	0b	2642	-	-	same
+U+000B	unrar	t	comment	0b	2642	-	-	same
+U+000B	unrar	x -o+	name	5f	005f	0b | 0b | 5f	2642 | 2642 | 005f	same
+U+000B	unrar	x -o+	comment	0b	2642	-	-	same
+U+000B	unrar	e -o+	name	5f	005f	0b | 0b | 5f	2642 | 2642 | 005f	same
+U+000B	unrar	e -o+	comment	0b	2642	-	-	same
+U+000B	unrar	bad:t	name	0b	2642	0b	2642	same
+U+000B	unrar	bad:t	comment	0b	2642	-	-	same
+U+000B	unrar	bad:x -o+	name	5f	005f	0b | 0b | 5f | 0b	2642 | 2642 | 005f | 2642	same
+U+000B	unrar	bad:x -o+	comment	0b	2642	-	-	same
+U+000B	unrar	bad:p	name	-	-	0b	2642	same
+U+000B	rar	lb	name	0b	2642	-	-	same
+U+000B	rar	l	name	0b	2642	-	-	same
+U+000B	rar	l	comment	0b	2642	-	-	same
+U+000B	rar	lt	name	0b	2642	-	-	same
+U+000B	rar	lt	target	0b	2642	-	-	same
+U+000B	rar	lt	comment	0b	2642	-	-	same
+U+000B	rar	lta	name	0b	2642	-	-	same
+U+000B	rar	lta	target	0b	2642	-	-	same
+U+000B	rar	lta	comment	0b	2642	-	-	same
+U+000B	rar	v	name	0b	2642	-	-	same
+U+000B	rar	v	comment	0b	2642	-	-	same
+U+000B	rar	vb	name	0b	2642	-	-	same
+U+000B	rar	vt	name	0b	2642	-	-	same
+U+000B	rar	vt	target	0b	2642	-	-	same
+U+000B	rar	vt	comment	0b	2642	-	-	same
+U+000B	rar	vta	name	0b	2642	-	-	same
+U+000B	rar	vta	target	0b	2642	-	-	same
+U+000B	rar	vta	comment	0b	2642	-	-	same
+U+000B	rar	t	name	0b	2642	-	-	same
+U+000B	rar	t	comment	0b	2642	-	-	same
+U+000B	rar	x -o+	name	5f	005f	0b | 0b | 5f	2642 | 2642 | 005f	same
+U+000B	rar	x -o+	comment	0b	2642	-	-	same
+U+000B	rar	e -o+	name	5f	005f	0b | 0b | 5f	2642 | 2642 | 005f	same
+U+000B	rar	e -o+	comment	0b	2642	-	-	same
+U+000B	rar	bad:t	name	0b	2642	0b	2642	same
+U+000B	rar	bad:t	comment	0b	2642	-	-	same
+U+000B	rar	bad:x -o+	name	5f	005f	0b | 0b | 5f | 0b	2642 | 2642 | 005f | 2642	same
+U+000B	rar	bad:x -o+	comment	0b	2642	-	-	same
+U+000B	rar	bad:p	name	-	-	0b	2642	same
+U+000B	rar	cw	comment	0b	2642	-	-	same
+U+000B	rar	d	name	0b	2642	-	-	same
+U+000B	rar	d	comment	0b	2642	-	-	same
+U+000B	rar	r	name	0b	2642	-	-	same
+U+000C	unrar	lb	name	0c	2640	-	-	same
+U+000C	unrar	l	name	0c	2640	-	-	same
+U+000C	unrar	l	comment	0c	2640	-	-	same
+U+000C	unrar	lt	name	0c	2640	-	-	same
+U+000C	unrar	lt	target	0c	2640	-	-	same
+U+000C	unrar	lt	comment	0c	2640	-	-	same
+U+000C	unrar	lta	name	0c	2640	-	-	same
+U+000C	unrar	lta	target	0c	2640	-	-	same
+U+000C	unrar	lta	comment	0c	2640	-	-	same
+U+000C	unrar	v	name	0c	2640	-	-	same
+U+000C	unrar	v	comment	0c	2640	-	-	same
+U+000C	unrar	vb	name	0c	2640	-	-	same
+U+000C	unrar	vt	name	0c	2640	-	-	same
+U+000C	unrar	vt	target	0c	2640	-	-	same
+U+000C	unrar	vt	comment	0c	2640	-	-	same
+U+000C	unrar	vta	name	0c	2640	-	-	same
+U+000C	unrar	vta	target	0c	2640	-	-	same
+U+000C	unrar	vta	comment	0c	2640	-	-	same
+U+000C	unrar	t	name	0c	2640	-	-	same
+U+000C	unrar	t	comment	0c	2640	-	-	same
+U+000C	unrar	x -o+	name	5f	005f	0c | 0c | 5f	2640 | 2640 | 005f	same
+U+000C	unrar	x -o+	comment	0c	2640	-	-	same
+U+000C	unrar	e -o+	name	5f	005f	0c | 0c | 5f	2640 | 2640 | 005f	same
+U+000C	unrar	e -o+	comment	0c	2640	-	-	same
+U+000C	unrar	bad:t	name	0c	2640	0c	2640	same
+U+000C	unrar	bad:t	comment	0c	2640	-	-	same
+U+000C	unrar	bad:x -o+	name	5f	005f	0c | 0c | 5f | 0c	2640 | 2640 | 005f | 2640	same
+U+000C	unrar	bad:x -o+	comment	0c	2640	-	-	same
+U+000C	unrar	bad:p	name	-	-	0c	2640	same
+U+000C	rar	lb	name	0c	2640	-	-	same
+U+000C	rar	l	name	0c	2640	-	-	same
+U+000C	rar	l	comment	0c	2640	-	-	same
+U+000C	rar	lt	name	0c	2640	-	-	same
+U+000C	rar	lt	target	0c	2640	-	-	same
+U+000C	rar	lt	comment	0c	2640	-	-	same
+U+000C	rar	lta	name	0c	2640	-	-	same
+U+000C	rar	lta	target	0c	2640	-	-	same
+U+000C	rar	lta	comment	0c	2640	-	-	same
+U+000C	rar	v	name	0c	2640	-	-	same
+U+000C	rar	v	comment	0c	2640	-	-	same
+U+000C	rar	vb	name	0c	2640	-	-	same
+U+000C	rar	vt	name	0c	2640	-	-	same
+U+000C	rar	vt	target	0c	2640	-	-	same
+U+000C	rar	vt	comment	0c	2640	-	-	same
+U+000C	rar	vta	name	0c	2640	-	-	same
+U+000C	rar	vta	target	0c	2640	-	-	same
+U+000C	rar	vta	comment	0c	2640	-	-	same
+U+000C	rar	t	name	0c	2640	-	-	same
+U+000C	rar	t	comment	0c	2640	-	-	same
+U+000C	rar	x -o+	name	5f	005f	0c | 0c | 5f	2640 | 2640 | 005f	same
+U+000C	rar	x -o+	comment	0c	2640	-	-	same
+U+000C	rar	e -o+	name	5f	005f	0c | 0c | 5f	2640 | 2640 | 005f	same
+U+000C	rar	e -o+	comment	0c	2640	-	-	same
+U+000C	rar	bad:t	name	0c	2640	0c	2640	same
+U+000C	rar	bad:t	comment	0c	2640	-	-	same
+U+000C	rar	bad:x -o+	name	5f	005f	0c | 0c | 5f | 0c	2640 | 2640 | 005f | 2640	same
+U+000C	rar	bad:x -o+	comment	0c	2640	-	-	same
+U+000C	rar	bad:p	name	-	-	0c	2640	same
+U+000C	rar	cw	comment	0c	2640	-	-	same
+U+000C	rar	d	name	0c	2640	-	-	same
+U+000C	rar	d	comment	0c	2640	-	-	same
+U+000C	rar	r	name	0c	2640	-	-	same
+U+000D	unrar	lb	name	0d	cells:004e00510051004e	-	-	same
+U+000D	unrar	l	name	0d	cells:004e005100720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e	-	-	same
+U+000D	unrar	l	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	lt	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	unrar	lt	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	unrar	lt	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	lta	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	unrar	lta	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	unrar	lta	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	v	name	0d	cells:004e005100720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e	-	-	same
+U+000D	unrar	v	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	vb	name	0d	cells:004e00510051004e	-	-	same
+U+000D	unrar	vt	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	unrar	vt	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	unrar	vt	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	vta	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	unrar	vta	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	unrar	vta	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	t	name	0d	cells:004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+000D	unrar	t	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	x -o+	name	5f	005f	0d | 0d | 5f	005f	same
+U+000D	unrar	x -o+	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	e -o+	name	5f	005f	0d | 0d | 5f	005f	same
+U+000D	unrar	e -o+	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	bad:t	name	0d	cells:004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003800380025	0d	cells:004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+000D	unrar	bad:t	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	bad:x -o+	name	5f	005f	0d | 0d | 5f | 0d	005f	same
+U+000D	unrar	bad:x -o+	comment	0d	cells:00430051	-	-	same
+U+000D	unrar	bad:p	name	-	-	0d	cells:004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+000D	rar	lb	name	0d	cells:004e00510051004e	-	-	same
+U+000D	rar	l	name	0d	cells:004e005100720077002d0072002d002d0072002d002d00200020002000200020002000200020003400300030002000200032003000320036002d00310030002d00310031002000310032003a00340037002000200073005c0051004e	-	-	same
+U+000D	rar	l	comment	0d	cells:00430051	-	-	same
+U+000D	rar	lt	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	rar	lt	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	rar	lt	comment	0d	cells:00430051	-	-	same
+U+000D	rar	lta	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	rar	lta	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	rar	lta	comment	0d	cells:00430051	-	-	same
+U+000D	rar	v	name	0d	cells:004e005100720077002d0072002d002d0072002d002d002000200020002000200020002000200034003000300020002000200020002000200020002000340030003000200031003000300025002000200032003000320036002d00310030002d00310031002000310032003a003400370020002000360045004300420033004600370032002000200073005c0051004e	-	-	same
+U+000D	rar	v	comment	0d	cells:00430051	-	-	same
+U+000D	rar	vb	name	0d	cells:004e00510051004e	-	-	same
+U+000D	rar	vt	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	rar	vt	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	rar	vt	comment	0d	cells:00430051	-	-	same
+U+000D	rar	vta	name	0d	cells:004e0051002000200020002000200020004e0061006d0065003a00200073005c0051004e	-	-	same
+U+000D	rar	vta	target	0d	cells:005400510020002000200020005400610072006700650074003a002000510054	-	-	same
+U+000D	rar	vta	comment	0d	cells:00430051	-	-	same
+U+000D	rar	t	name	0d	cells:004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020004f004b	-	-	same
+U+000D	rar	t	comment	0d	cells:00430051	-	-	same
+U+000D	rar	x -o+	name	5f	005f	0d | 0d | 5f	005f	same
+U+000D	rar	x -o+	comment	0d	cells:00430051	-	-	same
+U+000D	rar	e -o+	name	5f	005f	0d | 0d | 5f	005f	same
+U+000D	rar	e -o+	comment	0d	cells:00430051	-	-	same
+U+000D	rar	bad:t	name	0d	cells:004e0051002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003800380025	0d	cells:004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+000D	rar	bad:t	comment	0d	cells:00430051	-	-	same
+U+000D	rar	bad:x -o+	name	5f	005f	0d | 0d | 5f | 0d	005f	same
+U+000D	rar	bad:x -o+	comment	0d	cells:00430051	-	-	same
+U+000D	rar	bad:p	name	-	-	0d	cells:004e005100200020002000200020002000200020002000200020002000200020002d00200063006800650063006b00730075006d0020006500720072006f0072	same
+U+000D	rar	cw	comment	0d	cells:00430051	-	-	same
+U+000D	rar	d	name	0d	cells:004e0051006c006500740069006e006700200073005c0051004e	-	-	same
+U+000D	rar	d	comment	0d	cells:00430051	-	-	same
+U+000D	rar	r	name	0d	cells:004e0051002000200038003500250073005c0051004e	-	-	same
+U+000E	unrar	lb	name	0e	266b	-	-	same
+U+000E	unrar	l	name	0e	266b	-	-	same
+U+000E	unrar	l	comment	0e	266b	-	-	same
+U+000E	unrar	lt	name	0e	266b	-	-	same
+U+000E	unrar	lt	target	0e	266b	-	-	same
+U+000E	unrar	lt	comment	0e	266b	-	-	same
+U+000E	unrar	lta	name	0e	266b	-	-	same
+U+000E	unrar	lta	target	0e	266b	-	-	same
+U+000E	unrar	lta	comment	0e	266b	-	-	same
+U+000E	unrar	v	name	0e	266b	-	-	same
+U+000E	unrar	v	comment	0e	266b	-	-	same
+U+000E	unrar	vb	name	0e	266b	-	-	same
+U+000E	unrar	vt	name	0e	266b	-	-	same
+U+000E	unrar	vt	target	0e	266b	-	-	same
+U+000E	unrar	vt	comment	0e	266b	-	-	same
+U+000E	unrar	vta	name	0e	266b	-	-	same
+U+000E	unrar	vta	target	0e	266b	-	-	same
+U+000E	unrar	vta	comment	0e	266b	-	-	same
+U+000E	unrar	t	name	0e	266b	-	-	same
+U+000E	unrar	t	comment	0e	266b	-	-	same
+U+000E	unrar	x -o+	name	5f	005f	0e | 0e | 5f	266b | 266b | 005f	same
+U+000E	unrar	x -o+	comment	0e	266b	-	-	same
+U+000E	unrar	e -o+	name	5f	005f	0e | 0e | 5f	266b | 266b | 005f	same
+U+000E	unrar	e -o+	comment	0e	266b	-	-	same
+U+000E	unrar	bad:t	name	0e	266b	0e	266b	same
+U+000E	unrar	bad:t	comment	0e	266b	-	-	same
+U+000E	unrar	bad:x -o+	name	5f	005f	0e | 0e | 5f | 0e	266b | 266b | 005f | 266b	same
+U+000E	unrar	bad:x -o+	comment	0e	266b	-	-	same
+U+000E	unrar	bad:p	name	-	-	0e	266b	same
+U+000E	rar	lb	name	0e	266b	-	-	same
+U+000E	rar	l	name	0e	266b	-	-	same
+U+000E	rar	l	comment	0e	266b	-	-	same
+U+000E	rar	lt	name	0e	266b	-	-	same
+U+000E	rar	lt	target	0e	266b	-	-	same
+U+000E	rar	lt	comment	0e	266b	-	-	same
+U+000E	rar	lta	name	0e	266b	-	-	same
+U+000E	rar	lta	target	0e	266b	-	-	same
+U+000E	rar	lta	comment	0e	266b	-	-	same
+U+000E	rar	v	name	0e	266b	-	-	same
+U+000E	rar	v	comment	0e	266b	-	-	same
+U+000E	rar	vb	name	0e	266b	-	-	same
+U+000E	rar	vt	name	0e	266b	-	-	same
+U+000E	rar	vt	target	0e	266b	-	-	same
+U+000E	rar	vt	comment	0e	266b	-	-	same
+U+000E	rar	vta	name	0e	266b	-	-	same
+U+000E	rar	vta	target	0e	266b	-	-	same
+U+000E	rar	vta	comment	0e	266b	-	-	same
+U+000E	rar	t	name	0e	266b	-	-	same
+U+000E	rar	t	comment	0e	266b	-	-	same
+U+000E	rar	x -o+	name	5f	005f	0e | 0e | 5f	266b | 266b | 005f	same
+U+000E	rar	x -o+	comment	0e	266b	-	-	same
+U+000E	rar	e -o+	name	5f	005f	0e | 0e | 5f	266b | 266b | 005f	same
+U+000E	rar	e -o+	comment	0e	266b	-	-	same
+U+000E	rar	bad:t	name	0e	266b	0e	266b	same
+U+000E	rar	bad:t	comment	0e	266b	-	-	same
+U+000E	rar	bad:x -o+	name	5f	005f	0e | 0e | 5f | 0e	266b | 266b | 005f | 266b	same
+U+000E	rar	bad:x -o+	comment	0e	266b	-	-	same
+U+000E	rar	bad:p	name	-	-	0e	266b	same
+U+000E	rar	cw	comment	0e	266b	-	-	same
+U+000E	rar	d	name	0e	266b	-	-	same
+U+000E	rar	d	comment	0e	266b	-	-	same
+U+000E	rar	r	name	0e	266b	-	-	same
+U+000F	unrar	lb	name	0f	263c	-	-	same
+U+000F	unrar	l	name	0f	263c	-	-	same
+U+000F	unrar	l	comment	0f	263c	-	-	same
+U+000F	unrar	lt	name	0f	263c	-	-	same
+U+000F	unrar	lt	target	0f	263c	-	-	same
+U+000F	unrar	lt	comment	0f	263c	-	-	same
+U+000F	unrar	lta	name	0f	263c	-	-	same
+U+000F	unrar	lta	target	0f	263c	-	-	same
+U+000F	unrar	lta	comment	0f	263c	-	-	same
+U+000F	unrar	v	name	0f	263c	-	-	same
+U+000F	unrar	v	comment	0f	263c	-	-	same
+U+000F	unrar	vb	name	0f	263c	-	-	same
+U+000F	unrar	vt	name	0f	263c	-	-	same
+U+000F	unrar	vt	target	0f	263c	-	-	same
+U+000F	unrar	vt	comment	0f	263c	-	-	same
+U+000F	unrar	vta	name	0f	263c	-	-	same
+U+000F	unrar	vta	target	0f	263c	-	-	same
+U+000F	unrar	vta	comment	0f	263c	-	-	same
+U+000F	unrar	t	name	0f	263c	-	-	same
+U+000F	unrar	t	comment	0f	263c	-	-	same
+U+000F	unrar	x -o+	name	5f	005f	0f | 0f | 5f	263c | 263c | 005f	same
+U+000F	unrar	x -o+	comment	0f	263c	-	-	same
+U+000F	unrar	e -o+	name	5f	005f	0f | 0f | 5f	263c | 263c | 005f	same
+U+000F	unrar	e -o+	comment	0f	263c	-	-	same
+U+000F	unrar	bad:t	name	0f	263c	0f	263c	same
+U+000F	unrar	bad:t	comment	0f	263c	-	-	same
+U+000F	unrar	bad:x -o+	name	5f	005f	0f | 0f | 5f | 0f	263c | 263c | 005f | 263c	same
+U+000F	unrar	bad:x -o+	comment	0f	263c	-	-	same
+U+000F	unrar	bad:p	name	-	-	0f	263c	same
+U+000F	rar	lb	name	0f	263c	-	-	same
+U+000F	rar	l	name	0f	263c	-	-	same
+U+000F	rar	l	comment	0f	263c	-	-	same
+U+000F	rar	lt	name	0f	263c	-	-	same
+U+000F	rar	lt	target	0f	263c	-	-	same
+U+000F	rar	lt	comment	0f	263c	-	-	same
+U+000F	rar	lta	name	0f	263c	-	-	same
+U+000F	rar	lta	target	0f	263c	-	-	same
+U+000F	rar	lta	comment	0f	263c	-	-	same
+U+000F	rar	v	name	0f	263c	-	-	same
+U+000F	rar	v	comment	0f	263c	-	-	same
+U+000F	rar	vb	name	0f	263c	-	-	same
+U+000F	rar	vt	name	0f	263c	-	-	same
+U+000F	rar	vt	target	0f	263c	-	-	same
+U+000F	rar	vt	comment	0f	263c	-	-	same
+U+000F	rar	vta	name	0f	263c	-	-	same
+U+000F	rar	vta	target	0f	263c	-	-	same
+U+000F	rar	vta	comment	0f	263c	-	-	same
+U+000F	rar	t	name	0f	263c	-	-	same
+U+000F	rar	t	comment	0f	263c	-	-	same
+U+000F	rar	x -o+	name	5f	005f	0f | 0f | 5f	263c | 263c | 005f	same
+U+000F	rar	x -o+	comment	0f	263c	-	-	same
+U+000F	rar	e -o+	name	5f	005f	0f | 0f | 5f	263c | 263c | 005f	same
+U+000F	rar	e -o+	comment	0f	263c	-	-	same
+U+000F	rar	bad:t	name	0f	263c	0f	263c	same
+U+000F	rar	bad:t	comment	0f	263c	-	-	same
+U+000F	rar	bad:x -o+	name	5f	005f	0f | 0f | 5f | 0f	263c | 263c | 005f | 263c	same
+U+000F	rar	bad:x -o+	comment	0f	263c	-	-	same
+U+000F	rar	bad:p	name	-	-	0f	263c	same
+U+000F	rar	cw	comment	0f	263c	-	-	same
+U+000F	rar	d	name	0f	263c	-	-	same
+U+000F	rar	d	comment	0f	263c	-	-	same
+U+000F	rar	r	name	0f	263c	-	-	same
+U+0010	unrar	lb	name	10	25ba	-	-	same
+U+0010	unrar	l	name	10	25ba	-	-	same
+U+0010	unrar	l	comment	10	25ba	-	-	same
+U+0010	unrar	lt	name	10	25ba	-	-	same
+U+0010	unrar	lt	target	10	25ba	-	-	same
+U+0010	unrar	lt	comment	10	25ba	-	-	same
+U+0010	unrar	lta	name	10	25ba	-	-	same
+U+0010	unrar	lta	target	10	25ba	-	-	same
+U+0010	unrar	lta	comment	10	25ba	-	-	same
+U+0010	unrar	v	name	10	25ba	-	-	same
+U+0010	unrar	v	comment	10	25ba	-	-	same
+U+0010	unrar	vb	name	10	25ba	-	-	same
+U+0010	unrar	vt	name	10	25ba	-	-	same
+U+0010	unrar	vt	target	10	25ba	-	-	same
+U+0010	unrar	vt	comment	10	25ba	-	-	same
+U+0010	unrar	vta	name	10	25ba	-	-	same
+U+0010	unrar	vta	target	10	25ba	-	-	same
+U+0010	unrar	vta	comment	10	25ba	-	-	same
+U+0010	unrar	t	name	10	25ba	-	-	same
+U+0010	unrar	t	comment	10	25ba	-	-	same
+U+0010	unrar	x -o+	name	5f	005f	10 | 10 | 5f	25ba | 25ba | 005f	same
+U+0010	unrar	x -o+	comment	10	25ba	-	-	same
+U+0010	unrar	e -o+	name	5f	005f	10 | 10 | 5f	25ba | 25ba | 005f	same
+U+0010	unrar	e -o+	comment	10	25ba	-	-	same
+U+0010	unrar	bad:t	name	10	25ba	10	25ba	same
+U+0010	unrar	bad:t	comment	10	25ba	-	-	same
+U+0010	unrar	bad:x -o+	name	5f	005f	10 | 10 | 5f | 10	25ba | 25ba | 005f | 25ba	same
+U+0010	unrar	bad:x -o+	comment	10	25ba	-	-	same
+U+0010	unrar	bad:p	name	-	-	10	25ba	same
+U+0010	rar	lb	name	10	25ba	-	-	same
+U+0010	rar	l	name	10	25ba	-	-	same
+U+0010	rar	l	comment	10	25ba	-	-	same
+U+0010	rar	lt	name	10	25ba	-	-	same
+U+0010	rar	lt	target	10	25ba	-	-	same
+U+0010	rar	lt	comment	10	25ba	-	-	same
+U+0010	rar	lta	name	10	25ba	-	-	same
+U+0010	rar	lta	target	10	25ba	-	-	same
+U+0010	rar	lta	comment	10	25ba	-	-	same
+U+0010	rar	v	name	10	25ba	-	-	same
+U+0010	rar	v	comment	10	25ba	-	-	same
+U+0010	rar	vb	name	10	25ba	-	-	same
+U+0010	rar	vt	name	10	25ba	-	-	same
+U+0010	rar	vt	target	10	25ba	-	-	same
+U+0010	rar	vt	comment	10	25ba	-	-	same
+U+0010	rar	vta	name	10	25ba	-	-	same
+U+0010	rar	vta	target	10	25ba	-	-	same
+U+0010	rar	vta	comment	10	25ba	-	-	same
+U+0010	rar	t	name	10	25ba	-	-	same
+U+0010	rar	t	comment	10	25ba	-	-	same
+U+0010	rar	x -o+	name	5f	005f	10 | 10 | 5f	25ba | 25ba | 005f	same
+U+0010	rar	x -o+	comment	10	25ba	-	-	same
+U+0010	rar	e -o+	name	5f	005f	10 | 10 | 5f	25ba | 25ba | 005f	same
+U+0010	rar	e -o+	comment	10	25ba	-	-	same
+U+0010	rar	bad:t	name	10	25ba	10	25ba	same
+U+0010	rar	bad:t	comment	10	25ba	-	-	same
+U+0010	rar	bad:x -o+	name	5f	005f	10 | 10 | 5f | 10	25ba | 25ba | 005f | 25ba	same
+U+0010	rar	bad:x -o+	comment	10	25ba	-	-	same
+U+0010	rar	bad:p	name	-	-	10	25ba	same
+U+0010	rar	cw	comment	10	25ba	-	-	same
+U+0010	rar	d	name	10	25ba	-	-	same
+U+0010	rar	d	comment	10	25ba	-	-	same
+U+0010	rar	r	name	10	25ba	-	-	same
+U+0011	unrar	lb	name	11	25c4	-	-	same
+U+0011	unrar	l	name	11	25c4	-	-	same
+U+0011	unrar	l	comment	11	25c4	-	-	same
+U+0011	unrar	lt	name	11	25c4	-	-	same
+U+0011	unrar	lt	target	11	25c4	-	-	same
+U+0011	unrar	lt	comment	11	25c4	-	-	same
+U+0011	unrar	lta	name	11	25c4	-	-	same
+U+0011	unrar	lta	target	11	25c4	-	-	same
+U+0011	unrar	lta	comment	11	25c4	-	-	same
+U+0011	unrar	v	name	11	25c4	-	-	same
+U+0011	unrar	v	comment	11	25c4	-	-	same
+U+0011	unrar	vb	name	11	25c4	-	-	same
+U+0011	unrar	vt	name	11	25c4	-	-	same
+U+0011	unrar	vt	target	11	25c4	-	-	same
+U+0011	unrar	vt	comment	11	25c4	-	-	same
+U+0011	unrar	vta	name	11	25c4	-	-	same
+U+0011	unrar	vta	target	11	25c4	-	-	same
+U+0011	unrar	vta	comment	11	25c4	-	-	same
+U+0011	unrar	t	name	11	25c4	-	-	same
+U+0011	unrar	t	comment	11	25c4	-	-	same
+U+0011	unrar	x -o+	name	5f	005f	11 | 11 | 5f	25c4 | 25c4 | 005f	same
+U+0011	unrar	x -o+	comment	11	25c4	-	-	same
+U+0011	unrar	e -o+	name	5f	005f	11 | 11 | 5f	25c4 | 25c4 | 005f	same
+U+0011	unrar	e -o+	comment	11	25c4	-	-	same
+U+0011	unrar	bad:t	name	11	25c4	11	25c4	same
+U+0011	unrar	bad:t	comment	11	25c4	-	-	same
+U+0011	unrar	bad:x -o+	name	5f	005f	11 | 11 | 5f | 11	25c4 | 25c4 | 005f | 25c4	same
+U+0011	unrar	bad:x -o+	comment	11	25c4	-	-	same
+U+0011	unrar	bad:p	name	-	-	11	25c4	same
+U+0011	rar	lb	name	11	25c4	-	-	same
+U+0011	rar	l	name	11	25c4	-	-	same
+U+0011	rar	l	comment	11	25c4	-	-	same
+U+0011	rar	lt	name	11	25c4	-	-	same
+U+0011	rar	lt	target	11	25c4	-	-	same
+U+0011	rar	lt	comment	11	25c4	-	-	same
+U+0011	rar	lta	name	11	25c4	-	-	same
+U+0011	rar	lta	target	11	25c4	-	-	same
+U+0011	rar	lta	comment	11	25c4	-	-	same
+U+0011	rar	v	name	11	25c4	-	-	same
+U+0011	rar	v	comment	11	25c4	-	-	same
+U+0011	rar	vb	name	11	25c4	-	-	same
+U+0011	rar	vt	name	11	25c4	-	-	same
+U+0011	rar	vt	target	11	25c4	-	-	same
+U+0011	rar	vt	comment	11	25c4	-	-	same
+U+0011	rar	vta	name	11	25c4	-	-	same
+U+0011	rar	vta	target	11	25c4	-	-	same
+U+0011	rar	vta	comment	11	25c4	-	-	same
+U+0011	rar	t	name	11	25c4	-	-	same
+U+0011	rar	t	comment	11	25c4	-	-	same
+U+0011	rar	x -o+	name	5f	005f	11 | 11 | 5f	25c4 | 25c4 | 005f	same
+U+0011	rar	x -o+	comment	11	25c4	-	-	same
+U+0011	rar	e -o+	name	5f	005f	11 | 11 | 5f	25c4 | 25c4 | 005f	same
+U+0011	rar	e -o+	comment	11	25c4	-	-	same
+U+0011	rar	bad:t	name	11	25c4	11	25c4	same
+U+0011	rar	bad:t	comment	11	25c4	-	-	same
+U+0011	rar	bad:x -o+	name	5f	005f	11 | 11 | 5f | 11	25c4 | 25c4 | 005f | 25c4	same
+U+0011	rar	bad:x -o+	comment	11	25c4	-	-	same
+U+0011	rar	bad:p	name	-	-	11	25c4	same
+U+0011	rar	cw	comment	11	25c4	-	-	same
+U+0011	rar	d	name	11	25c4	-	-	same
+U+0011	rar	d	comment	11	25c4	-	-	same
+U+0011	rar	r	name	11	25c4	-	-	same
+U+0012	unrar	lb	name	12	2195	-	-	same
+U+0012	unrar	l	name	12	2195	-	-	same
+U+0012	unrar	l	comment	12	2195	-	-	same
+U+0012	unrar	lt	name	12	2195	-	-	same
+U+0012	unrar	lt	target	12	2195	-	-	same
+U+0012	unrar	lt	comment	12	2195	-	-	same
+U+0012	unrar	lta	name	12	2195	-	-	same
+U+0012	unrar	lta	target	12	2195	-	-	same
+U+0012	unrar	lta	comment	12	2195	-	-	same
+U+0012	unrar	v	name	12	2195	-	-	same
+U+0012	unrar	v	comment	12	2195	-	-	same
+U+0012	unrar	vb	name	12	2195	-	-	same
+U+0012	unrar	vt	name	12	2195	-	-	same
+U+0012	unrar	vt	target	12	2195	-	-	same
+U+0012	unrar	vt	comment	12	2195	-	-	same
+U+0012	unrar	vta	name	12	2195	-	-	same
+U+0012	unrar	vta	target	12	2195	-	-	same
+U+0012	unrar	vta	comment	12	2195	-	-	same
+U+0012	unrar	t	name	12	2195	-	-	same
+U+0012	unrar	t	comment	12	2195	-	-	same
+U+0012	unrar	x -o+	name	5f	005f	12 | 12 | 5f	2195 | 2195 | 005f	same
+U+0012	unrar	x -o+	comment	12	2195	-	-	same
+U+0012	unrar	e -o+	name	5f	005f	12 | 12 | 5f	2195 | 2195 | 005f	same
+U+0012	unrar	e -o+	comment	12	2195	-	-	same
+U+0012	unrar	bad:t	name	12	2195	12	2195	same
+U+0012	unrar	bad:t	comment	12	2195	-	-	same
+U+0012	unrar	bad:x -o+	name	5f	005f	12 | 12 | 5f | 12	2195 | 2195 | 005f | 2195	same
+U+0012	unrar	bad:x -o+	comment	12	2195	-	-	same
+U+0012	unrar	bad:p	name	-	-	12	2195	same
+U+0012	rar	lb	name	12	2195	-	-	same
+U+0012	rar	l	name	12	2195	-	-	same
+U+0012	rar	l	comment	12	2195	-	-	same
+U+0012	rar	lt	name	12	2195	-	-	same
+U+0012	rar	lt	target	12	2195	-	-	same
+U+0012	rar	lt	comment	12	2195	-	-	same
+U+0012	rar	lta	name	12	2195	-	-	same
+U+0012	rar	lta	target	12	2195	-	-	same
+U+0012	rar	lta	comment	12	2195	-	-	same
+U+0012	rar	v	name	12	2195	-	-	same
+U+0012	rar	v	comment	12	2195	-	-	same
+U+0012	rar	vb	name	12	2195	-	-	same
+U+0012	rar	vt	name	12	2195	-	-	same
+U+0012	rar	vt	target	12	2195	-	-	same
+U+0012	rar	vt	comment	12	2195	-	-	same
+U+0012	rar	vta	name	12	2195	-	-	same
+U+0012	rar	vta	target	12	2195	-	-	same
+U+0012	rar	vta	comment	12	2195	-	-	same
+U+0012	rar	t	name	12	2195	-	-	same
+U+0012	rar	t	comment	12	2195	-	-	same
+U+0012	rar	x -o+	name	5f	005f	12 | 12 | 5f	2195 | 2195 | 005f	same
+U+0012	rar	x -o+	comment	12	2195	-	-	same
+U+0012	rar	e -o+	name	5f	005f	12 | 12 | 5f	2195 | 2195 | 005f	same
+U+0012	rar	e -o+	comment	12	2195	-	-	same
+U+0012	rar	bad:t	name	12	2195	12	2195	same
+U+0012	rar	bad:t	comment	12	2195	-	-	same
+U+0012	rar	bad:x -o+	name	5f	005f	12 | 12 | 5f | 12	2195 | 2195 | 005f | 2195	same
+U+0012	rar	bad:x -o+	comment	12	2195	-	-	same
+U+0012	rar	bad:p	name	-	-	12	2195	same
+U+0012	rar	cw	comment	12	2195	-	-	same
+U+0012	rar	d	name	12	2195	-	-	same
+U+0012	rar	d	comment	12	2195	-	-	same
+U+0012	rar	r	name	12	2195	-	-	same
+U+0013	unrar	lb	name	13	203c	-	-	same
+U+0013	unrar	l	name	13	203c	-	-	same
+U+0013	unrar	l	comment	13	203c	-	-	same
+U+0013	unrar	lt	name	13	203c	-	-	same
+U+0013	unrar	lt	target	13	203c	-	-	same
+U+0013	unrar	lt	comment	13	203c	-	-	same
+U+0013	unrar	lta	name	13	203c	-	-	same
+U+0013	unrar	lta	target	13	203c	-	-	same
+U+0013	unrar	lta	comment	13	203c	-	-	same
+U+0013	unrar	v	name	13	203c	-	-	same
+U+0013	unrar	v	comment	13	203c	-	-	same
+U+0013	unrar	vb	name	13	203c	-	-	same
+U+0013	unrar	vt	name	13	203c	-	-	same
+U+0013	unrar	vt	target	13	203c	-	-	same
+U+0013	unrar	vt	comment	13	203c	-	-	same
+U+0013	unrar	vta	name	13	203c	-	-	same
+U+0013	unrar	vta	target	13	203c	-	-	same
+U+0013	unrar	vta	comment	13	203c	-	-	same
+U+0013	unrar	t	name	13	203c	-	-	same
+U+0013	unrar	t	comment	13	203c	-	-	same
+U+0013	unrar	x -o+	name	5f	005f	13 | 13 | 5f	203c | 203c | 005f	same
+U+0013	unrar	x -o+	comment	13	203c	-	-	same
+U+0013	unrar	e -o+	name	5f	005f	13 | 13 | 5f	203c | 203c | 005f	same
+U+0013	unrar	e -o+	comment	13	203c	-	-	same
+U+0013	unrar	bad:t	name	13	203c	13	203c	same
+U+0013	unrar	bad:t	comment	13	203c	-	-	same
+U+0013	unrar	bad:x -o+	name	5f	005f	13 | 13 | 5f | 13	203c | 203c | 005f | 203c	same
+U+0013	unrar	bad:x -o+	comment	13	203c	-	-	same
+U+0013	unrar	bad:p	name	-	-	13	203c	same
+U+0013	rar	lb	name	13	203c	-	-	same
+U+0013	rar	l	name	13	203c	-	-	same
+U+0013	rar	l	comment	13	203c	-	-	same
+U+0013	rar	lt	name	13	203c	-	-	same
+U+0013	rar	lt	target	13	203c	-	-	same
+U+0013	rar	lt	comment	13	203c	-	-	same
+U+0013	rar	lta	name	13	203c	-	-	same
+U+0013	rar	lta	target	13	203c	-	-	same
+U+0013	rar	lta	comment	13	203c	-	-	same
+U+0013	rar	v	name	13	203c	-	-	same
+U+0013	rar	v	comment	13	203c	-	-	same
+U+0013	rar	vb	name	13	203c	-	-	same
+U+0013	rar	vt	name	13	203c	-	-	same
+U+0013	rar	vt	target	13	203c	-	-	same
+U+0013	rar	vt	comment	13	203c	-	-	same
+U+0013	rar	vta	name	13	203c	-	-	same
+U+0013	rar	vta	target	13	203c	-	-	same
+U+0013	rar	vta	comment	13	203c	-	-	same
+U+0013	rar	t	name	13	203c	-	-	same
+U+0013	rar	t	comment	13	203c	-	-	same
+U+0013	rar	x -o+	name	5f	005f	13 | 13 | 5f	203c | 203c | 005f	same
+U+0013	rar	x -o+	comment	13	203c	-	-	same
+U+0013	rar	e -o+	name	5f	005f	13 | 13 | 5f	203c | 203c | 005f	same
+U+0013	rar	e -o+	comment	13	203c	-	-	same
+U+0013	rar	bad:t	name	13	203c	13	203c	same
+U+0013	rar	bad:t	comment	13	203c	-	-	same
+U+0013	rar	bad:x -o+	name	5f	005f	13 | 13 | 5f | 13	203c | 203c | 005f | 203c	same
+U+0013	rar	bad:x -o+	comment	13	203c	-	-	same
+U+0013	rar	bad:p	name	-	-	13	203c	same
+U+0013	rar	cw	comment	13	203c	-	-	same
+U+0013	rar	d	name	13	203c	-	-	same
+U+0013	rar	d	comment	13	203c	-	-	same
+U+0013	rar	r	name	13	203c	-	-	same
+U+0014	unrar	lb	name	14	00b6	-	-	same
+U+0014	unrar	l	name	14	00b6	-	-	same
+U+0014	unrar	l	comment	14	00b6	-	-	same
+U+0014	unrar	lt	name	14	00b6	-	-	same
+U+0014	unrar	lt	target	14	00b6	-	-	same
+U+0014	unrar	lt	comment	14	00b6	-	-	same
+U+0014	unrar	lta	name	14	00b6	-	-	same
+U+0014	unrar	lta	target	14	00b6	-	-	same
+U+0014	unrar	lta	comment	14	00b6	-	-	same
+U+0014	unrar	v	name	14	00b6	-	-	same
+U+0014	unrar	v	comment	14	00b6	-	-	same
+U+0014	unrar	vb	name	14	00b6	-	-	same
+U+0014	unrar	vt	name	14	00b6	-	-	same
+U+0014	unrar	vt	target	14	00b6	-	-	same
+U+0014	unrar	vt	comment	14	00b6	-	-	same
+U+0014	unrar	vta	name	14	00b6	-	-	same
+U+0014	unrar	vta	target	14	00b6	-	-	same
+U+0014	unrar	vta	comment	14	00b6	-	-	same
+U+0014	unrar	t	name	14	00b6	-	-	same
+U+0014	unrar	t	comment	14	00b6	-	-	same
+U+0014	unrar	x -o+	name	5f	005f	14 | 14 | 5f	00b6 | 00b6 | 005f	same
+U+0014	unrar	x -o+	comment	14	00b6	-	-	same
+U+0014	unrar	e -o+	name	5f	005f	14 | 14 | 5f	00b6 | 00b6 | 005f	same
+U+0014	unrar	e -o+	comment	14	00b6	-	-	same
+U+0014	unrar	bad:t	name	14	00b6	14	00b6	same
+U+0014	unrar	bad:t	comment	14	00b6	-	-	same
+U+0014	unrar	bad:x -o+	name	5f	005f	14 | 14 | 5f | 14	00b6 | 00b6 | 005f | 00b6	same
+U+0014	unrar	bad:x -o+	comment	14	00b6	-	-	same
+U+0014	unrar	bad:p	name	-	-	14	00b6	same
+U+0014	rar	lb	name	14	00b6	-	-	same
+U+0014	rar	l	name	14	00b6	-	-	same
+U+0014	rar	l	comment	14	00b6	-	-	same
+U+0014	rar	lt	name	14	00b6	-	-	same
+U+0014	rar	lt	target	14	00b6	-	-	same
+U+0014	rar	lt	comment	14	00b6	-	-	same
+U+0014	rar	lta	name	14	00b6	-	-	same
+U+0014	rar	lta	target	14	00b6	-	-	same
+U+0014	rar	lta	comment	14	00b6	-	-	same
+U+0014	rar	v	name	14	00b6	-	-	same
+U+0014	rar	v	comment	14	00b6	-	-	same
+U+0014	rar	vb	name	14	00b6	-	-	same
+U+0014	rar	vt	name	14	00b6	-	-	same
+U+0014	rar	vt	target	14	00b6	-	-	same
+U+0014	rar	vt	comment	14	00b6	-	-	same
+U+0014	rar	vta	name	14	00b6	-	-	same
+U+0014	rar	vta	target	14	00b6	-	-	same
+U+0014	rar	vta	comment	14	00b6	-	-	same
+U+0014	rar	t	name	14	00b6	-	-	same
+U+0014	rar	t	comment	14	00b6	-	-	same
+U+0014	rar	x -o+	name	5f	005f	14 | 14 | 5f	00b6 | 00b6 | 005f	same
+U+0014	rar	x -o+	comment	14	00b6	-	-	same
+U+0014	rar	e -o+	name	5f	005f	14 | 14 | 5f	00b6 | 00b6 | 005f	same
+U+0014	rar	e -o+	comment	14	00b6	-	-	same
+U+0014	rar	bad:t	name	14	00b6	14	00b6	same
+U+0014	rar	bad:t	comment	14	00b6	-	-	same
+U+0014	rar	bad:x -o+	name	5f	005f	14 | 14 | 5f | 14	00b6 | 00b6 | 005f | 00b6	same
+U+0014	rar	bad:x -o+	comment	14	00b6	-	-	same
+U+0014	rar	bad:p	name	-	-	14	00b6	same
+U+0014	rar	cw	comment	14	00b6	-	-	same
+U+0014	rar	d	name	14	00b6	-	-	same
+U+0014	rar	d	comment	14	00b6	-	-	same
+U+0014	rar	r	name	14	00b6	-	-	same
+U+0015	unrar	lb	name	15	00a7	-	-	same
+U+0015	unrar	l	name	15	00a7	-	-	same
+U+0015	unrar	l	comment	15	00a7	-	-	same
+U+0015	unrar	lt	name	15	00a7	-	-	same
+U+0015	unrar	lt	target	15	00a7	-	-	same
+U+0015	unrar	lt	comment	15	00a7	-	-	same
+U+0015	unrar	lta	name	15	00a7	-	-	same
+U+0015	unrar	lta	target	15	00a7	-	-	same
+U+0015	unrar	lta	comment	15	00a7	-	-	same
+U+0015	unrar	v	name	15	00a7	-	-	same
+U+0015	unrar	v	comment	15	00a7	-	-	same
+U+0015	unrar	vb	name	15	00a7	-	-	same
+U+0015	unrar	vt	name	15	00a7	-	-	same
+U+0015	unrar	vt	target	15	00a7	-	-	same
+U+0015	unrar	vt	comment	15	00a7	-	-	same
+U+0015	unrar	vta	name	15	00a7	-	-	same
+U+0015	unrar	vta	target	15	00a7	-	-	same
+U+0015	unrar	vta	comment	15	00a7	-	-	same
+U+0015	unrar	t	name	15	00a7	-	-	same
+U+0015	unrar	t	comment	15	00a7	-	-	same
+U+0015	unrar	x -o+	name	5f	005f	15 | 15 | 5f	00a7 | 00a7 | 005f	same
+U+0015	unrar	x -o+	comment	15	00a7	-	-	same
+U+0015	unrar	e -o+	name	5f	005f	15 | 15 | 5f	00a7 | 00a7 | 005f	same
+U+0015	unrar	e -o+	comment	15	00a7	-	-	same
+U+0015	unrar	bad:t	name	15	00a7	15	00a7	same
+U+0015	unrar	bad:t	comment	15	00a7	-	-	same
+U+0015	unrar	bad:x -o+	name	5f	005f	15 | 15 | 5f | 15	00a7 | 00a7 | 005f | 00a7	same
+U+0015	unrar	bad:x -o+	comment	15	00a7	-	-	same
+U+0015	unrar	bad:p	name	-	-	15	00a7	same
+U+0015	rar	lb	name	15	00a7	-	-	same
+U+0015	rar	l	name	15	00a7	-	-	same
+U+0015	rar	l	comment	15	00a7	-	-	same
+U+0015	rar	lt	name	15	00a7	-	-	same
+U+0015	rar	lt	target	15	00a7	-	-	same
+U+0015	rar	lt	comment	15	00a7	-	-	same
+U+0015	rar	lta	name	15	00a7	-	-	same
+U+0015	rar	lta	target	15	00a7	-	-	same
+U+0015	rar	lta	comment	15	00a7	-	-	same
+U+0015	rar	v	name	15	00a7	-	-	same
+U+0015	rar	v	comment	15	00a7	-	-	same
+U+0015	rar	vb	name	15	00a7	-	-	same
+U+0015	rar	vt	name	15	00a7	-	-	same
+U+0015	rar	vt	target	15	00a7	-	-	same
+U+0015	rar	vt	comment	15	00a7	-	-	same
+U+0015	rar	vta	name	15	00a7	-	-	same
+U+0015	rar	vta	target	15	00a7	-	-	same
+U+0015	rar	vta	comment	15	00a7	-	-	same
+U+0015	rar	t	name	15	00a7	-	-	same
+U+0015	rar	t	comment	15	00a7	-	-	same
+U+0015	rar	x -o+	name	5f	005f	15 | 15 | 5f	00a7 | 00a7 | 005f	same
+U+0015	rar	x -o+	comment	15	00a7	-	-	same
+U+0015	rar	e -o+	name	5f	005f	15 | 15 | 5f	00a7 | 00a7 | 005f	same
+U+0015	rar	e -o+	comment	15	00a7	-	-	same
+U+0015	rar	bad:t	name	15	00a7	15	00a7	same
+U+0015	rar	bad:t	comment	15	00a7	-	-	same
+U+0015	rar	bad:x -o+	name	5f	005f	15 | 15 | 5f | 15	00a7 | 00a7 | 005f | 00a7	same
+U+0015	rar	bad:x -o+	comment	15	00a7	-	-	same
+U+0015	rar	bad:p	name	-	-	15	00a7	same
+U+0015	rar	cw	comment	15	00a7	-	-	same
+U+0015	rar	d	name	15	00a7	-	-	same
+U+0015	rar	d	comment	15	00a7	-	-	same
+U+0015	rar	r	name	15	00a7	-	-	same
+U+0016	unrar	lb	name	16	25ac	-	-	same
+U+0016	unrar	l	name	16	25ac	-	-	same
+U+0016	unrar	l	comment	16	25ac	-	-	same
+U+0016	unrar	lt	name	16	25ac	-	-	same
+U+0016	unrar	lt	target	16	25ac	-	-	same
+U+0016	unrar	lt	comment	16	25ac	-	-	same
+U+0016	unrar	lta	name	16	25ac	-	-	same
+U+0016	unrar	lta	target	16	25ac	-	-	same
+U+0016	unrar	lta	comment	16	25ac	-	-	same
+U+0016	unrar	v	name	16	25ac	-	-	same
+U+0016	unrar	v	comment	16	25ac	-	-	same
+U+0016	unrar	vb	name	16	25ac	-	-	same
+U+0016	unrar	vt	name	16	25ac	-	-	same
+U+0016	unrar	vt	target	16	25ac	-	-	same
+U+0016	unrar	vt	comment	16	25ac	-	-	same
+U+0016	unrar	vta	name	16	25ac	-	-	same
+U+0016	unrar	vta	target	16	25ac	-	-	same
+U+0016	unrar	vta	comment	16	25ac	-	-	same
+U+0016	unrar	t	name	16	25ac	-	-	same
+U+0016	unrar	t	comment	16	25ac	-	-	same
+U+0016	unrar	x -o+	name	5f	005f	16 | 16 | 5f	25ac | 25ac | 005f	same
+U+0016	unrar	x -o+	comment	16	25ac	-	-	same
+U+0016	unrar	e -o+	name	5f	005f	16 | 16 | 5f	25ac | 25ac | 005f	same
+U+0016	unrar	e -o+	comment	16	25ac	-	-	same
+U+0016	unrar	bad:t	name	16	25ac	16	25ac	same
+U+0016	unrar	bad:t	comment	16	25ac	-	-	same
+U+0016	unrar	bad:x -o+	name	5f	005f	16 | 16 | 5f | 16	25ac | 25ac | 005f | 25ac	same
+U+0016	unrar	bad:x -o+	comment	16	25ac	-	-	same
+U+0016	unrar	bad:p	name	-	-	16	25ac	same
+U+0016	rar	lb	name	16	25ac	-	-	same
+U+0016	rar	l	name	16	25ac	-	-	same
+U+0016	rar	l	comment	16	25ac	-	-	same
+U+0016	rar	lt	name	16	25ac	-	-	same
+U+0016	rar	lt	target	16	25ac	-	-	same
+U+0016	rar	lt	comment	16	25ac	-	-	same
+U+0016	rar	lta	name	16	25ac	-	-	same
+U+0016	rar	lta	target	16	25ac	-	-	same
+U+0016	rar	lta	comment	16	25ac	-	-	same
+U+0016	rar	v	name	16	25ac	-	-	same
+U+0016	rar	v	comment	16	25ac	-	-	same
+U+0016	rar	vb	name	16	25ac	-	-	same
+U+0016	rar	vt	name	16	25ac	-	-	same
+U+0016	rar	vt	target	16	25ac	-	-	same
+U+0016	rar	vt	comment	16	25ac	-	-	same
+U+0016	rar	vta	name	16	25ac	-	-	same
+U+0016	rar	vta	target	16	25ac	-	-	same
+U+0016	rar	vta	comment	16	25ac	-	-	same
+U+0016	rar	t	name	16	25ac	-	-	same
+U+0016	rar	t	comment	16	25ac	-	-	same
+U+0016	rar	x -o+	name	5f	005f	16 | 16 | 5f	25ac | 25ac | 005f	same
+U+0016	rar	x -o+	comment	16	25ac	-	-	same
+U+0016	rar	e -o+	name	5f	005f	16 | 16 | 5f	25ac | 25ac | 005f	same
+U+0016	rar	e -o+	comment	16	25ac	-	-	same
+U+0016	rar	bad:t	name	16	25ac	16	25ac	same
+U+0016	rar	bad:t	comment	16	25ac	-	-	same
+U+0016	rar	bad:x -o+	name	5f	005f	16 | 16 | 5f | 16	25ac | 25ac | 005f | 25ac	same
+U+0016	rar	bad:x -o+	comment	16	25ac	-	-	same
+U+0016	rar	bad:p	name	-	-	16	25ac	same
+U+0016	rar	cw	comment	16	25ac	-	-	same
+U+0016	rar	d	name	16	25ac	-	-	same
+U+0016	rar	d	comment	16	25ac	-	-	same
+U+0016	rar	r	name	16	25ac	-	-	same
+U+0017	unrar	lb	name	17	21a8	-	-	same
+U+0017	unrar	l	name	17	21a8	-	-	same
+U+0017	unrar	l	comment	17	21a8	-	-	same
+U+0017	unrar	lt	name	17	21a8	-	-	same
+U+0017	unrar	lt	target	17	21a8	-	-	same
+U+0017	unrar	lt	comment	17	21a8	-	-	same
+U+0017	unrar	lta	name	17	21a8	-	-	same
+U+0017	unrar	lta	target	17	21a8	-	-	same
+U+0017	unrar	lta	comment	17	21a8	-	-	same
+U+0017	unrar	v	name	17	21a8	-	-	same
+U+0017	unrar	v	comment	17	21a8	-	-	same
+U+0017	unrar	vb	name	17	21a8	-	-	same
+U+0017	unrar	vt	name	17	21a8	-	-	same
+U+0017	unrar	vt	target	17	21a8	-	-	same
+U+0017	unrar	vt	comment	17	21a8	-	-	same
+U+0017	unrar	vta	name	17	21a8	-	-	same
+U+0017	unrar	vta	target	17	21a8	-	-	same
+U+0017	unrar	vta	comment	17	21a8	-	-	same
+U+0017	unrar	t	name	17	21a8	-	-	same
+U+0017	unrar	t	comment	17	21a8	-	-	same
+U+0017	unrar	x -o+	name	5f	005f	17 | 17 | 5f	21a8 | 21a8 | 005f	same
+U+0017	unrar	x -o+	comment	17	21a8	-	-	same
+U+0017	unrar	e -o+	name	5f	005f	17 | 17 | 5f	21a8 | 21a8 | 005f	same
+U+0017	unrar	e -o+	comment	17	21a8	-	-	same
+U+0017	unrar	bad:t	name	17	21a8	17	21a8	same
+U+0017	unrar	bad:t	comment	17	21a8	-	-	same
+U+0017	unrar	bad:x -o+	name	5f	005f	17 | 17 | 5f | 17	21a8 | 21a8 | 005f | 21a8	same
+U+0017	unrar	bad:x -o+	comment	17	21a8	-	-	same
+U+0017	unrar	bad:p	name	-	-	17	21a8	same
+U+0017	rar	lb	name	17	21a8	-	-	same
+U+0017	rar	l	name	17	21a8	-	-	same
+U+0017	rar	l	comment	17	21a8	-	-	same
+U+0017	rar	lt	name	17	21a8	-	-	same
+U+0017	rar	lt	target	17	21a8	-	-	same
+U+0017	rar	lt	comment	17	21a8	-	-	same
+U+0017	rar	lta	name	17	21a8	-	-	same
+U+0017	rar	lta	target	17	21a8	-	-	same
+U+0017	rar	lta	comment	17	21a8	-	-	same
+U+0017	rar	v	name	17	21a8	-	-	same
+U+0017	rar	v	comment	17	21a8	-	-	same
+U+0017	rar	vb	name	17	21a8	-	-	same
+U+0017	rar	vt	name	17	21a8	-	-	same
+U+0017	rar	vt	target	17	21a8	-	-	same
+U+0017	rar	vt	comment	17	21a8	-	-	same
+U+0017	rar	vta	name	17	21a8	-	-	same
+U+0017	rar	vta	target	17	21a8	-	-	same
+U+0017	rar	vta	comment	17	21a8	-	-	same
+U+0017	rar	t	name	17	21a8	-	-	same
+U+0017	rar	t	comment	17	21a8	-	-	same
+U+0017	rar	x -o+	name	5f	005f	17 | 17 | 5f	21a8 | 21a8 | 005f	same
+U+0017	rar	x -o+	comment	17	21a8	-	-	same
+U+0017	rar	e -o+	name	5f	005f	17 | 17 | 5f	21a8 | 21a8 | 005f	same
+U+0017	rar	e -o+	comment	17	21a8	-	-	same
+U+0017	rar	bad:t	name	17	21a8	17	21a8	same
+U+0017	rar	bad:t	comment	17	21a8	-	-	same
+U+0017	rar	bad:x -o+	name	5f	005f	17 | 17 | 5f | 17	21a8 | 21a8 | 005f | 21a8	same
+U+0017	rar	bad:x -o+	comment	17	21a8	-	-	same
+U+0017	rar	bad:p	name	-	-	17	21a8	same
+U+0017	rar	cw	comment	17	21a8	-	-	same
+U+0017	rar	d	name	17	21a8	-	-	same
+U+0017	rar	d	comment	17	21a8	-	-	same
+U+0017	rar	r	name	17	21a8	-	-	same
+U+0018	unrar	lb	name	18	2191	-	-	same
+U+0018	unrar	l	name	18	2191	-	-	same
+U+0018	unrar	l	comment	18	2191	-	-	same
+U+0018	unrar	lt	name	18	2191	-	-	same
+U+0018	unrar	lt	target	18	2191	-	-	same
+U+0018	unrar	lt	comment	18	2191	-	-	same
+U+0018	unrar	lta	name	18	2191	-	-	same
+U+0018	unrar	lta	target	18	2191	-	-	same
+U+0018	unrar	lta	comment	18	2191	-	-	same
+U+0018	unrar	v	name	18	2191	-	-	same
+U+0018	unrar	v	comment	18	2191	-	-	same
+U+0018	unrar	vb	name	18	2191	-	-	same
+U+0018	unrar	vt	name	18	2191	-	-	same
+U+0018	unrar	vt	target	18	2191	-	-	same
+U+0018	unrar	vt	comment	18	2191	-	-	same
+U+0018	unrar	vta	name	18	2191	-	-	same
+U+0018	unrar	vta	target	18	2191	-	-	same
+U+0018	unrar	vta	comment	18	2191	-	-	same
+U+0018	unrar	t	name	18	2191	-	-	same
+U+0018	unrar	t	comment	18	2191	-	-	same
+U+0018	unrar	x -o+	name	5f	005f	18 | 18 | 5f	2191 | 2191 | 005f	same
+U+0018	unrar	x -o+	comment	18	2191	-	-	same
+U+0018	unrar	e -o+	name	5f	005f	18 | 18 | 5f	2191 | 2191 | 005f	same
+U+0018	unrar	e -o+	comment	18	2191	-	-	same
+U+0018	unrar	bad:t	name	18	2191	18	2191	same
+U+0018	unrar	bad:t	comment	18	2191	-	-	same
+U+0018	unrar	bad:x -o+	name	5f	005f	18 | 18 | 5f | 18	2191 | 2191 | 005f | 2191	same
+U+0018	unrar	bad:x -o+	comment	18	2191	-	-	same
+U+0018	unrar	bad:p	name	-	-	18	2191	same
+U+0018	rar	lb	name	18	2191	-	-	same
+U+0018	rar	l	name	18	2191	-	-	same
+U+0018	rar	l	comment	18	2191	-	-	same
+U+0018	rar	lt	name	18	2191	-	-	same
+U+0018	rar	lt	target	18	2191	-	-	same
+U+0018	rar	lt	comment	18	2191	-	-	same
+U+0018	rar	lta	name	18	2191	-	-	same
+U+0018	rar	lta	target	18	2191	-	-	same
+U+0018	rar	lta	comment	18	2191	-	-	same
+U+0018	rar	v	name	18	2191	-	-	same
+U+0018	rar	v	comment	18	2191	-	-	same
+U+0018	rar	vb	name	18	2191	-	-	same
+U+0018	rar	vt	name	18	2191	-	-	same
+U+0018	rar	vt	target	18	2191	-	-	same
+U+0018	rar	vt	comment	18	2191	-	-	same
+U+0018	rar	vta	name	18	2191	-	-	same
+U+0018	rar	vta	target	18	2191	-	-	same
+U+0018	rar	vta	comment	18	2191	-	-	same
+U+0018	rar	t	name	18	2191	-	-	same
+U+0018	rar	t	comment	18	2191	-	-	same
+U+0018	rar	x -o+	name	5f	005f	18 | 18 | 5f	2191 | 2191 | 005f	same
+U+0018	rar	x -o+	comment	18	2191	-	-	same
+U+0018	rar	e -o+	name	5f	005f	18 | 18 | 5f	2191 | 2191 | 005f	same
+U+0018	rar	e -o+	comment	18	2191	-	-	same
+U+0018	rar	bad:t	name	18	2191	18	2191	same
+U+0018	rar	bad:t	comment	18	2191	-	-	same
+U+0018	rar	bad:x -o+	name	5f	005f	18 | 18 | 5f | 18	2191 | 2191 | 005f | 2191	same
+U+0018	rar	bad:x -o+	comment	18	2191	-	-	same
+U+0018	rar	bad:p	name	-	-	18	2191	same
+U+0018	rar	cw	comment	18	2191	-	-	same
+U+0018	rar	d	name	18	2191	-	-	same
+U+0018	rar	d	comment	18	2191	-	-	same
+U+0018	rar	r	name	18	2191	-	-	same
+U+0019	unrar	lb	name	19	2193	-	-	same
+U+0019	unrar	l	name	19	2193	-	-	same
+U+0019	unrar	l	comment	19	2193	-	-	same
+U+0019	unrar	lt	name	19	2193	-	-	same
+U+0019	unrar	lt	target	19	2193	-	-	same
+U+0019	unrar	lt	comment	19	2193	-	-	same
+U+0019	unrar	lta	name	19	2193	-	-	same
+U+0019	unrar	lta	target	19	2193	-	-	same
+U+0019	unrar	lta	comment	19	2193	-	-	same
+U+0019	unrar	v	name	19	2193	-	-	same
+U+0019	unrar	v	comment	19	2193	-	-	same
+U+0019	unrar	vb	name	19	2193	-	-	same
+U+0019	unrar	vt	name	19	2193	-	-	same
+U+0019	unrar	vt	target	19	2193	-	-	same
+U+0019	unrar	vt	comment	19	2193	-	-	same
+U+0019	unrar	vta	name	19	2193	-	-	same
+U+0019	unrar	vta	target	19	2193	-	-	same
+U+0019	unrar	vta	comment	19	2193	-	-	same
+U+0019	unrar	t	name	19	2193	-	-	same
+U+0019	unrar	t	comment	19	2193	-	-	same
+U+0019	unrar	x -o+	name	5f	005f	19 | 19 | 5f	2193 | 2193 | 005f	same
+U+0019	unrar	x -o+	comment	19	2193	-	-	same
+U+0019	unrar	e -o+	name	5f	005f	19 | 19 | 5f	2193 | 2193 | 005f	same
+U+0019	unrar	e -o+	comment	19	2193	-	-	same
+U+0019	unrar	bad:t	name	19	2193	19	2193	same
+U+0019	unrar	bad:t	comment	19	2193	-	-	same
+U+0019	unrar	bad:x -o+	name	5f	005f	19 | 19 | 5f | 19	2193 | 2193 | 005f | 2193	same
+U+0019	unrar	bad:x -o+	comment	19	2193	-	-	same
+U+0019	unrar	bad:p	name	-	-	19	2193	same
+U+0019	rar	lb	name	19	2193	-	-	same
+U+0019	rar	l	name	19	2193	-	-	same
+U+0019	rar	l	comment	19	2193	-	-	same
+U+0019	rar	lt	name	19	2193	-	-	same
+U+0019	rar	lt	target	19	2193	-	-	same
+U+0019	rar	lt	comment	19	2193	-	-	same
+U+0019	rar	lta	name	19	2193	-	-	same
+U+0019	rar	lta	target	19	2193	-	-	same
+U+0019	rar	lta	comment	19	2193	-	-	same
+U+0019	rar	v	name	19	2193	-	-	same
+U+0019	rar	v	comment	19	2193	-	-	same
+U+0019	rar	vb	name	19	2193	-	-	same
+U+0019	rar	vt	name	19	2193	-	-	same
+U+0019	rar	vt	target	19	2193	-	-	same
+U+0019	rar	vt	comment	19	2193	-	-	same
+U+0019	rar	vta	name	19	2193	-	-	same
+U+0019	rar	vta	target	19	2193	-	-	same
+U+0019	rar	vta	comment	19	2193	-	-	same
+U+0019	rar	t	name	19	2193	-	-	same
+U+0019	rar	t	comment	19	2193	-	-	same
+U+0019	rar	x -o+	name	5f	005f	19 | 19 | 5f	2193 | 2193 | 005f	same
+U+0019	rar	x -o+	comment	19	2193	-	-	same
+U+0019	rar	e -o+	name	5f	005f	19 | 19 | 5f	2193 | 2193 | 005f	same
+U+0019	rar	e -o+	comment	19	2193	-	-	same
+U+0019	rar	bad:t	name	19	2193	19	2193	same
+U+0019	rar	bad:t	comment	19	2193	-	-	same
+U+0019	rar	bad:x -o+	name	5f	005f	19 | 19 | 5f | 19	2193 | 2193 | 005f | 2193	same
+U+0019	rar	bad:x -o+	comment	19	2193	-	-	same
+U+0019	rar	bad:p	name	-	-	19	2193	same
+U+0019	rar	cw	comment	19	2193	-	-	same
+U+0019	rar	d	name	19	2193	-	-	same
+U+0019	rar	d	comment	19	2193	-	-	same
+U+0019	rar	r	name	19	2193	-	-	same
+U+001A	unrar	lb	name	1a	2192	-	-	same
+U+001A	unrar	l	name	1a	2192	-	-	same
+U+001A	unrar	l	comment	1a	2192	-	-	same
+U+001A	unrar	lt	name	1a	2192	-	-	same
+U+001A	unrar	lt	target	1a	2192	-	-	same
+U+001A	unrar	lt	comment	1a	2192	-	-	same
+U+001A	unrar	lta	name	1a	2192	-	-	same
+U+001A	unrar	lta	target	1a	2192	-	-	same
+U+001A	unrar	lta	comment	1a	2192	-	-	same
+U+001A	unrar	v	name	1a	2192	-	-	same
+U+001A	unrar	v	comment	1a	2192	-	-	same
+U+001A	unrar	vb	name	1a	2192	-	-	same
+U+001A	unrar	vt	name	1a	2192	-	-	same
+U+001A	unrar	vt	target	1a	2192	-	-	same
+U+001A	unrar	vt	comment	1a	2192	-	-	same
+U+001A	unrar	vta	name	1a	2192	-	-	same
+U+001A	unrar	vta	target	1a	2192	-	-	same
+U+001A	unrar	vta	comment	1a	2192	-	-	same
+U+001A	unrar	t	name	1a	2192	-	-	same
+U+001A	unrar	t	comment	1a	2192	-	-	same
+U+001A	unrar	x -o+	name	5f	005f	1a | 1a | 5f	2192 | 2192 | 005f	same
+U+001A	unrar	x -o+	comment	1a	2192	-	-	same
+U+001A	unrar	e -o+	name	5f	005f	1a | 1a | 5f	2192 | 2192 | 005f	same
+U+001A	unrar	e -o+	comment	1a	2192	-	-	same
+U+001A	unrar	bad:t	name	1a	2192	1a	2192	same
+U+001A	unrar	bad:t	comment	1a	2192	-	-	same
+U+001A	unrar	bad:x -o+	name	5f	005f	1a | 1a | 5f | 1a	2192 | 2192 | 005f | 2192	same
+U+001A	unrar	bad:x -o+	comment	1a	2192	-	-	same
+U+001A	unrar	bad:p	name	-	-	1a	2192	same
+U+001A	rar	lb	name	1a	2192	-	-	same
+U+001A	rar	l	name	1a	2192	-	-	same
+U+001A	rar	l	comment	1a	2192	-	-	same
+U+001A	rar	lt	name	1a	2192	-	-	same
+U+001A	rar	lt	target	1a	2192	-	-	same
+U+001A	rar	lt	comment	1a	2192	-	-	same
+U+001A	rar	lta	name	1a	2192	-	-	same
+U+001A	rar	lta	target	1a	2192	-	-	same
+U+001A	rar	lta	comment	1a	2192	-	-	same
+U+001A	rar	v	name	1a	2192	-	-	same
+U+001A	rar	v	comment	1a	2192	-	-	same
+U+001A	rar	vb	name	1a	2192	-	-	same
+U+001A	rar	vt	name	1a	2192	-	-	same
+U+001A	rar	vt	target	1a	2192	-	-	same
+U+001A	rar	vt	comment	1a	2192	-	-	same
+U+001A	rar	vta	name	1a	2192	-	-	same
+U+001A	rar	vta	target	1a	2192	-	-	same
+U+001A	rar	vta	comment	1a	2192	-	-	same
+U+001A	rar	t	name	1a	2192	-	-	same
+U+001A	rar	t	comment	1a	2192	-	-	same
+U+001A	rar	x -o+	name	5f	005f	1a | 1a | 5f	2192 | 2192 | 005f	same
+U+001A	rar	x -o+	comment	1a	2192	-	-	same
+U+001A	rar	e -o+	name	5f	005f	1a | 1a | 5f	2192 | 2192 | 005f	same
+U+001A	rar	e -o+	comment	1a	2192	-	-	same
+U+001A	rar	bad:t	name	1a	2192	1a	2192	same
+U+001A	rar	bad:t	comment	1a	2192	-	-	same
+U+001A	rar	bad:x -o+	name	5f	005f	1a | 1a | 5f | 1a	2192 | 2192 | 005f | 2192	same
+U+001A	rar	bad:x -o+	comment	1a	2192	-	-	same
+U+001A	rar	bad:p	name	-	-	1a	2192	same
+U+001A	rar	cw	comment	1a	2192	-	-	same
+U+001A	rar	d	name	1a	2192	-	-	same
+U+001A	rar	d	comment	1a	2192	-	-	same
+U+001A	rar	r	name	1a	2192	-	-	same
+U+001B	unrar	lb	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	l	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	l	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lt	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lt	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lt	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lta	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lta	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	lta	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	v	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	v	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vb	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vt	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vt	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vt	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vta	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vta	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	vta	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	t	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	t	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	x -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f	0027005c0030003300330027 | 0027005c0030003300330027 | 005f	same
+U+001B	unrar	x -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	e -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f	0027005c0030003300330027 | 0027005c0030003300330027 | 005f	same
+U+001B	unrar	e -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	bad:t	name	275c30333327	0027005c0030003300330027	275c30333327	0027005c0030003300330027	same
+U+001B	unrar	bad:t	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	bad:x -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f | 275c30333327	0027005c0030003300330027 | 0027005c0030003300330027 | 005f | 0027005c0030003300330027	same
+U+001B	unrar	bad:x -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	unrar	bad:p	name	-	-	275c30333327	0027005c0030003300330027	same
+U+001B	rar	lb	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	l	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	l	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lt	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lt	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lt	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lta	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lta	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	lta	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	v	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	v	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vb	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vt	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vt	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vt	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vta	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vta	target	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	vta	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	t	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	t	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	x -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f	0027005c0030003300330027 | 0027005c0030003300330027 | 005f	same
+U+001B	rar	x -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	e -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f	0027005c0030003300330027 | 0027005c0030003300330027 | 005f	same
+U+001B	rar	e -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	bad:t	name	275c30333327	0027005c0030003300330027	275c30333327	0027005c0030003300330027	same
+U+001B	rar	bad:t	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	bad:x -o+	name	5f	005f	275c30333327 | 275c30333327 | 5f | 275c30333327	0027005c0030003300330027 | 0027005c0030003300330027 | 005f | 0027005c0030003300330027	same
+U+001B	rar	bad:x -o+	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	bad:p	name	-	-	275c30333327	0027005c0030003300330027	same
+U+001B	rar	cw	comment	1b	2190	-	-	same
+U+001B	rar	d	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	d	comment	275c30333327	0027005c0030003300330027	-	-	same
+U+001B	rar	r	name	275c30333327	0027005c0030003300330027	-	-	same
+U+001C	unrar	lb	name	1c	221f	-	-	same
+U+001C	unrar	l	name	1c	221f	-	-	same
+U+001C	unrar	l	comment	1c	221f	-	-	same
+U+001C	unrar	lt	name	1c	221f	-	-	same
+U+001C	unrar	lt	target	1c	221f	-	-	same
+U+001C	unrar	lt	comment	1c	221f	-	-	same
+U+001C	unrar	lta	name	1c	221f	-	-	same
+U+001C	unrar	lta	target	1c	221f	-	-	same
+U+001C	unrar	lta	comment	1c	221f	-	-	same
+U+001C	unrar	v	name	1c	221f	-	-	same
+U+001C	unrar	v	comment	1c	221f	-	-	same
+U+001C	unrar	vb	name	1c	221f	-	-	same
+U+001C	unrar	vt	name	1c	221f	-	-	same
+U+001C	unrar	vt	target	1c	221f	-	-	same
+U+001C	unrar	vt	comment	1c	221f	-	-	same
+U+001C	unrar	vta	name	1c	221f	-	-	same
+U+001C	unrar	vta	target	1c	221f	-	-	same
+U+001C	unrar	vta	comment	1c	221f	-	-	same
+U+001C	unrar	t	name	1c	221f	-	-	same
+U+001C	unrar	t	comment	1c	221f	-	-	same
+U+001C	unrar	x -o+	name	5f	005f	1c | 1c | 5f	221f | 221f | 005f	same
+U+001C	unrar	x -o+	comment	1c	221f	-	-	same
+U+001C	unrar	e -o+	name	5f	005f	1c | 1c | 5f	221f | 221f | 005f	same
+U+001C	unrar	e -o+	comment	1c	221f	-	-	same
+U+001C	unrar	bad:t	name	1c	221f	1c	221f	same
+U+001C	unrar	bad:t	comment	1c	221f	-	-	same
+U+001C	unrar	bad:x -o+	name	5f	005f	1c | 1c | 5f | 1c	221f | 221f | 005f | 221f	same
+U+001C	unrar	bad:x -o+	comment	1c	221f	-	-	same
+U+001C	unrar	bad:p	name	-	-	1c	221f	same
+U+001C	rar	lb	name	1c	221f	-	-	same
+U+001C	rar	l	name	1c	221f	-	-	same
+U+001C	rar	l	comment	1c	221f	-	-	same
+U+001C	rar	lt	name	1c	221f	-	-	same
+U+001C	rar	lt	target	1c	221f	-	-	same
+U+001C	rar	lt	comment	1c	221f	-	-	same
+U+001C	rar	lta	name	1c	221f	-	-	same
+U+001C	rar	lta	target	1c	221f	-	-	same
+U+001C	rar	lta	comment	1c	221f	-	-	same
+U+001C	rar	v	name	1c	221f	-	-	same
+U+001C	rar	v	comment	1c	221f	-	-	same
+U+001C	rar	vb	name	1c	221f	-	-	same
+U+001C	rar	vt	name	1c	221f	-	-	same
+U+001C	rar	vt	target	1c	221f	-	-	same
+U+001C	rar	vt	comment	1c	221f	-	-	same
+U+001C	rar	vta	name	1c	221f	-	-	same
+U+001C	rar	vta	target	1c	221f	-	-	same
+U+001C	rar	vta	comment	1c	221f	-	-	same
+U+001C	rar	t	name	1c	221f	-	-	same
+U+001C	rar	t	comment	1c	221f	-	-	same
+U+001C	rar	x -o+	name	5f	005f	1c | 1c | 5f	221f | 221f | 005f	same
+U+001C	rar	x -o+	comment	1c	221f	-	-	same
+U+001C	rar	e -o+	name	5f	005f	1c | 1c | 5f	221f | 221f | 005f	same
+U+001C	rar	e -o+	comment	1c	221f	-	-	same
+U+001C	rar	bad:t	name	1c	221f	1c	221f	same
+U+001C	rar	bad:t	comment	1c	221f	-	-	same
+U+001C	rar	bad:x -o+	name	5f	005f	1c | 1c | 5f | 1c	221f | 221f | 005f | 221f	same
+U+001C	rar	bad:x -o+	comment	1c	221f	-	-	same
+U+001C	rar	bad:p	name	-	-	1c	221f	same
+U+001C	rar	cw	comment	1c	221f	-	-	same
+U+001C	rar	d	name	1c	221f	-	-	same
+U+001C	rar	d	comment	1c	221f	-	-	same
+U+001C	rar	r	name	1c	221f	-	-	same
+U+001D	unrar	lb	name	1d	2194	-	-	same
+U+001D	unrar	l	name	1d	2194	-	-	same
+U+001D	unrar	l	comment	1d	2194	-	-	same
+U+001D	unrar	lt	name	1d	2194	-	-	same
+U+001D	unrar	lt	target	1d	2194	-	-	same
+U+001D	unrar	lt	comment	1d	2194	-	-	same
+U+001D	unrar	lta	name	1d	2194	-	-	same
+U+001D	unrar	lta	target	1d	2194	-	-	same
+U+001D	unrar	lta	comment	1d	2194	-	-	same
+U+001D	unrar	v	name	1d	2194	-	-	same
+U+001D	unrar	v	comment	1d	2194	-	-	same
+U+001D	unrar	vb	name	1d	2194	-	-	same
+U+001D	unrar	vt	name	1d	2194	-	-	same
+U+001D	unrar	vt	target	1d	2194	-	-	same
+U+001D	unrar	vt	comment	1d	2194	-	-	same
+U+001D	unrar	vta	name	1d	2194	-	-	same
+U+001D	unrar	vta	target	1d	2194	-	-	same
+U+001D	unrar	vta	comment	1d	2194	-	-	same
+U+001D	unrar	t	name	1d	2194	-	-	same
+U+001D	unrar	t	comment	1d	2194	-	-	same
+U+001D	unrar	x -o+	name	5f	005f	1d | 1d | 5f	2194 | 2194 | 005f	same
+U+001D	unrar	x -o+	comment	1d	2194	-	-	same
+U+001D	unrar	e -o+	name	5f	005f	1d | 1d | 5f	2194 | 2194 | 005f	same
+U+001D	unrar	e -o+	comment	1d	2194	-	-	same
+U+001D	unrar	bad:t	name	1d	2194	1d	2194	same
+U+001D	unrar	bad:t	comment	1d	2194	-	-	same
+U+001D	unrar	bad:x -o+	name	5f	005f	1d | 1d | 5f | 1d	2194 | 2194 | 005f | 2194	same
+U+001D	unrar	bad:x -o+	comment	1d	2194	-	-	same
+U+001D	unrar	bad:p	name	-	-	1d	2194	same
+U+001D	rar	lb	name	1d	2194	-	-	same
+U+001D	rar	l	name	1d	2194	-	-	same
+U+001D	rar	l	comment	1d	2194	-	-	same
+U+001D	rar	lt	name	1d	2194	-	-	same
+U+001D	rar	lt	target	1d	2194	-	-	same
+U+001D	rar	lt	comment	1d	2194	-	-	same
+U+001D	rar	lta	name	1d	2194	-	-	same
+U+001D	rar	lta	target	1d	2194	-	-	same
+U+001D	rar	lta	comment	1d	2194	-	-	same
+U+001D	rar	v	name	1d	2194	-	-	same
+U+001D	rar	v	comment	1d	2194	-	-	same
+U+001D	rar	vb	name	1d	2194	-	-	same
+U+001D	rar	vt	name	1d	2194	-	-	same
+U+001D	rar	vt	target	1d	2194	-	-	same
+U+001D	rar	vt	comment	1d	2194	-	-	same
+U+001D	rar	vta	name	1d	2194	-	-	same
+U+001D	rar	vta	target	1d	2194	-	-	same
+U+001D	rar	vta	comment	1d	2194	-	-	same
+U+001D	rar	t	name	1d	2194	-	-	same
+U+001D	rar	t	comment	1d	2194	-	-	same
+U+001D	rar	x -o+	name	5f	005f	1d | 1d | 5f	2194 | 2194 | 005f	same
+U+001D	rar	x -o+	comment	1d	2194	-	-	same
+U+001D	rar	e -o+	name	5f	005f	1d | 1d | 5f	2194 | 2194 | 005f	same
+U+001D	rar	e -o+	comment	1d	2194	-	-	same
+U+001D	rar	bad:t	name	1d	2194	1d	2194	same
+U+001D	rar	bad:t	comment	1d	2194	-	-	same
+U+001D	rar	bad:x -o+	name	5f	005f	1d | 1d | 5f | 1d	2194 | 2194 | 005f | 2194	same
+U+001D	rar	bad:x -o+	comment	1d	2194	-	-	same
+U+001D	rar	bad:p	name	-	-	1d	2194	same
+U+001D	rar	cw	comment	1d	2194	-	-	same
+U+001D	rar	d	name	1d	2194	-	-	same
+U+001D	rar	d	comment	1d	2194	-	-	same
+U+001D	rar	r	name	1d	2194	-	-	same
+U+001E	unrar	lb	name	1e	25b2	-	-	same
+U+001E	unrar	l	name	1e	25b2	-	-	same
+U+001E	unrar	l	comment	1e	25b2	-	-	same
+U+001E	unrar	lt	name	1e	25b2	-	-	same
+U+001E	unrar	lt	target	1e	25b2	-	-	same
+U+001E	unrar	lt	comment	1e	25b2	-	-	same
+U+001E	unrar	lta	name	1e	25b2	-	-	same
+U+001E	unrar	lta	target	1e	25b2	-	-	same
+U+001E	unrar	lta	comment	1e	25b2	-	-	same
+U+001E	unrar	v	name	1e	25b2	-	-	same
+U+001E	unrar	v	comment	1e	25b2	-	-	same
+U+001E	unrar	vb	name	1e	25b2	-	-	same
+U+001E	unrar	vt	name	1e	25b2	-	-	same
+U+001E	unrar	vt	target	1e	25b2	-	-	same
+U+001E	unrar	vt	comment	1e	25b2	-	-	same
+U+001E	unrar	vta	name	1e	25b2	-	-	same
+U+001E	unrar	vta	target	1e	25b2	-	-	same
+U+001E	unrar	vta	comment	1e	25b2	-	-	same
+U+001E	unrar	t	name	1e	25b2	-	-	same
+U+001E	unrar	t	comment	1e	25b2	-	-	same
+U+001E	unrar	x -o+	name	5f	005f	1e | 1e | 5f	25b2 | 25b2 | 005f	same
+U+001E	unrar	x -o+	comment	1e	25b2	-	-	same
+U+001E	unrar	e -o+	name	5f	005f	1e | 1e | 5f	25b2 | 25b2 | 005f	same
+U+001E	unrar	e -o+	comment	1e	25b2	-	-	same
+U+001E	unrar	bad:t	name	1e	25b2	1e	25b2	same
+U+001E	unrar	bad:t	comment	1e	25b2	-	-	same
+U+001E	unrar	bad:x -o+	name	5f	005f	1e | 1e | 5f | 1e	25b2 | 25b2 | 005f | 25b2	same
+U+001E	unrar	bad:x -o+	comment	1e	25b2	-	-	same
+U+001E	unrar	bad:p	name	-	-	1e	25b2	same
+U+001E	rar	lb	name	1e	25b2	-	-	same
+U+001E	rar	l	name	1e	25b2	-	-	same
+U+001E	rar	l	comment	1e	25b2	-	-	same
+U+001E	rar	lt	name	1e	25b2	-	-	same
+U+001E	rar	lt	target	1e	25b2	-	-	same
+U+001E	rar	lt	comment	1e	25b2	-	-	same
+U+001E	rar	lta	name	1e	25b2	-	-	same
+U+001E	rar	lta	target	1e	25b2	-	-	same
+U+001E	rar	lta	comment	1e	25b2	-	-	same
+U+001E	rar	v	name	1e	25b2	-	-	same
+U+001E	rar	v	comment	1e	25b2	-	-	same
+U+001E	rar	vb	name	1e	25b2	-	-	same
+U+001E	rar	vt	name	1e	25b2	-	-	same
+U+001E	rar	vt	target	1e	25b2	-	-	same
+U+001E	rar	vt	comment	1e	25b2	-	-	same
+U+001E	rar	vta	name	1e	25b2	-	-	same
+U+001E	rar	vta	target	1e	25b2	-	-	same
+U+001E	rar	vta	comment	1e	25b2	-	-	same
+U+001E	rar	t	name	1e	25b2	-	-	same
+U+001E	rar	t	comment	1e	25b2	-	-	same
+U+001E	rar	x -o+	name	5f	005f	1e | 1e | 5f	25b2 | 25b2 | 005f	same
+U+001E	rar	x -o+	comment	1e	25b2	-	-	same
+U+001E	rar	e -o+	name	5f	005f	1e | 1e | 5f	25b2 | 25b2 | 005f	same
+U+001E	rar	e -o+	comment	1e	25b2	-	-	same
+U+001E	rar	bad:t	name	1e	25b2	1e	25b2	same
+U+001E	rar	bad:t	comment	1e	25b2	-	-	same
+U+001E	rar	bad:x -o+	name	5f	005f	1e | 1e | 5f | 1e	25b2 | 25b2 | 005f | 25b2	same
+U+001E	rar	bad:x -o+	comment	1e	25b2	-	-	same
+U+001E	rar	bad:p	name	-	-	1e	25b2	same
+U+001E	rar	cw	comment	1e	25b2	-	-	same
+U+001E	rar	d	name	1e	25b2	-	-	same
+U+001E	rar	d	comment	1e	25b2	-	-	same
+U+001E	rar	r	name	1e	25b2	-	-	same
+U+001F	unrar	lb	name	1f	25bc	-	-	same
+U+001F	unrar	l	name	1f	25bc	-	-	same
+U+001F	unrar	l	comment	1f	25bc	-	-	same
+U+001F	unrar	lt	name	1f	25bc	-	-	same
+U+001F	unrar	lt	target	1f	25bc	-	-	same
+U+001F	unrar	lt	comment	1f	25bc	-	-	same
+U+001F	unrar	lta	name	1f	25bc	-	-	same
+U+001F	unrar	lta	target	1f	25bc	-	-	same
+U+001F	unrar	lta	comment	1f	25bc	-	-	same
+U+001F	unrar	v	name	1f	25bc	-	-	same
+U+001F	unrar	v	comment	1f	25bc	-	-	same
+U+001F	unrar	vb	name	1f	25bc	-	-	same
+U+001F	unrar	vt	name	1f	25bc	-	-	same
+U+001F	unrar	vt	target	1f	25bc	-	-	same
+U+001F	unrar	vt	comment	1f	25bc	-	-	same
+U+001F	unrar	vta	name	1f	25bc	-	-	same
+U+001F	unrar	vta	target	1f	25bc	-	-	same
+U+001F	unrar	vta	comment	1f	25bc	-	-	same
+U+001F	unrar	t	name	1f	25bc	-	-	same
+U+001F	unrar	t	comment	1f	25bc	-	-	same
+U+001F	unrar	x -o+	name	5f	005f	1f | 1f | 5f	25bc | 25bc | 005f	same
+U+001F	unrar	x -o+	comment	1f	25bc	-	-	same
+U+001F	unrar	e -o+	name	5f	005f	1f | 1f | 5f	25bc | 25bc | 005f	same
+U+001F	unrar	e -o+	comment	1f	25bc	-	-	same
+U+001F	unrar	bad:t	name	1f	25bc	1f	25bc	same
+U+001F	unrar	bad:t	comment	1f	25bc	-	-	same
+U+001F	unrar	bad:x -o+	name	5f	005f	1f | 1f | 5f | 1f	25bc | 25bc | 005f | 25bc	same
+U+001F	unrar	bad:x -o+	comment	1f	25bc	-	-	same
+U+001F	unrar	bad:p	name	-	-	1f	25bc	same
+U+001F	rar	lb	name	1f	25bc	-	-	same
+U+001F	rar	l	name	1f	25bc	-	-	same
+U+001F	rar	l	comment	1f	25bc	-	-	same
+U+001F	rar	lt	name	1f	25bc	-	-	same
+U+001F	rar	lt	target	1f	25bc	-	-	same
+U+001F	rar	lt	comment	1f	25bc	-	-	same
+U+001F	rar	lta	name	1f	25bc	-	-	same
+U+001F	rar	lta	target	1f	25bc	-	-	same
+U+001F	rar	lta	comment	1f	25bc	-	-	same
+U+001F	rar	v	name	1f	25bc	-	-	same
+U+001F	rar	v	comment	1f	25bc	-	-	same
+U+001F	rar	vb	name	1f	25bc	-	-	same
+U+001F	rar	vt	name	1f	25bc	-	-	same
+U+001F	rar	vt	target	1f	25bc	-	-	same
+U+001F	rar	vt	comment	1f	25bc	-	-	same
+U+001F	rar	vta	name	1f	25bc	-	-	same
+U+001F	rar	vta	target	1f	25bc	-	-	same
+U+001F	rar	vta	comment	1f	25bc	-	-	same
+U+001F	rar	t	name	1f	25bc	-	-	same
+U+001F	rar	t	comment	1f	25bc	-	-	same
+U+001F	rar	x -o+	name	5f	005f	1f | 1f | 5f	25bc | 25bc | 005f	same
+U+001F	rar	x -o+	comment	1f	25bc	-	-	same
+U+001F	rar	e -o+	name	5f	005f	1f | 1f | 5f	25bc | 25bc | 005f	same
+U+001F	rar	e -o+	comment	1f	25bc	-	-	same
+U+001F	rar	bad:t	name	1f	25bc	1f	25bc	same
+U+001F	rar	bad:t	comment	1f	25bc	-	-	same
+U+001F	rar	bad:x -o+	name	5f	005f	1f | 1f | 5f | 1f	25bc | 25bc | 005f | 25bc	same
+U+001F	rar	bad:x -o+	comment	1f	25bc	-	-	same
+U+001F	rar	bad:p	name	-	-	1f	25bc	same
+U+001F	rar	cw	comment	1f	25bc	-	-	same
+U+001F	rar	d	name	1f	25bc	-	-	same
+U+001F	rar	d	comment	1f	25bc	-	-	same
+U+001F	rar	r	name	1f	25bc	-	-	same
+U+007F	unrar	lb	name	7f	2302	-	-	same
+U+007F	unrar	l	name	7f	2302	-	-	same
+U+007F	unrar	l	comment	7f	2302	-	-	same
+U+007F	unrar	lt	name	7f	2302	-	-	same
+U+007F	unrar	lt	target	7f	2302	-	-	same
+U+007F	unrar	lt	comment	7f	2302	-	-	same
+U+007F	unrar	lta	name	7f	2302	-	-	same
+U+007F	unrar	lta	target	7f	2302	-	-	same
+U+007F	unrar	lta	comment	7f	2302	-	-	same
+U+007F	unrar	v	name	7f	2302	-	-	same
+U+007F	unrar	v	comment	7f	2302	-	-	same
+U+007F	unrar	vb	name	7f	2302	-	-	same
+U+007F	unrar	vt	name	7f	2302	-	-	same
+U+007F	unrar	vt	target	7f	2302	-	-	same
+U+007F	unrar	vt	comment	7f	2302	-	-	same
+U+007F	unrar	vta	name	7f	2302	-	-	same
+U+007F	unrar	vta	target	7f	2302	-	-	same
+U+007F	unrar	vta	comment	7f	2302	-	-	same
+U+007F	unrar	t	name	7f	2302	-	-	same
+U+007F	unrar	t	comment	7f	2302	-	-	same
+U+007F	unrar	x -o+	name	7f	2302	-	-	same
+U+007F	unrar	x -o+	comment	7f	2302	-	-	same
+U+007F	unrar	e -o+	name	7f	2302	-	-	same
+U+007F	unrar	e -o+	comment	7f	2302	-	-	same
+U+007F	unrar	bad:t	name	7f	2302	7f	2302	same
+U+007F	unrar	bad:t	comment	7f	2302	-	-	same
+U+007F	unrar	bad:x -o+	name	7f	2302	7f	2302	same
+U+007F	unrar	bad:x -o+	comment	7f	2302	-	-	same
+U+007F	unrar	bad:p	name	-	-	7f	2302	same
+U+007F	rar	lb	name	7f	2302	-	-	same
+U+007F	rar	l	name	7f	2302	-	-	same
+U+007F	rar	l	comment	7f	2302	-	-	same
+U+007F	rar	lt	name	7f	2302	-	-	same
+U+007F	rar	lt	target	7f	2302	-	-	same
+U+007F	rar	lt	comment	7f	2302	-	-	same
+U+007F	rar	lta	name	7f	2302	-	-	same
+U+007F	rar	lta	target	7f	2302	-	-	same
+U+007F	rar	lta	comment	7f	2302	-	-	same
+U+007F	rar	v	name	7f	2302	-	-	same
+U+007F	rar	v	comment	7f	2302	-	-	same
+U+007F	rar	vb	name	7f	2302	-	-	same
+U+007F	rar	vt	name	7f	2302	-	-	same
+U+007F	rar	vt	target	7f	2302	-	-	same
+U+007F	rar	vt	comment	7f	2302	-	-	same
+U+007F	rar	vta	name	7f	2302	-	-	same
+U+007F	rar	vta	target	7f	2302	-	-	same
+U+007F	rar	vta	comment	7f	2302	-	-	same
+U+007F	rar	t	name	7f	2302	-	-	same
+U+007F	rar	t	comment	7f	2302	-	-	same
+U+007F	rar	x -o+	name	7f	2302	-	-	same
+U+007F	rar	x -o+	comment	7f	2302	-	-	same
+U+007F	rar	e -o+	name	7f	2302	-	-	same
+U+007F	rar	e -o+	comment	7f	2302	-	-	same
+U+007F	rar	bad:t	name	7f	2302	7f	2302	same
+U+007F	rar	bad:t	comment	7f	2302	-	-	same
+U+007F	rar	bad:x -o+	name	7f	2302	7f	2302	same
+U+007F	rar	bad:x -o+	comment	7f	2302	-	-	same
+U+007F	rar	bad:p	name	-	-	7f	2302	same
+U+007F	rar	cw	comment	7f	2302	-	-	same
+U+007F	rar	d	name	7f	2302	-	-	same
+U+007F	rar	d	comment	7f	2302	-	-	same
+U+007F	rar	r	name	7f	2302	-	-	same
+U+0080	unrar	lb	name	3f	0080	-	-	same
+U+0080	unrar	l	name	3f	0080	-	-	same
+U+0080	unrar	l	comment	3f	0080	-	-	same
+U+0080	unrar	lt	name	3f	0080	-	-	same
+U+0080	unrar	lt	target	3f	0080	-	-	same
+U+0080	unrar	lt	comment	3f	0080	-	-	same
+U+0080	unrar	lta	name	3f	0080	-	-	same
+U+0080	unrar	lta	target	3f	0080	-	-	same
+U+0080	unrar	lta	comment	3f	0080	-	-	same
+U+0080	unrar	v	name	3f	0080	-	-	same
+U+0080	unrar	v	comment	3f	0080	-	-	same
+U+0080	unrar	vb	name	3f	0080	-	-	same
+U+0080	unrar	vt	name	3f	0080	-	-	same
+U+0080	unrar	vt	target	3f	0080	-	-	same
+U+0080	unrar	vt	comment	3f	0080	-	-	same
+U+0080	unrar	vta	name	3f	0080	-	-	same
+U+0080	unrar	vta	target	3f	0080	-	-	same
+U+0080	unrar	vta	comment	3f	0080	-	-	same
+U+0080	unrar	t	name	3f	0080	-	-	same
+U+0080	unrar	t	comment	3f	0080	-	-	same
+U+0080	unrar	x -o+	name	3f	0080	-	-	same
+U+0080	unrar	x -o+	comment	3f	0080	-	-	same
+U+0080	unrar	e -o+	name	3f	0080	-	-	same
+U+0080	unrar	e -o+	comment	3f	0080	-	-	same
+U+0080	unrar	bad:t	name	3f	0080	3f	0080	same
+U+0080	unrar	bad:t	comment	3f	0080	-	-	same
+U+0080	unrar	bad:x -o+	name	3f	0080	3f	0080	same
+U+0080	unrar	bad:x -o+	comment	3f	0080	-	-	same
+U+0080	unrar	bad:p	name	-	-	3f	0080	same
+U+0080	rar	lb	name	3f	0080	-	-	same
+U+0080	rar	l	name	3f	0080	-	-	same
+U+0080	rar	l	comment	3f	0080	-	-	same
+U+0080	rar	lt	name	3f	0080	-	-	same
+U+0080	rar	lt	target	3f	0080	-	-	same
+U+0080	rar	lt	comment	3f	0080	-	-	same
+U+0080	rar	lta	name	3f	0080	-	-	same
+U+0080	rar	lta	target	3f	0080	-	-	same
+U+0080	rar	lta	comment	3f	0080	-	-	same
+U+0080	rar	v	name	3f	0080	-	-	same
+U+0080	rar	v	comment	3f	0080	-	-	same
+U+0080	rar	vb	name	3f	0080	-	-	same
+U+0080	rar	vt	name	3f	0080	-	-	same
+U+0080	rar	vt	target	3f	0080	-	-	same
+U+0080	rar	vt	comment	3f	0080	-	-	same
+U+0080	rar	vta	name	3f	0080	-	-	same
+U+0080	rar	vta	target	3f	0080	-	-	same
+U+0080	rar	vta	comment	3f	0080	-	-	same
+U+0080	rar	t	name	3f	0080	-	-	same
+U+0080	rar	t	comment	3f	0080	-	-	same
+U+0080	rar	x -o+	name	3f	0080	-	-	same
+U+0080	rar	x -o+	comment	3f	0080	-	-	same
+U+0080	rar	e -o+	name	3f	0080	-	-	same
+U+0080	rar	e -o+	comment	3f	0080	-	-	same
+U+0080	rar	bad:t	name	3f	0080	3f	0080	same
+U+0080	rar	bad:t	comment	3f	0080	-	-	same
+U+0080	rar	bad:x -o+	name	3f	0080	3f	0080	same
+U+0080	rar	bad:x -o+	comment	3f	0080	-	-	same
+U+0080	rar	bad:p	name	-	-	3f	0080	same
+U+0080	rar	cw	comment	3f	003f	-	-	same
+U+0080	rar	d	name	3f	0080	-	-	same
+U+0080	rar	d	comment	3f	0080	-	-	same
+U+0080	rar	r	name	3f	0080	-	-	same
+U+0081	unrar	lb	name	5f	0081	-	-	same
+U+0081	unrar	l	name	5f	0081	-	-	same
+U+0081	unrar	l	comment	5f	0081	-	-	same
+U+0081	unrar	lt	name	5f	0081	-	-	same
+U+0081	unrar	lt	target	5f	0081	-	-	same
+U+0081	unrar	lt	comment	5f	0081	-	-	same
+U+0081	unrar	lta	name	5f	0081	-	-	same
+U+0081	unrar	lta	target	5f	0081	-	-	same
+U+0081	unrar	lta	comment	5f	0081	-	-	same
+U+0081	unrar	v	name	5f	0081	-	-	same
+U+0081	unrar	v	comment	5f	0081	-	-	same
+U+0081	unrar	vb	name	5f	0081	-	-	same
+U+0081	unrar	vt	name	5f	0081	-	-	same
+U+0081	unrar	vt	target	5f	0081	-	-	same
+U+0081	unrar	vt	comment	5f	0081	-	-	same
+U+0081	unrar	vta	name	5f	0081	-	-	same
+U+0081	unrar	vta	target	5f	0081	-	-	same
+U+0081	unrar	vta	comment	5f	0081	-	-	same
+U+0081	unrar	t	name	5f	0081	-	-	same
+U+0081	unrar	t	comment	5f	0081	-	-	same
+U+0081	unrar	x -o+	name	5f	0081	-	-	same
+U+0081	unrar	x -o+	comment	5f	0081	-	-	same
+U+0081	unrar	e -o+	name	5f	0081	-	-	same
+U+0081	unrar	e -o+	comment	5f	0081	-	-	same
+U+0081	unrar	bad:t	name	5f	0081	5f	0081	same
+U+0081	unrar	bad:t	comment	5f	0081	-	-	same
+U+0081	unrar	bad:x -o+	name	5f	0081	5f	0081	same
+U+0081	unrar	bad:x -o+	comment	5f	0081	-	-	same
+U+0081	unrar	bad:p	name	-	-	5f	0081	same
+U+0081	rar	lb	name	5f	0081	-	-	same
+U+0081	rar	l	name	5f	0081	-	-	same
+U+0081	rar	l	comment	5f	0081	-	-	same
+U+0081	rar	lt	name	5f	0081	-	-	same
+U+0081	rar	lt	target	5f	0081	-	-	same
+U+0081	rar	lt	comment	5f	0081	-	-	same
+U+0081	rar	lta	name	5f	0081	-	-	same
+U+0081	rar	lta	target	5f	0081	-	-	same
+U+0081	rar	lta	comment	5f	0081	-	-	same
+U+0081	rar	v	name	5f	0081	-	-	same
+U+0081	rar	v	comment	5f	0081	-	-	same
+U+0081	rar	vb	name	5f	0081	-	-	same
+U+0081	rar	vt	name	5f	0081	-	-	same
+U+0081	rar	vt	target	5f	0081	-	-	same
+U+0081	rar	vt	comment	5f	0081	-	-	same
+U+0081	rar	vta	name	5f	0081	-	-	same
+U+0081	rar	vta	target	5f	0081	-	-	same
+U+0081	rar	vta	comment	5f	0081	-	-	same
+U+0081	rar	t	name	5f	0081	-	-	same
+U+0081	rar	t	comment	5f	0081	-	-	same
+U+0081	rar	x -o+	name	5f	0081	-	-	same
+U+0081	rar	x -o+	comment	5f	0081	-	-	same
+U+0081	rar	e -o+	name	5f	0081	-	-	same
+U+0081	rar	e -o+	comment	5f	0081	-	-	same
+U+0081	rar	bad:t	name	5f	0081	5f	0081	same
+U+0081	rar	bad:t	comment	5f	0081	-	-	same
+U+0081	rar	bad:x -o+	name	5f	0081	5f	0081	same
+U+0081	rar	bad:x -o+	comment	5f	0081	-	-	same
+U+0081	rar	bad:p	name	-	-	5f	0081	same
+U+0081	rar	cw	comment	81	00fc	-	-	same
+U+0081	rar	d	name	5f	0081	-	-	same
+U+0081	rar	d	comment	5f	0081	-	-	same
+U+0081	rar	r	name	5f	0081	-	-	same
+U+0082	unrar	lb	name	3f	0082	-	-	same
+U+0082	unrar	l	name	3f	0082	-	-	same
+U+0082	unrar	l	comment	3f	0082	-	-	same
+U+0082	unrar	lt	name	3f	0082	-	-	same
+U+0082	unrar	lt	target	3f	0082	-	-	same
+U+0082	unrar	lt	comment	3f	0082	-	-	same
+U+0082	unrar	lta	name	3f	0082	-	-	same
+U+0082	unrar	lta	target	3f	0082	-	-	same
+U+0082	unrar	lta	comment	3f	0082	-	-	same
+U+0082	unrar	v	name	3f	0082	-	-	same
+U+0082	unrar	v	comment	3f	0082	-	-	same
+U+0082	unrar	vb	name	3f	0082	-	-	same
+U+0082	unrar	vt	name	3f	0082	-	-	same
+U+0082	unrar	vt	target	3f	0082	-	-	same
+U+0082	unrar	vt	comment	3f	0082	-	-	same
+U+0082	unrar	vta	name	3f	0082	-	-	same
+U+0082	unrar	vta	target	3f	0082	-	-	same
+U+0082	unrar	vta	comment	3f	0082	-	-	same
+U+0082	unrar	t	name	3f	0082	-	-	same
+U+0082	unrar	t	comment	3f	0082	-	-	same
+U+0082	unrar	x -o+	name	3f	0082	-	-	same
+U+0082	unrar	x -o+	comment	3f	0082	-	-	same
+U+0082	unrar	e -o+	name	3f	0082	-	-	same
+U+0082	unrar	e -o+	comment	3f	0082	-	-	same
+U+0082	unrar	bad:t	name	3f	0082	3f	0082	same
+U+0082	unrar	bad:t	comment	3f	0082	-	-	same
+U+0082	unrar	bad:x -o+	name	3f	0082	3f	0082	same
+U+0082	unrar	bad:x -o+	comment	3f	0082	-	-	same
+U+0082	unrar	bad:p	name	-	-	3f	0082	same
+U+0082	rar	lb	name	3f	0082	-	-	same
+U+0082	rar	l	name	3f	0082	-	-	same
+U+0082	rar	l	comment	3f	0082	-	-	same
+U+0082	rar	lt	name	3f	0082	-	-	same
+U+0082	rar	lt	target	3f	0082	-	-	same
+U+0082	rar	lt	comment	3f	0082	-	-	same
+U+0082	rar	lta	name	3f	0082	-	-	same
+U+0082	rar	lta	target	3f	0082	-	-	same
+U+0082	rar	lta	comment	3f	0082	-	-	same
+U+0082	rar	v	name	3f	0082	-	-	same
+U+0082	rar	v	comment	3f	0082	-	-	same
+U+0082	rar	vb	name	3f	0082	-	-	same
+U+0082	rar	vt	name	3f	0082	-	-	same
+U+0082	rar	vt	target	3f	0082	-	-	same
+U+0082	rar	vt	comment	3f	0082	-	-	same
+U+0082	rar	vta	name	3f	0082	-	-	same
+U+0082	rar	vta	target	3f	0082	-	-	same
+U+0082	rar	vta	comment	3f	0082	-	-	same
+U+0082	rar	t	name	3f	0082	-	-	same
+U+0082	rar	t	comment	3f	0082	-	-	same
+U+0082	rar	x -o+	name	3f	0082	-	-	same
+U+0082	rar	x -o+	comment	3f	0082	-	-	same
+U+0082	rar	e -o+	name	3f	0082	-	-	same
+U+0082	rar	e -o+	comment	3f	0082	-	-	same
+U+0082	rar	bad:t	name	3f	0082	3f	0082	same
+U+0082	rar	bad:t	comment	3f	0082	-	-	same
+U+0082	rar	bad:x -o+	name	3f	0082	3f	0082	same
+U+0082	rar	bad:x -o+	comment	3f	0082	-	-	same
+U+0082	rar	bad:p	name	-	-	3f	0082	same
+U+0082	rar	cw	comment	3f	003f	-	-	same
+U+0082	rar	d	name	3f	0082	-	-	same
+U+0082	rar	d	comment	3f	0082	-	-	same
+U+0082	rar	r	name	3f	0082	-	-	same
+U+0083	unrar	lb	name	3f	0083	-	-	same
+U+0083	unrar	l	name	3f	0083	-	-	same
+U+0083	unrar	l	comment	3f	0083	-	-	same
+U+0083	unrar	lt	name	3f	0083	-	-	same
+U+0083	unrar	lt	target	3f	0083	-	-	same
+U+0083	unrar	lt	comment	3f	0083	-	-	same
+U+0083	unrar	lta	name	3f	0083	-	-	same
+U+0083	unrar	lta	target	3f	0083	-	-	same
+U+0083	unrar	lta	comment	3f	0083	-	-	same
+U+0083	unrar	v	name	3f	0083	-	-	same
+U+0083	unrar	v	comment	3f	0083	-	-	same
+U+0083	unrar	vb	name	3f	0083	-	-	same
+U+0083	unrar	vt	name	3f	0083	-	-	same
+U+0083	unrar	vt	target	3f	0083	-	-	same
+U+0083	unrar	vt	comment	3f	0083	-	-	same
+U+0083	unrar	vta	name	3f	0083	-	-	same
+U+0083	unrar	vta	target	3f	0083	-	-	same
+U+0083	unrar	vta	comment	3f	0083	-	-	same
+U+0083	unrar	t	name	3f	0083	-	-	same
+U+0083	unrar	t	comment	3f	0083	-	-	same
+U+0083	unrar	x -o+	name	3f	0083	-	-	same
+U+0083	unrar	x -o+	comment	3f	0083	-	-	same
+U+0083	unrar	e -o+	name	3f	0083	-	-	same
+U+0083	unrar	e -o+	comment	3f	0083	-	-	same
+U+0083	unrar	bad:t	name	3f	0083	3f	0083	same
+U+0083	unrar	bad:t	comment	3f	0083	-	-	same
+U+0083	unrar	bad:x -o+	name	3f	0083	3f	0083	same
+U+0083	unrar	bad:x -o+	comment	3f	0083	-	-	same
+U+0083	unrar	bad:p	name	-	-	3f	0083	same
+U+0083	rar	lb	name	3f	0083	-	-	same
+U+0083	rar	l	name	3f	0083	-	-	same
+U+0083	rar	l	comment	3f	0083	-	-	same
+U+0083	rar	lt	name	3f	0083	-	-	same
+U+0083	rar	lt	target	3f	0083	-	-	same
+U+0083	rar	lt	comment	3f	0083	-	-	same
+U+0083	rar	lta	name	3f	0083	-	-	same
+U+0083	rar	lta	target	3f	0083	-	-	same
+U+0083	rar	lta	comment	3f	0083	-	-	same
+U+0083	rar	v	name	3f	0083	-	-	same
+U+0083	rar	v	comment	3f	0083	-	-	same
+U+0083	rar	vb	name	3f	0083	-	-	same
+U+0083	rar	vt	name	3f	0083	-	-	same
+U+0083	rar	vt	target	3f	0083	-	-	same
+U+0083	rar	vt	comment	3f	0083	-	-	same
+U+0083	rar	vta	name	3f	0083	-	-	same
+U+0083	rar	vta	target	3f	0083	-	-	same
+U+0083	rar	vta	comment	3f	0083	-	-	same
+U+0083	rar	t	name	3f	0083	-	-	same
+U+0083	rar	t	comment	3f	0083	-	-	same
+U+0083	rar	x -o+	name	3f	0083	-	-	same
+U+0083	rar	x -o+	comment	3f	0083	-	-	same
+U+0083	rar	e -o+	name	3f	0083	-	-	same
+U+0083	rar	e -o+	comment	3f	0083	-	-	same
+U+0083	rar	bad:t	name	3f	0083	3f	0083	same
+U+0083	rar	bad:t	comment	3f	0083	-	-	same
+U+0083	rar	bad:x -o+	name	3f	0083	3f	0083	same
+U+0083	rar	bad:x -o+	comment	3f	0083	-	-	same
+U+0083	rar	bad:p	name	-	-	3f	0083	same
+U+0083	rar	cw	comment	3f	003f	-	-	same
+U+0083	rar	d	name	3f	0083	-	-	same
+U+0083	rar	d	comment	3f	0083	-	-	same
+U+0083	rar	r	name	3f	0083	-	-	same
+U+0084	unrar	lb	name	3f	0084	-	-	same
+U+0084	unrar	l	name	3f	0084	-	-	same
+U+0084	unrar	l	comment	3f	0084	-	-	same
+U+0084	unrar	lt	name	3f	0084	-	-	same
+U+0084	unrar	lt	target	3f	0084	-	-	same
+U+0084	unrar	lt	comment	3f	0084	-	-	same
+U+0084	unrar	lta	name	3f	0084	-	-	same
+U+0084	unrar	lta	target	3f	0084	-	-	same
+U+0084	unrar	lta	comment	3f	0084	-	-	same
+U+0084	unrar	v	name	3f	0084	-	-	same
+U+0084	unrar	v	comment	3f	0084	-	-	same
+U+0084	unrar	vb	name	3f	0084	-	-	same
+U+0084	unrar	vt	name	3f	0084	-	-	same
+U+0084	unrar	vt	target	3f	0084	-	-	same
+U+0084	unrar	vt	comment	3f	0084	-	-	same
+U+0084	unrar	vta	name	3f	0084	-	-	same
+U+0084	unrar	vta	target	3f	0084	-	-	same
+U+0084	unrar	vta	comment	3f	0084	-	-	same
+U+0084	unrar	t	name	3f	0084	-	-	same
+U+0084	unrar	t	comment	3f	0084	-	-	same
+U+0084	unrar	x -o+	name	3f	0084	-	-	same
+U+0084	unrar	x -o+	comment	3f	0084	-	-	same
+U+0084	unrar	e -o+	name	3f	0084	-	-	same
+U+0084	unrar	e -o+	comment	3f	0084	-	-	same
+U+0084	unrar	bad:t	name	3f	0084	3f	0084	same
+U+0084	unrar	bad:t	comment	3f	0084	-	-	same
+U+0084	unrar	bad:x -o+	name	3f	0084	3f	0084	same
+U+0084	unrar	bad:x -o+	comment	3f	0084	-	-	same
+U+0084	unrar	bad:p	name	-	-	3f	0084	same
+U+0084	rar	lb	name	3f	0084	-	-	same
+U+0084	rar	l	name	3f	0084	-	-	same
+U+0084	rar	l	comment	3f	0084	-	-	same
+U+0084	rar	lt	name	3f	0084	-	-	same
+U+0084	rar	lt	target	3f	0084	-	-	same
+U+0084	rar	lt	comment	3f	0084	-	-	same
+U+0084	rar	lta	name	3f	0084	-	-	same
+U+0084	rar	lta	target	3f	0084	-	-	same
+U+0084	rar	lta	comment	3f	0084	-	-	same
+U+0084	rar	v	name	3f	0084	-	-	same
+U+0084	rar	v	comment	3f	0084	-	-	same
+U+0084	rar	vb	name	3f	0084	-	-	same
+U+0084	rar	vt	name	3f	0084	-	-	same
+U+0084	rar	vt	target	3f	0084	-	-	same
+U+0084	rar	vt	comment	3f	0084	-	-	same
+U+0084	rar	vta	name	3f	0084	-	-	same
+U+0084	rar	vta	target	3f	0084	-	-	same
+U+0084	rar	vta	comment	3f	0084	-	-	same
+U+0084	rar	t	name	3f	0084	-	-	same
+U+0084	rar	t	comment	3f	0084	-	-	same
+U+0084	rar	x -o+	name	3f	0084	-	-	same
+U+0084	rar	x -o+	comment	3f	0084	-	-	same
+U+0084	rar	e -o+	name	3f	0084	-	-	same
+U+0084	rar	e -o+	comment	3f	0084	-	-	same
+U+0084	rar	bad:t	name	3f	0084	3f	0084	same
+U+0084	rar	bad:t	comment	3f	0084	-	-	same
+U+0084	rar	bad:x -o+	name	3f	0084	3f	0084	same
+U+0084	rar	bad:x -o+	comment	3f	0084	-	-	same
+U+0084	rar	bad:p	name	-	-	3f	0084	same
+U+0084	rar	cw	comment	3f	003f	-	-	same
+U+0084	rar	d	name	3f	0084	-	-	same
+U+0084	rar	d	comment	3f	0084	-	-	same
+U+0084	rar	r	name	3f	0084	-	-	same
+U+0085	unrar	lb	name	3f	0085	-	-	same
+U+0085	unrar	l	name	3f	0085	-	-	same
+U+0085	unrar	l	comment	3f	0085	-	-	same
+U+0085	unrar	lt	name	3f	0085	-	-	same
+U+0085	unrar	lt	target	3f	0085	-	-	same
+U+0085	unrar	lt	comment	3f	0085	-	-	same
+U+0085	unrar	lta	name	3f	0085	-	-	same
+U+0085	unrar	lta	target	3f	0085	-	-	same
+U+0085	unrar	lta	comment	3f	0085	-	-	same
+U+0085	unrar	v	name	3f	0085	-	-	same
+U+0085	unrar	v	comment	3f	0085	-	-	same
+U+0085	unrar	vb	name	3f	0085	-	-	same
+U+0085	unrar	vt	name	3f	0085	-	-	same
+U+0085	unrar	vt	target	3f	0085	-	-	same
+U+0085	unrar	vt	comment	3f	0085	-	-	same
+U+0085	unrar	vta	name	3f	0085	-	-	same
+U+0085	unrar	vta	target	3f	0085	-	-	same
+U+0085	unrar	vta	comment	3f	0085	-	-	same
+U+0085	unrar	t	name	3f	0085	-	-	same
+U+0085	unrar	t	comment	3f	0085	-	-	same
+U+0085	unrar	x -o+	name	3f	0085	-	-	same
+U+0085	unrar	x -o+	comment	3f	0085	-	-	same
+U+0085	unrar	e -o+	name	3f	0085	-	-	same
+U+0085	unrar	e -o+	comment	3f	0085	-	-	same
+U+0085	unrar	bad:t	name	3f	0085	3f	0085	same
+U+0085	unrar	bad:t	comment	3f	0085	-	-	same
+U+0085	unrar	bad:x -o+	name	3f	0085	3f	0085	same
+U+0085	unrar	bad:x -o+	comment	3f	0085	-	-	same
+U+0085	unrar	bad:p	name	-	-	3f	0085	same
+U+0085	rar	lb	name	3f	0085	-	-	same
+U+0085	rar	l	name	3f	0085	-	-	same
+U+0085	rar	l	comment	3f	0085	-	-	same
+U+0085	rar	lt	name	3f	0085	-	-	same
+U+0085	rar	lt	target	3f	0085	-	-	same
+U+0085	rar	lt	comment	3f	0085	-	-	same
+U+0085	rar	lta	name	3f	0085	-	-	same
+U+0085	rar	lta	target	3f	0085	-	-	same
+U+0085	rar	lta	comment	3f	0085	-	-	same
+U+0085	rar	v	name	3f	0085	-	-	same
+U+0085	rar	v	comment	3f	0085	-	-	same
+U+0085	rar	vb	name	3f	0085	-	-	same
+U+0085	rar	vt	name	3f	0085	-	-	same
+U+0085	rar	vt	target	3f	0085	-	-	same
+U+0085	rar	vt	comment	3f	0085	-	-	same
+U+0085	rar	vta	name	3f	0085	-	-	same
+U+0085	rar	vta	target	3f	0085	-	-	same
+U+0085	rar	vta	comment	3f	0085	-	-	same
+U+0085	rar	t	name	3f	0085	-	-	same
+U+0085	rar	t	comment	3f	0085	-	-	same
+U+0085	rar	x -o+	name	3f	0085	-	-	same
+U+0085	rar	x -o+	comment	3f	0085	-	-	same
+U+0085	rar	e -o+	name	3f	0085	-	-	same
+U+0085	rar	e -o+	comment	3f	0085	-	-	same
+U+0085	rar	bad:t	name	3f	0085	3f	0085	same
+U+0085	rar	bad:t	comment	3f	0085	-	-	same
+U+0085	rar	bad:x -o+	name	3f	0085	3f	0085	same
+U+0085	rar	bad:x -o+	comment	3f	0085	-	-	same
+U+0085	rar	bad:p	name	-	-	3f	0085	same
+U+0085	rar	cw	comment	3f	003f	-	-	same
+U+0085	rar	d	name	3f	0085	-	-	same
+U+0085	rar	d	comment	3f	0085	-	-	same
+U+0085	rar	r	name	3f	0085	-	-	same
+U+0086	unrar	lb	name	3f	0086	-	-	same
+U+0086	unrar	l	name	3f	0086	-	-	same
+U+0086	unrar	l	comment	3f	0086	-	-	same
+U+0086	unrar	lt	name	3f	0086	-	-	same
+U+0086	unrar	lt	target	3f	0086	-	-	same
+U+0086	unrar	lt	comment	3f	0086	-	-	same
+U+0086	unrar	lta	name	3f	0086	-	-	same
+U+0086	unrar	lta	target	3f	0086	-	-	same
+U+0086	unrar	lta	comment	3f	0086	-	-	same
+U+0086	unrar	v	name	3f	0086	-	-	same
+U+0086	unrar	v	comment	3f	0086	-	-	same
+U+0086	unrar	vb	name	3f	0086	-	-	same
+U+0086	unrar	vt	name	3f	0086	-	-	same
+U+0086	unrar	vt	target	3f	0086	-	-	same
+U+0086	unrar	vt	comment	3f	0086	-	-	same
+U+0086	unrar	vta	name	3f	0086	-	-	same
+U+0086	unrar	vta	target	3f	0086	-	-	same
+U+0086	unrar	vta	comment	3f	0086	-	-	same
+U+0086	unrar	t	name	3f	0086	-	-	same
+U+0086	unrar	t	comment	3f	0086	-	-	same
+U+0086	unrar	x -o+	name	3f	0086	-	-	same
+U+0086	unrar	x -o+	comment	3f	0086	-	-	same
+U+0086	unrar	e -o+	name	3f	0086	-	-	same
+U+0086	unrar	e -o+	comment	3f	0086	-	-	same
+U+0086	unrar	bad:t	name	3f	0086	3f	0086	same
+U+0086	unrar	bad:t	comment	3f	0086	-	-	same
+U+0086	unrar	bad:x -o+	name	3f	0086	3f	0086	same
+U+0086	unrar	bad:x -o+	comment	3f	0086	-	-	same
+U+0086	unrar	bad:p	name	-	-	3f	0086	same
+U+0086	rar	lb	name	3f	0086	-	-	same
+U+0086	rar	l	name	3f	0086	-	-	same
+U+0086	rar	l	comment	3f	0086	-	-	same
+U+0086	rar	lt	name	3f	0086	-	-	same
+U+0086	rar	lt	target	3f	0086	-	-	same
+U+0086	rar	lt	comment	3f	0086	-	-	same
+U+0086	rar	lta	name	3f	0086	-	-	same
+U+0086	rar	lta	target	3f	0086	-	-	same
+U+0086	rar	lta	comment	3f	0086	-	-	same
+U+0086	rar	v	name	3f	0086	-	-	same
+U+0086	rar	v	comment	3f	0086	-	-	same
+U+0086	rar	vb	name	3f	0086	-	-	same
+U+0086	rar	vt	name	3f	0086	-	-	same
+U+0086	rar	vt	target	3f	0086	-	-	same
+U+0086	rar	vt	comment	3f	0086	-	-	same
+U+0086	rar	vta	name	3f	0086	-	-	same
+U+0086	rar	vta	target	3f	0086	-	-	same
+U+0086	rar	vta	comment	3f	0086	-	-	same
+U+0086	rar	t	name	3f	0086	-	-	same
+U+0086	rar	t	comment	3f	0086	-	-	same
+U+0086	rar	x -o+	name	3f	0086	-	-	same
+U+0086	rar	x -o+	comment	3f	0086	-	-	same
+U+0086	rar	e -o+	name	3f	0086	-	-	same
+U+0086	rar	e -o+	comment	3f	0086	-	-	same
+U+0086	rar	bad:t	name	3f	0086	3f	0086	same
+U+0086	rar	bad:t	comment	3f	0086	-	-	same
+U+0086	rar	bad:x -o+	name	3f	0086	3f	0086	same
+U+0086	rar	bad:x -o+	comment	3f	0086	-	-	same
+U+0086	rar	bad:p	name	-	-	3f	0086	same
+U+0086	rar	cw	comment	3f	003f	-	-	same
+U+0086	rar	d	name	3f	0086	-	-	same
+U+0086	rar	d	comment	3f	0086	-	-	same
+U+0086	rar	r	name	3f	0086	-	-	same
+U+0087	unrar	lb	name	3f	0087	-	-	same
+U+0087	unrar	l	name	3f	0087	-	-	same
+U+0087	unrar	l	comment	3f	0087	-	-	same
+U+0087	unrar	lt	name	3f	0087	-	-	same
+U+0087	unrar	lt	target	3f	0087	-	-	same
+U+0087	unrar	lt	comment	3f	0087	-	-	same
+U+0087	unrar	lta	name	3f	0087	-	-	same
+U+0087	unrar	lta	target	3f	0087	-	-	same
+U+0087	unrar	lta	comment	3f	0087	-	-	same
+U+0087	unrar	v	name	3f	0087	-	-	same
+U+0087	unrar	v	comment	3f	0087	-	-	same
+U+0087	unrar	vb	name	3f	0087	-	-	same
+U+0087	unrar	vt	name	3f	0087	-	-	same
+U+0087	unrar	vt	target	3f	0087	-	-	same
+U+0087	unrar	vt	comment	3f	0087	-	-	same
+U+0087	unrar	vta	name	3f	0087	-	-	same
+U+0087	unrar	vta	target	3f	0087	-	-	same
+U+0087	unrar	vta	comment	3f	0087	-	-	same
+U+0087	unrar	t	name	3f	0087	-	-	same
+U+0087	unrar	t	comment	3f	0087	-	-	same
+U+0087	unrar	x -o+	name	3f	0087	-	-	same
+U+0087	unrar	x -o+	comment	3f	0087	-	-	same
+U+0087	unrar	e -o+	name	3f	0087	-	-	same
+U+0087	unrar	e -o+	comment	3f	0087	-	-	same
+U+0087	unrar	bad:t	name	3f	0087	3f	0087	same
+U+0087	unrar	bad:t	comment	3f	0087	-	-	same
+U+0087	unrar	bad:x -o+	name	3f	0087	3f	0087	same
+U+0087	unrar	bad:x -o+	comment	3f	0087	-	-	same
+U+0087	unrar	bad:p	name	-	-	3f	0087	same
+U+0087	rar	lb	name	3f	0087	-	-	same
+U+0087	rar	l	name	3f	0087	-	-	same
+U+0087	rar	l	comment	3f	0087	-	-	same
+U+0087	rar	lt	name	3f	0087	-	-	same
+U+0087	rar	lt	target	3f	0087	-	-	same
+U+0087	rar	lt	comment	3f	0087	-	-	same
+U+0087	rar	lta	name	3f	0087	-	-	same
+U+0087	rar	lta	target	3f	0087	-	-	same
+U+0087	rar	lta	comment	3f	0087	-	-	same
+U+0087	rar	v	name	3f	0087	-	-	same
+U+0087	rar	v	comment	3f	0087	-	-	same
+U+0087	rar	vb	name	3f	0087	-	-	same
+U+0087	rar	vt	name	3f	0087	-	-	same
+U+0087	rar	vt	target	3f	0087	-	-	same
+U+0087	rar	vt	comment	3f	0087	-	-	same
+U+0087	rar	vta	name	3f	0087	-	-	same
+U+0087	rar	vta	target	3f	0087	-	-	same
+U+0087	rar	vta	comment	3f	0087	-	-	same
+U+0087	rar	t	name	3f	0087	-	-	same
+U+0087	rar	t	comment	3f	0087	-	-	same
+U+0087	rar	x -o+	name	3f	0087	-	-	same
+U+0087	rar	x -o+	comment	3f	0087	-	-	same
+U+0087	rar	e -o+	name	3f	0087	-	-	same
+U+0087	rar	e -o+	comment	3f	0087	-	-	same
+U+0087	rar	bad:t	name	3f	0087	3f	0087	same
+U+0087	rar	bad:t	comment	3f	0087	-	-	same
+U+0087	rar	bad:x -o+	name	3f	0087	3f	0087	same
+U+0087	rar	bad:x -o+	comment	3f	0087	-	-	same
+U+0087	rar	bad:p	name	-	-	3f	0087	same
+U+0087	rar	cw	comment	3f	003f	-	-	same
+U+0087	rar	d	name	3f	0087	-	-	same
+U+0087	rar	d	comment	3f	0087	-	-	same
+U+0087	rar	r	name	3f	0087	-	-	same
+U+0088	unrar	lb	name	3f	0088	-	-	same
+U+0088	unrar	l	name	3f	0088	-	-	same
+U+0088	unrar	l	comment	3f	0088	-	-	same
+U+0088	unrar	lt	name	3f	0088	-	-	same
+U+0088	unrar	lt	target	3f	0088	-	-	same
+U+0088	unrar	lt	comment	3f	0088	-	-	same
+U+0088	unrar	lta	name	3f	0088	-	-	same
+U+0088	unrar	lta	target	3f	0088	-	-	same
+U+0088	unrar	lta	comment	3f	0088	-	-	same
+U+0088	unrar	v	name	3f	0088	-	-	same
+U+0088	unrar	v	comment	3f	0088	-	-	same
+U+0088	unrar	vb	name	3f	0088	-	-	same
+U+0088	unrar	vt	name	3f	0088	-	-	same
+U+0088	unrar	vt	target	3f	0088	-	-	same
+U+0088	unrar	vt	comment	3f	0088	-	-	same
+U+0088	unrar	vta	name	3f	0088	-	-	same
+U+0088	unrar	vta	target	3f	0088	-	-	same
+U+0088	unrar	vta	comment	3f	0088	-	-	same
+U+0088	unrar	t	name	3f	0088	-	-	same
+U+0088	unrar	t	comment	3f	0088	-	-	same
+U+0088	unrar	x -o+	name	3f	0088	-	-	same
+U+0088	unrar	x -o+	comment	3f	0088	-	-	same
+U+0088	unrar	e -o+	name	3f	0088	-	-	same
+U+0088	unrar	e -o+	comment	3f	0088	-	-	same
+U+0088	unrar	bad:t	name	3f	0088	3f	0088	same
+U+0088	unrar	bad:t	comment	3f	0088	-	-	same
+U+0088	unrar	bad:x -o+	name	3f	0088	3f	0088	same
+U+0088	unrar	bad:x -o+	comment	3f	0088	-	-	same
+U+0088	unrar	bad:p	name	-	-	3f	0088	same
+U+0088	rar	lb	name	3f	0088	-	-	same
+U+0088	rar	l	name	3f	0088	-	-	same
+U+0088	rar	l	comment	3f	0088	-	-	same
+U+0088	rar	lt	name	3f	0088	-	-	same
+U+0088	rar	lt	target	3f	0088	-	-	same
+U+0088	rar	lt	comment	3f	0088	-	-	same
+U+0088	rar	lta	name	3f	0088	-	-	same
+U+0088	rar	lta	target	3f	0088	-	-	same
+U+0088	rar	lta	comment	3f	0088	-	-	same
+U+0088	rar	v	name	3f	0088	-	-	same
+U+0088	rar	v	comment	3f	0088	-	-	same
+U+0088	rar	vb	name	3f	0088	-	-	same
+U+0088	rar	vt	name	3f	0088	-	-	same
+U+0088	rar	vt	target	3f	0088	-	-	same
+U+0088	rar	vt	comment	3f	0088	-	-	same
+U+0088	rar	vta	name	3f	0088	-	-	same
+U+0088	rar	vta	target	3f	0088	-	-	same
+U+0088	rar	vta	comment	3f	0088	-	-	same
+U+0088	rar	t	name	3f	0088	-	-	same
+U+0088	rar	t	comment	3f	0088	-	-	same
+U+0088	rar	x -o+	name	3f	0088	-	-	same
+U+0088	rar	x -o+	comment	3f	0088	-	-	same
+U+0088	rar	e -o+	name	3f	0088	-	-	same
+U+0088	rar	e -o+	comment	3f	0088	-	-	same
+U+0088	rar	bad:t	name	3f	0088	3f	0088	same
+U+0088	rar	bad:t	comment	3f	0088	-	-	same
+U+0088	rar	bad:x -o+	name	3f	0088	3f	0088	same
+U+0088	rar	bad:x -o+	comment	3f	0088	-	-	same
+U+0088	rar	bad:p	name	-	-	3f	0088	same
+U+0088	rar	cw	comment	3f	003f	-	-	same
+U+0088	rar	d	name	3f	0088	-	-	same
+U+0088	rar	d	comment	3f	0088	-	-	same
+U+0088	rar	r	name	3f	0088	-	-	same
+U+0089	unrar	lb	name	3f	0089	-	-	same
+U+0089	unrar	l	name	3f	0089	-	-	same
+U+0089	unrar	l	comment	3f	0089	-	-	same
+U+0089	unrar	lt	name	3f	0089	-	-	same
+U+0089	unrar	lt	target	3f	0089	-	-	same
+U+0089	unrar	lt	comment	3f	0089	-	-	same
+U+0089	unrar	lta	name	3f	0089	-	-	same
+U+0089	unrar	lta	target	3f	0089	-	-	same
+U+0089	unrar	lta	comment	3f	0089	-	-	same
+U+0089	unrar	v	name	3f	0089	-	-	same
+U+0089	unrar	v	comment	3f	0089	-	-	same
+U+0089	unrar	vb	name	3f	0089	-	-	same
+U+0089	unrar	vt	name	3f	0089	-	-	same
+U+0089	unrar	vt	target	3f	0089	-	-	same
+U+0089	unrar	vt	comment	3f	0089	-	-	same
+U+0089	unrar	vta	name	3f	0089	-	-	same
+U+0089	unrar	vta	target	3f	0089	-	-	same
+U+0089	unrar	vta	comment	3f	0089	-	-	same
+U+0089	unrar	t	name	3f	0089	-	-	same
+U+0089	unrar	t	comment	3f	0089	-	-	same
+U+0089	unrar	x -o+	name	3f	0089	-	-	same
+U+0089	unrar	x -o+	comment	3f	0089	-	-	same
+U+0089	unrar	e -o+	name	3f	0089	-	-	same
+U+0089	unrar	e -o+	comment	3f	0089	-	-	same
+U+0089	unrar	bad:t	name	3f	0089	3f	0089	same
+U+0089	unrar	bad:t	comment	3f	0089	-	-	same
+U+0089	unrar	bad:x -o+	name	3f	0089	3f	0089	same
+U+0089	unrar	bad:x -o+	comment	3f	0089	-	-	same
+U+0089	unrar	bad:p	name	-	-	3f	0089	same
+U+0089	rar	lb	name	3f	0089	-	-	same
+U+0089	rar	l	name	3f	0089	-	-	same
+U+0089	rar	l	comment	3f	0089	-	-	same
+U+0089	rar	lt	name	3f	0089	-	-	same
+U+0089	rar	lt	target	3f	0089	-	-	same
+U+0089	rar	lt	comment	3f	0089	-	-	same
+U+0089	rar	lta	name	3f	0089	-	-	same
+U+0089	rar	lta	target	3f	0089	-	-	same
+U+0089	rar	lta	comment	3f	0089	-	-	same
+U+0089	rar	v	name	3f	0089	-	-	same
+U+0089	rar	v	comment	3f	0089	-	-	same
+U+0089	rar	vb	name	3f	0089	-	-	same
+U+0089	rar	vt	name	3f	0089	-	-	same
+U+0089	rar	vt	target	3f	0089	-	-	same
+U+0089	rar	vt	comment	3f	0089	-	-	same
+U+0089	rar	vta	name	3f	0089	-	-	same
+U+0089	rar	vta	target	3f	0089	-	-	same
+U+0089	rar	vta	comment	3f	0089	-	-	same
+U+0089	rar	t	name	3f	0089	-	-	same
+U+0089	rar	t	comment	3f	0089	-	-	same
+U+0089	rar	x -o+	name	3f	0089	-	-	same
+U+0089	rar	x -o+	comment	3f	0089	-	-	same
+U+0089	rar	e -o+	name	3f	0089	-	-	same
+U+0089	rar	e -o+	comment	3f	0089	-	-	same
+U+0089	rar	bad:t	name	3f	0089	3f	0089	same
+U+0089	rar	bad:t	comment	3f	0089	-	-	same
+U+0089	rar	bad:x -o+	name	3f	0089	3f	0089	same
+U+0089	rar	bad:x -o+	comment	3f	0089	-	-	same
+U+0089	rar	bad:p	name	-	-	3f	0089	same
+U+0089	rar	cw	comment	3f	003f	-	-	same
+U+0089	rar	d	name	3f	0089	-	-	same
+U+0089	rar	d	comment	3f	0089	-	-	same
+U+0089	rar	r	name	3f	0089	-	-	same
+U+008A	unrar	lb	name	3f	008a	-	-	same
+U+008A	unrar	l	name	3f	008a	-	-	same
+U+008A	unrar	l	comment	3f	008a	-	-	same
+U+008A	unrar	lt	name	3f	008a	-	-	same
+U+008A	unrar	lt	target	3f	008a	-	-	same
+U+008A	unrar	lt	comment	3f	008a	-	-	same
+U+008A	unrar	lta	name	3f	008a	-	-	same
+U+008A	unrar	lta	target	3f	008a	-	-	same
+U+008A	unrar	lta	comment	3f	008a	-	-	same
+U+008A	unrar	v	name	3f	008a	-	-	same
+U+008A	unrar	v	comment	3f	008a	-	-	same
+U+008A	unrar	vb	name	3f	008a	-	-	same
+U+008A	unrar	vt	name	3f	008a	-	-	same
+U+008A	unrar	vt	target	3f	008a	-	-	same
+U+008A	unrar	vt	comment	3f	008a	-	-	same
+U+008A	unrar	vta	name	3f	008a	-	-	same
+U+008A	unrar	vta	target	3f	008a	-	-	same
+U+008A	unrar	vta	comment	3f	008a	-	-	same
+U+008A	unrar	t	name	3f	008a	-	-	same
+U+008A	unrar	t	comment	3f	008a	-	-	same
+U+008A	unrar	x -o+	name	3f	008a	-	-	same
+U+008A	unrar	x -o+	comment	3f	008a	-	-	same
+U+008A	unrar	e -o+	name	3f	008a	-	-	same
+U+008A	unrar	e -o+	comment	3f	008a	-	-	same
+U+008A	unrar	bad:t	name	3f	008a	3f	008a	same
+U+008A	unrar	bad:t	comment	3f	008a	-	-	same
+U+008A	unrar	bad:x -o+	name	3f	008a	3f	008a	same
+U+008A	unrar	bad:x -o+	comment	3f	008a	-	-	same
+U+008A	unrar	bad:p	name	-	-	3f	008a	same
+U+008A	rar	lb	name	3f	008a	-	-	same
+U+008A	rar	l	name	3f	008a	-	-	same
+U+008A	rar	l	comment	3f	008a	-	-	same
+U+008A	rar	lt	name	3f	008a	-	-	same
+U+008A	rar	lt	target	3f	008a	-	-	same
+U+008A	rar	lt	comment	3f	008a	-	-	same
+U+008A	rar	lta	name	3f	008a	-	-	same
+U+008A	rar	lta	target	3f	008a	-	-	same
+U+008A	rar	lta	comment	3f	008a	-	-	same
+U+008A	rar	v	name	3f	008a	-	-	same
+U+008A	rar	v	comment	3f	008a	-	-	same
+U+008A	rar	vb	name	3f	008a	-	-	same
+U+008A	rar	vt	name	3f	008a	-	-	same
+U+008A	rar	vt	target	3f	008a	-	-	same
+U+008A	rar	vt	comment	3f	008a	-	-	same
+U+008A	rar	vta	name	3f	008a	-	-	same
+U+008A	rar	vta	target	3f	008a	-	-	same
+U+008A	rar	vta	comment	3f	008a	-	-	same
+U+008A	rar	t	name	3f	008a	-	-	same
+U+008A	rar	t	comment	3f	008a	-	-	same
+U+008A	rar	x -o+	name	3f	008a	-	-	same
+U+008A	rar	x -o+	comment	3f	008a	-	-	same
+U+008A	rar	e -o+	name	3f	008a	-	-	same
+U+008A	rar	e -o+	comment	3f	008a	-	-	same
+U+008A	rar	bad:t	name	3f	008a	3f	008a	same
+U+008A	rar	bad:t	comment	3f	008a	-	-	same
+U+008A	rar	bad:x -o+	name	3f	008a	3f	008a	same
+U+008A	rar	bad:x -o+	comment	3f	008a	-	-	same
+U+008A	rar	bad:p	name	-	-	3f	008a	same
+U+008A	rar	cw	comment	3f	003f	-	-	same
+U+008A	rar	d	name	3f	008a	-	-	same
+U+008A	rar	d	comment	3f	008a	-	-	same
+U+008A	rar	r	name	3f	008a	-	-	same
+U+008B	unrar	lb	name	3f	008b	-	-	same
+U+008B	unrar	l	name	3f	008b	-	-	same
+U+008B	unrar	l	comment	3f	008b	-	-	same
+U+008B	unrar	lt	name	3f	008b	-	-	same
+U+008B	unrar	lt	target	3f	008b	-	-	same
+U+008B	unrar	lt	comment	3f	008b	-	-	same
+U+008B	unrar	lta	name	3f	008b	-	-	same
+U+008B	unrar	lta	target	3f	008b	-	-	same
+U+008B	unrar	lta	comment	3f	008b	-	-	same
+U+008B	unrar	v	name	3f	008b	-	-	same
+U+008B	unrar	v	comment	3f	008b	-	-	same
+U+008B	unrar	vb	name	3f	008b	-	-	same
+U+008B	unrar	vt	name	3f	008b	-	-	same
+U+008B	unrar	vt	target	3f	008b	-	-	same
+U+008B	unrar	vt	comment	3f	008b	-	-	same
+U+008B	unrar	vta	name	3f	008b	-	-	same
+U+008B	unrar	vta	target	3f	008b	-	-	same
+U+008B	unrar	vta	comment	3f	008b	-	-	same
+U+008B	unrar	t	name	3f	008b	-	-	same
+U+008B	unrar	t	comment	3f	008b	-	-	same
+U+008B	unrar	x -o+	name	3f	008b	-	-	same
+U+008B	unrar	x -o+	comment	3f	008b	-	-	same
+U+008B	unrar	e -o+	name	3f	008b	-	-	same
+U+008B	unrar	e -o+	comment	3f	008b	-	-	same
+U+008B	unrar	bad:t	name	3f	008b	3f	008b	same
+U+008B	unrar	bad:t	comment	3f	008b	-	-	same
+U+008B	unrar	bad:x -o+	name	3f	008b	3f	008b	same
+U+008B	unrar	bad:x -o+	comment	3f	008b	-	-	same
+U+008B	unrar	bad:p	name	-	-	3f	008b	same
+U+008B	rar	lb	name	3f	008b	-	-	same
+U+008B	rar	l	name	3f	008b	-	-	same
+U+008B	rar	l	comment	3f	008b	-	-	same
+U+008B	rar	lt	name	3f	008b	-	-	same
+U+008B	rar	lt	target	3f	008b	-	-	same
+U+008B	rar	lt	comment	3f	008b	-	-	same
+U+008B	rar	lta	name	3f	008b	-	-	same
+U+008B	rar	lta	target	3f	008b	-	-	same
+U+008B	rar	lta	comment	3f	008b	-	-	same
+U+008B	rar	v	name	3f	008b	-	-	same
+U+008B	rar	v	comment	3f	008b	-	-	same
+U+008B	rar	vb	name	3f	008b	-	-	same
+U+008B	rar	vt	name	3f	008b	-	-	same
+U+008B	rar	vt	target	3f	008b	-	-	same
+U+008B	rar	vt	comment	3f	008b	-	-	same
+U+008B	rar	vta	name	3f	008b	-	-	same
+U+008B	rar	vta	target	3f	008b	-	-	same
+U+008B	rar	vta	comment	3f	008b	-	-	same
+U+008B	rar	t	name	3f	008b	-	-	same
+U+008B	rar	t	comment	3f	008b	-	-	same
+U+008B	rar	x -o+	name	3f	008b	-	-	same
+U+008B	rar	x -o+	comment	3f	008b	-	-	same
+U+008B	rar	e -o+	name	3f	008b	-	-	same
+U+008B	rar	e -o+	comment	3f	008b	-	-	same
+U+008B	rar	bad:t	name	3f	008b	3f	008b	same
+U+008B	rar	bad:t	comment	3f	008b	-	-	same
+U+008B	rar	bad:x -o+	name	3f	008b	3f	008b	same
+U+008B	rar	bad:x -o+	comment	3f	008b	-	-	same
+U+008B	rar	bad:p	name	-	-	3f	008b	same
+U+008B	rar	cw	comment	3f	003f	-	-	same
+U+008B	rar	d	name	3f	008b	-	-	same
+U+008B	rar	d	comment	3f	008b	-	-	same
+U+008B	rar	r	name	3f	008b	-	-	same
+U+008C	unrar	lb	name	3f	008c	-	-	same
+U+008C	unrar	l	name	3f	008c	-	-	same
+U+008C	unrar	l	comment	3f	008c	-	-	same
+U+008C	unrar	lt	name	3f	008c	-	-	same
+U+008C	unrar	lt	target	3f	008c	-	-	same
+U+008C	unrar	lt	comment	3f	008c	-	-	same
+U+008C	unrar	lta	name	3f	008c	-	-	same
+U+008C	unrar	lta	target	3f	008c	-	-	same
+U+008C	unrar	lta	comment	3f	008c	-	-	same
+U+008C	unrar	v	name	3f	008c	-	-	same
+U+008C	unrar	v	comment	3f	008c	-	-	same
+U+008C	unrar	vb	name	3f	008c	-	-	same
+U+008C	unrar	vt	name	3f	008c	-	-	same
+U+008C	unrar	vt	target	3f	008c	-	-	same
+U+008C	unrar	vt	comment	3f	008c	-	-	same
+U+008C	unrar	vta	name	3f	008c	-	-	same
+U+008C	unrar	vta	target	3f	008c	-	-	same
+U+008C	unrar	vta	comment	3f	008c	-	-	same
+U+008C	unrar	t	name	3f	008c	-	-	same
+U+008C	unrar	t	comment	3f	008c	-	-	same
+U+008C	unrar	x -o+	name	3f	008c	-	-	same
+U+008C	unrar	x -o+	comment	3f	008c	-	-	same
+U+008C	unrar	e -o+	name	3f	008c	-	-	same
+U+008C	unrar	e -o+	comment	3f	008c	-	-	same
+U+008C	unrar	bad:t	name	3f	008c	3f	008c	same
+U+008C	unrar	bad:t	comment	3f	008c	-	-	same
+U+008C	unrar	bad:x -o+	name	3f	008c	3f	008c	same
+U+008C	unrar	bad:x -o+	comment	3f	008c	-	-	same
+U+008C	unrar	bad:p	name	-	-	3f	008c	same
+U+008C	rar	lb	name	3f	008c	-	-	same
+U+008C	rar	l	name	3f	008c	-	-	same
+U+008C	rar	l	comment	3f	008c	-	-	same
+U+008C	rar	lt	name	3f	008c	-	-	same
+U+008C	rar	lt	target	3f	008c	-	-	same
+U+008C	rar	lt	comment	3f	008c	-	-	same
+U+008C	rar	lta	name	3f	008c	-	-	same
+U+008C	rar	lta	target	3f	008c	-	-	same
+U+008C	rar	lta	comment	3f	008c	-	-	same
+U+008C	rar	v	name	3f	008c	-	-	same
+U+008C	rar	v	comment	3f	008c	-	-	same
+U+008C	rar	vb	name	3f	008c	-	-	same
+U+008C	rar	vt	name	3f	008c	-	-	same
+U+008C	rar	vt	target	3f	008c	-	-	same
+U+008C	rar	vt	comment	3f	008c	-	-	same
+U+008C	rar	vta	name	3f	008c	-	-	same
+U+008C	rar	vta	target	3f	008c	-	-	same
+U+008C	rar	vta	comment	3f	008c	-	-	same
+U+008C	rar	t	name	3f	008c	-	-	same
+U+008C	rar	t	comment	3f	008c	-	-	same
+U+008C	rar	x -o+	name	3f	008c	-	-	same
+U+008C	rar	x -o+	comment	3f	008c	-	-	same
+U+008C	rar	e -o+	name	3f	008c	-	-	same
+U+008C	rar	e -o+	comment	3f	008c	-	-	same
+U+008C	rar	bad:t	name	3f	008c	3f	008c	same
+U+008C	rar	bad:t	comment	3f	008c	-	-	same
+U+008C	rar	bad:x -o+	name	3f	008c	3f	008c	same
+U+008C	rar	bad:x -o+	comment	3f	008c	-	-	same
+U+008C	rar	bad:p	name	-	-	3f	008c	same
+U+008C	rar	cw	comment	3f	003f	-	-	same
+U+008C	rar	d	name	3f	008c	-	-	same
+U+008C	rar	d	comment	3f	008c	-	-	same
+U+008C	rar	r	name	3f	008c	-	-	same
+U+008D	unrar	lb	name	5f	008d	-	-	same
+U+008D	unrar	l	name	5f	008d	-	-	same
+U+008D	unrar	l	comment	5f	008d	-	-	same
+U+008D	unrar	lt	name	5f	008d	-	-	same
+U+008D	unrar	lt	target	5f	008d	-	-	same
+U+008D	unrar	lt	comment	5f	008d	-	-	same
+U+008D	unrar	lta	name	5f	008d	-	-	same
+U+008D	unrar	lta	target	5f	008d	-	-	same
+U+008D	unrar	lta	comment	5f	008d	-	-	same
+U+008D	unrar	v	name	5f	008d	-	-	same
+U+008D	unrar	v	comment	5f	008d	-	-	same
+U+008D	unrar	vb	name	5f	008d	-	-	same
+U+008D	unrar	vt	name	5f	008d	-	-	same
+U+008D	unrar	vt	target	5f	008d	-	-	same
+U+008D	unrar	vt	comment	5f	008d	-	-	same
+U+008D	unrar	vta	name	5f	008d	-	-	same
+U+008D	unrar	vta	target	5f	008d	-	-	same
+U+008D	unrar	vta	comment	5f	008d	-	-	same
+U+008D	unrar	t	name	5f	008d	-	-	same
+U+008D	unrar	t	comment	5f	008d	-	-	same
+U+008D	unrar	x -o+	name	5f	008d	-	-	same
+U+008D	unrar	x -o+	comment	5f	008d	-	-	same
+U+008D	unrar	e -o+	name	5f	008d	-	-	same
+U+008D	unrar	e -o+	comment	5f	008d	-	-	same
+U+008D	unrar	bad:t	name	5f	008d	5f	008d	same
+U+008D	unrar	bad:t	comment	5f	008d	-	-	same
+U+008D	unrar	bad:x -o+	name	5f	008d	5f	008d	same
+U+008D	unrar	bad:x -o+	comment	5f	008d	-	-	same
+U+008D	unrar	bad:p	name	-	-	5f	008d	same
+U+008D	rar	lb	name	5f	008d	-	-	same
+U+008D	rar	l	name	5f	008d	-	-	same
+U+008D	rar	l	comment	5f	008d	-	-	same
+U+008D	rar	lt	name	5f	008d	-	-	same
+U+008D	rar	lt	target	5f	008d	-	-	same
+U+008D	rar	lt	comment	5f	008d	-	-	same
+U+008D	rar	lta	name	5f	008d	-	-	same
+U+008D	rar	lta	target	5f	008d	-	-	same
+U+008D	rar	lta	comment	5f	008d	-	-	same
+U+008D	rar	v	name	5f	008d	-	-	same
+U+008D	rar	v	comment	5f	008d	-	-	same
+U+008D	rar	vb	name	5f	008d	-	-	same
+U+008D	rar	vt	name	5f	008d	-	-	same
+U+008D	rar	vt	target	5f	008d	-	-	same
+U+008D	rar	vt	comment	5f	008d	-	-	same
+U+008D	rar	vta	name	5f	008d	-	-	same
+U+008D	rar	vta	target	5f	008d	-	-	same
+U+008D	rar	vta	comment	5f	008d	-	-	same
+U+008D	rar	t	name	5f	008d	-	-	same
+U+008D	rar	t	comment	5f	008d	-	-	same
+U+008D	rar	x -o+	name	5f	008d	-	-	same
+U+008D	rar	x -o+	comment	5f	008d	-	-	same
+U+008D	rar	e -o+	name	5f	008d	-	-	same
+U+008D	rar	e -o+	comment	5f	008d	-	-	same
+U+008D	rar	bad:t	name	5f	008d	5f	008d	same
+U+008D	rar	bad:t	comment	5f	008d	-	-	same
+U+008D	rar	bad:x -o+	name	5f	008d	5f	008d	same
+U+008D	rar	bad:x -o+	comment	5f	008d	-	-	same
+U+008D	rar	bad:p	name	-	-	5f	008d	same
+U+008D	rar	cw	comment	8d	00ec	-	-	same
+U+008D	rar	d	name	5f	008d	-	-	same
+U+008D	rar	d	comment	5f	008d	-	-	same
+U+008D	rar	r	name	5f	008d	-	-	same
+U+008E	unrar	lb	name	3f	008e	-	-	same
+U+008E	unrar	l	name	3f	008e	-	-	same
+U+008E	unrar	l	comment	3f	008e	-	-	same
+U+008E	unrar	lt	name	3f	008e	-	-	same
+U+008E	unrar	lt	target	3f	008e	-	-	same
+U+008E	unrar	lt	comment	3f	008e	-	-	same
+U+008E	unrar	lta	name	3f	008e	-	-	same
+U+008E	unrar	lta	target	3f	008e	-	-	same
+U+008E	unrar	lta	comment	3f	008e	-	-	same
+U+008E	unrar	v	name	3f	008e	-	-	same
+U+008E	unrar	v	comment	3f	008e	-	-	same
+U+008E	unrar	vb	name	3f	008e	-	-	same
+U+008E	unrar	vt	name	3f	008e	-	-	same
+U+008E	unrar	vt	target	3f	008e	-	-	same
+U+008E	unrar	vt	comment	3f	008e	-	-	same
+U+008E	unrar	vta	name	3f	008e	-	-	same
+U+008E	unrar	vta	target	3f	008e	-	-	same
+U+008E	unrar	vta	comment	3f	008e	-	-	same
+U+008E	unrar	t	name	3f	008e	-	-	same
+U+008E	unrar	t	comment	3f	008e	-	-	same
+U+008E	unrar	x -o+	name	3f	008e	-	-	same
+U+008E	unrar	x -o+	comment	3f	008e	-	-	same
+U+008E	unrar	e -o+	name	3f	008e	-	-	same
+U+008E	unrar	e -o+	comment	3f	008e	-	-	same
+U+008E	unrar	bad:t	name	3f	008e	3f	008e	same
+U+008E	unrar	bad:t	comment	3f	008e	-	-	same
+U+008E	unrar	bad:x -o+	name	3f	008e	3f	008e	same
+U+008E	unrar	bad:x -o+	comment	3f	008e	-	-	same
+U+008E	unrar	bad:p	name	-	-	3f	008e	same
+U+008E	rar	lb	name	3f	008e	-	-	same
+U+008E	rar	l	name	3f	008e	-	-	same
+U+008E	rar	l	comment	3f	008e	-	-	same
+U+008E	rar	lt	name	3f	008e	-	-	same
+U+008E	rar	lt	target	3f	008e	-	-	same
+U+008E	rar	lt	comment	3f	008e	-	-	same
+U+008E	rar	lta	name	3f	008e	-	-	same
+U+008E	rar	lta	target	3f	008e	-	-	same
+U+008E	rar	lta	comment	3f	008e	-	-	same
+U+008E	rar	v	name	3f	008e	-	-	same
+U+008E	rar	v	comment	3f	008e	-	-	same
+U+008E	rar	vb	name	3f	008e	-	-	same
+U+008E	rar	vt	name	3f	008e	-	-	same
+U+008E	rar	vt	target	3f	008e	-	-	same
+U+008E	rar	vt	comment	3f	008e	-	-	same
+U+008E	rar	vta	name	3f	008e	-	-	same
+U+008E	rar	vta	target	3f	008e	-	-	same
+U+008E	rar	vta	comment	3f	008e	-	-	same
+U+008E	rar	t	name	3f	008e	-	-	same
+U+008E	rar	t	comment	3f	008e	-	-	same
+U+008E	rar	x -o+	name	3f	008e	-	-	same
+U+008E	rar	x -o+	comment	3f	008e	-	-	same
+U+008E	rar	e -o+	name	3f	008e	-	-	same
+U+008E	rar	e -o+	comment	3f	008e	-	-	same
+U+008E	rar	bad:t	name	3f	008e	3f	008e	same
+U+008E	rar	bad:t	comment	3f	008e	-	-	same
+U+008E	rar	bad:x -o+	name	3f	008e	3f	008e	same
+U+008E	rar	bad:x -o+	comment	3f	008e	-	-	same
+U+008E	rar	bad:p	name	-	-	3f	008e	same
+U+008E	rar	cw	comment	3f	003f	-	-	same
+U+008E	rar	d	name	3f	008e	-	-	same
+U+008E	rar	d	comment	3f	008e	-	-	same
+U+008E	rar	r	name	3f	008e	-	-	same
+U+008F	unrar	lb	name	5f	008f	-	-	same
+U+008F	unrar	l	name	5f	008f	-	-	same
+U+008F	unrar	l	comment	5f	008f	-	-	same
+U+008F	unrar	lt	name	5f	008f	-	-	same
+U+008F	unrar	lt	target	5f	008f	-	-	same
+U+008F	unrar	lt	comment	5f	008f	-	-	same
+U+008F	unrar	lta	name	5f	008f	-	-	same
+U+008F	unrar	lta	target	5f	008f	-	-	same
+U+008F	unrar	lta	comment	5f	008f	-	-	same
+U+008F	unrar	v	name	5f	008f	-	-	same
+U+008F	unrar	v	comment	5f	008f	-	-	same
+U+008F	unrar	vb	name	5f	008f	-	-	same
+U+008F	unrar	vt	name	5f	008f	-	-	same
+U+008F	unrar	vt	target	5f	008f	-	-	same
+U+008F	unrar	vt	comment	5f	008f	-	-	same
+U+008F	unrar	vta	name	5f	008f	-	-	same
+U+008F	unrar	vta	target	5f	008f	-	-	same
+U+008F	unrar	vta	comment	5f	008f	-	-	same
+U+008F	unrar	t	name	5f	008f	-	-	same
+U+008F	unrar	t	comment	5f	008f	-	-	same
+U+008F	unrar	x -o+	name	5f	008f	-	-	same
+U+008F	unrar	x -o+	comment	5f	008f	-	-	same
+U+008F	unrar	e -o+	name	5f	008f	-	-	same
+U+008F	unrar	e -o+	comment	5f	008f	-	-	same
+U+008F	unrar	bad:t	name	5f	008f	5f	008f	same
+U+008F	unrar	bad:t	comment	5f	008f	-	-	same
+U+008F	unrar	bad:x -o+	name	5f	008f	5f	008f	same
+U+008F	unrar	bad:x -o+	comment	5f	008f	-	-	same
+U+008F	unrar	bad:p	name	-	-	5f	008f	same
+U+008F	rar	lb	name	5f	008f	-	-	same
+U+008F	rar	l	name	5f	008f	-	-	same
+U+008F	rar	l	comment	5f	008f	-	-	same
+U+008F	rar	lt	name	5f	008f	-	-	same
+U+008F	rar	lt	target	5f	008f	-	-	same
+U+008F	rar	lt	comment	5f	008f	-	-	same
+U+008F	rar	lta	name	5f	008f	-	-	same
+U+008F	rar	lta	target	5f	008f	-	-	same
+U+008F	rar	lta	comment	5f	008f	-	-	same
+U+008F	rar	v	name	5f	008f	-	-	same
+U+008F	rar	v	comment	5f	008f	-	-	same
+U+008F	rar	vb	name	5f	008f	-	-	same
+U+008F	rar	vt	name	5f	008f	-	-	same
+U+008F	rar	vt	target	5f	008f	-	-	same
+U+008F	rar	vt	comment	5f	008f	-	-	same
+U+008F	rar	vta	name	5f	008f	-	-	same
+U+008F	rar	vta	target	5f	008f	-	-	same
+U+008F	rar	vta	comment	5f	008f	-	-	same
+U+008F	rar	t	name	5f	008f	-	-	same
+U+008F	rar	t	comment	5f	008f	-	-	same
+U+008F	rar	x -o+	name	5f	008f	-	-	same
+U+008F	rar	x -o+	comment	5f	008f	-	-	same
+U+008F	rar	e -o+	name	5f	008f	-	-	same
+U+008F	rar	e -o+	comment	5f	008f	-	-	same
+U+008F	rar	bad:t	name	5f	008f	5f	008f	same
+U+008F	rar	bad:t	comment	5f	008f	-	-	same
+U+008F	rar	bad:x -o+	name	5f	008f	5f	008f	same
+U+008F	rar	bad:x -o+	comment	5f	008f	-	-	same
+U+008F	rar	bad:p	name	-	-	5f	008f	same
+U+008F	rar	cw	comment	8f	00c5	-	-	same
+U+008F	rar	d	name	5f	008f	-	-	same
+U+008F	rar	d	comment	5f	008f	-	-	same
+U+008F	rar	r	name	5f	008f	-	-	same
+U+0090	unrar	lb	name	5f	0090	-	-	same
+U+0090	unrar	l	name	5f	0090	-	-	same
+U+0090	unrar	l	comment	5f	0090	-	-	same
+U+0090	unrar	lt	name	5f	0090	-	-	same
+U+0090	unrar	lt	target	5f	0090	-	-	same
+U+0090	unrar	lt	comment	5f	0090	-	-	same
+U+0090	unrar	lta	name	5f	0090	-	-	same
+U+0090	unrar	lta	target	5f	0090	-	-	same
+U+0090	unrar	lta	comment	5f	0090	-	-	same
+U+0090	unrar	v	name	5f	0090	-	-	same
+U+0090	unrar	v	comment	5f	0090	-	-	same
+U+0090	unrar	vb	name	5f	0090	-	-	same
+U+0090	unrar	vt	name	5f	0090	-	-	same
+U+0090	unrar	vt	target	5f	0090	-	-	same
+U+0090	unrar	vt	comment	5f	0090	-	-	same
+U+0090	unrar	vta	name	5f	0090	-	-	same
+U+0090	unrar	vta	target	5f	0090	-	-	same
+U+0090	unrar	vta	comment	5f	0090	-	-	same
+U+0090	unrar	t	name	5f	0090	-	-	same
+U+0090	unrar	t	comment	5f	0090	-	-	same
+U+0090	unrar	x -o+	name	5f	0090	-	-	same
+U+0090	unrar	x -o+	comment	5f	0090	-	-	same
+U+0090	unrar	e -o+	name	5f	0090	-	-	same
+U+0090	unrar	e -o+	comment	5f	0090	-	-	same
+U+0090	unrar	bad:t	name	5f	0090	5f	0090	same
+U+0090	unrar	bad:t	comment	5f	0090	-	-	same
+U+0090	unrar	bad:x -o+	name	5f	0090	5f	0090	same
+U+0090	unrar	bad:x -o+	comment	5f	0090	-	-	same
+U+0090	unrar	bad:p	name	-	-	5f	0090	same
+U+0090	rar	lb	name	5f	0090	-	-	same
+U+0090	rar	l	name	5f	0090	-	-	same
+U+0090	rar	l	comment	5f	0090	-	-	same
+U+0090	rar	lt	name	5f	0090	-	-	same
+U+0090	rar	lt	target	5f	0090	-	-	same
+U+0090	rar	lt	comment	5f	0090	-	-	same
+U+0090	rar	lta	name	5f	0090	-	-	same
+U+0090	rar	lta	target	5f	0090	-	-	same
+U+0090	rar	lta	comment	5f	0090	-	-	same
+U+0090	rar	v	name	5f	0090	-	-	same
+U+0090	rar	v	comment	5f	0090	-	-	same
+U+0090	rar	vb	name	5f	0090	-	-	same
+U+0090	rar	vt	name	5f	0090	-	-	same
+U+0090	rar	vt	target	5f	0090	-	-	same
+U+0090	rar	vt	comment	5f	0090	-	-	same
+U+0090	rar	vta	name	5f	0090	-	-	same
+U+0090	rar	vta	target	5f	0090	-	-	same
+U+0090	rar	vta	comment	5f	0090	-	-	same
+U+0090	rar	t	name	5f	0090	-	-	same
+U+0090	rar	t	comment	5f	0090	-	-	same
+U+0090	rar	x -o+	name	5f	0090	-	-	same
+U+0090	rar	x -o+	comment	5f	0090	-	-	same
+U+0090	rar	e -o+	name	5f	0090	-	-	same
+U+0090	rar	e -o+	comment	5f	0090	-	-	same
+U+0090	rar	bad:t	name	5f	0090	5f	0090	same
+U+0090	rar	bad:t	comment	5f	0090	-	-	same
+U+0090	rar	bad:x -o+	name	5f	0090	5f	0090	same
+U+0090	rar	bad:x -o+	comment	5f	0090	-	-	same
+U+0090	rar	bad:p	name	-	-	5f	0090	same
+U+0090	rar	cw	comment	90	00c9	-	-	same
+U+0090	rar	d	name	5f	0090	-	-	same
+U+0090	rar	d	comment	5f	0090	-	-	same
+U+0090	rar	r	name	5f	0090	-	-	same
+U+0091	unrar	lb	name	3f	0091	-	-	same
+U+0091	unrar	l	name	3f	0091	-	-	same
+U+0091	unrar	l	comment	3f	0091	-	-	same
+U+0091	unrar	lt	name	3f	0091	-	-	same
+U+0091	unrar	lt	target	3f	0091	-	-	same
+U+0091	unrar	lt	comment	3f	0091	-	-	same
+U+0091	unrar	lta	name	3f	0091	-	-	same
+U+0091	unrar	lta	target	3f	0091	-	-	same
+U+0091	unrar	lta	comment	3f	0091	-	-	same
+U+0091	unrar	v	name	3f	0091	-	-	same
+U+0091	unrar	v	comment	3f	0091	-	-	same
+U+0091	unrar	vb	name	3f	0091	-	-	same
+U+0091	unrar	vt	name	3f	0091	-	-	same
+U+0091	unrar	vt	target	3f	0091	-	-	same
+U+0091	unrar	vt	comment	3f	0091	-	-	same
+U+0091	unrar	vta	name	3f	0091	-	-	same
+U+0091	unrar	vta	target	3f	0091	-	-	same
+U+0091	unrar	vta	comment	3f	0091	-	-	same
+U+0091	unrar	t	name	3f	0091	-	-	same
+U+0091	unrar	t	comment	3f	0091	-	-	same
+U+0091	unrar	x -o+	name	3f	0091	-	-	same
+U+0091	unrar	x -o+	comment	3f	0091	-	-	same
+U+0091	unrar	e -o+	name	3f	0091	-	-	same
+U+0091	unrar	e -o+	comment	3f	0091	-	-	same
+U+0091	unrar	bad:t	name	3f	0091	3f	0091	same
+U+0091	unrar	bad:t	comment	3f	0091	-	-	same
+U+0091	unrar	bad:x -o+	name	3f	0091	3f	0091	same
+U+0091	unrar	bad:x -o+	comment	3f	0091	-	-	same
+U+0091	unrar	bad:p	name	-	-	3f	0091	same
+U+0091	rar	lb	name	3f	0091	-	-	same
+U+0091	rar	l	name	3f	0091	-	-	same
+U+0091	rar	l	comment	3f	0091	-	-	same
+U+0091	rar	lt	name	3f	0091	-	-	same
+U+0091	rar	lt	target	3f	0091	-	-	same
+U+0091	rar	lt	comment	3f	0091	-	-	same
+U+0091	rar	lta	name	3f	0091	-	-	same
+U+0091	rar	lta	target	3f	0091	-	-	same
+U+0091	rar	lta	comment	3f	0091	-	-	same
+U+0091	rar	v	name	3f	0091	-	-	same
+U+0091	rar	v	comment	3f	0091	-	-	same
+U+0091	rar	vb	name	3f	0091	-	-	same
+U+0091	rar	vt	name	3f	0091	-	-	same
+U+0091	rar	vt	target	3f	0091	-	-	same
+U+0091	rar	vt	comment	3f	0091	-	-	same
+U+0091	rar	vta	name	3f	0091	-	-	same
+U+0091	rar	vta	target	3f	0091	-	-	same
+U+0091	rar	vta	comment	3f	0091	-	-	same
+U+0091	rar	t	name	3f	0091	-	-	same
+U+0091	rar	t	comment	3f	0091	-	-	same
+U+0091	rar	x -o+	name	3f	0091	-	-	same
+U+0091	rar	x -o+	comment	3f	0091	-	-	same
+U+0091	rar	e -o+	name	3f	0091	-	-	same
+U+0091	rar	e -o+	comment	3f	0091	-	-	same
+U+0091	rar	bad:t	name	3f	0091	3f	0091	same
+U+0091	rar	bad:t	comment	3f	0091	-	-	same
+U+0091	rar	bad:x -o+	name	3f	0091	3f	0091	same
+U+0091	rar	bad:x -o+	comment	3f	0091	-	-	same
+U+0091	rar	bad:p	name	-	-	3f	0091	same
+U+0091	rar	cw	comment	3f	003f	-	-	same
+U+0091	rar	d	name	3f	0091	-	-	same
+U+0091	rar	d	comment	3f	0091	-	-	same
+U+0091	rar	r	name	3f	0091	-	-	same
+U+0092	unrar	lb	name	3f	0092	-	-	same
+U+0092	unrar	l	name	3f	0092	-	-	same
+U+0092	unrar	l	comment	3f	0092	-	-	same
+U+0092	unrar	lt	name	3f	0092	-	-	same
+U+0092	unrar	lt	target	3f	0092	-	-	same
+U+0092	unrar	lt	comment	3f	0092	-	-	same
+U+0092	unrar	lta	name	3f	0092	-	-	same
+U+0092	unrar	lta	target	3f	0092	-	-	same
+U+0092	unrar	lta	comment	3f	0092	-	-	same
+U+0092	unrar	v	name	3f	0092	-	-	same
+U+0092	unrar	v	comment	3f	0092	-	-	same
+U+0092	unrar	vb	name	3f	0092	-	-	same
+U+0092	unrar	vt	name	3f	0092	-	-	same
+U+0092	unrar	vt	target	3f	0092	-	-	same
+U+0092	unrar	vt	comment	3f	0092	-	-	same
+U+0092	unrar	vta	name	3f	0092	-	-	same
+U+0092	unrar	vta	target	3f	0092	-	-	same
+U+0092	unrar	vta	comment	3f	0092	-	-	same
+U+0092	unrar	t	name	3f	0092	-	-	same
+U+0092	unrar	t	comment	3f	0092	-	-	same
+U+0092	unrar	x -o+	name	3f	0092	-	-	same
+U+0092	unrar	x -o+	comment	3f	0092	-	-	same
+U+0092	unrar	e -o+	name	3f	0092	-	-	same
+U+0092	unrar	e -o+	comment	3f	0092	-	-	same
+U+0092	unrar	bad:t	name	3f	0092	3f	0092	same
+U+0092	unrar	bad:t	comment	3f	0092	-	-	same
+U+0092	unrar	bad:x -o+	name	3f	0092	3f	0092	same
+U+0092	unrar	bad:x -o+	comment	3f	0092	-	-	same
+U+0092	unrar	bad:p	name	-	-	3f	0092	same
+U+0092	rar	lb	name	3f	0092	-	-	same
+U+0092	rar	l	name	3f	0092	-	-	same
+U+0092	rar	l	comment	3f	0092	-	-	same
+U+0092	rar	lt	name	3f	0092	-	-	same
+U+0092	rar	lt	target	3f	0092	-	-	same
+U+0092	rar	lt	comment	3f	0092	-	-	same
+U+0092	rar	lta	name	3f	0092	-	-	same
+U+0092	rar	lta	target	3f	0092	-	-	same
+U+0092	rar	lta	comment	3f	0092	-	-	same
+U+0092	rar	v	name	3f	0092	-	-	same
+U+0092	rar	v	comment	3f	0092	-	-	same
+U+0092	rar	vb	name	3f	0092	-	-	same
+U+0092	rar	vt	name	3f	0092	-	-	same
+U+0092	rar	vt	target	3f	0092	-	-	same
+U+0092	rar	vt	comment	3f	0092	-	-	same
+U+0092	rar	vta	name	3f	0092	-	-	same
+U+0092	rar	vta	target	3f	0092	-	-	same
+U+0092	rar	vta	comment	3f	0092	-	-	same
+U+0092	rar	t	name	3f	0092	-	-	same
+U+0092	rar	t	comment	3f	0092	-	-	same
+U+0092	rar	x -o+	name	3f	0092	-	-	same
+U+0092	rar	x -o+	comment	3f	0092	-	-	same
+U+0092	rar	e -o+	name	3f	0092	-	-	same
+U+0092	rar	e -o+	comment	3f	0092	-	-	same
+U+0092	rar	bad:t	name	3f	0092	3f	0092	same
+U+0092	rar	bad:t	comment	3f	0092	-	-	same
+U+0092	rar	bad:x -o+	name	3f	0092	3f	0092	same
+U+0092	rar	bad:x -o+	comment	3f	0092	-	-	same
+U+0092	rar	bad:p	name	-	-	3f	0092	same
+U+0092	rar	cw	comment	3f	003f	-	-	same
+U+0092	rar	d	name	3f	0092	-	-	same
+U+0092	rar	d	comment	3f	0092	-	-	same
+U+0092	rar	r	name	3f	0092	-	-	same
+U+0093	unrar	lb	name	3f	0093	-	-	same
+U+0093	unrar	l	name	3f	0093	-	-	same
+U+0093	unrar	l	comment	3f	0093	-	-	same
+U+0093	unrar	lt	name	3f	0093	-	-	same
+U+0093	unrar	lt	target	3f	0093	-	-	same
+U+0093	unrar	lt	comment	3f	0093	-	-	same
+U+0093	unrar	lta	name	3f	0093	-	-	same
+U+0093	unrar	lta	target	3f	0093	-	-	same
+U+0093	unrar	lta	comment	3f	0093	-	-	same
+U+0093	unrar	v	name	3f	0093	-	-	same
+U+0093	unrar	v	comment	3f	0093	-	-	same
+U+0093	unrar	vb	name	3f	0093	-	-	same
+U+0093	unrar	vt	name	3f	0093	-	-	same
+U+0093	unrar	vt	target	3f	0093	-	-	same
+U+0093	unrar	vt	comment	3f	0093	-	-	same
+U+0093	unrar	vta	name	3f	0093	-	-	same
+U+0093	unrar	vta	target	3f	0093	-	-	same
+U+0093	unrar	vta	comment	3f	0093	-	-	same
+U+0093	unrar	t	name	3f	0093	-	-	same
+U+0093	unrar	t	comment	3f	0093	-	-	same
+U+0093	unrar	x -o+	name	3f	0093	-	-	same
+U+0093	unrar	x -o+	comment	3f	0093	-	-	same
+U+0093	unrar	e -o+	name	3f	0093	-	-	same
+U+0093	unrar	e -o+	comment	3f	0093	-	-	same
+U+0093	unrar	bad:t	name	3f	0093	3f	0093	same
+U+0093	unrar	bad:t	comment	3f	0093	-	-	same
+U+0093	unrar	bad:x -o+	name	3f	0093	3f	0093	same
+U+0093	unrar	bad:x -o+	comment	3f	0093	-	-	same
+U+0093	unrar	bad:p	name	-	-	3f	0093	same
+U+0093	rar	lb	name	3f	0093	-	-	same
+U+0093	rar	l	name	3f	0093	-	-	same
+U+0093	rar	l	comment	3f	0093	-	-	same
+U+0093	rar	lt	name	3f	0093	-	-	same
+U+0093	rar	lt	target	3f	0093	-	-	same
+U+0093	rar	lt	comment	3f	0093	-	-	same
+U+0093	rar	lta	name	3f	0093	-	-	same
+U+0093	rar	lta	target	3f	0093	-	-	same
+U+0093	rar	lta	comment	3f	0093	-	-	same
+U+0093	rar	v	name	3f	0093	-	-	same
+U+0093	rar	v	comment	3f	0093	-	-	same
+U+0093	rar	vb	name	3f	0093	-	-	same
+U+0093	rar	vt	name	3f	0093	-	-	same
+U+0093	rar	vt	target	3f	0093	-	-	same
+U+0093	rar	vt	comment	3f	0093	-	-	same
+U+0093	rar	vta	name	3f	0093	-	-	same
+U+0093	rar	vta	target	3f	0093	-	-	same
+U+0093	rar	vta	comment	3f	0093	-	-	same
+U+0093	rar	t	name	3f	0093	-	-	same
+U+0093	rar	t	comment	3f	0093	-	-	same
+U+0093	rar	x -o+	name	3f	0093	-	-	same
+U+0093	rar	x -o+	comment	3f	0093	-	-	same
+U+0093	rar	e -o+	name	3f	0093	-	-	same
+U+0093	rar	e -o+	comment	3f	0093	-	-	same
+U+0093	rar	bad:t	name	3f	0093	3f	0093	same
+U+0093	rar	bad:t	comment	3f	0093	-	-	same
+U+0093	rar	bad:x -o+	name	3f	0093	3f	0093	same
+U+0093	rar	bad:x -o+	comment	3f	0093	-	-	same
+U+0093	rar	bad:p	name	-	-	3f	0093	same
+U+0093	rar	cw	comment	3f	003f	-	-	same
+U+0093	rar	d	name	3f	0093	-	-	same
+U+0093	rar	d	comment	3f	0093	-	-	same
+U+0093	rar	r	name	3f	0093	-	-	same
+U+0094	unrar	lb	name	3f	0094	-	-	same
+U+0094	unrar	l	name	3f	0094	-	-	same
+U+0094	unrar	l	comment	3f	0094	-	-	same
+U+0094	unrar	lt	name	3f	0094	-	-	same
+U+0094	unrar	lt	target	3f	0094	-	-	same
+U+0094	unrar	lt	comment	3f	0094	-	-	same
+U+0094	unrar	lta	name	3f	0094	-	-	same
+U+0094	unrar	lta	target	3f	0094	-	-	same
+U+0094	unrar	lta	comment	3f	0094	-	-	same
+U+0094	unrar	v	name	3f	0094	-	-	same
+U+0094	unrar	v	comment	3f	0094	-	-	same
+U+0094	unrar	vb	name	3f	0094	-	-	same
+U+0094	unrar	vt	name	3f	0094	-	-	same
+U+0094	unrar	vt	target	3f	0094	-	-	same
+U+0094	unrar	vt	comment	3f	0094	-	-	same
+U+0094	unrar	vta	name	3f	0094	-	-	same
+U+0094	unrar	vta	target	3f	0094	-	-	same
+U+0094	unrar	vta	comment	3f	0094	-	-	same
+U+0094	unrar	t	name	3f	0094	-	-	same
+U+0094	unrar	t	comment	3f	0094	-	-	same
+U+0094	unrar	x -o+	name	3f	0094	-	-	same
+U+0094	unrar	x -o+	comment	3f	0094	-	-	same
+U+0094	unrar	e -o+	name	3f	0094	-	-	same
+U+0094	unrar	e -o+	comment	3f	0094	-	-	same
+U+0094	unrar	bad:t	name	3f	0094	3f	0094	same
+U+0094	unrar	bad:t	comment	3f	0094	-	-	same
+U+0094	unrar	bad:x -o+	name	3f	0094	3f	0094	same
+U+0094	unrar	bad:x -o+	comment	3f	0094	-	-	same
+U+0094	unrar	bad:p	name	-	-	3f	0094	same
+U+0094	rar	lb	name	3f	0094	-	-	same
+U+0094	rar	l	name	3f	0094	-	-	same
+U+0094	rar	l	comment	3f	0094	-	-	same
+U+0094	rar	lt	name	3f	0094	-	-	same
+U+0094	rar	lt	target	3f	0094	-	-	same
+U+0094	rar	lt	comment	3f	0094	-	-	same
+U+0094	rar	lta	name	3f	0094	-	-	same
+U+0094	rar	lta	target	3f	0094	-	-	same
+U+0094	rar	lta	comment	3f	0094	-	-	same
+U+0094	rar	v	name	3f	0094	-	-	same
+U+0094	rar	v	comment	3f	0094	-	-	same
+U+0094	rar	vb	name	3f	0094	-	-	same
+U+0094	rar	vt	name	3f	0094	-	-	same
+U+0094	rar	vt	target	3f	0094	-	-	same
+U+0094	rar	vt	comment	3f	0094	-	-	same
+U+0094	rar	vta	name	3f	0094	-	-	same
+U+0094	rar	vta	target	3f	0094	-	-	same
+U+0094	rar	vta	comment	3f	0094	-	-	same
+U+0094	rar	t	name	3f	0094	-	-	same
+U+0094	rar	t	comment	3f	0094	-	-	same
+U+0094	rar	x -o+	name	3f	0094	-	-	same
+U+0094	rar	x -o+	comment	3f	0094	-	-	same
+U+0094	rar	e -o+	name	3f	0094	-	-	same
+U+0094	rar	e -o+	comment	3f	0094	-	-	same
+U+0094	rar	bad:t	name	3f	0094	3f	0094	same
+U+0094	rar	bad:t	comment	3f	0094	-	-	same
+U+0094	rar	bad:x -o+	name	3f	0094	3f	0094	same
+U+0094	rar	bad:x -o+	comment	3f	0094	-	-	same
+U+0094	rar	bad:p	name	-	-	3f	0094	same
+U+0094	rar	cw	comment	3f	003f	-	-	same
+U+0094	rar	d	name	3f	0094	-	-	same
+U+0094	rar	d	comment	3f	0094	-	-	same
+U+0094	rar	r	name	3f	0094	-	-	same
+U+0095	unrar	lb	name	3f	0095	-	-	same
+U+0095	unrar	l	name	3f	0095	-	-	same
+U+0095	unrar	l	comment	3f	0095	-	-	same
+U+0095	unrar	lt	name	3f	0095	-	-	same
+U+0095	unrar	lt	target	3f	0095	-	-	same
+U+0095	unrar	lt	comment	3f	0095	-	-	same
+U+0095	unrar	lta	name	3f	0095	-	-	same
+U+0095	unrar	lta	target	3f	0095	-	-	same
+U+0095	unrar	lta	comment	3f	0095	-	-	same
+U+0095	unrar	v	name	3f	0095	-	-	same
+U+0095	unrar	v	comment	3f	0095	-	-	same
+U+0095	unrar	vb	name	3f	0095	-	-	same
+U+0095	unrar	vt	name	3f	0095	-	-	same
+U+0095	unrar	vt	target	3f	0095	-	-	same
+U+0095	unrar	vt	comment	3f	0095	-	-	same
+U+0095	unrar	vta	name	3f	0095	-	-	same
+U+0095	unrar	vta	target	3f	0095	-	-	same
+U+0095	unrar	vta	comment	3f	0095	-	-	same
+U+0095	unrar	t	name	3f	0095	-	-	same
+U+0095	unrar	t	comment	3f	0095	-	-	same
+U+0095	unrar	x -o+	name	3f	0095	-	-	same
+U+0095	unrar	x -o+	comment	3f	0095	-	-	same
+U+0095	unrar	e -o+	name	3f	0095	-	-	same
+U+0095	unrar	e -o+	comment	3f	0095	-	-	same
+U+0095	unrar	bad:t	name	3f	0095	3f	0095	same
+U+0095	unrar	bad:t	comment	3f	0095	-	-	same
+U+0095	unrar	bad:x -o+	name	3f	0095	3f	0095	same
+U+0095	unrar	bad:x -o+	comment	3f	0095	-	-	same
+U+0095	unrar	bad:p	name	-	-	3f	0095	same
+U+0095	rar	lb	name	3f	0095	-	-	same
+U+0095	rar	l	name	3f	0095	-	-	same
+U+0095	rar	l	comment	3f	0095	-	-	same
+U+0095	rar	lt	name	3f	0095	-	-	same
+U+0095	rar	lt	target	3f	0095	-	-	same
+U+0095	rar	lt	comment	3f	0095	-	-	same
+U+0095	rar	lta	name	3f	0095	-	-	same
+U+0095	rar	lta	target	3f	0095	-	-	same
+U+0095	rar	lta	comment	3f	0095	-	-	same
+U+0095	rar	v	name	3f	0095	-	-	same
+U+0095	rar	v	comment	3f	0095	-	-	same
+U+0095	rar	vb	name	3f	0095	-	-	same
+U+0095	rar	vt	name	3f	0095	-	-	same
+U+0095	rar	vt	target	3f	0095	-	-	same
+U+0095	rar	vt	comment	3f	0095	-	-	same
+U+0095	rar	vta	name	3f	0095	-	-	same
+U+0095	rar	vta	target	3f	0095	-	-	same
+U+0095	rar	vta	comment	3f	0095	-	-	same
+U+0095	rar	t	name	3f	0095	-	-	same
+U+0095	rar	t	comment	3f	0095	-	-	same
+U+0095	rar	x -o+	name	3f	0095	-	-	same
+U+0095	rar	x -o+	comment	3f	0095	-	-	same
+U+0095	rar	e -o+	name	3f	0095	-	-	same
+U+0095	rar	e -o+	comment	3f	0095	-	-	same
+U+0095	rar	bad:t	name	3f	0095	3f	0095	same
+U+0095	rar	bad:t	comment	3f	0095	-	-	same
+U+0095	rar	bad:x -o+	name	3f	0095	3f	0095	same
+U+0095	rar	bad:x -o+	comment	3f	0095	-	-	same
+U+0095	rar	bad:p	name	-	-	3f	0095	same
+U+0095	rar	cw	comment	3f	003f	-	-	same
+U+0095	rar	d	name	3f	0095	-	-	same
+U+0095	rar	d	comment	3f	0095	-	-	same
+U+0095	rar	r	name	3f	0095	-	-	same
+U+0096	unrar	lb	name	3f	0096	-	-	same
+U+0096	unrar	l	name	3f	0096	-	-	same
+U+0096	unrar	l	comment	3f	0096	-	-	same
+U+0096	unrar	lt	name	3f	0096	-	-	same
+U+0096	unrar	lt	target	3f	0096	-	-	same
+U+0096	unrar	lt	comment	3f	0096	-	-	same
+U+0096	unrar	lta	name	3f	0096	-	-	same
+U+0096	unrar	lta	target	3f	0096	-	-	same
+U+0096	unrar	lta	comment	3f	0096	-	-	same
+U+0096	unrar	v	name	3f	0096	-	-	same
+U+0096	unrar	v	comment	3f	0096	-	-	same
+U+0096	unrar	vb	name	3f	0096	-	-	same
+U+0096	unrar	vt	name	3f	0096	-	-	same
+U+0096	unrar	vt	target	3f	0096	-	-	same
+U+0096	unrar	vt	comment	3f	0096	-	-	same
+U+0096	unrar	vta	name	3f	0096	-	-	same
+U+0096	unrar	vta	target	3f	0096	-	-	same
+U+0096	unrar	vta	comment	3f	0096	-	-	same
+U+0096	unrar	t	name	3f	0096	-	-	same
+U+0096	unrar	t	comment	3f	0096	-	-	same
+U+0096	unrar	x -o+	name	3f	0096	-	-	same
+U+0096	unrar	x -o+	comment	3f	0096	-	-	same
+U+0096	unrar	e -o+	name	3f	0096	-	-	same
+U+0096	unrar	e -o+	comment	3f	0096	-	-	same
+U+0096	unrar	bad:t	name	3f	0096	3f	0096	same
+U+0096	unrar	bad:t	comment	3f	0096	-	-	same
+U+0096	unrar	bad:x -o+	name	3f	0096	3f	0096	same
+U+0096	unrar	bad:x -o+	comment	3f	0096	-	-	same
+U+0096	unrar	bad:p	name	-	-	3f	0096	same
+U+0096	rar	lb	name	3f	0096	-	-	same
+U+0096	rar	l	name	3f	0096	-	-	same
+U+0096	rar	l	comment	3f	0096	-	-	same
+U+0096	rar	lt	name	3f	0096	-	-	same
+U+0096	rar	lt	target	3f	0096	-	-	same
+U+0096	rar	lt	comment	3f	0096	-	-	same
+U+0096	rar	lta	name	3f	0096	-	-	same
+U+0096	rar	lta	target	3f	0096	-	-	same
+U+0096	rar	lta	comment	3f	0096	-	-	same
+U+0096	rar	v	name	3f	0096	-	-	same
+U+0096	rar	v	comment	3f	0096	-	-	same
+U+0096	rar	vb	name	3f	0096	-	-	same
+U+0096	rar	vt	name	3f	0096	-	-	same
+U+0096	rar	vt	target	3f	0096	-	-	same
+U+0096	rar	vt	comment	3f	0096	-	-	same
+U+0096	rar	vta	name	3f	0096	-	-	same
+U+0096	rar	vta	target	3f	0096	-	-	same
+U+0096	rar	vta	comment	3f	0096	-	-	same
+U+0096	rar	t	name	3f	0096	-	-	same
+U+0096	rar	t	comment	3f	0096	-	-	same
+U+0096	rar	x -o+	name	3f	0096	-	-	same
+U+0096	rar	x -o+	comment	3f	0096	-	-	same
+U+0096	rar	e -o+	name	3f	0096	-	-	same
+U+0096	rar	e -o+	comment	3f	0096	-	-	same
+U+0096	rar	bad:t	name	3f	0096	3f	0096	same
+U+0096	rar	bad:t	comment	3f	0096	-	-	same
+U+0096	rar	bad:x -o+	name	3f	0096	3f	0096	same
+U+0096	rar	bad:x -o+	comment	3f	0096	-	-	same
+U+0096	rar	bad:p	name	-	-	3f	0096	same
+U+0096	rar	cw	comment	3f	003f	-	-	same
+U+0096	rar	d	name	3f	0096	-	-	same
+U+0096	rar	d	comment	3f	0096	-	-	same
+U+0096	rar	r	name	3f	0096	-	-	same
+U+0097	unrar	lb	name	3f	0097	-	-	same
+U+0097	unrar	l	name	3f	0097	-	-	same
+U+0097	unrar	l	comment	3f	0097	-	-	same
+U+0097	unrar	lt	name	3f	0097	-	-	same
+U+0097	unrar	lt	target	3f	0097	-	-	same
+U+0097	unrar	lt	comment	3f	0097	-	-	same
+U+0097	unrar	lta	name	3f	0097	-	-	same
+U+0097	unrar	lta	target	3f	0097	-	-	same
+U+0097	unrar	lta	comment	3f	0097	-	-	same
+U+0097	unrar	v	name	3f	0097	-	-	same
+U+0097	unrar	v	comment	3f	0097	-	-	same
+U+0097	unrar	vb	name	3f	0097	-	-	same
+U+0097	unrar	vt	name	3f	0097	-	-	same
+U+0097	unrar	vt	target	3f	0097	-	-	same
+U+0097	unrar	vt	comment	3f	0097	-	-	same
+U+0097	unrar	vta	name	3f	0097	-	-	same
+U+0097	unrar	vta	target	3f	0097	-	-	same
+U+0097	unrar	vta	comment	3f	0097	-	-	same
+U+0097	unrar	t	name	3f	0097	-	-	same
+U+0097	unrar	t	comment	3f	0097	-	-	same
+U+0097	unrar	x -o+	name	3f	0097	-	-	same
+U+0097	unrar	x -o+	comment	3f	0097	-	-	same
+U+0097	unrar	e -o+	name	3f	0097	-	-	same
+U+0097	unrar	e -o+	comment	3f	0097	-	-	same
+U+0097	unrar	bad:t	name	3f	0097	3f	0097	same
+U+0097	unrar	bad:t	comment	3f	0097	-	-	same
+U+0097	unrar	bad:x -o+	name	3f	0097	3f	0097	same
+U+0097	unrar	bad:x -o+	comment	3f	0097	-	-	same
+U+0097	unrar	bad:p	name	-	-	3f	0097	same
+U+0097	rar	lb	name	3f	0097	-	-	same
+U+0097	rar	l	name	3f	0097	-	-	same
+U+0097	rar	l	comment	3f	0097	-	-	same
+U+0097	rar	lt	name	3f	0097	-	-	same
+U+0097	rar	lt	target	3f	0097	-	-	same
+U+0097	rar	lt	comment	3f	0097	-	-	same
+U+0097	rar	lta	name	3f	0097	-	-	same
+U+0097	rar	lta	target	3f	0097	-	-	same
+U+0097	rar	lta	comment	3f	0097	-	-	same
+U+0097	rar	v	name	3f	0097	-	-	same
+U+0097	rar	v	comment	3f	0097	-	-	same
+U+0097	rar	vb	name	3f	0097	-	-	same
+U+0097	rar	vt	name	3f	0097	-	-	same
+U+0097	rar	vt	target	3f	0097	-	-	same
+U+0097	rar	vt	comment	3f	0097	-	-	same
+U+0097	rar	vta	name	3f	0097	-	-	same
+U+0097	rar	vta	target	3f	0097	-	-	same
+U+0097	rar	vta	comment	3f	0097	-	-	same
+U+0097	rar	t	name	3f	0097	-	-	same
+U+0097	rar	t	comment	3f	0097	-	-	same
+U+0097	rar	x -o+	name	3f	0097	-	-	same
+U+0097	rar	x -o+	comment	3f	0097	-	-	same
+U+0097	rar	e -o+	name	3f	0097	-	-	same
+U+0097	rar	e -o+	comment	3f	0097	-	-	same
+U+0097	rar	bad:t	name	3f	0097	3f	0097	same
+U+0097	rar	bad:t	comment	3f	0097	-	-	same
+U+0097	rar	bad:x -o+	name	3f	0097	3f	0097	same
+U+0097	rar	bad:x -o+	comment	3f	0097	-	-	same
+U+0097	rar	bad:p	name	-	-	3f	0097	same
+U+0097	rar	cw	comment	3f	003f	-	-	same
+U+0097	rar	d	name	3f	0097	-	-	same
+U+0097	rar	d	comment	3f	0097	-	-	same
+U+0097	rar	r	name	3f	0097	-	-	same
+U+0098	unrar	lb	name	3f	0098	-	-	same
+U+0098	unrar	l	name	3f	0098	-	-	same
+U+0098	unrar	l	comment	3f	0098	-	-	same
+U+0098	unrar	lt	name	3f	0098	-	-	same
+U+0098	unrar	lt	target	3f	0098	-	-	same
+U+0098	unrar	lt	comment	3f	0098	-	-	same
+U+0098	unrar	lta	name	3f	0098	-	-	same
+U+0098	unrar	lta	target	3f	0098	-	-	same
+U+0098	unrar	lta	comment	3f	0098	-	-	same
+U+0098	unrar	v	name	3f	0098	-	-	same
+U+0098	unrar	v	comment	3f	0098	-	-	same
+U+0098	unrar	vb	name	3f	0098	-	-	same
+U+0098	unrar	vt	name	3f	0098	-	-	same
+U+0098	unrar	vt	target	3f	0098	-	-	same
+U+0098	unrar	vt	comment	3f	0098	-	-	same
+U+0098	unrar	vta	name	3f	0098	-	-	same
+U+0098	unrar	vta	target	3f	0098	-	-	same
+U+0098	unrar	vta	comment	3f	0098	-	-	same
+U+0098	unrar	t	name	3f	0098	-	-	same
+U+0098	unrar	t	comment	3f	0098	-	-	same
+U+0098	unrar	x -o+	name	3f	0098	-	-	same
+U+0098	unrar	x -o+	comment	3f	0098	-	-	same
+U+0098	unrar	e -o+	name	3f	0098	-	-	same
+U+0098	unrar	e -o+	comment	3f	0098	-	-	same
+U+0098	unrar	bad:t	name	3f	0098	3f	0098	same
+U+0098	unrar	bad:t	comment	3f	0098	-	-	same
+U+0098	unrar	bad:x -o+	name	3f	0098	3f	0098	same
+U+0098	unrar	bad:x -o+	comment	3f	0098	-	-	same
+U+0098	unrar	bad:p	name	-	-	3f	0098	same
+U+0098	rar	lb	name	3f	0098	-	-	same
+U+0098	rar	l	name	3f	0098	-	-	same
+U+0098	rar	l	comment	3f	0098	-	-	same
+U+0098	rar	lt	name	3f	0098	-	-	same
+U+0098	rar	lt	target	3f	0098	-	-	same
+U+0098	rar	lt	comment	3f	0098	-	-	same
+U+0098	rar	lta	name	3f	0098	-	-	same
+U+0098	rar	lta	target	3f	0098	-	-	same
+U+0098	rar	lta	comment	3f	0098	-	-	same
+U+0098	rar	v	name	3f	0098	-	-	same
+U+0098	rar	v	comment	3f	0098	-	-	same
+U+0098	rar	vb	name	3f	0098	-	-	same
+U+0098	rar	vt	name	3f	0098	-	-	same
+U+0098	rar	vt	target	3f	0098	-	-	same
+U+0098	rar	vt	comment	3f	0098	-	-	same
+U+0098	rar	vta	name	3f	0098	-	-	same
+U+0098	rar	vta	target	3f	0098	-	-	same
+U+0098	rar	vta	comment	3f	0098	-	-	same
+U+0098	rar	t	name	3f	0098	-	-	same
+U+0098	rar	t	comment	3f	0098	-	-	same
+U+0098	rar	x -o+	name	3f	0098	-	-	same
+U+0098	rar	x -o+	comment	3f	0098	-	-	same
+U+0098	rar	e -o+	name	3f	0098	-	-	same
+U+0098	rar	e -o+	comment	3f	0098	-	-	same
+U+0098	rar	bad:t	name	3f	0098	3f	0098	same
+U+0098	rar	bad:t	comment	3f	0098	-	-	same
+U+0098	rar	bad:x -o+	name	3f	0098	3f	0098	same
+U+0098	rar	bad:x -o+	comment	3f	0098	-	-	same
+U+0098	rar	bad:p	name	-	-	3f	0098	same
+U+0098	rar	cw	comment	3f	003f	-	-	same
+U+0098	rar	d	name	3f	0098	-	-	same
+U+0098	rar	d	comment	3f	0098	-	-	same
+U+0098	rar	r	name	3f	0098	-	-	same
+U+0099	unrar	lb	name	3f	0099	-	-	same
+U+0099	unrar	l	name	3f	0099	-	-	same
+U+0099	unrar	l	comment	3f	0099	-	-	same
+U+0099	unrar	lt	name	3f	0099	-	-	same
+U+0099	unrar	lt	target	3f	0099	-	-	same
+U+0099	unrar	lt	comment	3f	0099	-	-	same
+U+0099	unrar	lta	name	3f	0099	-	-	same
+U+0099	unrar	lta	target	3f	0099	-	-	same
+U+0099	unrar	lta	comment	3f	0099	-	-	same
+U+0099	unrar	v	name	3f	0099	-	-	same
+U+0099	unrar	v	comment	3f	0099	-	-	same
+U+0099	unrar	vb	name	3f	0099	-	-	same
+U+0099	unrar	vt	name	3f	0099	-	-	same
+U+0099	unrar	vt	target	3f	0099	-	-	same
+U+0099	unrar	vt	comment	3f	0099	-	-	same
+U+0099	unrar	vta	name	3f	0099	-	-	same
+U+0099	unrar	vta	target	3f	0099	-	-	same
+U+0099	unrar	vta	comment	3f	0099	-	-	same
+U+0099	unrar	t	name	3f	0099	-	-	same
+U+0099	unrar	t	comment	3f	0099	-	-	same
+U+0099	unrar	x -o+	name	3f	0099	-	-	same
+U+0099	unrar	x -o+	comment	3f	0099	-	-	same
+U+0099	unrar	e -o+	name	3f	0099	-	-	same
+U+0099	unrar	e -o+	comment	3f	0099	-	-	same
+U+0099	unrar	bad:t	name	3f	0099	3f	0099	same
+U+0099	unrar	bad:t	comment	3f	0099	-	-	same
+U+0099	unrar	bad:x -o+	name	3f	0099	3f	0099	same
+U+0099	unrar	bad:x -o+	comment	3f	0099	-	-	same
+U+0099	unrar	bad:p	name	-	-	3f	0099	same
+U+0099	rar	lb	name	3f	0099	-	-	same
+U+0099	rar	l	name	3f	0099	-	-	same
+U+0099	rar	l	comment	3f	0099	-	-	same
+U+0099	rar	lt	name	3f	0099	-	-	same
+U+0099	rar	lt	target	3f	0099	-	-	same
+U+0099	rar	lt	comment	3f	0099	-	-	same
+U+0099	rar	lta	name	3f	0099	-	-	same
+U+0099	rar	lta	target	3f	0099	-	-	same
+U+0099	rar	lta	comment	3f	0099	-	-	same
+U+0099	rar	v	name	3f	0099	-	-	same
+U+0099	rar	v	comment	3f	0099	-	-	same
+U+0099	rar	vb	name	3f	0099	-	-	same
+U+0099	rar	vt	name	3f	0099	-	-	same
+U+0099	rar	vt	target	3f	0099	-	-	same
+U+0099	rar	vt	comment	3f	0099	-	-	same
+U+0099	rar	vta	name	3f	0099	-	-	same
+U+0099	rar	vta	target	3f	0099	-	-	same
+U+0099	rar	vta	comment	3f	0099	-	-	same
+U+0099	rar	t	name	3f	0099	-	-	same
+U+0099	rar	t	comment	3f	0099	-	-	same
+U+0099	rar	x -o+	name	3f	0099	-	-	same
+U+0099	rar	x -o+	comment	3f	0099	-	-	same
+U+0099	rar	e -o+	name	3f	0099	-	-	same
+U+0099	rar	e -o+	comment	3f	0099	-	-	same
+U+0099	rar	bad:t	name	3f	0099	3f	0099	same
+U+0099	rar	bad:t	comment	3f	0099	-	-	same
+U+0099	rar	bad:x -o+	name	3f	0099	3f	0099	same
+U+0099	rar	bad:x -o+	comment	3f	0099	-	-	same
+U+0099	rar	bad:p	name	-	-	3f	0099	same
+U+0099	rar	cw	comment	3f	003f	-	-	same
+U+0099	rar	d	name	3f	0099	-	-	same
+U+0099	rar	d	comment	3f	0099	-	-	same
+U+0099	rar	r	name	3f	0099	-	-	same
+U+009A	unrar	lb	name	3f	009a	-	-	same
+U+009A	unrar	l	name	3f	009a	-	-	same
+U+009A	unrar	l	comment	3f	009a	-	-	same
+U+009A	unrar	lt	name	3f	009a	-	-	same
+U+009A	unrar	lt	target	3f	009a	-	-	same
+U+009A	unrar	lt	comment	3f	009a	-	-	same
+U+009A	unrar	lta	name	3f	009a	-	-	same
+U+009A	unrar	lta	target	3f	009a	-	-	same
+U+009A	unrar	lta	comment	3f	009a	-	-	same
+U+009A	unrar	v	name	3f	009a	-	-	same
+U+009A	unrar	v	comment	3f	009a	-	-	same
+U+009A	unrar	vb	name	3f	009a	-	-	same
+U+009A	unrar	vt	name	3f	009a	-	-	same
+U+009A	unrar	vt	target	3f	009a	-	-	same
+U+009A	unrar	vt	comment	3f	009a	-	-	same
+U+009A	unrar	vta	name	3f	009a	-	-	same
+U+009A	unrar	vta	target	3f	009a	-	-	same
+U+009A	unrar	vta	comment	3f	009a	-	-	same
+U+009A	unrar	t	name	3f	009a	-	-	same
+U+009A	unrar	t	comment	3f	009a	-	-	same
+U+009A	unrar	x -o+	name	3f	009a	-	-	same
+U+009A	unrar	x -o+	comment	3f	009a	-	-	same
+U+009A	unrar	e -o+	name	3f	009a	-	-	same
+U+009A	unrar	e -o+	comment	3f	009a	-	-	same
+U+009A	unrar	bad:t	name	3f	009a	3f	009a	same
+U+009A	unrar	bad:t	comment	3f	009a	-	-	same
+U+009A	unrar	bad:x -o+	name	3f	009a	3f	009a	same
+U+009A	unrar	bad:x -o+	comment	3f	009a	-	-	same
+U+009A	unrar	bad:p	name	-	-	3f	009a	same
+U+009A	rar	lb	name	3f	009a	-	-	same
+U+009A	rar	l	name	3f	009a	-	-	same
+U+009A	rar	l	comment	3f	009a	-	-	same
+U+009A	rar	lt	name	3f	009a	-	-	same
+U+009A	rar	lt	target	3f	009a	-	-	same
+U+009A	rar	lt	comment	3f	009a	-	-	same
+U+009A	rar	lta	name	3f	009a	-	-	same
+U+009A	rar	lta	target	3f	009a	-	-	same
+U+009A	rar	lta	comment	3f	009a	-	-	same
+U+009A	rar	v	name	3f	009a	-	-	same
+U+009A	rar	v	comment	3f	009a	-	-	same
+U+009A	rar	vb	name	3f	009a	-	-	same
+U+009A	rar	vt	name	3f	009a	-	-	same
+U+009A	rar	vt	target	3f	009a	-	-	same
+U+009A	rar	vt	comment	3f	009a	-	-	same
+U+009A	rar	vta	name	3f	009a	-	-	same
+U+009A	rar	vta	target	3f	009a	-	-	same
+U+009A	rar	vta	comment	3f	009a	-	-	same
+U+009A	rar	t	name	3f	009a	-	-	same
+U+009A	rar	t	comment	3f	009a	-	-	same
+U+009A	rar	x -o+	name	3f	009a	-	-	same
+U+009A	rar	x -o+	comment	3f	009a	-	-	same
+U+009A	rar	e -o+	name	3f	009a	-	-	same
+U+009A	rar	e -o+	comment	3f	009a	-	-	same
+U+009A	rar	bad:t	name	3f	009a	3f	009a	same
+U+009A	rar	bad:t	comment	3f	009a	-	-	same
+U+009A	rar	bad:x -o+	name	3f	009a	3f	009a	same
+U+009A	rar	bad:x -o+	comment	3f	009a	-	-	same
+U+009A	rar	bad:p	name	-	-	3f	009a	same
+U+009A	rar	cw	comment	3f	003f	-	-	same
+U+009A	rar	d	name	3f	009a	-	-	same
+U+009A	rar	d	comment	3f	009a	-	-	same
+U+009A	rar	r	name	3f	009a	-	-	same
+U+009B	unrar	lb	name	3f	009b	-	-	same
+U+009B	unrar	l	name	3f	009b	-	-	same
+U+009B	unrar	l	comment	3f	009b	-	-	same
+U+009B	unrar	lt	name	3f	009b	-	-	same
+U+009B	unrar	lt	target	3f	009b	-	-	same
+U+009B	unrar	lt	comment	3f	009b	-	-	same
+U+009B	unrar	lta	name	3f	009b	-	-	same
+U+009B	unrar	lta	target	3f	009b	-	-	same
+U+009B	unrar	lta	comment	3f	009b	-	-	same
+U+009B	unrar	v	name	3f	009b	-	-	same
+U+009B	unrar	v	comment	3f	009b	-	-	same
+U+009B	unrar	vb	name	3f	009b	-	-	same
+U+009B	unrar	vt	name	3f	009b	-	-	same
+U+009B	unrar	vt	target	3f	009b	-	-	same
+U+009B	unrar	vt	comment	3f	009b	-	-	same
+U+009B	unrar	vta	name	3f	009b	-	-	same
+U+009B	unrar	vta	target	3f	009b	-	-	same
+U+009B	unrar	vta	comment	3f	009b	-	-	same
+U+009B	unrar	t	name	3f	009b	-	-	same
+U+009B	unrar	t	comment	3f	009b	-	-	same
+U+009B	unrar	x -o+	name	3f	009b	-	-	same
+U+009B	unrar	x -o+	comment	3f	009b	-	-	same
+U+009B	unrar	e -o+	name	3f	009b	-	-	same
+U+009B	unrar	e -o+	comment	3f	009b	-	-	same
+U+009B	unrar	bad:t	name	3f	009b	3f	009b	same
+U+009B	unrar	bad:t	comment	3f	009b	-	-	same
+U+009B	unrar	bad:x -o+	name	3f	009b	3f	009b	same
+U+009B	unrar	bad:x -o+	comment	3f	009b	-	-	same
+U+009B	unrar	bad:p	name	-	-	3f	009b	same
+U+009B	rar	lb	name	3f	009b	-	-	same
+U+009B	rar	l	name	3f	009b	-	-	same
+U+009B	rar	l	comment	3f	009b	-	-	same
+U+009B	rar	lt	name	3f	009b	-	-	same
+U+009B	rar	lt	target	3f	009b	-	-	same
+U+009B	rar	lt	comment	3f	009b	-	-	same
+U+009B	rar	lta	name	3f	009b	-	-	same
+U+009B	rar	lta	target	3f	009b	-	-	same
+U+009B	rar	lta	comment	3f	009b	-	-	same
+U+009B	rar	v	name	3f	009b	-	-	same
+U+009B	rar	v	comment	3f	009b	-	-	same
+U+009B	rar	vb	name	3f	009b	-	-	same
+U+009B	rar	vt	name	3f	009b	-	-	same
+U+009B	rar	vt	target	3f	009b	-	-	same
+U+009B	rar	vt	comment	3f	009b	-	-	same
+U+009B	rar	vta	name	3f	009b	-	-	same
+U+009B	rar	vta	target	3f	009b	-	-	same
+U+009B	rar	vta	comment	3f	009b	-	-	same
+U+009B	rar	t	name	3f	009b	-	-	same
+U+009B	rar	t	comment	3f	009b	-	-	same
+U+009B	rar	x -o+	name	3f	009b	-	-	same
+U+009B	rar	x -o+	comment	3f	009b	-	-	same
+U+009B	rar	e -o+	name	3f	009b	-	-	same
+U+009B	rar	e -o+	comment	3f	009b	-	-	same
+U+009B	rar	bad:t	name	3f	009b	3f	009b	same
+U+009B	rar	bad:t	comment	3f	009b	-	-	same
+U+009B	rar	bad:x -o+	name	3f	009b	3f	009b	same
+U+009B	rar	bad:x -o+	comment	3f	009b	-	-	same
+U+009B	rar	bad:p	name	-	-	3f	009b	same
+U+009B	rar	cw	comment	3f	003f	-	-	same
+U+009B	rar	d	name	3f	009b	-	-	same
+U+009B	rar	d	comment	3f	009b	-	-	same
+U+009B	rar	r	name	3f	009b	-	-	same
+U+009C	unrar	lb	name	3f	009c	-	-	same
+U+009C	unrar	l	name	3f	009c	-	-	same
+U+009C	unrar	l	comment	3f	009c	-	-	same
+U+009C	unrar	lt	name	3f	009c	-	-	same
+U+009C	unrar	lt	target	3f	009c	-	-	same
+U+009C	unrar	lt	comment	3f	009c	-	-	same
+U+009C	unrar	lta	name	3f	009c	-	-	same
+U+009C	unrar	lta	target	3f	009c	-	-	same
+U+009C	unrar	lta	comment	3f	009c	-	-	same
+U+009C	unrar	v	name	3f	009c	-	-	same
+U+009C	unrar	v	comment	3f	009c	-	-	same
+U+009C	unrar	vb	name	3f	009c	-	-	same
+U+009C	unrar	vt	name	3f	009c	-	-	same
+U+009C	unrar	vt	target	3f	009c	-	-	same
+U+009C	unrar	vt	comment	3f	009c	-	-	same
+U+009C	unrar	vta	name	3f	009c	-	-	same
+U+009C	unrar	vta	target	3f	009c	-	-	same
+U+009C	unrar	vta	comment	3f	009c	-	-	same
+U+009C	unrar	t	name	3f	009c	-	-	same
+U+009C	unrar	t	comment	3f	009c	-	-	same
+U+009C	unrar	x -o+	name	3f	009c	-	-	same
+U+009C	unrar	x -o+	comment	3f	009c	-	-	same
+U+009C	unrar	e -o+	name	3f	009c	-	-	same
+U+009C	unrar	e -o+	comment	3f	009c	-	-	same
+U+009C	unrar	bad:t	name	3f	009c	3f	009c	same
+U+009C	unrar	bad:t	comment	3f	009c	-	-	same
+U+009C	unrar	bad:x -o+	name	3f	009c	3f	009c	same
+U+009C	unrar	bad:x -o+	comment	3f	009c	-	-	same
+U+009C	unrar	bad:p	name	-	-	3f	009c	same
+U+009C	rar	lb	name	3f	009c	-	-	same
+U+009C	rar	l	name	3f	009c	-	-	same
+U+009C	rar	l	comment	3f	009c	-	-	same
+U+009C	rar	lt	name	3f	009c	-	-	same
+U+009C	rar	lt	target	3f	009c	-	-	same
+U+009C	rar	lt	comment	3f	009c	-	-	same
+U+009C	rar	lta	name	3f	009c	-	-	same
+U+009C	rar	lta	target	3f	009c	-	-	same
+U+009C	rar	lta	comment	3f	009c	-	-	same
+U+009C	rar	v	name	3f	009c	-	-	same
+U+009C	rar	v	comment	3f	009c	-	-	same
+U+009C	rar	vb	name	3f	009c	-	-	same
+U+009C	rar	vt	name	3f	009c	-	-	same
+U+009C	rar	vt	target	3f	009c	-	-	same
+U+009C	rar	vt	comment	3f	009c	-	-	same
+U+009C	rar	vta	name	3f	009c	-	-	same
+U+009C	rar	vta	target	3f	009c	-	-	same
+U+009C	rar	vta	comment	3f	009c	-	-	same
+U+009C	rar	t	name	3f	009c	-	-	same
+U+009C	rar	t	comment	3f	009c	-	-	same
+U+009C	rar	x -o+	name	3f	009c	-	-	same
+U+009C	rar	x -o+	comment	3f	009c	-	-	same
+U+009C	rar	e -o+	name	3f	009c	-	-	same
+U+009C	rar	e -o+	comment	3f	009c	-	-	same
+U+009C	rar	bad:t	name	3f	009c	3f	009c	same
+U+009C	rar	bad:t	comment	3f	009c	-	-	same
+U+009C	rar	bad:x -o+	name	3f	009c	3f	009c	same
+U+009C	rar	bad:x -o+	comment	3f	009c	-	-	same
+U+009C	rar	bad:p	name	-	-	3f	009c	same
+U+009C	rar	cw	comment	3f	003f	-	-	same
+U+009C	rar	d	name	3f	009c	-	-	same
+U+009C	rar	d	comment	3f	009c	-	-	same
+U+009C	rar	r	name	3f	009c	-	-	same
+U+009D	unrar	lb	name	5f	009d	-	-	same
+U+009D	unrar	l	name	5f	009d	-	-	same
+U+009D	unrar	l	comment	5f	009d	-	-	same
+U+009D	unrar	lt	name	5f	009d	-	-	same
+U+009D	unrar	lt	target	5f	009d	-	-	same
+U+009D	unrar	lt	comment	5f	009d	-	-	same
+U+009D	unrar	lta	name	5f	009d	-	-	same
+U+009D	unrar	lta	target	5f	009d	-	-	same
+U+009D	unrar	lta	comment	5f	009d	-	-	same
+U+009D	unrar	v	name	5f	009d	-	-	same
+U+009D	unrar	v	comment	5f	009d	-	-	same
+U+009D	unrar	vb	name	5f	009d	-	-	same
+U+009D	unrar	vt	name	5f	009d	-	-	same
+U+009D	unrar	vt	target	5f	009d	-	-	same
+U+009D	unrar	vt	comment	5f	009d	-	-	same
+U+009D	unrar	vta	name	5f	009d	-	-	same
+U+009D	unrar	vta	target	5f	009d	-	-	same
+U+009D	unrar	vta	comment	5f	009d	-	-	same
+U+009D	unrar	t	name	5f	009d	-	-	same
+U+009D	unrar	t	comment	5f	009d	-	-	same
+U+009D	unrar	x -o+	name	5f	009d	-	-	same
+U+009D	unrar	x -o+	comment	5f	009d	-	-	same
+U+009D	unrar	e -o+	name	5f	009d	-	-	same
+U+009D	unrar	e -o+	comment	5f	009d	-	-	same
+U+009D	unrar	bad:t	name	5f	009d	5f	009d	same
+U+009D	unrar	bad:t	comment	5f	009d	-	-	same
+U+009D	unrar	bad:x -o+	name	5f	009d	5f	009d	same
+U+009D	unrar	bad:x -o+	comment	5f	009d	-	-	same
+U+009D	unrar	bad:p	name	-	-	5f	009d	same
+U+009D	rar	lb	name	5f	009d	-	-	same
+U+009D	rar	l	name	5f	009d	-	-	same
+U+009D	rar	l	comment	5f	009d	-	-	same
+U+009D	rar	lt	name	5f	009d	-	-	same
+U+009D	rar	lt	target	5f	009d	-	-	same
+U+009D	rar	lt	comment	5f	009d	-	-	same
+U+009D	rar	lta	name	5f	009d	-	-	same
+U+009D	rar	lta	target	5f	009d	-	-	same
+U+009D	rar	lta	comment	5f	009d	-	-	same
+U+009D	rar	v	name	5f	009d	-	-	same
+U+009D	rar	v	comment	5f	009d	-	-	same
+U+009D	rar	vb	name	5f	009d	-	-	same
+U+009D	rar	vt	name	5f	009d	-	-	same
+U+009D	rar	vt	target	5f	009d	-	-	same
+U+009D	rar	vt	comment	5f	009d	-	-	same
+U+009D	rar	vta	name	5f	009d	-	-	same
+U+009D	rar	vta	target	5f	009d	-	-	same
+U+009D	rar	vta	comment	5f	009d	-	-	same
+U+009D	rar	t	name	5f	009d	-	-	same
+U+009D	rar	t	comment	5f	009d	-	-	same
+U+009D	rar	x -o+	name	5f	009d	-	-	same
+U+009D	rar	x -o+	comment	5f	009d	-	-	same
+U+009D	rar	e -o+	name	5f	009d	-	-	same
+U+009D	rar	e -o+	comment	5f	009d	-	-	same
+U+009D	rar	bad:t	name	5f	009d	5f	009d	same
+U+009D	rar	bad:t	comment	5f	009d	-	-	same
+U+009D	rar	bad:x -o+	name	5f	009d	5f	009d	same
+U+009D	rar	bad:x -o+	comment	5f	009d	-	-	same
+U+009D	rar	bad:p	name	-	-	5f	009d	same
+U+009D	rar	cw	comment	9d	00a5	-	-	same
+U+009D	rar	d	name	5f	009d	-	-	same
+U+009D	rar	d	comment	5f	009d	-	-	same
+U+009D	rar	r	name	5f	009d	-	-	same
+U+009E	unrar	lb	name	3f	009e	-	-	same
+U+009E	unrar	l	name	3f	009e	-	-	same
+U+009E	unrar	l	comment	3f	009e	-	-	same
+U+009E	unrar	lt	name	3f	009e	-	-	same
+U+009E	unrar	lt	target	3f	009e	-	-	same
+U+009E	unrar	lt	comment	3f	009e	-	-	same
+U+009E	unrar	lta	name	3f	009e	-	-	same
+U+009E	unrar	lta	target	3f	009e	-	-	same
+U+009E	unrar	lta	comment	3f	009e	-	-	same
+U+009E	unrar	v	name	3f	009e	-	-	same
+U+009E	unrar	v	comment	3f	009e	-	-	same
+U+009E	unrar	vb	name	3f	009e	-	-	same
+U+009E	unrar	vt	name	3f	009e	-	-	same
+U+009E	unrar	vt	target	3f	009e	-	-	same
+U+009E	unrar	vt	comment	3f	009e	-	-	same
+U+009E	unrar	vta	name	3f	009e	-	-	same
+U+009E	unrar	vta	target	3f	009e	-	-	same
+U+009E	unrar	vta	comment	3f	009e	-	-	same
+U+009E	unrar	t	name	3f	009e	-	-	same
+U+009E	unrar	t	comment	3f	009e	-	-	same
+U+009E	unrar	x -o+	name	3f	009e	-	-	same
+U+009E	unrar	x -o+	comment	3f	009e	-	-	same
+U+009E	unrar	e -o+	name	3f	009e	-	-	same
+U+009E	unrar	e -o+	comment	3f	009e	-	-	same
+U+009E	unrar	bad:t	name	3f	009e	3f	009e	same
+U+009E	unrar	bad:t	comment	3f	009e	-	-	same
+U+009E	unrar	bad:x -o+	name	3f	009e	3f	009e	same
+U+009E	unrar	bad:x -o+	comment	3f	009e	-	-	same
+U+009E	unrar	bad:p	name	-	-	3f	009e	same
+U+009E	rar	lb	name	3f	009e	-	-	same
+U+009E	rar	l	name	3f	009e	-	-	same
+U+009E	rar	l	comment	3f	009e	-	-	same
+U+009E	rar	lt	name	3f	009e	-	-	same
+U+009E	rar	lt	target	3f	009e	-	-	same
+U+009E	rar	lt	comment	3f	009e	-	-	same
+U+009E	rar	lta	name	3f	009e	-	-	same
+U+009E	rar	lta	target	3f	009e	-	-	same
+U+009E	rar	lta	comment	3f	009e	-	-	same
+U+009E	rar	v	name	3f	009e	-	-	same
+U+009E	rar	v	comment	3f	009e	-	-	same
+U+009E	rar	vb	name	3f	009e	-	-	same
+U+009E	rar	vt	name	3f	009e	-	-	same
+U+009E	rar	vt	target	3f	009e	-	-	same
+U+009E	rar	vt	comment	3f	009e	-	-	same
+U+009E	rar	vta	name	3f	009e	-	-	same
+U+009E	rar	vta	target	3f	009e	-	-	same
+U+009E	rar	vta	comment	3f	009e	-	-	same
+U+009E	rar	t	name	3f	009e	-	-	same
+U+009E	rar	t	comment	3f	009e	-	-	same
+U+009E	rar	x -o+	name	3f	009e	-	-	same
+U+009E	rar	x -o+	comment	3f	009e	-	-	same
+U+009E	rar	e -o+	name	3f	009e	-	-	same
+U+009E	rar	e -o+	comment	3f	009e	-	-	same
+U+009E	rar	bad:t	name	3f	009e	3f	009e	same
+U+009E	rar	bad:t	comment	3f	009e	-	-	same
+U+009E	rar	bad:x -o+	name	3f	009e	3f	009e	same
+U+009E	rar	bad:x -o+	comment	3f	009e	-	-	same
+U+009E	rar	bad:p	name	-	-	3f	009e	same
+U+009E	rar	cw	comment	3f	003f	-	-	same
+U+009E	rar	d	name	3f	009e	-	-	same
+U+009E	rar	d	comment	3f	009e	-	-	same
+U+009E	rar	r	name	3f	009e	-	-	same
+U+009F	unrar	lb	name	3f	009f	-	-	same
+U+009F	unrar	l	name	3f	009f	-	-	same
+U+009F	unrar	l	comment	3f	009f	-	-	same
+U+009F	unrar	lt	name	3f	009f	-	-	same
+U+009F	unrar	lt	target	3f	009f	-	-	same
+U+009F	unrar	lt	comment	3f	009f	-	-	same
+U+009F	unrar	lta	name	3f	009f	-	-	same
+U+009F	unrar	lta	target	3f	009f	-	-	same
+U+009F	unrar	lta	comment	3f	009f	-	-	same
+U+009F	unrar	v	name	3f	009f	-	-	same
+U+009F	unrar	v	comment	3f	009f	-	-	same
+U+009F	unrar	vb	name	3f	009f	-	-	same
+U+009F	unrar	vt	name	3f	009f	-	-	same
+U+009F	unrar	vt	target	3f	009f	-	-	same
+U+009F	unrar	vt	comment	3f	009f	-	-	same
+U+009F	unrar	vta	name	3f	009f	-	-	same
+U+009F	unrar	vta	target	3f	009f	-	-	same
+U+009F	unrar	vta	comment	3f	009f	-	-	same
+U+009F	unrar	t	name	3f	009f	-	-	same
+U+009F	unrar	t	comment	3f	009f	-	-	same
+U+009F	unrar	x -o+	name	3f	009f	-	-	same
+U+009F	unrar	x -o+	comment	3f	009f	-	-	same
+U+009F	unrar	e -o+	name	3f	009f	-	-	same
+U+009F	unrar	e -o+	comment	3f	009f	-	-	same
+U+009F	unrar	bad:t	name	3f	009f	3f	009f	same
+U+009F	unrar	bad:t	comment	3f	009f	-	-	same
+U+009F	unrar	bad:x -o+	name	3f	009f	3f	009f	same
+U+009F	unrar	bad:x -o+	comment	3f	009f	-	-	same
+U+009F	unrar	bad:p	name	-	-	3f	009f	same
+U+009F	rar	lb	name	3f	009f	-	-	same
+U+009F	rar	l	name	3f	009f	-	-	same
+U+009F	rar	l	comment	3f	009f	-	-	same
+U+009F	rar	lt	name	3f	009f	-	-	same
+U+009F	rar	lt	target	3f	009f	-	-	same
+U+009F	rar	lt	comment	3f	009f	-	-	same
+U+009F	rar	lta	name	3f	009f	-	-	same
+U+009F	rar	lta	target	3f	009f	-	-	same
+U+009F	rar	lta	comment	3f	009f	-	-	same
+U+009F	rar	v	name	3f	009f	-	-	same
+U+009F	rar	v	comment	3f	009f	-	-	same
+U+009F	rar	vb	name	3f	009f	-	-	same
+U+009F	rar	vt	name	3f	009f	-	-	same
+U+009F	rar	vt	target	3f	009f	-	-	same
+U+009F	rar	vt	comment	3f	009f	-	-	same
+U+009F	rar	vta	name	3f	009f	-	-	same
+U+009F	rar	vta	target	3f	009f	-	-	same
+U+009F	rar	vta	comment	3f	009f	-	-	same
+U+009F	rar	t	name	3f	009f	-	-	same
+U+009F	rar	t	comment	3f	009f	-	-	same
+U+009F	rar	x -o+	name	3f	009f	-	-	same
+U+009F	rar	x -o+	comment	3f	009f	-	-	same
+U+009F	rar	e -o+	name	3f	009f	-	-	same
+U+009F	rar	e -o+	comment	3f	009f	-	-	same
+U+009F	rar	bad:t	name	3f	009f	3f	009f	same
+U+009F	rar	bad:t	comment	3f	009f	-	-	same
+U+009F	rar	bad:x -o+	name	3f	009f	3f	009f	same
+U+009F	rar	bad:x -o+	comment	3f	009f	-	-	same
+U+009F	rar	bad:p	name	-	-	3f	009f	same
+U+009F	rar	cw	comment	3f	003f	-	-	same
+U+009F	rar	d	name	3f	009f	-	-	same
+U+009F	rar	d	comment	3f	009f	-	-	same
+U+009F	rar	r	name	3f	009f	-	-	same

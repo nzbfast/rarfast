@@ -1,0 +1,39 @@
+arm: copy-source-failed
+about: a copy whose source member fails its checksum
+file: x.rar  3090 bytes  sha256 111d91d8ca410d334702ab8ec4bc5905afdcc3a13716c844eb43ac02e6bfdc89
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: big1
+          Type: File
+          Size: 3000
+          Name: c
+          Type: File reference
+        Target: big1
+          Size: 3000
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     big1                                                          99%
+  Testing     c                                                              OK
+  Total errors: 1
+stderr:
+  big1                 - checksum error
+$ unrar x -p- x.rar o/
+exit 6
+  Extracting from x.rar
+  Extracting  o/big1                                                        99%
+  Extracting  o/c
+  Total errors: 2
+stderr:
+  big1                 - checksum error
+  Cannot open o/big1
+  No such file or directory
+  Cannot copy o/big1 to o/c.
+  You need to unpack the entire archive to create file reference entries.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

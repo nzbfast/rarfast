@@ -1,0 +1,77 @@
+arm: v5-lead-crc-zero
+about: RAR 5: the leading fragment's CRC32 field is 00000000
+file: x.part1.rar  94 bytes  sha256 08f715c91ca0c5ece2dc54f6ea257042b309b16e4f0b3e1772819c1801f213ca
+file: x.part2.rar  97 bytes  sha256 d446b51747c55ce3eeb7c8c22ee2f128f9c43b25f451f1673f7a9232e00e45f8
+$ unrar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.part1.rar
+exit 0
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.part2.rar
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+stderr:
+  b.txt                : packed data checksum error in volume x.part1.rar
+$ unrar p -inul -p- x.part1.rar
+exit 0
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.part1.rar
+exit 0
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     b.txt                                                         51%
+  Testing archive x.part2.rar
+  ...         b.txt                                                         84%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+stderr:
+  b.txt                : packed data checksum error in volume x.part1.rar

@@ -1,0 +1,14 @@
+1. RAR 3, r420_solid.rar, EMPTY.DAT
+  as written                   unrar t exit 0  failing: none
+  packed bytes removed         unrar t exit 3  failing: AUDIO.RAW, ONE.DAT
+  replaced by 00 00            unrar t exit 3  failing: AUDIO.RAW, ONE.DAT
+  replaced by 7f 7f            unrar t exit 3  failing: AUDIO.RAW, ONE.DAT
+2. RAR 5, rar 7.23 -m3 -s, sixteen empty members
+  archive order (index, name, packed bytes): 0:e01.dat:10 1:e02.dat:0 2:e03.dat:0 3:e04.dat:0 4:e05.dat:0 5:e06.dat:0 6:e07.dat:0 7:e08.dat:0 8:e09.dat:0 9:e10.dat:0 10:e11.dat:0 11:e12.dat:0 12:e13.dat:0 13:e14.dat:0 14:e15.dat:0 15:e16.dat:33 16:a00.txt:36 17:z99.txt:10
+  empty members carrying packed bytes: [('e01.dat', 10), ('e16.dat', 33)]
+  as written                   unrar t exit 0  failing: none
+  e01.dat: first block flags 0xc3
+  e01.dat's bytes removed      unrar t exit 0  failing: none
+  e16.dat: first block flags 0xc6
+  e16.dat's bytes removed      unrar t exit 3  failing: a00.txt, z99.txt
+exit 0

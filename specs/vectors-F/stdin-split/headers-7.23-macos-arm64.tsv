@@ -1,0 +1,36 @@
+set	volume	header flags	file flags	unpacked size field	data size	CRC32 field	lta Size	lta Packed size	lta checksum lines	quick open record
+si-m0-2	si-m0-2.part1.rar	0012	000e	9223372034707292159	40800	yes	?	40800	Pack-CRC32 C8D492E9	yes
+si-m0-2	si-m0-2.part2.rar	000a	0006	60000	19200	yes	60000	19200	CRC32 1B0C11BA	yes
+si-m0-4	si-m0-4.part1.rar	0012	000e	9223372034707292159	16224	yes	?	16224	Pack-CRC32 D38D419D	yes
+si-m0-4	si-m0-4.part2.rar	001a	000e	9223372034707292159	16223	yes	?	16223	Pack-CRC32 4BC53791	yes
+si-m0-4	si-m0-4.part3.rar	001a	000e	9223372034707292159	16223	yes	?	16223	Pack-CRC32 DA212D5B	yes
+si-m0-4	si-m0-4.part4.rar	000a	0006	60000	11330	yes	60000	11330	CRC32 1B0C11BA	yes
+si-m3-2	si-m3-2.part1.rar	0012	000e	9223372034707292159	30560	yes	?	30560	Pack-CRC32 E1F16A69	yes
+si-m3-2	si-m3-2.part2.rar	000a	0006	60000	6410	yes	60000	6410	CRC32 1B0C11BA	yes
+si-m3-4	si-m3-4.part1.rar	0012	000e	9223372034707292159	12128	yes	?	12128	Pack-CRC32 D6D0CC70	yes
+si-m3-4	si-m3-4.part2.rar	001a	000e	9223372034707292159	12127	yes	?	12127	Pack-CRC32 529D7ABF	yes
+si-m3-4	si-m3-4.part3.rar	001a	000e	9223372034707292159	12127	yes	?	12127	Pack-CRC32 7C4E1A26	yes
+si-m3-4	si-m3-4.part4.rar	000a	0006	60000	588	yes	60000	588	CRC32 1B0C11BA	no
+si-m5-3	si-m5-3.part1.rar	0012	000e	9223372034707292159	16224	yes	?	16224	Pack-CRC32 87227CBB	yes
+si-m5-3	si-m5-3.part2.rar	001a	000e	9223372034707292159	16223	yes	?	16223	Pack-CRC32 ECD74BE0	yes
+si-m5-3	si-m5-3.part3.rar	000a	0006	60000	4523	yes	60000	4523	CRC32 1B0C11BA	yes
+si-htb	si-htb.part1.rar	0013	000a	9223372034707292159	30496	no	?	30496	-	yes
+si-htb	si-htb.part2.rar	000b	0002	60000	6474	no	60000	6474	-	yes
+si-p	si-p.part1.rar	0013	000e	9223372034707292159	30460	yes	?	30460	Pack-CRC32 0D2B582A	yes
+si-p	si-p.part2.rar	000b	0006	60000	6516	yes	60000	6516	CRC32 MAC 9C86EC4C	yes
+si-hp	si-hp.part1.rar	-	-	-	-	-	?	30256	Pack-CRC32 6A06F3AC	yes
+si-hp	si-hp.part2.rar	-	-	-	-	-	60000	6720	CRC32 1B0C11BA	yes
+si-rr	si-rr.part1.rar	0012	000e	9223372034707292159	29209	yes	?	29209	Pack-CRC32 32F59150	yes
+si-rr	si-rr.part2.rar	000a	0006	60000	7761	yes	60000	7761	CRC32 1B0C11BA	yes
+si-solid	si-solid.part1.rar	0012	000e	9223372034707292159	30560	yes	?	30560	Pack-CRC32 E1F16A69	yes
+si-solid	si-solid.part2.rar	000a	0006	60000	6410	yes	60000	6410	CRC32 1B0C11BA	yes
+si-qo	si-qo.part1.rar	0012	000e	9223372034707292159	40800	yes	?	40800	Pack-CRC32 C8D492E9	yes
+si-qo	si-qo.part2.rar	000a	0006	60000	19200	yes	60000	19200	CRC32 1B0C11BA	yes
+si-noqo	si-noqo.part1.rar	0012	000e	9223372034707292159	40890	yes	?	40890	Pack-CRC32 38D3191B	no
+si-noqo	si-noqo.part2.rar	000a	0006	60000	19110	yes	60000	19110	CRC32 1B0C11BA	no
+file-noqo	file-noqo.part1.rar	0013	0004	60000	40894	yes	60000	40894	Pack-CRC32 28CF4820	no
+file-noqo	file-noqo.part2.rar	000b	0004	60000	19106	yes	60000	19106	CRC32 1B0C11BA	no
+file-m0-2	file-m0-2.part1.rar	0013	0004	60000	40807	yes	60000	40807	Pack-CRC32 ABA43D6F	yes
+file-m0-2	file-m0-2.part2.rar	000b	0004	60000	19193	yes	60000	19193	CRC32 1B0C11BA	yes
+file-m3-2	file-m3-2.part1.rar	0013	0004	60000	30567	yes	60000	30567	Pack-CRC32 C8B3B081	yes
+file-m3-2	file-m3-2.part2.rar	000b	0004	60000	6403	yes	60000	6403	CRC32 1B0C11BA	yes

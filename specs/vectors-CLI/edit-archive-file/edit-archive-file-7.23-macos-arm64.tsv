@@ -1,0 +1,88 @@
+arm	command	exit	seen while rar ran	after	the archive's name then names	its mode	members it lists	process number in the names	seen in runs	markers	all runs alike
+rn-one	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-none	rn ARCHIVE nosuch z	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-same-name	rn ARCHIVE a.txt a.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+d-one	d ARCHIVE b.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	2	y	10,10,10 of 10	done	y
+d-none	d ARCHIVE nosuch	10	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	no-files	y
+d-all	d ARCHIVE *	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=other/644	-	gone	-	0	y	10,9,1 of 10	done	y
+a-new	a ARCHIVE new.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	4	y	10,10,10 of 10	done	y
+a-same	a ARCHIVE a.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+u-nothing-newer	u ARCHIVE a.txt	10	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	-	10,8 of 10	no-files,warning	y
+f-nothing-newer	f ARCHIVE a.txt	10	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	no-files,warning	y
+c-comment	c -zcmt.txt ARCHIVE	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+k-lock	k ARCHIVE	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rr-add	rr ARCHIVE	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-started-in-archive-directory	rn base.rar a.txt z.txt	0	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:base.bakPID.N.rartemp=old/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,4,10 of 10	done	y
+rn-archive-mode-600	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/600 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-archive-mode-640	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/640 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-archive-mode-444	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/444 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-archive-mode-755	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/755 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-archive-mode-400	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/400 ; C:__rar_PID.N.rartemp=new/644 ; D:base.bakPID.N.rartemp=old/400 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,4,10 of 10	done	y
+d-archive-mode-444	d ARCHIVE b.txt	0	D:base.rar=old/444 ; C:__rar_PID.N.rartemp=new/644 ; D:base.bakPID.N.rartemp=old/444 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	2	y	10,10,3,10 of 10	done	y
+a-archive-mode-444	a ARCHIVE new.txt	9	D:base.rar=old/444	D:base.rar=old/444	same-file	444	3	-	10 of 10	cannot-create,permission,aborted	y
+k-archive-mode-444	k ARCHIVE	0	D:base.rar=old/444 ; C:__rar_PID.N.rartemp=new/644 ; D:base.bakPID.N.rartemp=old/444 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,3,10 of 10	done	y
+rn-umask-077	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/600 ; D:base.rar=new/600	D:base.rar=new/600	new-file	600	3	y	10,10,10 of 10	done	y
+rn-umask-000	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/666 ; D:base.rar=new/666	D:base.rar=new/666	new-file	666	3	y	10,10,10 of 10	done	y
+rn-umask-027	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/640 ; D:base.rar=new/640	D:base.rar=new/640	new-file	640	3	y	10,10,10 of 10	done	y
+rn-umask-077-archive-mode-664	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/664 ; C:__rar_PID.N.rartemp=new/600 ; D:base.rar=new/600	D:base.rar=new/600	new-file	600	3	y	10,10,10 of 10	done	y
+a-umask-077	a ARCHIVE new.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/600 ; D:base.rar=new/600	D:base.rar=new/600	new-file	600	4	y	10,10,10 of 10	done	y
+rn-directory-mode-555	rn ARCHIVE a.txt z.txt	6	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	cannot-open,permission,aborted	y
+d-directory-mode-555	d ARCHIVE b.txt	6	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	cannot-open,permission,aborted	y
+a-directory-mode-555	a ARCHIVE new.txt	6	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	cannot-open,permission,aborted	y
+k-directory-mode-555	k ARCHIVE	6	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	cannot-open,permission,aborted	y
+rn-archive-is-symlink	rn ARCHIVE a.txt z.txt	0	D:base.rar=link/755 ; R:real.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644 ; R:real.rar=old/644	new-file,no-longer-a-link	644	3	y	10,10,10,10 of 10	done	y
+d-archive-is-symlink	d ARCHIVE b.txt	0	D:base.rar=link/755 ; R:real.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644 ; R:real.rar=old/644	new-file,no-longer-a-link	644	2	y	10,10,10,10 of 10	done	y
+rn-archive-has-second-link	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; D:second.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644 ; D:second.rar=old/644	new-file	644	3	y	10,10,10,10 of 10	done	y
+rn-w	rn -wWDIR ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; W:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+d-w	d -wWDIR ARCHIVE b.txt	0	D:base.rar=old/644 ; W:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	2	y	10,10,10 of 10	done	y
+a-w	a -wWDIR ARCHIVE new.txt	0	D:base.rar=old/644 ; W:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	4	y	10,10,10 of 10	done	y
+rn-w-missing	rn -wWDIR/absent ARCHIVE a.txt z.txt	9	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	cannot-create,no-such-file,aborted	y
+rn-w-directory-mode-555	rn -wWDIR ARCHIVE a.txt z.txt	9	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	cannot-create,permission,aborted	y
+rn-signal-INT	rn ARCHIVE a.txt z.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-signal-TERM	rn ARCHIVE a.txt z.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-signal-HUP	rn ARCHIVE a.txt z.txt	-1	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	same-file	644	3	y	10,10 of 10	-	y
+rn-signal-KILL	rn ARCHIVE a.txt z.txt	-9	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	same-file	644	3	y	10,10 of 10	-	y
+d-signal-TERM	d ARCHIVE b.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+a-signal-TERM	a ARCHIVE new.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-w-signal-TERM	rn -wWDIR ARCHIVE a.txt z.txt	255	D:base.rar=old/644 ; W:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-volume-full-started-there	rn base.rar a.txt z.txt	12	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	write-error,read-error,no-such-file,retry-asked,aborted	y
+rn-volume-full-started-elsewhere	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+d-volume-full-started-there	d base.rar b.txt	12	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	write-error,read-error,no-such-file,retry-asked,aborted	y
+d-volume-full-started-elsewhere	d ARCHIVE b.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	2	y	10,10,10 of 10	done	y
+a-volume-full-started-there	a base.rar new.txt	12	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	write-error,read-error,no-such-file,retry-asked,aborted	y
+a-volume-full-started-elsewhere	a ARCHIVE new.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	4	y	10,9,10 of 10	done	y
+rn-volume-full-w-there	rn -wARCHIVEDIR ARCHIVE a.txt z.txt	12	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,7 of 10	write-error,read-error,no-such-file,retry-asked,aborted	y
+rn-other-volume-with-room	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+d-other-volume-with-room	d ARCHIVE b.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	2	y	10,10,10 of 10	done	y
+a-other-volume-with-room	a ARCHIVE new.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	4	y	10,10,10 of 10	done	y
+rn-other-volume-with-room-signal-TERM-while-written	rn ARCHIVE a.txt z.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-other-volume-with-room-signal-TERM-while-put-in-place	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-other-volume-with-room-signal-INT-while-written	rn ARCHIVE a.txt z.txt	255	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-other-volume-with-room-signal-INT-while-put-in-place	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-other-volume-with-room-signal-KILL-while-written	rn ARCHIVE a.txt z.txt	-9	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	same-file	644	3	y	10,10 of 10	-	y
+rn-other-volume-with-room-signal-KILL-while-put-in-place	rn ARCHIVE a.txt z.txt	-9	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	6 of 10 runs exit -9, new-file, lists 0: D:base.rar=new/644 ; C:__rar_PID.N.rartemp=other/644 || 4 of 10 runs exit -9, new-file, lists 2: D:base.rar=new/644 ; C:__rar_PID.N.rartemp=other/644	see after	see after	-1	y	10,10,10 of 10	-	RUNS-DIFFER
+rn-other-volume-archive-mode-600	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/600 ; C:__rar_PID.N.rartemp=other/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-other-volume-archive-mode-444	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/444 ; C:__rar_PID.N.rartemp=other/644 ; D:base.bakPID.N.rartemp=old/444 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,5,10 of 10	done	y
+rn-other-volume-umask-077	rn ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/600 ; D:base.rar=new/600	D:base.rar=new/600	new-file	600	3	y	10,10,10 of 10	done	y
+rn-other-volume-directory-mode-555	rn ARCHIVE a.txt z.txt	6	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,9 of 10	cannot-open,permission,aborted	y
+rn-archive-named-two.part.name.rar	rn two.part.name.rar a.txt z.txt	0	D:two.part.name.rar=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:two.part.name.bakPID.N.rartemp=old/644 ; D:two.part.name.rar=new/644	D:two.part.name.rar=new/644	new-file	644	3	y	10,10,3,10 of 10	done	y
+rn-archive-named-x.dat	rn x.dat a.txt z.txt	0	D:x.dat=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:x.bakPID.N.rartemp=old/644 ; D:x.dat=new/644	D:x.dat=new/644	new-file	644	3	y	10,10,2,10 of 10	done	y
+rn-archive-named-.hidden.rar	rn .hidden.rar a.txt z.txt	0	D:.hidden.rar=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:.hidden.rar=new/644 ; D:.hidden.bakPID.N.rartemp=old/644	D:.hidden.rar=new/644	new-file	644	3	y	10,10,10,3 of 10	done	y
+rn-archive-named-UP.RAR	rn UP.RAR a.txt z.txt	0	D:UP.RAR=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:UP.bakPID.N.rartemp=old/644 ; D:UP.RAR=new/644	D:UP.RAR=new/644	new-file	644	3	y	10,10,5,10 of 10	done	y
+rn-archive-named-base.bak.rar	rn base.bak.rar a.txt z.txt	0	D:base.bak.rar=old/644 ; D:__rar_PID.N.rartemp=new/644 ; D:base.bak.bakPID.N.rartemp=old/644 ; D:base.bak.rar=new/644	D:base.bak.rar=new/644	new-file	644	3	y	10,10,2,10 of 10	done	y
+rn-started-in-archive-directory-signal-TERM	rn base.rar a.txt z.txt	255	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:base.rar=old/644	same-file	644	3	y	10,10 of 10	user-break,aborted	y
+rn-started-in-archive-directory-signal-KILL	rn base.rar a.txt z.txt	-9	D:base.rar=old/644 ; D:__rar_PID.N.rartemp=other/644	D:__rar_PID.N.rartemp=other/644 ; D:base.rar=old/644	same-file	644	3	y	10,10 of 10	-	y
+rn-started-in-directory-mode-555	rn ARCHIVE a.txt z.txt	9	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	cannot-create,permission,aborted	y
+d-started-in-directory-mode-555	d ARCHIVE b.txt	9	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	cannot-create,permission,aborted	y
+a-started-in-directory-mode-555	a ARCHIVE new.txt	9	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	cannot-create,permission,aborted	y
+rn-started-in-directory-mode-555-w	rn -wWDIR ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; W:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,10,10 of 10	done	y
+rn-volume-set	rn ARCHIVE a.txt z.txt	0	D:set.part1.rar=old/644 ; D:set.part2.rar=other/644 ; D:set.part3.rar=other/644 ; C:__rar_PID.N.rartemp=new/644 ; D:set.part1.rar=new/644	D:set.part1.rar=new/644 ; D:set.part2.rar=other/644 ; D:set.part3.rar=other/644	new-file	644	2	y	10,10,10,9,10 of 10	done	y
+d-volume-set	d ARCHIVE b.txt	4	D:set.part1.rar=old/644 ; D:set.part2.rar=other/644 ; D:set.part3.rar=other/644	D:set.part1.rar=old/644 ; D:set.part2.rar=other/644 ; D:set.part3.rar=other/644	same-file	644	2	-	10,10,10 of 10	aborted,error	y
+rn-data-encrypted-no-password	rn -p- ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	y	10,8,10 of 10	done	y
+rn-headers-encrypted-right	rn -pRIGHT ARCHIVE a.txt z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	3	-	10,9,10 of 10	done	y
+rn-headers-encrypted-wrong	rn -pWRONG ARCHIVE a.txt z.txt	11	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	incorrect-password,error,done	y
+rn-headers-encrypted-none	rn -p- ARCHIVE a.txt z.txt	11	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	incorrect-password,error,done	y
+rn-locked	rn ARCHIVE a.txt z.txt	4	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	locked,error,done	y
+d-locked	d ARCHIVE b.txt	4	D:base.rar=old/644	D:base.rar=old/644	same-file	644	3	-	10 of 10	locked,aborted,error	y
+rn-rar4	rn ARCHIVE RAR4MEMBER z.txt	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	12	-	10,8,10 of 10	done	y
+d-rar4	d ARCHIVE RAR4MEMBER	0	D:base.rar=old/644 ; C:__rar_PID.N.rartemp=new/644 ; D:base.rar=new/644	D:base.rar=new/644	new-file	644	11	y	10,8,10 of 10	done	y

@@ -1,0 +1,161 @@
++ ~/rarkit-runs/fuzz6-09oct/fuzz/target/aarch64-apple-darwin/release/rar5_oracle_reframe ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__rar5_oracle_reframe -max_total_time=5400 -artifact_prefix=~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__rar5_oracle_reframe/ -print_final_stats=1 -timeout=60 -rss_limit_mb=2048 -max_len=65536 -print_pcs=0
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1669061291
+INFO: Loaded 1 modules   (798284 inline 8-bit counters): 798284 [0x103ab1810, 0x103b7465c), 
+INFO: Loaded 1 PC tables (798284 PCs): 798284 [0x103b74660,0x1047a2b20), 
+INFO:        1 files found in ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__rar5_oracle_reframe
+INFO: seed corpus: files: 1 min: 72b max: 72b total: 72b rss: 56Mb
+rar5_oracle_reframe: 1 runs, both ok 1, both failed 0, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 0, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 1, solid 0, skipped 1, members by dictionary log [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+rar5_oracle_reframe: 2 runs, both ok 2, both failed 0, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 0, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 2, solid 0, skipped 1, members by dictionary log [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#3	INITED cov: 3642 ft: 3633 corp: 1/72b exec/s: 0 rss: 66Mb
+#4	NEW    cov: 3647 ft: 3641 corp: 2/144b lim: 72 exec/s: 0 rss: 66Mb L: 72/72 MS: 1 CopyPart-
+	NEW_FUNC[1/17]: 0x000100d80e38 in _RINvNtCslEPophzOILI_4core3ptr9drop_glueNtNtNtCs3c0TN655ZCG_6rarkit4read7archive7ArchiveECs8SV3NZGrbtk_19rar5_oracle_reframe mod.rs:848
+	NEW_FUNC[2/17]: 0x00010298dc88 in _RINvNtCslEPophzOILI_4core3ptr9drop_glueNtNtCs3c0TN655ZCG_6rarkit6crypto8KeyCacheEBF_+0x0 (rar5_oracle_reframe:arm64+0x101d95c88)
+#5	NEW    cov: 3883 ft: 4118 corp: 3/216b lim: 72 exec/s: 0 rss: 69Mb L: 72/72 MS: 1 ChangeBinInt-
+rar5_oracle_reframe: 4 runs, both ok 4, both failed 0, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 0, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 4, solid 0, skipped 2, members by dictionary log [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#6	NEW    cov: 3886 ft: 4125 corp: 4/288b lim: 72 exec/s: 0 rss: 71Mb L: 72/72 MS: 1 ChangeBinInt-
+	NEW_FUNC[1/15]: 0x000100d04bb0 in _RINvMsx_NtNtCslEPophzOILI_4core3str7patternNtB6_14TwoWaySearcher4nextNtB6_9MatchOnlyECs8SV3NZGrbtk_19rar5_oracle_reframe pattern.rs:1541
+	NEW_FUNC[2/15]: 0x000100d77548 in _RINvNtCslEPophzOILI_4core3ptr9drop_glueNtNtCs3c0TN655ZCG_6rarkit5error5ErrorECs8SV3NZGrbtk_19rar5_oracle_reframe mod.rs:848
+#7	NEW    cov: 4069 ft: 4356 corp: 5/360b lim: 72 exec/s: 0 rss: 71Mb L: 72/72 MS: 1 ChangeBinInt-
+#9	NEW    cov: 4070 ft: 4357 corp: 6/432b lim: 72 exec/s: 0 rss: 75Mb L: 72/72 MS: 2 ChangeBinInt-ChangeBinInt-
+rar5_oracle_reframe: 8 runs, both ok 7, both failed 1, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 1, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 8, solid 0, skipped 2, members by dictionary log [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+#10	NEW    cov: 4071 ft: 4358 corp: 7/504b lim: 72 exec/s: 0 rss: 76Mb L: 72/72 MS: 1 ChangeByte-
+#11	NEW    cov: 4073 ft: 4360 corp: 8/546b lim: 72 exec/s: 0 rss: 76Mb L: 42/72 MS: 1 EraseBytes-
+#13	NEW    cov: 4073 ft: 4361 corp: 9/597b lim: 72 exec/s: 0 rss: 76Mb L: 51/72 MS: 2 CrossOver-EraseBytes-
+#14	NEW    cov: 4073 ft: 4365 corp: 10/635b lim: 72 exec/s: 0 rss: 76Mb L: 38/72 MS: 1 EraseBytes-
+#15	NEW    cov: 4074 ft: 4366 corp: 11/707b lim: 72 exec/s: 0 rss: 76Mb L: 72/72 MS: 1 ChangeBinInt-
+#16	NEW    cov: 4074 ft: 4371 corp: 12/779b lim: 72 exec/s: 0 rss: 78Mb L: 72/72 MS: 1 ChangeBinInt-
+[a line naming the vendored comparison crate is taken out of this copy, unread]
+[a line naming the vendored comparison crate is taken out of this copy, unread]
+#17	NEW    cov: 4235 ft: 4577 corp: 13/851b lim: 72 exec/s: 0 rss: 78Mb L: 72/72 MS: 1 ShuffleBytes-
+#28	NEW    cov: 4235 ft: 4579 corp: 14/923b lim: 72 exec/s: 0 rss: 78Mb L: 72/72 MS: 1 CopyPart-
+#31	NEW    cov: 4243 ft: 4589 corp: 15/979b lim: 72 exec/s: 0 rss: 80Mb L: 56/72 MS: 3 ChangeBit-EraseBytes-InsertRepeatedBytes-
+#42	NEW    cov: 4244 ft: 4590 corp: 16/1051b lim: 72 exec/s: 0 rss: 80Mb L: 72/72 MS: 1 ShuffleBytes-
+rar5_oracle_reframe: 16 runs, both ok 12, both failed 4, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 4, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 16, solid 0, skipped 29, members by dictionary log [13, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 0]
+#47	NEW    cov: 4245 ft: 4591 corp: 17/1123b lim: 72 exec/s: 0 rss: 87Mb L: 72/72 MS: 5 ShuffleBytes-ShuffleBytes-ChangeBit-ChangeBinInt-ShuffleBytes-
+#59	NEW    cov: 4245 ft: 4596 corp: 18/1195b lim: 72 exec/s: 0 rss: 91Mb L: 72/72 MS: 2 ShuffleBytes-ChangeBinInt-
+#65	NEW    cov: 4250 ft: 4604 corp: 19/1267b lim: 72 exec/s: 0 rss: 99Mb L: 72/72 MS: 1 ChangeBinInt-
+#68	NEW    cov: 4252 ft: 4606 corp: 20/1339b lim: 72 exec/s: 0 rss: 104Mb L: 72/72 MS: 3 ChangeBinInt-ChangeBinInt-CopyPart-
+rar5_oracle_reframe: 32 runs, both ok 25, both failed 7, policy refused 0, oracle short 0, empty table class 0, oracle overrun class 0, version class 7, chain break 0, oracle stricter 0, version one 0, zero member 0, block tail 0, filter overlap 0, directory method 0, long filter 0, orphan chain 0, span past end 0; re-framed 32, solid 0, skipped 38, members by dictionary log [26, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 3, 0]
+#73	NEW    cov: 4253 ft: 4608 corp: 21/1399b lim: 72 exec/s: 0 rss: 105Mb L: 60/72 MS: 5 CMP-ChangeBinInt-CopyPart-ChangeBinInt-EraseBytes- DE: "\377\377\377\367"-
+[... the middle of this log is left out: 6195 lines in all, sha256 8ef1fb67416ec5b42d495652aadd60b10595fa1e903f77d574eff39d588616ef ...]
+#3412789	NEW    cov: 10357 ft: 40393 corp: 2620/2661Kb lim: 13083 exec/s: 1465 rss: 1977Mb L: 8863/11374 MS: 4 InsertByte-ChangeASCIIInt-ChangeBit-EraseBytes-
+#3418544	REDUCE cov: 10357 ft: 40393 corp: 2620/2661Kb lim: 13135 exec/s: 1464 rss: 1977Mb L: 1652/11374 MS: 5 EraseBytes-ChangeASCIIInt-PersAutoDict-CMP-ChangeByte- DE: ";\000"-"\001\000\000\000\000\000\000\004"-
+#3419499	REDUCE cov: 10357 ft: 40393 corp: 2620/2661Kb lim: 13135 exec/s: 1464 rss: 1977Mb L: 1061/11374 MS: 4 InsertRepeatedBytes-ChangeBit-EraseBytes-ChangeByte-
+#3419510	NEW    cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13135 exec/s: 1464 rss: 1977Mb L: 8863/11374 MS: 1 ChangeASCIIInt-
+#3420942	REDUCE cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13148 exec/s: 1463 rss: 1977Mb L: 95/11374 MS: 2 ChangeBinInt-EraseBytes-
+#3421378	REDUCE cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13148 exec/s: 1464 rss: 1977Mb L: 101/11374 MS: 1 EraseBytes-
+#3421597	REDUCE cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13148 exec/s: 1464 rss: 1977Mb L: 146/11374 MS: 3 ShuffleBytes-ChangeByte-EraseBytes-
+#3421634	REDUCE cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13148 exec/s: 1464 rss: 1977Mb L: 259/11374 MS: 2 ChangeByte-EraseBytes-
+#3422822	REDUCE cov: 10357 ft: 40407 corp: 2621/2669Kb lim: 13148 exec/s: 1463 rss: 1977Mb L: 263/11374 MS: 5 ShuffleBytes-ChangeBit-InsertByte-ChangeBinInt-EraseBytes-
+#3424473	REDUCE cov: 10357 ft: 40407 corp: 2621/2667Kb lim: 13161 exec/s: 1463 rss: 1992Mb L: 5394/11374 MS: 4 ChangeBinInt-ChangeBit-PersAutoDict-EraseBytes- DE: "\377\377\377\377\377\377\377\016"-
+#3424499	REDUCE cov: 10357 ft: 40407 corp: 2621/2667Kb lim: 13161 exec/s: 1463 rss: 1992Mb L: 269/11374 MS: 1 EraseBytes-
+#3426371	REDUCE cov: 10357 ft: 40407 corp: 2621/2667Kb lim: 13174 exec/s: 1463 rss: 1992Mb L: 373/11374 MS: 4 ShuffleBytes-ChangeASCIIInt-InsertByte-EraseBytes-
+#3429164	NEW    cov: 10357 ft: 40408 corp: 2622/2667Kb lim: 13200 exec/s: 1462 rss: 2012Mb L: 443/11374 MS: 2 PersAutoDict-CopyPart- DE: "\240\206\001\000"-
+#3429176	REDUCE cov: 10357 ft: 40408 corp: 2622/2667Kb lim: 13200 exec/s: 1462 rss: 2012Mb L: 271/11374 MS: 2 InsertByte-EraseBytes-
+#3432084	REDUCE cov: 10357 ft: 40408 corp: 2622/2667Kb lim: 13226 exec/s: 1461 rss: 2012Mb L: 1398/11374 MS: 2 ShuffleBytes-EraseBytes-
+#3436408	REDUCE cov: 10357 ft: 40408 corp: 2622/2664Kb lim: 13265 exec/s: 1461 rss: 2012Mb L: 8074/11374 MS: 5 CopyPart-ChangeByte-InsertRepeatedBytes-ShuffleBytes-EraseBytes-
+#3437327	REDUCE cov: 10357 ft: 40409 corp: 2623/2666Kb lim: 13265 exec/s: 1461 rss: 2012Mb L: 1980/11374 MS: 3 ChangeASCIIInt-ShuffleBytes-CopyPart-
+#3440840	REDUCE cov: 10357 ft: 40409 corp: 2623/2666Kb lim: 13291 exec/s: 1460 rss: 2012Mb L: 97/11374 MS: 2 InsertByte-EraseBytes-
+#3441580	REDUCE cov: 10357 ft: 40409 corp: 2623/2666Kb lim: 13291 exec/s: 1460 rss: 2012Mb L: 128/11374 MS: 5 ChangeASCIIInt-ChangeBit-ShuffleBytes-ChangeByte-EraseBytes-
+#3442013	REDUCE cov: 10357 ft: 40409 corp: 2623/2666Kb lim: 13291 exec/s: 1460 rss: 2012Mb L: 6641/11374 MS: 1 EraseBytes-
+#3444682	REDUCE cov: 10357 ft: 40409 corp: 2623/2665Kb lim: 13317 exec/s: 1460 rss: 2012Mb L: 3823/11374 MS: 1 EraseBytes-
+#3445752	NEW    cov: 10357 ft: 40410 corp: 2624/2667Kb lim: 13317 exec/s: 1460 rss: 2012Mb L: 1243/11374 MS: 1 ChangeBinInt-
+#3446460	REDUCE cov: 10357 ft: 40410 corp: 2624/2666Kb lim: 13317 exec/s: 1459 rss: 2012Mb L: 3675/11374 MS: 1 EraseBytes-
+#3447512	NEW    cov: 10357 ft: 40411 corp: 2625/2675Kb lim: 13317 exec/s: 1459 rss: 2012Mb L: 8450/11374 MS: 2 CopyPart-ChangeByte-
+#3454898	REDUCE cov: 10357 ft: 40411 corp: 2625/2674Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 256/11374 MS: 2 ChangeBinInt-EraseBytes-
+#3456104	REDUCE cov: 10357 ft: 40411 corp: 2625/2674Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 224/11374 MS: 2 ChangeASCIIInt-EraseBytes-
+#3456552	REDUCE cov: 10357 ft: 40411 corp: 2625/2674Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 168/11374 MS: 3 ChangeBinInt-ChangeASCIIInt-EraseBytes-
+#3456859	REDUCE cov: 10357 ft: 40411 corp: 2625/2673Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 2719/11374 MS: 2 CrossOver-PersAutoDict- DE: "\030\000\000\000"-
+#3456976	REDUCE cov: 10357 ft: 40411 corp: 2625/2673Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 993/11374 MS: 2 ChangeByte-EraseBytes-
+#3458004	NEW    cov: 10357 ft: 40415 corp: 2626/2682Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 8863/11374 MS: 3 ShuffleBytes-ChangeByte-ChangeBinInt-
+#3458775	REDUCE cov: 10357 ft: 40415 corp: 2626/2682Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 79/11374 MS: 1 EraseBytes-
+#3459336	REDUCE cov: 10357 ft: 40415 corp: 2626/2682Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 155/11374 MS: 1 EraseBytes-
+#3459865	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13382 exec/s: 1456 rss: 2032Mb L: 4457/11374 MS: 4 ChangeBit-ShuffleBytes-ChangeASCIIInt-EraseBytes-
+#3460804	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13382 exec/s: 1457 rss: 2032Mb L: 320/11374 MS: 2 ChangeBit-EraseBytes-
+#3461490	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13382 exec/s: 1456 rss: 2032Mb L: 1431/11374 MS: 1 EraseBytes-
+#3461511	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13382 exec/s: 1456 rss: 2032Mb L: 96/11374 MS: 1 EraseBytes-
+#3462625	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13382 exec/s: 1456 rss: 2032Mb L: 233/11374 MS: 4 ChangeBinInt-ChangeASCIIInt-CopyPart-EraseBytes-
+#3466392	REDUCE cov: 10357 ft: 40415 corp: 2626/2681Kb lim: 13408 exec/s: 1455 rss: 2032Mb L: 499/11374 MS: 5 ChangeBit-ChangeByte-EraseBytes-InsertRepeatedBytes-ChangeASCIIInt-
+#3469292	NEW    cov: 10357 ft: 40417 corp: 2627/2684Kb lim: 13434 exec/s: 1455 rss: 2032Mb L: 3339/11374 MS: 1 ShuffleBytes-
+#3470667	REDUCE cov: 10357 ft: 40417 corp: 2627/2684Kb lim: 13447 exec/s: 1455 rss: 2032Mb L: 790/11374 MS: 3 EraseBytes-InsertByte-ChangeBinInt-
+#3471693	REDUCE cov: 10357 ft: 40417 corp: 2627/2684Kb lim: 13447 exec/s: 1455 rss: 2032Mb L: 2339/11374 MS: 1 EraseBytes-
+#3474569	NEW    cov: 10358 ft: 40418 corp: 2628/2687Kb lim: 13473 exec/s: 1454 rss: 2032Mb L: 2612/11374 MS: 5 ChangeByte-ChangeASCIIInt-ShuffleBytes-InsertRepeatedBytes-InsertByte-
+#3475569	REDUCE cov: 10358 ft: 40418 corp: 2628/2687Kb lim: 13473 exec/s: 1454 rss: 2032Mb L: 52/11374 MS: 3 ChangeByte-ChangeBinInt-EraseBytes-
+#3478677	REDUCE cov: 10358 ft: 40418 corp: 2628/2687Kb lim: 13499 exec/s: 1453 rss: 2032Mb L: 250/11374 MS: 1 EraseBytes-
+#3479687	REDUCE cov: 10358 ft: 40418 corp: 2628/2687Kb lim: 13499 exec/s: 1453 rss: 2032Mb L: 135/11374 MS: 3 PersAutoDict-ChangeBit-EraseBytes- DE: "\022\000"-
+#3481510	REDUCE cov: 10358 ft: 40418 corp: 2628/2686Kb lim: 13512 exec/s: 1453 rss: 2032Mb L: 4726/11374 MS: 2 ChangeBinInt-EraseBytes-
+#3481897	NEW    cov: 10358 ft: 40420 corp: 2629/2699Kb lim: 13512 exec/s: 1453 rss: 2032Mb L: 13224/13224 MS: 2 ChangeBit-CopyPart-
+#3483509	REDUCE cov: 10358 ft: 40420 corp: 2629/2699Kb lim: 13525 exec/s: 1452 rss: 2032Mb L: 6123/13224 MS: 4 EraseBytes-InsertByte-ChangeBit-ChangeByte-
+#3484351	REDUCE cov: 10358 ft: 40420 corp: 2629/2699Kb lim: 13525 exec/s: 1453 rss: 2032Mb L: 1521/13224 MS: 1 EraseBytes-
+#3487616	NEW    cov: 10358 ft: 40422 corp: 2630/2700Kb lim: 13551 exec/s: 1451 rss: 2036Mb L: 1082/13224 MS: 2 InsertRepeatedBytes-InsertByte-
+#3488080	REDUCE cov: 10358 ft: 40422 corp: 2630/2700Kb lim: 13551 exec/s: 1452 rss: 2036Mb L: 99/13224 MS: 4 ShuffleBytes-InsertByte-ChangeByte-EraseBytes-
+#3489554	REDUCE cov: 10358 ft: 40422 corp: 2630/2700Kb lim: 13564 exec/s: 1451 rss: 2036Mb L: 433/13224 MS: 3 CMP-ChangeBinInt-EraseBytes- DE: "\000\000\000\000\000\000\000\000"-
+#3492659	REDUCE cov: 10358 ft: 40422 corp: 2630/2700Kb lim: 13590 exec/s: 1451 rss: 2036Mb L: 794/13224 MS: 3 PersAutoDict-ChangeByte-EraseBytes- DE: "\000\000\000\013"-
+#3492984	NEW    cov: 10358 ft: 40425 corp: 2631/2703Kb lim: 13590 exec/s: 1451 rss: 2036Mb L: 3157/13224 MS: 5 CrossOver-ChangeBit-InsertByte-ChangeByte-ShuffleBytes-
+#3493299	REDUCE cov: 10358 ft: 40425 corp: 2631/2703Kb lim: 13590 exec/s: 1450 rss: 2036Mb L: 1718/13224 MS: 5 ChangeASCIIInt-InsertByte-EraseBytes-InsertRepeatedBytes-CMP- DE: "\000\000\000\000\000\000\000@"-
+#3493505	REDUCE cov: 10358 ft: 40425 corp: 2631/2702Kb lim: 13590 exec/s: 1450 rss: 2036Mb L: 120/13224 MS: 1 EraseBytes-
+#3494463	NEW    cov: 10358 ft: 40426 corp: 2632/2706Kb lim: 13590 exec/s: 1450 rss: 2036Mb L: 3583/13224 MS: 1 ShuffleBytes-
+#3495109	REDUCE cov: 10358 ft: 40426 corp: 2632/2706Kb lim: 13590 exec/s: 1450 rss: 2036Mb L: 139/13224 MS: 1 EraseBytes-
+#3502441	NEW    cov: 10359 ft: 40427 corp: 2633/2708Kb lim: 13655 exec/s: 1449 rss: 2036Mb L: 2569/13224 MS: 4 ChangeByte-ChangeBinInt-ChangeBinInt-ShuffleBytes-
+#3503353	REDUCE cov: 10359 ft: 40428 corp: 2634/2709Kb lim: 13655 exec/s: 1449 rss: 2036Mb L: 438/13224 MS: 1 ShuffleBytes-
+#3503622	REDUCE cov: 10359 ft: 40428 corp: 2634/2708Kb lim: 13655 exec/s: 1448 rss: 2036Mb L: 7764/13224 MS: 3 ChangeByte-EraseBytes-ChangeASCIIInt-
+#3503857	REDUCE cov: 10359 ft: 40428 corp: 2634/2708Kb lim: 13655 exec/s: 1449 rss: 2036Mb L: 79/13224 MS: 5 ChangeBit-ChangeBit-ChangeASCIIInt-ChangeBinInt-EraseBytes-
+#3505612	REDUCE cov: 10359 ft: 40428 corp: 2634/2708Kb lim: 13668 exec/s: 1449 rss: 2070Mb L: 649/13224 MS: 3 ChangeByte-EraseBytes-ShuffleBytes-
+==22092== ERROR: libFuzzer: out-of-memory (used: 2070Mb; limit: 2048Mb)
+   To change the out-of-memory limit use -rss_limit_mb=<N>
+
+Live Heap Allocations: 38098161 bytes in 27472 chunks; quarantined: 248289209 bytes in 1771 chunks; 69049 other chunks; total chunks: 98292; showing top 95% (at most 8 unique contexts)
+21233960 byte(s) (55%) in 1 allocation(s)
+    #0 0x0001054ad60c in _Znwm+0x68 (librustc-nightly_rt.asan.dylib:arm64+0x4d60c)
+    #1 0x000102792cb4 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x11d4 (rar5_oracle_reframe:arm64+0x101b9acb4)
+    #2 0x0001027a10c0 in main+0x24 (rar5_oracle_reframe:arm64+0x101ba90c0)
+    #3 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+8820160 byte(s) (23%) in 2605 allocation(s)
+    #0 0x0001054ad60c in _Znwm+0x68 (librustc-nightly_rt.asan.dylib:arm64+0x4d60c)
+    #1 0x0001027791f4 in std::__1::vector<std::__1::pair<unsigned int, unsigned short>, std::__1::allocator<std::__1::pair<unsigned int, unsigned short>>>::insert(std::__1::__wrap_iter<std::__1::pair<unsigned int, unsigned short> const*>, std::__1::pair<unsigned int, unsigned short>&&)+0xf4 (rar5_oracle_reframe:arm64+0x101b811f4)
+    #2 0x000102779088 in fuzzer::InputInfo::UpdateFeatureFrequency(unsigned int)+0x9c (rar5_oracle_reframe:arm64+0x101b81088)
+    #3 0x000102778654 in unsigned long fuzzer::ForEachNonZeroByte<unsigned long fuzzer::TracePC::CollectFeatures<fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)::$_0>(fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)::$_0) const::'lambda'(unsigned long, unsigned long, unsigned char)>(unsigned char const*, unsigned char const*, unsigned long, fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)::$_0)+0x938 (rar5_oracle_reframe:arm64+0x101b80654)
+    #4 0x00010277220c in unsigned long fuzzer::TracePC::CollectFeatures<fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)::$_0>(fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)::$_0) const+0xc8 (rar5_oracle_reframe:arm64+0x101b7a20c)
+    #5 0x000102771634 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)+0x88 (rar5_oracle_reframe:arm64+0x101b79634)
+    #6 0x0001027734f8 in fuzzer::Fuzzer::MutateAndTestOne()+0x22c (rar5_oracle_reframe:arm64+0x101b7b4f8)
+    #7 0x000102774254 in fuzzer::Fuzzer::Loop(std::__1::vector<fuzzer::SizedFile, std::__1::allocator<fuzzer::SizedFile>>&)+0x354 (rar5_oracle_reframe:arm64+0x101b7c254)
+    #8 0x00010279351c in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x1a3c (rar5_oracle_reframe:arm64+0x101b9b51c)
+    #9 0x0001027a10c0 in main+0x24 (rar5_oracle_reframe:arm64+0x101ba90c0)
+    #10 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+3147912 byte(s) (8%) in 1 allocation(s)
+    #0 0x0001054ad60c in _Znwm+0x68 (librustc-nightly_rt.asan.dylib:arm64+0x4d60c)
+    #1 0x000102792c98 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x11b8 (rar5_oracle_reframe:arm64+0x101b9ac98)
+    #2 0x0001027a10c0 in main+0x24 (rar5_oracle_reframe:arm64+0x101ba90c0)
+    #3 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+3012926 byte(s) (7%) in 2633 allocation(s)
+    #0 0x0001054ad60c in _Znwm+0x68 (librustc-nightly_rt.asan.dylib:arm64+0x4d60c)
+    #1 0x0001027727a0 in fuzzer::InputCorpus::AddToCorpus(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&, unsigned long, bool, bool, bool, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000l>>, std::__1::vector<unsigned int, std::__1::allocator<unsigned int>> const&, fuzzer::DataFlowTrace const&, fuzzer::InputInfo const*)+0x12c (rar5_oracle_reframe:arm64+0x101b7a7a0)
+    #2 0x0001027717c4 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)+0x218 (rar5_oracle_reframe:arm64+0x101b797c4)
+    #3 0x0001027734f8 in fuzzer::Fuzzer::MutateAndTestOne()+0x22c (rar5_oracle_reframe:arm64+0x101b7b4f8)
+    #4 0x000102774254 in fuzzer::Fuzzer::Loop(std::__1::vector<fuzzer::SizedFile, std::__1::allocator<fuzzer::SizedFile>>&)+0x354 (rar5_oracle_reframe:arm64+0x101b7c254)
+    #5 0x00010279351c in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x1a3c (rar5_oracle_reframe:arm64+0x101b9b51c)
+    #6 0x0001027a10c0 in main+0x24 (rar5_oracle_reframe:arm64+0x101ba90c0)
+    #7 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+505536 byte(s) (1%) in 2633 allocation(s)
+    #0 0x0001054ad60c in _Znwm+0x68 (librustc-nightly_rt.asan.dylib:arm64+0x4d60c)
+    #1 0x0001027726e0 in fuzzer::InputCorpus::AddToCorpus(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>> const&, unsigned long, bool, bool, bool, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000l>>, std::__1::vector<unsigned int, std::__1::allocator<unsigned int>> const&, fuzzer::DataFlowTrace const&, fuzzer::InputInfo const*)+0x6c (rar5_oracle_reframe:arm64+0x101b7a6e0)
+    #2 0x0001027717c4 in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)+0x218 (rar5_oracle_reframe:arm64+0x101b797c4)
+    #3 0x0001027734f8 in fuzzer::Fuzzer::MutateAndTestOne()+0x22c (rar5_oracle_reframe:arm64+0x101b7b4f8)
+    #4 0x000102774254 in fuzzer::Fuzzer::Loop(std::__1::vector<fuzzer::SizedFile, std::__1::allocator<fuzzer::SizedFile>>&)+0x354 (rar5_oracle_reframe:arm64+0x101b7c254)
+    #5 0x00010279351c in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x1a3c (rar5_oracle_reframe:arm64+0x101b9b51c)
+    #6 0x0001027a10c0 in main+0x24 (rar5_oracle_reframe:arm64+0x101ba90c0)
+    #7 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+MS: 3 EraseBytes-ChangeBit-InsertByte-; base unit: f30734ca69e205cdcbd0cd497d0dad86ad3bcb5d
+artifact_prefix='~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__rar5_oracle_reframe/'; Test unit written to ~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__rar5_oracle_reframe/oom-00f9b92550f2b61b597602c82a818ada6f0a053e
+SUMMARY: libFuzzer: out-of-memory
+stat::number_of_executed_units: 3505840
+stat::average_exec_per_sec:     1448
+stat::new_units_added:          6009
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              2070

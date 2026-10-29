@@ -1,0 +1,5 @@
+case	reading	failure	size:SHA-256 of each member it gives
+258-first	258-first-fails	fails: 258 before any match	-
+258-after-each-kind	repeat-leaves-last	no failure	155:ca3bf62ecf5e55086f64615bc2afe31cdf36a040225c97144a7718fcc7286bda
+258-after-each-kind	short-leaves-last	no failure	155:8d8b90aea5221aa564186ca0304164910ae16da20fa38d85fb112854cb14a904
+258-inside-run	258-ends-run	no failure	279:3ffcacf81f01b4e644888fe5354d6b5143d49bf82909c325b220b28f71ced1de

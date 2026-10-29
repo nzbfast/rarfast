@@ -1,0 +1,51 @@
+case	reading	failure	size:SHA-256 of each member it gives
+level-escape	level-no-escape	no failure	8:af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc
+level-escape	level-skip-1	no failure	8:a01bd6d7c4521a8132395250da445216e0ceacc3d8abd937a11d6d9383f2576e
+level-escape	level-skip-3	fails: code wider than the bits left	-
+level-escape	level-z0-zero	no failure	8:fc93df26e7fc13931cc2c49cb8a6430816fd3fa7b1eb5f3f24eacec28bca1a00
+level-escape	level-19-fields	fails: code wider than the bits left	-
+level-escape	level-21-fields	no failure	8:46a4778b8222fe0596d56f453fbcbecccfd133097232662337a7f9a1f650fdce
+level-escape-past-19	level-past-fails	fails: a level escape past symbol 19	-
+delta-kept	delta-replace	no failure	7:9624cc4de77aa89b3dad0aaaaf493961d2d04e1dad295c2eef125ac33dbb0d4d
+delta-kept	delta-saturate	no failure	7:f16335e4a537122bf4cf5f63834eec9d5d1da4036aaf97204416e3297e05c59d
+delta-kept	keep-inverted	no failure	7:9624cc4de77aa89b3dad0aaaaf493961d2d04e1dad295c2eef125ac33dbb0d4d
+delta-kept	keep-never	no failure	7:9624cc4de77aa89b3dad0aaaaf493961d2d04e1dad295c2eef125ac33dbb0d4d
+delta-not-kept	keep-inverted	no failure	5:f03882cf9f0b0a05922a346637bfd414025019c0baf2ec9a83d262a441250a98
+delta-not-kept	keep-always	no failure	5:f03882cf9f0b0a05922a346637bfd414025019c0baf2ec9a83d262a441250a98
+repeat-counts	r16-count-less	no failure	17:587bad58f67207a58c32da16f355ac52f6f9cbc9d678436bcb5952b6a296019f
+repeat-counts	r16-count-more	no failure	17:fd82ac775ef1c8e8a2a7010a4b0caf15da3ed28bf231e3389beef5855b21b448
+repeat-counts	r16-field-less	no failure	17:510d99e582d508f7098acf4e4a52edaa41a1ef7abc1489d924d0dc1f25570012
+repeat-counts	r16-field-more	fails: a distance before the start of the stream	-
+repeat-counts	r17-count-less	no failure	17:7d1a4b4ee878ea49c3ce96cec35df7da90947eda9bcc380f861de306ecd62a0c
+repeat-counts	r17-count-more	no failure	17:ca04e52572efb4123281e56616e5417f38aabd7a1c0b7bf3c13b0d8cac0dd920
+repeat-counts	r17-field-less	no failure	17:cfe918253cb262df6bd487ec5b175e882da4b8f7e6dbb0b8bc6549deb33cb765
+repeat-counts	r17-field-more	fails: a distance before the start of the stream	-
+zero-run-counts	r18-count-less	no failure	10:a189dd364ee3f56ff7191a67143174a5c17d48197ca3626c4443dcd84feab983
+zero-run-counts	r18-count-more	no failure	10:e357bef258b04eb3281c1356e3f10d4598e18ad54996a5053b3c710c9e54b449
+zero-run-counts	r18-field-less	no failure	10:d1ef8b0b8900eb979ef5b8ad6d17fdfeb90c38a83dfb087d708a5816552d77cd
+zero-run-counts	r18-field-more	no failure	10:27127c190211c71bcc6fa10b77bff7a0bab1ed15753ef6073254093d773c6d0e
+zero-run-counts	r19-count-less	no failure	10:ea46a6e4975365e21721b2aa273856ae55f330babe714f109fdaec3a62abba6a
+zero-run-counts	r19-count-more	no failure	10:c831515306ba929fadef96d5dfeefdb78f7530b900394998c812888b5f55c8fe
+zero-run-counts	r19-field-less	fails: no bits for a code	-
+zero-run-counts	r19-field-more	no failure	10:f2e38364ea62ebb7f227676a477f7e8450f616a26f439a93b9bcbebfe3eba809
+repeat-source	repeat-kept	no failure	6:317627a707a7bd7029c438652310526b31ed74551cb27d64df042f149c0190d3
+repeat-source	repeat-delta	no failure	5:8e86de62a07b64db7a06e6e1bb2a4639a0500d03ff5f0285ebfce6f0264e67f0
+repeat-source	zeros-keep	no failure	9:c910e3edf33490eff5eedcfbe75771872279681807cd47841649a562ba6dc65c
+repeat-source	keep-never	fails: packed data ran out	-
+run-past-404-zeros	run-past-fails	fails: a run past the last code length	-
+run-past-404-repeat	run-past-fails	fails: a run past the last code length	-
+alphabet-bounds	parts-main-298	no failure	49:8c0caee99b5665ced6e1b74fbbf999c5b9cd74fa46f52a9fbbd83d78d4b43ba3
+alphabet-bounds	parts-main-300	fails: main symbol out of range	-
+alphabet-bounds	parts-dist-59	no failure	278:48a8360a2990786a2ed4e038fa0c507b3736951ac4ebe2a816cedb139bc3aa4f
+alphabet-bounds	parts-dist-61	no failure	284:11697660554eb65902dbaf7725b7b9b4a00052a7d038ac89a4d5167422ecd5cb
+alphabet-bounds	parts-low-16	no failure	278:48a8360a2990786a2ed4e038fa0c507b3736951ac4ebe2a816cedb139bc3aa4f
+alphabet-bounds	parts-low-18	fails: low distance symbol out of range	-
+alphabet-bounds	parts-length-first	no failure	278:48a8360a2990786a2ed4e038fa0c507b3736951ac4ebe2a816cedb139bc3aa4f
+first-symbol-16-as-zero	repeat-at-0-ignored	no failure	4:ca6c75d1cb8748adbdae6a75ed8cdf8f69a259d1205a77710cd156c3ddaabf07
+first-symbol-16-as-zero	stated	fails: a repeat with no previous length	-
+first-symbol-16-as-ignored	repeat-at-0-zero	no failure	4:21641409bb1ca4591d8bc260432c67780c4cee3349c61d46e2830621074a7763
+first-symbol-16-as-ignored	stated	fails: a repeat with no previous length	-
+first-symbol-17-as-zero	repeat-at-0-ignored	no failure	4:d7697570462f7562b83e81258de0f1e41832e98072e44c36ec8efec46786e24e
+first-symbol-17-as-zero	stated	fails: a repeat with no previous length	-
+first-symbol-17-as-ignored	repeat-at-0-zero	fails: a distance before the start of the stream	-
+first-symbol-17-as-ignored	stated	fails: a repeat with no previous length	-

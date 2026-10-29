@@ -1,0 +1,61 @@
+case	command	exit	output
+m0	rar a -idq -m0 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m1	rar a -idq -m1 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m2	rar a -idq -m2 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m3	rar a -idq -m3 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m4	rar a -idq -m4 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m5	rar a -idq -m5 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+default	rar a -idq a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m3-md128k	rar a -idq -m3 -md128k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m3-md1m	rar a -idq -m3 -md1m a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m3-md64m	rar a -idq -m3 -md64m a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m1-md256k	rar a -idq -m1 -md256k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+m3-one-small	rar a -idq -m3 a.rar hello.txt	0	
+m3-one-big	rar a -idq -m3 a.rar big.txt	0	
+s-m5	rar a -idq -s -m5 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s-m3	rar a -idq -s -m3 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s-m0	rar a -idq -s -m0 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s-m3-ds	rar a -idq -s -m3 -ds a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s3-m3	rar a -idq -s3 -m3 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+se-m3	rar a -idq -se -m3 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+ms-m3	rar a -idq -m3 -msjpg a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s-ms-m3	rar a -idq -s -m3 -msjpg;c a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+htb-m0	rar a -idq -m0 -htb a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+htb-m3	rar a -idq -m3 -htb a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+htc-m0	rar a -idq -m0 -htc a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+tsc-tsa	rar a -idq -m0 -tsc -tsa a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+ts-off	rar a -idq -m0 -ts- a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+tsm-off	rar a -idq -m0 -tsm- a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+tsm1	rar a -idq -m0 -tsm1 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+cmt	rar a -idq -m0 -z../comment.txt a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+cmt-m5	rar a -idq -m5 -z../comment.txt a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+lock	rar a -idq -m0 -k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+pw-m0	rar a -idq -m0 -pSecret a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+pw-m3	rar a -idq -m3 -pSecret a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+pw-htb	rar a -idq -m0 -pSecret -htb a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+hp-m0	rar a -idq -m0 -hpSecret a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+rr5	rar a -idq -m0 -rr5 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+rr5-qo-	rar a -idq -m0 -rr5 -qo- a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+rr5-m3	rar a -idq -m3 -rr5 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+qo+	rar a -idq -m0 -qo+ a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+qo-	rar a -idq -m0 -qo- a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+qo+-m3	rar a -idq -m3 -qo+ a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+ol	rar a -idq -m0 -ol a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir link	0	
+ow	rar a -idq -m0 -ow a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+ol-ow-htb-pw-frac	rar a -idq -m0 -ol -ow -htb -pSecret -tsc -tsa a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir link	0	
+si-m0	rar a -idq -m0 -sistdin.bin a.rar	0	
+si-m3	rar a -idq -m3 -sistdin.bin a.rar	0	
+ed	rar a -idq -m0 -ed a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+s-pair-m3	rar a -idq -s -m3 -ds -qo- a.rar dup1.txt dup2.txt	0	
+vol-m0	rar a -idq -m0 -v100k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-m3	rar a -idq -m3 -v40k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-s-m5	rar a -idq -s -m5 -v40k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-rr5	rar a -idq -m0 -v100k -rr5 a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-pw	rar a -idq -m0 -v100k -pSecret a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-pw-htb	rar a -idq -m0 -v100k -pSecret -htb a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-htb	rar a -idq -m0 -v100k -htb a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-hp	rar a -idq -m0 -v100k -hpSecret a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-cmt-qo+	rar a -idq -m0 -v100k -qo+ -z../comment.txt a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-small	rar a -idq -m0 -v20k a.rar hello.txt empty.dat frac.txt sub emptydir pic.jpg	0	
+vol-12	rar a -idq -m0 -v40k a.rar hello.txt empty.dat text.txt noise.bin big.txt frac.txt café-日.txt pic.jpg sub emptydir	0	
+vol-si	rar a -idq -m0 -v10k -sistdin.bin a.rar	0	

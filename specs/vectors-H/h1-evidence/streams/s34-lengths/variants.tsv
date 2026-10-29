@@ -1,0 +1,108 @@
+reading	what it is
+fresh-plus-2	a fresh match's length is the ladder value + 2
+fresh-plus-4	a fresh match's length is the ladder value + 4
+len-0-base+1	len ladder slot 0: base 1 in place of 0
+len-0-bits+1	len ladder slot 0: extra bits 1 in place of 0
+len-1-base+1	len ladder slot 1: base 2 in place of 1
+len-1-base-1	len ladder slot 1: base 0 in place of 1
+len-1-bits+1	len ladder slot 1: extra bits 1 in place of 0
+len-10-base+1	len ladder slot 10: base 13 in place of 12
+len-10-base-1	len ladder slot 10: base 11 in place of 12
+len-10-bits+1	len ladder slot 10: extra bits 2 in place of 1
+len-10-bits-1	len ladder slot 10: extra bits 0 in place of 1
+len-11-base+1	len ladder slot 11: base 15 in place of 14
+len-11-base-1	len ladder slot 11: base 13 in place of 14
+len-11-bits+1	len ladder slot 11: extra bits 2 in place of 1
+len-11-bits-1	len ladder slot 11: extra bits 0 in place of 1
+len-12-base+1	len ladder slot 12: base 17 in place of 16
+len-12-base-1	len ladder slot 12: base 15 in place of 16
+len-12-bits+1	len ladder slot 12: extra bits 3 in place of 2
+len-12-bits-1	len ladder slot 12: extra bits 1 in place of 2
+len-13-base+1	len ladder slot 13: base 21 in place of 20
+len-13-base-1	len ladder slot 13: base 19 in place of 20
+len-13-bits+1	len ladder slot 13: extra bits 3 in place of 2
+len-13-bits-1	len ladder slot 13: extra bits 1 in place of 2
+len-14-base+1	len ladder slot 14: base 25 in place of 24
+len-14-base-1	len ladder slot 14: base 23 in place of 24
+len-14-bits+1	len ladder slot 14: extra bits 3 in place of 2
+len-14-bits-1	len ladder slot 14: extra bits 1 in place of 2
+len-15-base+1	len ladder slot 15: base 29 in place of 28
+len-15-base-1	len ladder slot 15: base 27 in place of 28
+len-15-bits+1	len ladder slot 15: extra bits 3 in place of 2
+len-15-bits-1	len ladder slot 15: extra bits 1 in place of 2
+len-16-base+1	len ladder slot 16: base 33 in place of 32
+len-16-base-1	len ladder slot 16: base 31 in place of 32
+len-16-bits+1	len ladder slot 16: extra bits 4 in place of 3
+len-16-bits-1	len ladder slot 16: extra bits 2 in place of 3
+len-17-base+1	len ladder slot 17: base 41 in place of 40
+len-17-base-1	len ladder slot 17: base 39 in place of 40
+len-17-bits+1	len ladder slot 17: extra bits 4 in place of 3
+len-17-bits-1	len ladder slot 17: extra bits 2 in place of 3
+len-18-base+1	len ladder slot 18: base 49 in place of 48
+len-18-base-1	len ladder slot 18: base 47 in place of 48
+len-18-bits+1	len ladder slot 18: extra bits 4 in place of 3
+len-18-bits-1	len ladder slot 18: extra bits 2 in place of 3
+len-19-base+1	len ladder slot 19: base 57 in place of 56
+len-19-base-1	len ladder slot 19: base 55 in place of 56
+len-19-bits+1	len ladder slot 19: extra bits 4 in place of 3
+len-19-bits-1	len ladder slot 19: extra bits 2 in place of 3
+len-2-base+1	len ladder slot 2: base 3 in place of 2
+len-2-base-1	len ladder slot 2: base 1 in place of 2
+len-2-bits+1	len ladder slot 2: extra bits 1 in place of 0
+len-20-base+1	len ladder slot 20: base 65 in place of 64
+len-20-base-1	len ladder slot 20: base 63 in place of 64
+len-20-bits+1	len ladder slot 20: extra bits 5 in place of 4
+len-20-bits-1	len ladder slot 20: extra bits 3 in place of 4
+len-21-base+1	len ladder slot 21: base 81 in place of 80
+len-21-base-1	len ladder slot 21: base 79 in place of 80
+len-21-bits+1	len ladder slot 21: extra bits 5 in place of 4
+len-21-bits-1	len ladder slot 21: extra bits 3 in place of 4
+len-22-base+1	len ladder slot 22: base 97 in place of 96
+len-22-base-1	len ladder slot 22: base 95 in place of 96
+len-22-bits+1	len ladder slot 22: extra bits 5 in place of 4
+len-22-bits-1	len ladder slot 22: extra bits 3 in place of 4
+len-23-base+1	len ladder slot 23: base 113 in place of 112
+len-23-base-1	len ladder slot 23: base 111 in place of 112
+len-23-bits+1	len ladder slot 23: extra bits 5 in place of 4
+len-23-bits-1	len ladder slot 23: extra bits 3 in place of 4
+len-24-base+1	len ladder slot 24: base 129 in place of 128
+len-24-base-1	len ladder slot 24: base 127 in place of 128
+len-24-bits+1	len ladder slot 24: extra bits 6 in place of 5
+len-24-bits-1	len ladder slot 24: extra bits 4 in place of 5
+len-25-base+1	len ladder slot 25: base 161 in place of 160
+len-25-base-1	len ladder slot 25: base 159 in place of 160
+len-25-bits+1	len ladder slot 25: extra bits 6 in place of 5
+len-25-bits-1	len ladder slot 25: extra bits 4 in place of 5
+len-26-base+1	len ladder slot 26: base 193 in place of 192
+len-26-base-1	len ladder slot 26: base 191 in place of 192
+len-26-bits+1	len ladder slot 26: extra bits 6 in place of 5
+len-26-bits-1	len ladder slot 26: extra bits 4 in place of 5
+len-27-base+1	len ladder slot 27: base 225 in place of 224
+len-27-base-1	len ladder slot 27: base 223 in place of 224
+len-27-bits+1	len ladder slot 27: extra bits 6 in place of 5
+len-27-bits-1	len ladder slot 27: extra bits 4 in place of 5
+len-3-base+1	len ladder slot 3: base 4 in place of 3
+len-3-base-1	len ladder slot 3: base 2 in place of 3
+len-3-bits+1	len ladder slot 3: extra bits 1 in place of 0
+len-4-base+1	len ladder slot 4: base 5 in place of 4
+len-4-base-1	len ladder slot 4: base 3 in place of 4
+len-4-bits+1	len ladder slot 4: extra bits 1 in place of 0
+len-5-base+1	len ladder slot 5: base 6 in place of 5
+len-5-base-1	len ladder slot 5: base 4 in place of 5
+len-5-bits+1	len ladder slot 5: extra bits 1 in place of 0
+len-6-base+1	len ladder slot 6: base 7 in place of 6
+len-6-base-1	len ladder slot 6: base 5 in place of 6
+len-6-bits+1	len ladder slot 6: extra bits 1 in place of 0
+len-7-base+1	len ladder slot 7: base 8 in place of 7
+len-7-base-1	len ladder slot 7: base 6 in place of 7
+len-7-bits+1	len ladder slot 7: extra bits 1 in place of 0
+len-8-base+1	len ladder slot 8: base 9 in place of 8
+len-8-base-1	len ladder slot 8: base 7 in place of 8
+len-8-bits+1	len ladder slot 8: extra bits 2 in place of 1
+len-8-bits-1	len ladder slot 8: extra bits 0 in place of 1
+len-9-base+1	len ladder slot 9: base 11 in place of 10
+len-9-base-1	len ladder slot 9: base 9 in place of 10
+len-9-bits+1	len ladder slot 9: extra bits 2 in place of 1
+len-9-bits-1	len ladder slot 9: extra bits 0 in place of 1
+repeat-plus-1	a repeated distance match's length is the ladder value + 1
+repeat-plus-3	a repeated distance match's length is the ladder value + 3

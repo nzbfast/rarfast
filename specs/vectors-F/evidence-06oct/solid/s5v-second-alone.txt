@@ -1,0 +1,78 @@
+arm: s5v-second-alone
+about: only the second volume present
+file: x.part02.rar  10240 bytes  sha256 e61272a7f369bc4e8586a7b11eabf726561aa6d1db1029703408a7b36a1d001d
+$ unrar lt -p- x.part02.rar
+exit 0
+  Archive: x.part02.rar
+  Details: RAR 5, solid, volume 2
+          Name: b.txt
+          Type: File
+          Size: 34000
+   Packed size: 7060
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 689A6687
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 37000
+   Packed size: 3087
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 67D82F6B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.part02.rar
+exit 6
+  Testing archive x.part02.rar
+  Skipping    b.txt                                                        
+  Testing     c.txt                                                        100%
+  Total errors: 3
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack b.txt
+  Cannot find volume x.part03.rar
+  c.txt                - checksum error
+$ unrar p -inul -p- x.part02.rar
+exit 6
+stdout: 18067 bytes, b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' ...
+$ rar lt -p- x.part02.rar
+exit 0
+  Archive: x.part02.rar
+  Details: RAR 5, solid, volume 2
+          Name: b.txt
+          Type: File
+          Size: 34000
+   Packed size: 7060
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 689A6687
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 37000
+   Packed size: 3087
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 67D82F6B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.part02.rar
+exit 6
+  Testing archive x.part02.rar
+  Skipping    b.txt                                                        
+  Testing     c.txt                                                        100%
+  Total errors: 3
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack b.txt
+  Cannot find volume x.part03.rar
+  c.txt                - checksum error

@@ -1,0 +1,22 @@
+arm: rar13-sfx-1001
+about: 1,001 bytes ahead of the RAR 1.3 signature
+file: x.rar  1078 bytes  sha256 042b1b419dbe950353606143950198426bd42fdcecbb7d041a269f4dd90645c8
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar

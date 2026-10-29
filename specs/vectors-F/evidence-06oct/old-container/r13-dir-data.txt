@@ -1,0 +1,74 @@
+arm: r13-dir-data
+about: RAR 1.3: entry D with attribute 0x10 and 12 bytes of data
+file: x.rar  107 bytes  sha256 7b60e3c1344acbb978281057c6b1801dfe08b5d95bd81c3fe8973a48d209ff12
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: D
+          Type: Directory
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ...D...
+   Compression: RAR 5.0(v13) -m0
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ unrar t -p- x.rar
+exit 2
+  Testing archive x.rar
+  Testing     A.TXT                                                         46%  OK
+  Testing     D                                                         OK
+  Total errors: 2
+stderr:
+  Unknown method in
+  You may need a newer version of RAR.
+$ unrar p -inul -p- x.rar
+exit 2
+stdout: 6 bytes, b'alpha\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: D
+          Type: Directory
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ...D...
+   Compression: RAR 5.0(v13) -m0
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ rar t -p- x.rar
+exit 2
+  Testing archive x.rar
+  Testing     A.TXT                                                         46%  OK
+  Testing     D                                                         OK
+  Total errors: 2
+stderr:
+  Unknown method in
+  You may need a newer version of RAR.

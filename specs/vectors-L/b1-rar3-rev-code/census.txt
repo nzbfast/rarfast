@@ -1,0 +1,15 @@
+file	r393_rv.part1.rev	25600 bytes; data volumes [25600, 25600, 11575]; last 7 bytes 0200009419c37a; CRC32 of all but the last 4 bytes equals the last 4: True
+reading	r393_rv	stated: polynomial 0x11D, root a^1, first volume highest degree	fits 25593 of the first 25593 bytes; first byte that does not fit: None
+reading	r393_rv	root a^0 (plain XOR of the columns)	fits 138 of the first 25593 bytes; first byte that does not fit: 0
+reading	r393_rv	root a^2	fits 130 of the first 25593 bytes; first byte that does not fit: 0
+reading	r393_rv	first volume lowest degree	fits 190 of the first 25593 bytes; first byte that does not fit: 7
+reading	r393_rv	polynomial 0x11B	fits 249 of the first 25593 bytes; first byte that does not fit: 0
+reading	r393_rv	polynomial 0x12D	fits 3317 of the first 25593 bytes; first byte that does not fit: 0
+file	r420_rv.part1.rev	25600 bytes; data volumes [25600, 25600, 21160]; last 7 bytes 0200008294afd5; CRC32 of all but the last 4 bytes equals the last 4: True
+reading	r420_rv	stated: polynomial 0x11D, root a^1, first volume highest degree	fits 25593 of the first 25593 bytes; first byte that does not fit: None
+reading	r420_rv	root a^0 (plain XOR of the columns)	fits 160 of the first 25593 bytes; first byte that does not fit: 0
+reading	r420_rv	root a^2	fits 147 of the first 25593 bytes; first byte that does not fit: 0
+reading	r420_rv	first volume lowest degree	fits 171 of the first 25593 bytes; first byte that does not fit: 7
+reading	r420_rv	polynomial 0x11B	fits 206 of the first 25593 bytes; first byte that does not fit: 0
+reading	r420_rv	polynomial 0x12D	fits 3330 of the first 25593 bytes; first byte that does not fit: 0
+summary	census done

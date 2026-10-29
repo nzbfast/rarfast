@@ -1,0 +1,12 @@
+# The six legacy RARLAB packages this generator runs. Supplied by whoever
+# runs it, in the directory given as generate.sh's first argument. NEVER
+# fetched by this script and NEVER committed to any repository: see
+# README.md section 3.
+#
+# sha256  bytes  filename  source-url
+9a2957f9c366aae0abc43f9483bce82b7bfb74f4a5582b854f679f1ffcd22cd3	106408	RAR1_402.EXE	http://cd.textfiles.com/nfbfiles/compress/RAR1_402.EXE
+ec48bfd97a609379a91069f6a2093fe4016875bb451499c53bd244e65d4102cc	269885	RAR155.EXE	http://cd.textfiles.com/simtel/simtel9510/disk2/DISC2/ARCHIVER/RAR155.EXE
+3862e775d7b503463608962a96fe7b21b78b643c94f6b98341a2cbc5abad24d3	269486	rar250.exe	https://www.rarlab.com/rar/rar250.exe
+55122286a2a72ccc2b866c5a0e415c05638dfe99cebb5f2ef036784387a8eff8	833828	rarlinux-3.9.3.tar.gz	https://www.rarlab.com/rar/rarlinux-3.9.3.tar.gz
+db4a35d1092eade42fd4233e200c8a24b942c7d67a4b7d0f92914781924b3985	979938	rarlinux-x64-4.2.0.tar.gz	https://www.rarlab.com/rar/rarlinux-x64-4.2.0.tar.gz
+798fa2815f62062eb2e7ca3750fcf30a9af212998f29738a33f12d819e866c4f	536028	rarlinux-x64-5.5.0.tar.gz	https://www.rarlab.com/rar/rarlinux-x64-5.5.0.tar.gz

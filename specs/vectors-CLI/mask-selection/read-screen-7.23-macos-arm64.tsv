@@ -1,0 +1,149 @@
+# members: a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt
+mask	taken out by -x	-n lists	rar and unrar
+a	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+a/b	a/b a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext	the same names	same
+a/b/c/d.txt	a/b/c/d.txt	the same names	same
+b.txt	b.txt	the same names	same
+c	-	the same names	same
+b	-	the same names	same
+Sub	-	the same names	same
+x/Sub	x/Sub x/Sub/s.txt	the same names	same
+d.txt	-	the same names	same
+c/d.txt	-	the same names	same
+noext	noext	the same names	same
+a/noext	a/noext	the same names	same
+nope	-	the same names	same
+a/emptydir	a/emptydir	the same names	same
+e.dir	e.dir	the same names	same
+a.d	a.d a.d/e.txt a.d/noext	the same names	same
+./a	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+/a	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+a//b	-	the same names	same
+a/b.	a/b	the same names	same
+noext.	noext	the same names	same
+noext..	noext	the same names	same
+b.txt.	b.txt	the same names	same
+a.d.	a.d	the same names	same
+*	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+*.*	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+*.	a.d/noext a/b/c/noext a/noext noext	the same names	same
+*.txt	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+?.txt	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt x/Sub/s.txt x/a/b.txt	the same names	same
+b.*	a/b.txt b.txt x/a/b.txt	the same names	same
+b*	a/b.txt b.txt x/a/b.txt	the same names	same
+a*	q/a.b.txt	the same names	same
+a.*	q/a.b.txt	the same names	same
+?	-	the same names	same
+*b*	a/b.txt b.txt q/a.b.txt x/a/b.txt	the same names	same
+n*	a.d/noext a/b/c/noext a/noext noext	the same names	same
+noext.*	a.d/noext a/b/c/noext a/noext noext	the same names	same
+*.d	-	the same names	same
+e*	a.d/e.txt	the same names	same
+*t	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext b.txt noext q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*.t?t	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+S*	-	the same names	same
+*.b.txt	q/a.b.txt	the same names	same
+a.b.*	q/a.b.txt	the same names	same
+*.*.*	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*.*.*.*	q/a.b.txt	the same names	same
+*.txt.	q/a.b.txt	the same names	same
+*.txt.*	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+b.*.	a/b.txt b.txt x/a/b.txt	the same names	same
+b.*.*.*	-	the same names	same
+n*.	a.d/noext a/b/c/noext a/noext noext	the same names	same
+*t.	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext b.txt noext q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+t*.	-	the same names	same
+?*.txt.	q/a.b.txt	the same names	same
+*?.txt.	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+?????	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext b.txt noext x/Sub/s.txt x/a/b.txt	the same names	same
+a/*	a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+a/*.txt	a/b.txt a/b/c.txt a/b/c/d.txt	the same names	same
+a/b*	a/b.txt	the same names	same
+a/b/*	a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext	the same names	same
+a/c*	a/b/c.txt	the same names	same
+x/*	x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+x/S*	-	the same names	same
+a/*.	a/b/c/noext a/noext	the same names	same
+a/*.*	a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+a.d/*	a.d/e.txt a.d/noext	the same names	same
+q/*.b.txt	q/a.b.txt	the same names	same
+/*	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+./*.txt	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+a//*	-	the same names	same
+*/b.txt	a/b.txt b.txt x/a/b.txt	the same names	same
+*/*	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+*/*/*	a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext q/a.b.txt x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+*/a	a x/a	the same names	same
+*/Sub	x/Sub	the same names	same
+*/S*	x/Sub/s.txt	the same names	same
+*/c/*	a/b/c/d.txt a/b/c/noext	the same names	same
+*/b/*.txt	a/b/c.txt a/b/c/d.txt	the same names	same
+a*/noext	a.d/noext a/b/c/noext a/noext	the same names	same
+?/b.txt	a/b.txt	the same names	same
+*a/b.txt	a/b.txt x/a/b.txt	the same names	same
+*/*/b.txt	a/b.txt x/a/b.txt	the same names	same
+**/b.txt	a/b.txt x/a/b.txt	the same names	same
+a/*/c.txt	a/b/c.txt	the same names	same
+x/*/b.txt	x/a/b.txt	the same names	same
+*.d/*	a.d/e.txt a.d/noext	the same names	same
+a.?/e.txt	a.d/e.txt	the same names	same
+*/noext.*	a.d/noext a/b/c/noext a/noext noext	the same names	same
+a?b.txt	q/a.b.txt	the same names	same
+x?a/b.txt	x/a/b.txt	the same names	same
+a?b/c.txt	a/b/c.txt	the same names	same
+x?a?b.txt	-	the same names	same
+a/	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+a/b/	a/b a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext	the same names	same
+*/	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+A	-	the same names	same
+B.TXT	-	the same names	same
+*.TXT	-	the same names	same
+s*	x/Sub/s.txt	the same names	same
+x/sub	-	the same names	same
+X/*	-	the same names	same
+a/b/c/*	a/b/c/d.txt a/b/c/noext	the same names	same
+a/b/c/d.*	a/b/c/d.txt	the same names	same
+a/b/c/d.txt.	a/b/c/d.txt	the same names	same
+a/*/*	a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext	the same names	same
+x/a	x/a x/a/b.txt	the same names	same
+x/a.	x/a	the same names	same
+q/*	q/a.b.txt	the same names	same
+q/*.*	q/a.b.txt	the same names	same
+e.dir/*	-	the same names	same
+a/emptydir/*	-	the same names	same
+.	-	the same names	same
+..	-	the same names	same
+n*..	-	the same names	same
+*..	-	the same names	same
+b.txt/	-	the same names	same
+nope/	-	the same names	same
+e.dir/	e.dir	the same names	same
+x/Sub/	x/Sub x/Sub/s.txt	the same names	same
+./b.txt	b.txt	the same names	same
+/b.txt	b.txt	the same names	same
+./a/b	a/b a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext	the same names	same
+../a	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+.././x	x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+./*	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext b.txt e.dir noext q q/a.b.txt top.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+b*/	a/b	the same names	same
+x/*/	x/Sub x/Sub/s.txt x/a x/a/b.txt	the same names	same
+?*/	a a.d a.d/e.txt a.d/noext a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext e.dir q q/a.b.txt x x/Sub x/Sub/s.txt x/a x/a/b.txt x/top.txt	the same names	same
+/	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext b.txt noext q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+./	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext b.txt noext q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*/a/*	a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext x/a/b.txt	the same names	same
+*/x*	x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*/a*	a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext q/a.b.txt x/a/b.txt	the same names	same
+*/*.	a.d/noext a/b/c/noext a/noext noext	the same names	same
+*/top.txt	top.txt x/top.txt	the same names	same
+*/*/*/*	a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext x/Sub/s.txt x/a/b.txt	the same names	same
+**/*.txt	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt q/a.b.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+**/a	x/a	the same names	same
+*.txt/	-	the same names	same
+a*/	a a.d a.d/e.txt a.d/noext a/b.txt a/b/c.txt a/b/c/d.txt a/b/c/noext a/noext x/a	the same names	same
+*/Sub/	x/Sub x/Sub/s.txt	the same names	same
+a/*/	a/b a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir	the same names	same
+./a/	a a/b a/b.txt a/b/c a/b/c.txt a/b/c/d.txt a/b/c/noext a/emptydir a/noext	the same names	same
+*/b.txt/	-	the same names	same
+x/*.txt	x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*/*.txt	a.d/e.txt a/b.txt a/b/c.txt a/b/c/d.txt b.txt q/a.b.txt top.txt x/Sub/s.txt x/a/b.txt x/top.txt	the same names	same
+*/?	-	the same names	same

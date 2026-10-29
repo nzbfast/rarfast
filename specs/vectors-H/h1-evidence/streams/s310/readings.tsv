@@ -1,0 +1,15 @@
+case	reading	failure	size:SHA-256 of each member it gives
+low-unused	unowned-fails	fails: a lookahead no code owns	-
+low-unused	unowned-always-0	no failure	389:76731e92a9c4bb2d3066bda691e5f3e670a913e3e40b17a93db6bbb586900737
+low-unused	unowned-always-first	no failure	389:68cf1e02b4a24880ae163fb17ffcee839dd08976635089a39c7e6dfc9eb439ab
+low-unused	unowned-width-14	no failure	389:24edcb1f7bd78692e8bffe34b19994c68dcfe59ca292d501fb53f1ac059ad0ae
+low-all-zero	unowned-fails	fails: a lookahead no code owns	-
+low-all-zero	unowned-width-14	no failure	169:0b1617b6b3acd0d73f89e051e0f78c7159dbf41c37d808eee280748a2dbfeeb7
+low-oversubscribed	oversubscribed-fails	fails: an oversubscribed table	-
+length-unused	unowned-fails	fails: a lookahead no code owns	-
+length-unused	unowned-always-0	no failure	195:918aacda8258815ec5bfe3ee54f3fafd1680787f6d981b7ffc9a8f32757073e5
+length-unused	unowned-always-first	no failure	197:8960300ce74df7bbc4bff7841d3e65e443cbb4b1f1da1d4e33c2ab68e74b5bd2
+length-unused	unowned-width-14	no failure	191:1b2225ff080951a4fc63cbea3fbe9d035653c6694d41f5bffe80f8052f3eed12
+length-all-zero	unowned-fails	fails: a lookahead no code owns	-
+length-all-zero	unowned-width-14	no failure	102:80eb142e01d6f82b40155c1042d8f47ed16e0c2b4feee2ef03949976ce36bc9b
+length-oversubscribed	oversubscribed-fails	fails: an oversubscribed table	-

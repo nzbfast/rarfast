@@ -1,0 +1,92 @@
+arm: s5-genuine-stored-altered
+about: the stored member's bytes all changed and its checksum field made to match them [archive flags 0x4; a.x1 clear method 3 packed 2008, m.x2 solid method 0 packed 1300, t.x3 solid method 3 packed 731]
+file: x.rar  4156 bytes  sha256 d04a21523a93da787bb64d8c9d0e75bbca17d0fe04c3e0b941fca895c0543e62
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0EDA7086
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+         Flags: solid
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 731
+         Ratio: 35%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          49%  OK
+  Testing     m.x2                                                          81%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 9350 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0EDA7086
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+         Flags: solid
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 731
+         Ratio: 35%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          49%  OK
+  Testing     m.x2                                                          81%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK

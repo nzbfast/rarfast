@@ -1,0 +1,52 @@
+arm: size-large-over-2mib
+about: member b's header made large by an unknown extra record of 2097252 bytes
+file: x.rar  2097401 bytes  sha256 fccdafd84830f253c21e5dc8e9ffef05250554734605276a8babe2ef2d61da02
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Corrupt header is found
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                          0%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 6 bytes, b'alpha\n'
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+stderr:
+  Corrupt header is found
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                          0%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found

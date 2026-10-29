@@ -1,0 +1,68 @@
+arm	unrar t exit	OK	?	checksum error	of them packed data	unrar x -kb exit	a.bin	rar t exit	rar OK	rar ?	rar checksum error	rar packed data	other lines of unrar t
+si-m0-2.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-m0-2.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-m0-2.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-m0-2.no-last	6	0	0	1	0	6	<40800	6	0	0	1	0	Cannot find volume si-m0-2.part2.rar
+si-m0-4.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-m0-4.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-m0-4.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-m0-4.no-last	6	0	0	1	0	6	<48670	6	0	0	1	0	Cannot find volume si-m0-4.part4.rar
+si-m3-2.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-m3-2.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-m3-2.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-m3-2.no-last	6	0	0	1	0	6	<41600	6	0	0	1	0	Cannot find volume si-m3-2.part2.rar
+si-m3-4.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-m3-4.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-m3-4.flip-last	3	0	0	1	0	3	!59993	3	0	0	1	0	-
+si-m3-4.no-last	6	0	0	1	0	6	<58301	6	0	0	1	0	Cannot find volume si-m3-4.part4.rar
+si-m5-3.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-m5-3.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-m5-3.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-m5-3.no-last	6	0	0	1	0	6	<46995	6	0	0	1	0	Cannot find volume si-m5-3.part3.rar
+si-htb.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-htb.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-htb.flip-last	3	0	0	1	0	3	!59999	3	0	0	1	0	-
+si-htb.no-last	6	0	0	1	0	6	<41422	6	0	0	1	0	Cannot find volume si-htb.part2.rar
+si-p.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-p.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-p.flip-last	3	0	0	1	0	3	!59992	3	0	0	1	0	-
+si-p.no-last	6	0	0	1	0	6	<41278	6	0	0	1	0	Cannot find volume si-p.part2.rar
+si-hp.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-hp.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-hp.flip-last	3	0	0	1	0	3	!59994	3	0	0	1	0	-
+si-hp.no-last	6	0	0	1	0	6	<40732	6	0	0	1	0	Cannot find volume si-hp.part2.rar
+si-rr.whole	0	1	0	0	0	0	=60000	0	3	0	0	0	-
+si-rr.flip-first	3	0	0	2	1	3	!60000	3	2	0	2	1	-
+si-rr.flip-last	3	0	0	1	0	3	!60000	3	2	0	1	0	-
+si-rr.no-last	6	0	0	1	0	6	<37728	6	1	0	1	0	Cannot find volume si-rr.part2.rar
+si-solid.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-solid.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-solid.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-solid.no-last	6	0	0	1	0	6	<41600	6	0	0	1	0	Cannot find volume si-solid.part2.rar
+si-qo.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-qo.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-qo.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-qo.no-last	6	0	0	1	0	6	<40800	6	0	0	1	0	Cannot find volume si-qo.part2.rar
+si-noqo.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-noqo.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+si-noqo.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+si-noqo.no-last	6	0	0	1	0	6	<40890	6	0	0	1	0	Cannot find volume si-noqo.part2.rar
+si-noqo.last-size-1	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-noqo.last-size+1	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-noqo.first-size-N	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-noqo.first-known	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+si-noqo.first-known-wrong	3	0	0	1	0	3	<59999	3	0	0	1	0	-
+file-noqo.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+file-noqo.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+file-noqo.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+file-noqo.no-last	6	0	0	1	0	6	<40894	6	0	0	1	0	Cannot find volume file-noqo.part2.rar
+file-noqo.last-size-1	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+file-noqo.last-size+1	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+file-m0-2.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+file-m0-2.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+file-m0-2.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+file-m0-2.no-last	6	0	0	1	0	6	<40807	6	0	0	1	0	Cannot find volume file-m0-2.part2.rar
+file-m3-2.whole	0	1	0	0	0	0	=60000	0	1	0	0	0	-
+file-m3-2.flip-first	3	0	0	2	1	3	!60000	3	0	0	2	1	-
+file-m3-2.flip-last	3	0	0	1	0	3	!60000	3	0	0	1	0	-
+file-m3-2.no-last	6	0	0	1	0	6	<41611	6	0	0	1	0	Cannot find volume file-m3-2.part2.rar

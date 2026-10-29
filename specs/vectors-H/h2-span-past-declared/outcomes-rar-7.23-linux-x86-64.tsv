@@ -1,0 +1,281 @@
+program	arm	checksum field	t exit	x exit	A	B	C	B bytes written	B's bytes are
+rar-7.23-linux-x86-64	no-filter.declares-0	none	0	0	OK	unjudged	OK	0	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-0	declared	0	0	OK	OK	OK	0	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-0	written	0	0	OK	OK	OK	0	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-0	zero	0	0	OK	OK	OK	0	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-5	none	0	0	OK	unjudged	OK	5	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-5	declared	0	0	OK	OK	OK	5	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-5	written	0	0	OK	OK	OK	5	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-5	zero	3	3	OK	FAIL	OK	5	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-12	none	0	0	OK	unjudged	OK	12	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-12	declared	0	0	OK	OK	OK	12	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-12	written	0	0	OK	OK	OK	12	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-12	zero	3	3	OK	FAIL	OK	12	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-20	none	0	0	OK	unjudged	OK	20	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-20	declared	0	0	OK	OK	OK	20	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-20	written	0	0	OK	OK	OK	20	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-20	zero	3	3	OK	FAIL	OK	20	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-30	none	0	0	OK	unjudged	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-30	declared	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-30	written	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-30	zero	3	3	OK	FAIL	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-40	declared	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-40	written	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	no-filter.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	no-filter.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	no-filter.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	no-filter.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-10-30.declares-0	none	0	0	OK	unjudged	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-0	declared	3	3	OK	FAIL	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-0	written	0	0	OK	OK	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-0	zero	3	3	OK	FAIL	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-5	none	0	0	OK	unjudged	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-5	declared	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-5	written	0	0	OK	OK	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-5	zero	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-12	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-12	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-12	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-12	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-20	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-20	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-20	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-20	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-30	none	0	0	OK	unjudged	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-30	declared	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-30	written	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-30	zero	3	3	OK	FAIL	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-40	declared	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-40	written	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-10-30.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-10-30.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-10-30.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-10-30.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	e8-10-30.declares-0	none	0	0	OK	unjudged	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-0	declared	3	3	OK	FAIL	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-0	written	0	0	OK	OK	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-0	zero	3	3	OK	FAIL	OK	20	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-5	none	0	0	OK	unjudged	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-5	declared	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-5	written	0	0	OK	OK	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-5	zero	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-12	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-12	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-12	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-12	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-20	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-20	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-20	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-20	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-30	none	0	0	OK	unjudged	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-30	declared	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-30	written	0	0	OK	OK	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-30	zero	3	3	OK	FAIL	OK	30	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-40	declared	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-40	written	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	e8-10-30.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	e8-10-30.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	e8-10-30.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	e8-10-30.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-0	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-0	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-0	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-0	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-5	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-5	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-5	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-5	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-12	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-12	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-12	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-12	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-20	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-20	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-20	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-20	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-30	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-30	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-30	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-30	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-40	none	0	0	OK	unjudged	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-40	declared	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-40	written	0	0	OK	OK	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-40	zero	3	3	OK	FAIL	OK	50	F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-50-whole.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-0	none	0	0	OK	unjudged	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-0	declared	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-0	written	0	0	OK	OK	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-0	zero	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-5	none	0	0	OK	unjudged	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-5	declared	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-5	written	0	0	OK	OK	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-5	zero	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-12	none	0	0	OK	unjudged	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-12	declared	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-12	written	0	0	OK	OK	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-12	zero	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-20	none	0	0	OK	unjudged	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-20	declared	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-20	written	0	0	OK	OK	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-20	zero	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-30	none	0	0	OK	unjudged	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-30	declared	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-30	written	0	0	OK	OK	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-30	zero	3	3	OK	FAIL	OK	40	F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-40	declared	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-40	written	0	0	OK	OK	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]=F[:D]+spans
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-0-20-and-20-40.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-0	none	0	0	OK	unjudged	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-0	declared	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-0	written	0	0	OK	OK	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-0	zero	3	3	OK	FAIL	OK	25	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-5	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-5	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-5	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-5	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-12	none	0	0	OK	unjudged	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-12	declared	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-12	written	0	0	OK	OK	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-12	zero	3	3	OK	FAIL	OK	30	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-20	none	0	0	OK	unjudged	OK	35	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-20	declared	3	3	OK	FAIL	OK	35	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-20	written	0	0	OK	OK	OK	35	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-20	zero	3	3	OK	FAIL	OK	35	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-30	none	0	0	OK	unjudged	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-30	declared	3	3	OK	FAIL	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-30	written	0	0	OK	OK	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-30	zero	3	3	OK	FAIL	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-40	none	0	0	OK	unjudged	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-40	declared	3	3	OK	FAIL	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-40	written	0	0	OK	OK	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-40	zero	3	3	OK	FAIL	OK	45	F[:D]+spans
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-5-15-and-30-45.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:D]+spans=F
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-0	none	3	3	OK	unjudged	FAIL	0	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-0	declared	3	3	OK	OK	FAIL	0	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-0	written	3	3	OK	OK	FAIL	0	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-0	zero	3	3	OK	OK	FAIL	0	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-5	none	3	3	OK	unjudged	FAIL	5	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-5	declared	3	3	OK	OK	FAIL	5	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-5	written	3	3	OK	OK	FAIL	5	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-5	zero	3	3	OK	FAIL	FAIL	5	F[:D]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-12	none	3	3	OK	unjudged	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-12	declared	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-12	written	3	3	OK	OK	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-12	zero	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-20	none	3	3	OK	unjudged	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-20	declared	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-20	written	3	3	OK	OK	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-20	zero	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-30	none	3	3	OK	unjudged	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-30	declared	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-30	written	3	3	OK	OK	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-30	zero	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-40	none	3	3	OK	unjudged	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-40	declared	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-40	written	3	3	OK	OK	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-40	zero	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-50	none	3	3	OK	unjudged	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-50	declared	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-50	written	3	3	OK	OK	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-10-70-unfinished.declares-50	zero	3	3	OK	FAIL	FAIL	10	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-0	none	3	3	OK	unjudged	FAIL	0	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-0	declared	3	3	OK	OK	FAIL	0	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-0	written	3	3	OK	OK	FAIL	0	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-0	zero	3	3	OK	OK	FAIL	0	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-5	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-5	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-5	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-5	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-12	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-12	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-12	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-12	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-20	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-20	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-20	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-20	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-30	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-30	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-30	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-30	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-40	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-40	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-40	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-40	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-50	none	3	3	OK	unjudged	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-50	declared	3	3	OK	FAIL	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-50	written	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-0-60-unfinished.declares-50	zero	3	3	OK	OK	FAIL	0	F[:span start]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-0	none	0	0	OK	unjudged	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-0	declared	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-0	written	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-0	zero	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-5	none	0	0	OK	unjudged	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-5	declared	0	0	OK	OK	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-5	written	0	0	OK	OK	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-5	zero	3	3	OK	FAIL	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-12	none	0	0	OK	unjudged	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-12	declared	0	0	OK	OK	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-12	written	0	0	OK	OK	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-12	zero	3	3	OK	FAIL	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-20	none	0	0	OK	unjudged	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-20	declared	0	0	OK	OK	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-20	written	0	0	OK	OK	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-20	zero	3	3	OK	FAIL	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-30	none	0	0	OK	unjudged	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-30	declared	0	0	OK	OK	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-30	written	0	0	OK	OK	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-30	zero	3	3	OK	FAIL	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-40	declared	0	0	OK	OK	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-40	written	0	0	OK	OK	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-50-58-nothing-after.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-0	none	0	0	OK	unjudged	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-0	declared	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-0	written	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-0	zero	0	0	OK	OK	OK	0	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-5	none	0	0	OK	unjudged	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-5	declared	0	0	OK	OK	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-5	written	0	0	OK	OK	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-5	zero	3	3	OK	FAIL	OK	5	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-12	none	0	0	OK	unjudged	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-12	declared	0	0	OK	OK	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-12	written	0	0	OK	OK	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-12	zero	3	3	OK	FAIL	OK	12	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-20	none	0	0	OK	unjudged	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-20	declared	0	0	OK	OK	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-20	written	0	0	OK	OK	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-20	zero	3	3	OK	FAIL	OK	20	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-30	none	0	0	OK	unjudged	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-30	declared	0	0	OK	OK	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-30	written	0	0	OK	OK	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-30	zero	3	3	OK	FAIL	OK	30	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-40	none	0	0	OK	unjudged	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-40	declared	0	0	OK	OK	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-40	written	0	0	OK	OK	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-40	zero	3	3	OK	FAIL	OK	40	F[:D]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-50	none	0	0	OK	unjudged	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-50	declared	0	0	OK	OK	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-50	written	0	0	OK	OK	OK	50	F[:D]=F[:span start]
+rar-7.23-linux-x86-64	delta-60-68-nothing-after.declares-50	zero	3	3	OK	FAIL	OK	50	F[:D]=F[:span start]

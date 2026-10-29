@@ -1,0 +1,80 @@
+skip	P=1 below the smallest archive (136)
+skip	P=97 below the smallest archive (136)
+archive	P=1023 pct=5 k=1 m=1 G=1024 groups=1 records=1 locator=1015 rr_at=1023 data_crc=False pct_stored=5 tag=4d2195bbd0abe8c2 other_code_readings=no-inverse,data-offset-by-m,sum-not-xor,other-polynomial,big-endian-symbols table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=1024 pct=5 k=1 m=1 G=1024 groups=1 records=1 locator=1016 rr_at=1024 data_crc=False pct_stored=5 tag=4d2195bbd0abe8a4 other_code_readings=no-inverse,data-offset-by-m,sum-not-xor,other-polynomial,big-endian-symbols table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=1025 pct=5 k=2 m=1 G=514 groups=1 records=1 locator=1017 rr_at=1025 data_crc=False pct_stored=5 tag=4d2195bbd0abe878 other_code_readings=sum-not-xor table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=2048 pct=5 k=2 m=1 G=1024 groups=1 records=1 locator=2040 rr_at=2048 data_crc=False pct_stored=5 tag=4d2195bbd0abe531 other_code_readings=sum-not-xor table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=2049 pct=5 k=3 m=1 G=684 groups=1 records=1 locator=2041 rr_at=2049 data_crc=False pct_stored=5 tag=4d2195bbd0abe5b4 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=40218 pct=5 k=40 m=2 G=1006 groups=1 records=2 locator=40210 rr_at=40218 data_crc=False pct_stored=5 tag=4d2195bbd0abe810 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=100000 pct=5 k=98 m=4 G=1022 groups=1 records=4 locator=99992 rr_at=100000 data_crc=False pct_stored=5 tag=4d2195bbd0abe517 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=203776 pct=5 k=199 m=9 G=1024 groups=1 records=9 locator=203768 rr_at=203776 data_crc=False pct_stored=5 tag=4d2195bbd0abe764 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=203777 pct=5 k=200 m=10 G=1020 groups=1 records=10 locator=203769 rr_at=203777 data_crc=False pct_stored=5 tag=4d2195bbd0abe7ea other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=204799 pct=5 k=200 m=10 G=1024 groups=1 records=10 locator=204791 rr_at=204799 data_crc=False pct_stored=5 tag=4d2195bbcf48806a other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=204800 pct=5 k=200 m=10 G=1024 groups=1 records=10 locator=204792 rr_at=204800 data_crc=False pct_stored=5 tag=4d2195bbcf487d22 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=204801 pct=5 k=200 m=10 G=1026 groups=1 records=10 locator=204793 rr_at=204801 data_crc=False pct_stored=5 tag=4d2195bbcfe01670 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=5 k=200 m=10 G=1500 groups=1 records=10 locator=299992 rr_at=300000 data_crc=False pct_stored=5 tag=4d2195bbcfe01634 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=1000001 pct=5 k=200 m=10 G=5002 groups=1 records=10 locator=999993 rr_at=1000001 data_crc=False pct_stored=5 tag=4d2195bbd679ad8b other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=40218 pct=1 k=40 m=1 G=1006 groups=1 records=1 locator=40210 rr_at=40218 data_crc=False pct_stored=1 tag=4d2195bbd679ac03 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=1 k=200 m=2 G=1500 groups=1 records=2 locator=299992 rr_at=300000 data_crc=False pct_stored=1 tag=4d2195bbd679a90f other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=2 k=40 m=1 G=1006 groups=1 records=1 locator=40210 rr_at=40218 data_crc=False pct_stored=2 tag=4d2195bbd679acd2 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=2 k=200 m=4 G=1500 groups=1 records=4 locator=299992 rr_at=300000 data_crc=False pct_stored=2 tag=4d2195bbd679ab15 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=3 k=40 m=1 G=1006 groups=1 records=1 locator=40210 rr_at=40218 data_crc=False pct_stored=3 tag=4d2195bbd60e428d other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=3 k=200 m=6 G=1500 groups=1 records=6 locator=299992 rr_at=300000 data_crc=False pct_stored=3 tag=4d2195bbd60e4460 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=7 k=40 m=2 G=1006 groups=1 records=2 locator=40210 rr_at=40218 data_crc=False pct_stored=7 tag=4d2195bbd60e4148 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=7 k=200 m=14 G=1500 groups=1 records=14 locator=299992 rr_at=300000 data_crc=False pct_stored=7 tag=4d2195bbd60e4495 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=10 k=40 m=4 G=1006 groups=1 records=4 locator=40210 rr_at=40218 data_crc=False pct_stored=10 tag=4d2195bbd5a6d948 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=10 k=200 m=20 G=1500 groups=1 records=20 locator=299992 rr_at=300000 data_crc=False pct_stored=10 tag=4d2195bbd5a6d7b8 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=33 k=40 m=13 G=1006 groups=1 records=13 locator=40210 rr_at=40218 data_crc=False pct_stored=33 tag=4d2195bbd4d705fd other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=33 k=200 m=66 G=1500 groups=1 records=66 locator=299992 rr_at=300000 data_crc=False pct_stored=33 tag=4d2195bbd4d7055d other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=50 k=40 m=20 G=1006 groups=1 records=20 locator=40210 rr_at=40218 data_crc=False pct_stored=50 tag=4d2195bbda3a5f42 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=50 k=200 m=100 G=1500 groups=1 records=100 locator=299992 rr_at=300000 data_crc=False pct_stored=50 tag=4d2195bbd9d2f536 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=99 k=40 m=39 G=1006 groups=1 records=39 locator=40210 rr_at=40218 data_crc=False pct_stored=99 tag=4d2195bbddfe1337 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=99 k=200 m=198 G=1500 groups=1 records=198 locator=299992 rr_at=300000 data_crc=False pct_stored=99 tag=4d2195bbddfe13cc other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=100 k=40 m=40 G=1006 groups=1 records=40 locator=40210 rr_at=40218 data_crc=False pct_stored=100 tag=4d2195bbe4efe6be other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=100 k=200 m=200 G=1500 groups=1 records=200 locator=299992 rr_at=300000 data_crc=False pct_stored=100 tag=4d2195bbe4efe6d0 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=5000 pct=1 k=5 m=1 G=1000 groups=1 records=1 locator=4992 rr_at=5000 data_crc=False pct_stored=1 tag=4d2195bbebe4b823 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=204799 pct=1 k=200 m=2 G=1024 groups=1 records=2 locator=204791 rr_at=204799 data_crc=False pct_stored=1 tag=4d2195bbebe4b757 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=5000 pct=3 k=5 m=1 G=1000 groups=1 records=1 locator=4992 rr_at=5000 data_crc=False pct_stored=3 tag=4d2195bbf27d4d92 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=204799 pct=3 k=200 m=6 G=1024 groups=1 records=6 locator=204791 rr_at=204799 data_crc=False pct_stored=3 tag=4d2195bbf27d4dc9 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=5000 pct=100 k=5 m=5 G=1000 groups=1 records=5 locator=4992 rr_at=5000 data_crc=False pct_stored=100 tag=4d2195bbf27d4ddb other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=204799 pct=100 k=200 m=200 G=1024 groups=1 records=200 locator=204791 rr_at=204799 data_crc=False pct_stored=100 tag=4d2195bbf27d4df2 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=13107200 pct=3 k=200 m=6 G=65536 groups=1 records=6 locator=13107192 rr_at=13107200 data_crc=False pct_stored=3 tag=4d2195bbf46f4b66 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+extents	P=13107201 (group, group length, real bytes of the last shard, field) per record of row 0: [(0, 65536, 65139, 65139), (1, 2, 65139, 65536)]; the reading "zero when the last shard ends before the group" fits 6 of 12 records
+archive	P=13107201 pct=3 k=200 m=6 G=65538 groups=2 records=12 locator=13107193 rr_at=13107201 data_crc=False pct_stored=3 tag=4d2195bbf3a47732 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+extents	P=13107399 (group, group length, real bytes of the last shard, field) per record of row 0: [(0, 65536, 65337, 65337), (1, 2, 65337, 65536)]; the reading "zero when the last shard ends before the group" fits 6 of 12 records
+archive	P=13107399 pct=3 k=200 m=6 G=65538 groups=2 records=12 locator=13107391 rr_at=13107399 data_crc=False pct_stored=3 tag=4d2195bbfad5a7a6 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+extents	P=14000162 (group, group length, real bytes of the last shard, field) per record of row 0: [(0, 65536, 69764, 65536), (1, 4466, 69764, 4228)]; the reading "zero when the last shard ends before the group" fits 12 of 12 records
+archive	P=14000162 pct=3 k=200 m=6 G=70002 groups=2 records=12 locator=14000154 rr_at=14000162 data_crc=False pct_stored=3 tag=4d2195bbf96d4002 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+extents	P=16000162 (group, group length, real bytes of the last shard, field) per record of row 0: [(0, 65536, 79764, 65536), (1, 14466, 79764, 14228)]; the reading "zero when the last shard ends before the group" fits 12 of 12 records
+archive	P=16000162 pct=3 k=200 m=6 G=80002 groups=2 records=12 locator=16000154 rr_at=16000162 data_crc=False pct_stored=3 tag=4d2195bbf89b72e9 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+extents	P=26214401 (group, group length, real bytes of the last shard, field) per record of row 0: [(0, 65536, 130675, 65536), (1, 65536, 130675, 65139), (2, 2, 130675, 65536)]; the reading "zero when the last shard ends before the group" fits 4 of 6 records
+archive	P=26214401 pct=1 k=200 m=2 G=131074 groups=3 records=6 locator=26214393 rr_at=26214401 data_crc=False pct_stored=1 tag=4d2195bbf7d0b84a other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=300000 pct=101 k=200 m=202 G=1500 groups=1 records=202 locator=299992 rr_at=300000 data_crc=False pct_stored=101 tag=4d2195bbfd993d56 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=300000 pct=150 k=200 m=300 G=1500 groups=1 records=300 locator=299992 rr_at=300000 data_crc=False pct_stored=150 tag=4d2195bb04860d01 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=40218 pct=250 k=40 m=100 G=1006 groups=1 records=100 locator=40210 rr_at=40218 data_crc=False pct_stored=250 tag=4d2195bb0fa3fbee other_code_readings=none table_form_a_also=False table_over_padded_slice_also=False rc=0 OK
+archive	P=5000 pct=1000 k=5 m=50 G=1000 groups=1 records=50 locator=4992 rr_at=5000 data_crc=False pct_stored=1000 tag=4d2195bb0f4094b5 other_code_readings=none table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+archive	P=1024 pct=300 k=1 m=3 G=1024 groups=1 records=3 locator=1016 rr_at=1024 data_crc=False pct_stored=300 tag=4d2195bb0f40949d other_code_readings=sum-not-xor table_form_a_also=False table_over_padded_slice_also=True rc=0 OK
+geometry-reading	stated	agrees on 49 archives, differs on 0
+geometry-reading	k-floor-plus-1	agrees on 45 archives, differs on 4
+geometry-reading	k-floor	agrees on 26 archives, differs on 23
+geometry-reading	k-cap-201	agrees on 29 archives, differs on 20
+geometry-reading	m-ceil	agrees on 43 archives, differs on 6
+geometry-reading	m-round	agrees on 45 archives, differs on 4
+geometry-reading	m-capped-at-k	agrees on 44 archives, differs on 5
+geometry-reading	m-may-be-zero	agrees on 40 archives, differs on 9
+geometry-reading	G-not-evened	agrees on 37 archives, differs on 12
+geometry-reading	G-floor-evened	agrees on 39 archives, differs on 10
+tags	49 archives, 49 distinct tags
+percent-edge	-rr0 rc=0 {'rr': 'none'} 
+percent-edge	-rr101 rc=0 {'k': 200, 'm': 202, 'P': 300007, 'records': 202, 'stored': [101]} 
+percent-edge	-rr150 rc=0 {'k': 200, 'm': 300, 'P': 300007, 'records': 300, 'stored': [150]} 
+percent-edge	-rr200 rc=0 {'k': 200, 'm': 400, 'P': 300007, 'records': 400, 'stored': [200]} 
+percent-edge	-rr1000 rc=0 {'k': 200, 'm': 2000, 'P': 300007, 'records': 2000, 'stored': [1000]} 
+percent-edge	-rr1001 rc=0 {'k': 200, 'm': 400, 'P': 300007, 'records': 400, 'stored': [200]} Adjusting -rr1001 value to 1000.
+percent-edge	-rr (no number) k=200 m=6 stored=[3]
+volume	v.part1.rar size=16384 P=15133 k=15 m=1 OK
+volume	v.part2.rar size=16384 P=15133 k=15 m=1 OK
+volume	v.part3.rar size=11355 P=10156 k=10 m=1 OK
+committed	rr5_small.rar P=40218 k=40 m=2 G=1006 locator=40210 rr_at=40218 extents=[(0, 1006, 984, 984), (0, 1006, 984, 984)] tag=4d2187dc0e6fa9c6 OK
+committed	rr100_small.rar P=97 k=1 m=1 G=98 locator=89 rr_at=97 extents=[(0, 98, 97, 97)] tag=4d2187dc0e6faa86 OK
+summary	census: 0 archives failed a statement

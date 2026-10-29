@@ -1,0 +1,21 @@
+arm: copy-source-is-link
+about: a copy member whose source is a symbolic link member pointing at ../victim/t
+file: x.rar  104 bytes  sha256 5ee9e554f3b3d56f56e6342d89ffc8a1e10b48721db4819e3dab242612976054
+$ unrar x -p- x.rar o/
+exit 6
+  Extracting from x.rar
+  Extracting  o/big1
+  Extracting  o/c
+  Total errors: 2
+stderr:
+  Skipping the potentially unsafe big1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Cannot open o/big1
+  No such file or directory
+  Cannot copy o/big1 to o/c.
+  You need to unpack the entire archive to create file reference entries.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

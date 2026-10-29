@@ -1,0 +1,25 @@
+# unrar 7.23 over every archive in vectors-G/archives, 2026-09-18T21:26:39Z
+
+t archives/r5_store.rar exit 0
+t archives/r5_m3.rar exit 0
+t archives/r5_solid.rar exit 0
+t archives/r5_blake.rar exit 0
+t archives/r5_cmt.rar exit 0
+t archives/r5_lock.rar exit 0
+t archives/r5_rr.rar exit 0
+t archives/r5_vol.part1.rar exit 0
+t archives/r4_store.rar exit 0
+t archives/r4_m3.rar exit 0
+t archives/r4_solid.rar exit 0
+t archives/r4_rr.rar exit 0
+t archives/r4_cmt.rar exit 0
+t archives/r4_lock.rar exit 0
+t archives/r4_ts.rar exit 0
+t archives/r4_vol.part1.rar exit 0
+t archives/r4_volvn.rar exit 0
+t archives/r5_pw.rar exit 0 (password)
+t archives/r5_hpw.rar exit 0 (password)
+t archives/r4_pw.rar exit 0 (password)
+t archives/r4_hpw.rar exit 0 (password)
+t archives/r4_pwvol.part1.rar exit 0 (password; added 2026-09-29, stderr 0 lines)
+t archives/r4_pwvolc.part1.rar exit 0 (password; added 2026-09-29, stderr 0 lines)

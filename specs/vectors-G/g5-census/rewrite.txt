@@ -1,0 +1,66 @@
+== m0 as created: 438851 bytes; blocks: main file file file file file file file file file file file file file QO end
+     13  file.compression information: padded to 2 (shortest 1)
+      1  file.data size: padded to 2 (shortest 1)
+     12  file.data size: shortest
+      1  file.unpacked size: padded to 2 (shortest 1)
+     12  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]
+== m0 after rar k (exit 0): 438849 bytes; blocks: main file file file file file file file file file file file file file QO end
+     13  file.compression information: padded to 2 (shortest 1)
+     13  file.data size: shortest
+     13  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x10, records [1]
+== m0 after rar c (exit 0): 438890 bytes; blocks: main CMT file file file file file file file file file file file file file QO end
+     13  file.compression information: padded to 2 (shortest 1)
+     13  file.data size: shortest
+     13  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]
+== m0 after rar d (exit 0): 438513 bytes; blocks: main file file file file file file file file file file file file QO end
+     12  file.compression information: padded to 2 (shortest 1)
+     12  file.data size: shortest
+     12  file.unpacked size: shortest
+     11  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]
+== m3 as created: 194877 bytes; blocks: main file file file file file file file file file file file file file QO end
+      3  file.compression information: padded to 2 (shortest 1)
+     10  file.compression information: shortest
+      2  file.data size: padded to 2 (shortest 1)
+     11  file.data size: shortest
+      1  file.unpacked size: padded to 2 (shortest 1)
+     12  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]
+== m3 after rar k (exit 0): 194875 bytes; blocks: main file file file file file file file file file file file file file QO end
+      3  file.compression information: padded to 2 (shortest 1)
+     10  file.compression information: shortest
+      1  file.data size: padded to 2 (shortest 1)
+     12  file.data size: shortest
+     13  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x10, records [1]
+== m3 after rar c (exit 0): 194916 bytes; blocks: main CMT file file file file file file file file file file file file file QO end
+      3  file.compression information: padded to 2 (shortest 1)
+     10  file.compression information: shortest
+      1  file.data size: padded to 2 (shortest 1)
+     12  file.data size: shortest
+     13  file.unpacked size: shortest
+     12  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]
+== m3 after rar d (exit 0): 194805 bytes; blocks: main file file file file file file file file file file file file QO end
+      3  file.compression information: padded to 2 (shortest 1)
+      9  file.compression information: shortest
+     12  file.data size: shortest
+     12  file.unpacked size: shortest
+     11  modification time: header field, no time record, whole second
+      1  modification time: no header field, time record flags 0x13, fractional
+        main header: archive flags 0x0, records [1]

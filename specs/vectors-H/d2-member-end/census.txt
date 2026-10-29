@@ -1,0 +1,88 @@
+d250_cmt.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_cmt.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_cmt.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_cmt.rar	BIG.TXT	90000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_cmt.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_cmt.rar	HELLO.TXT	16800 bytes	R=1	unread bits 3	next symbol 272
+d250_cmt.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_m1.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=1	unread bits 5	next symbol 270
+d250_m1.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m1.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_m1.rar	BIG.TXT	90000 bytes	R=1	unread bits 6	next symbol 271
+d250_m1.rar	DATA.BIN	20192 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_m1.rar	HELLO.TXT	16800 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_m1.rar	TABLE.BIN	15000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_m2.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=1	unread bits 5	next symbol 270
+d250_m2.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m2.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_m2.rar	BIG.TXT	90000 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m2.rar	DATA.BIN	20192 bytes	R=1	unread bits 6	next symbol none (the bits run out)
+d250_m2.rar	HELLO.TXT	16800 bytes	R=1	unread bits 5	next symbol 271
+d250_m2.rar	TABLE.BIN	15000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_m3.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m3.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m3.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_m3.rar	BIG.TXT	90000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_m3.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_m3.rar	HELLO.TXT	16800 bytes	R=1	unread bits 3	next symbol 272
+d250_m3.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_m4.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m4.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m4.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_m4.rar	BIG.TXT	90000 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m4.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_m4.rar	HELLO.TXT	16800 bytes	R=1	unread bits 4	next symbol 272
+d250_m4.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_m5.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m5.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_m5.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_m5.rar	BIG.TXT	90000 bytes	R=1	unread bits 6	next symbol 275
+d250_m5.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_m5.rar	HELLO.TXT	16800 bytes	R=1	unread bits 4	next symbol 272
+d250_m5.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_mm.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_mm.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_mm.rar	AUDIO.RAW	multimedia block, not decoded here
+d250_mm.rar	BIG.TXT	multimedia block, not decoded here
+d250_mm.rar	DATA.BIN	multimedia block, not decoded here
+d250_mm.rar	HELLO.TXT	multimedia block, not decoded here
+d250_mm.rar	TABLE.BIN	multimedia block, not decoded here
+d250_pw.rar	encrypted or split, not counted
+d250_rr.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_rr.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_rr.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_rr.rar	BIG.TXT	90000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_rr.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_rr.rar	HELLO.TXT	16800 bytes	R=1	unread bits 3	next symbol 272
+d250_rr.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_rr8.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_rr8.rar	SUB\SIB.TXT	300 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_rr8.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 3	next symbol none (the bits run out)
+d250_rr8.rar	BIG.TXT	90000 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_rr8.rar	DATA.BIN	20192 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_rr8.rar	HELLO.TXT	16800 bytes	R=1	unread bits 3	next symbol 272
+d250_rr8.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_se.rar	BIG.TXT	90000 bytes	R=1	unread bits 6	next symbol 275
+d250_se.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=1	unread bits 7	next symbol 274
+d250_se.rar	HELLO.TXT	16800 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_se.rar	SUB\SIB.TXT	300 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_se.rar	DATA.BIN	20192 bytes	R=1	unread bits 6	next symbol none (the bits run out)
+d250_se.rar	TABLE.BIN	15000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_se.rar	EMPTY.DAT	0 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_se.rar	ONE.DAT	1 bytes	R=1	unread bits 7	next symbol 65
+d250_se.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_sol.rar	BIG.TXT	90000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_sol.rar	SUB\NESTED\DEEP.TXT	700 bytes	R=1	unread bits 6	next symbol 275
+d250_sol.rar	HELLO.TXT	16800 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_sol.rar	SUB\SIB.TXT	300 bytes	R=1	unread bits 4	next symbol 275
+d250_sol.rar	DATA.BIN	20192 bytes	R=1	unread bits 1	next symbol none (the bits run out)
+d250_sol.rar	TABLE.BIN	15000 bytes	R=1	unread bits 4	next symbol none (the bits run out)
+d250_sol.rar	EMPTY.DAT	0 bytes	R=0	unread bits 0	next symbol none (the bits run out)
+d250_sol.rar	ONE.DAT	1 bytes	R=1	unread bits 7	next symbol 256
+d250_sol.rar	AUDIO.RAW	36000 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+d250_vol.rar	encrypted or split, not counted
+d250_vrr.rar	encrypted or split, not counted
+D250_M5.RAR	SUB\NESTED\DEEP.TXT	520 bytes	R=1	unread bits 7	next symbol 10
+D250_M5.RAR	DATA.BIN	20192 bytes	R=1	unread bits 2	next symbol none (the bits run out)
+D250_M5.RAR	HELLO.TXT	16500 bytes	R=1	unread bits 3	next symbol 256
+members by R: {0: 20, 1: 59}

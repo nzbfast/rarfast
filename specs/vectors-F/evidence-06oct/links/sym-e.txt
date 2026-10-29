@@ -1,0 +1,62 @@
+arm: sym-e
+about: the same archive, unrar e (every directory dropped)
+file: x.rar  1211 bytes  sha256 39c36b480b4fdd6f14439c298f7f2ab44a7ce2ae75974909104955f62190cdaa
+$ unrar e -p- x.rar o/
+exit 1
+  Extracting from x.rar
+  Extracting  o/a.txt                                                        4%  OK
+  Extracting  o/top.txt                                                      8%  OK
+  Extracting  o/sym_rel                                                      OK
+  Extracting  o/sym_dangling                                                 OK
+  Extracting  o/sym_abs
+  Extracting  o/sym_up
+  Extracting  o/sym_up1
+  Extracting  o/dotdot_only
+  Extracting  o/up_in
+  Extracting  o/up_in2
+  Extracting  o/up_out
+  Extracting  o/up_out3
+  Extracting  o/dotdot_mid
+  Extracting  o/dotdot_mid2
+  Extracting  o/dotdot_late
+  Extracting  o/dotslash                                                     OK
+  Extracting  o/dotslash_up
+  Extracting  o/dot_then_up
+  Extracting  o/dslash                                                       OK
+  Extracting  o/dslash_up
+  Extracting  o/trail                                                        OK
+  Extracting  o/sym_dir                                                      OK
+  Extracting  o/dots3                                                        OK
+  Extracting  o/tilde                                                        OK
+  Total errors: 14
+stderr:
+  Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/up_in -> ../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/e/up_in2 -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/dot_then_up -> ./../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/dslash_up -> ..//top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  link  o/dots3                -> .../a.txt   (mtime the member's)
+  link  o/dotslash             -> ./top.txt   (mtime the member's)
+  link  o/dslash               -> d//e   (mtime the member's)
+  link  o/sym_dangling         -> nothere   (mtime the member's)
+  link  o/sym_dir              -> d   (mtime the member's)
+  link  o/sym_rel              -> a.txt   (mtime the member's)
+  link  o/tilde                -> ~/a.txt   (mtime the member's)
+  file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+  link  o/trail                -> d/   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

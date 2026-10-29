@@ -1,0 +1,262 @@
+arm: s4-v15-remove-first
+about: d155_sol.rar: the first file's block removed whole [archive flags 0x0008; EMPTYDIR clear dir version 15 method 0x35 packed 0 unpacked 0, SUB\NESTED clear dir version 15 method 0x35 packed 0 unpacked 0, SUB clear dir version 15 method 0x35 packed 0 unpacked 0, TABLE.BIN clear version 15 method 0x35 packed 14754 unpacked 15000, EMPTY.DAT clear version 15 method 0x35 packed 0 unpacked 0, ONE.DAT clear version 15 method 0x35 packed 3 unpacked 1, AUDIO.RAW clear version 15 method 0x35 packed 34726 unpacked 36000, BIG.TXT clear version 15 method 0x35 packed 24136 unpacked 90000, SUB\NESTED\DEEP.TXT clear version 15 method 0x35 packed 194 unpacked 700, HELLO.TXT clear version 15 method 0x35 packed 4319 unpacked 16800, SUB\SIB.TXT clear version 15 method 0x35 packed 84 unpacked 300]
+file: x.rar  78689 bytes  sha256 c2c8d755e41f2c03443079c3cea27d8bd2401706fe9c0b5f0b8b706fdf713ef0
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: EMPTYDIR
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: SUB/NESTED
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: SUB
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: TABLE.BIN
+          Type: File
+          Size: 15000
+   Packed size: 14754
+         Ratio: 98%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 078BDBE7
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: EMPTY.DAT
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: ONE.DAT
+          Type: File
+          Size: 1
+   Packed size: 3
+         Ratio: 300%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: D3D99E8B
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 34726
+         Ratio: 96%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 4E28FC11
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: BIG.TXT
+          Type: File
+          Size: 90000
+   Packed size: 24136
+         Ratio: 26%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: C372F3FD
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: SUB/NESTED/DEEP.TXT
+          Type: File
+          Size: 700
+   Packed size: 194
+         Ratio: 27%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: A57840D0
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: HELLO.TXT
+          Type: File
+          Size: 16800
+   Packed size: 4319
+         Ratio: 25%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 0EA1AFB6
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 84
+         Ratio: 28%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 5F17E393
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     EMPTYDIR                                                  OK
+  Testing     SUB/NESTED                                                OK
+  Testing     SUB                                                       OK
+  Testing     TABLE.BIN                                                     18%
+  Testing     EMPTY.DAT                                                     19%  OK
+  Testing     ONE.DAT                                                       19%
+  Testing     AUDIO.RAW                                                     60%
+  Testing     BIG.TXT                                                       94%
+  Testing     SUB/NESTED/DEEP.TXT                                           94%
+  Testing     HELLO.TXT                                                     99%
+  Testing     SUB/SIB.TXT                                                  100%
+  Total errors: 7
+stderr:
+  TABLE.BIN            - checksum error
+  ONE.DAT              - checksum error
+  AUDIO.RAW            - checksum error
+  BIG.TXT              - checksum error
+  SUB/NESTED/DEEP.TXT  - checksum error
+  HELLO.TXT            - checksum error
+  SUB/SIB.TXT          - checksum error
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 159017 bytes, b'\x0205\x00\x00\r8\x05\x00\x00\x00\x14\x00\x00#8\x00\x00\x00\x00\x00\x00K\xc4\x00\x00\x00\x00\x00\x00&J\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc4\x00\x00\n"\x0f7\x1b\x00\x00\x00\x02\x00\x00\x00\x00\x00\x00\x00\r\x1d\r\x1d\x00\r\x00\x00\x00\x00\x00K\r\x00\x00\x00\x00\x00\x00!' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: EMPTYDIR
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: SUB/NESTED
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: SUB
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ...D...
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5
+          Name: TABLE.BIN
+          Type: File
+          Size: 15000
+   Packed size: 14754
+         Ratio: 98%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 078BDBE7
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: EMPTY.DAT
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 00000000
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: ONE.DAT
+          Type: File
+          Size: 1
+   Packed size: 3
+         Ratio: 300%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: D3D99E8B
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 34726
+         Ratio: 96%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 4E28FC11
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: BIG.TXT
+          Type: File
+          Size: 90000
+   Packed size: 24136
+         Ratio: 26%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: C372F3FD
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: SUB/NESTED/DEEP.TXT
+          Type: File
+          Size: 700
+   Packed size: 194
+         Ratio: 27%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: A57840D0
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: HELLO.TXT
+          Type: File
+          Size: 16800
+   Packed size: 4319
+         Ratio: 25%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 0EA1AFB6
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 84
+         Ratio: 28%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 5F17E393
+       Host OS: DOS
+   Compression: RAR 1.5(v15) -m5 -md=64k
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     EMPTYDIR                                                  OK
+  Testing     SUB/NESTED                                                OK
+  Testing     SUB                                                       OK
+  Testing     TABLE.BIN                                                     18%
+  Testing     EMPTY.DAT                                                     19%  OK
+  Testing     ONE.DAT                                                       19%
+  Testing     AUDIO.RAW                                                     60%
+  Testing     BIG.TXT                                                       94%
+  Testing     SUB/NESTED/DEEP.TXT                                           94%
+  Testing     HELLO.TXT                                                     99%
+  Testing     SUB/SIB.TXT                                                  100%
+  Total errors: 7
+stderr:
+  TABLE.BIN            - checksum error
+  ONE.DAT              - checksum error
+  AUDIO.RAW            - checksum error
+  BIG.TXT              - checksum error
+  SUB/NESTED/DEEP.TXT  - checksum error
+  HELLO.TXT            - checksum error
+  SUB/SIB.TXT          - checksum error

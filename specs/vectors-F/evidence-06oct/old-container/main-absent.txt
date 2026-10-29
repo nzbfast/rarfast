@@ -1,0 +1,30 @@
+arm: main-absent
+about: no main header: a file header follows the signature
+file: x.rar  151 bytes  sha256 61e06945e0f6aef1418febf5db94fc1654f08227bd7d93605dbd518d7f339f0c
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5
+stderr:
+  Main archive header is corrupt
+$ unrar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Main archive header is corrupt
+$ unrar p -inul -p- x.rar
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5
+stderr:
+  Main archive header is corrupt
+$ rar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Main archive header is corrupt

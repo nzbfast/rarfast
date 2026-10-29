@@ -1,0 +1,9 @@
+case	members	reading in the file headers	readings that give other bytes	what
+short-slot-0	1	stated	short-0-base+1 short-0-bits+1 short-0-bits-1	short distance matches with slot 0 and its field 0, all ones and 1, after 300 literals that count up
+short-slot-1	1	stated	short-1-base+1 short-1-base-1 short-1-bits+1 short-1-bits-1	short distance matches with slot 1 and its field 0, all ones and 1, after 300 literals that count up
+short-slot-2	1	stated	short-2-base+1 short-2-base-1 short-2-bits+1 short-2-bits-1	short distance matches with slot 2 and its field 0, all ones and 5, after 300 literals that count up
+short-slot-3	1	stated	short-3-base+1 short-3-base-1 short-3-bits+1 short-3-bits-1	short distance matches with slot 3 and its field 0, all ones and 13, after 300 literals that count up
+short-slot-4	1	stated	short-4-base+1 short-4-base-1 short-4-bits+1 short-4-bits-1	short distance matches with slot 4 and its field 0, all ones and 13, after 300 literals that count up
+short-slot-5	1	stated	short-5-base+1 short-5-base-1 short-5-bits+1 short-5-bits-1	short distance matches with slot 5 and its field 0, all ones and 45, after 300 literals that count up
+short-slot-6	1	stated	short-6-base+1 short-6-base-1 short-6-bits+1 short-6-bits-1	short distance matches with slot 6 and its field 0, all ones and 45, after 300 literals that count up
+short-slot-7	1	stated	short-7-base+1 short-7-base-1 short-7-bits+1 short-7-bits-1	short distance matches with slot 7 and its field 0, all ones and 45, after 300 literals that count up

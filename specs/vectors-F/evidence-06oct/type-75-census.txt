@@ -1,0 +1,255 @@
+Census of 7 Oct 2026: a type 0x75 block at the top level of an archive of the
+RAR 1.5 to 4 container. Made by type-75-census.py. Two sets.
+
+== SET 1: the genuine archives kept in this repository (python3 type-75-census.py)
+
+files of the RAR 1.5 to 4 container walked: 169
+blocks at the top level: 1176
+  type 0x73  169
+  type 0x74  868
+  type 0x78  6
+  type 0x7a  12
+  type 0x7b  121
+type 0x75 blocks at the top level: 0
+type 0x75 blocks embedded: main header 2, file header 0, file header flag 0x0008 with no 0x75 where expected 0
+
+file	blocks	standalone 0x75	embedded 0x75	walk ended at
+d155_cmt.rar	13	0	main	end of file
+d155_m0.rar	13	0	-	end of file
+d155_m1.rar	13	0	-	end of file
+d155_m2.rar	13	0	-	end of file
+d155_m3.rar	13	0	-	end of file
+d155_m4.rar	13	0	-	end of file
+d155_m5.rar	13	0	-	end of file
+d155_pw.rar	13	0	-	end of file
+d155_sol.rar	13	0	-	end of file
+d155_vol.r00	4	0	-	end of file
+d155_vol.r01	6	0	-	end of file
+d155_vol.r02	2	0	-	end of file
+d155_vol.rar	7	0	-	end of file
+d250_cmt.rar	13	0	main	end of file
+d250_m0.rar	13	0	-	end of file
+d250_m1.rar	13	0	-	end of file
+d250_m2.rar	13	0	-	end of file
+d250_m3.rar	13	0	-	end of file
+d250_m4.rar	13	0	-	end of file
+d250_m5.rar	13	0	-	end of file
+d250_mm.rar	13	0	-	end of file
+d250_pw.rar	13	0	-	end of file
+d250_rr.rar	14	0	-	end of file
+d250_rr8.rar	14	0	-	end of file
+d250_se.rar	13	0	-	end of file
+d250_sol.rar	13	0	-	end of file
+d250_vol.r00	4	0	-	end of file
+d250_vol.r01	6	0	-	end of file
+d250_vol.r02	2	0	-	end of file
+d250_vol.rar	7	0	-	end of file
+d250_vrr.r00	5	0	-	end of file
+d250_vrr.r01	7	0	-	end of file
+d250_vrr.r02	3	0	-	end of file
+d250_vrr.rar	8	0	-	end of file
+r393_hp.rar	1	0	-	headers encrypted
+r393_m0.rar	14	0	-	end block
+r393_m3.rar	14	0	-	end block
+r393_m5.rar	14	0	-	end block
+r393_md.rar	14	0	-	end block
+r393_pw.rar	14	0	-	end block
+r393_rr.rar	15	0	-	end block
+r393_rv.part1.rar	5	0	-	end block
+r393_rv.part2.rar	11	0	-	end block
+r393_rv.part3.rar	7	0	-	end block
+r393_solid.rar	14	0	-	end block
+r393_txt.rar	3	0	-	end block
+r393_vol.part1.rar	4	0	-	end block
+r393_vol.part2.rar	13	0	-	end block
+r393_voln.r00	13	0	-	end block
+r393_voln.rar	4	0	-	end block
+r393_x.rar	11	0	-	end block
+r420_f_audio.rar	3	0	-	end block
+r420_f_bmp.rar	3	0	-	end block
+r420_f_delta.rar	3	0	-	end block
+r420_f_ia64.rar	3	0	-	end block
+r420_f_mixed.rar	9	0	-	end block
+r420_f_rgb.rar	3	0	-	end block
+r420_f_wav.rar	3	0	-	end block
+r420_f_x86.rar	3	0	-	end block
+r420_hp.rar	1	0	-	headers encrypted
+r420_m0.rar	14	0	-	end block
+r420_m3.rar	14	0	-	end block
+r420_m5.rar	14	0	-	end block
+r420_md.rar	14	0	-	end block
+r420_pw.rar	14	0	-	end block
+r420_rr.rar	15	0	-	end block
+r420_rv.part1.rar	5	0	-	end block
+r420_rv.part2.rar	10	0	-	end block
+r420_rv.part3.rar	8	0	-	end block
+r420_solid.rar	14	0	-	end block
+r420_txt.rar	3	0	-	end block
+r420_vol.part1.rar	4	0	-	end block
+r420_vol.part2.rar	10	0	-	end block
+r420_vol.part3.rar	6	0	-	end block
+r420_voln.r00	10	0	-	end block
+r420_voln.r01	6	0	-	end block
+r420_voln.rar	4	0	-	end block
+r420_x.rar	11	0	-	end block
+r550_cmt.rar	15	0	-	end block
+r550_hp.rar	1	0	-	headers encrypted
+r550_m0.rar	14	0	-	end block
+r550_m3.rar	14	0	-	end block
+r550_m5.rar	14	0	-	end block
+r550_md.rar	14	0	-	end block
+r550_pw.rar	14	0	-	end block
+r550_rr.rar	15	0	-	end block
+r550_solid.rar	14	0	-	end block
+r550_txt.rar	3	0	-	end block
+r550_vol.part1.rar	4	0	-	end block
+r550_vol.part2.rar	10	0	-	end block
+r550_vol.part3.rar	6	0	-	end block
+r550_voln.r00	10	0	-	end block
+r550_voln.r01	6	0	-	end block
+r550_voln.rar	4	0	-	end block
+r550_x.rar	10	0	-	end block
+l15_rnd.r00	2	0	-	end of file
+l15_rnd.r01	2	0	-	end of file
+l15_rnd.rar	2	0	-	end of file
+l15_txt.rar	2	0	-	end of file
+genuine-rar250-m3.rar	2	0	-	end of file
+D155_M5.RAR	7	0	-	end of file
+D250_M5.RAR	7	0	-	end of file
+r420_hp.rar	1	0	-	headers encrypted
+r420_m5.rar	8	0	-	end block
+r4_cmt.rar	4	0	-	end block
+r4_hpw.rar	1	0	-	headers encrypted
+r4_lock.rar	3	0	-	end block
+r4_m3.rar	3	0	-	end block
+r4_pw.rar	3	0	-	end block
+r4_pwvol.part1.rar	3	0	-	end block
+r4_pwvol.part2.rar	3	0	-	end block
+r4_pwvol.part3.rar	3	0	-	end block
+r4_pwvolc.part1.rar	3	0	-	end block
+r4_pwvolc.part2.rar	3	0	-	end block
+r4_pwvolc.part3.rar	3	0	-	end block
+r4_pwvolc.part4.rar	3	0	-	end block
+r4_rr.rar	4	0	-	end block
+r4_solid.rar	4	0	-	end block
+r4_store.rar	7	0	-	end block
+r4_ts.rar	3	0	-	end block
+r4_vol.part1.rar	3	0	-	end block
+r4_vol.part2.rar	3	0	-	end block
+r4_vol.part3.rar	3	0	-	end block
+r4_volvn.r00	3	0	-	end block
+r4_volvn.r01	3	0	-	end block
+r4_volvn.rar	3	0	-	end block
+D250_M0.RAR	7	0	-	end of file
+D250_M5.RAR	7	0	-	end of file
+r393_m5.rar	8	0	-	end block
+r420_m5.rar	8	0	-	end block
+r550ma4_m5.rar	8	0	-	end block
+i01_t1_default.rar	3	0	-	end block
+i02_t1_o2_m1.rar	3	0	-	end block
+i03_t1_o63_m128.rar	3	0	-	end block
+i04_t1_o16_m8.rar	3	0	-	end block
+i05_t1_o17_m8.rar	3	0	-	end block
+i06_solid3.rar	5	0	-	end block
+i07_nonsolid3.rar	5	0	-	end block
+i08_esc.rar	3	0	-	end block
+i09_bin_forced.rar	3	0	-	end block
+i11_runs.rar	3	0	-	end block
+i12_one.rar	3	0	-	end block
+i13_empty_and_one.rar	5	0	-	end block
+i18_solid_mixed_auto.rar	5	0	-	end block
+i19_solid_ppm_then_lz.rar	4	0	-	end block
+sweep_m1.rar	3	0	-	end block
+sweep_m128.rar	3	0	-	end block
+sweep_m129.rar	3	0	-	end block
+sweep_o16.rar	3	0	-	end block
+sweep_o17.rar	3	0	-	end block
+sweep_o19.rar	3	0	-	end block
+sweep_o2.rar	3	0	-	end block
+sweep_o61.rar	3	0	-	end block
+sweep_o64.rar	3	0	-	end block
+r393_bigrgb_c.rar	3	0	-	end block
+r393_mixed_solid.rar	9	0	-	end block
+r420_bigrgb_c.rar	3	0	-	end block
+r420_bmp_auto.rar	3	0	-	end block
+r420_ia64_i.rar	3	0	-	end block
+r420_mixed_nonsolid.rar	7	0	-	end block
+r420_mixed_solid.rar	9	0	-	end block
+r420_pcm_a2.rar	3	0	-	end block
+r420_pcm_a4.rar	3	0	-	end block
+r420_rgb_c.rar	3	0	-	end block
+r420_tab_auto.rar	3	0	-	end block
+r420_tab_d3.rar	3	0	-	end block
+r420_wav_auto.rar	3	0	-	end block
+r420_x86_auto.rar	3	0	-	end block
+r420_x86_e.rar	3	0	-	end block
+
+== SET 2: 49 files of this container among the 60 archive files that the genuine
+== builds DOS RAR 2.50, rar 3.9.3, rar 4.2.0 and rar 5.5.0 (-ma4) wrote on 6 Oct 2026
+== for shapes the kept set lacks, file comments among them (d250_fc.rar: RAR 2.50's
+== cf command on two members; r420_cmtfc.rar: rar 4.2.0's cf, which wrote an archive
+== comment as a CMT block and no file comment). They are not on this branch: they
+== were read from commit 2a13ac43197c448c7b2ecda13f8de8e04155cabd, directory
+== fixtures/legacy/evidence/archives (git archive that commit and path into DIR,
+== then python3 type-75-census.py DIR). The other 11 files are of the RAR 1.3
+== container, which has no block types.
+
+files of the RAR 1.5 to 4 container walked: 49
+blocks at the top level: 316
+  type 0x73  49
+  type 0x74  230
+  type 0x7a  4
+  type 0x7b  33
+type 0x75 blocks at the top level: 0
+type 0x75 blocks embedded: main header 0, file header 2, file header flag 0x0008 with no 0x75 where expected 0
+
+file	blocks	standalone 0x75	embedded 0x75	walk ended at
+d250_av.rar	7	0	-	end of file
+d250_fc.rar	7	0	file,file	end of file
+d250_lbl.rar	8	0	-	end of file
+d250_pw0.rar	7	0	-	end of file
+d250_smf.rar	4	0	-	end of file
+d250_smm.rar	7	0	-	end of file
+d250_spw.rar	7	0	-	end of file
+d250_svi.r00	3	0	-	end of file
+d250_svi.r01	2	0	-	end of file
+d250_svi.rar	3	0	-	end of file
+d250_svl.r00	3	0	-	end of file
+d250_svl.r01	2	0	-	end of file
+d250_svl.rar	3	0	-	end of file
+d250_vpw.r00	3	0	-	end of file
+d250_vpw.r01	3	0	-	end of file
+d250_vpw.rar	2	0	-	end of file
+r393_cmt.rar	8	0	-	end block
+r393_lnk.rar	10	0	-	end block
+r393_tm.rar	7	0	-	end block
+r393_ts0.rar	7	0	-	end block
+r393_ts1.rar	7	0	-	end block
+r393_ts2.rar	7	0	-	end block
+r393_ts3.rar	7	0	-	end block
+r393_ts4.rar	7	0	-	end block
+r393_uni.rar	9	0	-	end block
+r393_uni8.rar	9	0	-	end block
+r393_ver.rar	5	0	-	end block
+r420_cmt.rar	8	0	-	end block
+r420_cmtfc.rar	8	0	-	end block
+r420_lnk.rar	10	0	-	end block
+r420_prerr.sfx	8	0	-	end block
+r420_tm.rar	7	0	-	end block
+r420_ts0.rar	7	0	-	end block
+r420_ts1.rar	7	0	-	end block
+r420_ts2.rar	7	0	-	end block
+r420_ts3.rar	7	0	-	end block
+r420_ts4.rar	7	0	-	end block
+r420_uni.rar	6	0	-	end block
+r420_uni8.rar	9	0	-	end block
+r420_ver.rar	5	0	-	end block
+r550_lnk.rar	10	0	-	end block
+r550_tm.rar	7	0	-	end block
+r550_ts0.rar	7	0	-	end block
+r550_ts1.rar	7	0	-	end block
+r550_ts2.rar	7	0	-	end block
+r550_ts3.rar	7	0	-	end block
+r550_ts4.rar	7	0	-	end block
+r550_uni8.rar	9	0	-	end block
+r550_ver.rar	5	0	-	end block

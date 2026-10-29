@@ -1,0 +1,90 @@
+arm: redir-unix
+about: type 1 to a.txt
+file: x.rar  136 bytes  sha256 88b0c8102e29c7417b6f5be53807d6505e2fb5561aaa67d37c2d9d6e9e624058
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: lrwxrwxrwx
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         45%  OK
+  Testing     b.txt                                                          OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 14 bytes, b'alpha\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: lrwxrwxrwx
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         45%  OK
+  Testing     b.txt                                                          OK
+  Testing     c.txt                                                        100%  OK
+  All OK

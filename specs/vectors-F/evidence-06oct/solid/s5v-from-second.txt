@@ -1,0 +1,91 @@
+arm: s5v-from-second
+about: the same set whole, the command naming the second volume
+file: x.part01.rar  10240 bytes  sha256 fe73ca99442078aac7c44f30c046937eec8ebac4972556446761a6e41a351c59
+file: x.part02.rar  10240 bytes  sha256 e61272a7f369bc4e8586a7b11eabf726561aa6d1db1029703408a7b36a1d001d
+file: x.part03.rar  10240 bytes  sha256 38a203bd676cc3a4fd0fe57cf6cac14fba3fc13cd633789429cbc7b3dc2c91e1
+file: x.part04.rar  416 bytes  sha256 033b26a27f6316bb1b2620669655c2146e2068f74d7403062f5956fcfb24f882
+$ unrar lt -p- x.part02.rar
+exit 0
+  Archive: x.part02.rar
+  Details: RAR 5, solid, volume 2
+          Name: b.txt
+          Type: File
+          Size: 34000
+   Packed size: 7060
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 689A6687
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 37000
+   Packed size: 3087
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 67D82F6B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.part02.rar
+exit 0
+  Testing archive x.part02.rar
+  Testing archive x.part01.rar
+  Testing     a.txt                                                         28%  OK
+  Testing     b.txt                                                         32%
+  Testing archive x.part02.rar
+  ...         b.txt                                                         55%  OK
+  Testing     c.txt                                                         65%
+  Testing archive x.part03.rar
+  ...         c.txt                                                         82%  OK
+  Testing     d.txt                                                         98%
+  Testing archive x.part04.rar
+  ...         d.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.part02.rar
+exit 0
+stdout: 125000 bytes, b'ri arkridelsan ketonim chuestnimnim arkplatomu mu ark sanarkto tosanbasan vorong' ...
+$ rar lt -p- x.part02.rar
+exit 0
+  Archive: x.part02.rar
+  Details: RAR 5, solid, volume 2
+          Name: b.txt
+          Type: File
+          Size: 34000
+   Packed size: 7060
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 689A6687
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: c.txt
+          Type: File
+          Size: 37000
+   Packed size: 3087
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 67D82F6B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.part02.rar
+exit 0
+  Testing archive x.part02.rar
+  Testing archive x.part01.rar
+  Testing     a.txt                                                         28%  OK
+  Testing     b.txt                                                         32%
+  Testing archive x.part02.rar
+  ...         b.txt                                                         55%  OK
+  Testing     c.txt                                                         65%
+  Testing archive x.part03.rar
+  ...         c.txt                                                         82%  OK
+  Testing     d.txt                                                         98%
+  Testing archive x.part04.rar
+  ...         d.txt                                                        100%  OK
+  All OK

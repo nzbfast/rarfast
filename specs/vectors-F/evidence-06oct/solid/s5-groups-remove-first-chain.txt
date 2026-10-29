@@ -1,0 +1,68 @@
+arm: s5-groups-remove-first-chain
+about: the blocks of a and b (the whole first chain) removed [archive flags 0x4; c.txt clear method 3 packed 1749, d.txt solid method 3 packed 82]
+file: x.rar  1919 bytes  sha256 790ae1dc7d19ce709d6ed473f736fe990146568eb191b9e07a9fd40ea458e253
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 1749
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     c.txt                                                         94%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 9300 bytes, b'keongba ark ri ilyto kenimsan ark ily nimilyongark pla vor tosanestpla chuong on' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 1749
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     c.txt                                                         94%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK

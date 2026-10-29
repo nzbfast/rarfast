@@ -1,0 +1,139 @@
+program	form	arm	exit	standard output	standard error	result	seen
+unrar	rar5-clear	t	0	OK | All OK	(empty)	-	
+unrar	rar5-clear	x	0	OK | All OK	(empty)	=	
+unrar	rar5-clear	p-inul	0	(the member)	(empty)	=	
+unrar	rar5-clear	p-idq	0	(the member)	(empty)	=	
+unrar	rar5-clear	p-plain	0	(the member)	(empty)	=	
+unrar	rar5-clear	p-slow	0	(the member)	(empty)	= first-line-after-bytes none printed checksum-line-after-bytes none printed	standard error began after None bytes read, its checksum line after None
+unrar	rar5-clear	bad-first-t	3	Total errors: 1	small.bin - checksum error	-	
+unrar	rar5-clear	bad-first-x	3	Total errors: 1	small.bin - checksum error	.	
+unrar	rar5-clear	bad-first-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+unrar	rar5-clear	bad-first-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+unrar	rar5-clear	bad-middle-t	3	Total errors: 1	small.bin - checksum error	-	
+unrar	rar5-clear	bad-middle-x	3	Total errors: 1	small.bin - checksum error	.	
+unrar	rar5-clear	bad-middle-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+unrar	rar5-clear	bad-middle-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+unrar	rar5-clear	bad-last-t	3	Total errors: 1	small.bin - checksum error	-	
+unrar	rar5-clear	bad-last-x	3	Total errors: 1	small.bin - checksum error	.	
+unrar	rar5-clear	bad-last-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+unrar	rar5-clear	bad-last-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+unrar	rar5-clear	cut-t	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	-	
+unrar	rar5-clear	cut-x	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	.	
+unrar	rar5-clear	cut-x-kb	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	<4194310	
+unrar	rar5-clear	cut-p-slow	3	(the member)	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	<4194310 first-line-after-bytes no checksum-line-after-bytes yes	standard error began after 0 bytes read, its checksum line after 4194310
+unrar	rar5-clear	p-closed	signal 13	(the member)	(empty)	taken <1048576	
+unrar	rar5-clear	p-closed-ign	0	(the member)	(empty)	taken <1048576	
+unrar	rar5-clear	p-int	255	(the member)	(empty)	prefix yes	bytes in all 1114112
+unrar	rar5-clear	limit	signal 25	(empty)	(empty)	<4194304	
+unrar	rar5-clear	limit-kb	signal 25	(empty)	(empty)	<4194304	
+unrar	rar5-clear	limit-odd	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	.	
+unrar	rar5-clear	limit-odd-kb	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	<4195304	
+unrar	rar5-clear	limit-ign	5	Program aborted	Write error in the file D/small.bin | File too large	.	
+unrar	rar5-clear	limit-ign-kb	5	Program aborted	Write error in the file D/small.bin | File too large	<4194304	
+unrar	rar5-clear	watch	0	OK | All OK	(empty)	prefix yes grew yes after =	looks 13 least 8388608 most 268435456 left =
+unrar	rar5-clear	bigbad-watch	3	Total errors: 1	big.bin - checksum error	prefix yes grew yes after .	looks 12 least 12582912 most 260046848 left .
+unrar	rar5-clear	int-1	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 12582912 most 88080384 sent left .
+unrar	rar5-clear	int-2	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 12582912 most 88080384 sent left .
+unrar	rar5-clear	int-3	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 12582912 most 79691776 sent left .
+unrar	rar5-clear	int-kb-1	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 12582912 most 71303168 sent left <71303168
+unrar	rar5-clear	int-kb-2	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 12582912 most 83886080 sent left <83886080
+unrar	rar5-clear	int-kb-3	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 12582912 most 83886080 sent left <83886080
+unrar	rar5-twin	t	0	OK | All OK	(empty)	-	
+unrar	rar5-twin	x	0	OK | All OK	(empty)	=	
+unrar	rar5-twin	p-inul	0	(the member)	(empty)	=	
+unrar	rar5-twin	p-idq	0	(the member)	(empty)	=	
+unrar	rar5-twin	p-plain	0	(the member)	(empty)	=	
+unrar	rar5-twin	p-slow	0	(the member)	(empty)	= first-line-after-bytes none printed checksum-line-after-bytes none printed	standard error began after None bytes read, its checksum line after None
+unrar	rar5-twin	bad-middle-t	3	Total errors: 1	small.bin - checksum error	-	
+unrar	rar5-twin	bad-middle-x	3	Total errors: 1	small.bin - checksum error	.	
+unrar	rar5-twin	bad-middle-x-kb	3	Total errors: 1	small.bin - checksum error	!8388608@4194304	
+unrar	rar5-twin	bad-middle-p-slow	3	(the member)	small.bin - checksum error	!8388608@4194304 first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+unrar	rar5-twin	cut-t	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	-	
+unrar	rar5-twin	cut-x	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	.	
+unrar	rar5-twin	cut-x-kb	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	!4194310@4194304	
+unrar	rar5-twin	cut-p-slow	3	(the member)	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	!4194310@4194304 first-line-after-bytes no checksum-line-after-bytes yes	standard error began after 0 bytes read, its checksum line after 4194310
+unrar	rar5-twin	p-closed	signal 13	(the member)	(empty)	taken <1048576	
+unrar	rar5-twin	p-closed-ign	0	(the member)	(empty)	taken <1048576	
+unrar	rar5-twin	p-int	255	(the member)	(empty)	prefix yes	bytes in all 1114112
+unrar	rar5-twin	limit	signal 25	(empty)	(empty)	<4194304	
+unrar	rar5-twin	limit-kb	signal 25	(empty)	(empty)	<4194304	
+unrar	rar5-twin	limit-odd	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	.	
+unrar	rar5-twin	limit-odd-kb	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	<4195304	
+unrar	rar5-twin	limit-ign	5	Program aborted	Write error in the file D/small.bin | File too large	.	
+unrar	rar5-twin	limit-ign-kb	5	Program aborted	Write error in the file D/small.bin | File too large	<4194304	
+unrar	rar5-twin	watch	0	OK | All OK	(empty)	prefix yes grew yes after =	looks 34 least 8388608 most 264241152 left =
+unrar	rar5-twin	int-1	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 10 least 4194304 most 71303168 sent left .
+unrar	rar5-twin	int-2	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 9 least 8388608 most 67108864 sent left .
+unrar	rar5-twin	int-3	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 10 least 4194304 most 71303168 sent left .
+unrar	rar5-twin	int-kb-1	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 9 least 8388608 most 67108864 sent left <67108864
+unrar	rar5-twin	int-kb-2	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 10 least 4194304 most 71303168 sent left <71303168
+unrar	rar5-twin	int-kb-3	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 9 least 4194304 most 67108864 sent left <67108864
+rar	rar5-clear	t	0	OK | All OK	(empty)	-	
+rar	rar5-clear	x	0	OK | All OK	(empty)	=	
+rar	rar5-clear	p-inul	0	(the member)	(empty)	=	
+rar	rar5-clear	p-idq	0	(the member)	(empty)	=	
+rar	rar5-clear	p-plain	0	(the member)	(empty)	=	
+rar	rar5-clear	p-slow	0	(the member)	(empty)	= first-line-after-bytes none printed checksum-line-after-bytes none printed	standard error began after None bytes read, its checksum line after None
+rar	rar5-clear	bad-first-t	3	Total errors: 1	small.bin - checksum error	-	
+rar	rar5-clear	bad-first-x	3	Total errors: 1	small.bin - checksum error	.	
+rar	rar5-clear	bad-first-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+rar	rar5-clear	bad-first-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+rar	rar5-clear	bad-middle-t	3	Total errors: 1	small.bin - checksum error	-	
+rar	rar5-clear	bad-middle-x	3	Total errors: 1	small.bin - checksum error	.	
+rar	rar5-clear	bad-middle-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+rar	rar5-clear	bad-middle-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+rar	rar5-clear	bad-last-t	3	Total errors: 1	small.bin - checksum error	-	
+rar	rar5-clear	bad-last-x	3	Total errors: 1	small.bin - checksum error	.	
+rar	rar5-clear	bad-last-x-kb	3	Total errors: 1	small.bin - checksum error	=	
+rar	rar5-clear	bad-last-p-slow	3	(the member)	small.bin - checksum error	= first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+rar	rar5-clear	cut-t	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	-	
+rar	rar5-clear	cut-x	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	.	
+rar	rar5-clear	cut-x-kb	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	<4194310	
+rar	rar5-clear	cut-p-slow	3	(the member)	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	<4194310 first-line-after-bytes no checksum-line-after-bytes yes	standard error began after 0 bytes read, its checksum line after 4194310
+rar	rar5-clear	p-closed	signal 13	(the member)	(empty)	taken <1048576	
+rar	rar5-clear	p-closed-ign	0	(the member)	(empty)	taken <1048576	
+rar	rar5-clear	p-int	255	(the member)	(empty)	prefix yes	bytes in all 1114112
+rar	rar5-clear	limit	signal 25	(empty)	(empty)	<4194304	
+rar	rar5-clear	limit-kb	signal 25	(empty)	(empty)	<4194304	
+rar	rar5-clear	limit-odd	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	.	
+rar	rar5-clear	limit-odd-kb	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	<4195304	
+rar	rar5-clear	limit-ign	5	Program aborted	Write error in the file D/small.bin | File too large	.	
+rar	rar5-clear	limit-ign-kb	5	Program aborted	Write error in the file D/small.bin | File too large	<4194304	
+rar	rar5-clear	watch	0	OK | All OK	(empty)	prefix yes grew yes after =	looks 14 least 4194304 most 264241152 left =
+rar	rar5-clear	bigbad-watch	3	Total errors: 1	big.bin - checksum error	prefix yes grew yes after .	looks 11 least 4194304 most 255852544 left .
+rar	rar5-clear	int-1	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 4194304 most 79691776 sent left .
+rar	rar5-clear	int-2	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 4194304 most 79691776 sent left .
+rar	rar5-clear	int-3	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 4 least 8388608 most 79691776 sent left .
+rar	rar5-clear	int-kb-1	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 8388608 most 79691776 sent left <79691776
+rar	rar5-clear	int-kb-2	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 8388608 most 79691776 sent left <79691776
+rar	rar5-clear	int-kb-3	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 4 least 8388608 most 75497472 sent left <75497472
+rar	rar5-twin	t	0	OK | All OK	(empty)	-	
+rar	rar5-twin	x	0	OK | All OK	(empty)	=	
+rar	rar5-twin	p-inul	0	(the member)	(empty)	=	
+rar	rar5-twin	p-idq	0	(the member)	(empty)	=	
+rar	rar5-twin	p-plain	0	(the member)	(empty)	=	
+rar	rar5-twin	p-slow	0	(the member)	(empty)	= first-line-after-bytes none printed checksum-line-after-bytes none printed	standard error began after None bytes read, its checksum line after None
+rar	rar5-twin	bad-middle-t	3	Total errors: 1	small.bin - checksum error	-	
+rar	rar5-twin	bad-middle-x	3	Total errors: 1	small.bin - checksum error	.	
+rar	rar5-twin	bad-middle-x-kb	3	Total errors: 1	small.bin - checksum error	!8388608@4194304	
+rar	rar5-twin	bad-middle-p-slow	3	(the member)	small.bin - checksum error	!8388608@4194304 first-line-after-bytes yes checksum-line-after-bytes yes	standard error began after 8388608 bytes read, its checksum line after 8388608
+rar	rar5-twin	cut-t	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	-	
+rar	rar5-twin	cut-x	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	.	
+rar	rar5-twin	cut-x-kb	3	Total errors: 3	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	!4194310@4194304	
+rar	rar5-twin	cut-p-slow	3	(the member)	Unexpected end of archive | small.bin - checksum error | Unexpected end of archive	!4194310@4194304 first-line-after-bytes no checksum-line-after-bytes yes	standard error began after 0 bytes read, its checksum line after 4194310
+rar	rar5-twin	p-closed	signal 13	(the member)	(empty)	taken <1048576	
+rar	rar5-twin	p-closed-ign	0	(the member)	(empty)	taken <1048576	
+rar	rar5-twin	p-int	255	(the member)	(empty)	prefix yes	bytes in all 1114112
+rar	rar5-twin	limit	signal 25	(empty)	(empty)	<4194304	
+rar	rar5-twin	limit-kb	signal 25	(empty)	(empty)	<4194304	
+rar	rar5-twin	limit-odd	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	.	
+rar	rar5-twin	limit-odd-kb	5	Program aborted	Write error in the file D/small.bin | Inappropriate ioctl for device	<4195304	
+rar	rar5-twin	limit-ign	5	Program aborted	Write error in the file D/small.bin | File too large	.	
+rar	rar5-twin	limit-ign-kb	5	Program aborted	Write error in the file D/small.bin | File too large	<4194304	
+rar	rar5-twin	watch	0	OK | All OK	(empty)	prefix yes grew yes after =	looks 33 least 4194304 most 264241152 left =
+rar	rar5-twin	int-1	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 10 least 4194304 most 71303168 sent left .
+rar	rar5-twin	int-2	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 9 least 4194304 most 67108864 sent left .
+rar	rar5-twin	int-3	255	User break | Program aborted	(empty)	prefix yes grew yes after .	looks 9 least 4194304 most 71303168 sent left .
+rar	rar5-twin	int-kb-1	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 9 least 4194304 most 67108864 sent left <67108864
+rar	rar5-twin	int-kb-2	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 10 least 4194304 most 71303168 sent left <71303168
+rar	rar5-twin	int-kb-3	255	User break | Program aborted	(empty)	prefix yes grew yes after <	looks 9 least 4194304 most 71303168 sent left <71303168

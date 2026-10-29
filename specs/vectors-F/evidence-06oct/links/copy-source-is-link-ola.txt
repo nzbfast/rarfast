@@ -1,0 +1,17 @@
+arm: copy-source-is-link-ola
+about: the same, -ola
+file: x.rar  104 bytes  sha256 5ee9e554f3b3d56f56e6342d89ffc8a1e10b48721db4819e3dab242612976054
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/big1                                                         OK
+  Extracting  o/c                                                            0%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/big1                 -> ../victim/t   (mtime the member's)
+  file  o/c                         7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

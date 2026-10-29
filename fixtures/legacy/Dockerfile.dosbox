@@ -1,0 +1,8 @@
+# The only image this generator builds, and the only step that touches the
+# network. dosbox runs the three 16-bit DOS RAR builds; every RAR process is
+# two sandboxes deep (dosbox inside a container started with --network none
+# whose single mount is the scratch directory).
+FROM debian:bookworm-slim
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends dosbox \
+ && rm -rf /var/lib/apt/lists/*

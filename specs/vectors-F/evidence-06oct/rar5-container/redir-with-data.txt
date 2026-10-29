@@ -1,0 +1,94 @@
+arm: redir-with-data
+about: type 1 on a member that carries 12 bytes of data
+file: x.rar  148 bytes  sha256 a2fea336f0b400130df108ad0fc4cca6086e2932094f4e4ba777a4c4e484090f
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: lrwxrwxrwx
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         40%  OK
+  Testing     b.txt
+  Testing     c.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  b.txt                - checksum error
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 14 bytes, b'alpha\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: lrwxrwxrwx
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         40%  OK
+  Testing     b.txt
+  Testing     c.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  b.txt                - checksum error

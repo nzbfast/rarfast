@@ -1,0 +1,49 @@
+archive written with	edit	then	exit of the edit	exit of then	recovery bytes before	after the edit	after then	exit of t
+-rr10	rn base.rar a.txt z.txt	-	0	-	9648	0	0	0
+-rr10	rn base.rar a.txt z.txt	rr base.rar	0	0	9648	0	1608	0
+-rr10	rn base.rar a.txt z.txt	rr10 base.rar	0	0	9648	0	9648	0
+-rr10	rn base.rar a.txt z.txt	rr1 base.rar	0	0	9648	0	1608	0
+-rr10	rn base.rar nosuch z	-	0	-	9648	0	0	0
+-rr10	rn base.rar nosuch z	rr base.rar	0	0	9648	0	1608	0
+-rr10	rn base.rar nosuch z	rr10 base.rar	0	0	9648	0	9648	0
+-rr10	rn base.rar nosuch z	rr1 base.rar	0	0	9648	0	1608	0
+-rr10	d base.rar a.txt	-	0	-	9648	0	0	0
+-rr10	d base.rar a.txt	rr base.rar	0	0	9648	0	1606	0
+-rr10	d base.rar a.txt	rr10 base.rar	0	0	9648	0	9636	0
+-rr10	d base.rar a.txt	rr1 base.rar	0	0	9648	0	1606	0
+-rr10	rn -rr10 base.rar a.txt z.txt	-	0	-	9648	9648	9648	0
+-rr10	rn -rr10 base.rar a.txt z.txt	rr base.rar	0	0	9648	9648	1608	0
+-rr10	rn -rr10 base.rar a.txt z.txt	rr10 base.rar	0	0	9648	9648	9648	0
+-rr10	rn -rr10 base.rar a.txt z.txt	rr1 base.rar	0	0	9648	9648	1608	0
+-rr10	rn -rr base.rar a.txt z.txt	-	0	-	9648	1608	1608	0
+-rr10	rn -rr base.rar a.txt z.txt	rr base.rar	0	0	9648	1608	1608	0
+-rr10	rn -rr base.rar a.txt z.txt	rr10 base.rar	0	0	9648	1608	9648	0
+-rr10	rn -rr base.rar a.txt z.txt	rr1 base.rar	0	0	9648	1608	1608	0
+-rr10	d -rr10 base.rar a.txt	-	0	-	9648	9636	9636	0
+-rr10	d -rr10 base.rar a.txt	rr base.rar	0	0	9648	9636	1606	0
+-rr10	d -rr10 base.rar a.txt	rr10 base.rar	0	0	9648	9636	9636	0
+-rr10	d -rr10 base.rar a.txt	rr1 base.rar	0	0	9648	9636	1606	0
+-rr	rn base.rar a.txt z.txt	-	0	-	1608	0	0	0
+-rr	rn base.rar a.txt z.txt	rr base.rar	0	0	1608	0	1608	0
+-rr	rn base.rar a.txt z.txt	rr10 base.rar	0	0	1608	0	9648	0
+-rr	rn base.rar a.txt z.txt	rr1 base.rar	0	0	1608	0	1608	0
+-rr	rn base.rar nosuch z	-	0	-	1608	0	0	0
+-rr	rn base.rar nosuch z	rr base.rar	0	0	1608	0	1608	0
+-rr	rn base.rar nosuch z	rr10 base.rar	0	0	1608	0	9648	0
+-rr	rn base.rar nosuch z	rr1 base.rar	0	0	1608	0	1608	0
+-rr	d base.rar a.txt	-	0	-	1608	0	0	0
+-rr	d base.rar a.txt	rr base.rar	0	0	1608	0	1606	0
+-rr	d base.rar a.txt	rr10 base.rar	0	0	1608	0	9636	0
+-rr	d base.rar a.txt	rr1 base.rar	0	0	1608	0	1606	0
+-rr	rn -rr10 base.rar a.txt z.txt	-	0	-	1608	9648	9648	0
+-rr	rn -rr10 base.rar a.txt z.txt	rr base.rar	0	0	1608	9648	1608	0
+-rr	rn -rr10 base.rar a.txt z.txt	rr10 base.rar	0	0	1608	9648	9648	0
+-rr	rn -rr10 base.rar a.txt z.txt	rr1 base.rar	0	0	1608	9648	1608	0
+-rr	rn -rr base.rar a.txt z.txt	-	0	-	1608	1608	1608	0
+-rr	rn -rr base.rar a.txt z.txt	rr base.rar	0	0	1608	1608	1608	0
+-rr	rn -rr base.rar a.txt z.txt	rr10 base.rar	0	0	1608	1608	9648	0
+-rr	rn -rr base.rar a.txt z.txt	rr1 base.rar	0	0	1608	1608	1608	0
+-rr	d -rr10 base.rar a.txt	-	0	-	1608	9636	9636	0
+-rr	d -rr10 base.rar a.txt	rr base.rar	0	0	1608	9636	1606	0
+-rr	d -rr10 base.rar a.txt	rr10 base.rar	0	0	1608	9636	9636	0
+-rr	d -rr10 base.rar a.txt	rr1 base.rar	0	0	1608	9636	1606	0

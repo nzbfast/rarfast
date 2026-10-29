@@ -1,0 +1,5 @@
+case	members	reading in the file headers	readings that give other bytes	what
+258-first	1	stated	258-first-fails	258 is the first symbol of the stream, then literals, then 258 again
+258-after-each-kind	1	stated	repeat-leaves-last short-leaves-last	258 after a fresh match of length 7 at distance 3, after a repeated distance match of length 5 and after a short distance match, twice each time
+every-match-symbol	1	stated	-	each of the main symbols 258 to 298 appears at least once, among literals that count up
+258-inside-run	1	stated	258-ends-run	low distance symbol 5 and then 16 open a run; 258 follows, then two far matches that carry no low symbol

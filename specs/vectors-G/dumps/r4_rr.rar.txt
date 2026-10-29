@@ -1,0 +1,12 @@
+== archives/r4_rr.rar (11517 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=976f flags=0x0040 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=9e99 flags=0x8020 hsize=40 addsize=8800
+        pack=8800 unp=8800 host=3 crc=f57b75de time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'text.txt'
+  [0x229c] SERVICE crc=87c8 flags=0xc000 hsize=54 addsize=2596
+        pack=2596 unp=2596 host=3 crc=ecf6546c time=1980-00-00 00:00:00 unpver=29 method=0x30 attr=0x0
+        name=b'RR'
+  [0x2cf6] END crc=3dc4 flags=0x4000 hsize=7 addsize=0
+        rest=

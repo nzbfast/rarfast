@@ -1,0 +1,68 @@
+arm: s5-genuine-stored-removed
+about: the stored member's block removed whole [archive flags 0x4; a.x1 clear method 3 packed 2008, t.x3 solid method 3 packed 731]
+file: x.rar  2825 bytes  sha256 fd6974195cc72f6c79c9cb5dd66a86b3071803ac7ce33afdf9955ffa6af7c445
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 731
+         Ratio: 35%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          73%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 8050 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 731
+         Ratio: 35%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.x1                                                          73%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK

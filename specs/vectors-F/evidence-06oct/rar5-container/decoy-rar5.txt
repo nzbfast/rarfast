@@ -1,0 +1,38 @@
+arm: decoy-rar5
+about: a RAR 5 signature and 60 bytes of 0xEE, then the sound archive
+file: x.rar  305 bytes  sha256 c75a74fde80f56593d8cf9dbfe68894ec8ab17619dba75a0260741308edef9d6
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5, SFX
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Corrupt header is found
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Corrupt header is found
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 5, SFX
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Corrupt header is found
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Corrupt header is found

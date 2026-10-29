@@ -1,0 +1,12 @@
+== f11_svol.part2.rar (4096 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=12   crc=cac4c2a9 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x3(VOLUME|HAS_PART_INDEX) volume_number=1
+      extra LOCATOR flags=0x1 quick_open_offset=0
+  00000019: FILE       hsize=32   crc=2bd81270 flags=0x001a(DATA|SPLIT_BEFORE|SPLIT_AFTER) data=3952
+      name=b'rand.bin' fflags=0x6(MTIME|CRC32) unp=12000 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=c4ecadae
+  00000fae: END        hsize=3    crc=2651478b flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x1(NOT_LAST)
+  00000fb6: 74 bytes after the end record

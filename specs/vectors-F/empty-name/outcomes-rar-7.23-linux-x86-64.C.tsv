@@ -1,0 +1,42 @@
+program	locale	archive	lb exit	t exit	x exit	lb names (hex)	files made (hex)	a.txt's bytes	the member's bytes	c.txt's bytes
+rar-7.23-linux-x86-64	C	control-ascii.rar	0	0	0	612e747874 622e747874 632e747874	612e747874 622e747874 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	control-ascii.alone.rar	0	0	0	622e747874	622e747874	0	1	0
+rar-7.23-linux-x86-64	C	control-utf8.rar	0	0	0	612e747874 623f3f3f2e747874 632e747874	612e747874 62c3a92e747874 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	control-utf8.alone.rar	0	0	0	623f3f3f2e747874	62c3a92e747874	0	1	0
+rar-7.23-linux-x86-64	C	empty.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	empty.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	one-zero-byte.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	one-zero-byte.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	zero-then-abc.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	zero-then-abc.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	a-zero-b.rar	0	0	0	612e747874 61 632e747874	61 612e747874 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	a-zero-b.alone.rar	0	0	0	61	61	0	1	0
+rar-7.23-linux-x86-64	C	latin1-e9-first.rar	0	0	0	612e747874 3f3f2e747874 632e747874	612e747874 632e747874 e92e747874	1	1	1
+rar-7.23-linux-x86-64	C	latin1-e9-first.alone.rar	0	0	0	3f3f2e747874	e92e747874	0	1	0
+rar-7.23-linux-x86-64	C	latin1-e9-first-host0.rar	0	0	0	612e747874 3f3f2e747874 632e747874	612e747874 632e747874 e92e747874	1	1	1
+rar-7.23-linux-x86-64	C	latin1-e9-first-host0.alone.rar	0	0	0	3f3f2e747874	e92e747874	0	1	0
+rar-7.23-linux-x86-64	C	latin1-e9-first-host2.rar	0	0	0	612e747874 3f3f2e747874 632e747874	612e747874 632e747874 e92e747874	1	1	1
+rar-7.23-linux-x86-64	C	latin1-e9-first-host2.alone.rar	0	0	0	3f3f2e747874	e92e747874	0	1	0
+rar-7.23-linux-x86-64	C	latin1-e9-inside.rar	0	0	0	612e747874 623f3f2e747874 632e747874	612e747874 62e92e747874 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	latin1-e9-inside.alone.rar	0	0	0	623f3f2e747874	62e92e747874	0	1	0
+rar-7.23-linux-x86-64	C	latin1-e9-last.rar	0	0	0	612e747874 622e74783f3f 632e747874	612e747874 622e7478e9 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	latin1-e9-last.alone.rar	0	0	0	622e74783f3f	622e7478e9	0	1	0
+rar-7.23-linux-x86-64	C	utf8-cut-short.rar	0	0	0	612e747874 623f3f 632e747874	612e747874 62c3 632e747874	1	1	1
+rar-7.23-linux-x86-64	C	utf8-cut-short.alone.rar	0	0	0	623f3f	62c3	0	1	0
+rar-7.23-linux-x86-64	C	two-part-control.rar	0	0	0	612e747874 78792e74 632e747874	612e747874 632e747874 78792e74	1	1	1
+rar-7.23-linux-x86-64	C	two-part-control.alone.rar	0	0	0	78792e74	78792e74	0	1	0
+rar-7.23-linux-x86-64	C	two-part-first-unit-zero.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	two-part-first-unit-zero.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	two-part-first-unit-zero-by-selector-2.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	two-part-first-unit-zero-by-selector-2.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	two-part-no-encoded-bytes.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+rar-7.23-linux-x86-64	C	two-part-no-encoded-bytes.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+rar-7.23-linux-x86-64	C	two-part-high-byte-only.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+rar-7.23-linux-x86-64	C	two-part-high-byte-only.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+rar-7.23-linux-x86-64	C	two-part-no-zero-at-all.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+rar-7.23-linux-x86-64	C	two-part-no-zero-at-all.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+rar-7.23-linux-x86-64	C	two-part-empty-fallback.rar	0	0	0	612e747874 78792e74 632e747874	612e747874 632e747874 78792e74	1	1	1
+rar-7.23-linux-x86-64	C	two-part-empty-fallback.alone.rar	0	0	0	78792e74	78792e74	0	1	0
+rar-7.23-linux-x86-64	C	two-part-empty-fallback-first-unit-zero.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+rar-7.23-linux-x86-64	C	two-part-empty-fallback-first-unit-zero.alone.rar	0	10	10	-	-	0	0	0
+rar-7.23-linux-x86-64	C	empty-twice.alone.rar	0	10	10	-	-	0	0	0

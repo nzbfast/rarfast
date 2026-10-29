@@ -1,0 +1,24 @@
+arm: ov-hard-ask
+about: a hard link member whose path is taken, no switch, end of input: the question's choices
+file: x.rar  104 bytes  sha256 b31424eb9d00e924dd77611dda304965bb7f51e8f06ba03dc3b1e6c8344e8e1a
+planted before the run: o/hard_a, a regular file of 4 bytes
+$ unrar x -p- x.rar o/
+exit 12
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       67%  OK
+  Program aborted
+stderr:
+  Would you like to replace the existing file o/hard_a
+       4 bytes, modified on 2026-09-17 04:00
+  with a new one
+      10 bytes, modified on 2026-09-18 04:00
+  [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin
+  Inappropriate ioctl for device
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+  file  o/hard_a                    4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

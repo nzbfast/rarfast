@@ -1,0 +1,48 @@
+arm: main-metadata-unix-ns
+about: a metadata record: flags 0xf (name, time, Unix, nanoseconds in 8 bytes)
+file: x.rar  80 bytes  sha256 8e7f39107713ddf6ba63ef7174db65446e3e0b8d2f67460d9e3f4fcd2d75bfd8
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+  Original name: orig.rar
+  Original time: 2026-09-18 04:00:00,000000005
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 6 bytes, b'alpha\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+  Original name: orig.rar
+  Original time: 2026-09-18 04:00:00,000000005
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                        100%  OK
+  All OK

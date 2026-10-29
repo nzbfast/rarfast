@@ -1,0 +1,29 @@
+# program	case	old file	exit	at the name afterwards	last line of standard output	last line of standard error
+unrar	sound	long (5000000 bytes)	0	member	All OK	-
+unrar	sound	short (1000 bytes)	0	member	All OK	-
+unrar	bad	long (5000000 bytes)	3	absent	Total errors: 1	big.bin              - checksum error
+unrar	bad	short (1000 bytes)	3	absent	Total errors: 1	big.bin              - checksum error
+unrar	cut	long (5000000 bytes)	3	absent	Total errors: 2	Unexpected end of archive
+unrar	cut	short (1000 bytes)	3	absent	Total errors: 2	Unexpected end of archive
+unrar	full	long (100000 bytes)	12	absent	Program aborted	Inappropriate ioctl for device
+unrar	full	short (1000 bytes)	12	absent	Program aborted	Inappropriate ioctl for device
+unrar	bad-kb	long (5000000 bytes)	3	member-changed:3000000	Total errors: 1	big.bin              - checksum error
+unrar	bad-kb	short (1000 bytes)	3	member-changed:3000000	Total errors: 1	big.bin              - checksum error
+unrar	cut-kb	long (5000000 bytes)	3	member-prefix:1499936	Total errors: 2	Unexpected end of archive
+unrar	cut-kb	short (1000 bytes)	3	member-prefix:1499936	Total errors: 2	Unexpected end of archive
+unrar	full-kb	long (100000 bytes)	12	member-prefix:2097152	Program aborted	Inappropriate ioctl for device
+unrar	full-kb	short (1000 bytes)	12	member-prefix:2097152	Program aborted	Inappropriate ioctl for device
+rar	sound	long (5000000 bytes)	0	member	All OK	-
+rar	sound	short (1000 bytes)	0	member	All OK	-
+rar	bad	long (5000000 bytes)	3	absent	Total errors: 1	big.bin              - checksum error
+rar	bad	short (1000 bytes)	3	absent	Total errors: 1	big.bin              - checksum error
+rar	cut	long (5000000 bytes)	3	absent	Total errors: 2	Unexpected end of archive
+rar	cut	short (1000 bytes)	3	absent	Total errors: 2	Unexpected end of archive
+rar	full	long (100000 bytes)	12	absent	Program aborted	Inappropriate ioctl for device
+rar	full	short (1000 bytes)	12	absent	Program aborted	Inappropriate ioctl for device
+rar	bad-kb	long (5000000 bytes)	3	member-changed:3000000	Total errors: 1	big.bin              - checksum error
+rar	bad-kb	short (1000 bytes)	3	member-changed:3000000	Total errors: 1	big.bin              - checksum error
+rar	cut-kb	long (5000000 bytes)	3	member-prefix:1499936	Total errors: 2	Unexpected end of archive
+rar	cut-kb	short (1000 bytes)	3	member-prefix:1499936	Total errors: 2	Unexpected end of archive
+rar	full-kb	long (100000 bytes)	12	member-prefix:2097152	Program aborted	Inappropriate ioctl for device
+rar	full-kb	short (1000 bytes)	12	member-prefix:2097152	Program aborted	Inappropriate ioctl for device

@@ -1,0 +1,26 @@
+== archives/r5_store.rar (555 bytes)
+  [0x0] SIGNATURE 526172211a070100
+  [0x8] MAIN hdrcrc=eb82e1f3 hdrsize=11 flags=0x5 extra=7 data=0
+        archive_flags=0x0
+        extra area at 0x11 (7 bytes): 06010180808000
+          record size=6 type=1 body=0180808000
+        !! parsed to 0x11, header ends 0x18 (gap 7)
+  [0x18] FILE hdrcrc=89873008 hdrsize=31 flags=0x2 extra=0 data=300
+        file_flags=0x6 unp_size=300 attr=0x81a4 mtime=1600000000 crc=59dfd160
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'hello.txt'
+        data area 0x3c..0x168
+  [0x168] FILE hdrcrc=9485bea6 hdrsize=31 flags=0x2 extra=0 data=0
+        file_flags=0x6 unp_size=0 attr=0x81a4 mtime=1600000000 crc=00000000
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'empty.dat'
+  [0x18c] FILE hdrcrc=499307a1 hdrsize=41 flags=0x2 extra=0 data=50
+        file_flags=0x6 unp_size=50 attr=0x81a4 mtime=1600000000 crc=1da83329
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'sub/nested/deep.txt'
+        data area 0x1ba..0x1ec
+  [0x1ec] FILE hdrcrc=8a34f56a hdrsize=26 flags=0x2 extra=0 data=0
+        file_flags=0x3 unp_size=0 attr=0x41ed mtime=1600000000 crc=None
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'sub/nested'
+  [0x20b] FILE hdrcrc=37fb7cc0 hdrsize=19 flags=0x2 extra=0 data=0
+        file_flags=0x3 unp_size=0 attr=0x41ed mtime=1600000000 crc=None
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'sub'
+  [0x223] ENDARC hdrcrc=5156771d hdrsize=3 flags=0x4 extra=0 data=0
+        end_flags=0x0

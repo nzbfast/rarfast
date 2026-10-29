@@ -1,0 +1,9 @@
+== archives/r4_vol.part3.rar (4051 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=7a19 flags=0x0011 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=f5d0 flags=0x8021 hsize=41 addsize=3970
+        pack=3970 unp=12000 host=3 crc=ad4f5dcc time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'split.bin'
+  [0xfbf] END crc=08fc flags=0x400e hsize=20 addsize=0
+        rest=0a2522bd020000000000000000

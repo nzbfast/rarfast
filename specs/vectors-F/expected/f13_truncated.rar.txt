@@ -1,0 +1,9 @@
+== f13_truncated.rar (73 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=11   crc=eb82e1f3 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x0(-)
+      extra LOCATOR flags=0x1 quick_open_offset=0
+  00000018: FILE       hsize=32   crc=0fe067e3 flags=0x0002(DATA) data=77
+      name=b'text.txt' fflags=0x6(MTIME|CRC32) unp=11700 attr=0x81a4 host=1 ver=0 solid=0 method=3 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=527a6e2c

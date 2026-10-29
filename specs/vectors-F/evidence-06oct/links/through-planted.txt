@@ -1,0 +1,24 @@
+arm: through-planted
+about: the same archive with dl, dl2 and dl3 already on disk as links, default
+file: x.rar  338 bytes  sha256 eaa916b993d0fd7f7dbf3279e1077d68816345ae3bbf630fc7b00ea61742d637
+planted before the run: o/dl, a symbolic link to <VICTIM>; o/dl2, a symbolic link to sub; o/dl3, a symbolic link to ../victim
+$ unrar x -p- x.rar o/
+exit 12
+  Extracting from x.rar
+  Program aborted
+stderr:
+  Would you like to replace the existing file o/dl
+    4096 bytes, modified on 2026-10-06 10:23
+  with a new one
+       0 bytes, modified on 2026-09-18 04:00
+  [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin
+  Inappropriate ioctl for device
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/dl                   -> <VICTIM>   (mtime the time of the run)
+  link  o/dl2                  -> sub   (mtime the time of the run)
+  link  o/dl3                  -> ../victim   (mtime the time of the run)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

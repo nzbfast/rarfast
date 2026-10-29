@@ -1,0 +1,30 @@
+arm: main-absent
+about: no main header: the first block is a file header
+file: x.rar  129 bytes  sha256 c32d89532fda11738d3a3e98d8568fed3ee5f9d6a7f0d0f0afccdfccd44e0d7d
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+stderr:
+  Main archive header is corrupt
+$ unrar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Main archive header is corrupt
+$ unrar p -inul -p- x.rar
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+stderr:
+  Main archive header is corrupt
+$ rar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Main archive header is corrupt

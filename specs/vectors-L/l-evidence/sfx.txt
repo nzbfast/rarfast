@@ -1,0 +1,6 @@
+sfx	no-stub	rc=0 signature_at=0 rr_header_at=30141 P=30141 locator=30133 P_is_header_minus_signature=True P_is_header_offset=True table_fits={'from the signature': True, 'from file byte 0': True}
+sfx	no-stub	damage-in-archive	rc=0	fixed.x.rar: equal_from_signature=True equal_whole=True len=31490	ilding fixed.x.rar        0% | Corrupt 1006 bytes at 00000000 00000fb8 - data recovered     100% | 1 blocks are recovered, 0 blocks are relocated | Done
+sfx	stub-3001	rc=0 signature_at=3001 rr_header_at=33142 P=33142 locator=30133 P_is_header_minus_signature=False P_is_header_offset=True table_fits={'from the signature': False, 'from file byte 0': True}
+sfx	stub-3001	damage-in-archive	rc=0	fixed.x.rar: equal_from_signature=True equal_whole=True len=34515	ilding fixed.x.rar        0% | Corrupt 1006 bytes at 00000000 00001b82 - data recovered     100% | 1 blocks are recovered, 0 blocks are relocated | Done
+sfx	stub-3001	damage-in-stub	rc=0	fixed.x.rar: equal_from_signature=True equal_whole=True len=34515	ilding fixed.x.rar        0% | Corrupt 1006 bytes at 00000000 00000000 - data recovered     100% | 1 blocks are recovered, 0 blocks are relocated | Done
+summary	sfx arms done

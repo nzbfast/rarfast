@@ -1,0 +1,7 @@
+reading	what it is
+bonus-1-from-1fff	the first length bonus begins at distance 0x1FFF
+bonus-1-from-2001	the first length bonus begins at distance 0x2001
+bonus-2-from-3ffff	the second length bonus begins at distance 0x3FFFF
+bonus-2-from-40001	the second length bonus begins at distance 0x40001
+last-without-bonus	the last length is the fresh match's length before its bonus
+repeat-bonus	a repeated distance match takes the length bonus too

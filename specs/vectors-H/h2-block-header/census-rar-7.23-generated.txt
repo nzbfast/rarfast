@@ -1,0 +1,26 @@
+gen_m1.rar: 4 members walked
+gen_m1_solid.rar: 6 members walked
+gen_m2.rar: 4 members walked
+gen_m2_solid.rar: 6 members walked
+gen_m3.rar: 4 members walked
+gen_m3_solid.rar: 6 members walked
+gen_m4.rar: 4 members walked
+gen_m4_solid.rar: 6 members walked
+gen_m5.rar: 4 members walked
+gen_m5_solid.rar: 6 members walked
+members walked                              50
+blocks                                      1941
+blocks whose check relation fails           0
+members whose chain ends on the last byte,
+  at a block flagged last                   50
+members ending any other way                0
+blocks flagged last that are not the final  0
+blocks without the tables flag              5
+  of them, first block of a non solid member 0
+blocks with an empty payload                0
+blocks with flag bit 0x20 set               0
+blocks whose size width is not the smallest 0
+largest payload, bytes                      42465
+size width field + 1, blocks by value       {1: 1071, 2: 870}
+low three flag bits, blocks by value        {0: 285, 1: 144, 2: 205, 3: 333, 4: 449, 5: 173, 6: 180, 7: 172}
+blocks per member, members by count         {1: 15, 19: 5, 23: 2, 29: 2, 33: 3, 34: 1, 36: 3, 37: 1, 42: 7, 49: 1, 52: 1, 55: 2, 74: 1, 145: 6}

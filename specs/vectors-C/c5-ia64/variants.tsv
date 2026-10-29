@@ -1,0 +1,33 @@
+variant	arms that settle it	first arms
+a bundle is taken when its own 16 bytes are in the span	18	end-n16,end-n17,end-n18,end-n19
+a bundle is taken when 21 bytes from its start are in the span	3	end-n21,end-n37,end-n53
+a bundle is taken only when 23 bytes from its start are in the span	48	end-n22,end-n38,end-n54,position-F0
+bundles are counted from the member's start, not the span's	37	first-byte-sweep-F237,position-F1,position-F2,position-F3
+bit 0 of the first byte is part of the selector	65	first-byte-sweep-F230,first-byte-sweep-F237,end-n38,end-n39
+bits 5 to 7 of the first byte must be 0	2	first-byte-sweep-F230,first-byte-sweep-F237
+selector 8 examines no slot	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 8 examines slots 1 and 2	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 9 examines slot 2 only	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 9 examines all three slots	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 10 examines slot 2	2	first-byte-sweep-F230,first-byte-sweep-F237
+selector 11 examines slots 1 and 2 only	83	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+selector 12 examines no slot	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 12 examines slots 1 and 2	7	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 13 examines slot 2	2	first-byte-sweep-F230,first-byte-sweep-F237
+selector 14 examines no slot	13	first-byte-sweep-F230,first-byte-sweep-F237,fields-F0,fields-F10
+selector 15 examines slot 2	2	first-byte-sweep-F230,first-byte-sweep-F237
+selector 0 examines slot 2	2	first-byte-sweep-F230,first-byte-sweep-F237
+selector 7 examines slot 2	2	first-byte-sweep-F230,first-byte-sweep-F237
+an opcode of 4 is taken too	2	opcode-sweep,opcode-sweep-plain
+any opcode with bits 0101 or 1101 is taken	2	opcode-sweep,opcode-sweep-plain
+an opcode of 7 is taken too	2	opcode-sweep,opcode-sweep-plain
+the counter ignores F	65	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+the counter ignores the bundle's index	67	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+the counter is F / 16 rounded up, plus the index	37	first-byte-sweep-F237,position-F1,position-F2,position-F3
+the counter is one more	83	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+the counter is the byte position, F + 16k	83	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+the counter is (F + 16k) / 4	83	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+F stops at 2^32 - 1	1	far-F100000050
+the counter is added	83	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,opcode-sweep-plain
+the borrow reaches the bits above the field	63	end-n38,end-n39,end-n40,end-n41
+the bits below the field are cleared	82	first-byte-sweep-F230,first-byte-sweep-F237,opcode-sweep,end-n22

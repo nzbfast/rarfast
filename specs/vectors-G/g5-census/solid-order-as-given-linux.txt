@@ -1,0 +1,13 @@
+writer: RAR 7.23   C  reader: UNRAR 7.23 f  extra switch: none
+switches [-s] shape 1: aa zz unrar t exit 0
+switches [-s] shape 2: f dzz unrar t exit 0
+switches [-s] shape 3: b q unrar t exit 0
+switches [-s -ds] shape 1: zz aa unrar t exit 0
+switches [-s -ds] shape 2: f dzz unrar t exit 0
+switches [-s -ds] shape 3: q b unrar t exit 0
+switches [-s -m0] shape 1: zz aa unrar t exit 0
+switches [-s -m0] shape 2: f dzz unrar t exit 0
+switches [-s -m0] shape 3: q b unrar t exit 0
+switches [none] shape 1: zz aa unrar t exit 0
+switches [none] shape 2: f dzz unrar t exit 0
+switches [none] shape 3: q b unrar t exit 0

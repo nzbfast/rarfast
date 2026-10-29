@@ -1,0 +1,8 @@
+reading	what it is
+early-end-goes-on	an end of block that ends the member, met before the declared size, does not stop the member
+end-first-inverted	the first bit after 256 means the opposite
+end-second-inverted	the second bit after 256 means the opposite
+end-two-always	two bits are read after 256 whatever the first is
+member-clears-window	a new member of a solid chain starts with an empty window
+member-resets-repeats	a new member of a solid chain starts with the repeated distances and the last length at zero
+no-align	a block header begins at the next bit, with no alignment to a byte

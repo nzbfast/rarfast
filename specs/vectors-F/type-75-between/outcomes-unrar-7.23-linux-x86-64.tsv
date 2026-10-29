@@ -1,0 +1,36 @@
+program	archive	t exit	x exit	lb exit	x wrote right	lb names
+unrar-7.23-linux-x86-64	control.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes-flags-0000.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes-flags-4000.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	7-bytes.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes.before-a.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes.between-b-c.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes.after-c.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes.twice.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	9-bytes.bad-header-crc.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	13-bytes-fields.between-a-b.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	whole-comment.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	whole-comment.before-a.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	whole-comment.bad-header-crc.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	13-bytes-fields.bad-header-crc.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	13-bytes-other-fields.between-a-b.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	13-bytes-fields.before-a.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	13-bytes-fields.twice.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	whole-comment-crc-of-fields.between-a-b.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	whole-comment-crc-of-fields.bad-header-crc.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	long-comment-crc-of-fields.between-a-b.rar	0	0	0	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	fields-crc-data-flag-size-5-data.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	data-flag-size-5-no-data.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	data-flag-size-0.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	data-flag-size-5-data.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	data-flag-c000-size-5-data.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	data-flag-size-5-data.after-c.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	size-field-0.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-1.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-3.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-6.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-6.after-c.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	size-field-20.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-past-end.between-a-b.rar	3	3	3	a.txt	a.txt
+unrar-7.23-linux-x86-64	size-field-past-end.after-c.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt
+unrar-7.23-linux-x86-64	40-bytes-bad-crc.between-a-b.rar	3	3	3	a.txt b.txt c.txt	a.txt b.txt c.txt

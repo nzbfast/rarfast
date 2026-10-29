@@ -1,0 +1,17 @@
+== f02_dirs.rar (151 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=10   crc=e5b59233 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x0(-)
+      extra LOCATOR flags=0x1 quick_open_offset=0
+  00000017: FILE       hsize=44   crc=99b41c5a flags=0x0002(DATA) data=10
+      name=b'in/sub/nested/deep.txt' fflags=0x6(MTIME|CRC32) unp=10 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=b7730d89
+  00000052: FILE       hsize=29   crc=a4602d64 flags=0x0002(DATA) data=0
+      name=b'in/sub/nested' fflags=0x3(DIRECTORY|MTIME) unp=0 attr=0x41ed host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+  00000074: FILE       hsize=22   crc=ab096235 flags=0x0002(DATA) data=0
+      name=b'in/sub' fflags=0x3(DIRECTORY|MTIME) unp=0 attr=0x41ed host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+  0000008f: END        hsize=3    crc=5156771d flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x0(LAST)

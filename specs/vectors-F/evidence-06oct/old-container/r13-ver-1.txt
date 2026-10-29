@@ -1,0 +1,76 @@
+arm: r13-ver-1
+about: RAR 1.3: stored member B declares unpack version 1
+file: x.rar  111 bytes  sha256 becdae3533a4cb7b4a4f0b6564a797ffcb6a621002f919c97dacfe607e44b519
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: B.TXT
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v10) -m0 -md=64k
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     A.TXT                                                         44%  OK
+  Testing     B.TXT                                                         87%  OK
+  Testing     C.TXT                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: B.TXT
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v10) -m0 -md=64k
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     A.TXT                                                         44%  OK
+  Testing     B.TXT                                                         87%  OK
+  Testing     C.TXT                                                        100%  OK
+  All OK

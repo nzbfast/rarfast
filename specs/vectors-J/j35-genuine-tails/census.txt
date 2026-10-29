@@ -1,0 +1,89 @@
+rar393    RAR 3.93
+rar420    RAR 4.20
+rar550    RAR 5.50
+unrar420  UNRAR 4.20
+unrar550  UNRAR 5.50
+unrar723  UNRAR 7.23
+rar393    RAR 3.93
+
+archives with an LZ coded member of unpack version 29: 707 (35 sizes, 8 switches)
+records: 1269
+  rar393  IA-64              x2
+  rar393  RGB                x202
+  rar393  audio              x136
+  rar393  delta              x204
+  rar393  x86 call           x2
+  rar420  IA-64              x4
+  rar420  RGB                x114
+  rar420  audio              x96
+  rar420  delta              x146
+  rar420  x86 call           x4
+  rar550  IA-64              x3
+  rar550  RGB                x113
+  rar550  audio              x94
+  rar550  delta              x146
+  rar550  x86 call           x3
+  no archive to read: rar550 -mc1D+ stored or not version 29 x16
+  no archive to read: rar550 -mc2A+ stored or not version 29 x17
+  no archive to read: rar550 -mc3D+ stored or not version 29 x16
+  no archive to read: rar550 -mc4A+ stored or not version 29 x17
+  no archive to read: rar550 -mc4D+ stored or not version 29 x16
+  no archive to read: rar550 -mcC+ stored or not version 29 x17
+  no archive to read: rar550 -mcE+ stored or not version 29 x17
+  no archive to read: rar550 -mcI+ stored or not version 29 x17
+the specification's result is the file (and the header's CRC32): 707 of 707 archives
+longest span by program: IA-64 2113, RGB 65536, audio 65536, delta 65536, x86 call 2113
+
+spans shorter than their RGB row or their channel count (writer, program, span, parameters, records):
+  rar420  RGB    len 1      W 3 r 0        x3
+  rar420  RGB    len 2      W 3 r 0        x2
+  rar420  audio  len 1      channels 2     x3
+  rar420  audio  len 1      channels 4     x3
+  rar420  audio  len 2      channels 4     x2
+  rar420  audio  len 3      channels 4     x1
+  rar420  delta  len 1      channels 3     x3
+  rar420  delta  len 1      channels 4     x3
+  rar420  delta  len 2      channels 3     x2
+  rar420  delta  len 2      channels 4     x2
+  rar420  delta  len 3      channels 4     x1
+  rar550  RGB    len 1      W 3 r 0        x3
+  rar550  RGB    len 2      W 3 r 0        x2
+  rar550  audio  len 1      channels 2     x3
+  rar550  audio  len 1      channels 4     x3
+  rar550  audio  len 2      channels 4     x2
+  rar550  audio  len 3      channels 4     x1
+  rar550  delta  len 1      channels 3     x3
+  rar550  delta  len 1      channels 4     x3
+  rar550  delta  len 2      channels 3     x2
+  rar550  delta  len 2      channels 4     x2
+  rar550  delta  len 3      channels 4     x1
+
+inputs SPEC-J treats as made by no genuine writer, records that are one:
+  bit 3 set                                            0
+  selector 0 after the first record                    0
+  a span that starts before an earlier one's end       0
+  a span that ends past the member                     0
+  a span of length 0                                   0
+  a register from 2 to 6 sent                          0
+  delta: channel count 0 or not sent                   0
+  audio: channel count 0 or not sent                   0
+  delta: channel count above the reference's limit     0
+  audio: channel count above the reference's limit     0
+  RGB: a register not sent                             0
+  RGB: width 0 or not a multiple of 3                  0
+  RGB: r above 2                                       0
+  a span above 65,536 bytes                            0
+
+what each reader prints, all archives:
+  rar393    the file      x707
+  unrar420  the file      x707
+  unrar550  NOT the file  x10
+  unrar550  the file      x697
+  unrar723  NOT the file  x10
+  unrar723  the file      x697
+what each reader prints, archives with an RGB span shorter than its row:
+  rar393    the file      x10
+  unrar420  the file      x10
+  unrar550  NOT the file  x10
+  unrar723  NOT the file  x10
+kept: 10 archives

@@ -1,0 +1,7 @@
+case	reading	failure	size:SHA-256 of each member it gives
+bonus-edges	bonus-1-from-1fff	no failure	811112:7b19368266551a3013d119cbda4cf81e9c4fd6738b6f95d3a3789480b73acb03
+bonus-edges	bonus-1-from-2001	no failure	811110:23b6c46535783115036370e5ec09cda8296f880290d7a52900f5594584a47095
+bonus-edges	bonus-2-from-3ffff	no failure	811112:b38a0c5798e322c21cb89df8895021a209dfff24b573935d7c6b22e35e702283
+bonus-edges	bonus-2-from-40001	no failure	811110:950d5769bf25b39ead3771c4654e8b0e4807bb6f956147183b2949f1dda2f648
+bonus-edges	repeat-bonus	no failure	811112:edd48bc36dd8c694bd137a4734f2a9e8226fd8cc423ff4288090978c6ba68ff8
+bonus-edges	last-without-bonus	no failure	811105:1cceb3908d0d186455a07c2fdca7bcf2e220c205be3b129033fdc2e717fa6df9

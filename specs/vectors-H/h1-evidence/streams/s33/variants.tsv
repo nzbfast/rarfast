@@ -1,0 +1,42 @@
+reading	what it is
+delta-replace	a symbol 0 to 15 IS the new length, the kept length ignored
+delta-saturate	the sum of kept length and symbol stops at 15
+keep-always	the lengths are never zeroed
+keep-inverted	the keep bit means the opposite
+keep-never	the lengths are zeroed at every table read
+level-19-fields	the level alphabet has 19 symbols
+level-21-fields	the level alphabet has 21 symbols
+level-no-escape	a level field of 15 is the length 15, with no second field
+level-past-fails	an escape that would skip past symbol 19 fails the read
+level-skip-1	the escape's second field z skips z + 1 symbols
+level-skip-3	the escape's second field z skips z + 3 symbols
+level-z0-zero	the escape with z = 0 gives the length 0
+parts-dist-59	the distance alphabet has 59 symbols
+parts-dist-61	the distance alphabet has 61 symbols
+parts-length-first	the length alphabet's lengths come before the low distance alphabet's
+parts-low-16	the low distance alphabet has 16 symbols
+parts-low-18	the low distance alphabet has 18 symbols
+parts-main-298	the main alphabet has 298 symbols
+parts-main-300	the main alphabet has 300 symbols
+r16-count-less	symbol 16's count is 2 + k
+r16-count-more	symbol 16's count is 4 + k
+r16-field-less	symbol 16's k is 2 bits
+r16-field-more	symbol 16's k is 4 bits
+r17-count-less	symbol 17's count is 10 + k
+r17-count-more	symbol 17's count is 12 + k
+r17-field-less	symbol 17's k is 6 bits
+r17-field-more	symbol 17's k is 8 bits
+r18-count-less	symbol 18's count is 2 + k
+r18-count-more	symbol 18's count is 4 + k
+r18-field-less	symbol 18's k is 2 bits
+r18-field-more	symbol 18's k is 4 bits
+r19-count-less	symbol 19's count is 10 + k
+r19-count-more	symbol 19's count is 12 + k
+r19-field-less	symbol 19's k is 6 bits
+r19-field-more	symbol 19's k is 8 bits
+repeat-at-0-ignored	a 16 or 17 as the first symbol and its field are read and do nothing
+repeat-at-0-zero	a 16 or 17 as the first symbol repeats a length of zero
+repeat-delta	16 and 17 repeat the last symbol as a delta on each position's kept length
+repeat-kept	16 and 17 repeat the KEPT length of the position before
+run-past-fails	a run that passes position 404 fails the read
+zeros-keep	18 and 19 leave the kept lengths in place

@@ -1,0 +1,44 @@
+arm: s5-select-a-b-damaged
+about: b's packed data damaged, the command selecting a.txt alone [archive flags 0x4; a.txt clear method 3 packed 2017, b.txt solid method 3 packed 108, c.txt solid method 3 packed 116, d.txt solid method 3 packed 82]
+file: x.rar  2475 bytes  sha256 a1a3b698fb83801c366ff5e7f2ebbaa3306779d990ab26433a6320172affa944
+$ unrar lt -p- x.rar a.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ unrar t -p- x.rar a.txt
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         84%  OK
+  All OK
+$ unrar p -inul -p- x.rar a.txt
+exit 0
+stdout: 6000 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar a.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ rar t -p- x.rar a.txt
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         84%  OK
+  All OK

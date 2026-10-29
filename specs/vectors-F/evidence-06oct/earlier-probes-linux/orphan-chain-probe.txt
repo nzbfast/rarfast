@@ -1,0 +1,6 @@
+single archive, orphan start:  unrar t exit 0, x identical True
+first volume, orphan start:    unrar t exit 0, x identical True (3 volumes)
+v.part2.rar alone:              unrar t exit 6
+v.part3.rar alone:              unrar t exit 6
+RAR 4.20 r420_solid, orphan:   unrar t exit 0
+exit 0

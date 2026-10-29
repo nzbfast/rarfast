@@ -1,0 +1,10 @@
+reading	what it is
+before-start-zeros	a distance reaching before the first byte of the stream reads zero bytes there
+overlap-as-block	a match longer than its distance copies the bytes that exist and gives zero for the rest
+past-dictionary-honoured	a distance past the declared dictionary is honoured as it stands
+past-dictionary-honoured-zeros	a distance past the declared dictionary is honoured, and reads zero before the stream's start
+past-dictionary-wrapped	a distance past the declared dictionary is taken modulo the dictionary size
+reference-window	the window is the declared dictionary or 262,144 bytes, whichever is more; a match with distance 0, or reaching past that window or before the stream's first byte, gives zero bytes for its whole length
+zero-as-4m	a repeated distance of zero copies from 4,194,304 back
+zero-as-64k	a repeated distance of zero copies from 65,536 back
+zero-as-one	a repeated distance of zero copies from distance 1

@@ -1,0 +1,110 @@
+arm: s5-nonsolid-swap-b-c
+about: the not solid archive with the blocks of b and c exchanged [archive flags 0x0; a.txt clear method 3 packed 2008, c.txt clear method 3 packed 1746, b.txt clear method 3 packed 1467, d.txt clear method 3 packed 1421]
+file: x.rar  6794 bytes  sha256 3b718b74820dd785bd98b9e037497af091d48eee368021b94a206bd9ec1018b0
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 1746
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 1467
+         Ratio: 34%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 1421
+         Ratio: 34%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     c.txt                                                         56%  OK
+  Testing     b.txt                                                         78%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 19600 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2008
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 1746
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 1467
+         Ratio: 34%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 1421
+         Ratio: 34%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=128k
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         30%  OK
+  Testing     c.txt                                                         56%  OK
+  Testing     b.txt                                                         78%  OK
+  Testing     d.txt                                                        100%  OK
+  All OK

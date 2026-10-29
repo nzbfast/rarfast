@@ -1,0 +1,217 @@
+member	arm	pieces	program	t exit	verdict
+packed	base-one-volume	87	unrar	0	OK
+packed	base-one-volume	87	rar	0	OK
+packed	base-two-halves	44 43	unrar	0	OK
+packed	base-two-halves	44 43	rar	0	OK
+packed	every-piece-1	1 x86, then 1	unrar	3	FAIL
+packed	every-piece-1	1 x86, then 1	rar	3	FAIL
+packed	every-piece-2	2 x43, then 1	unrar	3	FAIL
+packed	every-piece-2	2 x43, then 1	rar	3	FAIL
+packed	every-piece-3	3 x28, then 3	unrar	3	FAIL
+packed	every-piece-3	3 x28, then 3	rar	3	FAIL
+packed	every-piece-4	4 x21, then 3	unrar	0	OK
+packed	every-piece-4	4 x21, then 3	rar	0	OK
+packed	every-piece-5	5 x17, then 2	unrar	0	OK
+packed	every-piece-5	5 x17, then 2	rar	0	OK
+packed	every-piece-6	6 x14, then 3	unrar	0	OK
+packed	every-piece-6	6 x14, then 3	rar	0	OK
+packed	every-piece-7	7 x12, then 3	unrar	0	OK
+packed	every-piece-7	7 x12, then 3	rar	0	OK
+packed	every-piece-8	8 x10, then 7	unrar	0	OK
+packed	every-piece-8	8 x10, then 7	rar	0	OK
+packed	every-piece-9	9 x9, then 6	unrar	0	OK
+packed	every-piece-9	9 x9, then 6	rar	0	OK
+packed	every-piece-10	10 x8, then 7	unrar	0	OK
+packed	every-piece-10	10 x8, then 7	rar	0	OK
+packed	every-piece-16	16 16 16 16 16 7	unrar	0	OK
+packed	every-piece-16	16 16 16 16 16 7	rar	0	OK
+packed	every-piece-32	32 32 23	unrar	0	OK
+packed	every-piece-32	32 32 23	rar	0	OK
+packed	first-piece-1	1 86	unrar	0	OK
+packed	first-piece-1	1 86	rar	0	OK
+packed	first-piece-2	2 85	unrar	0	OK
+packed	first-piece-2	2 85	rar	0	OK
+packed	first-piece-3	3 84	unrar	0	OK
+packed	first-piece-3	3 84	rar	0	OK
+packed	first-piece-4	4 83	unrar	0	OK
+packed	first-piece-4	4 83	rar	0	OK
+packed	first-piece-5	5 82	unrar	0	OK
+packed	first-piece-5	5 82	rar	0	OK
+packed	first-piece-6	6 81	unrar	0	OK
+packed	first-piece-6	6 81	rar	0	OK
+packed	first-piece-7	7 80	unrar	0	OK
+packed	first-piece-7	7 80	rar	0	OK
+packed	first-piece-8	8 79	unrar	0	OK
+packed	first-piece-8	8 79	rar	0	OK
+packed	last-piece-1	86 1	unrar	0	OK
+packed	last-piece-1	86 1	rar	0	OK
+packed	last-piece-2	85 2	unrar	0	OK
+packed	last-piece-2	85 2	rar	0	OK
+packed	last-piece-3	84 3	unrar	0	OK
+packed	last-piece-3	84 3	rar	0	OK
+packed	last-piece-4	83 4	unrar	0	OK
+packed	last-piece-4	83 4	rar	0	OK
+packed	last-piece-5	82 5	unrar	0	OK
+packed	last-piece-5	82 5	rar	0	OK
+packed	last-piece-6	81 6	unrar	0	OK
+packed	last-piece-6	81 6	rar	0	OK
+packed	last-piece-7	80 7	unrar	0	OK
+packed	last-piece-7	80 7	rar	0	OK
+packed	last-piece-8	79 8	unrar	0	OK
+packed	last-piece-8	79 8	rar	0	OK
+packed	middle-piece-1	40 1 46	unrar	0	OK
+packed	middle-piece-1	40 1 46	rar	0	OK
+packed	middle-piece-2	40 2 45	unrar	0	OK
+packed	middle-piece-2	40 2 45	rar	0	OK
+packed	middle-piece-3	40 3 44	unrar	0	OK
+packed	middle-piece-3	40 3 44	rar	0	OK
+packed	middle-piece-4	40 4 43	unrar	0	OK
+packed	middle-piece-4	40 4 43	rar	0	OK
+packed	middle-piece-5	40 5 42	unrar	0	OK
+packed	middle-piece-5	40 5 42	rar	0	OK
+packed	middle-piece-6	40 6 41	unrar	0	OK
+packed	middle-piece-6	40 6 41	rar	0	OK
+packed	middle-piece-7	40 7 40	unrar	0	OK
+packed	middle-piece-7	40 7 40	rar	0	OK
+packed	middle-piece-8	40 8 39	unrar	0	OK
+packed	middle-piece-8	40 8 39	rar	0	OK
+packed	two-middle-pieces-1	40 1 1 45	unrar	0	OK
+packed	two-middle-pieces-1	40 1 1 45	rar	0	OK
+packed	two-middle-pieces-2	40 2 2 43	unrar	0	OK
+packed	two-middle-pieces-2	40 2 2 43	rar	0	OK
+packed	two-middle-pieces-3	40 3 3 41	unrar	0	OK
+packed	two-middle-pieces-3	40 3 3 41	rar	0	OK
+packed	two-middle-pieces-4	40 4 4 39	unrar	0	OK
+packed	two-middle-pieces-4	40 4 4 39	rar	0	OK
+packed	first-8-then-every-1	8, then 1 x78, then 1	unrar	0	OK
+packed	first-8-then-every-1	8, then 1 x78, then 1	rar	0	OK
+packed	first-8-then-every-2	8, then 2 x39, then 1	unrar	0	OK
+packed	first-8-then-every-2	8, then 2 x39, then 1	rar	0	OK
+packed	first-8-then-every-3	8, then 3 x26, then 1	unrar	0	OK
+packed	first-8-then-every-3	8, then 3 x26, then 1	rar	0	OK
+packed	first-8-then-every-4	8, then 4 x19, then 3	unrar	0	OK
+packed	first-8-then-every-4	8, then 4 x19, then 3	rar	0	OK
+packed	first-16-then-every-1	16, then 1 x70, then 1	unrar	0	OK
+packed	first-16-then-every-1	16, then 1 x70, then 1	rar	0	OK
+packed	first-16-then-every-2	16, then 2 x35, then 1	unrar	0	OK
+packed	first-16-then-every-2	16, then 2 x35, then 1	rar	0	OK
+packed	first-16-then-every-3	16, then 3 x23, then 2	unrar	0	OK
+packed	first-16-then-every-3	16, then 3 x23, then 2	rar	0	OK
+packed	first-16-then-every-4	16, then 4 x17, then 3	unrar	0	OK
+packed	first-16-then-every-4	16, then 4 x17, then 3	rar	0	OK
+packed	first-40-then-every-1	40, then 1 x46, then 1	unrar	0	OK
+packed	first-40-then-every-1	40, then 1 x46, then 1	rar	0	OK
+packed	first-40-then-every-2	40, then 2 x23, then 1	unrar	0	OK
+packed	first-40-then-every-2	40, then 2 x23, then 1	rar	0	OK
+packed	first-40-then-every-3	40, then 3 x15, then 2	unrar	0	OK
+packed	first-40-then-every-3	40, then 3 x15, then 2	rar	0	OK
+packed	first-40-then-every-4	40, then 4 x11, then 3	unrar	0	OK
+packed	first-40-then-every-4	40, then 4 x11, then 3	rar	0	OK
+stored	base-one-volume	87	unrar	0	OK
+stored	base-one-volume	87	rar	0	OK
+stored	base-two-halves	44 43	unrar	0	OK
+stored	base-two-halves	44 43	rar	0	OK
+stored	every-piece-1	1 x86, then 1	unrar	0	OK
+stored	every-piece-1	1 x86, then 1	rar	0	OK
+stored	every-piece-2	2 x43, then 1	unrar	0	OK
+stored	every-piece-2	2 x43, then 1	rar	0	OK
+stored	every-piece-3	3 x28, then 3	unrar	0	OK
+stored	every-piece-3	3 x28, then 3	rar	0	OK
+stored	every-piece-4	4 x21, then 3	unrar	0	OK
+stored	every-piece-4	4 x21, then 3	rar	0	OK
+stored	every-piece-5	5 x17, then 2	unrar	0	OK
+stored	every-piece-5	5 x17, then 2	rar	0	OK
+stored	every-piece-6	6 x14, then 3	unrar	0	OK
+stored	every-piece-6	6 x14, then 3	rar	0	OK
+stored	every-piece-7	7 x12, then 3	unrar	0	OK
+stored	every-piece-7	7 x12, then 3	rar	0	OK
+stored	every-piece-8	8 x10, then 7	unrar	0	OK
+stored	every-piece-8	8 x10, then 7	rar	0	OK
+stored	every-piece-9	9 x9, then 6	unrar	0	OK
+stored	every-piece-9	9 x9, then 6	rar	0	OK
+stored	every-piece-10	10 x8, then 7	unrar	0	OK
+stored	every-piece-10	10 x8, then 7	rar	0	OK
+stored	every-piece-16	16 16 16 16 16 7	unrar	0	OK
+stored	every-piece-16	16 16 16 16 16 7	rar	0	OK
+stored	every-piece-32	32 32 23	unrar	0	OK
+stored	every-piece-32	32 32 23	rar	0	OK
+stored	first-piece-1	1 86	unrar	0	OK
+stored	first-piece-1	1 86	rar	0	OK
+stored	first-piece-2	2 85	unrar	0	OK
+stored	first-piece-2	2 85	rar	0	OK
+stored	first-piece-3	3 84	unrar	0	OK
+stored	first-piece-3	3 84	rar	0	OK
+stored	first-piece-4	4 83	unrar	0	OK
+stored	first-piece-4	4 83	rar	0	OK
+stored	first-piece-5	5 82	unrar	0	OK
+stored	first-piece-5	5 82	rar	0	OK
+stored	first-piece-6	6 81	unrar	0	OK
+stored	first-piece-6	6 81	rar	0	OK
+stored	first-piece-7	7 80	unrar	0	OK
+stored	first-piece-7	7 80	rar	0	OK
+stored	first-piece-8	8 79	unrar	0	OK
+stored	first-piece-8	8 79	rar	0	OK
+stored	last-piece-1	86 1	unrar	0	OK
+stored	last-piece-1	86 1	rar	0	OK
+stored	last-piece-2	85 2	unrar	0	OK
+stored	last-piece-2	85 2	rar	0	OK
+stored	last-piece-3	84 3	unrar	0	OK
+stored	last-piece-3	84 3	rar	0	OK
+stored	last-piece-4	83 4	unrar	0	OK
+stored	last-piece-4	83 4	rar	0	OK
+stored	last-piece-5	82 5	unrar	0	OK
+stored	last-piece-5	82 5	rar	0	OK
+stored	last-piece-6	81 6	unrar	0	OK
+stored	last-piece-6	81 6	rar	0	OK
+stored	last-piece-7	80 7	unrar	0	OK
+stored	last-piece-7	80 7	rar	0	OK
+stored	last-piece-8	79 8	unrar	0	OK
+stored	last-piece-8	79 8	rar	0	OK
+stored	middle-piece-1	40 1 46	unrar	0	OK
+stored	middle-piece-1	40 1 46	rar	0	OK
+stored	middle-piece-2	40 2 45	unrar	0	OK
+stored	middle-piece-2	40 2 45	rar	0	OK
+stored	middle-piece-3	40 3 44	unrar	0	OK
+stored	middle-piece-3	40 3 44	rar	0	OK
+stored	middle-piece-4	40 4 43	unrar	0	OK
+stored	middle-piece-4	40 4 43	rar	0	OK
+stored	middle-piece-5	40 5 42	unrar	0	OK
+stored	middle-piece-5	40 5 42	rar	0	OK
+stored	middle-piece-6	40 6 41	unrar	0	OK
+stored	middle-piece-6	40 6 41	rar	0	OK
+stored	middle-piece-7	40 7 40	unrar	0	OK
+stored	middle-piece-7	40 7 40	rar	0	OK
+stored	middle-piece-8	40 8 39	unrar	0	OK
+stored	middle-piece-8	40 8 39	rar	0	OK
+stored	two-middle-pieces-1	40 1 1 45	unrar	0	OK
+stored	two-middle-pieces-1	40 1 1 45	rar	0	OK
+stored	two-middle-pieces-2	40 2 2 43	unrar	0	OK
+stored	two-middle-pieces-2	40 2 2 43	rar	0	OK
+stored	two-middle-pieces-3	40 3 3 41	unrar	0	OK
+stored	two-middle-pieces-3	40 3 3 41	rar	0	OK
+stored	two-middle-pieces-4	40 4 4 39	unrar	0	OK
+stored	two-middle-pieces-4	40 4 4 39	rar	0	OK
+stored	first-8-then-every-1	8, then 1 x78, then 1	unrar	0	OK
+stored	first-8-then-every-1	8, then 1 x78, then 1	rar	0	OK
+stored	first-8-then-every-2	8, then 2 x39, then 1	unrar	0	OK
+stored	first-8-then-every-2	8, then 2 x39, then 1	rar	0	OK
+stored	first-8-then-every-3	8, then 3 x26, then 1	unrar	0	OK
+stored	first-8-then-every-3	8, then 3 x26, then 1	rar	0	OK
+stored	first-8-then-every-4	8, then 4 x19, then 3	unrar	0	OK
+stored	first-8-then-every-4	8, then 4 x19, then 3	rar	0	OK
+stored	first-16-then-every-1	16, then 1 x70, then 1	unrar	0	OK
+stored	first-16-then-every-1	16, then 1 x70, then 1	rar	0	OK
+stored	first-16-then-every-2	16, then 2 x35, then 1	unrar	0	OK
+stored	first-16-then-every-2	16, then 2 x35, then 1	rar	0	OK
+stored	first-16-then-every-3	16, then 3 x23, then 2	unrar	0	OK
+stored	first-16-then-every-3	16, then 3 x23, then 2	rar	0	OK
+stored	first-16-then-every-4	16, then 4 x17, then 3	unrar	0	OK
+stored	first-16-then-every-4	16, then 4 x17, then 3	rar	0	OK
+stored	first-40-then-every-1	40, then 1 x46, then 1	unrar	0	OK
+stored	first-40-then-every-1	40, then 1 x46, then 1	rar	0	OK
+stored	first-40-then-every-2	40, then 2 x23, then 1	unrar	0	OK
+stored	first-40-then-every-2	40, then 2 x23, then 1	rar	0	OK
+stored	first-40-then-every-3	40, then 3 x15, then 2	unrar	0	OK
+stored	first-40-then-every-3	40, then 3 x15, then 2	rar	0	OK
+stored	first-40-then-every-4	40, then 4 x11, then 3	unrar	0	OK
+stored	first-40-then-every-4	40, then 4 x11, then 3	rar	0	OK

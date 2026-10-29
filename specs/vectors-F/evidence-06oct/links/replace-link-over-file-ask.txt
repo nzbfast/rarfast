@@ -1,0 +1,24 @@
+arm: replace-link-over-file-ask
+about: the same with no overwrite switch and standard input at end of file
+file: x.rar  95 bytes  sha256 d92637ff2a60bc794a89770fbb57ac523328584ee8ae3b98b0686a6b32f3279c
+planted before the run: o/s, a regular file of 6 bytes
+$ unrar x -p- x.rar o/
+exit 12
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       70%  OK
+  Program aborted
+stderr:
+  Would you like to replace the existing file o/s
+       6 bytes, modified on 2026-09-17 04:00
+  with a new one
+       0 bytes, modified on 2026-09-18 04:00
+  [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin
+  Inappropriate ioctl for device
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  file  o/s                         6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

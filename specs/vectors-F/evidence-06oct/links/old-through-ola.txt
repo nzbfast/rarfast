@@ -1,0 +1,17 @@
+arm: old-through-ola
+about: the same, -ola
+file: x.rar  118 bytes  sha256 fae2d47941715199bab58eb7a2174d191c3424d7eb6ef34d76d9e3ce5b53c091
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/dl3                                                         67%  OK
+  Extracting  o/dl3/evil3                                                  100%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/dl3                  -> ../victim   (mtime the member's, read in this machine's zone)
+  file  victim/evil3                6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's, read in this machine's zone)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

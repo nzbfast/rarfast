@@ -1,0 +1,50 @@
+arm: s5v-last-alone
+about: only the last volume present
+file: x.part04.rar  416 bytes  sha256 033b26a27f6316bb1b2620669655c2146e2068f74d7403062f5956fcfb24f882
+$ unrar lt -p- x.part04.rar
+exit 0
+  Archive: x.part04.rar
+  Details: RAR 5, solid, volume 4
+          Name: d.txt
+          Type: File
+          Size: 24000
+   Packed size: 357
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: EAB30182
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.part04.rar
+exit 6
+  Testing archive x.part04.rar
+  Skipping    d.txt                                                        
+  No files to extract
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack d.txt
+$ unrar p -inul -p- x.part04.rar
+exit 6
+stdout: 0 bytes, b''
+$ rar lt -p- x.part04.rar
+exit 0
+  Archive: x.part04.rar
+  Details: RAR 5, solid, volume 4
+          Name: d.txt
+          Type: File
+          Size: 24000
+   Packed size: 357
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: EAB30182
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.part04.rar
+exit 6
+  Testing archive x.part04.rar
+  Skipping    d.txt                                                        
+  No files to extract
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack d.txt

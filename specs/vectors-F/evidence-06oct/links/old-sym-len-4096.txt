@@ -1,0 +1,16 @@
+arm: old-sym-len-4096
+about: older container: one link member s whose stored target is 4096 bytes, -ola
+file: x.rar  4156 bytes  sha256 75b56a89cea18b787eec0257d2a7d080fc46ddb5a3a0dc8376fc7fc239004f70
+$ unrar x -p- -ola x.rar o/
+exit 1
+  Extracting from x.rar
+  Extracting  o/s                                                          100%
+  Total errors: 1
+stderr:
+  Cannot create symbolic link o/s
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

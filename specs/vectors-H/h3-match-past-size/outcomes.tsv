@@ -1,0 +1,5 @@
+program	archive	t exit	x exit	ONE.BIN bytes	TWO.BIN bytes
+unrar-7.23-macos-arm64	crc-of-what-the-reference-writes.rar	0	0	658	200
+unrar-7.23-macos-arm64	crc-of-declared-prefix-and-carried-rest.rar	3	3	658	200
+rar-7.23-macos-arm64	crc-of-what-the-reference-writes.rar	0	0	658	200
+rar-7.23-macos-arm64	crc-of-declared-prefix-and-carried-rest.rar	3	3	658	200

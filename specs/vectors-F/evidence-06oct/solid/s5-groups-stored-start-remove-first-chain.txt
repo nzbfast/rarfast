@@ -1,0 +1,66 @@
+arm: s5-groups-stored-start-remove-first-chain
+about: the same with a.x1 and b.x1 removed [archive flags 0x4; m.x2 clear method 0 packed 1300, t.x3 clear method 3 packed 1363]
+file: x.rar  2749 bytes  sha256 1b8106bf27828b7467f335592fe6b94254850293044dadc16d49c5d8911e007f
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 8EE49B7B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1363
+         Ratio: 66%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     m.x2                                                          49%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 3350 bytes, b"\xa5M\xca\x18%0\xbb\x1dm\x13,\xde\xd6#{.\xd9\x1e?r\x1f\xcb\x19q\x17D\x94\xd6I<\x9d\\4`\xbe1 \x1ei\xfe\xda\xa0\xee\xe8\xb9\x99\x7f\\|)\x99\xfd\xaf\xe5\x93%<\xd6T\xafM\xfa\xd7\x14'\xa0\xae\xb3\xfe\xe9#/\x8a\xf2!\x1f\x9e\xe4\x91\xc5" ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: m.x2
+          Type: File
+          Size: 1300
+   Packed size: 1300
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 8EE49B7B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1363
+         Ratio: 66%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     m.x2                                                          49%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK

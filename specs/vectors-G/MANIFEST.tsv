@@ -1,0 +1,36 @@
+archive	bytes	sha256	writer	switches
+r4_cmt.rar	430	005a8a573af1eece2413b7f4d91497df4bc0227d43bca19fec708578656de905	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -zcomment.txt hello.txt
+r4_hpw.rar	420	106f6e10aca99077b6cd938bceb5562ac662c93053306db159fcf216203cbbb6	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -hpSecret hello.txt
+r4_lock.rar	368	6e732e4d04438379e1f60edb4d27fc1f301624e00d2fb8ec41e03479015e9187	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -k hello.txt
+r4_m3.rar	154	29fe0310abca23a6e575d6901e92260245570ea83fc0e655eaf9f4f7ffe5ff1e	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m3 text.txt
+r4_pw.rar	380	497b6c64cc11ad77b25dbe748a23f6039cc1751fef728f7bc81f001d07bea769	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -pSecret hello.txt
+r4_rr.rar	11517	e374515264ef1ed4365511abb67c04afc03be04599b06abe8d09c8311c83927f	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -rr5 text.txt
+r4_solid.rar	215	a192e9aab5ce10a4f1aca45a88b27c4956f49a1cac43aca6807f7db2552fbf4b	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m5 -s hello.txt text.txt
+r4_store.rar	587	fdea0f5b8175fddcd6aa76ce63d0501ff45402b219ba08c8e8f157d304cd34ee	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 hello.txt empty.dat sub
+r4_ts.rar	378	9fc200ee14df37d1be80f9782ecac9b39f749b060af8f757dda4db3d7830f327	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -ts hello.txt
+r4_vol.part1.rar	4096	09bf43bd0cd749b78c529e574b852d0e29ea5505b77b54cc70e2645db2042198	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k split.bin
+r4_vol.part2.rar	4096	c6d500ecff266deeaac726980d774cac25e08c4a0fb37c73500fc1fed56b5ef2	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k split.bin
+r4_vol.part3.rar	4051	34d7ce1941db908551ac00ce90f4db31e8bb0ed5b980dd02067587db55906ece	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k split.bin
+r4_volvn.r00	4096	802998e69a8a11ca04523f3d47a252c84c301e6dec84b5105e9584b42694d838	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k -vn split.bin
+r4_volvn.r01	4051	739727480c9b6f51a849fa94c4a45e89f764fd0abdfcbb3491ffcdeb1e2d7672	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k -vn split.bin
+r4_volvn.rar	4096	adb1c70b4f8320793b488257ecc0610be6a06b89bdff211d9798ebc72fcaa6ca	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -v4k -vn split.bin
+r5_blake.rar	399	980d3aa8288d1be4d362bbd5e4c0e955dd0d012f11d5adc8eceb747c3c4ae184	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -htb hello.txt
+r5_cmt.rar	408	2e3b77ec3c1320444843170badf1231cfa7376c8de717455bcaff33d39f66bd1	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -zcomment.txt hello.txt
+r5_hpw.rar	526	03b5169c4234271701da3092a7712449943a7c4dbef7fe745f7734b6b44b1be0	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -hpSecret hello.txt
+r5_lock.rar	367	446230b35773a42ab0e65a90fb7a5a9ff8f5cb396d49788acaadd855a7fdc19a	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -k hello.txt
+r5_m3.rar	136	29a9999818fddc6772a1c5b710aec1accc3c26773f5dc6c775c063f568b0aab6	rar 7.23 (macOS arm64)	a -idq -ep1 -m3 text.txt
+r5_pw.rar	421	466214b5c05f417378bb62e5273b52f76034582701a7f40305b4d7762f3ba425	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -pSecret hello.txt
+r5_rr.rar	10099	8de93499def4f6d944f6743b20798f28622334dc1ddc7223b6cffb678ccac5c4	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -rr5 text.txt
+r5_solid.rar	196	def3b258a2c93f54970556b925c946462760c93b7ab2bf01ce67babc8c7f6444	rar 7.23 (macOS arm64)	a -idq -ep1 -m5 -s hello.txt text.txt
+r5_store.rar	555	39fddf14361ba290d8420d0875ecdaf5f514b54ae345f8966bf98bff5f0ae59d	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 hello.txt empty.dat sub
+r5_vol.part1.rar	4096	97e1fcec1c1f4f91781b76113836923722d30c290286ee603f32c38c8824e099	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -v4k split.bin
+r5_vol.part2.rar	4096	2540457512970eb2058f12ce4a07418efb74bda4d8cd6a5b554ea630e0b7223b	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -v4k split.bin
+r5_vol.part3.rar	4096	f5225ea9347b652ce24bcdd48217e199eb9040d4cf254da34447843eed54ee45	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -v4k split.bin
+r5_vol.part4.rar	220	fe6f1219ff83c7c4370b77f1124f2b695b1019924c4a0e671c2931042279a95a	rar 7.23 (macOS arm64)	a -idq -ep1 -m0 -v4k split.bin
+r4_pwvol.part1.rar	4096	2c5b31b6c42b6831725f79a2a41b3cd33be5d119985347b46e5891a0ad7a8ce8	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -pSecret -v4k split.bin
+r4_pwvol.part2.rar	4096	1f0248522a5f9c4b9780bfed91bdf86e7f108df65f1fe9b518ccb8f351bc6b8b	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -pSecret -v4k split.bin
+r4_pwvol.part3.rar	4075	72a8b82a6de2cc9bb1aefca0414917b0358c457760ed352bd2680090dba297a1	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m0 -pSecret -v4k split.bin
+r4_pwvolc.part1.rar	4096	a2850f95affab088596a5245d77ab9b8c411c10fcefa2a9f620c21ce008dba97	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m3 -pSecret -v4k split.bin
+r4_pwvolc.part2.rar	4096	52c5ddff6a0f0380ea518bc4e533d8fa331863c2ac74d3e3d16617cb999a0c29	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m3 -pSecret -v4k split.bin
+r4_pwvolc.part3.rar	4096	76b0f0415c0d402cdc216f6af6bbbf73de958429435a26aa92a04b507080b5ba	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m3 -pSecret -v4k split.bin
+r4_pwvolc.part4.rar	116	9c76e8589ecb2735f7e5353610c3f6bebf1c0f99c14d14092edca7a959771b72	RARLAB rar 4.20 Linux x64 (rar_static, in a network-less linux/amd64 container)	a -ep1 -y -m3 -pSecret -v4k split.bin

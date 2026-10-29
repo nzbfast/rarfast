@@ -1,0 +1,40 @@
+r393_m3.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r393_m5.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r393_md.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8000 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r393_pw.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8424 packed=16 69ef98936c383e5051f4e7069b167005	encrypted
+r393_rr.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r393_rv.part2.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r393_solid.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8090 packed=2 fa50	top-bit-1	archive-has-PPM-member
+r393_vol.part2.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r393_voln.r00	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r420_m3.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_m5.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_md.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8000 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_pw.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8424 packed=16 196c94fef43afc528a3b34bd0fd01984	encrypted
+r420_rr.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_rv.part2.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_solid.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8090 packed=2 ff88	top-bit-1	archive-has-PPM-member
+r420_vol.part2.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r420_voln.r00	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r550_pw.rar	EMPTY.DAT	ver=29 method=0x33 flags=0x8424 packed=16 f656cebb7dac8721284ccc3d4d0fa7df	encrypted
+r550_solid.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8090 packed=2 fb90	top-bit-1	archive-has-PPM-member
+r550_vol.part2.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r550_voln.r00	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+r393_m5.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+r420_m5.rar	EMPTY.DAT	ver=29 method=0x35 flags=0x8020 packed=8 00bf8867f6a9ffd4	top-bit-0
+i13_empty_and_one.rar	EMPTY.TXT	ver=29 method=0x35 flags=0x8080 packed=8 00bf8867f6a9ffd4	top-bit-0	archive-has-PPM-member
+
+archives walked with a member of unpack version 29 or later	116
+not walked (headers encrypted)	3	r393_hp.rar r420_hp.rar r550_hp.rar
+file members (directories left out)	460
+compressed members	420
+compressed members, not split or encrypted, whose first packed byte has its top bit set	72
+members declaring zero bytes, stored	5
+members declaring zero bytes, compressed	25
+  of those, encrypted (first byte not readable)	3
+  of those, top bit of the first packed byte 0	19
+  of those, top bit of the first packed byte 1	3
+  of those, in an archive that holds a PPM member	10
+  encrypted, 16 packed bytes	3
+  top-bit-0, 8 packed bytes	19
+  top-bit-1, 2 packed bytes	3

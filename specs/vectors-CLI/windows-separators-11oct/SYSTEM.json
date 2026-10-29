@@ -1,0 +1,77 @@
+{
+ "about": "the system the group ran on, in its own words",
+ "commands": [
+  {
+   "program": "cmd",
+   "arguments": [
+    "/c",
+    "ver"
+   ],
+   "token": "full",
+   "standard_input": "the null device",
+   "exit": 0,
+   "standard_output_base64": "DQpNaWNyb3NvZnQgV2luZG93cyBbVmVyc2lvbiAxMC4wLjI2MTAwLjMzNDM4XQ0K",
+   "standard_output_shown": "\\r\\nMicrosoft Windows [Version 10.0.26100.33438]\\r\\n",
+   "standard_error_base64": "",
+   "standard_error_shown": ""
+  },
+  {
+   "program": "cmd",
+   "arguments": [
+    "/c",
+    "chcp"
+   ],
+   "token": "full",
+   "standard_input": "the null device",
+   "exit": 0,
+   "standard_output_base64": "QWN0aXZlIGNvZGUgcGFnZTogNjUwMDENCg==",
+   "standard_output_shown": "Active code page: 65001\\r\\n",
+   "standard_error_base64": "",
+   "standard_error_shown": ""
+  },
+  {
+   "program": "tzutil",
+   "arguments": [
+    "/g"
+   ],
+   "token": "full",
+   "standard_input": "the null device",
+   "exit": 0,
+   "standard_output_base64": "VVRD",
+   "standard_output_shown": "UTC",
+   "standard_error_base64": "",
+   "standard_error_shown": ""
+  },
+  {
+   "program": "python.exe",
+   "arguments": [
+    "--version"
+   ],
+   "token": "full",
+   "standard_input": "the null device",
+   "exit": 0,
+   "standard_output_base64": "UHl0aG9uIDMuMTIuMTANCg==",
+   "standard_output_shown": "Python 3.12.10\\r\\n",
+   "standard_error_base64": "",
+   "standard_error_shown": ""
+  },
+  {
+   "program": "openssl",
+   "arguments": [
+    "version"
+   ],
+   "token": "full",
+   "standard_input": "the null device",
+   "exit": 0,
+   "standard_output_base64": "T3BlblNTTCAzLjUuNyA5IEp1biAyMDI2IChMaWJyYXJ5OiBPcGVuU1NMIDMuNS43IDkgSnVuIDIwMjYpDQo=",
+   "standard_output_shown": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)\\r\\n",
+   "standard_error_base64": "",
+   "standard_error_shown": ""
+  }
+ ],
+ "image": {
+  "ImageOS": "win25-vs2026",
+  "ImageVersion": "20260925.250.1"
+ },
+ "system": "Windows"
+}

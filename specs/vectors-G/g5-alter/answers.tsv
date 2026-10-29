@@ -1,0 +1,94 @@
+arm	source case	bytes	unrar t exit	unrar t last line	unrar t stderr	rar t exit	rar t last line	rar t stderr	unrar lb exit	unrar lb	unrar lb stderr	comment in unrar lt	mtimes in unrar lt
+base	m0	identical to source	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+base-volumes	vol-m0	identical to source	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+base-solid	s-ms-m3	identical to source	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+stripped-of-quick-open	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+stripped-of-quick-open-volumes	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+quick-open-stale-after-a-header-grew	m0	altered	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	13 names	Corrupt header is found | Main archive header is corrupt	not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+quick-open-stale-after-a-header-shrank	m0	altered	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	13 names	Corrupt header is found | Main archive header is corrupt	not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+checksum-from-type-field	m0	altered	3	Total errors: 32	Corrupt header is found | Main archive header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | empty.dat - the file header is corrupt | Corrupt header is found | text.txt - the	3	Total errors: 32	Corrupt header is found | Main archive header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | empty.dat - the file header is corrupt | Corrupt header is found | text.txt - the	3	13 names	Corrupt header is found | Main archive header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | hello.txt - the file header is corrupt | Corrupt header is found | empty.dat - the file header is corrupt | Corrupt header is found | text.txt - the	not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+main-without-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+end-without-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+no-end-block	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+no-end-block-qo-	qo-	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+file-with-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+data-size-padded-to-5	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+unpacked-size-padded-to-5	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+every-vint-shortest	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+header-size-padded-to-3	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+header-size-padded-to-4	m0	altered	3	No files to extract	Corrupt header is found | Main archive header is corrupt | Corrupt header is found	3	No files to extract	Corrupt header is found | Main archive header is corrupt | Corrupt header is found	3	0 names	Corrupt header is found | Main archive header is corrupt | Corrupt header is found	not shown	
+type-and-flags-padded	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+name-length-padded	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+directory-without-data-field	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+directory-with-crc-field	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+empty-file-without-data-field	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+stored-with-power-5	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+stored-with-power-15	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+stored-with-solid-bit	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+comment-with-skip-flag	cmt	altered	0	All OK		0	All OK		0	13 names		shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+quick-open-without-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+service-host-0	cmt	altered	0	All OK		0	All OK		0	13 names		shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+service-host-5	cmt	altered	0	All OK		0	All OK		0	13 names		shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+file-host-0-same-attributes	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+file-host-5	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+comment-after-members	cmt	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+comment-without-crc-field	cmt	altered	0	All OK		0	All OK		0	13 names		shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+comment-with-wrong-crc	cmt	altered	3	Total errors: 1	ERROR: Corrupt CMT data block | The archive comment is corrupt	3	Total errors: 1	ERROR: Corrupt CMT data block | The archive comment is corrupt	0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+no-locator-quick-open-kept	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+locator-offset-wrong	m0	altered	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	Total errors: 2	Corrupt header is found | Main archive header is corrupt	3	13 names	Corrupt header is found | Main archive header is corrupt	not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+locator-offset-zero	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+quick-open-dropped-locator-kept	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+quick-open-before-members	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+mtime-in-field-and-record	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2017-07-14 02:40:00,000000000
+mtime-record-windows-form	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456700; hello.txt 2020-09-13 12:26:40,000000000
+whole-second-mtime-in-record	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+no-mtime-at-all	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789
+hash-and-time-records-swapped	htb-m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+crc-field-and-hash-record-both	htb-m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+crc-field-and-hash-record-both-crc-wrong	htb-m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+no-checksum-at-all	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+extra-flag-with-empty-area	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+unknown-record-type-60	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+unknown-block-type-9-with-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+unknown-block-type-9-without-skip-flag	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+bytes-before-signature	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+bytes-after-end-block	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+zeros-after-end-block	m0	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+volumes-without-zero-padding	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+first-volume-number-field-zero	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+volume-number-absent-everywhere	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+volume-number-wrong	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+volume-flag-absent	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+end-next-flag-absent-on-volume-1	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+end-next-flag-set-on-last-volume	vol-m0	altered	6	Total errors: 2	Cannot find volume a.part6.rar	6	Total errors: 2	Cannot find volume a.part6.rar	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+no-end-block-in-volume-2	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+split-before-flag-absent	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+split-after-flag-absent	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+middle-fragment-crc-wrong	vol-m0	altered	0	All OK	big.txt              : packed data checksum error in volume a.part3.rar	0	All OK	big.txt              : packed data checksum error in volume a.part3.rar	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+first-fragment-crc-wrong	vol-m0	altered	0	All OK	big.txt              : packed data checksum error in volume a.part2.rar	0	All OK	big.txt              : packed data checksum error in volume a.part2.rar	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+last-fragment-carries-its-own-crc	vol-m0	altered	3	Total errors: 1	big.txt              - checksum error	3	Total errors: 1	big.txt              - checksum error	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+every-fragment-carries-whole-crc	vol-m0	altered	0	All OK	big.txt              : packed data checksum error in volume a.part2.rar | big.txt              : packed data checksum error in volume a.part3.rar | big.txt              : packed data checksum error in volume a.part4.rar	0	All OK	big.txt              : packed data checksum error in volume a.part2.rar | big.txt              : packed data checksum error in volume a.part3.rar | big.txt              : packed data checksum error in volume a.part4.rar	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+fragment-unpacked-size-is-its-own	vol-m0	altered	3	Total errors: 1	big.txt              - checksum error	3	Total errors: 1	big.txt              - checksum error	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+fragment-unpacked-size-own-but-last	vol-m0	altered	3	Total errors: 1	big.txt              - checksum error	3	Total errors: 1	big.txt              - checksum error	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+middle-fragment-hash-wrong	vol-htb	altered	0	All OK	big.txt              : packed data checksum error in volume a.part3.rar	0	All OK	big.txt              : packed data checksum error in volume a.part3.rar	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+last-fragment-hash-wrong	vol-htb	altered	3	Total errors: 1	big.txt              - checksum error	3	Total errors: 1	big.txt              - checksum error	0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+quick-open-dropped-from-volumes	vol-m0	altered	0	All OK		0	All OK		0	4 names		not shown	hello.txt 2020-09-13 12:26:40,000000000
+solid-stored-members-without-solid-bit	s-ms-m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+solid-directories-without-solid-bit	s-ms-m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+solid-archive-flag-absent	s-ms-m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+solid-bit-on-first-packed-member	s-ms-m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+solid-bit-cleared-on-second-packed-member	s-ms-m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+solid-flag-on-archive-of-unlinked-members	m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+packed-member-power-raised	m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+packed-member-power-lowered-to-0	m3	altered	3	Total errors: 1	big.txt              - checksum error	3	Total errors: 1	big.txt              - checksum error	0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+packed-member-method-changed-3-to-1	m3	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+base-solid-pair	s-pair-m3	identical to source	0	All OK		0	All OK		0	2 names		not shown	
+solid-pair-second-bit-cleared	s-pair-m3	altered	3	Total errors: 1	dup2.txt             - checksum error	3	Total errors: 1	dup2.txt             - checksum error	0	2 names		not shown	
+solid-pair-first-bit-set	s-pair-m3	altered	0	All OK		0	All OK		0	2 names		not shown	
+solid-pair-archive-flag-absent	s-pair-m3	altered	0	All OK		0	All OK		0	2 names		not shown	
+solid-pair-members-swapped	s-pair-m3	altered	3	Total errors: 1	dup2.txt             - checksum error	3	Total errors: 1	dup2.txt             - checksum error	0	2 names		not shown	
+lock-flag-cleared	lock	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+recovery-flag-absent	rr5	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+recovery-block-without-locator	rr5-qo-	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+recovery-header-with-crc-field	rr5-qo-	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000
+recovery-header-with-wrong-crc-field	rr5-qo-	altered	0	All OK		0	All OK		0	13 names		not shown	frac.txt 2020-09-13 12:26:40,123456789; hello.txt 2020-09-13 12:26:40,000000000

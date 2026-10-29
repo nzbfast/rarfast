@@ -1,0 +1,21 @@
+program	group	arm	lt exit	t exit	x exit	lt entries	second entry has	t OK	t ?	t checksum error	t corrupt	members	other files	of them b.txt's bytes	first other name's length
+rar	version	crc.ver-1	0	0	0	3	mcv	2	0	0	0	=.=	0	0	0
+rar	version	crc.ver-0	0	0	0	3	mc	3	0	0	0	===	0	0	0
+rar	version	crc.ver-no-body	0	0	0	3	mc	3	0	0	0	===	0	0	0
+rar	version	crc.ver-flags-only	0	0	0	3	mc	3	0	0	0	===	0	0	0
+rar	version	crc.ver-number-open	0	0	0	3	mc	3	0	0	0	===	0	0	0
+rar	version	crc+data.ver-1	0	0	0	3	mcv	2	0	0	0	=.=	0	0	0
+rar	version	crc+data.ver-0	0	3	3	3	mc	2	0	1	0	=!=	0	0	0
+rar	version	crc+data.ver-no-body	0	3	3	3	mc	2	0	1	0	=!=	0	0	0
+rar	version	crc+data.ver-flags-only	0	3	3	3	mc	2	0	1	0	=!=	0	0	0
+rar	version	crc+data.ver-number-open	0	3	3	3	mc	2	0	1	0	=!=	0	0	0
+rar	version	nosum.ver-1	0	0	0	3	mv	2	0	0	0	=.=	0	0	0
+rar	version	nosum.ver-0	0	0	0	3	m	2	1	0	0	===	0	0	0
+rar	version	nosum.ver-no-body	0	0	0	3	m	2	1	0	0	===	0	0	0
+rar	version	nosum.ver-flags-only	0	0	0	3	m	2	1	0	0	===	0	0	0
+rar	version	nosum.ver-number-open	0	0	0	3	m	2	1	0	0	===	0	0	0
+rar	version	blake.ver-1	0	0	0	3	mbv	2	0	0	0	=.=	0	0	0
+rar	version	blake.ver-0	0	0	0	3	mb	3	0	0	0	===	0	0	0
+rar	version	blake.ver-no-body	0	0	0	3	mb	3	0	0	0	===	0	0	0
+rar	version	blake.ver-flags-only	0	0	0	3	mb	3	0	0	0	===	0	0	0
+rar	version	blake.ver-number-open	0	0	0	3	mb	3	0	0	0	===	0	0	0

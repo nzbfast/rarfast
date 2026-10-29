@@ -1,0 +1,14 @@
+case	reading	failure	size:SHA-256 of each member it gives
+run	run-of-14	no failure	1280:dfa2d976d3f600b3f299780cb1605152fec2b8068720a134022a277d3e727ec7
+run	run-of-16	no failure	1280:2b35c50d29d5fd0e212bbb57186b3fe3e296d2bea64710280b56d0bd2ae8c19e
+run	sixteen-adds-zero	no failure	1280:7e1ec7753a0a29399554f098ccf4697bbb6d77261299472a54af74371ea278ad
+run	low-not-remembered	no failure	1280:cdd04565f541d66462b10e0c9f82e03cdffd3c3d7e8450635014b2377da22382
+run	run-counts-every-fresh	no failure	1280:dfa2d976d3f600b3f299780cb1605152fec2b8068720a134022a277d3e727ec7
+table-read	low-reset-never	no failure	291:a7d09a27742ded6792259d1dd335c5f7e032c79642f09b354e2f7c4d27f8111c
+table-read	low-reset-unless-kept	no failure	291:a7d09a27742ded6792259d1dd335c5f7e032c79642f09b354e2f7c4d27f8111c
+table-read	low-reset-value-only	no failure	291:70667b5b53f213bc51207ec03d323514478d1551bae681649004349a18a87dba
+table-read	low-reset-run-only	no failure	291:1a87ddd7ab54f34b8e549ccdb4d8a9d8e8cb1ea4bcf845d1dbc8968f2c39f13d
+table-read-not-kept	low-reset-never	no failure	291:a7d09a27742ded6792259d1dd335c5f7e032c79642f09b354e2f7c4d27f8111c
+table-read-not-kept	low-reset-value-only	no failure	291:70667b5b53f213bc51207ec03d323514478d1551bae681649004349a18a87dba
+table-read-not-kept	low-reset-run-only	no failure	291:1a87ddd7ab54f34b8e549ccdb4d8a9d8e8cb1ea4bcf845d1dbc8968f2c39f13d
+member-end	end-resets-low	no failure	229:88dfeb5337a2dc5f1cfa01d557fd422f68dabbce10bd0d92b18a1ca8b3185eeb 62:61286807d59d627d5da48cd3414e379ce4460020c26581bbda9d28422dafcc00

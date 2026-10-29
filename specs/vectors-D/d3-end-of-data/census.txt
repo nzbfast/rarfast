@@ -1,0 +1,65 @@
+r420_hp.rar: encrypted or split, not counted
+r420_m5.rar	SUB\NESTED\DEEP.TXT	decoded	symbols read 54, with fewer than 15 bits left 1, fewest bits left 14
+r420_m5.rar	HELLO.TXT	decoded	symbols read 952, with fewer than 15 bits left 0, fewest bits left 16
+r420_m5.rar	DATA.BIN	decoded	symbols read 12306, with fewer than 15 bits left 0, fewest bits left 22
+r4_hpw.rar: encrypted or split, not counted
+r4_m3.rar	text.txt	decoded	symbols read 147, with fewer than 15 bits left 1, fewest bits left 13
+r4_pw.rar: encrypted or split, not counted
+r4_pwvol.part1.rar: encrypted or split, not counted
+r4_pwvol.part2.rar: encrypted or split, not counted
+r4_pwvol.part3.rar: encrypted or split, not counted
+r4_pwvolc.part1.rar: encrypted or split, not counted
+r4_pwvolc.part2.rar: encrypted or split, not counted
+r4_pwvolc.part3.rar: encrypted or split, not counted
+r4_pwvolc.part4.rar: encrypted or split, not counted
+r4_solid.rar	hello.txt	decoded	symbols read 79, with fewer than 15 bits left 1, fewest bits left 12
+r4_solid.rar	text.txt	decoded	symbols read 106, with fewer than 15 bits left 0, fewest bits left 15
+r4_vol.part1.rar: encrypted or split, not counted
+r4_vol.part2.rar: encrypted or split, not counted
+r4_vol.part3.rar: encrypted or split, not counted
+r4_volvn.rar: encrypted or split, not counted
+r393_m5.rar	DATA.BIN	decoded	symbols read 12305, with fewer than 15 bits left 0, fewest bits left 23
+r420_m5.rar	SUB\NESTED\DEEP.TXT	decoded	symbols read 54, with fewer than 15 bits left 1, fewest bits left 14
+r420_m5.rar	HELLO.TXT	decoded	symbols read 952, with fewer than 15 bits left 0, fewest bits left 16
+r420_m5.rar	DATA.BIN	decoded	symbols read 12306, with fewer than 15 bits left 0, fewest bits left 22
+r550ma4_m5.rar	SUB\NESTED\DEEP.TXT	decoded	symbols read 54, with fewer than 15 bits left 0, fewest bits left 15
+r550ma4_m5.rar	HELLO.TXT	decoded	symbols read 952, with fewer than 15 bits left 0, fewest bits left 16
+r550ma4_m5.rar	DATA.BIN	decoded	symbols read 12306, with fewer than 15 bits left 0, fewest bits left 27
+i18_solid_mixed_auto.rar	BIN.DAT	decoded	symbols read 4215, with fewer than 15 bits left 0, fewest bits left 30
+i18_solid_mixed_auto.rar	T1.TXT	not decoded to its end (PPM or a filter)	symbols read 1, with fewer than 15 bits left 0, fewest bits left 14304
+i19_solid_ppm_then_lz.rar	ZBIN.TXT	decoded	symbols read 4215, with fewer than 15 bits left 0, fewest bits left 30
+r393_bigrgb_c.rar	BIGRGB.RAW	decoded	symbols read 208709, with fewer than 15 bits left 0, fewest bits left 98
+r393_mixed_solid.rar	IA64.BIN	decoded	symbols read 8026, with fewer than 15 bits left 0, fewest bits left 27
+r393_mixed_solid.rar	TABLE.BIN	decoded	symbols read 4351, with fewer than 15 bits left 0, fewest bits left 25
+r393_mixed_solid.rar	X86.BIN	not decoded to its end (PPM or a filter)	symbols read 1, with fewer than 15 bits left 0, fewest bits left 45952
+r393_mixed_solid.rar	IMAGE.BMP	decoded	symbols read 7496, with fewer than 15 bits left 0, fewest bits left 21
+r393_mixed_solid.rar	PCM.RAW	decoded	symbols read 15794, with fewer than 15 bits left 0, fewest bits left 29
+r393_mixed_solid.rar	RGB.RAW	not decoded to its end (PPM or a filter)	symbols read 568, with fewer than 15 bits left 0, fewest bits left 118572
+r420_bigrgb_c.rar	BIGRGB.RAW	decoded	symbols read 208487, with fewer than 15 bits left 0, fewest bits left 92
+r420_bmp_auto.rar	IMAGE.BMP	decoded	symbols read 7469, with fewer than 15 bits left 0, fewest bits left 19
+r420_ia64_i.rar	IA64.BIN	decoded	symbols read 7980, with fewer than 15 bits left 0, fewest bits left 22
+r420_mixed_nonsolid.rar	X86.BIN	decoded	symbols read 9970, with fewer than 15 bits left 0, fewest bits left 25
+r420_mixed_nonsolid.rar	IA64.BIN	decoded	symbols read 7980, with fewer than 15 bits left 0, fewest bits left 22
+r420_mixed_nonsolid.rar	IMAGE.BMP	decoded	symbols read 7469, with fewer than 15 bits left 0, fewest bits left 19
+r420_mixed_nonsolid.rar	SOUND.WAV	decoded	symbols read 15736, with fewer than 15 bits left 0, fewest bits left 20
+r420_mixed_nonsolid.rar	TABLE.BIN	decoded	symbols read 4540, with fewer than 15 bits left 0, fewest bits left 28
+r420_mixed_solid.rar	IA64.BIN	decoded	symbols read 7930, with fewer than 15 bits left 0, fewest bits left 20
+r420_mixed_solid.rar	TABLE.BIN	decoded	symbols read 4342, with fewer than 15 bits left 0, fewest bits left 27
+r420_mixed_solid.rar	X86.BIN	decoded	symbols read 9677, with fewer than 15 bits left 0, fewest bits left 26
+r420_mixed_solid.rar	IMAGE.BMP	decoded	symbols read 7464, with fewer than 15 bits left 0, fewest bits left 21
+r420_mixed_solid.rar	PCM.RAW	decoded	symbols read 15775, with fewer than 15 bits left 0, fewest bits left 31
+r420_mixed_solid.rar	RGB.RAW	decoded	symbols read 15468, with fewer than 15 bits left 0, fewest bits left 25
+r420_mixed_solid.rar	SOUND.WAV	decoded	symbols read 15343, with fewer than 15 bits left 1, fewest bits left 9
+r420_pcm_a2.rar	PCM.RAW	decoded	symbols read 16077, with fewer than 15 bits left 0, fewest bits left 102
+r420_pcm_a4.rar	PCM.RAW	decoded	symbols read 15570, with fewer than 15 bits left 0, fewest bits left 84
+r420_rgb_c.rar	RGB.RAW	decoded	symbols read 6844, with fewer than 15 bits left 0, fewest bits left 73
+r420_tab_auto.rar	TABLE.BIN	decoded	symbols read 4540, with fewer than 15 bits left 0, fewest bits left 28
+r420_tab_d3.rar	TABLE.BIN	decoded	symbols read 4313, with fewer than 15 bits left 0, fewest bits left 27
+r420_wav_auto.rar	SOUND.WAV	decoded	symbols read 15736, with fewer than 15 bits left 0, fewest bits left 20
+r420_x86_auto.rar	X86.BIN	decoded	symbols read 9970, with fewer than 15 bits left 0, fewest bits left 25
+r420_x86_e.rar	X86.BIN	decoded	symbols read 10022, with fewer than 15 bits left 0, fewest bits left 29
+j4_queue_0008193.rar	j4_queue_0008193.bin	decoded	symbols read 139765, with fewer than 15 bits left 0, fewest bits left 320006
+j4_queue_0008194.rar	j4_queue_0008194.bin	decoded	symbols read 139782, with fewer than 15 bits left 0, fewest bits left 320007
+j4_slots_0008193.rar	j4_slots_0008193.bin	decoded	symbols read 139701, with fewer than 15 bits left 0, fewest bits left 320010
+j4_slots_0008194.rar	j4_slots_0008194.bin	decoded	symbols read 139718, with fewer than 15 bits left 0, fewest bits left 320001
+members decoded to their end: 47; with a symbol read with fewer than 15 bits left: 5; symbols 1293047, of them so read 5; fewest bits left at any symbol: 9

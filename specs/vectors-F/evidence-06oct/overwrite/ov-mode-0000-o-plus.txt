@@ -1,0 +1,22 @@
+arm: ov-mode-0000-o-plus
+about: a.txt in the way with mode 0000, -o+
+file: x.rar  168 bytes  sha256 8b8e29c60cdd5292c649a29f8a9280a3a251d343790632ccb95705f88d911b9b
+planted before the run: o/a.txt, a regular file of 6 bytes, mode 0000
+$ unrar x -p- -o+ x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       37%  OK
+  Extracting  o/b.txt                                                       65%  OK
+  Creating    o/d                                                       OK
+  Extracting  o/d/c.txt                                                    100%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+  file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+  dir   o/d
+  file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

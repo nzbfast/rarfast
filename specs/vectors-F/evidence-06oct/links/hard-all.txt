@@ -1,0 +1,45 @@
+arm: hard-all
+about: a file, a hard link to it (type 4) and one more in a directory, unrar x
+file: x.rar  163 bytes  sha256 597ecd822bf171911eb0f85884518046fd643bbfa66d29bd11725b6cf9ced0e2
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+          Name: hard_a
+          Type: Hard link
+        Target: a.txt
+          Size: 6
+          Name: d
+          Type: Directory
+          Name: d/hard_b
+          Type: Hard link
+        Target: a.txt
+          Size: 6
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         36%  OK
+  Testing     hard_a                                                         OK
+  Testing     d                                                         OK
+  Testing     d/hard_b                                                       OK
+  All OK
+$ unrar x -p- x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       36%  OK
+  Extracting  o/hard_a                                                       OK
+  Creating    o/d                                                       OK
+  Extracting  o/d/hard_b                                                     OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+  dir   o/d
+  file  o/hard_a                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+  file  o/d/hard_b                  6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

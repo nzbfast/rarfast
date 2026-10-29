@@ -1,0 +1,35 @@
+== stored-between
+        Name: a.txt
+ Packed size: 56
+ Compression: RAR 5.0(v50) -m3 -md=1m
+        Name: x.jpg
+ Packed size: 30000
+ Compression: RAR 5.0(v50) -m0 -md=128k
+       Flags: solid 
+        Name: z.bin
+ Packed size: 30068
+ Compression: RAR 5.0(v50) -m3 -md=1m
+       Flags: solid 
+unrar t: OK
+== absent
+        Name: a.txt
+ Packed size: 88
+ Compression: RAR 5.0(v50) -m3 -md=1m
+        Name: z.bin
+ Packed size: 30047
+ Compression: RAR 5.0(v50) -m3 -md=1m
+       Flags: solid 
+unrar t: OK
+== packed-between
+        Name: a.txt
+ Packed size: 88
+ Compression: RAR 5.0(v50) -m3 -md=1m
+        Name: x.jpg
+ Packed size: 30047
+ Compression: RAR 5.0(v50) -m3 -md=1m
+       Flags: solid 
+        Name: z.bin
+ Packed size: 56
+ Compression: RAR 5.0(v50) -m3 -md=1m
+       Flags: solid 
+unrar t: OK

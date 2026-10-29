@@ -1,0 +1,152 @@
+arm: sym-ol-minus
+about: the same archive, unrar x -ol-
+file: x.rar  1211 bytes  sha256 39c36b480b4fdd6f14439c298f7f2ab44a7ce2ae75974909104955f62190cdaa
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+          Name: top.txt
+          Type: File
+          Size: 16
+          Name: d
+          Type: Directory
+          Name: d/e
+          Type: Directory
+          Name: sym_rel
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 0
+          Name: sym_dangling
+          Type: Unix symbolic link
+        Target: nothere
+          Size: 0
+          Name: sym_abs
+          Type: Unix symbolic link
+        Target: /etc/hostname
+          Size: 0
+          Name: sym_up
+          Type: Unix symbolic link
+        Target: ../../escape
+          Size: 0
+          Name: sym_up1
+          Type: Unix symbolic link
+        Target: ../victim/t
+          Size: 0
+          Name: dotdot_only
+          Type: Unix symbolic link
+        Target: ..
+          Size: 0
+          Name: d/up_in
+          Type: Unix symbolic link
+        Target: ../top.txt
+          Size: 0
+          Name: d/e/up_in2
+          Type: Unix symbolic link
+        Target: ../../top.txt
+          Size: 0
+          Name: d/up_out
+          Type: Unix symbolic link
+        Target: ../../top.txt
+          Size: 0
+          Name: d/e/up_out3
+          Type: Unix symbolic link
+        Target: ../../../victim/t
+          Size: 0
+          Name: dotdot_mid
+          Type: Unix symbolic link
+        Target: d/../top.txt
+          Size: 0
+          Name: dotdot_mid2
+          Type: Unix symbolic link
+        Target: d/e/../../../x
+          Size: 0
+          Name: d/dotdot_late
+          Type: Unix symbolic link
+        Target: ../d/../top.txt
+          Size: 0
+          Name: dotslash
+          Type: Unix symbolic link
+        Target: ./top.txt
+          Size: 0
+          Name: dotslash_up
+          Type: Unix symbolic link
+        Target: ./../victim/t
+          Size: 0
+          Name: d/dot_then_up
+          Type: Unix symbolic link
+        Target: ./../top.txt
+          Size: 0
+          Name: dslash
+          Type: Unix symbolic link
+        Target: d//e
+          Size: 0
+          Name: d/dslash_up
+          Type: Unix symbolic link
+        Target: ..//top.txt
+          Size: 0
+          Name: trail
+          Type: Unix symbolic link
+        Target: d/
+          Size: 0
+          Name: sym_dir
+          Type: Unix symbolic link
+        Target: d
+          Size: 0
+          Name: dots3
+          Type: Unix symbolic link
+        Target: .../a.txt
+          Size: 0
+          Name: tilde
+          Type: Unix symbolic link
+        Target: ~/a.txt
+          Size: 0
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                          4%  OK
+  Testing     top.txt                                                        8%  OK
+  Testing     d                                                         OK
+  Testing     d/e                                                       OK
+  Testing     sym_rel                                                        OK
+  Testing     sym_dangling                                                   OK
+  Testing     sym_abs                                                        OK
+  Testing     sym_up                                                         OK
+  Testing     sym_up1                                                        OK
+  Testing     dotdot_only                                                    OK
+  Testing     d/up_in                                                        OK
+  Testing     d/e/up_in2                                                     OK
+  Testing     d/up_out                                                       OK
+  Testing     d/e/up_out3                                                    OK
+  Testing     dotdot_mid                                                     OK
+  Testing     dotdot_mid2                                                    OK
+  Testing     d/dotdot_late                                                  OK
+  Testing     dotslash                                                       OK
+  Testing     dotslash_up                                                    OK
+  Testing     d/dot_then_up                                                  OK
+  Testing     dslash                                                         OK
+  Testing     d/dslash_up                                                    OK
+  Testing     trail                                                          OK
+  Testing     sym_dir                                                        OK
+  Testing     dots3                                                          OK
+  Testing     tilde                                                          OK
+  All OK
+$ unrar x -p- -ol- x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                        4%  OK
+  Extracting  o/top.txt                                                      8%  OK
+  Creating    o/d                                                       OK
+  Creating    o/d/e                                                     OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  dir   o/d
+  file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+  dir   o/d/e
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

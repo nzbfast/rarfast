@@ -1,0 +1,62 @@
+# simscan per-file waivers.
+#
+# A file whose CONTENT a container format or a public standard dictates can
+# share long token runs with the donor honestly, and no honest limit clears
+# it. The 18 Sep 2026 calibration measured that directly: an unrelated
+# crate's copy of RFC 7693's IV and SIGMA tables reads raw24 83.5 percent
+# against the donor, and an unrelated CRC table reads norm48 99.8. The
+# calibration fixed what it could (see `n48d` in simscan.py, which drops the
+# saturating half of the normalised measure); these rows are what it could
+# not fix, reviewed one by one.
+#
+# A WAIVER IS A CLAIM SOMEBODY VERIFIED, NOT A MUTE BUTTON:
+#   * the whole-subject limit takes no waivers at all;
+#   * a row naming a file that is no longer in the subject FAILS the run;
+#   * a row whose file has drifted upward past its own `step` FAILS the run,
+#     so a waived file cannot quietly grow new shared text;
+#   * a row whose `approved` begins PENDING waives nothing. It records that
+#     the question is known and unsettled; it does not settle it.
+#
+# Every row carries: the path (relative to the subject root, normally
+# crates/rarkit/src), the class, the PUBLIC source the content comes from,
+# the scores on the day it was written, the control evidence that an
+# unrelated file of the same kind scores the same way, and who approved it.
+
+# Paths below are relative to this root, itself relative to this file.
+root = "../crates/rarkit/src"
+
+[[waiver]]
+path = "checksum/crc64.rs"
+class = "public-standard-kernel"
+source = "CRC-64/XZ (ECMA-182 polynomial 0x42F0E1EBA9EA3693, reflected), the table-driven byte-at-a-time CRC that every implementation of it writes"
+tokens = 657
+raw24 = 0.0
+n48d = 23.1
+step = 2.0
+approved = "2026-09-18, approved by the project"
+evidence = "raw24 is 0.0: it shares no identifier or literal text with the donor at all. Only the normalised measure trips, and it trips in unrelated code too: crc32fast 1.5.2's own baseline.rs, which has no relationship to this project, reads raw24 0.0 and norm48 34.8 against the same reference, and crc32fast's table.rs reads norm48 99.8. Written from specs/SPEC-L alone."
+note = "n48d 23.1 is above the 16.0 limit for a file of this size, so the distinctness filter does not clear it on its own; a reflected CRC inner loop is short, and the shapes it can take are few."
+
+[[waiver]]
+path = "checksum/blake2sp/lanes.rs"
+class = "public-standard-kernel"
+source = "RFC 7693 (BLAKE2): the IV constants and the SIGMA message-permutation schedule, written out per lane"
+tokens = 4763
+raw24 = 18.1
+n48d = 4.4
+step = 2.0
+approved = "2026-09-18, approved by the project"
+evidence = "raw24 18.1 is above the 15.0 limit, and it is the published constants: RFC 7693's IV and SIGMA are the same integers whoever writes them. The blake2 crate 0.11.0's consts.rs, unrelated to this project, reads raw24 83.5 and norm48 86.0 against the same reference on 492 tokens, which is the same collision in a file that is nothing but those tables. n48d is 4.4, inside the 12.0 limit, so the CODE of this file does not read as copied. What raw24 covers is NOT only constants, as this row said until 2026-09-19: of the 863 tokens it covers, 359 are the IV and SIGMA tables and about 504 are the G mixing function and the eight column and diagonal round calls of RFC 7693 sections 3.1 and 3.2, written with the RFC's own variable names. That is still a public-standard kernel, which is this row's class and conclusion; the NEON kernel, the part of this file that is design rather than standard, shares nothing at raw24. Measured in the project's audit dry run of 19 Sep 2026. Written from specs/SPEC-L alone."
+note = "The 11 shared integer runs the scan notes on this file are the same IV and SIGMA tables."
+
+[[waiver]]
+path = "rar3_lz/tables.rs"
+class = "format-dictated-constants"
+source = "the four RAR 3 ladders, printed in full in specs/SPEC-H1-rarkit-rar3-lz.md sections 3.4 (length base and extra bits, 28 slots) and 3.5 (distance base and extra bits, 60 slots; short distance base and extra bits, 8 slots), and committed again as specs/vectors-H/ladders.tsv, which this package's tests assert against row by row"
+tokens = 631
+raw24 = 62.9
+n48d = 0.0
+step = 2.0
+approved = "2026-09-19, approved by the project"
+evidence = "n48d is 0.0: the file's CODE shares nothing measurable with the donor. The whole of raw24 62.9 is the six shared integer runs the scan itself notes (int_runs 6, int_runs_shared 6, grams_shared 0), and those six runs are the six numeric arrays this file holds: LENGTH_BASE, LENGTH_EXTRA, DISTANCE_BASE, DISTANCE_EXTRA, SHORT_BASE, SHORT_EXTRA. Each was re-derived here from the project's own published vectors: the tsv's rar3 length rows equal LENGTH_BASE plus 3 with LENGTH_EXTRA, its distance rows equal DISTANCE_BASE plus 1 with DISTANCE_EXTRA, and its short_distance rows equal SHORT_BASE plus 1 with SHORT_EXTRA, all eight, sixty and twenty-eight slots matching exactly. The integers are dictated by the RAR 3 format and any reader must hold them identically. The file was inspected on the day of approval and holds nothing but these constants, six alphabet sizes and four scalar bonus or boundary constants, with no functions and no logic at all. Written from specs/SPEC-H1 alone; its author did not reshape the file and wrote no waiver, and reported it with two options."
+note = "The limits for a 631 token file are raw24 20.0 and n48d 16.0, so raw24 62.9 fails on its own. The alternative to this row was computing the ladders from the generating rules section 3.5 also states, which would change only how the same numbers are spelled in order to get under a gate; this repository forbids reshaping code to pass a gate, so the waiver is the honest answer. The whole-subject limit takes no waivers and still passes."

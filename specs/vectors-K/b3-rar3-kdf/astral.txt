@@ -1,0 +1,10 @@
+source	r393_pw.rar: 9 encrypted members, salts (the last 8 bytes of each file header) ['dd08343969739da0']
+unrar	control: the genuine archive's own password, stated derivation	password of 6 characters, seed 20 bytes	good=yes	rc=0	
+unrar	U+1F511 as a surrogate pair, two code units	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	U+1F511 as the low 16 bits of the code point, one unit	password of 4 characters, seed 18 bytes	good=yes	rc=0	
+unrar	U+1F511 as the code point in 4 bytes, least significant first	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	U+1F511 as its high surrogate alone	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	U+1F511 as its low surrogate alone	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	U+1F511 left out	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	U+1F511 as its four UTF-8 bytes, each a 16-bit unit	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+summary	astral arms done

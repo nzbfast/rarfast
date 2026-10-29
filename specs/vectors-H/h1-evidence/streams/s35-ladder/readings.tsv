@@ -1,0 +1,356 @@
+case	reading	failure	size:SHA-256 of each member it gives
+slot-00	dist-0-base+1	no failure	9:27ae233424f06c9bf5a739a25f42dc495979a417784c241453e0968314f1adac
+slot-00	dist-0-bits+1	no failure	9:3fbc26ad67a19155e97ce3da11471e9c6307775c84dc5d625e36608aba6c247c
+slot-00	distance-plus-0	fails: a repeated distance of zero	-
+slot-00	distance-plus-2	no failure	9:27ae233424f06c9bf5a739a25f42dc495979a417784c241453e0968314f1adac
+slot-01	dist-1-base+1	no failure	9:727bb6a3f429b1ce869a81472a0b9bbcc0caed1019c2f3662d7fa513e100de6c
+slot-01	dist-1-base-1	no failure	9:e5e15a7bb233d6065aa4c6f3ed1a1957d77f587d2c056211332131be4f174e3f
+slot-01	dist-1-bits+1	no failure	9:7d4953dd48d3104c696c3395a48f7f3c6e528ec81f84123fc61ddb0a58f023c5
+slot-01	distance-plus-0	no failure	9:e5e15a7bb233d6065aa4c6f3ed1a1957d77f587d2c056211332131be4f174e3f
+slot-01	distance-plus-2	no failure	9:727bb6a3f429b1ce869a81472a0b9bbcc0caed1019c2f3662d7fa513e100de6c
+slot-02	dist-2-base+1	no failure	9:0820110864d470dc11b4330b0f73f529780c5bd93cd97cd6c54b7aa9d298a7b1
+slot-02	dist-2-base-1	no failure	9:27ae233424f06c9bf5a739a25f42dc495979a417784c241453e0968314f1adac
+slot-02	dist-2-bits+1	no failure	9:23819818210667e88ee32f2a7cf6f256e4ce042fc2a8755cf527f1b130a3ad3c
+slot-02	distance-plus-0	no failure	9:27ae233424f06c9bf5a739a25f42dc495979a417784c241453e0968314f1adac
+slot-02	distance-plus-2	no failure	9:0820110864d470dc11b4330b0f73f529780c5bd93cd97cd6c54b7aa9d298a7b1
+slot-03	dist-3-base+1	fails: a distance before the start of the stream	-
+slot-03	dist-3-base-1	no failure	9:727bb6a3f429b1ce869a81472a0b9bbcc0caed1019c2f3662d7fa513e100de6c
+slot-03	dist-3-bits+1	fails: a distance before the start of the stream	-
+slot-03	distance-plus-0	no failure	9:727bb6a3f429b1ce869a81472a0b9bbcc0caed1019c2f3662d7fa513e100de6c
+slot-03	distance-plus-2	fails: a distance before the start of the stream	-
+slot-04	dist-4-base+1	fails: a distance before the start of the stream	-
+slot-04	dist-4-base-1	no failure	21:6c4cbed0cecf479654cabac4628e341b42b5d226b86a186d3d1809fd35ce9f3d
+slot-04	dist-4-bits+1	fails: a distance before the start of the stream	-
+slot-04	dist-4-bits-1	no failure	21:80b5f9903c8f2d2020d7c2749ff566d06257f024b64e33cf62d4e0863b71ffb5
+slot-04	distance-plus-0	no failure	21:6c4cbed0cecf479654cabac4628e341b42b5d226b86a186d3d1809fd35ce9f3d
+slot-04	distance-plus-2	fails: a distance before the start of the stream	-
+slot-05	dist-5-base+1	fails: a distance before the start of the stream	-
+slot-05	dist-5-base-1	no failure	25:61e5e5a2325328a77bc0dd9df5de2a36620172089f170e8866bb4f0a1f2607d6
+slot-05	dist-5-bits+1	fails: a distance before the start of the stream	-
+slot-05	dist-5-bits-1	no failure	25:da6f6339e405521633248e6aafd852a62af7454e6be24337f3f150857d04927f
+slot-05	distance-plus-0	fails: a repeated distance of zero	-
+slot-05	distance-plus-2	fails: a distance before the start of the stream	-
+slot-06	dist-6-base+1	fails: a distance before the start of the stream	-
+slot-06	dist-6-base-1	no failure	47:4c7e3498258df6302d358c7038a5f89fac76b541df7c0ef97a71def4a93d31f5
+slot-06	dist-6-bits+1	fails: a distance before the start of the stream	-
+slot-06	dist-6-bits-1	no failure	47:4e665c41c357afb99168e4a294372ba52fbdbf9033f35a898c0049e57c089be6
+slot-06	distance-plus-0	fails: a repeated distance of zero	-
+slot-06	distance-plus-2	fails: a distance before the start of the stream	-
+slot-07	dist-7-base+1	fails: a distance before the start of the stream	-
+slot-07	dist-7-base-1	no failure	59:226deadce63348fa866adce21d01cb5b99b691a53b1b934907fdf1530a549245
+slot-07	dist-7-bits+1	fails: a distance before the start of the stream	-
+slot-07	dist-7-bits-1	no failure	59:f75c3a8ee7b7998d04ba7f53b83c3e564e68e3f570cb4d25f8b6a28f35943d3a
+slot-07	distance-plus-0	fails: a repeated distance of zero	-
+slot-07	distance-plus-2	fails: a distance before the start of the stream	-
+slot-08	dist-8-base+1	fails: a distance before the start of the stream	-
+slot-08	dist-8-base-1	no failure	78:91f29cef07db15ddc0afb52eeb6eb250397cf0db391986a2b593e963a1e72e93
+slot-08	dist-8-bits+1	fails: a distance before the start of the stream	-
+slot-08	dist-8-bits-1	no failure	78:31ff08056aa3053956cc6510ce76c9a98696561f00a508e67f2227d7b0c0f0ec
+slot-08	distance-plus-0	fails: a repeated distance of zero	-
+slot-08	distance-plus-2	fails: a distance before the start of the stream	-
+slot-09	dist-9-base+1	fails: a distance before the start of the stream	-
+slot-09	dist-9-base-1	no failure	102:8e7218c3db117e85a746b22d103a01316eb8a6f212c36d52b7f5441d894075ed
+slot-09	dist-9-bits+1	fails: a distance before the start of the stream	-
+slot-09	dist-9-bits-1	no failure	102:07700bcd570d088157c57822ba0328658fbf3bcba7562c60354f43cea20a9b3a
+slot-09	distance-plus-0	fails: a repeated distance of zero	-
+slot-09	distance-plus-2	fails: a distance before the start of the stream	-
+slot-09	low-from-9	fails: a distance before the start of the stream	-
+slot-10	dist-10-base+1	fails: a distance before the start of the stream	-
+slot-10	dist-10-base-1	no failure	140:29377720c16803ec3dc5323511fe44eca93e88662aa46a16d8070f1fbf0bba1b
+slot-10	dist-10-bits+1	fails: a distance before the start of the stream	-
+slot-10	distance-plus-0	fails: a repeated distance of zero	-
+slot-10	distance-plus-2	fails: a distance before the start of the stream	-
+slot-10	low-from-11	no failure	140:4ae830eb7669aa7c5b331e979c0bfcc1473593c658b29ce0160cd72edc6f3184
+slot-11	dist-11-base+1	fails: a distance before the start of the stream	-
+slot-11	dist-11-base-1	no failure	188:155f25f3cfe4bf90333ffb4a175d30ff77127a1f79c579d7e8676730897b4934
+slot-11	dist-11-bits+1	fails: a distance before the start of the stream	-
+slot-11	distance-plus-0	fails: a repeated distance of zero	-
+slot-11	distance-plus-2	fails: a distance before the start of the stream	-
+slot-12	dist-12-base+1	fails: a distance before the start of the stream	-
+slot-12	dist-12-base-1	no failure	263:a476fbd01bc97c0a525674e05b4995fd8ee835b4f44545db2f23ee3b516f1070
+slot-12	dist-12-bits+1	fails: a distance before the start of the stream	-
+slot-12	dist-12-bits-1	no failure	263:5e3a5ad0d14ec1aec24751a4ae400f06f20377d4e909a0830594958451948968
+slot-12	distance-plus-0	fails: a repeated distance of zero	-
+slot-12	distance-plus-2	fails: a distance before the start of the stream	-
+slot-13	dist-13-base+1	fails: a distance before the start of the stream	-
+slot-13	dist-13-base-1	no failure	359:21d3a17ae6f8b893d7abfa33a0cc21c2ba6e7ad715d166a1299a8f05ba1244e5
+slot-13	dist-13-bits+1	fails: a distance before the start of the stream	-
+slot-13	dist-13-bits-1	no failure	359:e1c69fb99f9e87a113e09df60faa619b78b29f81da068788abfe9929596bbe49
+slot-13	distance-plus-0	fails: a repeated distance of zero	-
+slot-13	distance-plus-2	fails: a distance before the start of the stream	-
+slot-14	dist-14-base+1	fails: a distance before the start of the stream	-
+slot-14	dist-14-base-1	no failure	509:eabf05e8b318b76c7e151fe51c3ab11002458db44462cd59ee89e3aeb7ab324a
+slot-14	dist-14-bits+1	fails: a distance before the start of the stream	-
+slot-14	dist-14-bits-1	no failure	509:8e0930282c3037f1ab8757ccf951c616007823038ceb3fb0e1bfdafab7057797
+slot-14	distance-plus-0	fails: a repeated distance of zero	-
+slot-14	distance-plus-2	fails: a distance before the start of the stream	-
+slot-15	dist-15-base+1	fails: a distance before the start of the stream	-
+slot-15	dist-15-base-1	no failure	701:ffc50807da9b5c34812a9e07632f39b32f9d8d3a8e4e8b66949a9388fd9887c7
+slot-15	dist-15-bits+1	fails: a distance before the start of the stream	-
+slot-15	dist-15-bits-1	no failure	701:61bf37450d0be65e9ff6c078a227d56a4a1fd2202996e656fcf4cbc77e793179
+slot-15	distance-plus-0	fails: a repeated distance of zero	-
+slot-15	distance-plus-2	fails: a distance before the start of the stream	-
+slot-16	dist-16-base+1	fails: a distance before the start of the stream	-
+slot-16	dist-16-base-1	no failure	1002:f0c18482a00ef4958e2ca0a8beef76a700849cb6ec0bdd0c4ee343a42ae2a743
+slot-16	dist-16-bits+1	fails: a distance before the start of the stream	-
+slot-16	dist-16-bits-1	no failure	1002:11eeda621029d676d30e2d830b757baac00bf8b0153d4e582dd23f9d301ca6e9
+slot-16	distance-plus-0	fails: a repeated distance of zero	-
+slot-16	distance-plus-2	fails: a distance before the start of the stream	-
+slot-17	dist-17-base+1	fails: a distance before the start of the stream	-
+slot-17	dist-17-base-1	no failure	1386:dacee3c9c46989adc49eb9cb81d59eb6a6ef4d76d719cae639c1b63fe17ea2b6
+slot-17	dist-17-bits+1	fails: a distance before the start of the stream	-
+slot-17	dist-17-bits-1	no failure	1386:5f503078de19e4a1d41534916724d58c45fbe067acbf1eef2c341a05f516eacd
+slot-17	distance-plus-0	fails: a repeated distance of zero	-
+slot-17	distance-plus-2	fails: a distance before the start of the stream	-
+slot-18	dist-18-base+1	fails: a distance before the start of the stream	-
+slot-18	dist-18-base-1	no failure	1988:1aab60f3caa2027d81a9f1fb108a5054534e03b300b6c0074dbefc5be4e3ea0f
+slot-18	dist-18-bits+1	fails: a distance before the start of the stream	-
+slot-18	dist-18-bits-1	no failure	1988:1f5e8a3c3c096aa64d8546c5ad9eed8e13162eefeb6c93472962fe8516dc02af
+slot-18	distance-plus-0	fails: a repeated distance of zero	-
+slot-18	distance-plus-2	fails: a distance before the start of the stream	-
+slot-19	dist-19-base+1	fails: a distance before the start of the stream	-
+slot-19	dist-19-base-1	no failure	2756:415cbf7599bc8c21bf28a23dd521bfdeadeddb8fb2881c61de5979a9e2a3d95a
+slot-19	dist-19-bits+1	fails: a distance before the start of the stream	-
+slot-19	dist-19-bits-1	no failure	2756:aaf35fd69cfc075e3ebbed493b271f7faa5b0b551de123b5497e7d103bbf5d96
+slot-19	distance-plus-0	fails: a repeated distance of zero	-
+slot-19	distance-plus-2	fails: a distance before the start of the stream	-
+slot-20	dist-20-base+1	fails: a distance before the start of the stream	-
+slot-20	dist-20-base-1	no failure	3960:66d0fd62dc8b989c5939dfc2fac7917518407a8d7f39e6a5937e4714f1ca433e
+slot-20	dist-20-bits+1	fails: a distance before the start of the stream	-
+slot-20	dist-20-bits-1	no failure	3960:a9d35b3b6596c2404da38a1ad4c87f9671e4c6fbf9ececfe6134ca2ce3c7011b
+slot-20	distance-plus-0	fails: a repeated distance of zero	-
+slot-20	distance-plus-2	fails: a distance before the start of the stream	-
+slot-21	dist-21-base+1	fails: a distance before the start of the stream	-
+slot-21	dist-21-base-1	no failure	5496:337dbabbd63674e7c9bb2c39b1901e591f023a779c34d3653ddae2abcce8c4aa
+slot-21	dist-21-bits+1	fails: a distance before the start of the stream	-
+slot-21	dist-21-bits-1	no failure	5496:4ce5ec3f82a7192f3775273d2c9b17465ca9e5fedd40b891fe762c1471c55576
+slot-21	distance-plus-0	fails: a repeated distance of zero	-
+slot-21	distance-plus-2	fails: a distance before the start of the stream	-
+slot-22	dist-22-base+1	fails: a distance before the start of the stream	-
+slot-22	dist-22-base-1	no failure	7903:5250d8152ba9ecde89a34ead69fe0773b0ab8b4d83796d583722e41e787ea8b7
+slot-22	dist-22-bits+1	fails: a distance before the start of the stream	-
+slot-22	dist-22-bits-1	no failure	7903:dc143808b7e2da7c241a453d61b812a1c7df67454627d5e07d9ec9aaf33fa1de
+slot-22	distance-plus-0	fails: a repeated distance of zero	-
+slot-22	distance-plus-2	fails: a distance before the start of the stream	-
+slot-23	dist-23-base+1	fails: a distance before the start of the stream	-
+slot-23	dist-23-base-1	no failure	10975:74c67c5b9675ed50f96d400de6a38dafd13506c778515d03af0f39da22e84845
+slot-23	dist-23-bits+1	fails: a distance before the start of the stream	-
+slot-23	dist-23-bits-1	no failure	10975:38afa2d83c0f43eebd0b48e4e4dc832e405e0bd993c4751577d10958cc9194ca
+slot-23	distance-plus-0	fails: a repeated distance of zero	-
+slot-23	distance-plus-2	fails: a distance before the start of the stream	-
+slot-24	dist-24-base+1	fails: a distance before the start of the stream	-
+slot-24	dist-24-base-1	no failure	15789:2faf9936e60c4582f0d13e19c70824c454e4b21afe7455022af04633b64d1fea
+slot-24	dist-24-bits+1	fails: a distance before the start of the stream	-
+slot-24	dist-24-bits-1	no failure	15789:daefa065da3100e5e7ef928de9aa64366eaeecd63da9f32048ae1ced6a6e8bd5
+slot-24	distance-plus-0	fails: a repeated distance of zero	-
+slot-24	distance-plus-2	fails: a distance before the start of the stream	-
+slot-25	dist-25-base+1	fails: a distance before the start of the stream	-
+slot-25	dist-25-base-1	no failure	21933:1972adc10a17feaf62651ca79eeccb408368d990bf645671b7c5f766819e6090
+slot-25	dist-25-bits+1	fails: a distance before the start of the stream	-
+slot-25	dist-25-bits-1	no failure	21934:fcd6f3759a632fae41b31f0d0b7e6bce5eb2401fcace11ed8b791955a2706161
+slot-25	distance-plus-0	fails: a repeated distance of zero	-
+slot-25	distance-plus-2	fails: a distance before the start of the stream	-
+slot-26	dist-26-base+1	fails: a distance before the start of the stream	-
+slot-26	dist-26-base-1	no failure	31564:4c4f1a98df91a61ee578744cb2e2d3fa5a84dee4e3477a42360b6f66d8486cfa
+slot-26	dist-26-bits+1	fails: a distance before the start of the stream	-
+slot-26	dist-26-bits-1	no failure	31564:ac8ef3ec24ab0f55f17f8bcd502e61d5ac64b808fabd58e82a686123bedd6409
+slot-26	distance-plus-0	fails: a repeated distance of zero	-
+slot-26	distance-plus-2	fails: a distance before the start of the stream	-
+slot-27	dist-27-base+1	fails: a distance before the start of the stream	-
+slot-27	dist-27-base-1	no failure	43852:c8c73a43ab397d46524096a5685b7af19686ae7d0edea7058f256304f7087140
+slot-27	dist-27-bits+1	fails: a distance before the start of the stream	-
+slot-27	dist-27-bits-1	no failure	43852:11e19d05dae223cb8497188784da0369a82d897b690486d9edd79e9c37871dc3
+slot-27	distance-plus-0	fails: a repeated distance of zero	-
+slot-27	distance-plus-2	fails: a distance before the start of the stream	-
+slot-28	dist-28-base+1	fails: a distance before the start of the stream	-
+slot-28	dist-28-base-1	no failure	63109:63d81dccd7dac06315ab7a54fb15dd6ebf6dd3bceae69ca7585bcdb68ecb53bb
+slot-28	dist-28-bits+1	fails: a distance before the start of the stream	-
+slot-28	dist-28-bits-1	no failure	63109:b9d9bad70a2cbd26d25d5ffe6f9a174d626c42b68346300975c59ff417968ef3
+slot-28	distance-plus-0	fails: a repeated distance of zero	-
+slot-28	distance-plus-2	fails: a distance before the start of the stream	-
+slot-29	dist-29-base+1	fails: a distance before the start of the stream	-
+slot-29	dist-29-base-1	no failure	87685:4c91507624f46242f5bd186b4c8d689c4a3dce0d1742af84c9058090f7f6fbea
+slot-29	dist-29-bits+1	fails: a distance before the start of the stream	-
+slot-29	dist-29-bits-1	no failure	87685:70e7ea721ac0627be141fceae4122e3c924b76ca8343de9ca57f75160b661361
+slot-29	distance-plus-0	fails: a repeated distance of zero	-
+slot-29	distance-plus-2	fails: a distance before the start of the stream	-
+slot-30	dist-30-base+1	fails: a distance before the start of the stream	-
+slot-30	dist-30-base-1	no failure	126199:a6ae92bf5784ff2f0d40b40a4fc7522e095b42cc567b31655f3fea8c9545c403
+slot-30	dist-30-bits+1	fails: a distance before the start of the stream	-
+slot-30	dist-30-bits-1	no failure	126199:89ba6a90e0d049c464818f1b16cfe5f94697b081b3437cb4fcf50d9f6d2b4ffc
+slot-30	distance-plus-0	fails: a repeated distance of zero	-
+slot-30	distance-plus-2	fails: a distance before the start of the stream	-
+slot-31	dist-31-base+1	fails: a distance before the start of the stream	-
+slot-31	dist-31-base-1	no failure	175351:5a2492e309650d034686559f0dfe8a1e039524febdea7df99e347dc2dee995a8
+slot-31	dist-31-bits+1	fails: a distance before the start of the stream	-
+slot-31	dist-31-bits-1	no failure	175351:93905c4bbe16b27e19787f553fd1200a81912560f9581e7b78d779fcfe112c7d
+slot-31	distance-plus-0	fails: a repeated distance of zero	-
+slot-31	distance-plus-2	fails: a distance before the start of the stream	-
+slot-32	dist-32-base+1	fails: a distance before the start of the stream	-
+slot-32	dist-32-base-1	no failure	252379:5619d959dab1e06eb146aa66e8be76eaee5251ee74227a3a360ef97c90f96493
+slot-32	dist-32-bits+1	fails: a distance before the start of the stream	-
+slot-32	dist-32-bits-1	no failure	252379:2c0ec2982e67335088399e3d8343bd2cbeb73ea98fb9e1ce8380467671f1c5a5
+slot-32	distance-plus-0	fails: a repeated distance of zero	-
+slot-32	distance-plus-2	fails: a distance before the start of the stream	-
+slot-33	dist-33-base+1	fails: a distance before the start of the stream	-
+slot-33	dist-33-base-1	no failure	350683:5206cd0e5a22d1ef8f93be3e08bc7af9f2d93af259191fde4c2eb988002631b7
+slot-33	dist-33-bits+1	fails: a distance before the start of the stream	-
+slot-33	dist-33-bits-1	no failure	350683:939c6357931b329859495d3824a08a9a0c0a3f5fec52f335082ed29c5391830c
+slot-33	distance-plus-0	fails: a repeated distance of zero	-
+slot-33	distance-plus-2	fails: a distance before the start of the stream	-
+slot-34	dist-34-base+1	fails: a distance before the start of the stream	-
+slot-34	dist-34-base-1	no failure	504739:a64ee6bfb6921271d1d2141118b8a747f628af95d7b5f38619b81a858667661b
+slot-34	dist-34-bits+1	fails: a distance before the start of the stream	-
+slot-34	dist-34-bits-1	no failure	504739:8212d13ed4292883e48ed3acb04838d03b055cd9275c468cb8c86df2558629a1
+slot-34	distance-plus-0	fails: a repeated distance of zero	-
+slot-34	distance-plus-2	fails: a distance before the start of the stream	-
+slot-35	dist-35-base+1	fails: a distance before the start of the stream	-
+slot-35	dist-35-base-1	no failure	701347:de01603aa06556d107d01eda8234544d6936a19d29421ed224652a7336beaa7e
+slot-35	dist-35-bits+1	fails: a distance before the start of the stream	-
+slot-35	dist-35-bits-1	no failure	701348:d27220e8b3277710a5b079c1faadd1fab4208d4f1e1c52d842693e9b3583feed
+slot-35	distance-plus-0	fails: a repeated distance of zero	-
+slot-35	distance-plus-2	fails: a distance before the start of the stream	-
+slot-36	dist-36-base+1	fails: a distance before the start of the stream	-
+slot-36	dist-36-base-1	no failure	897958:3e869db3235f72de3ceac2cd04e38370895a75c89de5caca8b29519f72c41d9e
+slot-36	dist-36-bits+1	fails: a distance before the start of the stream	-
+slot-36	dist-36-bits-1	no failure	897958:54a8e1b44ea18ae1693132296a0029ffc50efe39b5e860e1c0fb68d490c7b8c0
+slot-36	distance-plus-0	fails: a repeated distance of zero	-
+slot-36	distance-plus-2	fails: a distance before the start of the stream	-
+slot-37	dist-37-base+1	fails: a distance before the start of the stream	-
+slot-37	dist-37-base-1	no failure	1094566:b836ab88a3c1a49a91843cdfccf89e8024fca1972ca65646bf4242524d7afb36
+slot-37	dist-37-bits+1	fails: a distance before the start of the stream	-
+slot-37	dist-37-bits-1	no failure	1094566:4d6a03e5e08d4cba72d4772422f072c25b514a6ebe6daa39610e6e60a6ceac71
+slot-37	distance-plus-0	fails: a repeated distance of zero	-
+slot-37	distance-plus-2	fails: a distance before the start of the stream	-
+slot-38	dist-38-base+1	fails: a distance before the start of the stream	-
+slot-38	dist-38-base-1	no failure	1291174:6615f6c3b65097ed4e0b2e679cb63105617ef864060df028b1e99153ce18f773
+slot-38	dist-38-bits+1	fails: a distance before the start of the stream	-
+slot-38	dist-38-bits-1	no failure	1291174:10507a0acdf22ea2e47d9c31dc3747b76b3a2ed89020b5572d825e0f909eacd9
+slot-38	distance-plus-0	fails: a repeated distance of zero	-
+slot-38	distance-plus-2	fails: a distance before the start of the stream	-
+slot-39	dist-39-base+1	fails: a distance before the start of the stream	-
+slot-39	dist-39-base-1	no failure	1487782:682dfcf608d26d4c7ef1aae98ec1c2d086989ac9cde086893d392d661338f8f5
+slot-39	dist-39-bits+1	fails: a distance before the start of the stream	-
+slot-39	dist-39-bits-1	no failure	1487782:b4e7cdd3685574f6bfab1aee64633c5eb2f38c6484e1510e96106c2954ee478a
+slot-39	distance-plus-0	fails: a repeated distance of zero	-
+slot-39	distance-plus-2	fails: a distance before the start of the stream	-
+slot-40	dist-40-base+1	fails: a distance before the start of the stream	-
+slot-40	dist-40-base-1	no failure	1684390:0aa9aed6c7dfc8bf93aee8f56fcd31d560b3f5572dae2a3b39898d9063d73704
+slot-40	dist-40-bits+1	fails: a distance before the start of the stream	-
+slot-40	dist-40-bits-1	no failure	1684390:dfb78ea9fd91cd1c1c6bc1feab93494dfe8462aac711f1df438525c8eabe08a4
+slot-40	distance-plus-0	fails: a repeated distance of zero	-
+slot-40	distance-plus-2	fails: a distance before the start of the stream	-
+slot-41	dist-41-base+1	fails: a distance before the start of the stream	-
+slot-41	dist-41-base-1	no failure	1880998:57ecfa4a888387d6ec8e30012f5b58d6f40d39f416c2f6e5d7c914cabfa38e79
+slot-41	dist-41-bits+1	fails: a distance before the start of the stream	-
+slot-41	dist-41-bits-1	no failure	1880998:02055fd39cdc1a6524aac51b07d9a2ada3519c99a4e52f5d59524d8858244ecc
+slot-41	distance-plus-0	fails: a repeated distance of zero	-
+slot-41	distance-plus-2	fails: a distance before the start of the stream	-
+slot-42	dist-42-base+1	fails: a distance before the start of the stream	-
+slot-42	dist-42-base-1	no failure	2077606:961863a165cd558035f66f3bde564607f9c0c6e3987b2c91a6b0f957e8d574ad
+slot-42	dist-42-bits+1	fails: a distance before the start of the stream	-
+slot-42	dist-42-bits-1	no failure	2077606:717601eaa05d75f0b868bcc622b8c22b7e1ae37452bdab9b480a242c1c56bda1
+slot-42	distance-plus-0	fails: a repeated distance of zero	-
+slot-42	distance-plus-2	fails: a distance before the start of the stream	-
+slot-43	dist-43-base+1	fails: a distance before the start of the stream	-
+slot-43	dist-43-base-1	no failure	2274214:8912b561ae213b35c0915de153c5486b51dac6d7d34b0ee740f569c8f59ea3d7
+slot-43	dist-43-bits+1	fails: a distance before the start of the stream	-
+slot-43	dist-43-bits-1	no failure	2274214:a5273e6c6435b4f1d31898bbd273c254f461a16778c7ba40327cb232cca10bf7
+slot-43	distance-plus-0	fails: a repeated distance of zero	-
+slot-43	distance-plus-2	fails: a distance before the start of the stream	-
+slot-44	dist-44-base+1	fails: a distance before the start of the stream	-
+slot-44	dist-44-base-1	no failure	2470822:9d90a1295de80bfc98ed2a709b2a2b54ed4d48b6ca3f1df8aa5505f2fbfe1dfd
+slot-44	dist-44-bits+1	fails: a distance before the start of the stream	-
+slot-44	dist-44-bits-1	no failure	2470822:9ab1a1f9f3f47aeb1971eec83e2643f8eb674a28b9d75808895c6abbcb30cfc3
+slot-44	distance-plus-0	fails: a repeated distance of zero	-
+slot-44	distance-plus-2	fails: a distance before the start of the stream	-
+slot-45	dist-45-base+1	fails: a distance before the start of the stream	-
+slot-45	dist-45-base-1	no failure	2667430:7200fec1d874fad755e605db019fd39305a5a79803232029b88e5d5bb59b8121
+slot-45	dist-45-bits+1	fails: a distance before the start of the stream	-
+slot-45	dist-45-bits-1	no failure	2667430:65b280d5962ce270e2a8aae45c197fb788f33c2747ffb2cbff8a42a5323d3ec4
+slot-45	distance-plus-0	fails: a repeated distance of zero	-
+slot-45	distance-plus-2	fails: a distance before the start of the stream	-
+slot-46	dist-46-base+1	fails: a distance before the start of the stream	-
+slot-46	dist-46-base-1	no failure	2864038:1cb74d5ef83cd3156ed2f738a22179eaf82d43a60cb7d1589473b7a698ec8b97
+slot-46	dist-46-bits+1	fails: a distance before the start of the stream	-
+slot-46	dist-46-bits-1	no failure	2864038:8cba837c8793451a4eb4b78d38524f73242119813d3474b4ff4e3806b6cbc263
+slot-46	distance-plus-0	fails: a repeated distance of zero	-
+slot-46	distance-plus-2	fails: a distance before the start of the stream	-
+slot-47	dist-47-base+1	fails: a distance before the start of the stream	-
+slot-47	dist-47-base-1	no failure	3060646:4dd484da57beb059380d8118153ebbbe35159d98bad0704faeb24003fbb2e4eb
+slot-47	dist-47-bits+1	fails: a distance before the start of the stream	-
+slot-47	dist-47-bits-1	no failure	3060646:4a47cb135d1fd3a72019cd741cbab9f2961f9bae4fc972960260affc1ff32c74
+slot-47	distance-plus-0	fails: a repeated distance of zero	-
+slot-47	distance-plus-2	fails: a distance before the start of the stream	-
+slot-48	dist-48-base+1	fails: a distance before the start of the stream	-
+slot-48	dist-48-base-1	no failure	3591763:a65dde650a8913e0e14c03233ee88c9fa0603ac94b2b07e40deea8cb4d7ae35e
+slot-48	dist-48-bits+1	fails: a distance before the start of the stream	-
+slot-48	dist-48-bits-1	no failure	3591763:806e3921517289f69c1a07d0858ea1ee2401919efb13ecca4e2ca892d81c5898
+slot-48	distance-plus-0	fails: a repeated distance of zero	-
+slot-48	distance-plus-2	fails: a distance before the start of the stream	-
+slot-49	dist-49-base+1	fails: a distance before the start of the stream	-
+slot-49	dist-49-base-1	no failure	4378195:20904e1e7fe466a65a9b79db137af6b4e5216648691f87a137692ce00482ba15
+slot-49	dist-49-bits+1	fails: a distance before the start of the stream	-
+slot-49	dist-49-bits-1	no failure	4378195:f61034c7090bd5a4fccb471bf821500a11594035c48eb3bcda11674cc148da75
+slot-49	distance-plus-0	fails: a repeated distance of zero	-
+slot-49	distance-plus-2	fails: a distance before the start of the stream	-
+slot-50	dist-50-base+1	fails: a distance before the start of the stream	-
+slot-50	dist-50-base-1	no failure	5164627:6a1483474f81ac91c888b0bec97e4c25c77e19a314c23d77484be15a3c3e0f35
+slot-50	dist-50-bits+1	fails: a distance before the start of the stream	-
+slot-50	dist-50-bits-1	no failure	5164627:1cac15bd9defbe4fee3272002c3b26c42e22cb89537ec4227866937bafc4b328
+slot-50	distance-plus-0	fails: a repeated distance of zero	-
+slot-50	distance-plus-2	fails: a distance before the start of the stream	-
+slot-51	dist-51-base+1	fails: a distance before the start of the stream	-
+slot-51	dist-51-base-1	no failure	5951059:d7f7b3b4d785f8550cf2e816e7a6f4e89244760fcaad1a68fb9c2a86ca481b26
+slot-51	dist-51-bits+1	fails: a distance before the start of the stream	-
+slot-51	dist-51-bits-1	no failure	5951059:9867d9e8036bb64cf0a8784befcfd5253eea45729a5ab6c5173026c299f9f089
+slot-51	distance-plus-0	fails: a repeated distance of zero	-
+slot-51	distance-plus-2	fails: a distance before the start of the stream	-
+slot-52	dist-52-base+1	fails: a distance before the start of the stream	-
+slot-52	dist-52-base-1	no failure	6737491:f882ea552ab6cb73974ec3964ee2eaef0124c1ec6074ab5688540b747986a1fc
+slot-52	dist-52-bits+1	fails: a distance before the start of the stream	-
+slot-52	dist-52-bits-1	no failure	6737491:977b1ce8daac04ddcd7cd33c01bc818f3f7408e935cdba0da180acc274ea1a09
+slot-52	distance-plus-0	fails: a repeated distance of zero	-
+slot-52	distance-plus-2	fails: a distance before the start of the stream	-
+slot-53	dist-53-base+1	fails: a distance before the start of the stream	-
+slot-53	dist-53-base-1	no failure	7523923:492091d02dea1726a5711d91b1a138ac5440060722dbf949167a51a43d68b6e0
+slot-53	dist-53-bits+1	fails: a distance before the start of the stream	-
+slot-53	dist-53-bits-1	no failure	7523923:7146c417fdc372da653fa74b808816b6e1bb1f75a376186741fe6eca1ed88bac
+slot-53	distance-plus-0	fails: a repeated distance of zero	-
+slot-53	distance-plus-2	fails: a distance before the start of the stream	-
+slot-54	dist-54-base+1	fails: a distance before the start of the stream	-
+slot-54	dist-54-base-1	no failure	8310355:b57d4a29299f03ac1e206c6773bbd5aad4b60c5367fe924ed308fe5a39dd0cf9
+slot-54	dist-54-bits+1	fails: a distance before the start of the stream	-
+slot-54	dist-54-bits-1	no failure	8310355:476e45a7e73c83c3ea12eb3f2ababfd18b9f1ffb2e60ecfc011de247c8856040
+slot-54	distance-plus-0	fails: a repeated distance of zero	-
+slot-54	distance-plus-2	fails: a distance before the start of the stream	-
+slot-55	dist-55-base+1	fails: a distance before the start of the stream	-
+slot-55	dist-55-base-1	no failure	9096787:b4d7d58c170d0c48c3e1302f032e3c56902254ffc5d67c5c381b7dd859aaaf1f
+slot-55	dist-55-bits+1	fails: a distance before the start of the stream	-
+slot-55	dist-55-bits-1	no failure	9096787:d704648257e9ad2997813250fd42ff7188da27cc94fdb494de66be72e91a0bd1
+slot-55	distance-plus-0	fails: a repeated distance of zero	-
+slot-55	distance-plus-2	fails: a distance before the start of the stream	-
+slot-56	dist-56-base+1	fails: a distance before the start of the stream	-
+slot-56	dist-56-base-1	no failure	9883219:41719f911ef6c93d684c3c3385e5b7cd82a77a02f910a0a3b1b2ba93733dcd40
+slot-56	dist-56-bits+1	fails: a distance before the start of the stream	-
+slot-56	dist-56-bits-1	no failure	9883219:472cd536efed7fb38b5b9681f45c4dd37a05ea33a02f5bf1e8ac007318a3fa97
+slot-56	distance-plus-0	fails: a repeated distance of zero	-
+slot-56	distance-plus-2	fails: a distance before the start of the stream	-
+slot-57	dist-57-base+1	fails: a distance before the start of the stream	-
+slot-57	dist-57-base-1	no failure	10669651:345668ffe6269dbfa04041468f90642b93a316d6ea5945bfb9089809e8269b81
+slot-57	dist-57-bits+1	fails: a distance before the start of the stream	-
+slot-57	dist-57-bits-1	no failure	10669651:0e0caf9ee6d711d2d73d0298941ae832f1f86b98e2fbeed6aa077ecba8629111
+slot-57	distance-plus-0	fails: a repeated distance of zero	-
+slot-57	distance-plus-2	fails: a distance before the start of the stream	-
+slot-58	dist-58-base+1	fails: a distance before the start of the stream	-
+slot-58	dist-58-base-1	no failure	11456083:6e6905055f6357252a7691230fcde46570392af412e7948e10caeacebf9b1bcd
+slot-58	dist-58-bits+1	fails: a distance before the start of the stream	-
+slot-58	dist-58-bits-1	no failure	11456083:1f09b8293da196f31c15c4234edfd12bc5ea32d4d835e11e032c89ee52a111a2
+slot-58	distance-plus-0	fails: a repeated distance of zero	-
+slot-58	distance-plus-2	fails: a distance before the start of the stream	-
+slot-59	dist-59-base+1	fails: a distance before the start of the stream	-
+slot-59	dist-59-base-1	no failure	12242515:2234e11a4888f50f80c4cb8df9b968198dcb06f08abbb851445d195a573ffc20
+slot-59	dist-59-bits+1	fails: a distance before the start of the stream	-
+slot-59	dist-59-bits-1	no failure	12242515:28e4fe420471b2f42559ea56ef138643af3ffa0a9a5bf615715b2ec793864e21
+slot-59	distance-plus-0	fails: a repeated distance of zero	-
+slot-59	distance-plus-2	fails: a distance before the start of the stream	-

@@ -1,0 +1,38 @@
+arm: rar5-then-old
+about: the 7 byte older signature directly followed by a sound RAR 5 archive's bytes after its signature
+file: x.rar  136 bytes  sha256 6041a6926952689bc0cf1d52d02162bcf49ac347ba8b2f84be6ac1d01e3d71c7
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Corrupt header is found
+  Main archive header is corrupt
+  Unexpected end of archive

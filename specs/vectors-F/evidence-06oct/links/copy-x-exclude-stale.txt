@@ -1,0 +1,21 @@
+arm: copy-x-exclude-stale
+about: the whole archive with -xbig1 and an unrelated big1 on disk
+file: x.rar  3154 bytes  sha256 3aecdbaace259d2ea92b975d20a265d060826775860af09be62be1998b3a78a6
+planted before the run: o/big1, a regular file of 6 bytes
+$ unrar x -p- -xbig1 x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/big2                                                         0%  OK
+  Creating    o/e                                                       OK
+  Extracting  o/e/big3                                                       0%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/big1                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+  file  o/big2                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the member's)
+  dir   o/e
+  file  o/e/big3                    6 bytes  sha256 44ea8ede9025  mode 644   (mtime the member's, a day later)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

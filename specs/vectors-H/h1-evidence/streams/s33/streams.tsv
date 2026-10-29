@@ -1,0 +1,15 @@
+case	members	reading in the file headers	readings that give other bytes	what
+level-escape	1	stated	level-no-escape level-skip-1 level-skip-3 level-z0-zero level-19-fields level-21-fields	the 20 level fields hold lengths 1 to 15, two of them 15 (written 15, 0) and a gap of four zeros (written 15, 2); the main lengths are 1 to 13 and 13, so every level symbol 1 to 13 is used
+level-escape-past-19	1	stated	level-past-fails	the last level field is an escape that would skip past symbol 19 (at symbol 18, z = 15)
+delta-kept	1	stated	delta-replace delta-saturate keep-inverted keep-never	a second block with the keep bit set whose symbols are deltas on the first block's lengths, one of them wrapping past 15 (13 + 5 = 2)
+delta-not-kept	1	stated	keep-inverted keep-always	a second block with the keep bit clear after a block with other lengths
+repeat-counts	1	stated	r16-count-less r16-count-more r16-field-less r16-field-more r17-count-less r17-count-more r17-field-less r17-field-more	16 with k = 0 and 7 (3 and 10 lengths), 17 with k = 0 and 127 (11 and 138 lengths)
+zero-run-counts	1	stated	r18-count-less r18-count-more r18-field-less r18-field-more r19-count-less r19-count-more r19-field-less r19-field-more	18 with k = 0 and 7 (3 and 10 zeros), 19 with k = 0 and 127 (11 and 138 zeros)
+repeat-source	1	stated	repeat-kept repeat-delta zeros-keep keep-never	with the keep bit set and kept lengths 3, 3, 4 under it, a delta of 0 on a kept 3 and then 16 with k = 0; and 18 over five kept lengths of 3
+run-past-404-zeros	1	stated	run-past-fails	the last zero run (19, k = 127) begins at position 394 and names 138 zeros
+run-past-404-repeat	1	stated	run-past-fails	the last repeat (16, k = 7) begins at position 397 and names 10 lengths; a repeated distance match then uses length slot 27, the last of the 404
+alphabet-bounds	1	stated	parts-main-298 parts-main-300 parts-dist-59 parts-dist-61 parts-low-16 parts-low-18 parts-length-first	the last main symbol (298), distance slots 0 and 10, low distance symbols 0, 5 and 16 and length slots 0 and 27 are all used, with lengths that differ across each boundary of the 404
+first-symbol-16-as-zero	1	repeat-at-0-zero	repeat-at-0-ignored stated	the first of the 404 symbols is 16; the rest of the stream is written for the reading named in the headers
+first-symbol-16-as-ignored	1	repeat-at-0-ignored	repeat-at-0-zero stated	the first of the 404 symbols is 16; the rest of the stream is written for the reading named in the headers
+first-symbol-17-as-zero	1	repeat-at-0-zero	repeat-at-0-ignored stated	the first of the 404 symbols is 17; the rest of the stream is written for the reading named in the headers
+first-symbol-17-as-ignored	1	repeat-at-0-ignored	repeat-at-0-zero stated	the first of the 404 symbols is 17; the rest of the stream is written for the reading named in the headers

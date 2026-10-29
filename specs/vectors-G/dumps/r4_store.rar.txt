@@ -1,0 +1,21 @@
+== archives/r4_store.rar (587 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=90cf flags=0x0000 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=9f50 flags=0x8020 hsize=41 addsize=300
+        pack=300 unp=300 host=3 crc=59dfd160 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'hello.txt'
+  [0x169] FILE crc=bb1b flags=0x8020 hsize=41 addsize=0
+        pack=0 unp=0 host=3 crc=00000000 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'empty.dat'
+  [0x192] FILE crc=dc95 flags=0x8020 hsize=51 addsize=50
+        pack=50 unp=50 host=3 crc=1da83329 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'sub\\nested\\deep.txt'
+  [0x1f7] FILE crc=5610 flags=0x80e0 hsize=42 addsize=0
+        pack=0 unp=0 host=3 crc=00000000 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x41ed
+        name=b'sub\\nested'
+  [0x221] FILE crc=53df flags=0x80e0 hsize=35 addsize=0
+        pack=0 unp=0 host=3 crc=00000000 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x41ed
+        name=b'sub'
+  [0x244] END crc=3dc4 flags=0x4000 hsize=7 addsize=0
+        rest=

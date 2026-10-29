@@ -1,0 +1,5 @@
+case	reading	size:SHA-256 of each member	the bytes in hex when short
+run	stated	1280:427ea0fa3a42fbbae041b8a4e50b68a0d01e7e609e3004e6dc1be888fc7d790e	-
+table-read	stated	291:e8bca90df449262b2717e11d80968a754e6b2c7aeb4c0c2b4bf9f6a126a05836	-
+table-read-not-kept	stated	291:e8bca90df449262b2717e11d80968a754e6b2c7aeb4c0c2b4bf9f6a126a05836	-
+member-end	stated	229:88dfeb5337a2dc5f1cfa01d557fd422f68dabbce10bd0d92b18a1ca8b3185eeb 62:ebd654e47e63cf5b865a001ebba9bbc1270d9d17061779919115fd0629139b5f	-

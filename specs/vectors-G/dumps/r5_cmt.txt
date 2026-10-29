@@ -1,0 +1,17 @@
+== archives/r5_cmt.rar (408 bytes)
+  [0x0] SIGNATURE 526172211a070100
+  [0x8] MAIN hdrcrc=e5b59233 hdrsize=10 flags=0x5 extra=6 data=0
+        archive_flags=0x0
+        extra area at 0x11 (6 bytes): 050101808000
+          record size=5 type=1 body=01808000
+        !! parsed to 0x11, header ends 0x17 (gap 6)
+  [0x17] SERVICE hdrcrc=782b3f4b hdrsize=19 flags=0x2 extra=0 data=17
+        file_flags=0x4 unp_size=17 attr=0x0 mtime=None crc=535c9d01
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'CMT'
+        data area 0x2f..0x40
+  [0x40] FILE hdrcrc=89873008 hdrsize=31 flags=0x2 extra=0 data=300
+        file_flags=0x6 unp_size=300 attr=0x81a4 mtime=1600000000 crc=59dfd160
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'hello.txt'
+        data area 0x64..0x190
+  [0x190] ENDARC hdrcrc=5156771d hdrsize=3 flags=0x4 extra=0 data=0
+        end_flags=0x0

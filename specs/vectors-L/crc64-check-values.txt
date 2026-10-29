@@ -1,0 +1,9 @@
+reflected polynomial 0xc96c5795d7870f42
+empty                                len   0  A 0x0000000000000000  B 0x0000000000000000
+123456789                            len   9  A 0x995dc9bbdf1939fa  B 0x2b9c7ee4e2780c8a
+one byte 0x00                        len   1  A 0x1fada17364673f59  B 0x0000000000000000
+one byte 0x01                        len   1  A 0xac83edcd67c06036  B 0xb32e4cbe03a75f6f
+one byte 0x80                        len   1  A 0xd6c1f6e6b3e0301b  B 0xc96c5795d7870f42
+one byte 0xFF                        len   1  A 0xff00000000000000  B 0xe0ada17364673f59
+bytes 0x00..0x0F                     len  16  A 0x7a64e421b6985356  B 0x93c5db364df27035
+bytes (7i+3) mod 256, i in 0..299    len 300  A 0xd6c85fa00f379455  B 0x42933fdd340d1094

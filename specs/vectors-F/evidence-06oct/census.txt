@@ -1,0 +1,374 @@
+files walked
+           4  fixtures/large-rar15/archives/*  RAR 1.5 to 4
+          12  fixtures/legacy/archives/*  RAR 1.3
+          95  fixtures/legacy/archives/*  RAR 1.5 to 4
+           1  fixtures/rar20-dictionary/archives/genuine-*  RAR 1.5 to 4
+           1  specs/vectors-F/archives/*  RAR 1.3
+           4  specs/vectors-F/archives/*  RAR 1.5 to 4
+          20  specs/vectors-F/archives/*  RAR 5
+          22  specs/vectors-G/archives/*  RAR 1.5 to 4
+          13  specs/vectors-G/archives/*  RAR 5
+          16  specs/vectors-H/archives/*  RAR 5
+           5  specs/vectors-H/legacy/*  RAR 1.5 to 4
+          23  specs/vectors-I/archives/*  RAR 1.5 to 4
+          15  specs/vectors-J/archives/*  RAR 1.5 to 4
+           7  specs/vectors-K/*.rar  RAR 5
+          10  specs/vectors-L/*.rar  RAR 5
+rar13 archive flags
+           8  0x80
+           4  0x81
+           1  0x88
+rar13 archive header size
+          13  7
+rar13 attributes
+          29  0x10
+          88  0x20
+rar13 directory attribute 0x10
+          29  packed 0, unpacked 0
+rar13 file flags
+         102  0x00
+           3  0x01
+           3  0x02
+           9  0x04
+rar13 header size minus 21 minus name length
+         117  0
+rar13 method
+          18  0
+          11  1
+          11  2
+          22  3
+          11  4
+          44  5
+rar13 name
+          29  holds a backslash
+rar13 stored member checksum (add, then rotate left one)
+          17  match
+rar13 unpack version
+         117  2
+rar13 walk
+          13  ends exactly at the file end
+rar4 archives
+           5  headers encrypted (walk stops after the main header)
+rar4 archives with no end block
+          18  first member's unpack version 15, walk ends exactly at the file end
+          25  first member's unpack version 20, walk ends exactly at the file end
+rar4 block type
+         169  0x73
+         868  0x74
+           6  0x78
+          12  0x7a
+         121  0x7b
+rar4 bytes after the end block
+         121  none
+rar4 directory by attribute only
+           3  version 15 host 0 flags 0x8000 method 0x30 packed 0 unpacked 0
+           3  version 15 host 0 flags 0x8000 method 0x31 packed 0 unpacked 0
+           3  version 15 host 0 flags 0x8000 method 0x32 packed 0 unpacked 0
+           9  version 15 host 0 flags 0x8000 method 0x33 packed 0 unpacked 0
+           3  version 15 host 0 flags 0x8000 method 0x34 packed 0 unpacked 0
+          11  version 15 host 0 flags 0x8000 method 0x35 packed 0 unpacked 0
+rar4 directory by dictionary bits 7
+          51  version 20 host 0, packed 0, unpacked 0, attr&0x10 set
+          91  version 20 host 3, packed 0, unpacked 0, attr&0x10 n/a
+           9  version 29 host 3, packed 0, unpacked 0, attr&0x10 n/a
+rar4 embedded comment CRC16 over its bytes 2 to 12
+           2  match
+rar4 embedded comment in main header
+           1  type 0x75, unpack version 15, method 0x34, block size equals the bytes left
+           1  type 0x75, unpack version 20, method 0x34, block size equals the bytes left
+rar4 encrypted remainder
+           4  8 plus a multiple of 16
+           1  other length
+rar4 end block size
+          86  flags 0x4000: 7 bytes (7 + CRC + number = 7)
+          12  flags 0x400e: 20 bytes (7 + CRC + number = 13)
+          23  flags 0x400f: 20 bytes (7 + CRC + number = 13)
+rar4 end block volume number
+          12  0
+          23  1 and up
+rar4 extended time, arctime group
+           7  absent (group 0x0)
+rar4 extended time, atime group
+           6  absent (group 0x0)
+           1  present, add-second 0, fraction bytes 0
+rar4 extended time, ctime group
+           6  absent (group 0x0)
+           1  present, add-second 1, fraction bytes 0
+rar4 extended time, mtime group
+           1  absent (group 0x0)
+           6  present, add-second 0, fraction bytes 3
+rar4 file attributes, host 3, type bits (octal)
+         430  10
+         100  4
+rar4 file dictionary bits (not 7)
+         101  version 15: 0
+         154  version 20: 0
+          40  version 20: 1
+          18  version 29: 0
+         309  version 29: 1
+           2  version 29: 3
+          61  version 29: 4
+rar4 file header
+         868  ends exactly after its fields
+rar4 file host OS
+         338  0
+         530  3
+rar4 file method
+         211  0x30
+          21  0x31
+          21  0x32
+         199  0x33
+          21  0x34
+         395  0x35
+rar4 file unpack version
+         133  15
+         336  20
+         399  29
+rar4 file unpack version by method
+         115  version 15, compressed
+          18  version 15, stored
+         167  version 20, compressed
+         169  version 20, stored
+         375  version 29, compressed
+          24  version 29, stored
+rar4 flags, type 0x73
+         169  (headers counted)
+          50  0x0001
+           2  0x0002
+           1  0x0004
+          14  0x0008
+          24  0x0010
+          16  0x0040
+           5  0x0080
+          12  0x0100
+rar4 flags, type 0x74
+         868  (headers counted)
+          34  0x0001
+          34  0x0002
+          53  0x0004
+          72  0x0010
+         502  0x0020
+         153  0x0040
+         212  0x0080
+          35  0x0400
+           7  0x1000
+         868  0x8000
+rar4 flags, type 0x78
+           6  (headers counted)
+           6  0x4000
+           6  0x8000
+rar4 flags, type 0x7a
+          12  (headers counted)
+          10  0x4000
+          12  0x8000
+rar4 flags, type 0x7b
+         121  (headers counted)
+          23  0x0001
+          35  0x0002
+          35  0x0004
+          35  0x0008
+         121  0x4000
+rar4 header CRC16 = low 16 bits of CRC32 over type byte to header end
+         167  type 0x73: match
+         868  type 0x74: match
+           6  type 0x78: match
+          12  type 0x7a: match
+         121  type 0x7b: match
+rar4 header CRC16, other spans
+           2  type 0x73: match over the 13 byte fixed part only (comment embedded)
+rar4 main header reserved bytes 7 to 12
+         169  all zero
+rar4 main header size
+           1  102
+         167  13
+           1  94
+rar4 name separators
+          83  backslash, host 0
+         100  backslash, host 3
+rar4 old block sizes
+           1  type 0x78: header 26, data 1044
+           3  type 0x78: header 26, data 1140
+           1  type 0x78: header 26, data 2414
+           1  type 0x78: header 26, data 4462
+rar4 plain name
+         866  all below 0x80
+           2  holds bytes of 0x80 and up
+rar4 signature offset
+         169  0
+rar4 split file headers
+          28  from previous 0, into next 1
+          28  from previous 1, into next 0
+           6  from previous 1, into next 1
+rar4 subblock (0x7a) name
+           2  CMT
+          10  RR
+rar4 subblock CMT: method, version, bytes after name
+           2  method 0x33 version 29, 0
+rar4 subblock RR: method, version, bytes after name
+          10  method 0x30 version 29, 20
+rar5 archive flags
+          63  (headers counted)
+          22  0x0001
+          16  0x0002
+           4  0x0004
+           4  0x0008
+           1  0x0010
+rar5 archives
+           3  headers encrypted (walk stops at type 4)
+rar5 block order
+          63  main first, end last
+rar5 bytes after the end block
+          16  all zero
+          47  none
+rar5 data flag set with a data size of 0, type 2
+           7  seen
+rar5 dictionary power, version 0, compressed members
+          15  0
+           2  1
+           2  2
+          11  3
+rar5 directory entries
+           4  unpacked size 0, data size 0, compression field 0x0
+rar5 end flags
+          63  (headers counted)
+          16  0x0001
+rar5 extra areas
+         188  filled exactly by their records
+rar5 extra record types, file header
+           9  1
+          12  2
+          50  3
+rar5 extra record types, main header
+          63  1
+rar5 extra record types, service header
+           4  7
+rar5 file attributes, host 1, type bits (octal)
+          85  10
+           4  4
+rar5 file compression version
+          89  0
+rar5 file encryption record
+           2  version 0, flags 0x1, 45 bytes after the flags
+           7  version 0, flags 0x3, 45 bytes after the flags
+rar5 file flags
+          89  (headers counted)
+           4  0x0001
+          39  0x0002
+          73  0x0004
+rar5 file host OS
+          89  1
+rar5 file method
+          59  0
+           1  1
+          11  3
+          18  5
+rar5 file name
+           5  holds a forward slash
+          89  valid UTF-8
+rar5 file solid bit
+          82  0
+           7  1
+rar5 hash record
+          12  type 0, 32 bytes
+rar5 header CRC32 over size field to header end
+         254  match
+rar5 header flags, type 1
+          63  (headers counted)
+          63  0x0001
+          63  0x0004
+rar5 header flags, type 2
+          89  (headers counted)
+          54  0x0001
+          89  0x0002
+          16  0x0008
+          16  0x0010
+rar5 header flags, type 3
+          36  (headers counted)
+           4  0x0001
+          36  0x0002
+          34  0x0004
+rar5 header flags, type 4
+           3  (headers counted)
+rar5 header flags, type 5
+          63  (headers counted)
+          63  0x0004
+rar5 header size field, bytes
+         254  1
+rar5 header size, value
+         254  1 to 127
+rar5 header type
+          63  1
+          89  2
+          36  3
+           3  4
+          63  5
+rar5 largest header size
+         119  max
+rar5 locator bytes after its fields
+          63  0
+rar5 locator flags
+          63  (headers counted)
+          63  0x0001
+           4  0x0002
+rar5 locator quick open offset
+          33  0
+          30  lands on a type 3 block named QO
+rar5 locator recovery offset
+           4  lands on a type 3 block named RR
+rar5 quick open cached header
+          36  equals the bytes at header start minus distance
+rar5 quick open cached header type
+          36  2
+rar5 quick open data
+          30  filled exactly by its entries
+rar5 quick open entry
+          36  cached bytes fill the entry
+rar5 quick open entry CRC32 over size field to entry end
+          36  match
+rar5 quick open entry flags
+          36  0
+rar5 service CMT: method, flags
+           2  method 0, file flags 0x4, header flags 0x2
+rar5 service QO: method, flags
+          30  method 0, file flags 0x0, header flags 0x6
+rar5 service RR: method, flags
+           4  method 0, file flags 0x0, header flags 0x7
+rar5 service compression version
+          36  0
+rar5 service data record
+           4  1 bytes
+rar5 service flags
+          36  (headers counted)
+           2  0x0004
+rar5 service host OS
+          36  1
+rar5 service method
+          36  0
+rar5 service name
+           2  CMT
+          30  QO
+           4  RR
+rar5 signature offset
+          66  0
+rar5 split file headers
+           6  from previous 0, into next 1
+           6  from previous 1, into next 0
+          10  from previous 1, into next 1
+rar5 time record body
+          50  exactly the fields its flags name
+rar5 time record flags
+          49  0x13
+           1  0x1b
+rar5 time record nanoseconds
+          51  0 to 999999999
+rar5 type 1 position
+          63  first block
+rar5 type 4 header size
+           3  33
+rar5 type 4 position
+           3  first block
+rar5 volume number field
+          16  1 and up
+           6  absent on a volume
+notes
+    none

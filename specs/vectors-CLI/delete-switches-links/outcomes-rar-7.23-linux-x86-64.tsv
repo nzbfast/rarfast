@@ -1,0 +1,31 @@
+program	shape	command	exit	archive lists	the tree afterwards
+rar	file-link	a-dw	0	F	l=gone t.txt=empty/0644
+rar	file-link	a-df	0	F	l=gone t.txt=same/0644
+rar	file-link	m	0	F	l=gone t.txt=same/0644
+rar	file-link	a-dw-ol	0	L	l=gone t.txt=empty/0644
+rar	file-link	a-df-ol	0	L	l=gone t.txt=same/0644
+rar	file-link	m-ol	0	L	l=gone t.txt=same/0644
+rar	file-link-0444	a-dw	0	F	l=gone t.txt=empty/0700
+rar	file-link-0444	a-df	0	F	l=gone t.txt=same/0700
+rar	file-link-0444	m	0	F	l=gone t.txt=same/0700
+rar	file-link-0444	a-dw-ol	0	L	l=gone t.txt=empty/0444
+rar	file-link-0444	a-df-ol	0	L	l=gone t.txt=same/0444
+rar	file-link-0444	m-ol	0	L	l=gone t.txt=same/0444
+rar	tree	a-dw	0	FFD	d=gone d/l=gone d/t.txt=gone
+rar	tree	a-df	0	FFD	d=gone d/l=gone d/t.txt=gone
+rar	tree	m	0	FFD	d=gone d/l=gone d/t.txt=gone
+rar	tree	a-dw-ol	0	LFD	d=gone d/l=gone d/t.txt=gone
+rar	tree	a-df-ol	0	LFD	d=gone d/l=gone d/t.txt=gone
+rar	tree	m-ol	0	LFD	d=gone d/l=gone d/t.txt=gone
+rar	outside-file	a-dw	0	FFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=empty/0644
+rar	outside-file	a-df	0	FFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=same/0644
+rar	outside-file	m	0	FFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=same/0644
+rar	outside-file	a-dw-ol	0	LFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=empty/0644
+rar	outside-file	a-df-ol	0	LFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=same/0644
+rar	outside-file	m-ol	0	LFD	d=gone d/keep.txt=gone d/l=gone out/t.txt=same/0644
+rar	outside-dir	a-dw	0	FFFDDD	d=dir d/keep.txt=gone d/dl=gone outdir=dir outdir/f1.txt=gone outdir/sub=gone outdir/sub/f2.txt=gone
+rar	outside-dir	a-df	0	FFFDDD	d=dir d/keep.txt=gone d/dl=link outdir=dir outdir/f1.txt=gone outdir/sub=gone outdir/sub/f2.txt=gone
+rar	outside-dir	m	0	FFFDDD	d=dir d/keep.txt=gone d/dl=link outdir=dir outdir/f1.txt=gone outdir/sub=gone outdir/sub/f2.txt=gone
+rar	outside-dir	a-dw-ol	0	FLD	d=gone d/keep.txt=gone d/dl=gone outdir=dir outdir/f1.txt=same/0644 outdir/sub=dir outdir/sub/f2.txt=same/0644
+rar	outside-dir	a-df-ol	0	FLD	d=gone d/keep.txt=gone d/dl=gone outdir=dir outdir/f1.txt=same/0644 outdir/sub=dir outdir/sub/f2.txt=same/0644
+rar	outside-dir	m-ol	0	FLD	d=gone d/keep.txt=gone d/dl=gone outdir=dir outdir/f1.txt=same/0644 outdir/sub=dir outdir/sub/f2.txt=same/0644

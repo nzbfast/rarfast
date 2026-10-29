@@ -1,0 +1,234 @@
+built	all 40 different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 41, distinct tags 41
+repair	all 40 different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	all 40 different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 41, distinct tags 41
+repair	all 40 different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 and 30 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 40, distinct tags 40
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 and 30 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 40, distinct tags 40
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 30 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 37, distinct tags 37
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 37, distinct tags 37
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10, 16, 22, 28 and 34 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 and 11 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 40, distinct tags 40
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 and 11 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 40, distinct tags 40
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 and 11 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 12 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 39, distinct tags 39
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 12 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 39, distinct tags 39
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 12 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 13 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 38, distinct tags 38
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 13 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 38, distinct tags 38
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 13 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 17 equal, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 34, distinct tags 34
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=2	damaged sectors [11, 20]	rebuilt=NO	rc=0	fixed.a.rar: 22159 bytes, sectors that differ from the archive before the damage [11, 17, 18, 20]; rebuilt.a.rar: 20992 bytes, sectors that differ from the archive before the damage [0, 11, 20, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+built	sectors 10 to 17 equal, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 34, distinct tags 34
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 equal, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	all 40 equal and not zero; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 2, distinct tags 2
+repair	all 40 equal and not zero; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [40, 41, 42, 43]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [10]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [10, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 10, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [11]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [40, 41, 42, 43]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [12]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [12, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 12, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [17]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [40, 41, 42, 43]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [18]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [18, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 18, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [30]	rebuilt=NO	rc=0	fixed.a.rar: 21647 bytes, sectors that differ from the archive before the damage [30, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 30, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	all 40 equal and not zero; r=2	damaged sectors [11, 20]	rebuilt=NO	rc=0	fixed.a.rar: 21135 bytes, sectors that differ from the archive before the damage [11, 19, 39, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 11, 20, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+built	all 40 equal and not zero; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 2, distinct tags 2
+repair	all 40 equal and not zero; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [10]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [11]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [12]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [12, 40, 41, 42, 44, 45]; rebuilt.a.rar: 23027 bytes, sectors that differ from the archive before the damage [0, 12, 41, 42, 44, 45]	Data recovery record found | Reconstructing a.rar | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [17]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [18]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [30]	rebuilt=NO	rc=0	fixed.a.rar: 22671 bytes, sectors that differ from the archive before the damage [40, 41, 42, 44, 45]	Data recovery record found | Done
+repair	all 40 equal and not zero; r=4	damaged sectors [11, 20]	rebuilt=NO	rc=0	fixed.a.rar: 22159 bytes, sectors that differ from the archive before the damage [11, 19, 39, 40, 41, 42, 43, 44, 45]; rebuilt.a.rar: 23027 bytes, sectors that differ from the archive before the damage [0, 11, 20, 41, 42, 44, 45]	Data recovery record found | Reconstructing a.rar | Done
+built	sectors 10 to 17 zero, the rest different; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 34, distinct tags 34
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	sectors 10 to 17 zero, the rest different; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 34, distinct tags 34
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	sectors 10 to 17 zero, the rest different; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	all 40 zero; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 2, distinct tags 2
+repair	all 40 zero; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=2	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	all 40 zero; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 2, distinct tags 2
+repair	all 40 zero; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [10]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [11]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [12]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [17]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [18]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [30]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	all 40 zero; r=4	damaged sectors [11, 20]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	40 sectors cycling through four values; r=2	22159 bytes, 20992 protected, n=41, distinct sectors 5, distinct tags 5
+repair	40 sectors cycling through four values; r=2	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	40 sectors cycling through four values; r=2	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 20111 bytes, sectors that differ from the archive before the damage [9, 37, 38, 39, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 9, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=2	damaged sectors [20]	rebuilt=NO	rc=0	fixed.a.rar: 20111 bytes, sectors that differ from the archive before the damage [20, 37, 38, 39, 40, 41, 42, 43]; rebuilt.a.rar: 22003 bytes, sectors that differ from the archive before the damage [0, 20, 41, 42, 43]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=2	damaged sectors [9, 20]	rebuilt=NO	rc=0	fixed.a.rar: 18063 bytes, sectors that differ from the archive before the damage [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]	Data recovery record found | Done
+built	40 sectors cycling through four values; r=4	23183 bytes, 20992 protected, n=41, distinct sectors 5, distinct tags 5
+repair	40 sectors cycling through four values; r=4	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	40 sectors cycling through four values; r=4	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 21135 bytes, sectors that differ from the archive before the damage [9, 37, 38, 39, 40, 41, 42, 43, 44, 45]; rebuilt.a.rar: 23027 bytes, sectors that differ from the archive before the damage [0, 9, 41, 42, 44, 45]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=4	damaged sectors [20]	rebuilt=NO	rc=0	fixed.a.rar: 21135 bytes, sectors that differ from the archive before the damage [20, 37, 38, 39, 40, 41, 42, 43, 44, 45]; rebuilt.a.rar: 23027 bytes, sectors that differ from the archive before the damage [0, 20, 41, 42, 44, 45]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=4	damaged sectors [9, 20]	rebuilt=NO	rc=0	fixed.a.rar: 19087 bytes, sectors that differ from the archive before the damage [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]	Data recovery record found | Done
+built	40 sectors cycling through four values; r=6	24207 bytes, 20992 protected, n=41, distinct sectors 5, distinct tags 5
+repair	40 sectors cycling through four values; r=6	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	40 sectors cycling through four values; r=6	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 22159 bytes, sectors that differ from the archive before the damage [9, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]; rebuilt.a.rar: 20992 bytes, sectors that differ from the archive before the damage [0, 9, 41, 42, 43, 44, 45, 46, 47]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=6	damaged sectors [20]	rebuilt=NO	rc=0	fixed.a.rar: 22159 bytes, sectors that differ from the archive before the damage [20, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]; rebuilt.a.rar: 20992 bytes, sectors that differ from the archive before the damage [0, 20, 41, 42, 43, 44, 45, 46, 47]	Data recovery record found | Reconstructing a.rar | Done
+repair	40 sectors cycling through four values; r=6	damaged sectors [9, 20]	rebuilt=NO	rc=0	fixed.a.rar: 20111 bytes, sectors that differ from the archive before the damage [9, 16, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]; rebuilt.a.rar: 20992 bytes, sectors that differ from the archive before the damage [0, 9, 20, 41, 42, 43, 44, 45, 46, 47]	Data recovery record found | Reconstructing a.rar | Done
+built	134 sectors all different; r=6	72523 bytes, 69120 protected, n=135, distinct sectors 135, distinct tags 135
+repair	134 sectors all different; r=6	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors all different; r=6	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors all different; r=6	damaged sectors [58]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors all different; r=6	damaged sectors [130]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors all different; r=6	damaged sectors [9, 78]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+built	134 sectors cycling through four values; r=6	72523 bytes, 69120 protected, n=135, distinct sectors 5, distinct tags 5
+repair	134 sectors cycling through four values; r=6	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors cycling through four values; r=6	damaged sectors [9]	rebuilt=NO	rc=0	fixed.a.rar: 70475 bytes, sectors that differ from the archive before the damage [131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141]	Data recovery record found | Done
+repair	134 sectors cycling through four values; r=6	damaged sectors [58]	rebuilt=NO	rc=0	fixed.a.rar: 70475 bytes, sectors that differ from the archive before the damage [131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141]	Data recovery record found | Done
+repair	134 sectors cycling through four values; r=6	damaged sectors [130]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors cycling through four values; r=6	damaged sectors [9, 78]	rebuilt=NO	rc=0	fixed.a.rar: 68427 bytes, sectors that differ from the archive before the damage [9, 74, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136]; rebuilt.a.rar: 69120 bytes, sectors that differ from the archive before the damage [0, 9, 78, 135, 136, 137, 138, 139, 140, 141]	Data recovery record found | Reconstructing a.rar | Done
+built	134 sectors, every fourth one equal and the rest different; r=6	72523 bytes, 69120 protected, n=135, distinct sectors 102, distinct tags 102
+repair	134 sectors, every fourth one equal and the rest different; r=6	damaged sectors []	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors, every fourth one equal and the rest different; r=6	damaged sectors [9]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors, every fourth one equal and the rest different; r=6	damaged sectors [58]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors, every fourth one equal and the rest different; r=6	damaged sectors [130]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+repair	134 sectors, every fourth one equal and the rest different; r=6	damaged sectors [9, 78]	rebuilt=yes	rc=0	fixed.a.rar equals the archive before the damage	Data recovery record found | Done
+summary	equal arms done

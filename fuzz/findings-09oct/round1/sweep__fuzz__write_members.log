@@ -1,0 +1,53 @@
++ ~/rarkit-runs/fuzz6-09oct/fuzz/target/aarch64-apple-darwin/release/write_members ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__write_members -max_total_time=5400 -artifact_prefix=~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__write_members/ -print_final_stats=1 -timeout=60 -rss_limit_mb=2048 -max_len=65536 -print_pcs=0
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1668707841
+INFO: Loaded 1 modules   (451090 inline 8-bit counters): 451090 [0x104683f30, 0x1046f2142), 
+INFO: Loaded 1 PC tables (451090 PCs): 451090 [0x1046f2148,0x104dd4268), 
+INFO:        2 files found in ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__write_members
+INFO: seed corpus: files: 2 min: 7b max: 35b total: 42b rss: 46Mb
+
+thread '<unnamed>' (34467693) panicked at fuzz_targets/plan.rs:239:9:
+an archive this writer returned Ok for did not read back: Some("outside this engine's scope: Redirection(PosixSymlink) (member \"@\")")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+==22098== ERROR: libFuzzer: deadly signal
+    #0 0x000105827654 in __sanitizer_print_stack_trace+0x28 (librustc-nightly_rt.asan.dylib:arm64+0x87654)
+    #1 0x0001042bfa7c in fuzzer::PrintStackTrace()+0x30 (write_members:arm64+0x10162fa7c)
+    #2 0x0001042b33bc in fuzzer::Fuzzer::CrashCallback()+0x54 (write_members:arm64+0x1016233bc)
+    #3 0x00019e998140 in _sigtramp+0x34 (libsystem_platform.dylib:arm64e+0x4140)
+    #4 0x00019e98d978 in pthread_kill+0x124 (libsystem_pthread.dylib:arm64e+0x6978)
+    #5 0x00019e890454 in abort+0x90 (libsystem_c.dylib:arm64e+0x7b454)
+    #6 0x0001043dfc58 in _RNvNtNtNtCs7wWH1u21LfK_3std3sys3pal4unix14abort_internal+0x8 (write_members:arm64+0x10174fc58)
+    #7 0x0001043df9b0 in _RNvNtCs7wWH1u21LfK_3std7process5abort+0x8 (write_members:arm64+0x10174f9b0)
+    #8 0x0001043daaa8 in _RNCNvCsbrXZ7evnyQX_13libfuzzer_sys10initialize0B3_+0xb8 (write_members:arm64+0x10174aaa8)
+    #9 0x000104301b70 in _RNvNtCs7wWH1u21LfK_3std9panicking15panic_with_hook+0x26c (write_members:arm64+0x101671b70)
+    #10 0x0001042f2984 in _RNCNvNtCs7wWH1u21LfK_3std9panicking13panic_handler0B5_+0x40 (write_members:arm64+0x101662984)
+    #11 0x0001042eb5d8 in _RINvNtNtCs7wWH1u21LfK_3std3sys9backtrace26___rust_end_short_backtraceNCNvNtB6_9panicking13panic_handler0zEB6_+0x8 (write_members:arm64+0x10165b5d8)
+    #12 0x0001042f2f88 in _RNvCsda0lVfzJn4T_7___rustc17rust_begin_unwind+0x1c (write_members:arm64+0x101662f88)
+    #13 0x0001043e06ec in _RNvNtCslEPophzOILI_4core9panicking9panic_fmt+0x24 (write_members:arm64+0x1017506ec)
+    #14 0x00010362f944 in run plan.rs:239
+    #15 0x00010362f944 in _RNvNvCsg1l1EkngPSO_13write_members1__19___libfuzzer_sys_run write_members.rs:35
+    #16 0x00010367292c in rust_fuzzer_test_input lib.rs:276
+    #17 0x0001042b19d4 in _RINvNvNtCs7wWH1u21LfK_3std9panicking12catch_unwind7do_callNCNvCsbrXZ7evnyQX_13libfuzzer_sys15test_input_wrap0lEBY_+0xc4 (write_members:arm64+0x1016219d4)
+    #18 0x0001042b260c in __rust_try+0x18 (write_members:arm64+0x10162260c)
+    #19 0x0001042b12a4 in LLVMFuzzerTestOneInput+0x16c (write_members:arm64+0x1016212a4)
+    #20 0x0001042b4c38 in fuzzer::Fuzzer::ExecuteCallback(unsigned char const*, unsigned long)+0x158 (write_members:arm64+0x101624c38)
+    #21 0x0001042b42dc in fuzzer::Fuzzer::RunOne(unsigned char const*, unsigned long, bool, fuzzer::InputInfo*, bool, bool*)+0x48 (write_members:arm64+0x1016242dc)
+    #22 0x0001042b6ad8 in fuzzer::Fuzzer::ReadAndExecuteSeedCorpora(std::__1::vector<fuzzer::SizedFile, std::__1::allocator<fuzzer::SizedFile>>&)+0x814 (write_members:arm64+0x101626ad8)
+    #23 0x0001042b6c70 in fuzzer::Fuzzer::Loop(std::__1::vector<fuzzer::SizedFile, std::__1::allocator<fuzzer::SizedFile>>&)+0x88 (write_members:arm64+0x101626c70)
+    #24 0x0001042d6204 in fuzzer::FuzzerDriver(int*, char***, int (*)(unsigned char const*, unsigned long))+0x1a3c (write_members:arm64+0x101646204)
+    #25 0x0001042e3da8 in main+0x24 (write_members:arm64+0x101653da8)
+    #26 0x00019e5b7e7c in start+0x1a1c (dyld:arm64e+0x31e7c)
+
+NOTE: libFuzzer has rudimentary signal handlers.
+      Combine libFuzzer with AddressSanitizer or similar for better crash reports.
+SUMMARY: libFuzzer: deadly signal
+MS: 0 ; base unit: 0000000000000000000000000000000000000000
+0xe3,0x25,0x41,0xa1,0x0,0x40,0x41,
+\343%A\241\000@A
+artifact_prefix='~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__write_members/'; Test unit written to ~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__write_members/crash-9cb4cf9bda079f4488f4c513ca2d64624a738a87
+Base64: 4yVBoQBAQQ==
+stat::number_of_executed_units: 2
+stat::average_exec_per_sec:     0
+stat::new_units_added:          0
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              58

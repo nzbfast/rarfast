@@ -1,0 +1,5 @@
+case	members	reading in the file headers	readings that give other bytes	what
+run	1	stated	run-of-14 run-of-16 sixteen-adds-zero low-not-remembered run-counts-every-fresh	low symbol 5, then 16, then fifteen far matches with no low symbol (a fresh match of slot 3, a short match and a repeated distance match among them), then low symbol 9, then 16, then one more with no symbol
+table-read	1	stated	low-reset-never low-reset-unless-kept low-reset-value-only low-reset-run-only	low symbol 5 and then 16 open a run; the block ends and a table read with the keep bit set and every delta zero follows; the next far match is coded with symbol 16 and the one after with no symbol
+table-read-not-kept	1	stated	low-reset-never low-reset-value-only low-reset-run-only	the same with the keep bit clear and the tables written out again
+member-end	2	stated	end-resets-low	two members of one solid chain: low symbol 5 and then 16 open a run in the first, which ends with an end of block that keeps the tables; the second begins with far matches that carry no low symbol

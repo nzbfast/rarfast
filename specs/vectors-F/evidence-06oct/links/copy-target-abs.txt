@@ -1,0 +1,42 @@
+arm: copy-target-abs
+about: a copy member c whose target is '/etc/hostname'
+file: x.rar  3119 bytes  sha256 00d5d09bc25b8afe268d18f970a4c41788a39eb992acf0356ba6d0331d53ca02
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: big1
+          Type: File
+          Size: 3000
+          Name: d
+          Type: Directory
+          Name: c
+          Type: File reference
+        Target: /etc/hostname
+          Size: 3000
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     big1                                                          98%  OK
+  Testing     d                                                         OK
+  Testing     c                                                              OK
+  All OK
+$ unrar x -p- x.rar o/
+exit 6
+  Extracting from x.rar
+  Extracting  o/big1                                                        98%  OK
+  Creating    o/d                                                       OK
+  Extracting  o/c
+  Total errors: 1
+stderr:
+  Cannot open o/etc/hostname
+  No such file or directory
+  Cannot copy o/etc/hostname to o/c.
+  You need to unpack the entire archive to create file reference entries.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+  dir   o/d
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

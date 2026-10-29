@@ -1,0 +1,7 @@
+reading	what it is
+fresh-not-pushed	a fresh match does not enter the repeated distances
+repeat-leaves-last	a repeated distance match does not set the last length
+rotation-none	a repeated distance match leaves the four distances in place
+rotation-push	a repeated distance match pushes its distance as a fresh match does
+rotation-swap	a repeated distance match swaps the chosen distance with the first
+short-not-pushed	a short distance match does not enter the repeated distances

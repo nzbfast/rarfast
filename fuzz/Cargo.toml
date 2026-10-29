@@ -1,0 +1,266 @@
+[package]
+name = "rarkit-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+# Its own workspace: built by `cargo +nightly fuzz`, never by `make ci`.
+[workspace]
+
+[dependencies]
+libfuzzer-sys = "0.4"
+# `test-support` is what `read_seam` reads `probe::peak_seam` through:
+# the seam's source unit is another thread by construction, so whether a
+# member was overlapped at all is invisible from the caller's side and
+# the counter is the only thing that can see it. It exposes nothing to a
+# production caller and changes no output byte.
+#
+# `audio-lane-ref` is what `rar20_audio_lane` reads the wide reference
+# and spec D 1.4.2's bound through. It is a feature of its own and not
+# part of either of the other two, because both of those reach
+# the gate bench through the crate's dev dependency on itself.
+rarkit = { path = "../crates/rarkit", features = [
+    "bench-internals",
+    "test-support",
+    "audio-lane-ref",
+] }
+# `rar5_solid_chain` names its own lane width by building the global pool,
+# which the decode-ahead stage then reads. It must be the SAME rayon the
+# engine holds - a second copy has a second global pool and naming that
+# one would move nothing - so the version is pinned to the one
+# `crates/rarkit/Cargo.toml` asks for.
+# The seeded input makers shared with the tests.
+rarkit-testdata = { path = "../crates/rarkit-testdata" }
+rayon = "1.12.0"
+# The `rar5_oracle_*` targets hold rarkit to the OLD ENGINE, called as a
+# compiled library and never opened: the
+# same adapter every differential test in `crates/rarkit/tests` calls.
+# The bench driver vendors its git dependency into the bundle, so a
+# remote box builds it offline with no credential.
+# Optional, behind `oracle-compare` (below), which is ON by default here so
+# every campaign runs as it did. The public tree has no such crate: there
+# every line from a `BEGIN oracle-compare` mark to its `END` mark is
+# dropped (three marked regions: this line, the feature, the three
+# targets), and the three target sources and `oracle_support.rs` with them.
+
+
+[[bin]]
+name = "rar5_encryption_record"
+path = "fuzz_targets/rar5_encryption_record.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar4_encrypted_header_walk"
+path = "fuzz_targets/rar4_encrypted_header_walk.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_encrypted_header_walk"
+path = "fuzz_targets/rar5_encrypted_header_walk.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "member_decryptor"
+path = "fuzz_targets/member_decryptor.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_filter_record"
+path = "fuzz_targets/rar3_filter_record.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_block_chain"
+path = "fuzz_targets/rar5_block_chain.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_filter_transforms"
+path = "fuzz_targets/rar3_filter_transforms.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_tables"
+path = "fuzz_targets/rar5_tables.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar20_member"
+path = "fuzz_targets/rar20_member.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_member"
+path = "fuzz_targets/rar5_member.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_filter_offload"
+path = "fuzz_targets/rar5_filter_offload.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_drain_lap"
+path = "fuzz_targets/rar5_drain_lap.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_window_edge"
+path = "fuzz_targets/rar5_window_edge.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_solid_chain"
+path = "fuzz_targets/rar5_solid_chain.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar20_tables"
+path = "fuzz_targets/rar20_tables.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "write_members"
+path = "fuzz_targets/write_members.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar5_encode_roundtrip"
+path = "fuzz_targets/rar5_encode_roundtrip.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "write_volumes"
+path = "fuzz_targets/write_volumes.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar29_encode_roundtrip"
+path = "fuzz_targets/rar29_encode_roundtrip.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "write_reader_payload"
+path = "fuzz_targets/write_reader_payload.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "store_sample_length"
+path = "fuzz_targets/store_sample_length.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "edit_roundtrip"
+path = "fuzz_targets/edit_roundtrip.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "blake2sp_chunking"
+path = "fuzz_targets/blake2sp_chunking.rs"
+test = false
+doc = false
+bench = false
+
+# Spec L 3.5.4: the streaming encoder against the whole-slice team, which
+# are two implementations of one deterministic function.
+[[bin]]
+name = "rr5_encode_paths"
+path = "fuzz_targets/rr5_encode_paths.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_lz_window_edge"
+path = "fuzz_targets/rar3_lz_window_edge.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar15_window_edge"
+path = "fuzz_targets/rar15_window_edge.rs"
+test = false
+doc = false
+bench = false
+
+# SPEC-A 7.4 held to one member, seeded with the genuine RAR 1.40 members
+# of `fuzz/seeds/rar1x_member`.
+[[bin]]
+name = "rar1x_member"
+path = "fuzz_targets/rar1x_member.rs"
+test = false
+doc = false
+bench = false
+
+# SPEC-F 3.7.7: the one-member seam, overlapped against sequential. Its
+# member is grown past the engine's own engage floor by repetition,
+# because libFuzzer never offers an input that large.
+[[bin]]
+name = "read_seam"
+path = "fuzz_targets/read_seam.rs"
+test = false
+doc = false
+bench = false
+
+# Spec D 1.4.2's narrow lane, which is compiled on x86-64 alone and was
+# fuzzed on no box until 22 Sep 2026. Needs `audio-lane-ref` above.
+[[bin]]
+name = "rar20_audio_lane"
+path = "fuzz_targets/rar20_audio_lane.rs"
+test = false
+doc = false
+bench = false
+
+# 27 Sep 2026: the RAR 5 decode paths that moved that day, held to the old
+# engine. Written streams whose tables reach the tape and serial literal
+# batches; many small members through the batch and team knobs; and the
+# vector archives re-framed so their mutated streams reach both decoders.
+# `oracle_support.rs` is their shared helper.

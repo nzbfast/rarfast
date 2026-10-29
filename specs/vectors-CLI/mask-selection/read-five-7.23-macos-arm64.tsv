@@ -1,0 +1,20 @@
+# members: a.b.txt b b.txt n.x noext
+mask	selected	rar and unrar
+noext.*.*	noext	same
+b.*.*	b b.txt	same
+n?ext.*.*	noext	same
+b.*.*.*	-	same
+n*.*.*	n.x	same
+noext.*.*.	-	same
+b*..*	-	same
+n*..*	-	same
+noext..*	noext	same
+noext.*	noext	same
+b.*	b b.txt	same
+n.*.*	n.x	same
+a.b.*.*	a.b.txt	same
+a.*.*	a.b.txt	same
+?.*.*	a.b.txt b b.txt n.x	same
+*.*.*	a.b.txt b.txt n.x	same
+b.txt.*.*	b.txt	same
+n?.*.*	-	same

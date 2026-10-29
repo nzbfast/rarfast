@@ -1,0 +1,9 @@
+== archives/r4_ts.rar (378 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=90cf flags=0x0000 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=df20 flags=0x9020 hsize=51 addsize=300
+        pack=300 unp=300 host=3 crc=59dfd160 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'hello.txt' exttime=800c46ab325d54632d51
+  [0x173] END crc=3dc4 flags=0x4000 hsize=7 addsize=0
+        rest=

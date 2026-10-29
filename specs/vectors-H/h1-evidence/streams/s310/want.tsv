@@ -1,0 +1,7 @@
+case	reading	size:SHA-256 of each member	the bytes in hex when short
+low-unused	stated	389:0eacef978d451eb53c5469106ea7e1bbf737681a325a77af1654c8ac96ff6c2e	-
+low-all-zero	stated	169:ff69f6adfe9973d694c7c8c86a20e8c425ab8bfcd3b370660ed540699bf73541	-
+low-oversubscribed	stated	224:09a38a6f2f7d5d3d3beaff30aec1d8cc885786d405e9bbad5013d206db8fb479	-
+length-unused	stated	197:90667f5e656b751488559c36b41f323e484f6adafe8c54331cf44d5663634850	-
+length-all-zero	stated	102:19ec184e29755de2606c8c05faf39068898c1b680612bc11f7a1281c0921accb	-
+length-oversubscribed	stated	134:8d520b098703da3de6d8928270f1f1f615610df9f9b8dfc8531fe058ea994fab	-

@@ -1,0 +1,4 @@
+console output code page: 437
+console input code page: 437
+output mode of a new buffer: 0x0003
+output mode after a run: 0x0003 in 9216 buffers

@@ -1,0 +1,27 @@
+# refcheck.py against , 2026-09-18T21:29:47Z
+one_small: MATCH (69 bytes)
+one_127: MATCH (190 bytes)
+one_128: MATCH (191 bytes)
+one_4096: MATCH (4160 bytes)
+one_4097: MATCH (4221 bytes)
+cross_65487: MATCH (65616 bytes)
+cross_65488: MATCH (65618 bytes)
+three: MATCH (9302 bytes)
+with_dir: MATCH (137 bytes)
+w7679: MATCH (7803 bytes)
+w7680: MATCH (7808 bytes)
+w1048063: MATCH (1048193 bytes)
+w1048064: MATCH (1048198 bytes)
+qo_all: MATCH (496 bytes)
+qo_none: MATCH (9058 bytes)
+mib_step: MATCH (1048714 bytes)
+longname: MATCH (468 bytes)
+longname_367: MATCH (467 bytes)
+18 match, 0 differ
+htb: MATCH (395)
+subsecond_time: MATCH (371)
+lock: MATCH (363)
+non_ascii_name: MATCH (371)
+empty_member: MATCH (63)
+comment: MATCH
+FAILURES: 0

@@ -1,0 +1,15 @@
+== D140_M5.RAR (12917 bytes)
+  format: RAR 1.3/1.4
+  00000000: ARCHIVE  size=7 flags=0x80(ALWAYS)
+  00000007: FILE     hsize=24   crc16=0000 flags=0x00(-)
+      name=b'SUB' psize=0 usize=0 attr=0x10 ver=2 method=5 ftime=2026-09-18 16:53:00
+  0000001f: FILE     hsize=31   crc16=0000 flags=0x00(-)
+      name=b'SUB\\NESTED' psize=0 usize=0 attr=0x10 ver=2 method=5 ftime=2026-09-18 16:53:00
+  0000003e: FILE     hsize=40   crc16=b04d flags=0x00(-)
+      name=b'SUB\\NESTED\\DEEP.TXT' psize=26 usize=520 attr=0x20 ver=2 method=5 ftime=2026-09-18 16:53:00
+  00000080: FILE     hsize=29   crc16=2b68 flags=0x00(-)
+      name=b'DATA.BIN' psize=12309 usize=20192 attr=0x20 ver=2 method=5 ftime=2026-09-18 16:53:00
+  000030b2: FILE     hsize=30   crc16=0000 flags=0x00(-)
+      name=b'EMPTY.DAT' psize=0 usize=0 attr=0x20 ver=2 method=5 ftime=2026-09-18 16:53:00
+  000030d0: FILE     hsize=30   crc16=6ef6 flags=0x00(-)
+      name=b'HELLO.TXT' psize=391 usize=16500 attr=0x20 ver=2 method=5 ftime=2026-09-18 16:53:00

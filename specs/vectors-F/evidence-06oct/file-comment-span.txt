@@ -1,0 +1,45 @@
+Record of 7 Oct 2026: the checksum span of a file header that embeds a comment.
+Made by file-comment-span.py over the genuine d250_fc.rar (DOS RAR 2.50), read from
+fixtures/legacy/evidence/archives/ on the branch fixtures/legacy-evidence-writes-06oct,
+which was not on the main branch on that day.
+sha256 3b82c9f4c3d357c1aeff08aacd5966b8bba3c018f00d448b13ef9e3a55e8a31e, 36,915 bytes.
+
+== the spans that fit (python3 file-comment-span.py d250_fc.rar)
+
+AUDIO.RAW	flags 0x8000	header 41 bytes, its own fields 41	field fits bytes 2 up to: 41
+BLOB.BIN	flags 0x8000	header 40 bytes, its own fields 40	field fits bytes 2 up to: 40
+NOISE.BIN	flags 0x8008	header 73 bytes, its own fields 41	field fits bytes 2 up to: 41
+	embedded block: type 0x75, 32 bytes, unpack version 15, method 0x30	its field fits its bytes 2 up to: 13
+	comment CRC16 field 0x0d31; low 16 bits of the CRC32 of its 19 bytes 0x0d31
+SMALL.DAT	flags 0x8000	header 41 bytes, its own fields 41	field fits bytes 2 up to: 41
+TEXT1.TXT	flags 0x8008	header 74 bytes, its own fields 41	field fits bytes 2 up to: 41
+	embedded block: type 0x75, 33 bytes, unpack version 15, method 0x30	its field fits its bytes 2 up to: 13
+	comment CRC16 field 0xf5ff; low 16 bits of the CRC32 of its 20 bytes 0xf5ff
+TEXT2.TXT	flags 0x8000	header 41 bytes, its own fields 41	field fits bytes 2 up to: 41
+
+== reference unrar 7.23 for x86-64 Linux, unrar t, the genuine archive: exit 3, nothing on the error stream
+
+Testing archive d250_fc.rar
+Testing AUDIO.RAW OK 
+Testing BLOB.BIN OK 
+Testing NOISE.BIN OK 
+Testing SMALL.DAT OK 
+Testing TEXT1.TXT OK 
+Testing TEXT2.TXT OK 
+Total errors: 2
+
+== the same with the checksum field of the two commenting headers recomputed over the WHOLE header
+   (python3 file-comment-span.py d250_fc.rar --whole OUT; sha256 of OUT cc8227d58d35ea929e031015b66e76bf67f3459c15f982399457ee2b0882ee29): exit 1
+
+Testing archive d250_fc.whole-span.rar
+Testing AUDIO.RAW OK 
+Testing BLOB.BIN OK 
+NOISE.BIN - the file header is corrupt
+Testing NOISE.BIN OK 
+Testing SMALL.DAT OK 
+TEXT1.TXT - the file header is corrupt
+Testing TEXT1.TXT OK 
+Testing TEXT2.TXT OK 
+Total errors: 2
+
+unrar 7.23 for macOS gives the same lines and exit codes for both.

@@ -1,0 +1,34 @@
+file	r393_hp.rar	main header flags 0080; 8 bytes after the main header taken as salt: fb35bba8581fc2fc
+reading	r393_hp.rar	stated	first block decrypts to type 0x74 size 49; its CRC16 fits: True
+reading	r393_hp.rar	counter big-endian	first block decrypts to type 0x59 size 65379; its CRC16 fits: False
+reading	r393_hp.rar	counter of 4 bytes	first block decrypts to type 0x18 size 29069; its CRC16 fits: False
+reading	r393_hp.rar	password as UTF-8	first block decrypts to type 0x4d size 11472; its CRC16 fits: False
+reading	r393_hp.rar	password as UTF-16 big-endian	first block decrypts to type 0xc4 size 3193; its CRC16 fits: False
+reading	r393_hp.rar	salt before the password	first block decrypts to type 0x80 size 26940; its CRC16 fits: False
+reading	r393_hp.rar	half the iteration count	first block decrypts to type 0x16 size 61461; its CRC16 fits: False
+reading	r393_hp.rar	key words not byte-reversed	first block decrypts to type 0x12 size 64823; its CRC16 fits: False
+reading	r393_hp.rar	IV byte is the digest's first byte	first block decrypts to type 0x99 size 27811; its CRC16 fits: False
+reading	r393_hp.rar	IV sampled before the counter is absorbed	first block decrypts to type 0xd5 size 985; its CRC16 fits: False
+file	r420_hp.rar	main header flags 0080; 8 bytes after the main header taken as salt: c457b8160921f585
+reading	r420_hp.rar	stated	first block decrypts to type 0x74 size 49; its CRC16 fits: True
+reading	r420_hp.rar	counter big-endian	first block decrypts to type 0xe7 size 13489; its CRC16 fits: False
+reading	r420_hp.rar	counter of 4 bytes	first block decrypts to type 0xa0 size 25859; its CRC16 fits: False
+reading	r420_hp.rar	password as UTF-8	first block decrypts to type 0x35 size 55996; its CRC16 fits: False
+reading	r420_hp.rar	password as UTF-16 big-endian	first block decrypts to type 0xba size 50903; its CRC16 fits: False
+reading	r420_hp.rar	salt before the password	first block decrypts to type 0x96 size 16459; its CRC16 fits: False
+reading	r420_hp.rar	half the iteration count	first block decrypts to type 0x2b size 25707; its CRC16 fits: False
+reading	r420_hp.rar	key words not byte-reversed	first block decrypts to type 0x88 size 16067; its CRC16 fits: False
+reading	r420_hp.rar	IV byte is the digest's first byte	first block decrypts to type 0x25 size 31488; its CRC16 fits: False
+reading	r420_hp.rar	IV sampled before the counter is absorbed	first block decrypts to type 0x76 size 54877; its CRC16 fits: False
+file	r550_hp.rar	main header flags 0080; 8 bytes after the main header taken as salt: e304052d232d0d4a
+reading	r550_hp.rar	stated	first block decrypts to type 0x74 size 49; its CRC16 fits: True
+reading	r550_hp.rar	counter big-endian	first block decrypts to type 0x27 size 41695; its CRC16 fits: False
+reading	r550_hp.rar	counter of 4 bytes	first block decrypts to type 0x2d size 17240; its CRC16 fits: False
+reading	r550_hp.rar	password as UTF-8	first block decrypts to type 0xab size 51648; its CRC16 fits: False
+reading	r550_hp.rar	password as UTF-16 big-endian	first block decrypts to type 0x57 size 10878; its CRC16 fits: False
+reading	r550_hp.rar	salt before the password	first block decrypts to type 0x51 size 786; its CRC16 fits: False
+reading	r550_hp.rar	half the iteration count	first block decrypts to type 0x27 size 2868; its CRC16 fits: False
+reading	r550_hp.rar	key words not byte-reversed	first block decrypts to type 0x80 size 39161; its CRC16 fits: False
+reading	r550_hp.rar	IV byte is the digest's first byte	first block decrypts to type 0x24 size 3544; its CRC16 fits: False
+reading	r550_hp.rar	IV sampled before the counter is absorbed	first block decrypts to type 0xcb size 58276; its CRC16 fits: False
+summary	census done

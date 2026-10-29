@@ -1,0 +1,17 @@
+arm: win-ol-minus
+about: the same archive, unrar x -ol-
+file: x.rar  938 bytes  sha256 494c1e4f53bef32fc6c194aef6adab17a133968d8f6da91f70f26df7e32614f3
+$ unrar x -p- -ol- x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                        5%  OK
+  Creating    o/d                                                       OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  dir   o/d
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

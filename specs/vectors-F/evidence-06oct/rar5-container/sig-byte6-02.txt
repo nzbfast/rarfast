@@ -1,0 +1,28 @@
+arm: sig-byte6-02
+about: the signature's seventh byte is 2
+file: x.rar  137 bytes  sha256 a6938d73f9cc9f72cae694341495a11d5ffe516146539bba691fa18d17510e2e
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+stderr:
+  Unsupported archive format. Please update RAR to a newer version.
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  Unsupported archive format. Please update RAR to a newer version.
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+stderr:
+  Unsupported archive format. Please update RAR to a newer version.
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  Unsupported archive format. Please update RAR to a newer version.
+  ERROR: Bad archive x.rar

@@ -1,0 +1,6 @@
+# SHA-256 of every file in archives/. Rewrite with
+# the project's fixtures check, in the same commit.
+011d3c551739ea65f412585aa048f2223d000ea39a0e757a794dddcec888bfae  l15_rnd.r00
+86215f4c524cf13d23f7890ba2385ccc5da75dccc915821fe730d087073e9261  l15_rnd.r01
+85847da03046e0e7ec2b891d16dd1ff3b0774f49c1da0fc4ddf0458f6c6c604a  l15_rnd.rar
+286c6070263f61c3e271e4ed300c492de0ccfbde763d20f46188809120cda95a  l15_txt.rar

@@ -1,0 +1,127 @@
+archive	member	stream	P	member start	flags	slot	defines	span start	span length	registers sent	body bytes	program (length:crc32)
+fixtures/legacy/archives/r393_m3.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_m3.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_m3.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_m5.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_m5.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_m5.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_md.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_md.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_md.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_rr.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_rr.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_rr.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_rv.part1.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_rv.part1.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_rv.part2.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_solid.rar	TABLE.BIN	1	20192	20192	b6	0	yes	20192	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_vol.part1.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_vol.part1.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_vol.part2.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_voln.r00	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_voln.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	32768	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_voln.rar	AUDIO.RAW	1	32768	0	34	0	no	32768	3072	R0=4	5	-
+fixtures/legacy/archives/r393_x.rar	SOUND.WAV	3	0	0	b6	0	yes	0	12288	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r393_x.rar	SOUND.WAV	3	0	0	76	0	no	13056	2816	R0=4	7	-
+fixtures/legacy/archives/r393_x.rar	IMAGE.BMP	4	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r393_x.rar	IA64.BIN	5	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+fixtures/legacy/archives/r393_x.rar	RGB.RAW	6	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r393_x.rar	DELTA.BIN	7	0	0	b6	0	yes	0	11776	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r393_x.rar	PCM.RAW	8	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_f_audio.rar	PCM.RAW	1	0	0	b6	0	yes	0	16000	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_f_bmp.rar	IMAGE.BMP	1	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r420_f_delta.rar	DELTA.BIN	1	0	0	b6	0	yes	0	12000	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_f_ia64.rar	IA64.BIN	1	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+fixtures/legacy/archives/r420_f_mixed.rar	DELTA.BIN	1	0	0	b6	0	yes	0	11776	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_f_mixed.rar	IA64.BIN	1	12000	12000	a6	1	yes	12000	8192	-	125	120:3769893f
+fixtures/legacy/archives/r420_f_mixed.rar	IMAGE.BMP	1	32192	32192	b6	2	yes	32192	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r420_f_mixed.rar	PCM.RAW	1	50678	50678	b6	3	yes	50678	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_f_mixed.rar	RGB.RAW	1	66678	66678	95	2	no	66678	18432	R0=291 R1=0	6	-
+fixtures/legacy/archives/r420_f_rgb.rar	RGB.RAW	1	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r420_f_wav.rar	SOUND.WAV	1	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_f_x86.rar	X86.BIN	1	0	0	a6	0	yes	0	12000	-	58	53:ad576887
+fixtures/legacy/archives/r420_m3.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_m3.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_m5.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_m5.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_md.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_md.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_rr.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_rr.rar	TABLE.BIN	7	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_rv.part1.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_rv.part2.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_solid.rar	TABLE.BIN	1	20192	20192	b6	0	yes	20192	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_vol.part1.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_vol.part2.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_voln.r00	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_voln.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_x.rar	SOUND.WAV	3	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r420_x.rar	IMAGE.BMP	4	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r420_x.rar	IA64.BIN	5	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+fixtures/legacy/archives/r420_x.rar	RGB.RAW	6	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r420_x.rar	DELTA.BIN	7	0	0	b6	0	yes	0	11776	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r420_x.rar	PCM.RAW	8	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_cmt.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_cmt.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_m3.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_m3.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_m5.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_m5.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_md.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_md.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_rr.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_rr.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_solid.rar	TABLE.BIN	1	20192	20192	b6	0	yes	20192	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_vol.part1.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_vol.part2.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_voln.r00	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_voln.rar	AUDIO.RAW	1	0	0	b6	0	yes	0	35840	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_x.rar	IA64.BIN	2	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+fixtures/legacy/archives/r550_x.rar	IMAGE.BMP	3	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r550_x.rar	SOUND.WAV	4	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+fixtures/legacy/archives/r550_x.rar	DELTA.BIN	5	0	0	b6	0	yes	0	11776	R0=3	36	29:0e06077d
+fixtures/legacy/archives/r550_x.rar	RGB.RAW	6	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+fixtures/legacy/archives/r550_x.rar	PCM.RAW	7	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	0	0	b6	0	yes	0	32768	R0=771 R1=2	158	149:1c2c5dc8
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	32768	0	14	0	no	32768	32768	R0=771 R1=0	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	65536	0	14	0	no	65536	32768	R0=771 R1=1	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	98304	0	14	0	no	98304	32768	R0=771 R1=2	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	131072	0	14	0	no	131072	32768	R0=771 R1=0	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	163840	0	14	0	no	163840	32768	R0=771 R1=1	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	196608	0	14	0	no	196608	32768	R0=774 R1=2	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	229376	0	14	0	no	229376	32768	R0=771 R1=0	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	262144	0	14	0	no	262144	32768	R0=771 R1=1	5	-
+specs/vectors-J/archives/r393_bigrgb_c.rar	BIGRGB.RAW	1	294912	0	36	0	no	294912	12288	R0=771 R1=2	7	-
+specs/vectors-J/archives/r393_mixed_solid.rar	IA64.BIN	1	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+specs/vectors-J/archives/r393_mixed_solid.rar	TABLE.BIN	1	8192	8192	b6	1	yes	8192	14848	R0=3	36	29:0e06077d
+specs/vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	1	0	0	b6	0	yes	0	65536	R0=771 R1=2	160	149:1c2c5dc8
+specs/vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	1	0	0	56	0	no	65536	65536	R0=771 R1=1	7	-
+specs/vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	1	0	0	56	0	no	131072	65536	R0=771 R1=0	9	-
+specs/vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	1	0	0	56	0	no	196608	65536	R0=774 R1=2	9	-
+specs/vectors-J/archives/r420_bigrgb_c.rar	BIGRGB.RAW	1	0	0	76	0	no	262144	45056	R0=771 R1=1	11	-
+specs/vectors-J/archives/r420_bmp_auto.rar	IMAGE.BMP	1	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+specs/vectors-J/archives/r420_ia64_i.rar	IA64.BIN	1	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+specs/vectors-J/archives/r420_mixed_nonsolid.rar	IA64.BIN	2	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+specs/vectors-J/archives/r420_mixed_nonsolid.rar	IMAGE.BMP	3	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+specs/vectors-J/archives/r420_mixed_nonsolid.rar	SOUND.WAV	4	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+specs/vectors-J/archives/r420_mixed_nonsolid.rar	TABLE.BIN	5	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+specs/vectors-J/archives/r420_mixed_solid.rar	IA64.BIN	1	0	0	a6	0	yes	0	8192	-	125	120:3769893f
+specs/vectors-J/archives/r420_mixed_solid.rar	TABLE.BIN	1	8192	8192	b6	1	yes	8192	14848	R0=3	36	29:0e06077d
+specs/vectors-J/archives/r420_mixed_solid.rar	IMAGE.BMP	1	35192	35192	b6	2	yes	35192	18432	R0=291 R1=0	158	149:1c2c5dc8
+specs/vectors-J/archives/r420_mixed_solid.rar	PCM.RAW	1	53678	53678	b6	3	yes	53678	15872	R0=4	223	216:bc85e701
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	b5	1	no	69678	1024	R0=6	6	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	70702	1280	R0=3	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	73518	2048	R0=6	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	77102	1536	R0=6	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	79150	2560	R0=6	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	81710	1024	R0=3	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	84270	1792	R0=6	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	RGB.RAW	1	69678	69678	76	1	no	86830	1024	R0=6	7	-
+specs/vectors-J/archives/r420_mixed_solid.rar	SOUND.WAV	1	88110	88110	93	3	no	88110	15872	R0=4	4	-
+specs/vectors-J/archives/r420_pcm_a2.rar	PCM.RAW	1	0	0	b6	0	yes	0	16000	R0=2	223	216:bc85e701
+specs/vectors-J/archives/r420_pcm_a4.rar	PCM.RAW	1	0	0	b6	0	yes	0	16000	R0=4	223	216:bc85e701
+specs/vectors-J/archives/r420_rgb_c.rar	RGB.RAW	1	0	0	b6	0	yes	0	18432	R0=291 R1=0	158	149:1c2c5dc8
+specs/vectors-J/archives/r420_tab_auto.rar	TABLE.BIN	1	0	0	b6	0	yes	0	14848	R0=3	36	29:0e06077d
+specs/vectors-J/archives/r420_tab_d3.rar	TABLE.BIN	1	0	0	b6	0	yes	0	15000	R0=3	36	29:0e06077d
+specs/vectors-J/archives/r420_wav_auto.rar	SOUND.WAV	1	0	0	b6	0	yes	0	15872	R0=4	223	216:bc85e701
+specs/vectors-J/archives/r420_x86_e.rar	X86.BIN	1	0	0	a6	0	yes	0	12000	-	58	53:ad576887

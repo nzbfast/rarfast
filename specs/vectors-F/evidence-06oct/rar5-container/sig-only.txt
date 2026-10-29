@@ -1,0 +1,38 @@
+arm: sig-only
+about: the signature and nothing after it
+file: x.rar  8 bytes  sha256 05119c8f66241a863f3be866397ad061d073a9c80cc2adb13d1471a9a874661d
+$ unrar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 5
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 1
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 1
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 5
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 1
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive

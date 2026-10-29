@@ -1,0 +1,11 @@
+reading	what it is
+end-resets-low	an end of block that ends the member zeroes the remembered low part and the run
+low-not-remembered	a low distance symbol below 16 is not remembered
+low-reset-never	a table read leaves the remembered low part and the run
+low-reset-run-only	a table read ends the run and leaves the remembered low part
+low-reset-unless-kept	a table read with the keep bit set leaves the remembered low part and the run
+low-reset-value-only	a table read zeroes the remembered low part and leaves the run
+run-counts-every-fresh	the run counts every fresh match, also those of slots below 10
+run-of-14	symbol 16 serves the next 14 distances
+run-of-16	symbol 16 serves the next 16 distances
+sixteen-adds-zero	symbol 16 itself adds a low part of zero

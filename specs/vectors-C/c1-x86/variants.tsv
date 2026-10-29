@@ -1,0 +1,32 @@
+variant	arms that settle it	first arms
+type 1 also takes E9	59	opcode-sweep-t1,scan-nested-e9-t1,scan-nested-e9-in-t1,end-n5-p0-e9-t1
+type 2 takes E8 only	59	opcode-sweep-t2,scan-nested-e9-t2,scan-nested-e9-in-t2,end-n5-p0-e9-t2
+EA is taken too	2	opcode-sweep-t1,opcode-sweep-t2
+E7 is taken too	2	opcode-sweep-t1,opcode-sweep-t2
+EB is taken too	2	opcode-sweep-t1,opcode-sweep-t2
+every E0 to EF byte is taken	60	opcode-sweep-t1,opcode-sweep-t2,scan-nested-e9-t1,scan-nested-e9-in-t1
+after an operand the scan moves on by 1	11	scan-nested-e9-t1,scan-unrewritten-then-trigger-t1,scan-unrewritten-then-trigger-t2,scan-unrewritten-then-e9-t2
+the scan skips an operand only when it rewrote it	11	scan-nested-e9-t1,scan-unrewritten-then-trigger-t1,scan-unrewritten-then-trigger-t2,scan-unrewritten-then-e9-t2
+an operand ending on the span's last byte is not taken	35	scan-nested-t1,scan-nested-t2,scan-nested-e9-t2,scan-nested-e9-in-t2
+an operand may run past the span's end	102	scan-all-e8-t1,scan-all-e8-t2,scan-all-e9-t2,end-n1-p0-e8-t1
+offset is the opcode's position, F + p	157	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+offset is the next instruction's, F + p + 5	157	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+offset is F + p + 2	157	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+offset ignores F	146	opcode-sweep-t1,opcode-sweep-t2,end-n5-p0-e8-t1,end-n5-p0-e8-t2
+offset ignores p	130	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+offset is not reduced mod 2^24	22	far-Ffffff3-t1,far-Ffffff3-t2,far-Ffffffa-t1,far-Ffffffa-t2
+offset is reduced mod 2^24 - 1	26	far-Ffffff3-t1,far-Ffffff3-t2,far-Ffffffa-t1,far-Ffffffa-t2
+offset is reduced mod 2^25	22	far-Ffffff3-t1,far-Ffffff3-t2,far-Ffffffa-t1,far-Ffffffa-t2
+only F is reduced mod 2^24, the sum is not	16	far-Ffffff3-t1,far-Ffffff3-t2,far-Ffffffa-t1,far-Ffffffa-t2
+F stops at 2^32 - 1	6	far-F100000005-t1,far-F100000005-t2,far-F100fffff9-t1,far-F100fffff9-t2
+D1 holds for a <= 2^24	14	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D1 holds for a < 2^24 - 1	40	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D1 holds for a < 2^24 - o	40	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D1 adds the offset	157	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+D1 result is kept to 24 bits	46	opcode-sweep-t1,opcode-sweep-t2,scan-nested-t1,scan-nested-t2
+D2 absent	40	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D2 holds for a > 2^32 - o	14	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D2 holds for a >= 2^32 - o - 1	14	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D2 holds for every a with bit 31 set	49	scan-nested-e9-t1,scan-all-e8-t1,scan-all-e8-t2,scan-all-e9-t2
+D2 adds the offset	40	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2
+D2 adds 2^24 - o	40	operands-F0-t1,operands-F0-t2,operands-F1-t1,operands-F1-t2

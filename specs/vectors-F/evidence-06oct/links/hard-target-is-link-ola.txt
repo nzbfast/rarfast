@@ -1,0 +1,17 @@
+arm: hard-target-is-link-ola
+about: a hard link member whose target is a symbolic link member pointing at ../victim/t, -ola
+file: x.rar  102 bytes  sha256 b2f1429bdcfa04ad2dd91793932e56bb06ecb4fec4fd066bbcfbf426ed56348c
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/lnk                                                          OK
+  Extracting  o/h                                                            OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/h                    -> ../victim/t   (mtime the member's)
+  link  o/lnk                  -> ../victim/t   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

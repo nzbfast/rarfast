@@ -1,0 +1,7 @@
+case	reading	failure	size:SHA-256 of each member it gives
+length-in-one-byte	record-byte-plus-6	no failure	12009:e65a707730b181e4d79eff15cfd48332f840bc23bcced08d10fa8d807ff8c875
+length-in-one-byte	record-byte-plus-8	no failure	11705:f89b2094aab06fbb1cfd782892cfac10879b573baa97823016fd2e93a98016c1
+length-in-two-bytes	record-word-8-bits	fails: a PPM block	-
+length-in-first-byte	record-short-plus-0	no failure	24012:8b97f9dafd799ff074caa58a9f889d25ef1eb8d07095a72872e453c123ae6869
+length-in-first-byte	record-short-plus-2	no failure	23708:629a240add37094d77c895936859191b6609e0cf255eb193149de76149bc3f54
+short-record-in-two-bytes	record-word-8-bits	no failure	24012:824a778eb192a0a05430f75d5bdf8eec201ac43d943eee05170868609b9835ec

@@ -1,0 +1,6 @@
+Copies of the specs/vectors-K tables the crypto lib tests include (the
+unit vectors of spec K 5.1 and the zero byte rows of SPEC-API 4.5, each
+in its macOS and its Linux form, and the one small RAR 5 archive the zero
+byte table names), kept inside the crate so a vendored copy of
+crates/rarkit alone builds and runs its lib tests. `make mirror-check`
+must fail if any of them drifts from specs/.

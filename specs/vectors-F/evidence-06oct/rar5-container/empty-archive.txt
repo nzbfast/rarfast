@@ -1,0 +1,22 @@
+arm: empty-archive
+about: signature, main header and end block: no member
+file: x.rar  24 bytes  sha256 77fc6f18bc8f19e9715f149ea970c347547a7afa47ab8da539437a9a5a4b94e2
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+$ unrar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract
+$ unrar p -inul -p- x.rar
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5
+$ rar t -p- x.rar
+exit 10
+  Testing archive x.rar
+  No files to extract

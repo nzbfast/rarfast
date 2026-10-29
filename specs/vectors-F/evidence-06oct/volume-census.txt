@@ -1,0 +1,71 @@
+RAR 1.3 checksum field of a fragment that continues
+         3  version 13, clear: a 16 bit field (not compared)
+RAR 1.3 continues-from flag
+         3  on the first file header of a volume
+RAR 1.3 continues-into flag
+         3  on the last file header of a volume
+RAR 1.3 fragment header against the previous fragment's
+         3  name equal, unpacked size equal, other fields equal
+RAR 1.3 volume flag in the main (archive) header
+         4  set
+RAR 1.5 to 4 checksum field of a LAST fragment, stored clear member
+         2  equals the CRC32 of the whole member
+RAR 1.5 to 4 checksum field of a fragment that continues
+         5  version 15, clear: is FFFFFFFF
+        10  version 20, clear: equals the CRC32 of this fragment's packed bytes
+        14  version 29, clear: equals the CRC32 of this fragment's packed bytes
+         5  version 29, encrypted: equals the CRC32 of this fragment's packed bytes
+RAR 1.5 to 4 continues-from flag
+        34  on the first file header of a volume
+RAR 1.5 to 4 continues-into flag
+        34  on the last file header of a volume
+RAR 1.5 to 4 digit width of partN names
+         8  [1]
+RAR 1.5 to 4 end block
+        15  absent
+        12  next flag clear, last volume
+        23  next flag set, not last
+RAR 1.5 to 4 end block volume number
+        35  equals the index counted from 0
+RAR 1.5 to 4 fragment header against the previous fragment's
+        34  name equal, unpacked size equal, other fields equal
+RAR 1.5 to 4 main flag 0x0010
+        26  clear, named rNN
+        24  set, named partN
+RAR 1.5 to 4 main flag 0x0100
+         4  clear, first volume
+        34  clear, later volume
+        12  set, first volume
+RAR 1.5 to 4 volume flag in the main (archive) header
+        50  set
+RAR 5 checksum field of a LAST fragment, stored clear member
+         4  equals the CRC32 of the whole member
+RAR 5 checksum field of a fragment that continues
+        14  version 50, clear: equals the CRC32 of this fragment's packed bytes
+         2  version 50, encrypted: equals the CRC32 of this fragment's packed bytes
+RAR 5 continues-from flag
+        16  on the first file header of a volume
+RAR 5 continues-into flag
+        16  on the last file header of a volume
+RAR 5 digit width of partN names
+         6  [1]
+RAR 5 end flag 0x0001
+         6  clear, last volume
+        16  set, not last
+RAR 5 fragment header against the previous fragment's
+        16  name equal, unpacked size equal, other fields equal
+RAR 5 volume flag in the main (archive) header
+        22  set
+RAR 5 volume number field
+         6  absent in volume 1
+        16  equals the volume's index counted from 0
+sets
+         1  RAR 1.3, named rNN, 4 volumes
+         1  RAR 1.5 to 4, named partN, 2 volumes
+         6  RAR 1.5 to 4, named partN, 3 volumes
+         1  RAR 1.5 to 4, named partN, 4 volumes
+         1  RAR 1.5 to 4, named rNN, 2 volumes
+         4  RAR 1.5 to 4, named rNN, 3 volumes
+         3  RAR 1.5 to 4, named rNN, 4 volumes
+         2  RAR 5, named partN, 3 volumes
+         4  RAR 5, named partN, 4 volumes

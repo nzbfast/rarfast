@@ -1,0 +1,98 @@
+arm: cut-in-data
+about: the file is cut three bytes before the end of member c's data
+file: x.rar  154 bytes  sha256 d67c9644a6876053c53519a056878ec092605f4737ab4b8b2dbee89e8a8331d0
+$ unrar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+stderr:
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         48%  OK
+  Testing     b.txt                                                         85%  OK
+  Testing     c.txt                                                        100%
+  Total errors: 2
+stderr:
+  c.txt                - checksum error
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 23 bytes, b'alpha\nbravo bravo\ncharl'
+$ rar lt -p- x.rar
+exit 1
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+stderr:
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         48%  OK
+  Testing     b.txt                                                         85%  OK
+  Testing     c.txt                                                        100%
+  Total errors: 2
+stderr:
+  c.txt                - checksum error
+  Unexpected end of archive

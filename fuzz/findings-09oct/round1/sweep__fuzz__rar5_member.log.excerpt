@@ -1,0 +1,161 @@
++ ~/rarkit-runs/fuzz6-09oct/fuzz/target/aarch64-apple-darwin/release/rar5_member ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__rar5_member -max_total_time=5400 -artifact_prefix=~/rarkit-runs/fuzz6-09oct-out.noindex/artifacts/fuzz__rar5_member/ -print_final_stats=1 -timeout=60 -rss_limit_mb=2048 -max_len=65536 -print_pcs=0
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 1668656863
+INFO: Loaded 1 modules   (252977 inline 8-bit counters): 252977 [0x1031e1bb0, 0x10321f7e1), 
+INFO: Loaded 1 PC tables (252977 PCs): 252977 [0x10321f7e8,0x1035fbaf8), 
+INFO:        5 files found in ~/rarkit-runs/fuzz6-09oct-out.noindex/corpus/fuzz__rar5_member
+INFO: seed corpus: files: 5 min: 14b max: 194b total: 438b rss: 50Mb
+#9	INITED cov: 1167 ft: 1292 corp: 5/438b exec/s: 0 rss: 73Mb
+#10	NEW    cov: 1180 ft: 1319 corp: 6/460b lim: 194 exec/s: 0 rss: 75Mb L: 22/194 MS: 1 CMP- DE: "\001:"-
+#21	NEW    cov: 1180 ft: 1324 corp: 7/546b lim: 194 exec/s: 0 rss: 90Mb L: 86/194 MS: 1 InsertRepeatedBytes-
+#22	NEW    cov: 1187 ft: 1380 corp: 8/740b lim: 194 exec/s: 0 rss: 94Mb L: 194/194 MS: 1 CopyPart-
+#24	NEW    cov: 1187 ft: 1391 corp: 9/934b lim: 194 exec/s: 0 rss: 103Mb L: 194/194 MS: 2 CopyPart-ChangeByte-
+#26	NEW    cov: 1200 ft: 1429 corp: 10/1128b lim: 194 exec/s: 0 rss: 113Mb L: 194/194 MS: 2 ChangeBinInt-ChangeByte-
+	NEW_FUNC[1/1]: 0x000102fc5b30 in _RNvMNtNtCs3c0TN655ZCG_6rarkit7rar5_lz5applyNtB4_6Rar5Lz11walk_failed+0x0 (rar5_member:arm64+0x100d11b30)
+#27	NEW    cov: 1209 ft: 1473 corp: 11/1322b lim: 194 exec/s: 0 rss: 115Mb L: 194/194 MS: 1 ShuffleBytes-
+#28	NEW    cov: 1211 ft: 1476 corp: 12/1487b lim: 194 exec/s: 0 rss: 117Mb L: 165/194 MS: 1 EraseBytes-
+#29	NEW    cov: 1215 ft: 1489 corp: 13/1681b lim: 194 exec/s: 0 rss: 118Mb L: 194/194 MS: 1 CopyPart-
+#35	NEW    cov: 1217 ft: 1503 corp: 14/1875b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 ChangeBinInt-
+#51	NEW    cov: 1221 ft: 1529 corp: 15/2069b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 CrossOver-
+#67	NEW    cov: 1221 ft: 1533 corp: 16/2263b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 ChangeBit-
+	NEW_FUNC[1/1]: 0x0001029aa4d4 in _RNvMNtNtCs3c0TN655ZCG_6rarkit7rar5_lz4bitsNtB2_9BitReader4seek+0x0 (rar5_member:arm64+0x1006f64d4)
+#68	NEW    cov: 1246 ft: 1663 corp: 17/2457b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 CopyPart-
+#75	NEW    cov: 1246 ft: 1672 corp: 18/2651b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 2 ChangeByte-ChangeBit-
+#76	NEW    cov: 1256 ft: 1746 corp: 19/2845b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 CrossOver-
+#93	REDUCE cov: 1256 ft: 1746 corp: 19/2842b lim: 194 exec/s: 0 rss: 121Mb L: 83/194 MS: 2 ChangeBit-EraseBytes-
+#94	NEW    cov: 1256 ft: 1748 corp: 20/3036b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 ChangeBinInt-
+#95	NEW    cov: 1256 ft: 1749 corp: 21/3230b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 ChangeBit-
+#97	NEW    cov: 1256 ft: 1757 corp: 22/3424b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 2 ChangeBit-ShuffleBytes-
+#103	NEW    cov: 1259 ft: 1763 corp: 23/3618b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 CopyPart-
+#104	NEW    cov: 1276 ft: 1815 corp: 24/3812b lim: 194 exec/s: 0 rss: 121Mb L: 194/194 MS: 1 CopyPart-
+#111	NEW    cov: 1276 ft: 1816 corp: 25/4006b lim: 194 exec/s: 0 rss: 124Mb L: 194/194 MS: 2 ChangeByte-ChangeBit-
+#115	NEW    cov: 1279 ft: 1819 corp: 26/4200b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 4 ChangeByte-PersAutoDict-ChangeByte-CMP- DE: "\001:"-"\020\000\000\000\000\000\000\000"-
+#133	REDUCE cov: 1279 ft: 1819 corp: 26/4162b lim: 194 exec/s: 0 rss: 125Mb L: 45/194 MS: 3 InsertByte-InsertByte-EraseBytes-
+#179	NEW    cov: 1285 ft: 1826 corp: 27/4356b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 1 ChangeBit-
+#186	NEW    cov: 1285 ft: 1827 corp: 28/4550b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 2 ChangeByte-ChangeByte-
+#187	NEW    cov: 1285 ft: 1834 corp: 29/4744b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 1 ChangeBit-
+#188	NEW    cov: 1285 ft: 1835 corp: 30/4938b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 1 ChangeBit-
+#195	NEW    cov: 1285 ft: 1837 corp: 31/5132b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 2 ChangeBinInt-CopyPart-
+#206	NEW    cov: 1285 ft: 1839 corp: 32/5326b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 1 ChangeByte-
+#209	NEW    cov: 1285 ft: 1841 corp: 33/5520b lim: 194 exec/s: 0 rss: 125Mb L: 194/194 MS: 3 ChangeBit-CopyPart-ChangeBinInt-
+[... the middle of this log is left out: 7712 lines in all, sha256 72463c644be5e7f1dbf979fcc51c023fef5fc9d4618a72ea81dd755ee492a522 ...]
+"\017\000" # Uses: 2266
+"\003\026\000\000\000\000\000\000" # Uses: 2289
+"\000:" # Uses: 2365
+"5\000" # Uses: 2186
+"\001\000\000\000\000\000\000l" # Uses: 2244
+"\001\037" # Uses: 2269
+"\030\000\000\000" # Uses: 2265
+"\021\000\000\000" # Uses: 2210
+"`\377\377\377" # Uses: 2304
+"6\000\000\000" # Uses: 2166
+"\372\307\001\000\000\000\000\000" # Uses: 2161
+"\377\377\377\377\377\377\377{" # Uses: 2216
+"l\000\000\000\000\000\000\000" # Uses: 2242
+"\000\034" # Uses: 2084
+"\000\016" # Uses: 2192
+"\001\000\000\000\000\000\010v" # Uses: 2045
+"\001\000\000\000\000\000\036\306" # Uses: 2067
+"\277\003\000\000\000\000\000\000" # Uses: 2030
+"\377\377\377+" # Uses: 2141
+"\001\000\000\000\000\000\000|" # Uses: 2087
+"\377 " # Uses: 2032
+"\000\000\000\021" # Uses: 1983
+"\011E\000\200" # Uses: 1985
+"\276\000\000\000\000\000\000\000" # Uses: 2031
+"\000%" # Uses: 2014
+"\025\000\000\000" # Uses: 1951
+"\000\000\000\003" # Uses: 1915
+"9\000" # Uses: 1871
+"\015\000" # Uses: 1948
+"\005\000\000\000" # Uses: 1912
+"\032\000\000\000\000\000\000\000" # Uses: 1878
+"\000\003" # Uses: 1846
+"\001\000\000%" # Uses: 1799
+"K\222$I\222$I\002" # Uses: 1799
+"\001\000\000\000\000\000\005\367" # Uses: 1855
+"20\001\000\000\000\000\000" # Uses: 1824
+"\002\027" # Uses: 1707
+"\000\002" # Uses: 1708
+"\000\000\000\000\000\000\000p" # Uses: 1678
+"\001\000\000\000\000\000\000\031" # Uses: 1727
+"/\000" # Uses: 1638
+"\377$" # Uses: 1590
+"?\000" # Uses: 1724
+"\3778" # Uses: 1661
+"\001\000\000\000\000\000\000\211" # Uses: 1633
+"\000\036" # Uses: 1568
+"\007\006\000\200" # Uses: 1602
+"!\000\000\000" # Uses: 1555
+"\000\000\000\011" # Uses: 1602
+"?\000\020\000\000\000\000\000" # Uses: 1516
+"\377\377\377\377\377\377\377\000" # Uses: 1587
+"\000\000\000\034" # Uses: 1456
+"~\326" # Uses: 1503
+"\000\032" # Uses: 1540
+"\217\235\001\000\000\000\000\000" # Uses: 1422
+"\377<" # Uses: 1415
+"\001\000A\301" # Uses: 1370
+"\377\377\377\377\377\006\244\215" # Uses: 1391
+"\000\000\000*" # Uses: 1420
+"Y\000\000\000\000\000\000\000" # Uses: 1311
+"'\000\000\000" # Uses: 1283
+"\001\000\000\000\000\000\000 " # Uses: 1273
+"\000\000\000\000\000\000\000\016" # Uses: 1267
+"\000\033" # Uses: 1239
+"\377\377\377\377\377\377\377\377" # Uses: 1293
+" \000" # Uses: 1267
+"\031\000" # Uses: 1273
+"\000\000\000\000\000\000\000\033" # Uses: 1246
+"\004\377\377\377" # Uses: 1200
+"3\000\000\000" # Uses: 1246
+"\0007" # Uses: 1171
+"m\303\006\000\000\000\000\000" # Uses: 1166
+"G\014\000\000\000\000\000\000" # Uses: 1124
+"\001\000\000\000\000\000\000\017" # Uses: 1136
+"\011\000" # Uses: 1084
+"\001#" # Uses: 1152
+"\001\000\000\000\000\000\001X" # Uses: 1000
+"+\000\000\000\000\000\000\000" # Uses: 1019
+"\001\000\002\000" # Uses: 892
+"\001\000\000\000\000\000\000\021" # Uses: 856
+"\023\000" # Uses: 838
+"\001\000\000\004" # Uses: 833
+"\254T\004\000\000\000\000\000" # Uses: 843
+"\000\000\000\000\000\000\000Y" # Uses: 807
+"\001\001\001\003" # Uses: 792
+"\000\000\000\000\000\000\002\032" # Uses: 752
+"I\222$I\222$I\002" # Uses: 795
+"\377\000\011\006" # Uses: 647
+"\200\240" # Uses: 649
+"d\356\010\000\000\000\000\000" # Uses: 664
+"\377\377\377\015" # Uses: 594
+"\010\000\000\200" # Uses: 661
+"V\001\000\000\000\000\000\000" # Uses: 627
+"j\000\000\000\000\000\000\000" # Uses: 525
+"\221$I\222$I\222\004" # Uses: 473
+"\270\001\000\000\000\000\000\000" # Uses: 461
+"\231\005\000\000\000\000\000\000" # Uses: 377
+"\000\000\000\000\000\000\000h" # Uses: 370
+"\033\003\000\000\000\000\000\000" # Uses: 378
+"\376\377\377_" # Uses: 378
+"\001\000\001\001" # Uses: 355
+"\312\001\000\000\000\000\000\000" # Uses: 333
+")\000" # Uses: 360
+"\000\030" # Uses: 334
+"\377\377\377\377\377\377\377\332" # Uses: 309
+"\001\000\000\000\000\000\0000" # Uses: 242
+"\001\000\000\000\000\000Z\201" # Uses: 246
+"\223$I\222$I\222\004" # Uses: 196
+"\022\000\000\000\000\000\000\000" # Uses: 167
+"\000\000\000\000\000\000\000t" # Uses: 111
+"\001\002" # Uses: 112
+"\001\000\000\016" # Uses: 50
+"\000\200\003\000" # Uses: 13
+###### End of recommended dictionary. ######
+Done 8228074 runs in 5401 second(s)
+stat::number_of_executed_units: 8228074
+stat::average_exec_per_sec:     1523
+stat::new_units_added:          7341
+stat::slowest_unit_time_sec:    0
+stat::peak_rss_mb:              200

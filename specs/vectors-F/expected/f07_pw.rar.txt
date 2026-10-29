@@ -1,0 +1,12 @@
+== f07_pw.rar (133 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=10   crc=e5b59233 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x0(-)
+      extra LOCATOR flags=0x1 quick_open_offset=0
+  00000017: FILE       hsize=81   crc=862710d9 flags=0x0003(EXTRA|DATA) data=16
+      name=b'hello.txt' fflags=0x6(MTIME|CRC32) unp=16 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=0a7623d7
+      extra CRYPT ver=0 flags=0x3(HAS_CHECK_VALUE) kdf=15 salt=19e603bec30d824d88c0cec6160b722c iv=9e4c66b3b976373a925e13a5879def76 check=3c6ea992492ef490637048a0
+  0000007d: END        hsize=3    crc=5156771d flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x0(LAST)

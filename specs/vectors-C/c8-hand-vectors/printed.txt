@@ -1,0 +1,2 @@
+writer direction undoes reader direction on 180143 cases
+83 arms, 0 not as stated; 0 variants, 0 settled by no arm

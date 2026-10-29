@@ -1,0 +1,20 @@
+arm: through-dir-member
+about: a link dl3 to ../victim, then DIRECTORY members dl3 and dl3/newdir
+file: x.rar  117 bytes  sha256 48fa84ecbbf8deb2bbefda3a176bb5deed9061b147eccd6fc544e2fa9b956c45
+$ unrar x -p- x.rar o/
+exit 1
+  Extracting from x.rar
+  Extracting  o/dl3
+  Creating    o/dl3                                                     OK
+  Creating    o/dl3/newdir                                              OK
+  Total errors: 1
+stderr:
+  Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  dir   o/dl3
+  dir   o/dl3/newdir
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

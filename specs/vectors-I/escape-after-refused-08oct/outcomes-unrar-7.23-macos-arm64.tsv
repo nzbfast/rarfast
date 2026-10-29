@@ -1,0 +1,24 @@
+program	archive	test exit	print m1 exit	m1 bytes printed	m1 as coded	print all exit	all bytes printed
+unrar-7.23-macos-arm64	z-accepted-sets-77.nobit-coded-2.rar	3	3	1962	no	3	2818
+unrar-7.23-macos-arm64	z-accepted-sets-77.nobit-coded-77.rar	0	0	1962	YES	0	2818
+unrar-7.23-macos-arm64	z-accepted-sets-77.control-bit-sent-5.rar	0	0	1962	YES	0	2818
+unrar-7.23-macos-arm64	a-owes300.nobit-coded-2.rar	3	3	1962	no	3	1962
+unrar-7.23-macos-arm64	a-owes300.nobit-coded-77.rar	3	0	1962	YES	3	1962
+unrar-7.23-macos-arm64	a-owes300.control-bit-sent-5.rar	3	0	1962	YES	3	1962
+unrar-7.23-macos-arm64	a-owes0.nobit-coded-2.rar	3	3	1962	no	3	1962
+unrar-7.23-macos-arm64	a-owes0.nobit-coded-77.rar	0	0	1962	YES	0	1962
+unrar-7.23-macos-arm64	a-owes0.control-bit-sent-5.rar	0	0	1962	YES	0	1962
+unrar-7.23-macos-arm64	b-owes300.nobit-coded-2.rar	3	0	1962	YES	3	1962
+unrar-7.23-macos-arm64	b-owes300.nobit-coded-77.rar	3	3	902	no	3	902
+unrar-7.23-macos-arm64	b-owes300.control-bit-sent-5.rar	3	0	1962	YES	3	1962
+unrar-7.23-macos-arm64	b-owes0.nobit-coded-2.rar	0	0	1962	YES	0	1962
+unrar-7.23-macos-arm64	b-owes0.nobit-coded-77.rar	3	3	902	no	3	902
+unrar-7.23-macos-arm64	b-owes0.control-bit-sent-5.rar	0	0	1962	YES	0	1962
+unrar-7.23-macos-arm64	c-short.nobit-coded-2.rar	3	3	1962	no	3	2818
+unrar-7.23-macos-arm64	c-short.nobit-coded-33.rar	3	3	1962	no	3	2818
+unrar-7.23-macos-arm64	c-short.nobit-coded-77.rar	0	0	1962	YES	0	2818
+unrar-7.23-macos-arm64	c-short.control-bit-sent-5.rar	0	0	1962	YES	0	2818
+unrar-7.23-macos-arm64	c-whole.nobit-coded-2.rar	3	3	1962	no	3	2818
+unrar-7.23-macos-arm64	c-whole.nobit-coded-33.rar	3	3	1962	no	3	2818
+unrar-7.23-macos-arm64	c-whole.nobit-coded-77.rar	0	0	1962	YES	0	2818
+unrar-7.23-macos-arm64	c-whole.control-bit-sent-5.rar	0	0	1962	YES	0	2818

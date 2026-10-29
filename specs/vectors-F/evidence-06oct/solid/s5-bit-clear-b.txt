@@ -1,0 +1,122 @@
+arm: s5-bit-clear-b
+about: b's solid bit cleared, the archive flag as written [archive flags 0x4; a.txt clear method 3 packed 2017, b.txt clear method 3 packed 108, c.txt solid method 3 packed 116, d.txt solid method 3 packed 82]
+file: x.rar  2475 bytes  sha256 8c1ba5994be94fba4855f3b4d1bc58f8cb54ebc24718d665fc303665082c3b21
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         84%  OK
+  Testing     b.txt                                                         89%
+  Testing     c.txt                                                         95%
+  Testing     d.txt                                                        100%
+  Total errors: 3
+stderr:
+  b.txt                - checksum error
+  c.txt                - checksum error
+  d.txt                - checksum error
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 6000 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.txt
+          Type: File
+          Size: 6000
+   Packed size: 2017
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.txt
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: d.txt
+          Type: File
+          Size: 4100
+   Packed size: 82
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: CA941485
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         84%  OK
+  Testing     b.txt                                                         89%
+  Testing     c.txt                                                         95%
+  Testing     d.txt                                                        100%
+  Total errors: 3
+stderr:
+  b.txt                - checksum error
+  c.txt                - checksum error
+  d.txt                - checksum error

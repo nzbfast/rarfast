@@ -1,0 +1,98 @@
+arm: cut-in-header
+about: the file is cut ten bytes into member c's header
+file: x.rar  122 bytes  sha256 e34d940faff726dfa8820efe07a34d903b5cade3f465608e477424b6e07561b8
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name:
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 1979-11-30 00:00:00,000000000
+    Attributes: ?
+         CRC32: 00000000
+   Compression: RAR 1.5(v0) -m208 -md=64k
+stderr:
+   - the file header is corrupt
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         63%  OK
+  Testing     b.txt                                                        100%  OK
+  Total errors: 5
+stderr:
+   - the file header is corrupt
+  Unknown method in
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 18 bytes, b'alpha\nbravo bravo\n'
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name:
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 1979-11-30 00:00:00,000000000
+    Attributes: ?
+         CRC32: 00000000
+   Compression: RAR 1.5(v0) -m208 -md=64k
+stderr:
+   - the file header is corrupt
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         63%  OK
+  Testing     b.txt                                                        100%  OK
+  Total errors: 5
+stderr:
+   - the file header is corrupt
+  Unknown method in
+  Unexpected end of archive

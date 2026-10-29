@@ -1,0 +1,42 @@
+program	locale	archive	lb exit	t exit	x exit	lb names (hex)	files made (hex)	a.txt's bytes	the member's bytes	c.txt's bytes
+unrar-7.23-macos-arm64	en_US.UTF-8	control-ascii.rar	0	0	0	612e747874 622e747874 632e747874	612e747874 622e747874 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	control-ascii.alone.rar	0	0	0	622e747874	622e747874	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	control-utf8.rar	0	0	0	612e747874 62c3a92e747874 632e747874	612e747874 62c3a92e747874 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	control-utf8.alone.rar	0	0	0	62c3a92e747874	62c3a92e747874	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	empty.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	empty.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	one-zero-byte.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	one-zero-byte.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	zero-then-abc.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	zero-then-abc.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	a-zero-b.rar	0	0	0	612e747874 61 632e747874	61 612e747874 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	a-zero-b.alone.rar	0	0	0	61	61	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first-host0.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first-host0.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first-host2.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-first-host2.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-inside.rar	0	0	0	612e747874 62 632e747874	612e747874 62 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-inside.alone.rar	0	0	0	62	62	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-last.rar	0	0	0	612e747874 622e7478 632e747874	612e747874 622e7478 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	latin1-e9-last.alone.rar	0	0	0	622e7478	622e7478	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	utf8-cut-short.rar	0	0	0	612e747874 62 632e747874	612e747874 62 632e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	utf8-cut-short.alone.rar	0	0	0	62	62	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-control.rar	0	0	0	612e747874 78792e74 632e747874	612e747874 632e747874 78792e74	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-control.alone.rar	0	0	0	78792e74	78792e74	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-first-unit-zero.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-first-unit-zero.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-first-unit-zero-by-selector-2.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-first-unit-zero-by-selector-2.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-no-encoded-bytes.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-no-encoded-bytes.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-high-byte-only.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-high-byte-only.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-no-zero-at-all.rar	0	0	0	612e747874 66622e747874 632e747874	612e747874 632e747874 66622e747874	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-no-zero-at-all.alone.rar	0	0	0	66622e747874	66622e747874	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-empty-fallback.rar	0	0	0	612e747874 78792e74 632e747874	612e747874 632e747874 78792e74	1	1	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-empty-fallback.alone.rar	0	0	0	78792e74	78792e74	0	1	0
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-empty-fallback-first-unit-zero.rar	0	0	0	612e747874 632e747874	612e747874 632e747874	1	0	1
+unrar-7.23-macos-arm64	en_US.UTF-8	two-part-empty-fallback-first-unit-zero.alone.rar	0	10	10	-	-	0	0	0
+unrar-7.23-macos-arm64	en_US.UTF-8	empty-twice.alone.rar	0	10	10	-	-	0	0	0

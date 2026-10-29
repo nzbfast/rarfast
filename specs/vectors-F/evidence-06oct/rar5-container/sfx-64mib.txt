@@ -1,0 +1,22 @@
+arm: sfx-64mib
+about: 67,108,871 bytes ahead of the signature
+file: x.rar  67109008 bytes  sha256 957905584dcd4e57bc9327fdcdea5b4d7e683fb3a599459f0c451aabcb0112f7
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar

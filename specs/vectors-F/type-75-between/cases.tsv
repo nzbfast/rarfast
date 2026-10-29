@@ -1,0 +1,36 @@
+archive	sha256	what
+control.rar	bdc0c6898d5bbbb76b06418e67b60e89cd9f71248ef9852e2b9d1425a100b391	no block of type 0x75
+9-bytes-flags-0000.between-a-b.rar	755557acaad7a5baa1a55a878e521b91db3ee5aa37f4702791d6a9b5779cea25	a 9 byte block, flags 0x0000, between a and b
+9-bytes-flags-4000.between-a-b.rar	a42261356dd6ee13909e4abef6338c31b4c734ec308356907d53404ae17eeaaa	a 9 byte block, flags 0x4000, between a and b
+7-bytes.between-a-b.rar	a6359fd5fd872809e4e2d0e57abe51c269ec7d57cbe9a8106f780b3f42eac11c	a 7 byte block (no body), between a and b
+9-bytes.before-a.rar	ac52f4f399525a25253fc71ae202d068bd6a82157d26d594f9fce254d249e05b	a 9 byte block between the main header and a
+9-bytes.between-b-c.rar	21d7e267d217224170986cdb9096699bcab117a13a3ff63c601ac6db20aa8ad2	a 9 byte block between b and c
+9-bytes.after-c.rar	e20f555c816ee359adcb65fc3f3caf200b52df874a1d7ed84550aaaab54e31f2	a 9 byte block between c and the end block
+9-bytes.twice.rar	0517ab0d59a2d43ea273df08ef07497a31500211dad6158f3be5f9bd249277cf	a 9 byte block between a and b and another between b and c
+9-bytes.bad-header-crc.rar	39e87da263a042a543e45e7680d09f93365943438b043c069cb04854bbbebd36	a 9 byte block whose header checksum is wrong, between a and b
+13-bytes-fields.between-a-b.rar	bc4d4b94bd34d5f164319ea4e6bd4aa6459327c917d167580c3036847b770cbe	a 13 byte block holding the six comment fields for an empty text
+whole-comment.between-a-b.rar	899652a7c2940c03c34a26bf12c6f9290ca5c3822ec73447fcea835a0ba9d135	a whole stored comment of 5 bytes, its text inside the header size
+whole-comment.before-a.rar	e714a974bb2d806d20274ecab4c2c527c2a5038b607642e28d433e7de6d21c65	the same between the main header and a
+whole-comment.bad-header-crc.rar	bd2b8c2066a519e8960c5be3ce15c1ea9b1feb676a5d65c72e3ec62cab919104	the same between a and b with a wrong header checksum
+13-bytes-fields.bad-header-crc.rar	290c0605e4f3950672674733505344f16c33fd8fa29c51ca380aa3a60e7921dc	the 13 byte block with a wrong header checksum
+13-bytes-other-fields.between-a-b.rar	4bc923c09478ca137dc1d841c30a3f5a0bbab06394d30e9b9144e65e769540b1	a 13 byte block whose six field bytes are ff ff 63 99 ff ff, its checksum right
+13-bytes-fields.before-a.rar	699c8983e61dfb6b0ce081870b9ee2652f2a332e45d4c0f0007b55a59fb298c6	the 13 byte block between the main header and a
+13-bytes-fields.twice.rar	54a5d55ffd85a899e439114e288342ff24cbf1b562b3d806a9b62ece92c2fa82	the 13 byte block between a and b and again between b and c
+whole-comment-crc-of-fields.between-a-b.rar	81ea42c538712fe36a13c3275a2349d0302da1af20c910a7805fa3a4619bc4c9	the whole comment of 5 bytes, its header checksum covering the eleven bytes after it and not the text
+whole-comment-crc-of-fields.bad-header-crc.rar	338f0d9aee79fa64b1d6d9c5fa0d609eb1ed3989fe9dafcd5e94b75ee1e46dd2	the same with that checksum wrong
+long-comment-crc-of-fields.between-a-b.rar	780e0d4f14008a9623d7ee78ecdc6d7451d2263f275a6f0892fbdd2a117280d5	a comment of 300 bytes laid out the same way
+fields-crc-data-flag-size-5-data.between-a-b.rar	1e871e0fd9cdec509827fc19dfb50b63a466104150e8e7f7fbd98a917c20a8aa	17 byte header: flags 0x8000, an additional size of 5, the six fields, checksum over the eleven bytes after it; five data bytes follow
+data-flag-size-5-no-data.between-a-b.rar	51d41c21712904803195fb23aed8346b9141e810d78cacf4acd776e5b265eb07	flags 0x8000, an additional size of 5 in an 11 byte header, and NO data bytes after it
+data-flag-size-0.between-a-b.rar	229efd73100fc4ff7300db410fd7e2d9ff1313ab45e02290224e4961c3e4fb2c	flags 0x8000, an additional size of 0, no data
+data-flag-size-5-data.between-a-b.rar	d5ef652bba63b61520a103ae7318c6accdc49f1660523a62061806b44fab571f	flags 0x8000, an additional size of 5 and five data bytes
+data-flag-c000-size-5-data.between-a-b.rar	d9e1cbc9674ba8687a2d0277ab033fda72a36deecd1df0e1828cedd0ec0cc838	flags 0xC000, an additional size of 5 and five data bytes
+data-flag-size-5-data.after-c.rar	398f61ba30ce470c804cd84bc860b93c7a1e8577d8d72040cca36bf76ba958c3	flags 0x8000, an additional size of 5 and five data bytes, between c and the end block
+size-field-0.between-a-b.rar	468a3889bfa4a63b811224c25b2a8ad52587b8c05a11a49d54121c282456c416	a 7 byte block whose header size field says 0, its checksum over its 7 bytes right
+size-field-1.between-a-b.rar	b49ac7f033c8fe516e3e5cee19becc42612140eedc302ebea98717ad40957b47	a 7 byte block whose header size field says 1, its checksum over its 7 bytes right
+size-field-3.between-a-b.rar	e35cbc45157f23dcdf6a3656b477f68bf58063f93c6159b1c29e5c796222ed94	a 7 byte block whose header size field says 3, its checksum over its 7 bytes right
+size-field-6.between-a-b.rar	8f14a3ec3c2f28b65af6e43f2ee6a165f56ccbe8327f3973397a3e9a2723d943	a 7 byte block whose header size field says 6, its checksum over its 7 bytes right
+size-field-6.after-c.rar	103f8e35f26052b70e8a1bdb439024dec3febe53174de13729934188ccf0e9df	the same block of size field 6 between c and the end block
+size-field-20.between-a-b.rar	b72278ba47b29067417eb86e60a3519ed27e0578803ed1aa5a0a56497b239250	a 7 byte block whose header size field says 20, so that it reaches 13 bytes into b's header
+size-field-past-end.between-a-b.rar	f85cfbb674484b21932edf09b349a159b5df6edfed606a9a7bbf05a8ea0a4042	a 7 byte block whose header size field says 0xfff0, past the end of the file
+size-field-past-end.after-c.rar	7c38455e74cf727700bff93ed9f819c6c63e7fe7f89fdcf6ccc42fcb5b841296	the same block between c and the end block
+40-bytes-bad-crc.between-a-b.rar	76f6e98c9cb088c8f3a41fbef757a655c8481acc8d1378ea9ce0f23e7986a35b	a 40 byte block of 33 body bytes with a wrong header checksum

@@ -1,0 +1,165 @@
+[package]
+name = "rarkit-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+# `test-support` for `probe::set_offload_floor`: every vector in this
+# repository is below the engine's measured offload floor, so a target
+# that did not lower it would drive the concurrent driver's inline path
+# and never its workers.
+rarkit = { path = "..", features = ["bench-internals", "test-support"] }
+# The seeded input makers shared with the tests.
+rarkit-testdata = { path = "../../rarkit-testdata" }
+
+# Not a member of the rarkit workspace: built by `cargo fuzz` on nightly.
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "rar3_filter_record"
+path = "fuzz_targets/rar3_filter_record.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_filter_transforms"
+path = "fuzz_targets/rar3_filter_transforms.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "ppm_block"
+path = "fuzz_targets/ppm_block.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "ppm_member"
+path = "fuzz_targets/ppm_member.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rr5_scan"
+path = "fuzz_targets/rr5_scan.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rev_parse"
+path = "fuzz_targets/rev_parse.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "legacy_rr_scan"
+path = "fuzz_targets/legacy_rr_scan.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "blake2sp_chunking"
+path = "fuzz_targets/blake2sp_chunking.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "f_open_any"
+path = "fuzz_targets/f_open_any.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "f_extract_any"
+path = "fuzz_targets/f_extract_any.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "f_extract_parallel"
+path = "fuzz_targets/f_extract_parallel.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "f_volumes_any"
+path = "fuzz_targets/f_volumes_any.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "f_headers_encrypted"
+path = "fuzz_targets/f_headers_encrypted.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_lz_member"
+path = "fuzz_targets/rar3_lz_member.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_lz_tables"
+path = "fuzz_targets/rar3_lz_tables.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_lz_solid_chain"
+path = "fuzz_targets/rar3_lz_solid_chain.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar15_decode"
+path = "fuzz_targets/rar15_decode.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "rar3_lz_literal_burst"
+path = "fuzz_targets/rar3_lz_literal_burst.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "k_two_lane_cbc"
+path = "fuzz_targets/k_two_lane_cbc.rs"
+test = false
+doc = false
+bench = false
+
+# Small member batches: the concurrent reader at the
+# engine's own offload floor, over many small compressed members, with a
+# fuzzer-chosen batch shape and member team, against the sequential walk.
+[[bin]]
+name = "f_extract_batches"
+path = "fuzz_targets/f_extract_batches.rs"
+test = false
+doc = false
+bench = false

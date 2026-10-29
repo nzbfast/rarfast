@@ -1,0 +1,38 @@
+arm: decoy-rar4
+about: a RAR 1.5 signature and 60 bytes of 0xEE, then the sound archive
+file: x.rar  304 bytes  sha256 4ed3967edefec8a8d2884c94a43749ff444109ecba0cbe48d803c45a2944da19
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5, SFX
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5, SFX
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  No files to extract
+stderr:
+  Unexpected end of archive
+  Main archive header is corrupt
+  Unexpected end of archive

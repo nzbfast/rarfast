@@ -1,0 +1,51 @@
+arm: win-ola
+about: the same archive, unrar x -ola
+file: x.rar  938 bytes  sha256 494c1e4f53bef32fc6c194aef6adab17a133968d8f6da91f70f26df7e32614f3
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                        5%  OK
+  Creating    o/d                                                       OK
+  Extracting  o/w_rel                                                        OK
+  Extracting  o/w_drive                                                      OK
+  Extracting  o/w_drive_fwd                                                  OK
+  Extracting  o/w_up                                                         OK
+  Extracting  o/w_up1                                                        OK
+  Extracting  o/w_root                                                       OK
+  Extracting  o/w_unc                                                        OK
+  Extracting  o/w_slash_abs                                                  OK
+  Extracting  o/w_dir                                                        OK
+  Extracting  o/d/w_up_in                                                    OK
+  Extracting  o/j_abs                                                        OK
+  Extracting  o/j_abs_fwd                                                    OK
+  Extracting  o/j_rel                                                        OK
+  Extracting  o/j_unix_abs                                                   OK
+  Extracting  o/j_victim                                                     OK
+  Extracting  o/j_qq_victim                                                  OK
+  Extracting  o/j_qq_fwd_victim                                              OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  dir   o/d
+  link  o/j_abs                -> C:/x   (mtime the member's)
+  link  o/j_abs_fwd            -> C:/x   (mtime the member's)
+  link  o/j_qq_fwd_victim      -> tmp/spec-f-links-probe-victim   (mtime the member's)
+  link  o/j_qq_victim          -> <VICTIM>   (mtime the member's)
+  link  o/j_rel                -> d   (mtime the member's)
+  link  o/j_unix_abs           -> /etc   (mtime the member's)
+  link  o/j_victim             -> <VICTIM>   (mtime the member's)
+  link  o/w_dir                -> d   (mtime the member's)
+  link  o/w_drive              -> C:/x/a.txt   (mtime the member's)
+  link  o/w_drive_fwd          -> C:/x/a.txt   (mtime the member's)
+  link  o/w_rel                -> a.txt   (mtime the member's)
+  link  o/w_root               -> /abs/a.txt   (mtime the member's)
+  link  o/w_slash_abs          -> /etc/hostname   (mtime the member's)
+  link  o/w_unc                -> //server/share/a.txt   (mtime the member's)
+  link  o/w_up                 -> ../../escape   (mtime the member's)
+  link  o/w_up1                -> ../victim/t   (mtime the member's)
+  link  o/d/w_up_in            -> ../a.txt   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

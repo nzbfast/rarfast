@@ -1,0 +1,5 @@
+# Pinned to the toolchain the engine's main consumer pins (its own
+# rust-toolchain.toml), so the two build with one rustc. Bump in lockstep.
+[toolchain]
+channel = "1.98.0"
+components = ["rustfmt", "clippy"]

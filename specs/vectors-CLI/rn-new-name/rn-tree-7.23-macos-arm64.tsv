@@ -1,0 +1,164 @@
+# members: a.b.txt a.txt noext s/b.txt s/a.txt s/dx s/d/c.txt s/d/a.txt s/d/e/f.dat s/d/e/e/z.txt s/dd.txt/k.bin s/d/e/e s/d/e s/d s/dd.txt s
+arguments	exit	renamed
+a.txt z.txt	0	a.txt>z.txt
+a.txt z	0	a.txt>z
+a.txt *	0	-
+a.txt a.txt	0	-
+a.txt *.bak	0	a.txt>a.bak
+a.txt q/z.txt	0	a.txt>q/z.txt
+a.txt q/*	0	a.txt>q/a.txt
+a.txt q/r/*	0	a.txt>q/r/a.txt
+a.txt q/	0	-
+a.txt q//	0	-
+a.txt /	0	-
+a.txt .	0	-
+a.txt ..	0	-
+a.txt q/.	0	-
+a.txt q/..	0	-
+a.txt q/./z	0	a.txt>q/./z
+a.txt ...	0	a.txt>...
+a.txt z...	0	a.txt>z...
+a.txt .z	0	a.txt>.z
+a.txt ../z	0	a.txt>../z
+a.txt /z	0	a.txt>/z
+a.txt ./z	0	a.txt>./z
+a.txt s	0	a.txt>s
+a.txt noext	0	a.txt>noext
+a.txt s/a.txt	0	a.txt>s/a.txt
+a.txt A.TXT	0	a.txt>A.TXT
+a.txt z\x20y	0	a.txt>z y
+a.txt z\y	0	a.txt>z\y
+a.txt z:y	0	a.txt>z:y
+A.TXT z	0	-
+nosuch z	0	-
+noext *.bak	0	noext>noext.bak
+noext z.*	0	noext>z.
+a.b.txt *.bak	0	a.b.txt>a.bak
+a.b.txt *.*.bak	0	a.b.txt>a.b.bak
+*.txt *.bak	0	a.b.txt>a.bak a.txt>a.bak
+*.txt z	0	a.b.txt>z a.txt>z
+*.txt q/*	0	a.b.txt>q/a.b.txt a.txt>q/a.txt
+*.txt q/*.bak	0	a.b.txt>q/a.bak a.txt>q/a.bak
+*.txt q/	0	-
+* *.bak	0	a.b.txt>a.bak a.txt>a.bak noext>noext.bak s>s.bak
+* x*	0	a.b.txt>xa.b.txt a.txt>xa.txt noext>xnoext s>xs
+* *x	0	a.b.txt>a.b.tx a.txt>a.tx noext>noex s>sx
+s t	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+s t/	0	-
+s t/u	0	s/b.txt>t/u/b.txt s/a.txt>t/u/a.txt s/dx>t/u/dx s/d/c.txt>t/u/d/c.txt s/d/a.txt>t/u/d/a.txt s/d/e/f.dat>t/u/d/e/f.dat s/d/e/e/z.txt>t/u/d/e/e/z.txt s/dd.txt/k.bin>t/u/dd.txt/k.bin s/d/e/e>t/u/d/e/e s/d/e>t/u/d/e s/d>t/u/d s/dd.txt>t/u/dd.txt s>t/u
+s *	0	-
+s ?	0	-
+s *.q	0	s/b.txt>s.q/b.txt s/a.txt>s.q/a.txt s/dx>s.q/dx s/d/c.txt>s.q/d/c.txt s/d/a.txt>s.q/d/a.txt s/d/e/f.dat>s.q/d/e/f.dat s/d/e/e/z.txt>s.q/d/e/e/z.txt s/dd.txt/k.bin>s.q/dd.txt/k.bin s/d/e/e>s.q/d/e/e s/d/e>s.q/d/e s/d>s.q/d s/dd.txt>s.q/dd.txt s>s.q
+s x*	0	s/b.txt>xs/b.txt s/a.txt>xs/a.txt s/dx>xs/dx s/d/c.txt>xs/d/c.txt s/d/a.txt>xs/d/a.txt s/d/e/f.dat>xs/d/e/f.dat s/d/e/e/z.txt>xs/d/e/e/z.txt s/dd.txt/k.bin>xs/dd.txt/k.bin s/d/e/e>xs/d/e/e s/d/e>xs/d/e s/d>xs/d s/dd.txt>xs/dd.txt s>xs
+s/d q	0	s/d/c.txt>q/c.txt s/d/a.txt>q/a.txt s/d/e/f.dat>q/e/f.dat s/d/e/e/z.txt>q/e/e/z.txt s/d/e/e>q/e/e s/d/e>q/e s/d>q
+s/d s/q	0	s/d/c.txt>s/q/c.txt s/d/a.txt>s/q/a.txt s/d/e/f.dat>s/q/e/f.dat s/d/e/e/z.txt>s/q/e/e/z.txt s/d/e/e>s/q/e/e s/d/e>s/q/e s/d>s/q
+s/d *	0	-
+s/d *.q	0	s/d/c.txt>s/d.q/c.txt s/d/a.txt>s/d.q/a.txt s/d/e/f.dat>s/d.q/e/f.dat s/d/e/e/z.txt>s/d.q/e/e/z.txt s/d/e/e>s/d.q/e/e s/d/e>s/d.q/e s/d>s/d.q
+s/d t/*	0	s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d
+s/d t/*/u	0	s/d/c.txt>t/d/u/c.txt s/d/a.txt>t/d/u/a.txt s/d/e/f.dat>t/d/u/e/f.dat s/d/e/e/z.txt>t/d/u/e/e/z.txt s/d/e/e>t/d/u/e/e s/d/e>t/d/u/e s/d>t/d/u
+s/d */q	0	s/d/c.txt>s/q/c.txt s/d/a.txt>s/q/a.txt s/d/e/f.dat>s/q/e/f.dat s/d/e/e/z.txt>s/q/e/e/z.txt s/d/e/e>s/q/e/e s/d/e>s/q/e s/d>s/q
+s/d/e *.x	0	s/d/e/f.dat>s/d/e.x/f.dat s/d/e/e/z.txt>s/d/e.x/e/z.txt s/d/e/e>s/d/e.x/e s/d/e>s/d/e.x
+s/a.txt z*	0	s/a.txt>zs/a.txt
+s/a.txt z.*	0	s/a.txt>z.txt
+s/a.txt ?	0	s/a.txt>s
+s/a.txt ??	0	s/a.txt>s/
+s/a.txt ???z	0	s/a.txt>s/az
+s/a.txt *z	0	s/a.txt>s/a.txtz
+s/a.txt *a	0	s/a.txt>s/a
+s/a.txt *a*	0	s/a.txt>s/aa.txt
+s/a.txt q?	0	s/a.txt>qs
+s/a.txt *	0	-
+s/a.txt s/*	0	-
+s/a.txt *.txt	0	-
+s/a.txt */*	0	-
+s/a.txt ?/*	0	-
+s/a.txt */z	0	s/a.txt>s/z
+s/a.txt t*/z	0	s/a.txt>ts/z
+s/a.txt /*	0	s/a.txt>/a.txt
+s/a.txt ./*	0	s/a.txt>./txt
+s/a.txt ../*	0	s/a.txt>../
+s/a.txt ../*.bak	0	s/a.txt>../.bak
+s/a.txt t/../*	0	s/a.txt>t/../
+s/a.txt t//*	0	s/a.txt>t//a.txt
+s/a.txt t/*	0	s/a.txt>t/a.txt
+s/d/a.txt *.bak	0	s/d/a.txt>s/d/a.bak
+s/d/a.txt z.bak	0	s/d/a.txt>z.bak
+s/d/a.txt q/z.bak	0	s/d/a.txt>q/z.bak
+s/d/a.txt t/*	0	s/d/a.txt>t/d/a.txt
+s/d/a.txt */*	0	-
+s/d/a.txt */*/*	0	-
+s/d/a.txt */q/*	0	s/d/a.txt>s/q/a.txt
+s/d/a.txt */*/q	0	s/d/a.txt>s/d/q
+s/d/a.txt */q	0	s/d/a.txt>s/q
+s/dd.txt/k.bin *.q	0	s/dd.txt/k.bin>s/dd.q
+s/dd.txt/k.bin *.*	0	s/dd.txt/k.bin>s/dd.bin
+s/dd.txt/k.bin *.*.*	0	-
+s/dd.txt/k.bin z.*	0	s/dd.txt/k.bin>z.bin
+s/dd.txt/k.bin ?.?	0	s/dd.txt/k.bin>s.b
+s/dd.txt/k.bin */*.q	0	s/dd.txt/k.bin>s/dd.q
+s/dd.txt/k.bin */*/*.q	0	s/dd.txt/k.bin>s/dd.txt/k.q
+s/dd.txt/k.bin t/*.q	0	s/dd.txt/k.bin>t/dd.q
+s/dd.txt/k.bin */z	0	s/dd.txt/k.bin>s/z
+s/dd.txt/k.bin */*/z	0	s/dd.txt/k.bin>s/dd.txt/z
+s/dd.txt/k.bin */*/*/z	0	s/dd.txt/k.bin>s/dd.txt/k.bin/z
+s/dd.txt/k.bin */	0	-
+s/dd.txt/k.bin *//*	0	s/dd.txt/k.bin>s//k.bin
+s/d/e/e/z.txt q/*	0	s/d/e/e/z.txt>q/d/e/e/z.txt
+s/d/e/e/z.txt q/r/*	0	s/d/e/e/z.txt>q/r/e/e/z.txt
+s/d/e/e/z.txt q/*/r/*	0	s/d/e/e/z.txt>q/d/r/e/z.txt
+s/d/e/e/z.txt */q/*	0	s/d/e/e/z.txt>s/q/e/e/z.txt
+s/d/e/e/z.txt ?/?/?/?/?	0	s/d/e/e/z.txt>s/d/e/e/z
+s/* *.bak	0	s/b.txt>s/b.bak s/a.txt>s/a.bak s/dx>s/dx.bak s/d>s/d.bak s/dd.txt>s/dd.bak
+s/* q/*	0	s/b.txt>q/b.txt s/a.txt>q/a.txt s/dx>q/dx s/d>q/d s/dd.txt>q/dd.txt
+s/* q*	0	s/b.txt>qs/b.txt s/a.txt>qs/a.txt s/dx>qs/dx s/d>qs/d s/dd.txt>qs/dd.txt
+s/* *q	0	s/b.txt>s/b.txtq s/a.txt>s/a.txtq s/dx>s/dxq s/d>s/dq s/dd.txt>s/dd.txtq
+s/*.txt *.bak	0	s/b.txt>s/b.bak s/a.txt>s/a.bak s/dd.txt>s/dd.bak
+s/*.txt t/*.bak	0	s/b.txt>t/b.bak s/a.txt>t/a.bak s/dd.txt>t/dd.bak
+s/*.txt t/	0	-
+s/*.txt z	0	s/b.txt>z s/a.txt>z s/dd.txt>z
+a.txt	0	-
+a.txt z.txt noext	0	a.txt>z.txt
+a.txt z.txt noext y	0	a.txt>z.txt noext>y
+a.txt z.txt z.txt y.txt	0	a.txt>z.txt
+a.txt noext noext a.txt	0	a.txt>noext noext>a.txt
+a.txt z.txt a.txt y.txt	0	a.txt>z.txt
+a.txt z.txt a.b.txt z.txt	0	a.b.txt>z.txt a.txt>z.txt
+a.txt z.txt *.txt *.bak	0	a.b.txt>a.bak a.txt>z.txt
+*.txt *.bak a.txt z.txt	0	a.b.txt>a.bak a.txt>a.bak
+* *.bak a.txt z.txt	0	a.b.txt>a.bak a.txt>a.bak noext>noext.bak s>s.bak
+s t s/a.txt z	0	s/b.txt>t/b.txt s/a.txt>z s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+s/a.txt z s t	0	s/b.txt>t/b.txt s/a.txt>z s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+s t s/d q	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>q s/dd.txt>t/dd.txt s>t
+s/d q s t	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>q/c.txt s/d/a.txt>q/a.txt s/d/e/f.dat>q/e/f.dat s/d/e/e/z.txt>q/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>q/e/e s/d/e>q/e s/d>q s/dd.txt>t/dd.txt s>t
+s t s/* q/*	0	s/b.txt>q/b.txt s/a.txt>q/a.txt s/dx>q/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>q/d s/dd.txt>q/dd.txt s>t
+s/* q/* s t	0	s/b.txt>q/b.txt s/a.txt>q/a.txt s/dx>q/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>q/d s/dd.txt>q/dd.txt s>t
+s t s/d/* q/*	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>q/d/c.txt s/d/a.txt>q/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>q/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+s/d t s/d/e q	0	s/d/c.txt>t/c.txt s/d/a.txt>t/a.txt s/d/e/f.dat>t/e/f.dat s/d/e/e/z.txt>t/e/e/z.txt s/d/e/e>t/e/e s/d/e>q s/d>t
+s/d/e q s/d t	0	s/d/c.txt>t/c.txt s/d/a.txt>t/a.txt s/d/e/f.dat>q/f.dat s/d/e/e/z.txt>q/e/z.txt s/d/e/e>q/e s/d/e>q s/d>t
+s t t u	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+s t t/a.txt z	0	s/b.txt>t/b.txt s/a.txt>t/a.txt s/dx>t/dx s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s/d>t/d s/dd.txt>t/dd.txt s>t
+a.txt q/ a.txt z	0	-
+a.txt * a.txt z	0	-
+a.txt a.txt a.txt z	0	-
+a.txt . *.txt *.bak	0	-
+s t/ s u	0	-
+s * s u	0	-
+s/a.txt q/ s t	0	s/a.txt>s
+s/* * s t	0	s/d/c.txt>t/d/c.txt s/d/a.txt>t/d/a.txt s/d/e/f.dat>t/d/e/f.dat s/d/e/e/z.txt>t/d/e/e/z.txt s/dd.txt/k.bin>t/dd.txt/k.bin s/d/e/e>t/d/e/e s/d/e>t/d/e s>t
+* *.bak *.txt *.q	0	a.b.txt>a.bak a.txt>a.bak noext>noext.bak s>s.bak
+*.txt *.q * *.bak	0	a.b.txt>a.q a.txt>a.q noext>noext.bak s>s.bak
+s/d t s/d/* q/* s u	0	s/b.txt>u/b.txt s/a.txt>u/a.txt s/dx>u/dx s/d/c.txt>q/d/c.txt s/d/a.txt>q/d/a.txt s/d/e/f.dat>t/e/f.dat s/d/e/e/z.txt>t/e/e/z.txt s/dd.txt/k.bin>u/dd.txt/k.bin s/d/e/e>t/e/e s/d/e>q/d/e s/d>t s/dd.txt>u/dd.txt s>u
+q/ a.txt z	0	a.txt>z
+. a.txt z	0	a.txt>z
+.. a.txt z	0	a.txt>z
+s/ a.txt z	0	a.txt>z
+a.txt z q/	0	a.txt>z
+a.txt q/. z	0	a.txt>z
+a.txt q/.. z	0	a.txt>z
+a.txt q// z	0	a.txt>z
+a.txt ./ z	0	a.txt>z
+a.txt ... z	0	a.txt>...
+a.txt q/... z	0	a.txt>q/...
+q/ a.txt r/ z	0	a.txt>z
+q/ r/ a.txt z	0	a.txt>z
+a.txt q/ r/ z noext y	0	a.txt>z noext>y

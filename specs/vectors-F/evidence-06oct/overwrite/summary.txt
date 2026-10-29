@@ -1,0 +1,473 @@
+ov-fresh
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Creating o/d OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-eof
+    unrar x -p- x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-empty-pipe
+    unrar x -p- x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-Y
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/d/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 14 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-y-lower
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/d/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 14 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-Y-once
+    unrar x -p- x.rar o/: rc=12 Extracting o/a.txt  37% OK | Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-N
+    unrar x -p- x.rar o/: rc=0 All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/d/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 14 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-YN
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/d/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 14 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-A
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-E
+    unrar x -p- x.rar o/: rc=0 All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-N-then-E
+    unrar x -p- x.rar o/: rc=0 All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-Q
+    unrar x -p- x.rar o/: rc=255 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-Y-then-Q
+    unrar x -p- x.rar o/: rc=255 Extracting o/a.txt  37% OK | Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-junk-then-A
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-word-yes
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/d/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 14 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-R-bare
+    unrar x -p- x.rar o/: rc=0 Enter new name: | Extracting o/new.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/new.txt                  10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-R-with-separator
+    unrar x -p- x.rar o/: rc=0 Enter new name: | Creating elsewhere OK | Extracting elsewhere/new.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   elsewhere
+    dir   o
+    dir   victim
+    file  elsewhere/new.txt          10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-R-taken
+    unrar x -p- x.rar o/: rc=0 Enter new name: | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-ask-no-newline
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o-plus
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o-minus
+    unrar x -p- -o- x.rar o/: rc=0 All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o
+    unrar x -p- -o x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-or
+    unrar x -p- -or x.rar o/: rc=0 Extracting o/a(1).txt  37% OK | Extracting o/b(1).txt  65% OK | Extracting o/d/c(1).txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a(1).txt                 10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b(1).txt                 11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c(1).txt               14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-y
+    unrar x -p- -y x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o-plus-then-or
+    unrar x -p- -o+ -or x.rar o/: rc=0 Extracting o/a(1).txt  37% OK | Extracting o/b(1).txt  65% OK | Extracting o/d/c(1).txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a(1).txt                 10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b(1).txt                 11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c(1).txt               14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-or-then-o-plus
+    unrar x -p- -or -o+ x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o-minus-then-o-plus
+    unrar x -p- -o- -o+ x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-y-o-minus
+    unrar x -p- -y -o- x.rar o/: rc=0 All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-o-minus-y
+    unrar x -p- -o- -y x.rar o/: rc=0 All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-y-or
+    unrar x -p- -y -or x.rar o/: rc=0 Extracting o/a(1).txt  37% OK | Extracting o/b(1).txt  65% OK | Extracting o/d/c(1).txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a(1).txt                 10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b(1).txt                 11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c(1).txt               14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-e-ask
+    unrar e -p- x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Extracting o/c.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    file  o/c.txt                    14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-p
+    unrar p -p- x.rar: rc=0 alpha new | bravo new! | charlie new!!
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-idq-ask
+    unrar x -p- -idq x.rar o/: rc=0 stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-inul-ask
+    unrar x -p- -inul x.rar o/: rc=0 
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-inul-eof
+    unrar x -p- -inul x.rar o/: rc=12 
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  o/d/c.txt                   6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-all-kept
+    unrar x -p- x.rar o/: rc=10 No files to extract | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/b.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 11 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-all-kept-o-minus
+    unrar x -p- -o- x.rar o/: rc=10 No files to extract
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                     6 bytes  sha256 4a817ab691a5  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-kept-but-directory-made
+    unrar x -p- -o- x.rar o/: rc=0 Creating o/d OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-or-names
+    unrar x -p- -or x.rar o/: rc=0 Extracting o/a.tar(2).gz  34% OK | Extracting o/(1).hidden  60% OK | Extracting o/noext(1)  86% OK | Extracting o/lnk(1)  OK | All OK
+    dir   o
+    dir   victim
+    file  o/(1).hidden               11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    file  o/.hidden                   4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    file  o/a.tar(1).gz               4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    file  o/a.tar(2).gz              10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/a.tar.gz                  4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    file  o/lnk                       4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    link  o/lnk(1)               -> noext   (mtime the member's)
+    file  o/noext                     4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    file  o/noext(1)                 14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-directory-in-the-way
+    unrar x -p- -o+ x.rar o/: rc=9 Extracting o/b.txt  65% OK | Creating o/d OK | Extracting o/d/c.txt 100% OK | Total errors: 1 | stderr: | Cannot create o/a.txt | Is a directory | Directory with such name already exists
+    dir   o
+    dir   victim
+    dir   o/a.txt
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-directory-in-the-way-ask
+    unrar x -p- x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 4096 bytes, modified on 2026-10-06 10:23 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    dir   o/a.txt
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-read-only-o-plus
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Creating o/d OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-mode-0000-o-plus
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  37% OK | Extracting o/b.txt  65% OK | Creating o/d OK | Extracting o/d/c.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/b.txt                    11 bytes  sha256 392320e06185  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/d/c.txt                  14 bytes  sha256 c1715fee56a4  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-solid-o-minus
+    unrar x -p- -o- x.rar o/: rc=0 Skipping a.txt  84% | Extracting o/b.txt  89% OK | Skipping c.txt  95% | Extracting o/d.txt 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                  4300 bytes  sha256 0f5781d48d15  mode 644   (mtime the member's)
+    file  o/c.txt                     6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  o/d.txt                  4100 bytes  sha256 7aec21637703  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-solid-ask-N
+    unrar x -p- x.rar o/: rc=0 Skipping a.txt  84% | Extracting o/b.txt  89% OK | Skipping c.txt  95% | Extracting o/d.txt 100% OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 6000 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/c.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 5200 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644   (mtime the planted file's)
+    file  o/b.txt                  4300 bytes  sha256 0f5781d48d15  mode 644   (mtime the member's)
+    file  o/c.txt                     6 bytes  sha256 7d2a7bd2096f  mode 644   (mtime the planted file's)
+    file  o/d.txt                  4100 bytes  sha256 7aec21637703  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-hard-ask
+    unrar x -p- x.rar o/: rc=12 Extracting o/a.txt  67% OK | Program aborted | stderr: | Would you like to replace the existing file o/hard_a | 4 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                    10 bytes  sha256 1030b0d0ed39  mode 644   (mtime the member's)
+    file  o/hard_a                    4 bytes  sha256 01d09d19c213  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+ov-hard-N-then-A
+    unrar x -p- x.rar o/: rc=0 Extracting o/hard_a  OK | All OK | stderr: | Would you like to replace the existing file o/a.txt | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit | Would you like to replace the existing file o/hard_a | 4 bytes, modified on 2026-09-17 04:00 | with a new one | 10 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 c8518d7e5746  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  o/hard_a                    6 bytes  sha256 c8518d7e5746  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

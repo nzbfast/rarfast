@@ -1,0 +1,12 @@
+archive	P	S	S - P	crc	hsize	type	hflags	xsize	dsize	fflags	unp	attr	comp	host	nlen	name	extra	data area size
+inner150.rar	6148	6174	26	4	1	1	1	1	3	1	3	1	2	1	1	2	4	10080
+inner20.rar	6148	6171	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	1008
+innerA150.rar	6148	6174	26	4	1	1	1	1	3	1	3	1	2	1	1	2	4	10080
+outer150.rar	17155	17178	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	1218
+outer20.rar	8075	8098	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	1146
+outer150w.rar	17155	17178	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	3654
+outer20w.rar	8075	8098	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	1146
+outerA150w.rar	17155	17178	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	3654
+oclear-ihp.rar	17883	17906	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	3630
+rr5_small.rar	40218	40241	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	2796
+rr100_small.rar	97	120	23	4	1	1	1	1	2	1	2	1	2	1	1	2	3	178

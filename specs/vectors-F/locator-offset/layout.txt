@@ -1,0 +1,90 @@
+plain.rar: 3834 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 3603 in 4 bytes
+       0  main              data 0
+      16  file       a.txt  data 568
+     624  file       b.txt  data 759
+    1423  file       c.txt  data 950
+    2413  file       d.txt  data 1150
+    3603  service    QO     data 196
+    3818  end               data 0
+hp.rar: 4606 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 3936 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      32  file       a.txt  data 576
+     720  file       b.txt  data 768
+    1600  file       c.txt  data 960
+    2672  file       d.txt  data 1152
+    3936  service    QO     data 496
+    4528  end               data 0
+vol.part1.rar: 3072 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 2923 in 4 bytes
+       0  main              data 0
+      16  file       a.txt  data 1821
+    1877  file       b.txt  data 1006
+    2923  service    QO     data 98
+    3040  end               data 0
+vol.part2.rar: 3072 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 2923 in 4 bytes
+       0  main              data 0
+      17  file       b.txt  data 1506
+    1563  file       c.txt  data 1320
+    2923  service    QO     data 98
+    3040  end               data 0
+vol.part3.rar: 3072 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 2923 in 4 bytes
+       0  main              data 0
+      17  file       c.txt  data 1883
+    1940  file       d.txt  data 943
+    2923  service    QO     data 98
+    3040  end               data 0
+vol.part4.rar: 3072 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 2979 in 4 bytes
+       0  main              data 0
+      17  file       d.txt  data 2922
+    2979  service    QO     data 49
+    3047  end               data 0
+vol.part5.rar: 186 bytes, main header at file offset 8, headers clear
+  locator: flags 0x1, quick open offset 103 in 4 bytes
+       0  main              data 0
+      17  file       d.txt  data 46
+     103  service    QO     data 48
+     170  end               data 0
+hpvol.part1.rar: 3072 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 2624 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      32  file       a.txt  data 1824
+    1968  file       b.txt  data 544
+    2624  service    QO     data 256
+    2976  end               data 0
+hpvol.part2.rar: 3072 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 2624 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      48  file       b.txt  data 1968
+    2128  file       c.txt  data 384
+    2624  service    QO     data 256
+    2976  end               data 0
+hpvol.part3.rar: 3072 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 2752 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      48  file       c.txt  data 2592
+    2752  service    QO     data 128
+    2976  end               data 0
+hpvol.part4.rar: 3072 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 2624 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      48  file       c.txt  data 240
+     400  file       d.txt  data 2112
+    2624  service    QO     data 256
+    2976  end               data 0
+hpvol.part5.rar: 2270 bytes, main header at file offset 46, headers ENCRYPTED
+  locator: flags 0x1, quick open offset 1968 in 4 bytes
+     -38  encryption        data 0
+       0  main              data 0
+      48  file       d.txt  data 1808
+    1968  service    QO     data 128
+    2192  end               data 0

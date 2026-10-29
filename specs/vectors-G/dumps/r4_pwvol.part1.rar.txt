@@ -1,0 +1,9 @@
+== archives/r4_pwvol.part1.rar (4096 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=6e5a flags=0x0111 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=6b95 flags=0x8426 hsize=49 addsize=4007
+        pack=4007 unp=12000 host=3 crc=b0c0066b time=2020-09-13 12:26:40 unpver=29 method=0x30 attr=0x81a4
+        name=b'split.bin' salt=f243e548f7bbd8be
+  [0xfec] END crc=88c4 flags=0x400f hsize=20 addsize=0
+        rest=fe9bb62f000000000000000000

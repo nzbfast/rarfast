@@ -1,0 +1,72 @@
+D155_M5.RAR: 0 table reads
+D250_M5.RAR: 0 table reads
+r420_hp.rar: encrypted or split, not counted
+r420_m5.rar: 3 table reads
+r4_cmt.rar: 0 table reads
+r4_hpw.rar: encrypted or split, not counted
+r4_lock.rar: 0 table reads
+r4_m3.rar: 1 table reads
+r4_pw.rar: encrypted or split, not counted
+r4_pwvol.part1.rar: encrypted or split, not counted
+r4_pwvol.part2.rar: encrypted or split, not counted
+r4_pwvol.part3.rar: encrypted or split, not counted
+r4_pwvolc.part1.rar: encrypted or split, not counted
+r4_pwvolc.part2.rar: encrypted or split, not counted
+r4_pwvolc.part3.rar: encrypted or split, not counted
+r4_pwvolc.part4.rar: encrypted or split, not counted
+r4_rr.rar: 0 table reads
+r4_solid.rar: 1 table reads
+r4_store.rar: 0 table reads
+r4_ts.rar: 0 table reads
+r4_vol.part1.rar: encrypted or split, not counted
+r4_vol.part2.rar: encrypted or split, not counted
+r4_vol.part3.rar: encrypted or split, not counted
+r4_volvn.rar: encrypted or split, not counted
+D250_M0.RAR: 0 table reads
+D250_M5.RAR: 0 table reads
+r393_m5.rar: 1 table reads
+r420_m5.rar: 3 table reads
+r550ma4_m5.rar: 3 table reads
+i01_t1_default.rar: 0 table reads
+i02_t1_o2_m1.rar: 0 table reads
+i03_t1_o63_m128.rar: 0 table reads
+i04_t1_o16_m8.rar: 0 table reads
+i05_t1_o17_m8.rar: 0 table reads
+i06_solid3.rar: 0 table reads
+i07_nonsolid3.rar: 0 table reads
+i08_esc.rar: 0 table reads
+i09_bin_forced.rar: 0 table reads
+i11_runs.rar: 0 table reads
+i12_one.rar: 0 table reads
+i13_empty_and_one.rar: 0 table reads
+i18_solid_mixed_auto.rar: 1 table reads
+i19_solid_ppm_then_lz.rar: 1 table reads
+sweep_m1.rar: 0 table reads
+sweep_m128.rar: 0 table reads
+sweep_m129.rar: 0 table reads
+sweep_o16.rar: 0 table reads
+sweep_o17.rar: 0 table reads
+sweep_o19.rar: 0 table reads
+sweep_o2.rar: 0 table reads
+sweep_o61.rar: 0 table reads
+sweep_o64.rar: 0 table reads
+r393_bigrgb_c.rar: 40 table reads
+r393_mixed_solid.rar: 11 table reads
+r420_bigrgb_c.rar: 24 table reads
+r420_bmp_auto.rar: 5 table reads
+r420_ia64_i.rar: 1 table reads
+r420_mixed_nonsolid.rar: 14 table reads
+r420_mixed_solid.rar: 15 table reads
+r420_pcm_a2.rar: 3 table reads
+r420_pcm_a4.rar: 5 table reads
+r420_rgb_c.rar: 4 table reads
+r420_tab_auto.rar: 1 table reads
+r420_tab_d3.rar: 1 table reads
+r420_wav_auto.rar: 6 table reads
+r420_x86_auto.rar: 1 table reads
+r420_x86_e.rar: 1 table reads
+main          tables 146, lengths seen [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], classes {'complete': 146}
+distance      tables 146, lengths seen [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], classes {'all zero': 85, 'complete': 61}
+low distance  tables 146, lengths seen [1, 2, 3, 4, 5], classes {'all zero': 99, 'complete': 47}
+length        tables 146, lengths seen [1, 2, 3, 4, 5, 6], classes {'all zero': 106, 'complete': 40}
+level         tables 146, lengths seen [1, 2, 3, 4, 5, 6, 7, 8, 9], classes {'complete': 146}

@@ -1,0 +1,12 @@
+== archives/r4_cmt.rar (430 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=90cf flags=0x0000 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] SERVICE crc=d952 flags=0x8000 hsize=35 addsize=27
+        pack=27 unp=17 host=3 crc=535c9d01 time=1980-00-00 00:00:00 unpver=29 method=0x33 attr=0x0
+        name=b'CMT'
+  [0x52] FILE crc=9f50 flags=0x8020 hsize=41 addsize=300
+        pack=300 unp=300 host=3 crc=59dfd160 time=2020-09-13 12:26:40 unpver=20 method=0x30 attr=0x81a4
+        name=b'hello.txt'
+  [0x1a7] END crc=3dc4 flags=0x4000 hsize=7 addsize=0
+        rest=

@@ -1,0 +1,653 @@
+
+## signature
+   112  8 bytes at offset 0
+
+## vint width
+  1055  ?.header size | shortest
+  1055  ?.header type | shortest
+     6  encryption.header flags | shortest
+   106  end.end flags | shortest
+   106  end.header flags | shortest
+   726  file.attributes | shortest
+   479  file.compression information | padded to 2 (shortest 1)
+   247  file.compression information | shortest
+    77  file.data size | padded to 2 (shortest 1)
+     1  file.data size | padded to 3 (shortest 1)
+    21  file.data size | padded to 3 (shortest 2)
+     1  file.data size | padded to 9 (shortest 1)
+     7  file.data size | padded to 9 (shortest 2)
+   619  file.data size | shortest
+   171  file.extra size | shortest
+   726  file.file flags | shortest
+   726  file.header flags | shortest
+   726  file.host system | shortest
+   726  file.name length | shortest
+   242  file.record.size | shortest
+   242  file.record.type | shortest
+    52  file.unpacked size | padded to 2 (shortest 1)
+     2  file.unpacked size | padded to 9 (shortest 2)
+     1  file.unpacked size | padded to 9 (shortest 3)
+   671  file.unpacked size | shortest
+   104  locator.flags | shortest
+     3  locator.quick open offset | padded to 3 (shortest 1)
+     6  locator.quick open offset | padded to 3 (shortest 2)
+     1  locator.quick open offset | padded to 4 (shortest 2)
+     1  locator.quick open offset | padded to 4 (shortest 3)
+    92  locator.quick open offset | padded to 5 (shortest 3)
+     8  locator.recovery offset | padded to 5 (shortest 3)
+   106  main.archive flags | shortest
+   104  main.extra size | shortest
+   106  main.header flags | shortest
+   104  main.record.size | shortest
+   104  main.record.type | shortest
+    48  main.volume number | shortest
+   111  service.attributes | shortest
+   111  service.compression information | padded to 2 (shortest 1)
+    50  service.data size | padded to 2 (shortest 1)
+    61  service.data size | shortest
+     8  service.extra size | shortest
+   111  service.file flags | shortest
+   111  service.header flags | shortest
+   111  service.host system | shortest
+   111  service.name length | shortest
+     8  service.record.size | shortest
+     8  service.record.type | shortest
+    50  service.unpacked size | padded to 2 (shortest 1)
+    61  service.unpacked size | shortest
+
+## header checksum = CRC32 from the size field to the header's end
+     6  encryption | True
+   106  end | True
+   726  file | True
+   106  main | True
+   111  service | True
+
+## header checksum = CRC32 from the type field (size field left out)
+     6  encryption | False
+   106  end | False
+   726  file | False
+   106  main | False
+   111  service | False
+
+## type specific fields end where the extra area begins
+   106  end | True
+   726  file | True
+   106  main | True
+   111  service | True
+
+## archives
+    60  cases
+   112  files
+
+## order of blocks in one file
+     6  encryption
+     1  main CMT file.. QO end zeros
+     2  main CMT file...... QO end
+     2  main file QO RR end zeros
+     2  main file QO end
+    27  main file QO end zeros
+     3  main file end
+     2  main file.. QO RR end zeros
+     1  main file.. QO end
+    14  main file.. QO end zeros
+     1  main file.. end
+     1  main file.... QO RR end
+     8  main file.... QO end
+     2  main file.... QO end zeros
+     2  main file...... QO RR end
+    34  main file...... QO end
+     1  main file...... RR end
+     1  main file...... end
+     2  main file........ QO end
+
+## header flags by block
+     6  encryption | 0x0000
+   106  end | 0x0004
+   504  file | 0x0002
+   153  file | 0x0003
+    15  file | 0x000a
+     6  file | 0x000b
+    15  file | 0x0012
+     6  file | 0x0013
+    21  file | 0x001a
+     6  file | 0x001b
+     2  main | 0x0004
+   104  main | 0x0005
+     3  service CMT | 0x0002
+   100  service QO | 0x0006
+     8  service RR | 0x0007
+
+## main header position
+   106  8
+
+## archive flags
+    36  0x0000 | single
+     9  0x0001 | volume set
+    40  0x0003 | volume set
+     7  0x0004 | single
+     1  0x0005 | volume set
+     4  0x0007 | volume set
+     3  0x0008 | single
+     1  0x0009 | volume set
+     4  0x000b | volume set
+     1  0x0010 | single
+
+## volume number field
+    58  file 0 of set | absent
+    11  file 1 of set | equals index
+    37  file 2 of set+ | equals index
+
+## main header records
+     2  
+   104  1
+
+## locator flags
+    96  0x1
+     1  0x2
+     7  0x3
+
+## locator offset
+   100  QO | = block position - main header position
+     3  QO | zero | no such block in the file
+     8  RR | = block position - main header position
+
+## file flags
+    12  directory | 0x1
+   141  directory | 0x3
+    16  file | 0x0
+    53  file | 0x2
+    73  file | 0x4
+   426  file | 0x6
+     5  file | 0xe
+     3  service CMT | 0x4
+   100  service QO | 0x0
+     8  service RR | 0x0
+
+## host system
+   153  directory | 1
+   573  file | 1
+     3  service CMT | 1
+   100  service QO | 1
+     8  service RR | 1
+
+## record types in order
+   144  directory | ()
+     3  directory | (3, 6)
+     3  directory | (3,)
+     3  directory | (6,)
+   411  file | ()
+    22  file | (1, 2)
+     2  file | (1, 2, 3)
+     1  file | (1, 2, 3, 5, 6)
+    10  file | (1, 2, 3, 6)
+     3  file | (1, 3)
+    31  file | (1,)
+     3  file | (2, 3)
+    31  file | (2,)
+     1  file | (3, 5)
+     1  file | (3, 6)
+    48  file | (3,)
+     9  file | (6,)
+     3  service CMT | ()
+   100  service QO | ()
+     8  service RR | (7,)
+
+## compression information
+     3  cmt | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  cmt | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  cmt | service CMT | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  cmt | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  cmt-m5 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  cmt-m5 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  cmt-m5 | file | version 0, solid 0, method 5, power 2, bits above 13: 0
+     1  cmt-m5 | service CMT | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  cmt-m5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  default | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  default | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  default | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  default | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  ed | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ed | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  htb-m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  htb-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  htb-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  htb-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  htb-m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  htb-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  htb-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  htc-m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  htc-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  htc-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  lock | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  lock | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  lock | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m1 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m1 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m1 | file | version 0, solid 0, method 1, power 2, bits above 13: 0
+     1  m1 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m1-md256k | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m1-md256k | file | version 0, solid 0, method 0, power 1, bits above 13: 0
+     7  m1-md256k | file | version 0, solid 0, method 1, power 1, bits above 13: 0
+     1  m1-md256k | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m2 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m2 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m2 | file | version 0, solid 0, method 2, power 2, bits above 13: 0
+     1  m2 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md128k | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md128k | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     7  m3-md128k | file | version 0, solid 0, method 3, power 0, bits above 13: 0
+     1  m3-md128k | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md1m | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md1m | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m3-md1m | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  m3-md1m | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md64m | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m3-md64m | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m3-md64m | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  m3-md64m | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  m3-one-big | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  m3-one-big | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  m3-one-small | file | version 0, solid 0, method 3, power 0, bits above 13: 0
+     3  m4 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m4 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m4 | file | version 0, solid 0, method 4, power 2, bits above 13: 0
+     1  m4 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m5 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  m5 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  m5 | file | version 0, solid 0, method 5, power 2, bits above 13: 0
+     1  m5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  ms-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ms-m3 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     2  ms-m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  ms-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  ms-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  ol | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    11  ol | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ol | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  ol-ow-htb-pw-frac | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    11  ol-ow-htb-pw-frac | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ol-ow-htb-pw-frac | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  ow | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  ow | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ow | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  pw-htb | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  pw-htb | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  pw-htb | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  pw-m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  pw-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  pw-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  pw-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  pw-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  pw-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  qo+ | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  qo+ | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  qo+ | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  qo+-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  qo+-m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  qo+-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  qo+-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  qo- | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  qo- | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  rr5 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  rr5 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  rr5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  rr5 | service RR | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  rr5-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  rr5-m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+     7  rr5-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     1  rr5-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  rr5-m3 | service RR | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  rr5-qo- | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  rr5-qo- | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  rr5-qo- | service RR | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  s-m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  s-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  s-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  s-m3 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     1  s-m3 | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     9  s-m3 | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     1  s-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  s-m3-ds | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     1  s-m3-ds | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     9  s-m3-ds | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     1  s-m3-ds | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  s-m5 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     1  s-m5 | file | version 0, solid 0, method 5, power 3, bits above 13: 0
+     9  s-m5 | file | version 0, solid 1, method 5, power 3, bits above 13: 0
+     1  s-m5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  s-ms-m3 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     1  s-ms-m3 | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     2  s-ms-m3 | file | version 0, solid 1, method 0, power 0, bits above 13: 0
+     7  s-ms-m3 | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     1  s-ms-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  s-pair-m3 | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     1  s-pair-m3 | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     3  s3-m3 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     4  s3-m3 | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     6  s3-m3 | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     1  s3-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  se-m3 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     5  se-m3 | file | version 0, solid 0, method 3, power 3, bits above 13: 0
+     5  se-m3 | file | version 0, solid 1, method 3, power 3, bits above 13: 0
+     1  se-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  si-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  si-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  si-m3 | file | version 0, solid 0, method 3, power 8, bits above 13: 0
+     3  ts-off | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  ts-off | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  ts-off | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  tsc-tsa | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  tsc-tsa | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  tsc-tsa | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  tsm-off | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  tsm-off | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  tsm-off | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  tsm1 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    10  tsm1 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  tsm1 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-12 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    20  vol-12 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+    11  vol-12 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-cmt-qo+ | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-cmt-qo+ | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     1  vol-cmt-qo+ | service CMT | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-cmt-qo+ | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-htb | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-htb | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-htb | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-m0 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-m0 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-m0 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-m3 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     2  vol-m3 | file | version 0, solid 0, method 0, power 2, bits above 13: 0
+    12  vol-m3 | file | version 0, solid 0, method 3, power 2, bits above 13: 0
+     5  vol-m3 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-pw | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-pw | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-pw | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-pw-htb | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-pw-htb | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-pw-htb | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-rr5 | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+    14  vol-rr5 | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-rr5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-rr5 | service RR | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-s-m5 | directory | version 0, solid 1, method 0, power 0, bits above 13: 0
+     2  vol-s-m5 | file | version 0, solid 0, method 5, power 3, bits above 13: 0
+    12  vol-s-m5 | file | version 0, solid 1, method 5, power 3, bits above 13: 0
+     5  vol-s-m5 | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     6  vol-si | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     5  vol-si | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+     3  vol-small | directory | version 0, solid 0, method 0, power 0, bits above 13: 0
+     7  vol-small | file | version 0, solid 0, method 0, power 0, bits above 13: 0
+     2  vol-small | service QO | version 0, solid 0, method 0, power 0, bits above 13: 0
+
+## service attributes, unpacked size against data size
+     3  CMT | attr 0x0 | unpacked = data
+   100  QO | attr 0x0 | unpacked = data
+     8  RR | attr 0x0 | unpacked = data
+
+## service checksum field
+     3  CMT | = CRC32 of data
+   100  QO | absent
+     8  RR | absent
+
+## service modification time field
+     3  CMT | absent
+   100  QO | absent
+     8  RR | absent
+
+## name
+   726  no backslash | relative | valid UTF-8 | no trailing slash
+
+## modification time
+     2  header field absent | time record absent | fractional source
+    24  header field absent | time record absent | whole second source
+    47  header field absent | time record flags 0x13, 9 bytes | fractional source
+     1  header field absent | time record flags 0x13, 9 bytes | whole second source
+     2  header field absent | time record flags 0x1f, 25 bytes | fractional source
+    25  header field absent | time record flags 0x1f, 25 bytes | whole second source
+     1  header field present | time record absent | fractional source
+   624  header field present | time record absent | whole second source
+
+## checksum
+    69  CRC32 field absent | hash record type 0, 32 bytes
+   504  CRC32 field present | hash record absent
+
+## split flags (continues from previous, continues in next)
+   504  0 | 0
+    21  0 | 1
+    21  1 | 0
+    27  1 | 1
+
+## CRC32 field against the bytes in the file
+     4  first fragment | clear | packed | = CRC32 of this fragment's data area | = CRC32 of all fragments' data areas joined
+    11  first fragment | clear | stored | = CRC32 of this fragment's data area | = CRC32 of all fragments' data areas joined
+     2  first fragment | encrypted | stored | = CRC32 of this fragment's data area | = CRC32 of all fragments' data areas joined
+     4  last fragment | clear | packed | not this fragment's data area | not the joined data areas
+    11  last fragment | clear | stored | not this fragment's data area | = CRC32 of all fragments' data areas joined
+     2  last fragment | encrypted | stored | not this fragment's data area | not the joined data areas
+     4  middle fragment | clear | packed | = CRC32 of this fragment's data area | not the joined data areas
+    17  middle fragment | clear | stored | = CRC32 of this fragment's data area | not the joined data areas
+     2  middle fragment | encrypted | stored | = CRC32 of this fragment's data area | not the joined data areas
+     5  whole member | clear | packed | = CRC32 of this fragment's data area | = CRC32 of all fragments' data areas joined
+   170  whole member | clear | packed | not this fragment's data area | not the joined data areas
+   244  whole member | clear | stored | = CRC32 of this fragment's data area | = CRC32 of all fragments' data areas joined
+    10  whole member | encrypted | packed | not this fragment's data area | not the joined data areas
+    18  whole member | encrypted | stored | not this fragment's data area | not the joined data areas
+
+## stored clear member: joined data areas against unpacked size
+   278  True
+
+## directory entry
+   153  unpacked 0 | data flag 1 | data size 0 | checksum field absent | attr 0x41ed
+
+## end flags
+    58  0x0 | last file
+    48  0x1 | not last
+
+## end block bytes
+    58  1d77565103050400
+    48  8b47512603050401
+
+## end block records
+   106  
+
+## encryption block
+     6  first block of the file | True | bytes after it not parsed
+
+## zero bytes after the end block
+    48  not last | volume set
+
+## zero bytes after the end block, amounts
+    11  14
+     5  15
+     3  21
+     1  26
+    23  8
+     5  9
+
+## unpacked size across fragments
+     1  DIFFERS
+    20  one value on every fragment
+
+## per case: files, and each file's blocks
+cmt: 1 file(s): a.rar
+  a.rar [438892 bytes]: main(0x0) S(CMT ci=0x0 d=17) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+cmt-m5: 1 file(s): a.rar
+  a.rar [194645 bytes]: main(0x0) S(CMT ci=0x0 d=17) F(hello.txt ci=0xa80 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0xa80 d=21143) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0xa80 d=98562) F(frac.txt ci=0xa80 d=2401) F(café-日.txt ci=0xa80 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0xa80 d=581) F(sub/deep/b.txt ci=0xa80 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+default: 1 file(s): a.rar
+  a.rar [194877 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+ed: 1 file(s): a.rar
+  a.rar [438769 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) S(QO ci=0x0 d=240) end(0x0)
+hp-m0: 1 file(s): a.rar
+  a.rar [440238 bytes]: encryption
+htb-m0: 1 file(s): a.rar
+  a.rar [439329 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=399) end(0x0)
+htb-m3: 1 file(s): a.rar
+  a.rar [195324 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=315) end(0x0)
+htc-m0: 1 file(s): a.rar
+  a.rar [438851 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+lock: 1 file(s): a.rar
+  a.rar [438851 bytes]: main(0x10) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+m0: 1 file(s): a.rar
+  a.rar [438851 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+m1: 1 file(s): a.rar
+  a.rar [201326 bytes]: main(0x0) F(hello.txt ci=0x880 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x880 d=21917) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x880 d=104773) F(frac.txt ci=0x880 d=2285) F(café-日.txt ci=0x880 d=417) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x880 d=535) F(sub/deep/b.txt ci=0x880 d=667) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m1-md256k: 1 file(s): a.rar
+  a.rar [201342 bytes]: main(0x0) F(hello.txt ci=0x480 d=34) F(empty.dat ci=0x400 d=0) F(text.txt ci=0x480 d=21917) F(noise.bin ci=0x400 d=50000) F(big.txt ci=0x480 d=104789) F(frac.txt ci=0x480 d=2285) F(café-日.txt ci=0x480 d=417) F(pic.jpg ci=0x400 d=20000) F(sub/a.c ci=0x480 d=535) F(sub/deep/b.txt ci=0x480 d=667) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m2: 1 file(s): a.rar
+  a.rar [196728 bytes]: main(0x0) F(hello.txt ci=0x900 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x900 d=21313) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x900 d=100508) F(frac.txt ci=0x900 d=2408) F(café-日.txt ci=0x900 d=459) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x900 d=578) F(sub/deep/b.txt ci=0x900 d=730) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m3: 1 file(s): a.rar
+  a.rar [194877 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m3-md128k: 1 file(s): a.rar
+  a.rar [195516 bytes]: main(0x0) F(hello.txt ci=0x180 d=34) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x180 d=21144) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x180 d=99473) F(frac.txt ci=0x180 d=2401) F(café-日.txt ci=0x180 d=456) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x180 d=581) F(sub/deep/b.txt ci=0x180 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m3-md1m: 1 file(s): a.rar
+  a.rar [194877 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m3-md64m: 1 file(s): a.rar
+  a.rar [194877 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m3-one-big: 1 file(s): a.rar
+  a.rar [98968 bytes]: main(0x0) F(big.txt ci=0x980 d=98834) S(QO ci=0x0 d=46) end(0x0)
+m3-one-small: 1 file(s): a.rar
+  a.rar [101 bytes]: main(0x0) F(hello.txt ci=0x180 d=34) end(0x0)
+m4: 1 file(s): a.rar
+  a.rar [194632 bytes]: main(0x0) F(hello.txt ci=0xa00 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0xa00 d=21143) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0xa00 d=98590) F(frac.txt ci=0xa00 d=2401) F(café-日.txt ci=0xa00 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0xa00 d=581) F(sub/deep/b.txt ci=0xa00 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+m5: 1 file(s): a.rar
+  a.rar [194604 bytes]: main(0x0) F(hello.txt ci=0xa80 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0xa80 d=21143) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0xa80 d=98562) F(frac.txt ci=0xa80 d=2401) F(café-日.txt ci=0xa80 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0xa80 d=581) F(sub/deep/b.txt ci=0xa80 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+ms-m3: 1 file(s): a.rar
+  a.rar [194877 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) end(0x0)
+ol: 1 file(s): a.rar
+  a.rar [438902 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(link ci=0x0 d=0) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+ol-ow-htb-pw-frac: 1 file(s): a.rar
+  a.rar [440916 bytes]: main(0x0) F(hello.txt ci=0x0 d=304) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5008) F(café-日.txt ci=0x0 d=704) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=912) F(sub/deep/b.txt ci=0x0 d=1200) F(link ci=0x0 d=0) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=832) end(0x0)
+ow: 1 file(s): a.rar
+  a.rar [439101 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=309) end(0x0)
+pw-htb: 1 file(s): a.rar
+  a.rar [440093 bytes]: main(0x0) F(hello.txt ci=0x0 d=304) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5008) F(café-日.txt ci=0x0 d=704) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=912) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=645) end(0x0)
+pw-m0: 1 file(s): a.rar
+  a.rar [439627 bytes]: main(0x0) F(hello.txt ci=0x0 d=304) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5008) F(café-日.txt ci=0x0 d=704) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=912) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=489) end(0x0)
+pw-m3: 1 file(s): a.rar
+  a.rar [195925 bytes]: main(0x0) F(hello.txt ci=0x980 d=48) F(empty.dat ci=0x980 d=16) F(text.txt ci=0x980 d=21152) F(noise.bin ci=0x980 d=50160) F(big.txt ci=0x980 d=98848) F(frac.txt ci=0x980 d=2416) F(café-日.txt ci=0x980 d=464) F(pic.jpg ci=0x980 d=20096) F(sub/a.c ci=0x980 d=592) F(sub/deep/b.txt ci=0x980 d=736) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=387) end(0x0)
+qo+: 1 file(s): a.rar
+  a.rar [439192 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=581) end(0x0)
+qo+-m3: 1 file(s): a.rar
+  a.rar [195271 bytes]: main(0x0) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=581) end(0x0)
+qo-: 1 file(s): a.rar
+  a.rar [438583 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) end(0x0)
+rr5: 1 file(s): a.rar
+  a.rar [477561 bytes]: main(0x8) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) S(RR ci=0x0 d=38680) end(0x0)
+rr5-m3: 1 file(s): a.rar
+  a.rar [218505 bytes]: main(0x8) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin ci=0x800 d=50000) F(big.txt ci=0x980 d=98834) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=187) S(RR ci=0x0 d=23598) end(0x0)
+rr5-qo-: 1 file(s): a.rar
+  a.rar [477277 bytes]: main(0x8) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(RR ci=0x0 d=38660) end(0x0)
+s-m0: 1 file(s): a.rar
+  a.rar [438851 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=240) end(0x0)
+s-m3: 1 file(s): a.rar
+  a.rar [191480 bytes]: main(0x4) F(noise.bin ci=0xd80 d=50160) F(sub/a.c ci=0xdc0 d=790) F(empty.dat ci=0xdc0 d=0) F(pic.jpg ci=0xdc0 d=20163) F(sub/deep/b.txt ci=0xdc0 d=795) F(big.txt ci=0xdc0 d=98112) F(café-日.txt ci=0xdc0 d=223) F(frac.txt ci=0xdc0 d=1572) F(hello.txt ci=0xdc0 d=24) F(text.txt ci=0xdc0 d=18943) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+s-m3-ds: 1 file(s): a.rar
+  a.rar [193594 bytes]: main(0x4) F(hello.txt ci=0xd80 d=34) F(empty.dat ci=0xdc0 d=0) F(text.txt ci=0xdc0 d=21143) F(noise.bin ci=0xdc0 d=50157) F(big.txt ci=0xdc0 d=97771) F(frac.txt ci=0xdc0 d=1606) F(café-日.txt ci=0xdc0 d=223) F(pic.jpg ci=0xdc0 d=21105) F(sub/a.c ci=0xdc0 d=376) F(sub/deep/b.txt ci=0xdc0 d=481) F(sub/deep ci=0x40 d=0) F(sub ci=0x40 d=0) F(emptydir ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+s-m5: 1 file(s): a.rar
+  a.rar [191008 bytes]: main(0x4) F(noise.bin ci=0xe80 d=50160) F(sub/a.c ci=0xec0 d=790) F(empty.dat ci=0xec0 d=0) F(pic.jpg ci=0xec0 d=20163) F(sub/deep/b.txt ci=0xec0 d=795) F(big.txt ci=0xec0 d=97844) F(café-日.txt ci=0xec0 d=224) F(frac.txt ci=0xec0 d=1560) F(hello.txt ci=0xec0 d=24) F(text.txt ci=0xec0 d=18750) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+s-ms-m3: 1 file(s): a.rar
+  a.rar [191554 bytes]: main(0x4) F(noise.bin ci=0xd80 d=50156) F(sub/a.c ci=0x40 d=900) F(empty.dat ci=0xdc0 d=10) F(pic.jpg ci=0x40 d=20000) F(sub/deep/b.txt ci=0xdc0 d=729) F(big.txt ci=0xdc0 d=98298) F(café-日.txt ci=0xdc0 d=223) F(frac.txt ci=0xdc0 d=1572) F(hello.txt ci=0xdc0 d=24) F(text.txt ci=0xdc0 d=18944) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+s-pair-m3: 1 file(s): a.rar
+  a.rar [11252 bytes]: main(0x4) F(dup1.txt ci=0xd80 d=11098) F(dup2.txt ci=0xdc0 d=56) end(0x0)
+s3-m3: 1 file(s): a.rar
+  a.rar [194744 bytes]: main(0x4) F(noise.bin ci=0xd80 d=50259) F(sub/a.c ci=0xdc0 d=604) F(empty.dat ci=0xdc0 d=0) F(pic.jpg ci=0xd80 d=20163) F(sub/deep/b.txt ci=0xdc0 d=878) F(big.txt ci=0xdc0 d=98288) F(café-日.txt ci=0xd80 d=502) F(frac.txt ci=0xdc0 d=2189) F(hello.txt ci=0xdc0 d=19) F(text.txt ci=0xd80 d=21144) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+se-m3: 1 file(s): a.rar
+  a.rar [191319 bytes]: main(0x4) F(noise.bin ci=0xd80 d=50156) F(sub/a.c ci=0xd80 d=581) F(empty.dat ci=0xd80 d=10) F(pic.jpg ci=0xd80 d=20084) F(sub/deep/b.txt ci=0xd80 d=729) F(big.txt ci=0xdc0 d=98298) F(café-日.txt ci=0xdc0 d=223) F(frac.txt ci=0xdc0 d=1572) F(hello.txt ci=0xdc0 d=24) F(text.txt ci=0xdc0 d=18944) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=187) end(0x0)
+si-m0: 1 file(s): a.rar
+  a.rar [10659 bytes]: main(0x0) F(stdin.bin ci=0x0 d=10500) S(QO ci=0x0 d=59) end(0x0)
+si-m3: 1 file(s): a.rar
+  a.rar [135 bytes]: main(0x0) F(stdin.bin ci=0x2180 d=54) end(0x0)
+ts-off: 1 file(s): a.rar
+  a.rar [438763 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=212) end(0x0)
+tsc-tsa: 1 file(s): a.rar
+  a.rar [439267 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=352) end(0x0)
+tsm-off: 1 file(s): a.rar
+  a.rar [438763 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=212) end(0x0)
+tsm1: 1 file(s): a.rar
+  a.rar [438835 bytes]: main(0x0) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin ci=0x0 d=50000) F(big.txt ci=0x0 d=300000) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=232) end(0x0)
+vol-12: 11 file(s): a.part01.rar .. a.part11.rar
+  a.part01.rar [40960 bytes]: main(0x1) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt> ci=0x0 d=40444) S(QO ci=0x0 d=47) end(0x1) zeros*8
+  a.part02.rar [40960 bytes]: main(0x3 vol=1) F(text.txt< ci=0x0 d=19556) F(noise.bin> ci=0x0 d=21167) S(QO ci=0x0 d=95) end(0x1) zeros*14
+  a.part03.rar [40960 bytes]: main(0x3 vol=2) F(noise.bin< ci=0x0 d=28833) F(big.txt> ci=0x0 d=11892) S(QO ci=0x0 d=93) end(0x1) zeros*15
+  a.part04.rar [40960 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part05.rar [40960 bytes]: main(0x3 vol=4) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part06.rar [40960 bytes]: main(0x3 vol=5) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part07.rar [40960 bytes]: main(0x3 vol=6) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part08.rar [40960 bytes]: main(0x3 vol=7) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part09.rar [40960 bytes]: main(0x3 vol=8) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part10.rar [40960 bytes]: main(0x3 vol=9) F(big.txt<> ci=0x0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part11.rar [30653 bytes]: main(0x3 vol=10) F(big.txt< ci=0x0 d=2389) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=99) end(0x0)
+vol-cmt-qo+: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x1) S(CMT ci=0x0 d=17) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=41647) S(QO ci=0x0 d=187) end(0x1) zeros*26
+  a.part2.rar [102400 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x0 d=8353) F(big.txt> ci=0x0 d=93812) S(QO ci=0x0 d=94) end(0x1) zeros*14
+  a.part3.rar [102400 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x0 d=102257) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part4.rar [102400 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=102257) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part5.rar [30233 bytes]: main(0x3 vol=4) F(big.txt< ci=0x0 d=1674) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=394) end(0x0)
+vol-hp: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: encryption
+  a.part2.rar [102400 bytes]: encryption
+  a.part3.rar [102400 bytes]: encryption
+  a.part4.rar [102400 bytes]: encryption
+  a.part5.rar [32446 bytes]: encryption
+vol-htb: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x1) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=41600) S(QO ci=0x0 d=159) end(0x1) zeros*14
+  a.part2.rar [102400 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x0 d=8400) F(big.txt> ci=0x0 d=93637) S(QO ci=0x0 d=158) end(0x1) zeros*14
+  a.part3.rar [102400 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x0 d=102193) S(QO ci=0x0 d=78) end(0x1) zeros*8
+  a.part4.rar [102400 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=102193) S(QO ci=0x0 d=78) end(0x1) zeros*8
+  a.part5.rar [30495 bytes]: main(0x3 vol=4) F(big.txt< ci=0x0 d=1977) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=162) end(0x0)
+vol-m0: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x1) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=41792) S(QO ci=0x0 d=95) end(0x1) zeros*14
+  a.part2.rar [102400 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x0 d=8208) F(big.txt> ci=0x0 d=93957) S(QO ci=0x0 d=94) end(0x1) zeros*14
+  a.part3.rar [102400 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x0 d=102257) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part4.rar [102400 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=102257) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part5.rar [29793 bytes]: main(0x3 vol=4) F(big.txt< ci=0x0 d=1529) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=99) end(0x0)
+vol-m3: 5 file(s): a.part01.rar a.part02.rar a.part03.rar a.part04.rar a.part05.rar
+  a.part01.rar [40960 bytes]: main(0x1) F(hello.txt ci=0x980 d=34) F(empty.dat ci=0x800 d=0) F(text.txt ci=0x980 d=21144) F(noise.bin> ci=0x980 d=19474) S(QO ci=0x0 d=95) end(0x1) zeros*14
+  a.part02.rar [40960 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x980 d=30682) F(big.txt> ci=0x980 d=10043) S(QO ci=0x0 d=93) end(0x1) zeros*15
+  a.part03.rar [40960 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x980 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part04.rar [40960 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x980 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part05.rar [31781 bytes]: main(0x3 vol=4) F(big.txt< ci=0x980 d=7157) F(frac.txt ci=0x980 d=2401) F(café-日.txt ci=0x980 d=456) F(pic.jpg ci=0x800 d=20000) F(sub/a.c ci=0x980 d=581) F(sub/deep/b.txt ci=0x980 d=729) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=92) end(0x0)
+vol-pw: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x1) F(hello.txt ci=0x0 d=304) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=41488) S(QO ci=0x0 d=195) end(0x1) zeros*14
+  a.part2.rar [102400 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x0 d=8512) F(big.txt> ci=0x0 d=93453) S(QO ci=0x0 d=194) end(0x1) zeros*14
+  a.part3.rar [102400 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x0 d=102157) S(QO ci=0x0 d=96) end(0x1) zeros*8
+  a.part4.rar [102400 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=102157) S(QO ci=0x0 d=96) end(0x1) zeros*8
+  a.part5.rar [30919 bytes]: main(0x3 vol=4) F(big.txt< ci=0x0 d=2233) F(frac.txt ci=0x0 d=5008) F(café-日.txt ci=0x0 d=704) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=912) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=198) end(0x0)
+vol-pw-htb: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x1) F(hello.txt ci=0x0 d=304) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=41302) S(QO ci=0x0 d=257) end(0x1) zeros*14
+  a.part2.rar [102400 bytes]: main(0x3 vol=1) F(noise.bin< ci=0x0 d=8698) F(big.txt> ci=0x0 d=93143) S(QO ci=0x0 d=256) end(0x1) zeros*14
+  a.part3.rar [102400 bytes]: main(0x3 vol=2) F(big.txt<> ci=0x0 d=102095) S(QO ci=0x0 d=127) end(0x1) zeros*8
+  a.part4.rar [102400 bytes]: main(0x3 vol=3) F(big.txt<> ci=0x0 d=102095) S(QO ci=0x0 d=127) end(0x1) zeros*8
+  a.part5.rar [31602 bytes]: main(0x3 vol=4) F(big.txt< ci=0x0 d=2667) F(frac.txt ci=0x0 d=5008) F(café-日.txt ci=0x0 d=704) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=912) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=261) end(0x0)
+vol-rr5: 5 file(s): a.part1.rar a.part2.rar a.part3.rar a.part4.rar a.part5.rar
+  a.part1.rar [102400 bytes]: main(0x9) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(text.txt ci=0x0 d=60000) F(noise.bin> ci=0x0 d=34405) S(QO ci=0x0 d=95) S(RR ci=0x0 d=7352) end(0x1) zeros*21
+  a.part2.rar [102400 bytes]: main(0xb vol=1) F(noise.bin< ci=0x0 d=15595) F(big.txt> ci=0x0 d=79183) S(QO ci=0x0 d=94) S(RR ci=0x0 d=7352) end(0x1) zeros*21
+  a.part3.rar [102400 bytes]: main(0xb vol=2) F(big.txt<> ci=0x0 d=94870) S(QO ci=0x0 d=46) S(RR ci=0x0 d=7352) end(0x1) zeros*15
+  a.part4.rar [102400 bytes]: main(0xb vol=3) F(big.txt<> ci=0x0 d=94870) S(QO ci=0x0 d=46) S(RR ci=0x0 d=7352) end(0x1) zeros*15
+  a.part5.rar [62535 bytes]: main(0xb vol=4) F(big.txt< ci=0x0 d=31077) F(frac.txt ci=0x0 d=5000) F(café-日.txt ci=0x0 d=700) F(pic.jpg ci=0x0 d=20000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=145) S(RR ci=0x0 d=3120) end(0x0)
+vol-s-m5: 5 file(s): a.part01.rar a.part02.rar a.part03.rar a.part04.rar a.part05.rar
+  a.part01.rar [40960 bytes]: main(0x5) F(noise.bin> ci=0xe80 d=40814) S(QO ci=0x0 d=48) end(0x1) zeros*8
+  a.part02.rar [40960 bytes]: main(0x7 vol=1) F(noise.bin< ci=0xe80 d=9346) F(sub/a.c ci=0xec0 d=790) F(empty.dat ci=0xec0 d=0) F(pic.jpg ci=0xec0 d=20163) F(sub/deep/b.txt ci=0xec0 d=795) F(big.txt> ci=0xec0 d=9432) S(QO ci=0x0 d=139) end(0x1) zeros*21
+  a.part03.rar [40960 bytes]: main(0x7 vol=2) F(big.txt<> ci=0xec0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part04.rar [40960 bytes]: main(0x7 vol=3) F(big.txt<> ci=0xec0 d=40817) S(QO ci=0x0 d=46) end(0x1) zeros*8
+  a.part05.rar [27756 bytes]: main(0x7 vol=4) F(big.txt< ci=0xec0 d=6778) F(café-日.txt ci=0xec0 d=224) F(frac.txt ci=0xec0 d=1560) F(hello.txt ci=0xec0 d=24) F(text.txt ci=0xec0 d=18750) F(sub/deep ci=0x40 d=0) F(emptydir ci=0x40 d=0) F(sub ci=0x40 d=0) S(QO ci=0x0 d=93) end(0x0)
+vol-si: 6 file(s): a.part1.rar .. a.part6.rar
+  a.part1.rar [10240 bytes]: main(0x1) F(stdin.bin> ci=0x0 d=10072) S(QO ci=0x0 d=59) end(0x1) zeros*9
+  a.part2.rar [10240 bytes]: main(0x3 vol=1) F(stdin.bin<> ci=0x0 d=10071) S(QO ci=0x0 d=59) end(0x1) zeros*9
+  a.part3.rar [10240 bytes]: main(0x3 vol=2) F(stdin.bin<> ci=0x0 d=10071) S(QO ci=0x0 d=59) end(0x1) zeros*9
+  a.part4.rar [10240 bytes]: main(0x3 vol=3) F(stdin.bin<> ci=0x0 d=10071) S(QO ci=0x0 d=59) end(0x1) zeros*9
+  a.part5.rar [10240 bytes]: main(0x3 vol=4) F(stdin.bin<> ci=0x0 d=10071) S(QO ci=0x0 d=59) end(0x1) zeros*9
+  a.part6.rar [2226 bytes]: main(0x3 vol=5) F(stdin.bin< ci=0x0 d=2144) end(0x0)
+vol-small: 2 file(s): a.part1.rar a.part2.rar
+  a.part1.rar [20480 bytes]: main(0x1) F(hello.txt ci=0x0 d=300) F(empty.dat ci=0x0 d=0) F(frac.txt ci=0x0 d=5000) F(sub/a.c ci=0x0 d=900) F(sub/deep/b.txt ci=0x0 d=1200) F(pic.jpg> ci=0x0 d=12690) S(QO ci=0x0 d=98) end(0x1) zeros*15
+  a.part2.rar [7525 bytes]: main(0x3 vol=1) F(pic.jpg< ci=0x0 d=7310) F(sub/deep ci=0x0 d=0) F(sub ci=0x0 d=0) F(emptydir ci=0x0 d=0) S(QO ci=0x0 d=45) end(0x0)

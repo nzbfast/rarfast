@@ -1,0 +1,50 @@
+arm: s5-select-c
+about: as written, the command selecting c.txt alone [archive flags 0x4; a.txt clear method 3 packed 2017, b.txt solid method 3 packed 108, c.txt solid method 3 packed 116, d.txt solid method 3 packed 82]
+file: x.rar  2475 bytes  sha256 67785ae6b9aa813c0c153e22454f07467f141d28a981d5554de82b6159a0d072
+$ unrar lt -p- x.rar c.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar c.txt
+exit 0
+  Testing archive x.rar
+  Skipping    a.txt                                                         84%
+  Skipping    b.txt                                                         89%
+  Testing     c.txt                                                         95%  OK
+  All OK
+$ unrar p -inul -p- x.rar c.txt
+exit 0
+stdout: 5200 bytes, b'keongba ark ri ilyto kenimsan ark ily nimilyongark pla vor tosanestpla chuong on' ...
+$ rar lt -p- x.rar c.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar c.txt
+exit 0
+  Testing archive x.rar
+  Skipping    a.txt                                                         84%
+  Skipping    b.txt                                                         89%
+  Testing     c.txt                                                         95%  OK
+  All OK

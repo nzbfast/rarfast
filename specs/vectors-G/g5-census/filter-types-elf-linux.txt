@@ -1,0 +1,17 @@
+rar 7.23 for x86-64 Linux, 6 Oct 2026. The first 2,000,000 bytes of three ELF x86-64 files of an Ubuntu 24.04 system
+(/usr/bin/python3.12, /usr/bin/git, /usr/lib/x86_64-linux-gnu/libcrypto.so.3; the line before each group is the first
+16 hex digits of that input's SHA-256), each archived alone: rar a -mN -idq -cfg- -qo- -ep t.rar INPUT, then
+rar5-filter-types.py t.rar. "size" is the archive's length.
+
+d1c71de333b39895
+python3.12 -m1 size 1071477: t.rar python3.12.2m 0 filters:  | 0 of 2000000 bytes covered 
+python3.12 -m3 size 808833: t.rar python3.12.2m 34 filters: delta/4 x1, delta/16 x1, delta/24 x3, E8E9 x29 | 1936768 of 2000000 bytes covered 
+python3.12 -m5 size 807441: t.rar python3.12.2m 34 filters: delta/4 x1, delta/16 x1, delta/24 x3, E8E9 x29 | 1936768 of 2000000 bytes covered 
+8b7208a7fb87521f
+git -m1 size 1119684: t.rar git.2m 0 filters:  | 0 of 2000000 bytes covered 
+git -m3 size 879665: t.rar git.2m 32 filters: delta/16 x1, delta/24 x2, E8 x6, E8E9 x23 | 1985664 of 2000000 bytes covered 
+git -m5 size 877036: t.rar git.2m 32 filters: delta/16 x1, delta/24 x2, E8 x6, E8E9 x23 | 1985664 of 2000000 bytes covered 
+d96a2c1899448999
+libcrypto.so.3 -m1 size 884744: t.rar libcrypto.so.3.2m 0 filters:  | 0 of 2000000 bytes covered 
+libcrypto.so.3 -m3 size 707677: t.rar libcrypto.so.3.2m 28 filters: delta/4 x1, delta/16 x1, delta/24 x11, E8 x7, E8E9 x8 | 1519744 of 2000000 bytes covered 
+libcrypto.so.3 -m5 size 706581: t.rar libcrypto.so.3.2m 28 filters: delta/4 x1, delta/16 x1, delta/24 x11, E8 x7, E8E9 x8 | 1519744 of 2000000 bytes covered 

@@ -1,0 +1,111 @@
+member	r5_p_m0_crc.rar	hello.txt	version=0 flags=0x3 exponent=15 packed=32 unpacked=27
+reading	r5_p_m0_crc.rar	hello.txt	check value	stated: fold of V(N+32)	fits
+reading	r5_p_m0_crc.rar	hello.txt	check value	fold of V(N+31)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check value	fold of V(N+33)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check value	fold of V(N+16)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check value	first 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check value	last 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check record tail	stated: first 4 bytes of SHA-256 of the 8	fits
+reading	r5_p_m0_crc.rar	hello.txt	check record tail	last 4 bytes of SHA-256 of the 8	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	check record tail	CRC32 of the 8	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	data key	stated: V(N)	fits
+reading	r5_p_m0_crc.rar	hello.txt	data key	V(N-1)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	data key	V(N+1)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	data key	V(N+16)	does not fit
+fact	r5_p_m0_crc.rar	hello.txt	pad bytes after the plaintext: 0000000000
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	stated: XOR of the eight LE words of HMAC(hash key V(N+16), CRC as 4 LE bytes)	fits
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	the plain CRC32	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	first LE word of that HMAC	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	the same with the data key V(N)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	the same with V(N+15)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	the same with V(N+17)	does not fit
+reading	r5_p_m0_crc.rar	hello.txt	stored CRC32 field	CRC as 4 big-endian bytes	does not fit
+member	r5_p_m0_crc.rar	data.bin	version=0 flags=0x3 exponent=15 packed=40000 unpacked=40000
+reading	r5_p_m0_crc.rar	data.bin	check value	stated: fold of V(N+32)	fits
+reading	r5_p_m0_crc.rar	data.bin	check value	fold of V(N+31)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check value	fold of V(N+33)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check value	fold of V(N+16)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check value	first 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check value	last 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check record tail	stated: first 4 bytes of SHA-256 of the 8	fits
+reading	r5_p_m0_crc.rar	data.bin	check record tail	last 4 bytes of SHA-256 of the 8	does not fit
+reading	r5_p_m0_crc.rar	data.bin	check record tail	CRC32 of the 8	does not fit
+reading	r5_p_m0_crc.rar	data.bin	data key	stated: V(N)	fits
+reading	r5_p_m0_crc.rar	data.bin	data key	V(N-1)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	data key	V(N+1)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	data key	V(N+16)	does not fit
+fact	r5_p_m0_crc.rar	data.bin	pad bytes after the plaintext: (none)
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	stated: XOR of the eight LE words of HMAC(hash key V(N+16), CRC as 4 LE bytes)	fits
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	the plain CRC32	does not fit
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	first LE word of that HMAC	does not fit
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	the same with the data key V(N)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	the same with V(N+15)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	the same with V(N+17)	does not fit
+reading	r5_p_m0_crc.rar	data.bin	stored CRC32 field	CRC as 4 big-endian bytes	does not fit
+member	r5_p_m0_blake.rar	hello.txt	version=0 flags=0x3 exponent=15 packed=32 unpacked=27
+reading	r5_p_m0_blake.rar	hello.txt	check value	stated: fold of V(N+32)	fits
+reading	r5_p_m0_blake.rar	hello.txt	check value	fold of V(N+31)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check value	fold of V(N+33)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check value	fold of V(N+16)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check value	first 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check value	last 8 bytes of V(N+32)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check record tail	stated: first 4 bytes of SHA-256 of the 8	fits
+reading	r5_p_m0_blake.rar	hello.txt	check record tail	last 4 bytes of SHA-256 of the 8	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	check record tail	CRC32 of the 8	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	data key	stated: V(N)	fits
+reading	r5_p_m0_blake.rar	hello.txt	data key	V(N-1)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	data key	V(N+1)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	data key	V(N+16)	does not fit
+fact	r5_p_m0_blake.rar	hello.txt	pad bytes after the plaintext: 0000000000
+reading	r5_p_m0_blake.rar	hello.txt	stored BLAKE2sp field	stated: HMAC(hash key, digest)	fits
+reading	r5_p_m0_blake.rar	hello.txt	stored BLAKE2sp field	the plain digest	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	stored BLAKE2sp field	HMAC(data key, digest)	does not fit
+reading	r5_p_m0_blake.rar	hello.txt	stored BLAKE2sp field	HMAC(digest, hash key)	does not fit
+archive	r5_hp_m0.rar	first header type 4: version=0 flags=0x1 exponent=15; check record fits the stated derivation: True
+header	r5_hp_m0.rar	at 46: type 1, 15 bytes, padding 00, CRC32 fits
+header	r5_hp_m0.rar	at 78: type 2, 93 bytes, padding 000000, CRC32 fits member hello.txt: record flags 0x1, salt equals the archive record's: True, stored CRC32 is the plain CRC32: True, data decrypts to the input: True
+header	r5_hp_m0.rar	at 222: type 5, 8 bytes, padding 0000000000000000, CRC32 fits
+archive	r5_hp_m0.rar	the walk ends at 254 of 254 bytes
+fragment	r5_p_vol.part1.rar	16127 bytes, record flags 0x1, stored CRC32 0x8aea53a3; it is the plain CRC32 of the ciphertext: True
+fragment	r5_p_vol.part2.rar	16126 bytes, record flags 0x1, stored CRC32 0xe7997b23; it is the plain CRC32 of the ciphertext: True
+fragment	r5_p_vol.part3.rar	7747 bytes, record flags 0x3, stored CRC32 0x59501946; it is the plain CRC32 of the ciphertext: False
+chain	r5_p_vol	same salt in every fragment: True; same IV: True; one chain over the joined fragments gives the input: True; the second fragment decrypted alone from its IV gives its part of the input: False; last fragment's stored CRC32 is the stated MAC of the whole member's CRC32: True
+quick-open	r5_p_m0_crc.rar	QO data of 104 bytes; copies found of the file headers: ['data.bin']; the first entry's CRC32 covers its bytes from 4 to 104: True
+unrar	control: the archive as written	good=yes	rc=0	All OK
+unrar	control: a wrong password	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	exponent byte rewritten to 24 in every member (keys not rederived)	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	exponent byte rewritten to 25 in every member (keys not rederived)	good=no	rc=2	You may need a newer version of RAR.
+unrar	exponent byte rewritten to 31 in every member (keys not rederived)	good=no	rc=2	You may need a newer version of RAR.
+unrar	exponent byte rewritten to 255 in every member (keys not rederived)	good=no	rc=2	You may need a newer version of RAR.
+unrar	rewritten under the stated derivation: a drawn password of 11 letters and digits, "EvdhEZ9xHgN", exponent 15	good=yes	rc=0	All OK
+unrar	the same drawn password, with the quick open copy of the second member's header left as it was	good=no	rc=11	Incorrect password for data.bin | Total errors: 1
+unrar	rewritten under the stated derivation: password "Secret", exponent 0	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: password "Secret", exponent 1	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: password "Secret", exponent 16	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: password of 126 characters, exponent 10	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: password of 127 characters, exponent 10	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: password of 128 characters, exponent 10	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	rewritten under the stated derivation: password of 129 characters, exponent 10	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	rewritten under the stated derivation: password of 200 characters, exponent 10	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	rewritten under the stated derivation with only the first 127 of 200 characters, tested with all 200	good=yes	rc=0	All OK
+unrar	unit of the length: 127 characters of 2 UTF-8 bytes each (254 bytes), all used	good=yes	rc=0	All OK
+unrar	unit of the length: 128 such characters, all used	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	unit of the length: keyed with the first 127 of 128 such characters, tested with all 128	good=yes	rc=0	All OK
+unrar	unit of the length: keyed with the first 127 BYTES of 128 ASCII then such characters (x * 126 + one character), tested whole	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	unit of the length: 126 ASCII and U+1F511 as its 4 UTF-8 bytes (127 code points), all used	good=yes	rc=0	All OK
+unrar	unit of the length: keyed with 126 ASCII and U+1F511, tested with one more character typed after	good=yes	rc=0	All OK
+unrar	unit of the length: keyed with 125 ASCII, U+1F511 and one more character (127 code points, 128 UTF-16 units), all used	good=yes	rc=0	All OK
+unrar	U+1F511 alone as the password, as its 4 UTF-8 bytes	good=yes	rc=0	All OK
+unrar	rewritten under the stated derivation: a drawn password of 5 characters beyond ASCII (U+6DB5 U+9716 U+0446 U+759F U+65E5) as UTF-8, exponent 10	good=yes	rc=0	All OK
+unrar	rewritten with one other reading: check from V(N+31); exponent 10	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	rewritten with one other reading: hash key V(N+15); exponent 10	good=no	rc=3	hello.txt            - checksum error | data.bin             - checksum error | Total errors: 2
+unrar	rewritten with one other reading: data key V(N+1); exponent 10	good=no	rc=3	hello.txt            - checksum error | data.bin             - checksum error | Total errors: 2
+unrar	check value altered, its checksum recomputed	good=no	rc=11	Incorrect password for hello.txt | Incorrect password for data.bin | Total errors: 2
+unrar	check record's own checksum altered, value intact	good=yes	rc=0	All OK
+unrar	check value altered, its checksum left (so the checksum no longer fits)	good=yes	rc=0	All OK
+unrar	the same, tested with a wrong password	good=no	rc=3	Checksum error in the encrypted file hello.txt. Corrupt file or wrong password. | Checksum error in the encrypted file data.bin. Corrupt file or wrong password. | Total e
+unrar	one bit of the first member's data altered	good=no	rc=3	hello.txt            - checksum error | Total errors: 1
+unrar	one bit of the first member's stored CRC32 altered	good=no	rc=3	hello.txt            - checksum error | Total errors: 1
+unrar	stored CRC32 replaced by the plain CRC32, record flags left at 0x3	good=no	rc=3	hello.txt            - checksum error | data.bin             - checksum error | Total errors: 2
+unrar	stored CRC32 replaced by the plain CRC32 and record flags set to 0x1	good=yes	rc=0	All OK
+summary	rar5 arms done

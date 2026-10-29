@@ -1,0 +1,107 @@
+arm: old-sym-default
+about: older container, host 3, mode 0120777, the target as stored content, unrar x
+file: x.rar  647 bytes  sha256 12ba560bab4df3d0193a4296b3dc02743f364dfe9e276e562b2b42bfa4ec7533
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+          Name: top.txt
+          Type: File
+          Size: 16
+          Name: d
+          Type: Directory
+          Name: sym_rel
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 5
+          Name: sym_abs
+          Type: Unix symbolic link
+        Target: /etc/hostname
+          Size: 13
+          Name: sym_up
+          Type: Unix symbolic link
+        Target: ../../escape
+          Size: 12
+          Name: d/up_in
+          Type: Unix symbolic link
+        Target: ../top.txt
+          Size: 10
+          Name: d/up_out
+          Type: Unix symbolic link
+        Target: ../../top.txt
+          Size: 13
+          Name: dotdot_mid
+          Type: Unix symbolic link
+        Target: d/../top.txt
+          Size: 12
+          Name: sym_dangling
+          Type: Unix symbolic link
+        Target: nothere
+          Size: 7
+          Name: sym_nul
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 8
+          Name: sym_empty
+          Type: Unix symbolic link
+        Target:
+          Size: 0
+          Name: sym_bad_crc
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 5
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         10%  OK
+  Testing     top.txt                                                       18%  OK
+  Testing     d                                                         OK
+  Testing     sym_rel
+  Testing     sym_abs
+  Testing     sym_up
+  Testing     d/up_in
+  Testing     d/up_out
+  Testing     dotdot_mid
+  Testing     sym_dangling
+  Testing     sym_nul
+  Testing     sym_empty
+  Testing     sym_bad_crc
+  All OK
+$ unrar x -p- x.rar o/
+exit 1
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       10%  OK
+  Extracting  o/top.txt                                                     18%  OK
+  Creating    o/d                                                       OK
+  Extracting  o/sym_rel                                                     31%  OK
+  Extracting  o/sym_abs                                                     39%
+  Extracting  o/sym_up                                                      47%
+  Extracting  o/d/up_in                                                     55%  OK
+  Extracting  o/d/up_out                                                    63%
+  Extracting  o/dotdot_mid                                                  72%
+  Extracting  o/sym_dangling                                                80%  OK
+  Extracting  o/sym_nul                                                     88%  OK
+  Extracting  o/sym_empty                                                   94%
+  Extracting  o/sym_bad_crc                                                100%  OK
+  Total errors: 4
+stderr:
+  Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+  Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+  dir   o/d
+  link  o/sym_bad_crc          -> a.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_dangling         -> nothere   (mtime the member's, read in this machine's zone)
+  link  o/sym_nul              -> a.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_rel              -> a.txt   (mtime the member's, read in this machine's zone)
+  file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+  link  o/d/up_in              -> ../top.txt   (mtime the member's, read in this machine's zone)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

@@ -1,0 +1,14 @@
+program	archive	t exit	m0 is its first declared bytes	m1's text after the copy	m1's first 60 bytes
+unrar-7.23-macos-arm64	declares-000.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-001.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-150.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-300.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-303.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-306.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-350.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-406.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-420.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-446.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-480.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-505.rar	0	yes	as coded	WHOLE
+unrar-7.23-macos-arm64	declares-506.rar	0	yes	as coded	WHOLE=CUT

@@ -1,0 +1,60 @@
+fixtures/legacy/archives/d140_sol.rar  [rar13, archive solid flag set]
+    DATA.BIN packed v13 -, TABLE.BIN packed v13 -, EMPTY.DAT empty v13 -, ONE.DAT packed v13 -, AUDIO.RAW packed v13 -, BIG.TXT packed v13 -, SUB\NESTED\DEEP.TXT packed v13 -, HELLO.TXT packed v13 -, SUB\SIB.TXT packed v13 -, SUB\NESTED dir v13 -, EMPTYDIR dir v13 -, SUB dir v13 -
+fixtures/legacy/archives/d155_sol.rar  [rar4, archive solid flag set]
+    EMPTYDIR dir v15 clear, SUB\NESTED dir v15 clear, SUB dir v15 clear, DATA.BIN packed v15 clear, TABLE.BIN packed v15 clear, EMPTY.DAT empty v15 clear, ONE.DAT packed v15 clear, AUDIO.RAW packed v15 clear, BIG.TXT packed v15 clear, SUB\NESTED\DEEP.TXT packed v15 clear, HELLO.TXT packed v15 clear, SUB\SIB.TXT packed v15 clear
+fixtures/legacy/archives/d250_se.rar  [rar4, archive solid flag set]
+    EMPTYDIR dir v20 clear, SUB\NESTED dir v20 clear, SUB dir v20 clear, BIG.TXT packed v20 clear, SUB\NESTED\DEEP.TXT packed v20 clear, HELLO.TXT packed v20 SET, SUB\SIB.TXT packed v20 SET, DATA.BIN packed v20 SET, TABLE.BIN packed v20 clear, EMPTY.DAT empty v20 SET, ONE.DAT packed v20 clear, AUDIO.RAW packed v20 SET
+fixtures/legacy/archives/d250_sol.rar  [rar4, archive solid flag set]
+    EMPTYDIR dir v20 clear, SUB\NESTED dir v20 clear, SUB dir v20 clear, BIG.TXT packed v20 clear, SUB\NESTED\DEEP.TXT packed v20 SET, HELLO.TXT packed v20 SET, SUB\SIB.TXT packed v20 SET, DATA.BIN packed v20 SET, TABLE.BIN packed v20 SET, EMPTY.DAT empty v20 SET, ONE.DAT packed v20 SET, AUDIO.RAW packed v20 SET
+fixtures/legacy/archives/r393_solid.rar  [rar4, archive solid flag set]
+    DATA.BIN packed v29 clear, TABLE.BIN packed v29 SET, EMPTY.DAT empty v29 SET, ONE.DAT packed v29 SET, AUDIO.RAW packed v29 SET, BIG.TXT packed v29 SET, SUB\NESTED\DEEP.TXT packed v29 SET, HELLO.TXT packed v29 SET, SUB\SIB.TXT packed v29 SET, SUB\NESTED dir v20 SET, EMPTYDIR dir v20 SET, SUB dir v20 SET
+fixtures/legacy/archives/r420_f_mixed.rar  [rar4, archive solid flag set]
+    DELTA.BIN packed v29 clear, IA64.BIN packed v29 SET, X86.BIN packed v29 SET, IMAGE.BMP packed v29 SET, PCM.RAW packed v29 SET, RGB.RAW packed v29 SET, SOUND.WAV packed v29 SET
+fixtures/legacy/archives/r420_solid.rar  [rar4, archive solid flag set]
+    DATA.BIN packed v29 clear, TABLE.BIN packed v29 SET, EMPTY.DAT empty v29 SET, ONE.DAT packed v29 SET, AUDIO.RAW packed v29 SET, BIG.TXT packed v29 SET, SUB\NESTED\DEEP.TXT packed v29 SET, HELLO.TXT packed v29 SET, SUB\SIB.TXT packed v29 SET, SUB\NESTED dir v20 SET, EMPTYDIR dir v20 SET, SUB dir v20 SET
+fixtures/legacy/archives/r550_solid.rar  [rar4, archive solid flag set]
+    DATA.BIN packed v29 clear, TABLE.BIN packed v29 SET, EMPTY.DAT empty v29 SET, ONE.DAT packed v29 SET, AUDIO.RAW packed v29 SET, BIG.TXT packed v29 SET, SUB\NESTED\DEEP.TXT packed v29 SET, HELLO.TXT packed v29 SET, SUB\SIB.TXT packed v29 SET, SUB\NESTED dir v20 SET, EMPTYDIR dir v20 SET, SUB dir v20 SET
+specs/vectors-F/archives/f04_solid.rar  [rar5, archive solid flag set]
+    hello.txt packed v50 clear, text.txt packed v50 SET
+specs/vectors-G/archives/r4_solid.rar  [rar4, archive solid flag set]
+    hello.txt packed v29 clear, text.txt packed v29 SET
+specs/vectors-G/archives/r5_solid.rar  [rar5, archive solid flag set]
+    hello.txt packed v50 clear, text.txt packed v50 SET
+specs/vectors-H/archives/h5_solid.rar  [rar5, archive solid flag set]
+    DELTA.BIN packed v50 clear, RUNS.BIN packed v50 SET, TEXT.TXT packed v50 SET, TINY.TXT packed v50 SET
+specs/vectors-H/archives/h5_solid_mixed.rar  [rar5, archive solid flag set]
+    RAND.BIN packed v50 clear, X86.BIN packed v50 SET, TEXT.TXT packed v50 SET
+specs/vectors-I/archives/i06_solid3.rar  [rar4, archive solid flag set]
+    T1.TXT packed v29 clear, T2.TXT packed v29 SET, T3.TXT packed v29 SET
+specs/vectors-I/archives/i13_empty_and_one.rar  [rar4, archive solid flag set]
+    EMPTY.TXT empty v29 clear, ONE.TXT packed v29 SET, T2.TXT packed v29 SET
+specs/vectors-I/archives/i18_solid_mixed_auto.rar  [rar4, archive solid flag set]
+    BIN.DAT packed v29 clear, T1.TXT packed v29 SET, T2.TXT packed v29 SET
+specs/vectors-I/archives/i19_solid_ppm_then_lz.rar  [rar4, archive solid flag set]
+    T1.TXT packed v29 clear, ZBIN.TXT packed v29 SET
+specs/vectors-J/archives/r393_mixed_solid.rar  [rar4, archive solid flag set]
+    IA64.BIN packed v29 clear, TABLE.BIN packed v29 SET, X86.BIN packed v29 SET, IMAGE.BMP packed v29 SET, PCM.RAW packed v29 SET, RGB.RAW packed v29 SET, SOUND.WAV packed v29 SET
+specs/vectors-J/archives/r420_mixed_solid.rar  [rar4, archive solid flag set]
+    IA64.BIN packed v29 clear, TABLE.BIN packed v29 SET, X86.BIN packed v29 SET, IMAGE.BMP packed v29 SET, PCM.RAW packed v29 SET, RGB.RAW packed v29 SET, SOUND.WAV packed v29 SET
+
+     7  RAR 5, solid archive: packed member after the first compressed member, bit set
+     4  RAR 5, solid archive: the first compressed member, bit clear
+    18  not walked (first bytes are no signature at offset 0, or the walk failed)
+    12  rar13: archives read, solid flag clear
+     1  rar13: archives read, solid flag set
+   150  rar4: archives read, solid flag clear
+    14  rar4: archives read, solid flag set
+     5  rar4: headers encrypted, not read
+    43  rar5: archives read, solid flag clear
+     4  rar5: archives read, solid flag set
+     3  rar5: headers encrypted, not read
+     3  version 15, solid archive: dir member before the first compressed member, bit clear
+     1  version 15, solid archive: empty member after the first compressed member, bit clear
+     7  version 15, solid archive: packed member after the first compressed member, bit clear
+     1  version 15, solid archive: the first compressed member, bit clear
+     9  version 20 and above, solid archive: dir member after the first compressed member, bit set
+     6  version 20 and above, solid archive: dir member before the first compressed member, bit clear
+     5  version 20 and above, solid archive: empty member after the first compressed member, bit set
+     3  version 20 and above, solid archive: packed member after the first compressed member, bit clear
+    58  version 20 and above, solid archive: packed member after the first compressed member, bit set
+    13  version 20 and above, solid archive: the first compressed member, bit clear

@@ -1,0 +1,25 @@
+archive written with	edit	program	exit	recovery bytes before	after	details after, by rar	exit of rar t after
+-rr5	d base.rar a.txt	rar	0	29860	0	RAR 5	0
+-rr5	d base.rar a.txt	rarfast-47fd69e1f	0	29860	29840	RAR 5, recovery record	0
+-rr5	rn base.rar a.txt z.txt	rar	0	29860	0	RAR 5	0
+-rr5	rn base.rar a.txt z.txt	rarfast-47fd69e1f	0	29860	29860	RAR 5, recovery record	0
+-rr5	rn base.rar nosuch z	rar	0	29860	0	RAR 5	0
+-rr5	rn base.rar nosuch z	rarfast-47fd69e1f	0	29860	29860	RAR 5, recovery record	0
+-rr5	k base.rar	rar	0	29860	0	RAR 5, lock	0
+-rr5	k base.rar	rarfast-47fd69e1f	0	29860	29860	RAR 5, recovery record, lock	0
+-rr10	d base.rar a.txt	rar	0	59720	0	RAR 5	0
+-rr10	d base.rar a.txt	rarfast-47fd69e1f	0	59720	59680	RAR 5, recovery record	0
+-rr10	rn base.rar a.txt z.txt	rar	0	59720	0	RAR 5	0
+-rr10	rn base.rar a.txt z.txt	rarfast-47fd69e1f	0	59720	59720	RAR 5, recovery record	0
+-rr10	rn base.rar nosuch z	rar	0	59720	0	RAR 5	0
+-rr10	rn base.rar nosuch z	rarfast-47fd69e1f	0	59720	59720	RAR 5, recovery record	0
+-rr10	k base.rar	rar	0	59720	0	RAR 5, lock	0
+-rr10	k base.rar	rarfast-47fd69e1f	0	59720	59720	RAR 5, recovery record, lock	0
+-rr	d base.rar a.txt	rar	0	17916	0	RAR 5	0
+-rr	d base.rar a.txt	rarfast-47fd69e1f	0	17916	17904	RAR 5, recovery record	0
+-rr	rn base.rar a.txt z.txt	rar	0	17916	0	RAR 5	0
+-rr	rn base.rar a.txt z.txt	rarfast-47fd69e1f	0	17916	17916	RAR 5, recovery record	0
+-rr	rn base.rar nosuch z	rar	0	17916	0	RAR 5	0
+-rr	rn base.rar nosuch z	rarfast-47fd69e1f	0	17916	17916	RAR 5, recovery record	0
+-rr	k base.rar	rar	0	17916	0	RAR 5, lock	0
+-rr	k base.rar	rarfast-47fd69e1f	0	17916	17916	RAR 5, recovery record, lock	0

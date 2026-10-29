@@ -1,0 +1,118 @@
+arm: s5-groups-empty-start-packed-removed
+about: the empty member's packed bytes and data area removed [archive flags 0x4; a.x1 clear method 3 packed 2012, b.x1 solid method 3 packed 108, e.x2 clear method 3 packed 0, t.x3 solid method 3 packed 1248]
+file: x.rar  3513 bytes  sha256 114f302d9e0cb828ea08ceec9967b0e15dbaabe2840788337116a538454a2773
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2012
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.x1
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: e.x2
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1248
+         Ratio: 60%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.x1                                                          58%  OK
+  Testing     b.x1                                                          62%  OK
+  Testing     e.x2                                                          63%  OK
+  Testing     t.x3                                                         100%
+  Total errors: 1
+stderr:
+  t.x3                 - checksum error
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 10300 bytes, b'keplamuily nimtoong nimpla ke to ke vorchudel ilytoba ri ritoriri babaplake keri' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: a.x1
+          Type: File
+          Size: 6000
+   Packed size: 2012
+         Ratio: 33%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: BB9DFE5A
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: b.x1
+          Type: File
+          Size: 4300
+   Packed size: 108
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F0C4774
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+          Name: e.x2
+          Type: File
+          Size: 0
+   Packed size: 0
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1248
+         Ratio: 60%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.x1                                                          58%  OK
+  Testing     b.x1                                                          62%  OK
+  Testing     e.x2                                                          63%  OK
+  Testing     t.x3                                                         100%
+  Total errors: 1
+stderr:
+  t.x3                 - checksum error

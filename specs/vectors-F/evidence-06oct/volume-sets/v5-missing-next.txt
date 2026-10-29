@@ -1,0 +1,72 @@
+arm: v5-missing-next
+about: RAR 5: only the first volume is present
+file: x.part1.rar  94 bytes  sha256 38b2968a979f3da39bd05a9cdb962a81e2db07473e6be57f4bd1a71546ba4644
+$ unrar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.part1.rar
+exit 6
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         71%  OK
+  Testing     b.txt                                                        100%
+  Total errors: 2
+stderr:
+  Cannot find volume x.part2.rar
+  b.txt                - checksum error
+$ unrar p -inul -p- x.part1.rar
+exit 6
+stdout: 12 bytes, b'alpha\nbravo '
+$ rar lt -p- x.part1.rar
+exit 0
+  Archive: x.part1.rar
+  Details: RAR 5, volume 1
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: -->
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+    Pack-CRC32: 7D016F79
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.part1.rar
+exit 6
+  Testing archive x.part1.rar
+  Testing     a.txt                                                         71%  OK
+  Testing     b.txt                                                        100%
+  Total errors: 2
+stderr:
+  Cannot find volume x.part2.rar
+  b.txt                - checksum error

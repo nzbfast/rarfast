@@ -1,0 +1,24 @@
+== D250_M5.RAR (12951 bytes)
+  format: RAR 1.5/2.0/4.x
+  00000000: MARKER     (signature)
+  00000007: MAIN     hsize=13   crc=90cf flags=0x0000
+      main flags=(-)
+      reserved1=0x0000 reserved2=0x00000000
+  00000014: FILE     hsize=35   crc=6ab7 flags=0x80e0
+      name=b'SUB' psize=0 usize=0 host=0(MS-DOS) crc=00000000
+      unp_ver=20 method=0x35 attr=0x10 dictbits=7 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS|0xe0?)
+  00000037: FILE     hsize=42   crc=4768 flags=0x80e0
+      name=b'SUB\\NESTED' psize=0 usize=0 host=0(MS-DOS) crc=00000000
+      unp_ver=20 method=0x35 attr=0x10 dictbits=7 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS|0xe0?)
+  00000061: FILE     hsize=51   crc=6f21 flags=0x8000
+      name=b'SUB\\NESTED\\DEEP.TXT' psize=38 usize=520 host=0(MS-DOS) crc=db56788b
+      unp_ver=20 method=0x35 attr=0x20 dictbits=0 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS)
+  000000ba: FILE     hsize=40   crc=3d77 flags=0x8000
+      name=b'DATA.BIN' psize=12356 usize=20192 host=0(MS-DOS) crc=530623c7
+      unp_ver=20 method=0x35 attr=0x20 dictbits=0 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS)
+  00003126: FILE     hsize=41   crc=3c9a flags=0x8000
+      name=b'EMPTY.DAT' psize=0 usize=0 host=0(MS-DOS) crc=00000000
+      unp_ver=20 method=0x30 attr=0x20 dictbits=0 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS)
+  0000314f: FILE     hsize=41   crc=c6f1 flags=0x8000
+      name=b'HELLO.TXT' psize=287 usize=16500 host=0(MS-DOS) crc=60c4868c
+      unp_ver=20 method=0x35 attr=0x20 dictbits=0 ftime=2026-09-18 16:53:00 flags=(LENGTH_FOLLOWS)

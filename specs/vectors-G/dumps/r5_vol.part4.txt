@@ -1,0 +1,13 @@
+== archives/r5_vol.part4.rar (220 bytes)
+  [0x0] SIGNATURE 526172211a070100
+  [0x8] MAIN hdrcrc=88e1c5d4 hdrsize=12 flags=0x5 extra=7 data=0
+        archive_flags=0x3 volume_number=3
+        extra area at 0x12 (7 bytes): 06010180808000
+          record size=6 type=1 body=0180808000
+        !! parsed to 0x12, header ends 0x19 (gap 7)
+  [0x19] FILE hdrcrc=e65f98d4 hdrsize=33 flags=0xa extra=0 data=149
+        file_flags=0x6 unp_size=12000 attr=0x81a4 mtime=1600000000 crc=ad4f5dcc
+        comp_info=0x0 (ver=0 solid=0 method=0 dictbits=0 rest=0) host_os=1 name=b'split.bin'
+        data area 0x3f..0xd4
+  [0xd4] ENDARC hdrcrc=5156771d hdrsize=3 flags=0x4 extra=0 data=0
+        end_flags=0x0

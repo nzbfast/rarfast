@@ -1,0 +1,35 @@
+arm: hard-forward
+about: a hard link member that comes BEFORE its target in the archive
+file: x.rar  95 bytes  sha256 ca928ffffceb9c3427f91008bc74168c3b5bfb2a70d427bd33870ddcb73e37b2
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: h
+          Type: Hard link
+        Target: a.txt
+          Size: 6
+          Name: a.txt
+          Type: File
+          Size: 6
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     h                                                              OK
+  Testing     a.txt                                                        100%  OK
+  All OK
+$ unrar x -p- x.rar o/
+exit 9
+  Extracting from x.rar
+  Extracting  o/h
+  Extracting  o/a.txt                                                      100%  OK
+  Total errors: 1
+stderr:
+  Cannot create hard link o/h
+  You need to unpack the link target first
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

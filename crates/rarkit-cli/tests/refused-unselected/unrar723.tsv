@@ -1,0 +1,159 @@
+separate.badsum-2.rar	t	f3.txt f5.txt	0	-	All OK	-	same
+separate.badsum-2.rar	t	f5.txt	0	-	All OK	-	same
+separate.badsum-2.rar	t	f1.txt	0	-	All OK	-	same
+separate.badsum-2.rar	t	f6.txt	10	-	No files to extract	-	same
+separate.badsum-2.rar	t	f2.txt f4.txt	0	-	All OK	-	same
+separate.badsum-2.rar	t	f3.txt	0	-	All OK	-	same
+separate.badsum-2.rar	x	f3.txt f5.txt	0	-	All OK	f3.txt f5.txt	same
+separate.badsum-2.rar	x	f5.txt	0	-	All OK	f5.txt	same
+separate.badsum-2.rar	x	f1.txt	0	-	All OK	f1.txt	same
+separate.badsum-2.rar	x	f6.txt	10	-	No files to extract	-	same
+separate.badsum-2.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	same
+separate.badsum-2.rar	x	f3.txt	0	-	All OK	f3.txt	same
+separate.badsum-2.rar	p	f3.txt f5.txt	0	-	-	-	same
+separate.badsum-2.rar	p	f5.txt	0	-	-	-	same
+separate.badsum-2.rar	p	f1.txt	0	-	-	-	same
+separate.badsum-2.rar	p	f6.txt	10	-	-	-	same
+separate.badsum-2.rar	p	f2.txt f4.txt	0	-	-	-	same
+separate.badsum-2.rar	p	f3.txt	0	-	-	-	same
+separate.rar	t	f3.txt f5.txt	0	-	All OK	-	same
+separate.rar	t	f5.txt	0	-	All OK	-	same
+separate.rar	t	f1.txt	0	-	All OK	-	same
+separate.rar	t	f6.txt	10	-	No files to extract	-	same
+separate.rar	t	f2.txt f4.txt	0	-	All OK	-	same
+separate.rar	t	f3.txt	0	-	All OK	-	same
+separate.rar	x	f3.txt f5.txt	0	-	All OK	f3.txt f5.txt	same
+separate.rar	x	f5.txt	0	-	All OK	f5.txt	same
+separate.rar	x	f1.txt	0	-	All OK	f1.txt	same
+separate.rar	x	f6.txt	10	-	No files to extract	-	same
+separate.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	same
+separate.rar	x	f3.txt	0	-	All OK	f3.txt	same
+separate.rar	p	f3.txt f5.txt	0	-	-	-	same
+separate.rar	p	f5.txt	0	-	-	-	same
+separate.rar	p	f1.txt	0	-	-	-	same
+separate.rar	p	f6.txt	10	-	-	-	same
+separate.rar	p	f2.txt f4.txt	0	-	-	-	same
+separate.rar	p	f3.txt	0	-	-	-	same
+separate.refuse-0-3.rar	t	f3.txt f5.txt	11	\nIncorrect password for f3.txt	Total errors: 1	-	same
+separate.refuse-0-3.rar	t	f5.txt	0	-	All OK	-	same
+separate.refuse-0-3.rar	t	f1.txt	0	-	All OK	-	same
+separate.refuse-0-3.rar	t	f6.txt	10	-	No files to extract	-	same
+separate.refuse-0-3.rar	t	f2.txt f4.txt	0	-	All OK	-	same
+separate.refuse-0-3.rar	t	f3.txt	11	\nIncorrect password for f3.txt	Total errors: 1	-	same
+separate.refuse-0-3.rar	x	f3.txt f5.txt	11	\nIncorrect password for f3.txt	Total errors: 1	f5.txt	same
+separate.refuse-0-3.rar	x	f5.txt	0	-	All OK	f5.txt	same
+separate.refuse-0-3.rar	x	f1.txt	0	-	All OK	f1.txt	same
+separate.refuse-0-3.rar	x	f6.txt	10	-	No files to extract	-	same
+separate.refuse-0-3.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	same
+separate.refuse-0-3.rar	x	f3.txt	11	\nIncorrect password for f3.txt	Total errors: 1	-	same
+separate.refuse-0-3.rar	p	f3.txt f5.txt	11	\nIncorrect password for f3.txt\n	-	-	same
+separate.refuse-0-3.rar	p	f5.txt	0	-	-	-	same
+separate.refuse-0-3.rar	p	f1.txt	0	-	-	-	same
+separate.refuse-0-3.rar	p	f6.txt	10	-	-	-	same
+separate.refuse-0-3.rar	p	f2.txt f4.txt	0	-	-	-	same
+separate.refuse-0-3.rar	p	f3.txt	11	\nIncorrect password for f3.txt\n	-	-	same
+separate.refuse-2.rar	t	f3.txt f5.txt	0	-	All OK	-	same
+separate.refuse-2.rar	t	f5.txt	0	-	All OK	-	same
+separate.refuse-2.rar	t	f1.txt	0	-	All OK	-	same
+separate.refuse-2.rar	t	f6.txt	10	-	No files to extract	-	same
+separate.refuse-2.rar	t	f2.txt f4.txt	11	\nIncorrect password for f2.txt	Total errors: 1	-	same
+separate.refuse-2.rar	t	f3.txt	0	-	All OK	-	same
+separate.refuse-2.rar	x	f3.txt f5.txt	0	-	All OK	f3.txt f5.txt	same
+separate.refuse-2.rar	x	f5.txt	0	-	All OK	f5.txt	same
+separate.refuse-2.rar	x	f1.txt	0	-	All OK	f1.txt	same
+separate.refuse-2.rar	x	f6.txt	10	-	No files to extract	-	same
+separate.refuse-2.rar	x	f2.txt f4.txt	11	\nIncorrect password for f2.txt	Total errors: 1	f4.txt	same
+separate.refuse-2.rar	x	f3.txt	0	-	All OK	f3.txt	same
+separate.refuse-2.rar	p	f3.txt f5.txt	0	-	-	-	same
+separate.refuse-2.rar	p	f5.txt	0	-	-	-	same
+separate.refuse-2.rar	p	f1.txt	0	-	-	-	same
+separate.refuse-2.rar	p	f6.txt	10	-	-	-	same
+separate.refuse-2.rar	p	f2.txt f4.txt	11	\nIncorrect password for f2.txt\n	-	-	same
+separate.refuse-2.rar	p	f3.txt	0	-	-	-	same
+solid.badsum-2.rar	t	f3.txt f5.txt	0	-	All OK	-	same
+solid.badsum-2.rar	t	f5.txt	0	-	All OK	-	same
+solid.badsum-2.rar	t	f1.txt	0	-	All OK	-	same
+solid.badsum-2.rar	t	f6.txt	10	-	No files to extract	-	same
+solid.badsum-2.rar	t	f2.txt f4.txt	0	-	All OK	-	same
+solid.badsum-2.rar	t	f3.txt	0	-	All OK	-	same
+solid.badsum-2.rar	x	f3.txt f5.txt	0	-	All OK	f3.txt f5.txt	same
+solid.badsum-2.rar	x	f5.txt	0	-	All OK	f5.txt	same
+solid.badsum-2.rar	x	f1.txt	0	-	All OK	f1.txt	same
+solid.badsum-2.rar	x	f6.txt	10	-	No files to extract	-	same
+solid.badsum-2.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	same
+solid.badsum-2.rar	x	f3.txt	0	-	All OK	f3.txt	same
+solid.badsum-2.rar	p	f3.txt f5.txt	0	-	-	-	same
+solid.badsum-2.rar	p	f5.txt	0	-	-	-	same
+solid.badsum-2.rar	p	f1.txt	0	-	-	-	same
+solid.badsum-2.rar	p	f6.txt	10	-	-	-	same
+solid.badsum-2.rar	p	f2.txt f4.txt	0	-	-	-	same
+solid.badsum-2.rar	p	f3.txt	0	-	-	-	same
+solid.rar	t	f3.txt f5.txt	0	-	All OK	-	same
+solid.rar	t	f5.txt	0	-	All OK	-	same
+solid.rar	t	f1.txt	0	-	All OK	-	same
+solid.rar	t	f6.txt	10	-	No files to extract	-	same
+solid.rar	t	f2.txt f4.txt	0	-	All OK	-	same
+solid.rar	t	f3.txt	0	-	All OK	-	same
+solid.rar	x	f3.txt f5.txt	0	-	All OK	f3.txt f5.txt	same
+solid.rar	x	f5.txt	0	-	All OK	f5.txt	same
+solid.rar	x	f1.txt	0	-	All OK	f1.txt	same
+solid.rar	x	f6.txt	10	-	No files to extract	-	same
+solid.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	same
+solid.rar	x	f3.txt	0	-	All OK	f3.txt	same
+solid.rar	p	f3.txt f5.txt	0	-	-	-	same
+solid.rar	p	f5.txt	0	-	-	-	same
+solid.rar	p	f1.txt	0	-	-	-	same
+solid.rar	p	f6.txt	10	-	-	-	same
+solid.rar	p	f2.txt f4.txt	0	-	-	-	same
+solid.rar	p	f3.txt	0	-	-	-	same
+solid.refuse-0-3.rar	t	f1.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0-3.rar	x	f1.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f1.txt	changed
+solid.refuse-0-3.rar	p	f1.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-0.rar	t	f3.txt f5.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0.rar	t	f5.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0.rar	t	f1.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0.rar	t	f2.txt f4.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0.rar	t	f3.txt	11	\nIncorrect password for f0.txt	Total errors: 1	-	changed
+solid.refuse-0.rar	x	f3.txt f5.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f3.txt f5.txt	changed
+solid.refuse-0.rar	x	f5.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f5.txt	changed
+solid.refuse-0.rar	x	f1.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f1.txt	changed
+solid.refuse-0.rar	x	f2.txt f4.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f2.txt f4.txt	changed
+solid.refuse-0.rar	x	f3.txt	11	\nIncorrect password for f0.txt	Total errors: 1	f3.txt	changed
+solid.refuse-0.rar	p	f3.txt f5.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-0.rar	p	f5.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-0.rar	p	f1.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-0.rar	p	f2.txt f4.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-0.rar	p	f3.txt	11	\nIncorrect password for f0.txt\n	-	-	changed
+solid.refuse-1-2-3-4.rar	t	f1.txt	11	\nIncorrect password for f1.txt	Total errors: 1	-	same
+solid.refuse-1-2-3-4.rar	x	f1.txt	11	\nIncorrect password for f1.txt	Total errors: 1	-	same
+solid.refuse-1-2-3-4.rar	p	f1.txt	11	\nIncorrect password for f1.txt\n	-	-	same
+solid.refuse-2.rar	t	f3.txt f5.txt	11	\nIncorrect password for f2.txt	Total errors: 1	-	changed
+solid.refuse-2.rar	t	f5.txt	11	\nIncorrect password for f2.txt	Total errors: 1	-	changed
+solid.refuse-2.rar	t	f1.txt	0	-	All OK	-	changed
+solid.refuse-2.rar	t	f2.txt f4.txt	11	\nIncorrect password for f2.txt	Total errors: 1	-	same
+solid.refuse-2.rar	t	f3.txt	11	\nIncorrect password for f2.txt	Total errors: 1	-	changed
+solid.refuse-2.rar	x	f3.txt f5.txt	11	\nIncorrect password for f2.txt	Total errors: 1	f3.txt f5.txt	changed
+solid.refuse-2.rar	x	f5.txt	11	\nIncorrect password for f2.txt	Total errors: 1	f5.txt	changed
+solid.refuse-2.rar	x	f1.txt	0	-	All OK	f1.txt	changed
+solid.refuse-2.rar	x	f2.txt f4.txt	11	\nIncorrect password for f2.txt	Total errors: 1	f4.txt	same
+solid.refuse-2.rar	x	f3.txt	11	\nIncorrect password for f2.txt	Total errors: 1	f3.txt	changed
+solid.refuse-2.rar	p	f3.txt f5.txt	11	\nIncorrect password for f2.txt\n	-	-	changed
+solid.refuse-2.rar	p	f5.txt	11	\nIncorrect password for f2.txt\n	-	-	changed
+solid.refuse-2.rar	p	f1.txt	0	-	-	-	changed
+solid.refuse-2.rar	p	f2.txt f4.txt	11	\nIncorrect password for f2.txt\n	-	-	same
+solid.refuse-2.rar	p	f3.txt	11	\nIncorrect password for f2.txt\n	-	-	changed
+solid.refuse-5.rar	t	f3.txt f5.txt	11	\nIncorrect password for f5.txt	Total errors: 1	-	same
+solid.refuse-5.rar	t	f5.txt	11	\nIncorrect password for f5.txt	Total errors: 1	-	same
+solid.refuse-5.rar	t	f1.txt	0	-	All OK	-	changed
+solid.refuse-5.rar	t	f2.txt f4.txt	0	-	All OK	-	changed
+solid.refuse-5.rar	t	f3.txt	0	-	All OK	-	changed
+solid.refuse-5.rar	x	f3.txt f5.txt	11	\nIncorrect password for f5.txt	Total errors: 1	f3.txt	same
+solid.refuse-5.rar	x	f5.txt	11	\nIncorrect password for f5.txt	Total errors: 1	-	same
+solid.refuse-5.rar	x	f1.txt	0	-	All OK	f1.txt	changed
+solid.refuse-5.rar	x	f2.txt f4.txt	0	-	All OK	f2.txt f4.txt	changed
+solid.refuse-5.rar	x	f3.txt	0	-	All OK	f3.txt	changed
+solid.refuse-5.rar	p	f3.txt f5.txt	11	\nIncorrect password for f5.txt\n	-	-	same
+solid.refuse-5.rar	p	f5.txt	11	\nIncorrect password for f5.txt\n	-	-	same
+solid.refuse-5.rar	p	f1.txt	0	-	-	-	changed
+solid.refuse-5.rar	p	f2.txt f4.txt	0	-	-	-	changed
+solid.refuse-5.rar	p	f3.txt	0	-	-	-	changed

@@ -1,0 +1,20 @@
+arm: rar13-sfx-exe
+about: a 1,001 byte prefix beginning MZ, the file named x.exe
+file: x.exe  1078 bytes  sha256 70c3c50004da7204bb2b7f0269a0acba38a6663dccf7e64223dd3dee306a0b3f
+$ unrar lt -p- x.exe
+exit 0
+  x.exe is not RAR archive
+$ unrar t -p- x.exe
+exit 10
+  x.exe is not RAR archive
+  No files to extract
+$ unrar p -inul -p- x.exe
+exit 10
+stdout: 0 bytes, b''
+$ rar lt -p- x.exe
+exit 0
+  x.exe is not RAR archive
+$ rar t -p- x.exe
+exit 10
+  x.exe is not RAR archive
+  No files to extract

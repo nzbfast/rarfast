@@ -1,0 +1,20 @@
+variant	arms that settle it	first arms
+words are counted from the member's start, not the span's	28	fourth-byte-sweep-F401,align-F1-eb2,align-F1-eb3,all-eb-F1
+the test byte is the word's first	60	fourth-byte-sweep-F400,fourth-byte-sweep-F401,first-byte-sweep,align-F0-eb0
+any byte whose low four bits are 1011 is taken	2	fourth-byte-sweep-F400,fourth-byte-sweep-F401
+EA is taken too	8	fourth-byte-sweep-F400,fourth-byte-sweep-F401,values-F0,values-F4
+any byte whose high four bits are 1110 is taken	8	fourth-byte-sweep-F400,fourth-byte-sweep-F401,values-F0,values-F4
+a word ending on the span's last byte is not taken	16	end-n4,end-n4-last-eb,end-n8,end-n8-last-eb
+a word may run past the span's end	6	end-n1-tail-completes,end-n2-tail-completes,end-n3-tail-completes,end-n5-tail-completes
+offset is (F + p + 8) / 4	50	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+offset is (F + p + 4) / 4	50	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+offset ignores F	40	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F4-eb3,all-eb-F4
+offset ignores p	41	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+offset is rounded up	22	fourth-byte-sweep-F401,align-F1-eb3,all-eb-F1,align-F2-eb3
+offset is rounded to nearest	14	align-F2-eb3,all-eb-F2,align-F3-eb3,all-eb-F3
+offset is F + p, not divided	50	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+offset is (F + p) / 2	50	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+F stops at 2^32 - 1	3	far-F100000006,far-F103fffff9,far-F200000011
+F + p stops at 2^32 - 1	5	far-Ffffffff6,far-Ffffffff8,far-F100000006,far-F103fffff9
+the offset is added	50	fourth-byte-sweep-F400,fourth-byte-sweep-F401,align-F0-eb3,all-eb-F0
+the borrow reaches the fourth byte	16	values-F0,values-F4,values-F13,values-F1000

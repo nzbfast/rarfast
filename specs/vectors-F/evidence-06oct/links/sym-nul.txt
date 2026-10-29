@@ -1,0 +1,47 @@
+arm: sym-nul
+about: type 1 targets holding a zero byte
+file: x.rar  211 bytes  sha256 c4f080be830bb6c3c515ca8525db17543ba4ea37c679165ace6bfa41e345d8f7
+$ unrar lt -p- x.rar
+exit 0
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+          Name: nul_mid
+          Type: Unix symbolic link
+        Target: a.txt
+          Size: 0
+          Name: nul_abs
+          Type: Unix symbolic link
+        Target: /etc
+          Size: 0
+          Name: nul_first
+          Type: Unix symbolic link
+        Target:
+          Size: 0
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     a.txt                                                         27%  OK
+  Testing     nul_mid                                                        OK
+  Testing     nul_abs                                                        OK
+  Testing     nul_first                                                      OK
+  All OK
+$ unrar x -p- x.rar o/
+exit 1
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       27%  OK
+  Extracting  o/nul_mid                                                      OK
+  Extracting  o/nul_abs
+  Extracting  o/nul_first
+  Total errors: 1
+stderr:
+  Skipping the potentially unsafe nul_abs -> /etc link. For archives from a trustworthy source use -ola to extract it anyway.
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  link  o/nul_mid              -> a.txt   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

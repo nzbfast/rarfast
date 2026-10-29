@@ -1,0 +1,23 @@
+# FUZZ SEEDS ARE BINARY, and a tool that reads a commit's diff as text
+# has to be told so.
+#
+# A pinned seed is an arbitrary byte string. Where it happens to hold no
+# NUL, git guesses TEXT and prints its bytes into a diff, and those bytes
+# are not valid UTF-8: a tool that read `git diff-tree -p` in text mode
+# died on the first such seed (22 Sep 2026, `read_seam`'s
+# `encrypted-split-crc32`). Marking the seed
+# trees binary makes git print "Binary files differ" instead, which every
+# tool here can read, and it is what these files ARE.
+fuzz/seeds/** binary
+crates/rarkit/fuzz/seeds/** binary
+# The notes that live among the seeds are text. Without these two lines
+# the globs above make them binary too, and a diff of a change to one
+# shows nothing to review.
+fuzz/seeds/**/README.md -binary text
+crates/rarkit/fuzz/seeds/**/README.md -binary text
+
+# THE GATE TEXT'S WORD LIST IS LINE FEEDS ONLY. The test data crate takes
+# it in at build time and pins a digest of the text made from it; the
+# reading drops a carriage return, but the file is kept the same bytes on
+# every checkout all the same.
+crates/rarkit-testdata/src/source_words.txt text eol=lf

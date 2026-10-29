@@ -1,0 +1,62 @@
+arm: s4-v20-select-last
+about: d250_sol.rar: as kept, the command selecting the last file alone [archive flags 0x0008; EMPTYDIR clear dir version 20 method 0x35 packed 0 unpacked 0, SUB\NESTED clear dir version 20 method 0x35 packed 0 unpacked 0, SUB clear dir version 20 method 0x35 packed 0 unpacked 0, BIG.TXT clear version 20 method 0x35 packed 22767 unpacked 90000, SUB\NESTED\DEEP.TXT solid version 20 method 0x35 packed 172 unpacked 700, HELLO.TXT solid version 20 method 0x35 packed 3917 unpacked 16800, SUB\SIB.TXT solid version 20 method 0x35 packed 70 unpacked 300, DATA.BIN solid version 20 method 0x35 packed 16154 unpacked 20192, TABLE.BIN solid version 20 method 0x35 packed 13950 unpacked 15000, EMPTY.DAT solid version 20 method 0x35 packed 0 unpacked 0, ONE.DAT solid version 20 method 0x35 packed 2 unpacked 1, AUDIO.RAW solid version 20 method 0x35 packed 34247 unpacked 36000]
+file: x.rar  91792 bytes  sha256 5d3c12579ebaaa0838ea11bd4d44471f86a14f4ae2a480f895220a67f19a77d9
+$ unrar lt -p- x.rar AUDIO.RAW
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 34247
+         Ratio: 95%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 4E28FC11
+       Host OS: DOS
+   Compression: RAR 1.5(v20) -m5 -md=64k
+         Flags: solid
+$ unrar t -p- x.rar AUDIO.RAW
+exit 0
+  Testing archive x.rar
+  Skipping    BIG.TXT                                                       25%
+  Skipping    SUB/NESTED/DEEP.TXT                                           25%
+  Skipping    HELLO.TXT                                                     29%
+  Skipping    SUB/SIB.TXT                                                   29%
+  Skipping    DATA.BIN                                                      47%
+  Skipping    TABLE.BIN                                                     62%
+  Skipping    EMPTY.DAT                                                     62%
+  Skipping    ONE.DAT                                                       62%
+  Testing     AUDIO.RAW                                                     98%100%  OK
+  All OK
+$ unrar p -inul -p- x.rar AUDIO.RAW
+exit 0
+stdout: 36000 bytes, b'\x11\x00\xde\x165\x01\xa4\x17\n\x02.\x183\x03\xec\x18f\x04z\x19`\x05\xd9\x19^\x06 \x1a\x9c\x07\xa4\x1a\xa6\x08\xf7\x1a\xbb\t\x0c\x1b\xa4\nG\x1b\xc0\x0bU\x1b\xed\x0cS\x1b\xca\rG\x1b\xcb\x0ee\x1b\xc3\x0f\x11\x1b\x9b\x10\xc8\x1a\xbc\x11\x87\x1a\xb6\x127\x1a\xaf\x13\xdd\x19' ...
+$ rar lt -p- x.rar AUDIO.RAW
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 34247
+         Ratio: 95%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: ..A....
+         CRC32: 4E28FC11
+       Host OS: DOS
+   Compression: RAR 1.5(v20) -m5 -md=64k
+         Flags: solid
+$ rar t -p- x.rar AUDIO.RAW
+exit 0
+  Testing archive x.rar
+  Skipping    BIG.TXT                                                       25%
+  Skipping    SUB/NESTED/DEEP.TXT                                           25%
+  Skipping    HELLO.TXT                                                     29%
+  Skipping    SUB/SIB.TXT                                                   29%
+  Skipping    DATA.BIN                                                      47%
+  Skipping    TABLE.BIN                                                     62%
+  Skipping    EMPTY.DAT                                                     62%
+  Skipping    ONE.DAT                                                       62%
+  Testing     AUDIO.RAW                                                     98%100%  OK
+  All OK

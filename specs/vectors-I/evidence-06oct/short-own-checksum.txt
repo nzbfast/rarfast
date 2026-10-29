@@ -1,0 +1,4 @@
+source r26_code2_early_then_block_full_size.rar sha256 c3324e2d45a126067e41c926b48c4cb4933b2055dfb6d52d7b1ac210be8059c9
+declared size 900; stored CRC32 was 1126271b (of 900 bytes), rewritten to 409f324a (of the 600 the reference prints)
+as-kept.rar	sha256 c3324e2d45a126067e41c926b48c4cb4933b2055dfb6d52d7b1ac210be8059c9	unrar t: exit 3, last line [Total errors: 1], stderr [a.bin                - checksum error]	unrar p: exit 3, 600 bytes, the 600 short bytes: True
+short-own-checksum.rar	sha256 b08c5822760b3e36208f2034d54cf7280b5441e95d2f2369a3e61375cd0df93d	unrar t: exit 0, last line [All OK], stderr []	unrar p: exit 0, 600 bytes, the 600 short bytes: True

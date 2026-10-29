@@ -1,0 +1,16 @@
+== f09_rr.rar (13015 bytes)
+  format: RAR 5.0
+  00000008: MAIN       hsize=15   crc=37291636 flags=0x0005(EXTRA|EDITOR_MAY_DROP)
+      archive flags=0x8(RECOVERY)
+      extra LOCATOR flags=0x3 quick_open_offset=11757 recovery_offset=11822
+  0000001c: FILE       hsize=32   crc=e04c53b8 flags=0x0002(DATA) data=11700
+      name=b'text.txt' fflags=0x6(MTIME|CRC32) unp=11700 attr=0x81a4 host=1 ver=0 solid=0 method=0 dict=128KiB
+      mtime=2026-09-18 04:00:00 (unix 1789704000)
+      data crc32=527a6e2c
+  00002df5: SERVICE    hsize=14   crc=bbce482b flags=0x0006(DATA|EDITOR_MAY_DROP) data=46
+      name=b'QO' fflags=0x0(-) unp=46 attr=0x0 host=1 ver=0 solid=0 method=0 dict=128KiB
+  00002e36: SERVICE    hsize=18   crc=9a3572be flags=0x0007(EXTRA|DATA|EDITOR_MAY_DROP) data=1154
+      name=b'RR' fflags=0x0(-) unp=1154 attr=0x0 host=1 ver=0 solid=0 method=0 dict=128KiB
+      extra RECOVERY_PERCENT 03
+  000032cf: END        hsize=3    crc=5156771d flags=0x0004(EDITOR_MAY_DROP)
+      end flags=0x0(LAST)

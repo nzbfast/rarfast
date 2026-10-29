@@ -1,0 +1,242 @@
+variant	what it reads instead	cases on which its bytes differ from the stated reading's
+256-first-stop	256 with no match before it is refused	h33-256-before-any-match
+256-nopush	256 leaves the four distances alone	h33-distance-history-001
+256-prebonus	256 repeats the length before the distance's bonus	h33-distance-history-001
+LEN_BASE[0]+1	ladder entry LEN_BASE[0] one higher	h33-every-ladder-slot
+LEN_BASE[10]+1	ladder entry LEN_BASE[10] one higher	h33-every-ladder-slot
+LEN_BASE[11]+1	ladder entry LEN_BASE[11] one higher	h33-every-ladder-slot
+LEN_BASE[12]+1	ladder entry LEN_BASE[12] one higher	h33-every-ladder-slot
+LEN_BASE[13]+1	ladder entry LEN_BASE[13] one higher	h33-every-ladder-slot
+LEN_BASE[14]+1	ladder entry LEN_BASE[14] one higher	h33-every-ladder-slot
+LEN_BASE[15]+1	ladder entry LEN_BASE[15] one higher	h33-every-ladder-slot
+LEN_BASE[16]+1	ladder entry LEN_BASE[16] one higher	h33-every-ladder-slot
+LEN_BASE[17]+1	ladder entry LEN_BASE[17] one higher	h33-every-ladder-slot
+LEN_BASE[18]+1	ladder entry LEN_BASE[18] one higher	h33-every-ladder-slot
+LEN_BASE[19]+1	ladder entry LEN_BASE[19] one higher	h33-every-ladder-slot
+LEN_BASE[1]+1	ladder entry LEN_BASE[1] one higher	h33-every-ladder-slot
+LEN_BASE[20]+1	ladder entry LEN_BASE[20] one higher	h33-every-ladder-slot
+LEN_BASE[21]+1	ladder entry LEN_BASE[21] one higher	h33-every-ladder-slot
+LEN_BASE[22]+1	ladder entry LEN_BASE[22] one higher	h33-every-ladder-slot
+LEN_BASE[23]+1	ladder entry LEN_BASE[23] one higher	h33-every-ladder-slot
+LEN_BASE[24]+1	ladder entry LEN_BASE[24] one higher	h33-every-ladder-slot
+LEN_BASE[25]+1	ladder entry LEN_BASE[25] one higher	h33-every-ladder-slot
+LEN_BASE[26]+1	ladder entry LEN_BASE[26] one higher	h33-every-ladder-slot
+LEN_BASE[27]+1	ladder entry LEN_BASE[27] one higher	h33-every-ladder-slot
+LEN_BASE[2]+1	ladder entry LEN_BASE[2] one higher	h33-every-ladder-slot
+LEN_BASE[3]+1	ladder entry LEN_BASE[3] one higher	h33-every-ladder-slot
+LEN_BASE[4]+1	ladder entry LEN_BASE[4] one higher	h33-every-ladder-slot
+LEN_BASE[5]+1	ladder entry LEN_BASE[5] one higher	h33-every-ladder-slot
+LEN_BASE[6]+1	ladder entry LEN_BASE[6] one higher	h33-every-ladder-slot
+LEN_BASE[7]+1	ladder entry LEN_BASE[7] one higher	h33-every-ladder-slot
+LEN_BASE[8]+1	ladder entry LEN_BASE[8] one higher	h33-every-ladder-slot
+LEN_BASE[9]+1	ladder entry LEN_BASE[9] one higher	h33-every-ladder-slot
+LEN_BITS[0]+1	ladder entry LEN_BITS[0] one higher	h33-every-ladder-slot
+LEN_BITS[10]+1	ladder entry LEN_BITS[10] one higher	h33-every-ladder-slot
+LEN_BITS[11]+1	ladder entry LEN_BITS[11] one higher	h33-every-ladder-slot
+LEN_BITS[12]+1	ladder entry LEN_BITS[12] one higher	h33-every-ladder-slot
+LEN_BITS[13]+1	ladder entry LEN_BITS[13] one higher	h33-every-ladder-slot
+LEN_BITS[14]+1	ladder entry LEN_BITS[14] one higher	h33-every-ladder-slot
+LEN_BITS[15]+1	ladder entry LEN_BITS[15] one higher	h33-every-ladder-slot
+LEN_BITS[16]+1	ladder entry LEN_BITS[16] one higher	h33-every-ladder-slot
+LEN_BITS[17]+1	ladder entry LEN_BITS[17] one higher	h33-every-ladder-slot
+LEN_BITS[18]+1	ladder entry LEN_BITS[18] one higher	h33-every-ladder-slot
+LEN_BITS[19]+1	ladder entry LEN_BITS[19] one higher	h33-every-ladder-slot
+LEN_BITS[1]+1	ladder entry LEN_BITS[1] one higher	h33-every-ladder-slot
+LEN_BITS[20]+1	ladder entry LEN_BITS[20] one higher	h33-every-ladder-slot
+LEN_BITS[21]+1	ladder entry LEN_BITS[21] one higher	h33-every-ladder-slot
+LEN_BITS[22]+1	ladder entry LEN_BITS[22] one higher	h33-every-ladder-slot
+LEN_BITS[23]+1	ladder entry LEN_BITS[23] one higher	h33-every-ladder-slot
+LEN_BITS[24]+1	ladder entry LEN_BITS[24] one higher	h33-every-ladder-slot
+LEN_BITS[25]+1	ladder entry LEN_BITS[25] one higher	h33-every-ladder-slot
+LEN_BITS[26]+1	ladder entry LEN_BITS[26] one higher	h33-every-ladder-slot
+LEN_BITS[27]+1	ladder entry LEN_BITS[27] one higher	h33-every-ladder-slot
+LEN_BITS[2]+1	ladder entry LEN_BITS[2] one higher	h33-every-ladder-slot
+LEN_BITS[3]+1	ladder entry LEN_BITS[3] one higher	h33-every-ladder-slot
+LEN_BITS[4]+1	ladder entry LEN_BITS[4] one higher	h33-every-ladder-slot
+LEN_BITS[5]+1	ladder entry LEN_BITS[5] one higher	h33-every-ladder-slot
+LEN_BITS[6]+1	ladder entry LEN_BITS[6] one higher	h33-every-ladder-slot
+LEN_BITS[7]+1	ladder entry LEN_BITS[7] one higher	h33-every-ladder-slot
+LEN_BITS[8]+1	ladder entry LEN_BITS[8] one higher	h33-every-ladder-slot
+LEN_BITS[9]+1	ladder entry LEN_BITS[9] one higher	h33-every-ladder-slot
+OFF_BASE[0]+1	ladder entry OFF_BASE[0] one higher	h33-every-ladder-slot
+OFF_BASE[10]+1	ladder entry OFF_BASE[10] one higher	h33-every-ladder-slot
+OFF_BASE[11]+1	ladder entry OFF_BASE[11] one higher	h33-every-ladder-slot
+OFF_BASE[12]+1	ladder entry OFF_BASE[12] one higher	h33-every-ladder-slot
+OFF_BASE[13]+1	ladder entry OFF_BASE[13] one higher	h33-every-ladder-slot
+OFF_BASE[14]+1	ladder entry OFF_BASE[14] one higher	h33-every-ladder-slot
+OFF_BASE[15]+1	ladder entry OFF_BASE[15] one higher	h33-every-ladder-slot
+OFF_BASE[16]+1	ladder entry OFF_BASE[16] one higher	h33-every-ladder-slot
+OFF_BASE[17]+1	ladder entry OFF_BASE[17] one higher	h33-every-ladder-slot
+OFF_BASE[18]+1	ladder entry OFF_BASE[18] one higher	h33-every-ladder-slot
+OFF_BASE[19]+1	ladder entry OFF_BASE[19] one higher	h33-every-ladder-slot
+OFF_BASE[1]+1	ladder entry OFF_BASE[1] one higher	h33-every-ladder-slot
+OFF_BASE[20]+1	ladder entry OFF_BASE[20] one higher	h33-every-ladder-slot
+OFF_BASE[21]+1	ladder entry OFF_BASE[21] one higher	h33-every-ladder-slot
+OFF_BASE[22]+1	ladder entry OFF_BASE[22] one higher	h33-every-ladder-slot
+OFF_BASE[23]+1	ladder entry OFF_BASE[23] one higher	h33-every-ladder-slot
+OFF_BASE[24]+1	ladder entry OFF_BASE[24] one higher	h33-every-ladder-slot
+OFF_BASE[25]+1	ladder entry OFF_BASE[25] one higher	h33-every-ladder-slot
+OFF_BASE[26]+1	ladder entry OFF_BASE[26] one higher	h33-every-ladder-slot
+OFF_BASE[27]+1	ladder entry OFF_BASE[27] one higher	h33-every-ladder-slot
+OFF_BASE[28]+1	ladder entry OFF_BASE[28] one higher	h33-every-ladder-slot
+OFF_BASE[29]+1	ladder entry OFF_BASE[29] one higher	h33-every-ladder-slot
+OFF_BASE[2]+1	ladder entry OFF_BASE[2] one higher	h33-every-ladder-slot
+OFF_BASE[30]+1	ladder entry OFF_BASE[30] one higher	h33-every-ladder-slot
+OFF_BASE[31]+1	ladder entry OFF_BASE[31] one higher	h33-every-ladder-slot
+OFF_BASE[32]+1	ladder entry OFF_BASE[32] one higher	h33-every-ladder-slot
+OFF_BASE[33]+1	ladder entry OFF_BASE[33] one higher	h33-every-ladder-slot
+OFF_BASE[34]+1	ladder entry OFF_BASE[34] one higher	h33-every-ladder-slot
+OFF_BASE[35]+1	ladder entry OFF_BASE[35] one higher	h33-every-ladder-slot
+OFF_BASE[36]+1	ladder entry OFF_BASE[36] one higher	h33-every-ladder-slot
+OFF_BASE[37]+1	ladder entry OFF_BASE[37] one higher	h33-every-ladder-slot
+OFF_BASE[38]+1	ladder entry OFF_BASE[38] one higher	h33-every-ladder-slot
+OFF_BASE[39]+1	ladder entry OFF_BASE[39] one higher	h33-every-ladder-slot
+OFF_BASE[3]+1	ladder entry OFF_BASE[3] one higher	h33-every-ladder-slot
+OFF_BASE[40]+1	ladder entry OFF_BASE[40] one higher	h33-every-ladder-slot
+OFF_BASE[41]+1	ladder entry OFF_BASE[41] one higher	h33-every-ladder-slot
+OFF_BASE[42]+1	ladder entry OFF_BASE[42] one higher	h33-every-ladder-slot
+OFF_BASE[43]+1	ladder entry OFF_BASE[43] one higher	h33-every-ladder-slot
+OFF_BASE[44]+1	ladder entry OFF_BASE[44] one higher	h33-every-ladder-slot
+OFF_BASE[45]+1	ladder entry OFF_BASE[45] one higher	h33-every-ladder-slot
+OFF_BASE[46]+1	ladder entry OFF_BASE[46] one higher	h33-every-ladder-slot
+OFF_BASE[47]+1	ladder entry OFF_BASE[47] one higher	h33-every-ladder-slot
+OFF_BASE[4]+1	ladder entry OFF_BASE[4] one higher	h33-every-ladder-slot
+OFF_BASE[5]+1	ladder entry OFF_BASE[5] one higher	h33-every-ladder-slot
+OFF_BASE[6]+1	ladder entry OFF_BASE[6] one higher	h33-every-ladder-slot
+OFF_BASE[7]+1	ladder entry OFF_BASE[7] one higher	h33-every-ladder-slot
+OFF_BASE[8]+1	ladder entry OFF_BASE[8] one higher	h33-every-ladder-slot
+OFF_BASE[9]+1	ladder entry OFF_BASE[9] one higher	h33-every-ladder-slot
+OFF_BITS[0]+1	ladder entry OFF_BITS[0] one higher	h33-every-ladder-slot
+OFF_BITS[10]+1	ladder entry OFF_BITS[10] one higher	h33-every-ladder-slot
+OFF_BITS[11]+1	ladder entry OFF_BITS[11] one higher	h33-every-ladder-slot
+OFF_BITS[12]+1	ladder entry OFF_BITS[12] one higher	h33-every-ladder-slot
+OFF_BITS[13]+1	ladder entry OFF_BITS[13] one higher	h33-every-ladder-slot
+OFF_BITS[14]+1	ladder entry OFF_BITS[14] one higher	h33-every-ladder-slot
+OFF_BITS[15]+1	ladder entry OFF_BITS[15] one higher	h33-every-ladder-slot
+OFF_BITS[16]+1	ladder entry OFF_BITS[16] one higher	h33-every-ladder-slot
+OFF_BITS[17]+1	ladder entry OFF_BITS[17] one higher	h33-every-ladder-slot
+OFF_BITS[18]+1	ladder entry OFF_BITS[18] one higher	h33-every-ladder-slot
+OFF_BITS[19]+1	ladder entry OFF_BITS[19] one higher	h33-every-ladder-slot
+OFF_BITS[1]+1	ladder entry OFF_BITS[1] one higher	h33-every-ladder-slot
+OFF_BITS[20]+1	ladder entry OFF_BITS[20] one higher	h33-every-ladder-slot
+OFF_BITS[21]+1	ladder entry OFF_BITS[21] one higher	h33-every-ladder-slot
+OFF_BITS[22]+1	ladder entry OFF_BITS[22] one higher	h33-every-ladder-slot
+OFF_BITS[23]+1	ladder entry OFF_BITS[23] one higher	h33-every-ladder-slot
+OFF_BITS[24]+1	ladder entry OFF_BITS[24] one higher	h33-every-ladder-slot
+OFF_BITS[25]+1	ladder entry OFF_BITS[25] one higher	h33-every-ladder-slot
+OFF_BITS[26]+1	ladder entry OFF_BITS[26] one higher	h33-every-ladder-slot
+OFF_BITS[27]+1	ladder entry OFF_BITS[27] one higher	h33-every-ladder-slot
+OFF_BITS[28]+1	ladder entry OFF_BITS[28] one higher	h33-every-ladder-slot
+OFF_BITS[29]+1	ladder entry OFF_BITS[29] one higher	h33-every-ladder-slot
+OFF_BITS[2]+1	ladder entry OFF_BITS[2] one higher	h33-every-ladder-slot
+OFF_BITS[30]+1	ladder entry OFF_BITS[30] one higher	h33-every-ladder-slot
+OFF_BITS[31]+1	ladder entry OFF_BITS[31] one higher	h33-every-ladder-slot
+OFF_BITS[32]+1	ladder entry OFF_BITS[32] one higher	h33-every-ladder-slot
+OFF_BITS[33]+1	ladder entry OFF_BITS[33] one higher	h33-every-ladder-slot
+OFF_BITS[34]+1	ladder entry OFF_BITS[34] one higher	h33-every-ladder-slot
+OFF_BITS[35]+1	ladder entry OFF_BITS[35] one higher	h33-every-ladder-slot
+OFF_BITS[36]+1	ladder entry OFF_BITS[36] one higher	h33-every-ladder-slot
+OFF_BITS[37]+1	ladder entry OFF_BITS[37] one higher	h33-every-ladder-slot
+OFF_BITS[38]+1	ladder entry OFF_BITS[38] one higher	h33-every-ladder-slot
+OFF_BITS[39]+1	ladder entry OFF_BITS[39] one higher	h33-every-ladder-slot
+OFF_BITS[3]+1	ladder entry OFF_BITS[3] one higher	h33-every-ladder-slot
+OFF_BITS[40]+1	ladder entry OFF_BITS[40] one higher	h33-every-ladder-slot
+OFF_BITS[41]+1	ladder entry OFF_BITS[41] one higher	h33-every-ladder-slot
+OFF_BITS[42]+1	ladder entry OFF_BITS[42] one higher	h33-every-ladder-slot
+OFF_BITS[43]+1	ladder entry OFF_BITS[43] one higher	h33-every-ladder-slot
+OFF_BITS[44]+1	ladder entry OFF_BITS[44] one higher	h33-every-ladder-slot
+OFF_BITS[45]+1	ladder entry OFF_BITS[45] one higher	h33-every-ladder-slot
+OFF_BITS[46]+1	ladder entry OFF_BITS[46] one higher	h33-every-ladder-slot
+OFF_BITS[47]+1	ladder entry OFF_BITS[47] one higher	h33-every-ladder-slot
+OFF_BITS[4]+1	ladder entry OFF_BITS[4] one higher	h33-every-ladder-slot
+OFF_BITS[5]+1	ladder entry OFF_BITS[5] one higher	h33-every-ladder-slot
+OFF_BITS[6]+1	ladder entry OFF_BITS[6] one higher	h33-every-ladder-slot
+OFF_BITS[7]+1	ladder entry OFF_BITS[7] one higher	h33-every-ladder-slot
+OFF_BITS[8]+1	ladder entry OFF_BITS[8] one higher	h33-every-ladder-slot
+OFF_BITS[9]+1	ladder entry OFF_BITS[9] one higher	h33-every-ladder-slot
+SHORT_BASE[0]+1	ladder entry SHORT_BASE[0] one higher	h33-every-ladder-slot
+SHORT_BASE[1]+1	ladder entry SHORT_BASE[1] one higher	h33-every-ladder-slot
+SHORT_BASE[2]+1	ladder entry SHORT_BASE[2] one higher	h33-every-ladder-slot
+SHORT_BASE[3]+1	ladder entry SHORT_BASE[3] one higher	h33-every-ladder-slot
+SHORT_BASE[4]+1	ladder entry SHORT_BASE[4] one higher	h33-every-ladder-slot
+SHORT_BASE[5]+1	ladder entry SHORT_BASE[5] one higher	h33-every-ladder-slot
+SHORT_BASE[6]+1	ladder entry SHORT_BASE[6] one higher	h33-every-ladder-slot
+SHORT_BASE[7]+1	ladder entry SHORT_BASE[7] one higher	h33-every-ladder-slot
+SHORT_BITS[0]+1	ladder entry SHORT_BITS[0] one higher	h33-every-ladder-slot
+SHORT_BITS[1]+1	ladder entry SHORT_BITS[1] one higher	h33-every-ladder-slot
+SHORT_BITS[2]+1	ladder entry SHORT_BITS[2] one higher	h33-every-ladder-slot
+SHORT_BITS[3]+1	ladder entry SHORT_BITS[3] one higher	h33-every-ladder-slot
+SHORT_BITS[4]+1	ladder entry SHORT_BITS[4] one higher	h33-every-ladder-slot
+SHORT_BITS[5]+1	ladder entry SHORT_BITS[5] one higher	h33-every-ladder-slot
+SHORT_BITS[6]+1	ladder entry SHORT_BITS[6] one higher	h33-every-ladder-slot
+SHORT_BITS[7]+1	ladder entry SHORT_BITS[7] one higher	h33-every-ladder-slot
+block-resets-history	a block header clears the four distances and what 256 repeats	h33-history-across-blocks
+chan-reset-always	every multimedia header sets the channel to 0	h31-channel-resumes h31-channel-below-count
+chan-reset-on-lz	an LZ header sets the channel to 0	h31-channel-resumes
+chan-wrap-mod	a channel at or above the count wraps modulo it	h31-channel-above-count
+dist-plus0	270 to 297: the distance is base plus extra, without 1	h33-every-ladder-slot h35-three-megabytes
+far-refused	a distance beyond the declared dictionary is refused	h35-past-declared-dictionary
+fresh-base2	270 to 297 add 2 to the length code, not 3	h33-every-ladder-slot
+fresh-dist-first	270 to 297: distance read before the length bits	h33-every-ladder-slot
+fresh-thr-101	270 to 297: a third threshold at 0x101	h33-length-bonus
+fresh-thr-2000+1	270 to 297: threshold 0x2000 moved by +1	h33-length-bonus
+fresh-thr-2000-1	270 to 297: threshold 0x2000 moved by -1	h33-length-bonus
+fresh-thr-40000+1	270 to 297: threshold 0x40000 moved by +1	h33-length-bonus
+fresh-thr-40000-1	270 to 297: threshold 0x40000 moved by -1	h33-length-bonus
+fresh-thr-no-2000	270 to 297: no threshold at 0x2000	h33-length-bonus
+fresh-thr-no-40000	270 to 297: no threshold at 0x40000	h33-length-bonus
+hdr-byte-aligned	a header after a terminator starts on a byte	h31-second-header-bit5 h31-second-header-bit3 h31-second-header-bit6 h31-second-header-bit1 h31-second-header-bit4 h31-second-header-bit7 h31-second-header-bit2
+hdr-chan-always	the two channel bits read in an LZ header too	h31-keep-bit
+hdr-chan-before-keep	the channel bits read before the keep bit	h31-multimedia-header
+hdr-keep-first	the keep bit read before the multimedia bit	h31-keep-bit h31-multimedia-header h32-kept-lengths
+hole-refused	bits that are no codeword are refused	h32-no-codeword-main h32-all-zero-distance h32-no-codeword-length h32-no-codeword-audio
+incomplete-refused	an incomplete table is refused when built	h32-incomplete-tables-used
+keep-separate-arrays	LZ and multimedia blocks keep separate lengths	h32-one-stored-array h32-clear-keep-zeroes-all
+keep-zero-partial	a clear keep bit zeroes only this block's count	h32-clear-keep-zeroes-all
+len-plain	symbols 0 to 15 are the length itself, nothing added	h32-kept-lengths h32-one-stored-array
+len-sub	symbols 0 to 15 are subtracted from the stored length	h31-keep-bit h32-kept-lengths h35-solid-kept-lengths
+level-20	20 level lengths	h32-level-lengths-15 h32-run-counts
+level-escape15	a level length of 15 is an escape (the RAR 2.9 form)	h32-level-lengths-15
+level-kept	with the keep bit set the 19 level lengths are added to the last block's too	h32-kept-lengths
+levels-rar29	20 level symbols with RAR 2.9's four run symbols	h32-level-lengths-15 h32-run-counts
+lv16-base+1	level symbol 16: count 4 plus 2 bits	h32-run-counts
+lv16-base-1	level symbol 16: count 2 plus 2 bits	h32-run-counts
+lv16-bits+1	level symbol 16: count 3 plus 3 bits	h32-run-counts
+lv16-bits-1	level symbol 16: count 3 plus 1 bits	h32-run-counts
+lv17-base+1	level symbol 17: count 4 plus 3 bits	h32-run-counts
+lv17-base-1	level symbol 17: count 2 plus 3 bits	h32-run-counts
+lv17-bits+1	level symbol 17: count 3 plus 4 bits	h32-run-counts
+lv17-bits-1	level symbol 17: count 3 plus 2 bits	h32-run-counts
+lv18-base+1	level symbol 18: count 12 plus 7 bits	h32-run-counts
+lv18-base-1	level symbol 18: count 10 plus 7 bits	h32-run-counts
+lv18-bits+1	level symbol 18: count 11 plus 8 bits	h32-run-counts
+lv18-bits-1	level symbol 18: count 11 plus 6 bits	h32-run-counts
+mm-256-advances	the multimedia terminator advances the channel	h31-channel-resumes
+mm-no-advance	the channel does not advance after a residual	h31-multimedia-header h34-multimedia-and-window
+mm-not-in-window	multimedia bytes are not written to the window	h34-multimedia-and-window
+mm-tables-reversed	the channels' tables are laid out last first	h31-multimedia-header
+nonsolid-keeps-state	a member that is not solid keeps the state	h35-member-not-solid
+order-main-len-dist	the length lengths before the distance lengths	h32-run-counts
+over-refused	an oversubscribed table is refused when built	h32-oversubscribed-main h32-oversubscribed-distance h32-oversubscribed-level
+overrun-error	a run past the last length is refused	h32-run-past-end h32-run-past-end-multimedia
+rep-base3	257 to 260 add 3 to the length code, not 2	h33-every-ladder-slot
+rep-nopush	257 to 260 leave the four distances alone	h33-distance-history-001
+rep-rotate	257 to 260 move the distance to the front (RAR 2.9)	h33-distance-history-001
+rep-thr-101+1	257 to 260: threshold 0x101 moved by +1	h33-length-bonus
+rep-thr-101-1	257 to 260: threshold 0x101 moved by -1	h33-length-bonus
+rep-thr-2000+1	257 to 260: threshold 0x2000 moved by +1	h33-length-bonus
+rep-thr-2000-1	257 to 260: threshold 0x2000 moved by -1	h33-length-bonus
+rep-thr-40000+1	257 to 260: threshold 0x40000 moved by +1	h33-length-bonus
+rep-thr-40000-1	257 to 260: threshold 0x40000 moved by -1	h33-length-bonus
+rep-thr-no-101	257 to 260: no threshold at 0x101	h33-length-bonus
+rep-thr-no-2000	257 to 260: no threshold at 0x2000	h33-length-bonus
+rep-thr-no-40000	257 to 260: no threshold at 0x40000	h33-length-bonus
+rep16-additive	16 adds the repeated value to the stored lengths	h32-kept-lengths
+rep16-old	16 repeats the STORED length before it, not the new one	h32-kept-lengths
+short-keeps-last	261 to 268 leave what 256 repeats alone	h33-distance-history-001
+short-len3	261 to 268 copy 3 bytes	h33-every-ladder-slot
+short-nopush	261 to 268 leave the four distances alone	h33-distance-history-001
+short-plus0	261 to 268: the distance is base plus extra, without 1	h33-every-ladder-slot
+solid-lengths-reset	a solid member starts with the stored lengths zeroed	h35-solid-kept-lengths
+ties-high-first	codes of one length go to the HIGHER symbol first	h32-run-counts h33-every-ladder-slot
+zeros-additive	17 and 18 leave the stored lengths as they were	h32-kept-lengths

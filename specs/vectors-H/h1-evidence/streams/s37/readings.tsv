@@ -1,0 +1,25 @@
+case	reading	failure	size:SHA-256 of each member it gives
+new-tables-phase-0	end-first-inverted	no failure	6:fbe0f9076fccecd25582e0c9d55e657678ec7ed5fae233ab7a733b822073819e
+new-tables-phase-0	end-two-always	fails: code wider than the bits left	-
+new-tables-phase-1	end-first-inverted	no failure	7:e3c2dc57814c5f14660bd1c32fd7cfdd8f060865e4824d7a919a51df13d772a2
+new-tables-phase-1	no-align	fails: a PPM block	-
+new-tables-phase-2	end-first-inverted	no failure	8:e21bf932bed72a2c418a33541feab624b60e363f0c5c5a52712838af77cd81ea
+new-tables-phase-2	no-align	fails: a PPM block	-
+new-tables-phase-3	end-first-inverted	no failure	9:f7d21dfffa7ecd480dfa002b70f9935569c93e8b2f83ccd7c52a63b645aae7d4
+new-tables-phase-3	no-align	fails: a PPM block	-
+new-tables-phase-4	end-first-inverted	no failure	2:ca6748f97f9e403a98e5de8a65fd1f4eab7fef7f9c9a78f109678adbb9579bba
+new-tables-phase-4	no-align	fails: a PPM block	-
+new-tables-phase-5	end-first-inverted	no failure	3:7dcb67bf3aeca74423b99bbdc001be06252b3992e0b0cfc83e2fc8a7f104f473
+new-tables-phase-5	no-align	fails: a PPM block	-
+new-tables-phase-6	end-first-inverted	no failure	4:1212a0f3286a3cf738f17d4b355d652fe3ce44a88adec44e9d889ca6344696c2
+new-tables-phase-6	no-align	fails: a PPM block	-
+new-tables-phase-7	end-first-inverted	no failure	5:8d08281b4385350e51b45d9f5e6d14f956bc233d82bf09c9859d14260333fa6b
+new-tables-phase-7	no-align	fails: a PPM block	-
+three-ends	end-first-inverted	fails: packed data ran out	4:842283dd7abf1b6d058e6fa82aa786c90db89d6a6b0cdd2be6eea5eee5cf4fb1
+three-ends	end-second-inverted	fails: packed data ran out	4:842283dd7abf1b6d058e6fa82aa786c90db89d6a6b0cdd2be6eea5eee5cf4fb1
+state-across-members	member-resets-repeats	fails: a repeated distance of zero	76:4bee1d0d735289fb67245c08ac339984f98cebf4e3fb0d8a939c3083fda9cfb4
+state-across-members	member-clears-window	fails: a distance before the start of the stream	76:4bee1d0d735289fb67245c08ac339984f98cebf4e3fb0d8a939c3083fda9cfb4
+early-end-0	stated	no failure	3:faa059a0d78da7a4d656b0a8bf70f58bd9997c1c136946dd83c375c7dbfb229f
+early-end-1	stated	no failure	3:faa059a0d78da7a4d656b0a8bf70f58bd9997c1c136946dd83c375c7dbfb229f
+early-end-0-own-checksum	early-end-goes-on	no failure	6:156a95457426173e19306bb99af2dc0fdce8c2a733e78987b6dfe58b4a613cb2
+early-end-1-own-checksum	early-end-goes-on	no failure	6:156a95457426173e19306bb99af2dc0fdce8c2a733e78987b6dfe58b4a613cb2

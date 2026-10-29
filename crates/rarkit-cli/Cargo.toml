@@ -1,0 +1,182 @@
+[package]
+name = "rarkit-cli"
+version = "0.9.0"
+description = "rarfast: the `rar` and `unrar` dialects, on the rarkit engine."
+# 2021, as `rarkit` is: the carried dialect code is 2021 code, and an
+# edition change would reject some of it for reasons that are not its own.
+edition = "2021"
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[features]
+default = ["parallel"]
+# Passed through to the engine. No feature changes an output byte.
+parallel = ["rarkit/parallel", "dep:rayon"]
+# The 8x16 verify and checksum lab's example only; see rarkit's feature of
+# the same name. No shipped build and no `make ci` target enables it.
+f8x16-probe = ["rarkit/f8x16-probe"]
+# `src/width_dial.rs` asserts on `probe::peak_lanes`, which the engine writes
+# only under its `h2-probes` feature; passed through for that test alone.
+# No shipped build enables it; `make ci`'s test step does.
+h2-probes = ["rarkit/h2-probes"]
+# The RAR 5 KDF census; see rarkit's feature of the same name. Counting
+# runs only; no shipped build and no `make ci` target enables it.
+kdf-census = ["rarkit/kdf-census"]
+# The tape unit's size dial, for a count only; see rarkit's feature of the
+# same name. No shipped build enables it.
+tape-unit-knob = ["rarkit/tape-unit-knob"]
+# The carried table sets' control arm, for a count only; see rarkit's feature of the
+# same name. No shipped build enables it.
+carry-sets-knob = ["rarkit/carry-sets-knob"]
+# The fresh match's knob (`RARKIT_FRESH_MATCH=0` for the control's fast region), for
+# a timed run in one binary only; see rarkit's feature of the same name.
+# No shipped build enables it.
+h2-fresh-match-knob = ["rarkit/h2-fresh-match-knob"]
+# The sequence op's knob (`RARKIT_SEQ`, its pieces by letter), for a count
+# or a timed run in one binary only; see rarkit's feature of the same
+# name. No shipped build enables it.
+h2-sequence-op-knob = ["rarkit/h2-sequence-op-knob"]
+# The one-pass decode's knob (`RARKIT_ONE_PASS=0` for the paths before it),
+# for a timed run in one binary only; see rarkit's feature of the same
+# name. No shipped build enables it.
+h2-one-pass-knob = ["rarkit/h2-one-pass-knob"]
+# The wide read's piece knob; see rarkit's feature of the same name.
+# Counting and timing runs only; no shipped build and no `make ci` target
+# enables it.
+wide-piece-knob = ["rarkit/wide-piece-knob"]
+# The x86 BLAKE2sp leaf team, a measuring arm; see rarkit's feature of the
+# same name. Timed and counted runs only; no shipped build and no `make ci`
+# target enables it.
+b2sp-x86-team = ["rarkit/b2sp-x86-team"]
+# The writer's batch and wave dials; see rarkit's feature of the same name.
+# Counting and knob-timed runs only; no shipped build and no `make ci`
+# target enables it.
+wave-knob = ["rarkit/wave-knob"]
+# The cold read depth levers' knobs:
+# `RARFAST_FADV_SEQ=0` gives
+# the archive no sequential advice on Linux, `RARFAST_TP_READ_AHEAD_MIB`
+# sets `t` and `p`'s read-ahead on macOS (4 is the path before the lever),
+# rarkit's `RARKIT_SPLIT_READS` (see its feature of the same name), and
+# the rotational-source rule's `RARFAST_ROTATIONAL` (the device class),
+# `RARFAST_ROTATIONAL_READERS` (the count, 0 off), `RARFAST_ROTATIONAL_ADVICE`
+# (0 withholds the advice at one thread), `RARFAST_RESIDENT` (the page
+# cache's answer) and `RARFAST_ROTATIONAL_SAY`.
+# 
+# The cold stored route's count words:
+# 
+# `RARFAST_X_SINK_FILE=1` states the file cost class for `x` and `e` of any
+# set, `RARFAST_COLD_WINDOW_KIB` sets the read window's slab and
+# `RARFAST_COLD_WINDOW_SAY=1` prints what a window served
+# (tests/cold_window.rs).
+# Counting and timing runs only; no shipped build and no `make ci` target
+# enables it.
+# It turns on `reader-knobs`: its tests set the shipped route words beside
+# its own (`RARFAST_COLD_WINDOW`, `RARFAST_POOL`).
+read-depth-knob = ["rarkit/read-depth-knob", "reader-knobs"]
+# The extract reserve's measuring dial (`RARFAST_RESERVE`), for the Windows
+# write path's untimed count. No shipped build and no `make ci` target
+# enables it.
+reserve-knob = []
+# The Windows read source's handle-count dial (`RARFAST_HANDLES`), for the
+# stored read path's count. No shipped build and no `make ci` target
+# enables it.
+read-knob = []
+# The lane census; see rarkit's feature of the same name. Counting runs
+# only; no shipped build and no `make ci` target enables it.
+lane-census = ["rarkit/lane-census"]
+# The tree walk's count; see rarkit's feature of the same name. Counting
+# runs only; no shipped build and no `make ci` target enables it.
+tree-walk-census = ["rarkit/tree-walk-census"]
+# The create read-ahead's switch (`RARFAST_AHEAD=off`, or a loader
+# count), to time the lever inside one binary. No shipped build and no
+# `make ci` target enables it.
+ahead-knob = []
+# The backward extension's dials (`RARKIT_BACK`, `RARKIT_L3_DEPTH`); see
+# rarkit's feature of the same name. No shipped build and no `make ci`
+# target enables it.
+reach-knob = ["rarkit/reach-knob"]
+# The paired chain search's switches (`RARKIT_CHAIN_PAIR`, `RARKIT_PAIR_FROM`); see rarkit's
+# feature of the same name. No shipped build and no `make ci` target
+# enables it.
+pair-knob = ["rarkit/pair-knob"]
+# The paired chain search's count; see rarkit's feature of the same name.
+# Counting runs only; no shipped build and no `make ci` target enables it.
+pair-census = ["rarkit/pair-census"]
+
+# THE CREATE PATH'S ENVIRONMENT WORDS (`knob::writer_var`): the write
+# options the rar dialect has no switch for (`RARKIT_SMALL_LAZY`,
+# `RARKIT_L3_OPTIMAL`, `RARKIT_FAR_LINKS` and the rest: seventeen of them
+# move the archive's bytes), `RARKIT_ENCRYPTED_READ_AHEAD`,
+# `RARKIT_WRITE_REPORT`, `RARFAST_ONE_NODE`, and the engine's own (see
+# rarkit's feature of the same name). A shipped `rarfast` reads none: the
+# archive is the command line's and the input's, never the shell's
+# (tests/shipped_build_reads_no_knob.rs). The tests named for each option
+# build with this. No shipped build enables it.
+writer-knobs = ["rarkit/writer-knobs"]
+# THE READ PATH'S ENVIRONMENT WORDS (`knob::reader_var`): the routes,
+# widths and read-ahead dials of `x`, `e`, `t` and `p` (`RARFAST_POOL`,
+# `RARFAST_TP_WINDOW`, `RARKIT_SPLIT_JOBS` and the rest), and the engine's
+# own (see rarkit's feature of the same name). A shipped `rarfast` reads
+# none. The tests that set one build with this. No shipped build enables
+# it.
+reader-knobs = ["rarkit/reader-knobs"]
+
+[dependencies]
+rarkit = { path = "../rarkit" }
+# Local time, which the reference prints and the standard library cannot
+# compute. The workspace forbids `unsafe`, so `libc::localtime_r` is not
+# open to us, and the conformance tables carry the box's own zone: see
+# src/dialect/unrar/time.rs.
+jiff = "0.2"
+
+# Only to SIZE the process's worker pool: this binary is the application,
+# so the pool is its to set, and the measurement in `src/workers.rs` says
+# the pool is what the CPU tracks. The engine itself is reached only
+# through `MemoryPolicy::max_workers`.
+rayon = { version = "1.12.0", optional = true }
+
+# By design, `mallopt` sets glibc's trim threshold under a stated
+# `-mm` budget, and its mmap threshold for a create with none
+# (src/alloc_policy.rs). glibc targets only.
+[target.'cfg(all(target_os = "linux", target_env = "gnu"))'.dependencies]
+libc = "0.2"
+
+# `src/residency.rs` asks the kernel which pages of an archive are in the
+# page cache (`mmap`, `mincore`, `munmap`), on every Unix: the rotational
+# source rule on Linux, and the same question the encrypted-stored read
+# has on macOS. The crate is already in the lock for the targets above.
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+# `src/width_dial.rs` reads `rarkit::probe`, which is that crate's own
+# test-support feature: acceptance test 7 of API 8.4.4 asserts the width
+# the tool asked for reached the engine's lanes, and no output byte shows
+# it. Nothing a shipped binary links.
+[dev-dependencies]
+rarkit = { path = "../rarkit", features = ["test-support"] }
+# The seeded input makers the tests and examples share.
+rarkit-testdata = { path = "../rarkit-testdata" }
+
+# `tests/large_dictionary_rss.rs` reads a child's peak RSS with
+# `getrusage`; already in the lock through rarkit. Tests only.
+[target.'cfg(unix)'.dev-dependencies]
+libc = "0.2"
+
+# The drop-in front for the reference RAR tools. One binary: the dialect is
+# chosen by argv[0], so a copy or symlink named `unrar` behaves as unrar
+# and one named `rar` behaves as rar. The sibling project's conformance
+# runner points both of its legs at this one path.
+[[bin]]
+name = "rarfast"
+path = "src/main.rs"
+
+[[example]]
+name = "f_8x16_probe"
+required-features = ["f8x16-probe"]

@@ -1,0 +1,60 @@
+== extension groups
+walk:   in/a.c in/q.h in/alpha/z.c in/m.txt in/x.tar.gz in/c. in/k.TXT in/README in/z.txt in/y.gz in/.hidden in/sub/a.c in/sub/deep/b.txt in/sub/c.txt in/B.txt in/b.C in/noext in/Makefile in/sub/deep in/alpha in/sub in 
+solid:  in/Makefile in/README in/noext in/c. in/b.C in/k.TXT in/a.c in/sub/a.c in/alpha/z.c in/x.tar.gz in/y.gz in/q.h in/.hidden in/B.txt in/sub/deep/b.txt in/sub/c.txt in/m.txt in/z.txt in/sub/deep in/alpha in/sub in 
+with -ds: in/a.c in/q.h in/alpha/z.c in/m.txt in/x.tar.gz in/c. in/k.TXT in/README in/z.txt in/y.gz in/.hidden in/sub/a.c in/sub/deep/b.txt in/sub/c.txt in/B.txt in/b.C in/noext in/Makefile in/sub/deep in/alpha in/sub in 
+== base name and path
+walk:  in/e.txt in/..x in/a0.gz in/aa/a.txt in/a b.txt in/mm/a.txt in/a.txt in/a-.txt in/x.. in/a.gz in/a.tar.gz in/zz/y.txt in/zz/a.txt in/zz/yy/a.txt in/Z.txt in/é.txt in/zbig.txt in/ab.txt in/zz/yy in/aa in/mm in/zz in 
+solid: in/x.. in/a.gz in/a.tar.gz in/a0.gz in/Z.txt in/a b.txt in/a-.txt in/a.txt in/aa/a.txt in/mm/a.txt in/zz/a.txt in/zz/yy/a.txt in/ab.txt in/e.txt in/zz/y.txt in/zbig.txt in/é.txt in/..x in/zz/yy in/aa in/mm in/zz in 
+== directories
+walk:  in/b/c/d/f.txt in/c.x/f.txt in/a/e/f.txt in/zz/b/f.txt in/a.y/f.txt in/top.txt in/b/c/d in/b/c in/a/e in/zz/b in/a.y/q in/b in/c.x in/a in/zz in/a.y in/B2 in 
+solid: in/a.y/f.txt in/a/e/f.txt in/b/c/d/f.txt in/c.x/f.txt in/zz/b/f.txt in/top.txt in/b/c/d in/zz/b in/b/c in/a/e in/a.y/q in/B2 in/a in/b in/zz in/c.x in/a.y in 
+command line names: a.y/f.txt b/c/d/f.txt zz/b/f.txt top.txt 
+== groups and volumes (the solid bits: 0 opens a group)
+(-s)     in/a.c in/b.c in/e.c in/c.h in/y.h in/m.txt in/q.txt in/z.txt in 
+         in/a.c solid=0  in/b.c solid=1  in/e.c solid=1  in/c.h solid=1  in/y.h solid=1  in/m.txt solid=1  in/q.txt solid=1  in/z.txt solid=1  in solid=1  
+(-s3)    in/a.c in/b.c in/e.c in/c.h in/y.h in/m.txt in/q.txt in/z.txt in 
+         in/a.c solid=0  in/b.c solid=1  in/e.c solid=1  in/c.h solid=0  in/y.h solid=1  in/m.txt solid=1  in/q.txt solid=0  in/z.txt solid=1  in solid=1  
+(-se)    in/a.c in/b.c in/e.c in/c.h in/y.h in/m.txt in/q.txt in/z.txt in 
+         in/a.c solid=0  in/b.c solid=1  in/e.c solid=1  in/c.h solid=0  in/y.h solid=1  in/m.txt solid=0  in/q.txt solid=1  in/z.txt solid=1  in solid=1  
+(-se -ds) in/a.c in/c.h in/q.txt in/m.txt in/z.txt in/e.c in/b.c in/y.h in 
+         in/a.c solid=0  in/c.h solid=0  in/q.txt solid=0  in/m.txt solid=1  in/z.txt solid=1  in/e.c solid=0  in/b.c solid=1  in/y.h solid=0  in solid=1  
+(-s3 -ds) in/a.c in/c.h in/q.txt in/m.txt in/z.txt in/e.c in/b.c in/y.h in 
+         in/a.c solid=0  in/c.h solid=1  in/q.txt solid=1  in/m.txt solid=0  in/z.txt solid=1  in/e.c solid=1  in/b.c solid=0  in/y.h solid=1  in solid=1  
+(-s -m0) in/a.c in/c.h in/q.txt in/m.txt in/z.txt in/e.c in/b.c in/y.h in 
+         in/a.c solid=0  in/c.h solid=0  in/q.txt solid=0  in/m.txt solid=0  in/z.txt solid=0  in/e.c solid=0  in/b.c solid=0  in/y.h solid=0  in solid=0  
+vol.part01.rar: in/a.c solid=0  in/b.c solid=1  
+vol.part02.rar: in/b.c solid=1  in/e.c solid=1  
+vol.part03.rar: in/e.c solid=1  in/c.h solid=1  
+vol.part04.rar: in/c.h solid=1  in/y.h solid=1  in/m.txt solid=1  
+vol.part05.rar: in/m.txt solid=1  in/q.txt solid=1  
+vol.part06.rar: in/q.txt solid=1  in/z.txt solid=1  
+vol.part07.rar: in/z.txt solid=1  in solid=1  
+== default dictionary and fit (-m3, no -md)
+         0: 128K 
+       100: 128K 
+    131071: 128K 
+    131072: 256K 
+   1048575: 1024K 
+   1048576: 2048K 
+  16777215: 16384K 
+  16777216: 32768K 
+  33554433: 32768K 
+ 104857600: 32768K 
+two 3 MiB, non-solid: 4096K 4096K 
+two 3 MiB, solid:     8192K 8192K 
+100,000 + 115,000, non-solid: 128K 128K 
+200,000 + 115,000, non-solid: 256K 256K 
+solid f100: 1024K 
+solid k100 k115: 1024K 1024K 
+solid k200 k115: 1024K 1024K 
+solid f1048575: 1024K 
+solid k600 l600: 2048K 2048K 
+solid f1048576: 2048K 
+solid 200,000 + 115,000, -md256k: 256K 256K 
+100 MiB, -md8m:       8192K 
+3 MiB, -m0:            128K 
+stdin, 108,894 bytes: 32768K 
+stdin, solid: 32768K 
+100 MiB, -m1:         32768K 
+100 MiB, -m5:         32768K 
+131,072 random bytes, -m3 (stored): method=0 dictionary=262144

@@ -1,0 +1,35 @@
+case	reading	failure	size:SHA-256 of each member it gives
+runs-out-1-bit-codes-0-spare-met	stated	fails: no bits for a code	-
+runs-out-1-bit-codes-0-spare-unmet	input-zero-filled	no failure	5018:d09e0c8f4d8322968ac47cceb50b57053a969d1986981295bce016333a429ce4
+runs-out-1-bit-codes-0-spare-unmet	stated	fails: no bits for a code	-
+runs-out-1-bit-codes-5-spare-met	stated	fails: no bits for a code	-
+runs-out-1-bit-codes-5-spare-unmet	input-zero-filled	no failure	5018:a4591eaaad5187b06f2059af6fe1b34728fbec1156d6eac20621c277c750355a
+runs-out-1-bit-codes-5-spare-unmet	stated	fails: no bits for a code	-
+runs-out-2-bit-codes-0-spare-met	stated	fails: no bits for a code	-
+runs-out-2-bit-codes-0-spare-unmet	input-zero-filled	no failure	5009:cc94bcdd132ed30ecacda93f61261c429b572224b8f96aa7d26a427711f8be41
+runs-out-2-bit-codes-0-spare-unmet	stated	fails: no bits for a code	-
+runs-out-3-bit-codes-0-spare-met	stated	fails: no bits for a code	-
+runs-out-3-bit-codes-0-spare-unmet	input-zero-filled	no failure	5009:bfcb02681d2d671e305e58eb889b113e08b831060f85df35680c830bdcaf003c
+runs-out-3-bit-codes-0-spare-unmet	stated	fails: no bits for a code	-
+runs-out-3-bit-codes-1-spare-met	stated	fails: code wider than the bits left	-
+runs-out-3-bit-codes-1-spare-unmet	input-zero-filled	no failure	5014:762530ed2abda93f32e16bfe05f439f53351c09895cc3dd6c12408ef6b4d92e5
+runs-out-3-bit-codes-1-spare-unmet	stated	fails: code wider than the bits left	-
+runs-out-3-bit-codes-2-spare-met	stated	fails: code wider than the bits left	-
+runs-out-3-bit-codes-2-spare-unmet	input-zero-filled	no failure	5012:9ff59cfd2367aaa05848f7765420d4418bd3724b4a4688b6f35b2fa378b1dc8b
+runs-out-3-bit-codes-2-spare-unmet	stated	fails: code wider than the bits left	-
+runs-out-5-bit-codes-0-spare-met	stated	fails: no bits for a code	-
+runs-out-5-bit-codes-0-spare-unmet	input-zero-filled	no failure	5012:a385e87f9acbf9f3bbc6e567a281209c915b5f0a415db7f980bace3a775f6cbb
+runs-out-5-bit-codes-0-spare-unmet	stated	fails: no bits for a code	-
+runs-out-5-bit-codes-3-spare-met	stated	fails: code wider than the bits left	-
+runs-out-5-bit-codes-3-spare-unmet	input-zero-filled	no failure	5014:762530ed2abda93f32e16bfe05f439f53351c09895cc3dd6c12408ef6b4d92e5
+runs-out-5-bit-codes-3-spare-unmet	stated	fails: code wider than the bits left	-
+runs-out-6-bit-codes-0-spare-met	stated	fails: no bits for a code	-
+runs-out-6-bit-codes-0-spare-unmet	input-zero-filled	no failure	5009:8e4607173451765a139a0dd1f5bf6af1c87e94497cdbad5820dce4a80c12dfb5
+runs-out-6-bit-codes-0-spare-unmet	stated	fails: no bits for a code	-
+runs-out-7-bit-codes-7-spare-met	stated	fails: no bits for a code	-
+runs-out-7-bit-codes-7-spare-unmet	input-zero-filled	no failure	5012:e7ae0e07f4bb01886939d942df6ffcbd434105ce47a3de0e14dda89a05cc6dbe
+runs-out-7-bit-codes-7-spare-unmet	stated	fails: no bits for a code	-
+runs-out-8-bit-codes-2-spare-met	stated	fails: code wider than the bits left	-
+runs-out-8-bit-codes-2-spare-unmet	input-zero-filled	no failure	5007:41c0fc609d166b155c0bc80eee5a09264fefbbea9bacd1ad7c0ac0670faa8895
+runs-out-8-bit-codes-2-spare-unmet	stated	fails: code wider than the bits left	-
+runs-out-in-tables	stated	fails: code wider than the bits left	-

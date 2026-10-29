@@ -1,0 +1,15 @@
+arm: old-sym-len-1023
+about: older container: one link member s whose stored target is 1023 bytes, -ola
+file: x.rar  1083 bytes  sha256 3a255c47bbe1cd4676dc9495afb52de522f7ace9f5299e7370c88c11c958c16b
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/s                                                          100%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  link  o/s                    -> (a target of 1023 bytes)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

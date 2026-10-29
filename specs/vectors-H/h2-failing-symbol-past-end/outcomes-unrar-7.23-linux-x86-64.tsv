@@ -1,0 +1,229 @@
+program	arm	B declares	B's checksum field	B's tables	C's tables	t exit	A	B	C	B bytes written	C's bytes are
+unrar-7.23-linux-x86-64	none (control)	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	none (control)	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	none (control)	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	declared	own	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	declared	own	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	declared	the set of A	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	declared	the set of A	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	none	own	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	none	own	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	none	the set of A	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	5	none	the set of A	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	declared	own	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	declared	own	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	declared	the set of A	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	declared	the set of A	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	none	own	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	none	own	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	none	the set of A	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, 4 bytes at 0	3	none	the set of A	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	declared	own	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	declared	own	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	declared	the set of A	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	declared	the set of A	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	none	own	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	none	own	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	none	the set of A	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	5	none	the set of A	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	declared	own	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	declared	own	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	declared	the set of A	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	declared	the set of A	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	none	own	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	none	own	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	none	the set of A	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter e8, 4 bytes at 0	3	none	the set of A	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	declared	own	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	declared	own	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	declared	the set of A	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	declared	the set of A	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	none	own	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	none	own	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	none	the set of A	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	5	none	the set of A	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	declared	own	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	declared	own	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	declared	the set of A	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	declared	the set of A	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	none	own	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	none	own	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	none	the set of A	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter arm, 4 bytes at 0	3	none	the set of A	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter type 5	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	filter too long (4 MiB + 1)	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	repeat 0, never set	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	last length, never set	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	distance before the start	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	empty distance table	5	declared	own	own	3	OK	OK	FAIL	5	OTHER
+unrar-7.23-linux-x86-64	empty distance table	5	none	own	own	3	OK	unjudged	FAIL	5	OTHER
+unrar-7.23-linux-x86-64	empty distance table	3	declared	own	own	3	OK	OK	FAIL	3	OTHER
+unrar-7.23-linux-x86-64	empty distance table	3	none	own	own	3	OK	unjudged	FAIL	3	OTHER
+unrar-7.23-linux-x86-64	no code (nine one bits)	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (nine one bits)	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 1 literal after	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, 12 literals after	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 and five zeros)	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code (1111 alone)	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE
+unrar-7.23-linux-x86-64	no code, then a second block	5	declared	own	own	3	OK	OK	FAIL	5	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	5	declared	own	carried	3	OK	OK	FAIL	5	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	5	none	own	own	3	OK	unjudged	FAIL	5	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	5	none	own	carried	3	OK	unjudged	FAIL	5	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	3	declared	own	own	3	OK	OK	FAIL	3	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	3	declared	own	carried	3	OK	OK	FAIL	3	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	3	none	own	own	3	OK	unjudged	FAIL	3	BEFORE+SECOND
+unrar-7.23-linux-x86-64	no code, then a second block	3	none	own	carried	3	OK	unjudged	FAIL	3	BEFORE+SECOND
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	declared	own	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	declared	own	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	declared	the set of A	own	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	declared	the set of A	carried	3	OK	FAIL	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	none	own	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	none	own	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	none	the set of A	own	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	5	none	the set of A	carried	0	OK	unjudged	OK	9	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	declared	own	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	declared	own	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	declared	the set of A	own	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	declared	the set of A	carried	3	OK	FAIL	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	none	own	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	none	own	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	none	the set of A	own	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	filter delta, then a second block	3	none	the set of A	carried	0	OK	unjudged	OK	7	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	declared	own	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	declared	own	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	declared	the set of A	own	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	declared	the set of A	carried	0	OK	OK	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	none	own	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	none	own	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	none	the set of A	own	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	5	none	the set of A	carried	0	OK	unjudged	OK	5	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	declared	own	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	declared	own	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	declared	the set of A	own	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	declared	the set of A	carried	0	OK	OK	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	none	own	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	none	own	carried	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	none	the set of A	own	0	OK	unjudged	OK	3	ALL
+unrar-7.23-linux-x86-64	control, then a second block	3	none	the set of A	carried	0	OK	unjudged	OK	3	ALL

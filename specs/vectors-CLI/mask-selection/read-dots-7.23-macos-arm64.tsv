@@ -1,0 +1,725 @@
+# members: ... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb
+mask	selected	rar and unrar
+*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?	a b	same
+.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+a	a	same
+b	b	same
+*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*.	a a. aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. aba aba. abaa abab abb abb. abba abbb b b. ba ba. baa baa. baaa baab bab bab. baba babb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba a a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb b b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+??	.a .b a. aa ab b. ba bb	same
+?.	a a. b b.	same
+?a	.a aa ba	same
+?b	.b ab bb	same
+.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.?	.a .b	same
+..	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+.a	.a	same
+.b	.b	same
+a*	a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a?	a. aa ab	same
+a.	a a.	same
+aa	aa	same
+ab	ab	same
+b*	b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b?	b. ba bb	same
+b.	b b.	same
+ba	ba	same
+bb	bb	same
+*?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*??	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+*?b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+*.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*.?	... .... ...a ...b ..a ..b .a .a.. .a.a .a.b .b .b.. .b.a .b.b a.. a... a..a a..b a.a a.b aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.b ba.. ba.a ba.b bb.. bb.a bb.b	same
+*..	... .... ..a. ..b. .a. .a.. .aa. .ab. .b. .b.. .ba. .bb. a.. a... a.a. a.b. aa.. ab.. b.. b... b.a. b.b. ba.. bb..	same
+*.a	...a ..a .a .a.a .b.a a..a a.a aa.a ab.a b..a b.a ba.a bb.a	same
+*.b	...b ..b .a.b .b .b.b a..b a.b aa.b ab.b b..b b.b ba.b bb.b	same
+*a*	...a ..a ..a. ..aa ..ab ..ba .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a .ba .ba. .baa .bab .bba a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b..a b.a b.a. b.aa b.ab b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb.a bba bba. bbaa bbab bbba	same
+*a?	..a. ..aa ..ab .a. .aa .aa. .aaa .aab .ab .ba. .baa .bab a. a.a. a.aa a.ab aa aa. aaa aaa. aaaa aaab aab ab aba. abaa abab b.a. b.aa b.ab ba. baa baa. baaa baab bab bba. bbaa bbab	same
+*a.	...a ..a ..a. ..aa ..ba .a .a. .a.a .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba a a. a..a a.a a.a. a.aa a.ba aa aa. aa.a aaa aaa. aaaa aaba ab.a aba aba. abaa abba b..a b.a b.a. b.aa b.ba ba ba. ba.a baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+*aa	..aa .aa .aaa .baa a.aa aa aaa aaaa abaa b.aa baa baaa bbaa	same
+*ab	..ab .aab .ab .bab a.ab aaab aab ab abab b.ab baab bab bbab	same
+*b*	...b ..ab ..b ..b. ..ba ..bb .a.b .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a..b a.ab a.b a.b. a.ba a.bb aa.b aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*b?	..b. ..ba ..bb .ab. .aba .abb .b. .ba .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. aba abb abb. abba abbb b. b.b. b.ba b.bb ba bab. baba babb bb bb. bba bbb bbb. bbba bbbb	same
+*b.	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.b .bab .bb .bb. .bbb a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.b abab abb abb. abbb b b. b..b b.ab b.b b.b. b.bb ba.b baab bab bab. babb bb bb. bb.b bbab bbb bbb. bbbb	same
+*ba	..ba .aba .ba .bba a.ba aaba aba abba b.ba ba baba bba bbba	same
+*bb	..bb .abb .bb .bbb a.bb aabb abb abbb b.bb babb bb bbb bbbb	same
+?*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*.	.a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. aba aba. abaa abab abb abb. abba abbb b b. ba ba. baa baa. baaa baab bab bab. baba babb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+?*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+??*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+???	... ..a ..b .a. .aa .ab .b. .ba .bb a.. a.a a.b aa. aaa aab ab. aba abb b.. b.a b.b ba. baa bab bb. bba bbb	same
+??.	... .a .a. .b .b. a. a.. aa aa. ab ab. b. b.. ba ba. bb bb.	same
+??a	..a .aa .ba a.a aaa aba b.a baa bba	same
+??b	..b .ab .bb a.b aab abb b.b bab bbb	same
+?.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+?.?	... ..a ..b a.. a.a a.b b.. b.a b.b	same
+?..	... a a. a.. b b. b..	same
+?.a	..a a.a b.a	same
+?.b	..b a.b b.b	same
+?a*	.a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+?a?	.a. .aa .ab aa. aaa aab ba. baa bab	same
+?a.	.a .a. aa aa. ba ba.	same
+?aa	.aa aaa baa	same
+?ab	.ab aab bab	same
+?b*	.b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?b?	.b. .ba .bb ab. aba abb bb. bba bbb	same
+?b.	.b .b. ab ab. bb bb.	same
+?ba	.ba aba bba	same
+?bb	.bb abb bbb	same
+.*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*.	.a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba	same
+.*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb	same
+.?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.??	... ..a ..b .a. .aa .ab .b. .ba .bb	same
+.?.	... .a .a. .b .b.	same
+.?a	..a .aa .ba	same
+.?b	..b .ab .bb	same
+..*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb	same
+..?	... ..a ..b	same
+...	...	same
+..a	..a	same
+..b	..b	same
+.a*	.a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb	same
+.a?	.a. .aa .ab	same
+.a.	.a .a.	same
+.aa	.aa	same
+.ab	.ab	same
+.b*	.b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.b?	.b. .ba .bb	same
+.b.	.b .b.	same
+.ba	.ba	same
+.bb	.bb	same
+a*?	a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*.	a a. aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. aba aba. abaa abab abb abb. abba abbb	same
+a*a	a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba	same
+a*b	a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb	same
+a?*	a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a??	a.. a.a a.b aa. aaa aab ab. aba abb	same
+a?.	a. a.. aa aa. ab ab.	same
+a?a	a.a aaa aba	same
+a?b	a.b aab abb	same
+a.*	a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb	same
+a.?	a.. a.a a.b	same
+a..	a a. a..	same
+a.a	a.a	same
+a.b	a.b	same
+aa*	aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb	same
+aa?	aa. aaa aab	same
+aa.	aa aa.	same
+aaa	aaa	same
+aab	aab	same
+ab*	ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+ab?	ab. aba abb	same
+ab.	ab ab.	same
+aba	aba	same
+abb	abb	same
+b*?	b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*.	b b. ba ba. baa baa. baaa baab bab bab. baba babb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*a	b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+b*b	b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+b?*	b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b??	b.. b.a b.b ba. baa bab bb. bba bbb	same
+b?.	b. b.. ba ba. bb bb.	same
+b?a	b.a baa bba	same
+b?b	b.b bab bbb	same
+b.*	b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+b.?	b.. b.a b.b	same
+b..	b b. b..	same
+b.a	b.a	same
+b.b	b.b	same
+ba*	ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+ba?	ba. baa bab	same
+ba.	ba ba.	same
+baa	baa	same
+bab	bab	same
+bb*	bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+bb?	bb. bba bbb	same
+bb.	bb bb.	same
+bba	bba	same
+bbb	bbb	same
+*?*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?*.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?*a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+*?*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+*??*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*???	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*??.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*??a	...a ..a ..aa ..ba .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+*??b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb.b bbab bbb bbbb	same
+*?.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?.?	... .... ...a ...b ..a ..b .a.. .a.a .a.b .b.. .b.a .b.b a.. a... a..a a..b a.a a.b aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.b ba.. ba.a ba.b bb.. bb.a bb.b	same
+*?..	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?.a	...a ..a .a.a .b.a a..a a.a aa.a ab.a b..a b.a ba.a bb.a	same
+*?.b	...b ..b .a.b .b.b a..b a.b aa.b ab.b b..b b.b ba.b bb.b	same
+*?a*	...a ..a ..a. ..aa ..ab ..ba .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a .ba .ba. .baa .bab .bba a..a a.a a.a. a.aa a.ab a.ba aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab.a aba aba. abaa abab abba b..a b.a b.a. b.aa b.ab b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb.a bba bba. bbaa bbab bbba	same
+*?a?	..a. ..aa ..ab .a. .aa .aa. .aaa .aab .ab .ba. .baa .bab a.a. a.aa a.ab aa. aaa aaa. aaaa aaab aab aba. abaa abab b.a. b.aa b.ab ba. baa baa. baaa baab bab bba. bbaa bbab	same
+*?a.	...a ..a ..a. ..aa ..ba .a .a. .a.a .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba a..a a.a a.a. a.aa a.ba aa aa. aa.a aaa aaa. aaaa aaba ab.a aba aba. abaa abba b..a b.a b.a. b.aa b.ba ba ba. ba.a baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+*?aa	..aa .aa .aaa .baa a.aa aaa aaaa abaa b.aa baa baaa bbaa	same
+*?ab	..ab .aab .ab .bab a.ab aaab aab abab b.ab baab bab bbab	same
+*?b*	...b ..ab ..b ..b. ..ba ..bb .a.b .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a..b a.ab a.b a.b. a.ba a.bb aa.b aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b..b b.ab b.b b.b. b.ba b.bb ba.b baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*?b?	..b. ..ba ..bb .ab. .aba .abb .b. .ba .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. aba abb abb. abba abbb b.b. b.ba b.bb bab. baba babb bb. bba bbb bbb. bbba bbbb	same
+*?b.	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.b .bab .bb .bb. .bbb a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.b abab abb abb. abbb b..b b.ab b.b b.b. b.bb ba.b baab bab bab. babb bb bb. bb.b bbab bbb bbb. bbbb	same
+*?ba	..ba .aba .ba .bba a.ba aaba aba abba b.ba baba bba bbba	same
+*?bb	..bb .abb .bb .bbb a.bb aabb abb abbb b.bb babb bbb bbbb	same
+*.*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba.. ba.a ba.b bb.. bb.a bb.b	same
+*.*.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa. aab. ab. ab.. ab.a ab.b aba. abb. b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa. bab. bb. bb.. bb.a bb.b bba. bbb.	same
+*.*a	...a ..a ..aa ..ba .a .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa.a ab.a b..a b.a b.aa b.ba ba.a bb.a	same
+*.*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b ab.b b..b b.ab b.b b.bb ba.b bb.b	same
+*.?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba.. ba.a ba.b bb.. bb.a bb.b	same
+*.??	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .aa .ab .b. .ba .bb a... a..a a..b a.a. a.aa a.ab a.b. a.ba a.bb b... b..a b..b b.a. b.aa b.ab b.b. b.ba b.bb	same
+*.?.	... .... ...a ...b ..a ..a. ..b ..b. .a .a. .a.. .a.a .a.b .b .b. .b.. .b.a .b.b a.. a... a..a a..b a.a a.a. a.b a.b. aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.a. b.b b.b. ba.. ba.a ba.b bb.. bb.a bb.b	same
+*.?a	...a ..a ..aa ..ba .aa .ba a..a a.aa a.ba b..a b.aa b.ba	same
+*.?b	...b ..ab ..b ..bb .ab .bb a..b a.ab a.bb b..b b.ab b.bb	same
+*..*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .aa. .ab. .b. .b.. .ba. .bb. a. a.. a... a..a a..b a.a. a.b. aa. aa.. aaa. aab. ab. ab.. aba. abb. b. b.. b... b..a b..b b.a. b.b. ba. ba.. baa. bab. bb. bb.. bba. bbb.	same
+*..?	... .... ...a ...b ..a ..b a... a..a a..b b... b..a b..b	same
+*...	... .... ..a. ..b. .a. .a.. .aa. .ab. .b. .b.. .ba. .bb. a.. a... a.a. a.b. aa.. ab.. b.. b... b.a. b.b. ba.. bb..	same
+*..a	...a ..a a..a b..a	same
+*..b	...b ..b a..b b..b	same
+*.a*	...a ..a ..a. ..aa ..ab .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a a..a a.a a.a. a.aa a.ab aa.a ab.a b..a b.a b.a. b.aa b.ab ba.a bb.a	same
+*.a?	..a. ..aa ..ab .a. .aa .ab a.a. a.aa a.ab b.a. b.aa b.ab	same
+*.a.	...a ..a ..a. .a. .a.a .b.a a..a a.a. b..a b.a.	same
+*.aa	..aa .aa a.aa b.aa	same
+*.ab	..ab .ab a.ab b.ab	same
+*.b*	...b ..b ..b. ..ba ..bb .a.b .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a..b a.b a.b. a.ba a.bb aa.b ab.b b..b b.b b.b. b.ba b.bb ba.b bb.b	same
+*.b?	..b. ..ba ..bb .b. .ba .bb a.b. a.ba a.bb b.b. b.ba b.bb	same
+*.b.	...b ..b ..b. .a.b .b. .b.b a..b a.b. b..b b.b.	same
+*.ba	..ba .ba a.ba b.ba	same
+*.bb	..bb .bb a.bb b.bb	same
+*a*?	..a. ..aa ..ab .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .ba. .baa .bab a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.a. b.aa b.ab ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bba. bbaa bbab	same
+*a*.	...a ..a ..a. ..aa ..ab ..ba .a .a. .a.a .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a .ba .ba. .baa .bab .bba a a. a..a a.a a.a. a.aa a.ab a.ba aa aa. aa.a aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.a aba aba. abaa abab abb abb. abba abbb b..a b.a b.a. b.aa b.ab b.ba ba ba. ba.a baa baa. baaa baab bab bab. baba babb bb.a bba bba. bbaa bbab bbba	same
+*a*a	..aa .a.a .aa .aaa .aba .baa a..a a.a a.aa a.ba aa aa.a aaa aaaa aaba ab.a aba abaa abba b.aa ba.a baa baaa baba bbaa	same
+*a*b	..ab .a.b .aab .ab .abb .bab a..b a.ab a.b a.bb aa.b aaab aab aabb ab ab.b abab abb abbb b.ab ba.b baab bab babb bbab	same
+*a?*	..a. ..aa ..ab .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .ba. .baa .bab a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.a. b.aa b.ab ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bba. bbaa bbab	same
+*a??	.a.. .a.a .a.b .aa. .aaa .aab .ab. .aba .abb a.. a.a a.b aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. aba abb ba.. ba.a ba.b baa. baaa baab bab. baba babb	same
+*a?.	..a. ..aa ..ab .a. .a.. .aa .aa. .aaa .aab .ab .ab. .ba. .baa .bab a. a.. a.a. a.aa a.ab aa aa. aa.. aaa aaa. aaaa aaab aab aab. ab ab. aba. abaa abab b.a. b.aa b.ab ba. ba.. baa baa. baaa baab bab bab. bba. bbaa bbab	same
+*a?a	.a.a .aaa .aba a.a aa.a aaa aaaa aaba aba ba.a baaa baba	same
+*a?b	.a.b .aab .abb a.b aa.b aaab aab aabb abb ba.b baab babb	same
+*a.*	...a ..a ..a. ..aa ..ba .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaba ab.a aba aba. abaa abba b..a b.a b.a. b.aa b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+*a.?	.a.. .a.a .a.b a.. a.a a.b aa.. aa.a aa.b ba.. ba.a ba.b	same
+*a..	...a ..a ..a. ..aa ..ba .a .a. .a.. .a.a .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba a a. a.. a..a a.a a.a. a.aa a.ba aa aa. aa.. aa.a aaa aaa. aaaa aaba ab.a aba aba. abaa abba b..a b.a b.a. b.aa b.ba ba ba. ba.. ba.a baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+*a.a	.a.a a.a aa.a ba.a	same
+*a.b	.a.b a.b aa.b ba.b	same
+*aa*	..aa .aa .aa. .aaa .aab .baa a.aa aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb abaa b.aa baa baa. baaa baab bbaa	same
+*aa?	.aa. .aaa .aab aa. aaa aaa. aaaa aaab aab baa. baaa baab	same
+*aa.	..aa .aa .aa. .aaa .baa a.aa aa aa. aaa aaa. aaaa abaa b.aa baa baa. baaa bbaa	same
+*aaa	.aaa aaa aaaa baaa	same
+*aab	.aab aaab aab baab	same
+*ab*	..ab .aab .ab .ab. .aba .abb .bab a.ab aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.ab baab bab bab. baba babb bbab	same
+*ab?	.ab. .aba .abb aab. aaba aabb ab. aba abb bab. baba babb	same
+*ab.	..ab .aab .ab .ab. .bab a.ab aaab aab aab. ab ab. abab b.ab baab bab bab. bbab	same
+*aba	.aba aaba aba baba	same
+*abb	.abb aabb abb babb	same
+*b*?	..b. ..ba ..bb .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*b*.	...b ..ab ..b ..b. ..ba ..bb .a.b .aab .ab .ab. .aba .abb .b .b. .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a..b a.ab a.b a.b. a.ba a.bb aa.b aaab aab aab. aaba aabb ab ab. ab.b aba aba. abaa abab abb abb. abba abbb b b. b..b b.ab b.b b.b. b.ba b.bb ba ba. ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*b*a	..ba .aba .b.a .ba .baa .bba a.ba aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+*b*b	..bb .abb .b.b .bab .bb .bbb a.bb aabb ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb bb.b bbab bbb bbbb	same
+*b?*	..b. ..ba ..bb .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*b??	.b.. .b.a .b.b .ba. .baa .bab .bb. .bba .bbb ab.. ab.a ab.b aba. abaa abab abb. abba abbb b.. b.a b.b ba. baa bab bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*b?.	..b. ..ba ..bb .ab. .aba .abb .b. .b.. .ba .ba. .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. ab.. aba aba. abb abb. abba abbb b. b.. b.b. b.ba b.bb ba ba. bab. baba babb bb bb. bb.. bba bba. bbb bbb. bbba bbbb	same
+*b?a	.b.a .baa .bba ab.a abaa abba b.a baa bb.a bba bbaa bbba	same
+*b?b	.b.b .bab .bbb ab.b abab abbb b.b bab bb.b bbab bbb bbbb	same
+*b.*	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.. .b.a .b.b .bab .bb .bb. .bbb a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.. ab.a ab.b abab abb abb. abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba.b baab bab bab. babb bb bb. bb.. bb.a bb.b bbab bbb bbb. bbbb	same
+*b.?	.b.. .b.a .b.b ab.. ab.a ab.b b.. b.a b.b bb.. bb.a bb.b	same
+*b..	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.. .b.b .bab .bb .bb. .bbb a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.. ab.b abab abb abb. abbb b b. b.. b..b b.ab b.b b.b. b.bb ba.b baab bab bab. babb bb bb. bb.. bb.b bbab bbb bbb. bbbb	same
+*b.a	.b.a ab.a b.a bb.a	same
+*b.b	.b.b ab.b b.b bb.b	same
+*ba*	..ba .aba .ba .ba. .baa .bab .bba a.ba aaba aba aba. abaa abab abba b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bba bba. bbaa bbab bbba	same
+*ba?	.ba. .baa .bab aba. abaa abab ba. baa bab bba. bbaa bbab	same
+*ba.	..ba .aba .ba .ba. .bba a.ba aaba aba aba. abba b.ba ba ba. baba bba bba. bbba	same
+*baa	.baa abaa baa bbaa	same
+*bab	.bab abab bab bbab	same
+*bb*	..bb .abb .bb .bb. .bba .bbb a.bb aabb abb abb. abba abbb b.bb babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+*bb?	.bb. .bba .bbb abb. abba abbb bb. bba bbb bbb. bbba bbbb	same
+*bb.	..bb .abb .bb .bb. .bbb a.bb aabb abb abb. abbb b.bb babb bb bb. bbb bbb. bbbb	same
+*bba	.bba abba bba bbba	same
+*bbb	.bbb abbb bbb bbbb	same
+?*?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*??	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*?.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*?a	...a ..a ..aa ..ba .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+?*?b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb.b bbab bbb bbbb	same
+?*.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*.?	... .... ...a ...b ..a ..b .a.. .a.a .a.b .b.. .b.a .b.b a.. a... a..a a..b a.a a.b aa.. aa.a aa.b ab.. ab.a ab.b b.. b... b..a b..b b.a b.b ba.. ba.a ba.b bb.. bb.a bb.b	same
+?*..	... .... ..a. ..b. .a.. .b.. a.. a... a.a. a.b. aa.. ab.. b.. b... b.a. b.b. ba.. bb..	same
+?*.a	...a ..a .a.a .b.a a..a a.a aa.a ab.a b..a b.a ba.a bb.a	same
+?*.b	...b ..b .a.b .b.b a..b a.b aa.b ab.b b..b b.b ba.b bb.b	same
+?*a*	...a ..a ..a. ..aa ..ab ..ba .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a .ba .ba. .baa .bab .bba a..a a.a a.a. a.aa a.ab a.ba aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab.a aba aba. abaa abab abba b..a b.a b.a. b.aa b.ab b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb.a bba bba. bbaa bbab bbba	same
+?*a?	..a. ..aa ..ab .a. .aa .aa. .aaa .aab .ab .ba. .baa .bab a.a. a.aa a.ab aa. aaa aaa. aaaa aaab aab aba. abaa abab b.a. b.aa b.ab ba. baa baa. baaa baab bab bba. bbaa bbab	same
+?*a.	...a ..a ..a. ..aa ..ba .a .a. .a.a .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba a..a a.a a.a. a.aa a.ba aa aa. aa.a aaa aaa. aaaa aaba ab.a aba aba. abaa abba b..a b.a b.a. b.aa b.ba ba ba. ba.a baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+?*aa	..aa .aa .aaa .baa a.aa aaa aaaa abaa b.aa baa baaa bbaa	same
+?*ab	..ab .aab .ab .bab a.ab aaab aab abab b.ab baab bab bbab	same
+?*b*	...b ..ab ..b ..b. ..ba ..bb .a.b .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a..b a.ab a.b a.b. a.ba a.bb aa.b aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b..b b.ab b.b b.b. b.ba b.bb ba.b baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?*b?	..b. ..ba ..bb .ab. .aba .abb .b. .ba .bb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb ab. aba abb abb. abba abbb b.b. b.ba b.bb bab. baba babb bb. bba bbb bbb. bbba bbbb	same
+?*b.	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.b .bab .bb .bb. .bbb a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.b abab abb abb. abbb b..b b.ab b.b b.b. b.bb ba.b baab bab bab. babb bb bb. bb.b bbab bbb bbb. bbbb	same
+?*ba	..ba .aba .ba .bba a.ba aaba aba abba b.ba baba bba bbba	same
+?*bb	..bb .abb .bb .bbb a.bb aabb abb abbb b.bb babb bbb bbbb	same
+??*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+??*.	... ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb a. a.. a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. aba aba. abaa abab abb abb. abba abbb b. b.. b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. baa baa. baaa baab bab bab. baba babb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+??*a	...a ..a ..aa ..ba .a.a .aa .aaa .aba .b.a .ba .baa .bba a..a a.a a.aa a.ba aa.a aaa aaaa aaba ab.a aba abaa abba b..a b.a b.aa b.ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+??*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b.b .bab .bb .bbb a..b a.ab a.b a.bb aa.b aaab aab aabb ab.b abab abb abbb b..b b.ab b.b b.bb ba.b baab bab babb bb.b bbab bbb bbbb	same
+???*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+????	.... ...a ...b ..a. ..aa ..ab ..b. ..ba ..bb .a.. .a.a .a.b .aa. .aaa .aab .ab. .aba .abb .b.. .b.a .b.b .ba. .baa .bab .bb. .bba .bbb a... a..a a..b a.a. a.aa a.ab a.b. a.ba a.bb aa.. aa.a aa.b aaa. aaaa aaab aab. aaba aabb ab.. ab.a ab.b aba. abaa abab abb. abba abbb b... b..a b..b b.a. b.aa b.ab b.b. b.ba b.bb ba.. ba.a ba.b baa. baaa baab bab. baba babb bb.. bb.a bb.b bba. bbaa bbab bbb. bbba bbbb	same
+???.	... .... ..a ..a. ..b ..b. .a. .a.. .aa .aa. .ab .ab. .b. .b.. .ba .ba. .bb .bb. a.. a... a.a a.a. a.b a.b. aa. aa.. aaa aaa. aab aab. ab. ab.. aba aba. abb abb. b.. b... b.a b.a. b.b b.b. ba. ba.. baa baa. bab bab. bb. bb.. bba bba. bbb bbb.	same
+???a	...a ..aa ..ba .a.a .aaa .aba .b.a .baa .bba a..a a.aa a.ba aa.a aaaa aaba ab.a abaa abba b..a b.aa b.ba ba.a baaa baba bb.a bbaa bbba	same
+???b	...b ..ab ..bb .a.b .aab .abb .b.b .bab .bbb a..b a.ab a.bb aa.b aaab aabb ab.b abab abbb b..b b.ab b.bb ba.b baab babb bb.b bbab bbbb	same
+??.*	... .... ...a ...b .a .a. .a.. .a.a .a.b .b .b. .b.. .b.a .b.b a. a.. a... a..a a..b aa aa. aa.. aa.a aa.b ab ab. ab.. ab.a ab.b b. b.. b... b..a b..b ba ba. ba.. ba.a ba.b bb bb. bb.. bb.a bb.b	same
+??.?	.... ...a ...b .a.. .a.a .a.b .b.. .b.a .b.b a... a..a a..b aa.. aa.a aa.b ab.. ab.a ab.b b... b..a b..b ba.. ba.a ba.b bb.. bb.a bb.b	same
+??..	... .... .a .a. .a.. .b .b. .b.. a. a.. a... aa aa. aa.. ab ab. ab.. b. b.. b... ba ba. ba.. bb bb. bb..	same
+??.a	...a .a.a .b.a a..a aa.a ab.a b..a ba.a bb.a	same
+??.b	...b .a.b .b.b a..b aa.b ab.b b..b ba.b bb.b	same
+??a*	..a ..a. ..aa ..ab .aa .aa. .aaa .aab .ba .ba. .baa .bab a.a a.a. a.aa a.ab aaa aaa. aaaa aaab aba aba. abaa abab b.a b.a. b.aa b.ab baa baa. baaa baab bba bba. bbaa bbab	same
+??a?	..a. ..aa ..ab .aa. .aaa .aab .ba. .baa .bab a.a. a.aa a.ab aaa. aaaa aaab aba. abaa abab b.a. b.aa b.ab baa. baaa baab bba. bbaa bbab	same
+??a.	..a ..a. .aa .aa. .ba .ba. a.a a.a. aaa aaa. aba aba. b.a b.a. baa baa. bba bba.	same
+??aa	..aa .aaa .baa a.aa aaaa abaa b.aa baaa bbaa	same
+??ab	..ab .aab .bab a.ab aaab abab b.ab baab bbab	same
+??b*	..b ..b. ..ba ..bb .ab .ab. .aba .abb .bb .bb. .bba .bbb a.b a.b. a.ba a.bb aab aab. aaba aabb abb abb. abba abbb b.b b.b. b.ba b.bb bab bab. baba babb bbb bbb. bbba bbbb	same
+??b?	..b. ..ba ..bb .ab. .aba .abb .bb. .bba .bbb a.b. a.ba a.bb aab. aaba aabb abb. abba abbb b.b. b.ba b.bb bab. baba babb bbb. bbba bbbb	same
+??b.	..b ..b. .ab .ab. .bb .bb. a.b a.b. aab aab. abb abb. b.b b.b. bab bab. bbb bbb.	same
+??ba	..ba .aba .bba a.ba aaba abba b.ba baba bbba	same
+??bb	..bb .abb .bbb a.bb aabb abbb b.bb babb bbbb	same
+?.*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+?.*.	... ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb a a. a.. a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb b b. b.. b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+?.*a	...a ..a ..aa ..ba a..a a.a a.aa a.ba b..a b.a b.aa b.ba	same
+?.*b	...b ..ab ..b ..bb a..b a.ab a.b a.bb b..b b.ab b.b b.bb	same
+?.?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+?.??	.... ...a ...b ..a. ..aa ..ab ..b. ..ba ..bb a... a..a a..b a.a. a.aa a.ab a.b. a.ba a.bb b... b..a b..b b.a. b.aa b.ab b.b. b.ba b.bb	same
+?.?.	... .... ..a ..a. ..b ..b. a.. a... a.a a.a. a.b a.b. b.. b... b.a b.a. b.b b.b.	same
+?.?a	...a ..aa ..ba a..a a.aa a.ba b..a b.aa b.ba	same
+?.?b	...b ..ab ..bb a..b a.ab a.bb b..b b.ab b.bb	same
+?..*	... .... ...a ...b a a. a.. a... a..a a..b b b. b.. b... b..a b..b	same
+?..?	.... ...a ...b a... a..a a..b b... b..a b..b	same
+?...	... .... a a. a.. a... b b. b.. b...	same
+?..a	...a a..a b..a	same
+?..b	...b a..b b..b	same
+?.a*	..a ..a. ..aa ..ab a.a a.a. a.aa a.ab b.a b.a. b.aa b.ab	same
+?.a?	..a. ..aa ..ab a.a. a.aa a.ab b.a. b.aa b.ab	same
+?.a.	..a ..a. a.a a.a. b.a b.a.	same
+?.aa	..aa a.aa b.aa	same
+?.ab	..ab a.ab b.ab	same
+?.b*	..b ..b. ..ba ..bb a.b a.b. a.ba a.bb b.b b.b. b.ba b.bb	same
+?.b?	..b. ..ba ..bb a.b. a.ba a.bb b.b. b.ba b.bb	same
+?.b.	..b ..b. a.b a.b. b.b b.b.	same
+?.ba	..ba a.ba b.ba	same
+?.bb	..bb a.bb b.bb	same
+?a*?	.a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+?a*.	.a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ba ba. baa baa. baaa baab bab bab. baba babb	same
+?a*a	.a.a .aa .aaa .aba aa.a aaa aaaa aaba ba.a baa baaa baba	same
+?a*b	.a.b .aab .ab .abb aa.b aaab aab aabb ba.b baab bab babb	same
+?a?*	.a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+?a??	.a.. .a.a .a.b .aa. .aaa .aab .ab. .aba .abb aa.. aa.a aa.b aaa. aaaa aaab aab. aaba aabb ba.. ba.a ba.b baa. baaa baab bab. baba babb	same
+?a?.	.a. .a.. .aa .aa. .ab .ab. aa. aa.. aaa aaa. aab aab. ba. ba.. baa baa. bab bab.	same
+?a?a	.a.a .aaa .aba aa.a aaaa aaba ba.a baaa baba	same
+?a?b	.a.b .aab .abb aa.b aaab aabb ba.b baab babb	same
+?a.*	.a .a. .a.. .a.a .a.b aa aa. aa.. aa.a aa.b ba ba. ba.. ba.a ba.b	same
+?a.?	.a.. .a.a .a.b aa.. aa.a aa.b ba.. ba.a ba.b	same
+?a..	.a .a. .a.. aa aa. aa.. ba ba. ba..	same
+?a.a	.a.a aa.a ba.a	same
+?a.b	.a.b aa.b ba.b	same
+?aa*	.aa .aa. .aaa .aab aaa aaa. aaaa aaab baa baa. baaa baab	same
+?aa?	.aa. .aaa .aab aaa. aaaa aaab baa. baaa baab	same
+?aa.	.aa .aa. aaa aaa. baa baa.	same
+?aaa	.aaa aaaa baaa	same
+?aab	.aab aaab baab	same
+?ab*	.ab .ab. .aba .abb aab aab. aaba aabb bab bab. baba babb	same
+?ab?	.ab. .aba .abb aab. aaba aabb bab. baba babb	same
+?ab.	.ab .ab. aab aab. bab bab.	same
+?aba	.aba aaba baba	same
+?abb	.abb aabb babb	same
+?b*?	.b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?b*.	.b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb ab ab. aba aba. abaa abab abb abb. abba abbb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?b*a	.b.a .ba .baa .bba ab.a aba abaa abba bb.a bba bbaa bbba	same
+?b*b	.b.b .bab .bb .bbb ab.b abab abb abbb bb.b bbab bbb bbbb	same
+?b?*	.b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+?b??	.b.. .b.a .b.b .ba. .baa .bab .bb. .bba .bbb ab.. ab.a ab.b aba. abaa abab abb. abba abbb bb.. bb.a bb.b bba. bbaa bbab bbb. bbba bbbb	same
+?b?.	.b. .b.. .ba .ba. .bb .bb. ab. ab.. aba aba. abb abb. bb. bb.. bba bba. bbb bbb.	same
+?b?a	.b.a .baa .bba ab.a abaa abba bb.a bbaa bbba	same
+?b?b	.b.b .bab .bbb ab.b abab abbb bb.b bbab bbbb	same
+?b.*	.b .b. .b.. .b.a .b.b ab ab. ab.. ab.a ab.b bb bb. bb.. bb.a bb.b	same
+?b.?	.b.. .b.a .b.b ab.. ab.a ab.b bb.. bb.a bb.b	same
+?b..	.b .b. .b.. ab ab. ab.. bb bb. bb..	same
+?b.a	.b.a ab.a bb.a	same
+?b.b	.b.b ab.b bb.b	same
+?ba*	.ba .ba. .baa .bab aba aba. abaa abab bba bba. bbaa bbab	same
+?ba?	.ba. .baa .bab aba. abaa abab bba. bbaa bbab	same
+?ba.	.ba .ba. aba aba. bba bba.	same
+?baa	.baa abaa bbaa	same
+?bab	.bab abab bbab	same
+?bb*	.bb .bb. .bba .bbb abb abb. abba abbb bbb bbb. bbba bbbb	same
+?bb?	.bb. .bba .bbb abb. abba abbb bbb. bbba bbbb	same
+?bb.	.bb .bb. abb abb. bbb bbb.	same
+?bba	.bba abba bbba	same
+?bbb	.bbb abbb bbbb	same
+.*?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*??	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*?.	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*?a	...a ..a ..aa ..ba .a.a .aa .aaa .aba .b.a .ba .baa .bba	same
+.*?b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b.b .bab .bb .bbb	same
+.*.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*.?	... .... ...a ...b ..a ..b .a.. .a.a .a.b .b.. .b.a .b.b	same
+.*..	... .... ..a. ..b. .a.. .b..	same
+.*.a	...a ..a .a.a .b.a	same
+.*.b	...b ..b .a.b .b.b	same
+.*a*	...a ..a ..a. ..aa ..ab ..ba .a .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b.a .ba .ba. .baa .bab .bba	same
+.*a?	..a. ..aa ..ab .a. .aa .aa. .aaa .aab .ab .ba. .baa .bab	same
+.*a.	...a ..a ..a. ..aa ..ba .a .a. .a.a .aa .aa. .aaa .aba .b.a .ba .ba. .baa .bba	same
+.*aa	..aa .aa .aaa .baa	same
+.*ab	..ab .aab .ab .bab	same
+.*b*	...b ..ab ..b ..b. ..ba ..bb .a.b .aab .ab .ab. .aba .abb .b .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.*b?	..b. ..ba ..bb .ab. .aba .abb .b. .ba .bb .bb. .bba .bbb	same
+.*b.	...b ..ab ..b ..b. ..bb .a.b .aab .ab .ab. .abb .b .b. .b.b .bab .bb .bb. .bbb	same
+.*ba	..ba .aba .ba .bba	same
+.*bb	..bb .abb .bb .bbb	same
+.?*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.?*.	... ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb .b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.?*a	...a ..a ..aa ..ba .a.a .aa .aaa .aba .b.a .ba .baa .bba	same
+.?*b	...b ..ab ..b ..bb .a.b .aab .ab .abb .b.b .bab .bb .bbb	same
+.??*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb .a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb .b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.???	.... ...a ...b ..a. ..aa ..ab ..b. ..ba ..bb .a.. .a.a .a.b .aa. .aaa .aab .ab. .aba .abb .b.. .b.a .b.b .ba. .baa .bab .bb. .bba .bbb	same
+.??.	... .... ..a ..a. ..b ..b. .a. .a.. .aa .aa. .ab .ab. .b. .b.. .ba .ba. .bb .bb.	same
+.??a	...a ..aa ..ba .a.a .aaa .aba .b.a .baa .bba	same
+.??b	...b ..ab ..bb .a.b .aab .abb .b.b .bab .bbb	same
+.?.*	... .... ...a ...b .a .a. .a.. .a.a .a.b .b .b. .b.. .b.a .b.b	same
+.?.?	.... ...a ...b .a.. .a.a .a.b .b.. .b.a .b.b	same
+.?..	... .... .a .a. .a.. .b .b. .b..	same
+.?.a	...a .a.a .b.a	same
+.?.b	...b .a.b .b.b	same
+.?a*	..a ..a. ..aa ..ab .aa .aa. .aaa .aab .ba .ba. .baa .bab	same
+.?a?	..a. ..aa ..ab .aa. .aaa .aab .ba. .baa .bab	same
+.?a.	..a ..a. .aa .aa. .ba .ba.	same
+.?aa	..aa .aaa .baa	same
+.?ab	..ab .aab .bab	same
+.?b*	..b ..b. ..ba ..bb .ab .ab. .aba .abb .bb .bb. .bba .bbb	same
+.?b?	..b. ..ba ..bb .ab. .aba .abb .bb. .bba .bbb	same
+.?b.	..b ..b. .ab .ab. .bb .bb.	same
+.?ba	..ba .aba .bba	same
+.?bb	..bb .abb .bbb	same
+..*?	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb	same
+..*.	... ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb	same
+..*a	...a ..a ..aa ..ba	same
+..*b	...b ..ab ..b ..bb	same
+..?*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb	same
+..??	.... ...a ...b ..a. ..aa ..ab ..b. ..ba ..bb	same
+..?.	... .... ..a ..a. ..b ..b.	same
+..?a	...a ..aa ..ba	same
+..?b	...b ..ab ..bb	same
+...*	... .... ...a ...b	same
+...?	.... ...a ...b	same
+....	... ....	same
+...a	...a	same
+...b	...b	same
+..a*	..a ..a. ..aa ..ab	same
+..a?	..a. ..aa ..ab	same
+..a.	..a ..a.	same
+..aa	..aa	same
+..ab	..ab	same
+..b*	..b ..b. ..ba ..bb	same
+..b?	..b. ..ba ..bb	same
+..b.	..b ..b.	same
+..ba	..ba	same
+..bb	..bb	same
+.a*?	.a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb	same
+.a*.	.a .a. .aa .aa. .aaa .aab .ab .ab. .aba .abb	same
+.a*a	.a.a .aa .aaa .aba	same
+.a*b	.a.b .aab .ab .abb	same
+.a?*	.a. .a.. .a.a .a.b .aa .aa. .aaa .aab .ab .ab. .aba .abb	same
+.a??	.a.. .a.a .a.b .aa. .aaa .aab .ab. .aba .abb	same
+.a?.	.a. .a.. .aa .aa. .ab .ab.	same
+.a?a	.a.a .aaa .aba	same
+.a?b	.a.b .aab .abb	same
+.a.*	.a .a. .a.. .a.a .a.b	same
+.a.?	.a.. .a.a .a.b	same
+.a..	.a .a. .a..	same
+.a.a	.a.a	same
+.a.b	.a.b	same
+.aa*	.aa .aa. .aaa .aab	same
+.aa?	.aa. .aaa .aab	same
+.aa.	.aa .aa.	same
+.aaa	.aaa	same
+.aab	.aab	same
+.ab*	.ab .ab. .aba .abb	same
+.ab?	.ab. .aba .abb	same
+.ab.	.ab .ab.	same
+.aba	.aba	same
+.abb	.abb	same
+.b*?	.b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.b*.	.b .b. .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.b*a	.b.a .ba .baa .bba	same
+.b*b	.b.b .bab .bb .bbb	same
+.b?*	.b. .b.. .b.a .b.b .ba .ba. .baa .bab .bb .bb. .bba .bbb	same
+.b??	.b.. .b.a .b.b .ba. .baa .bab .bb. .bba .bbb	same
+.b?.	.b. .b.. .ba .ba. .bb .bb.	same
+.b?a	.b.a .baa .bba	same
+.b?b	.b.b .bab .bbb	same
+.b.*	.b .b. .b.. .b.a .b.b	same
+.b.?	.b.. .b.a .b.b	same
+.b..	.b .b. .b..	same
+.b.a	.b.a	same
+.b.b	.b.b	same
+.ba*	.ba .ba. .baa .bab	same
+.ba?	.ba. .baa .bab	same
+.ba.	.ba .ba.	same
+.baa	.baa	same
+.bab	.bab	same
+.bb*	.bb .bb. .bba .bbb	same
+.bb?	.bb. .bba .bbb	same
+.bb.	.bb .bb.	same
+.bba	.bba	same
+.bbb	.bbb	same
+a*?*	a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*??	a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*?.	a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*?a	a..a a.a a.aa a.ba aa.a aaa aaaa aaba ab.a aba abaa abba	same
+a*?b	a..b a.ab a.b a.bb aa.b aaab aab aabb ab.b abab abb abbb	same
+a*.*	a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*.?	a.. a... a..a a..b a.a a.b aa.. aa.a aa.b ab.. ab.a ab.b	same
+a*..	a.. a... a.a. a.b. aa.. ab..	same
+a*.a	a..a a.a aa.a ab.a	same
+a*.b	a..b a.b aa.b ab.b	same
+a*a*	a..a a.a a.a. a.aa a.ab a.ba aa aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab.a aba aba. abaa abab abba	same
+a*a?	a.a. a.aa a.ab aa. aaa aaa. aaaa aaab aab aba. abaa abab	same
+a*a.	a..a a.a a.a. a.aa a.ba aa aa. aa.a aaa aaa. aaaa aaba ab.a aba aba. abaa abba	same
+a*aa	a.aa aaa aaaa abaa	same
+a*ab	a.ab aaab aab abab	same
+a*b*	a..b a.ab a.b a.b. a.ba a.bb aa.b aaab aab aab. aaba aabb ab ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a*b?	a.b. a.ba a.bb aab. aaba aabb ab. aba abb abb. abba abbb	same
+a*b.	a..b a.ab a.b a.b. a.bb aa.b aaab aab aab. aabb ab ab. ab.b abab abb abb. abbb	same
+a*ba	a.ba aaba aba abba	same
+a*bb	a.bb aabb abb abbb	same
+a?*?	a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a?*.	a. a.. a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb ab ab. aba aba. abaa abab abb abb. abba abbb	same
+a?*a	a..a a.a a.aa a.ba aa.a aaa aaaa aaba ab.a aba abaa abba	same
+a?*b	a..b a.ab a.b a.bb aa.b aaab aab aabb ab.b abab abb abbb	same
+a??*	a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+a???	a... a..a a..b a.a. a.aa a.ab a.b. a.ba a.bb aa.. aa.a aa.b aaa. aaaa aaab aab. aaba aabb ab.. ab.a ab.b aba. abaa abab abb. abba abbb	same
+a??.	a.. a... a.a a.a. a.b a.b. aa. aa.. aaa aaa. aab aab. ab. ab.. aba aba. abb abb.	same
+a??a	a..a a.aa a.ba aa.a aaaa aaba ab.a abaa abba	same
+a??b	a..b a.ab a.bb aa.b aaab aabb ab.b abab abbb	same
+a?.*	a. a.. a... a..a a..b aa aa. aa.. aa.a aa.b ab ab. ab.. ab.a ab.b	same
+a?.?	a... a..a a..b aa.. aa.a aa.b ab.. ab.a ab.b	same
+a?..	a. a.. a... aa aa. aa.. ab ab. ab..	same
+a?.a	a..a aa.a ab.a	same
+a?.b	a..b aa.b ab.b	same
+a?a*	a.a a.a. a.aa a.ab aaa aaa. aaaa aaab aba aba. abaa abab	same
+a?a?	a.a. a.aa a.ab aaa. aaaa aaab aba. abaa abab	same
+a?a.	a.a a.a. aaa aaa. aba aba.	same
+a?aa	a.aa aaaa abaa	same
+a?ab	a.ab aaab abab	same
+a?b*	a.b a.b. a.ba a.bb aab aab. aaba aabb abb abb. abba abbb	same
+a?b?	a.b. a.ba a.bb aab. aaba aabb abb. abba abbb	same
+a?b.	a.b a.b. aab aab. abb abb.	same
+a?ba	a.ba aaba abba	same
+a?bb	a.bb aabb abbb	same
+a.*?	a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb	same
+a.*.	a a. a.. a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb	same
+a.*a	a..a a.a a.aa a.ba	same
+a.*b	a..b a.ab a.b a.bb	same
+a.?*	a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb	same
+a.??	a... a..a a..b a.a. a.aa a.ab a.b. a.ba a.bb	same
+a.?.	a.. a... a.a a.a. a.b a.b.	same
+a.?a	a..a a.aa a.ba	same
+a.?b	a..b a.ab a.bb	same
+a..*	a a. a.. a... a..a a..b	same
+a..?	a... a..a a..b	same
+a...	a a. a.. a...	same
+a..a	a..a	same
+a..b	a..b	same
+a.a*	a.a a.a. a.aa a.ab	same
+a.a?	a.a. a.aa a.ab	same
+a.a.	a.a a.a.	same
+a.aa	a.aa	same
+a.ab	a.ab	same
+a.b*	a.b a.b. a.ba a.bb	same
+a.b?	a.b. a.ba a.bb	same
+a.b.	a.b a.b.	same
+a.ba	a.ba	same
+a.bb	a.bb	same
+aa*?	aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb	same
+aa*.	aa aa. aaa aaa. aaaa aaab aab aab. aaba aabb	same
+aa*a	aa.a aaa aaaa aaba	same
+aa*b	aa.b aaab aab aabb	same
+aa?*	aa. aa.. aa.a aa.b aaa aaa. aaaa aaab aab aab. aaba aabb	same
+aa??	aa.. aa.a aa.b aaa. aaaa aaab aab. aaba aabb	same
+aa?.	aa. aa.. aaa aaa. aab aab.	same
+aa?a	aa.a aaaa aaba	same
+aa?b	aa.b aaab aabb	same
+aa.*	aa aa. aa.. aa.a aa.b	same
+aa.?	aa.. aa.a aa.b	same
+aa..	aa aa. aa..	same
+aa.a	aa.a	same
+aa.b	aa.b	same
+aaa*	aaa aaa. aaaa aaab	same
+aaa?	aaa. aaaa aaab	same
+aaa.	aaa aaa.	same
+aaaa	aaaa	same
+aaab	aaab	same
+aab*	aab aab. aaba aabb	same
+aab?	aab. aaba aabb	same
+aab.	aab aab.	same
+aaba	aaba	same
+aabb	aabb	same
+ab*?	ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+ab*.	ab ab. aba aba. abaa abab abb abb. abba abbb	same
+ab*a	ab.a aba abaa abba	same
+ab*b	ab.b abab abb abbb	same
+ab?*	ab. ab.. ab.a ab.b aba aba. abaa abab abb abb. abba abbb	same
+ab??	ab.. ab.a ab.b aba. abaa abab abb. abba abbb	same
+ab?.	ab. ab.. aba aba. abb abb.	same
+ab?a	ab.a abaa abba	same
+ab?b	ab.b abab abbb	same
+ab.*	ab ab. ab.. ab.a ab.b	same
+ab.?	ab.. ab.a ab.b	same
+ab..	ab ab. ab..	same
+ab.a	ab.a	same
+ab.b	ab.b	same
+aba*	aba aba. abaa abab	same
+aba?	aba. abaa abab	same
+aba.	aba aba.	same
+abaa	abaa	same
+abab	abab	same
+abb*	abb abb. abba abbb	same
+abb?	abb. abba abbb	same
+abb.	abb abb.	same
+abba	abba	same
+abbb	abbb	same
+b*?*	b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*??	b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*?.	b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*?a	b..a b.a b.aa b.ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+b*?b	b..b b.ab b.b b.bb ba.b baab bab babb bb.b bbab bbb bbbb	same
+b*.*	b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*.?	b.. b... b..a b..b b.a b.b ba.. ba.a ba.b bb.. bb.a bb.b	same
+b*..	b.. b... b.a. b.b. ba.. bb..	same
+b*.a	b..a b.a ba.a bb.a	same
+b*.b	b..b b.b ba.b bb.b	same
+b*a*	b..a b.a b.a. b.aa b.ab b.ba ba ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb.a bba bba. bbaa bbab bbba	same
+b*a?	b.a. b.aa b.ab ba. baa baa. baaa baab bab bba. bbaa bbab	same
+b*a.	b..a b.a b.a. b.aa b.ba ba ba. ba.a baa baa. baaa baba bb.a bba bba. bbaa bbba	same
+b*aa	b.aa baa baaa bbaa	same
+b*ab	b.ab baab bab bbab	same
+b*b*	b..b b.ab b.b b.b. b.ba b.bb ba.b baab bab bab. baba babb bb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b*b?	b.b. b.ba b.bb bab. baba babb bb. bba bbb bbb. bbba bbbb	same
+b*b.	b..b b.ab b.b b.b. b.bb ba.b baab bab bab. babb bb bb. bb.b bbab bbb bbb. bbbb	same
+b*ba	b.ba baba bba bbba	same
+b*bb	b.bb babb bbb bbbb	same
+b?*?	b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b?*.	b. b.. b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba ba. baa baa. baaa baab bab bab. baba babb bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b?*a	b..a b.a b.aa b.ba ba.a baa baaa baba bb.a bba bbaa bbba	same
+b?*b	b..b b.ab b.b b.bb ba.b baab bab babb bb.b bbab bbb bbbb	same
+b??*	b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+b???	b... b..a b..b b.a. b.aa b.ab b.b. b.ba b.bb ba.. ba.a ba.b baa. baaa baab bab. baba babb bb.. bb.a bb.b bba. bbaa bbab bbb. bbba bbbb	same
+b??.	b.. b... b.a b.a. b.b b.b. ba. ba.. baa baa. bab bab. bb. bb.. bba bba. bbb bbb.	same
+b??a	b..a b.aa b.ba ba.a baaa baba bb.a bbaa bbba	same
+b??b	b..b b.ab b.bb ba.b baab babb bb.b bbab bbbb	same
+b?.*	b. b.. b... b..a b..b ba ba. ba.. ba.a ba.b bb bb. bb.. bb.a bb.b	same
+b?.?	b... b..a b..b ba.. ba.a ba.b bb.. bb.a bb.b	same
+b?..	b. b.. b... ba ba. ba.. bb bb. bb..	same
+b?.a	b..a ba.a bb.a	same
+b?.b	b..b ba.b bb.b	same
+b?a*	b.a b.a. b.aa b.ab baa baa. baaa baab bba bba. bbaa bbab	same
+b?a?	b.a. b.aa b.ab baa. baaa baab bba. bbaa bbab	same
+b?a.	b.a b.a. baa baa. bba bba.	same
+b?aa	b.aa baaa bbaa	same
+b?ab	b.ab baab bbab	same
+b?b*	b.b b.b. b.ba b.bb bab bab. baba babb bbb bbb. bbba bbbb	same
+b?b?	b.b. b.ba b.bb bab. baba babb bbb. bbba bbbb	same
+b?b.	b.b b.b. bab bab. bbb bbb.	same
+b?ba	b.ba baba bbba	same
+b?bb	b.bb babb bbbb	same
+b.*?	b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+b.*.	b b. b.. b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+b.*a	b..a b.a b.aa b.ba	same
+b.*b	b..b b.ab b.b b.bb	same
+b.?*	b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+b.??	b... b..a b..b b.a. b.aa b.ab b.b. b.ba b.bb	same
+b.?.	b.. b... b.a b.a. b.b b.b.	same
+b.?a	b..a b.aa b.ba	same
+b.?b	b..b b.ab b.bb	same
+b..*	b b. b.. b... b..a b..b	same
+b..?	b... b..a b..b	same
+b...	b b. b.. b...	same
+b..a	b..a	same
+b..b	b..b	same
+b.a*	b.a b.a. b.aa b.ab	same
+b.a?	b.a. b.aa b.ab	same
+b.a.	b.a b.a.	same
+b.aa	b.aa	same
+b.ab	b.ab	same
+b.b*	b.b b.b. b.ba b.bb	same
+b.b?	b.b. b.ba b.bb	same
+b.b.	b.b b.b.	same
+b.ba	b.ba	same
+b.bb	b.bb	same
+ba*?	ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+ba*.	ba ba. baa baa. baaa baab bab bab. baba babb	same
+ba*a	ba.a baa baaa baba	same
+ba*b	ba.b baab bab babb	same
+ba?*	ba. ba.. ba.a ba.b baa baa. baaa baab bab bab. baba babb	same
+ba??	ba.. ba.a ba.b baa. baaa baab bab. baba babb	same
+ba?.	ba. ba.. baa baa. bab bab.	same
+ba?a	ba.a baaa baba	same
+ba?b	ba.b baab babb	same
+ba.*	ba ba. ba.. ba.a ba.b	same
+ba.?	ba.. ba.a ba.b	same
+ba..	ba ba. ba..	same
+ba.a	ba.a	same
+ba.b	ba.b	same
+baa*	baa baa. baaa baab	same
+baa?	baa. baaa baab	same
+baa.	baa baa.	same
+baaa	baaa	same
+baab	baab	same
+bab*	bab bab. baba babb	same
+bab?	bab. baba babb	same
+bab.	bab bab.	same
+baba	baba	same
+babb	babb	same
+bb*?	bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+bb*.	bb bb. bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+bb*a	bb.a bba bbaa bbba	same
+bb*b	bb.b bbab bbb bbbb	same
+bb?*	bb. bb.. bb.a bb.b bba bba. bbaa bbab bbb bbb. bbba bbbb	same
+bb??	bb.. bb.a bb.b bba. bbaa bbab bbb. bbba bbbb	same
+bb?.	bb. bb.. bba bba. bbb bbb.	same
+bb?a	bb.a bbaa bbba	same
+bb?b	bb.b bbab bbbb	same
+bb.*	bb bb. bb.. bb.a bb.b	same
+bb.?	bb.. bb.a bb.b	same
+bb..	bb bb. bb..	same
+bb.a	bb.a	same
+bb.b	bb.b	same
+bba*	bba bba. bbaa bbab	same
+bba?	bba. bbaa bbab	same
+bba.	bba bba.	same
+bbaa	bbaa	same
+bbab	bbab	same
+bbb*	bbb bbb. bbba bbbb	same
+bbb?	bbb. bbba bbbb	same
+bbb.	bbb bbb.	same
+bbba	bbba	same
+bbbb	bbbb	same
+ab*..	ab..	same
+?a*..	.a.. aa.. ba..	same
+*a*..	.a.. a.. a... a.a. a.b. aa.. ab.. ba..	same
+a*...	a.. a... a.a. a.b. aa.. ab..	same
+*....	... .... ..a. ..b. .a. .a.. .aa. .ab. .b. .b.. .ba. .bb. a.. a... a.a. a.b. aa.. ab.. b.. b... b.a. b.b. ba.. bb..	same
+a?*..	a... aa.. ab..	same
+*.*..	... .... ..a. ..b. .a.. .b.. a... b...	same
+a.*.*	a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb	same
+?.*.*	... .... ...a ...b ..a ..a. ..aa ..ab ..b ..b. ..ba ..bb a a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb b b. b.. b... b..a b..b b.a b.a. b.aa b.ab b.b b.b. b.ba b.bb	same
+a?.*.*	a. a.. a... a..a a..b aa aa. aa.. aa.a aa.b ab ab. ab.. ab.a ab.b	same
+ab.*.*	ab ab. ab.. ab.a ab.b	same
+a.b.*.*	a.b a.b.	same
+a.*.*.*	a.. a... a..a a..b a.a. a.b.	same
+a*.*.*	a. a.. a... a..a a..b a.a a.a. a.aa a.ab a.b a.b. a.ba a.bb aa. aa.. aa.a aa.b aaa. aab. ab. ab.. ab.a ab.b aba. abb.	same
+a.*.*.	a.. a... a..a a..b a.a. a.b.	same
+a*..*	a. a.. a... a..a a..b a.a. a.b. aa. aa.. aaa. aab. ab. ab.. aba. abb.	same
+?*..*	... .... ...a ...b ..a. ..b. .a. .a.. .aa. .ab. .b. .b.. .ba. .bb. a. a.. a... a..a a..b a.a. a.b. aa. aa.. aaa. aab. ab. ab.. aba. abb. b. b.. b... b..a b..b b.a. b.b. ba. ba.. baa. bab. bb. bb.. bba. bbb.	same
+ab*..*	ab. ab.. aba. abb.	same

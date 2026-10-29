@@ -1,0 +1,44 @@
+source	r393_pw.rar: 9 encrypted members, salts (the last 8 bytes of each file header) ['dd08343969739da0']
+unrar	control: the genuine archive's own password, stated derivation	password of 6 characters, seed 20 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 1 characters, seed 10 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 27 characters, seed 62 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 28 characters, seed 64 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 29 characters, seed 66 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 30 characters, seed 68 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 31 characters, seed 70 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 32 characters, seed 72 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 59 characters, seed 126 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 60 characters, seed 128 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 61 characters, seed 130 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 92 characters, seed 192 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 100 characters, seed 208 bytes	good=yes	rc=0	
+unrar	stated derivation	password of 126 characters, seed 260 bytes	good=yes	rc=0	
+unrar	stated derivation, non-ASCII password \u9fbc\u715a\u60c2L	password of 4 characters, seed 16 bytes	good=yes	rc=0	
+unrar	stated derivation, non-ASCII password Cp\u5c8cc\u735e\u6237	password of 6 characters, seed 20 bytes	good=yes	rc=0	
+unrar	stated derivation, non-ASCII password \U0001f5f38vf	password of 4 characters, seed 18 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	stated derivation, non-ASCII password f\u75a7tLP4hBSY\u69966\u6f8e\u661b\u7f21A6K\u99e0k\u7b87vF\u74ee5pOt\u6038\u8927V1oA\u861c\u753a	password of 36 characters, seed 80 bytes	good=yes	rc=0	
+unrar	other reading: counter big-endian	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: counter of 4 bytes	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: password as UTF-8	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: password as UTF-16 big-endian	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: salt before the password	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: half the iteration count	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: key words not byte-reversed	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: IV byte is the digest's first byte	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: IV sampled before the counter is absorbed	password of 6 characters, seed 20 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: no rewriting (the seed repeated unchanged)	password of 28 characters, seed 64 bytes	gives the same key and IV as the stated derivation, so nothing to judge
+unrar	other reading: rewritten words stored big-endian	password of 28 characters, seed 64 bytes	gives the same key and IV as the stated derivation, so nothing to judge
+unrar	other reading: words 16..31 of the expansion written back	password of 28 characters, seed 64 bytes	gives the same key and IV as the stated derivation, so nothing to judge
+unrar	other reading: a block rewritten before it is absorbed	password of 28 characters, seed 64 bytes	gives the same key and IV as the stated derivation, so nothing to judge
+unrar	other reading: a block that begins at the seed's first byte is rewritten too	password of 28 characters, seed 64 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: no rewriting (the seed repeated unchanged)	password of 60 characters, seed 128 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: rewritten words stored big-endian	password of 60 characters, seed 128 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: words 16..31 of the expansion written back	password of 60 characters, seed 128 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: a block rewritten before it is absorbed	password of 60 characters, seed 128 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: a block that begins at the seed's first byte is rewritten too	password of 60 characters, seed 128 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: no rewriting (the seed repeated unchanged)	password of 100 characters, seed 208 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: rewritten words stored big-endian	password of 100 characters, seed 208 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: words 16..31 of the expansion written back	password of 100 characters, seed 208 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: a block rewritten before it is absorbed	password of 100 characters, seed 208 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+unrar	other reading: a block that begins at the seed's first byte is rewritten too	password of 100 characters, seed 208 bytes	good=no	rc=3	Checksum error in the encrypted file AUDIO.RAW. Corrupt file or wrong password. | Checksum error in the encrypted file B
+summary	reference arms done

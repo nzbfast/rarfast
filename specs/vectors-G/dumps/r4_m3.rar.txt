@@ -1,0 +1,9 @@
+== archives/r4_m3.rar (154 bytes)
+  [0x0] MARKER 526172211a0700
+  [0x7] MAIN crc=90cf flags=0x0000 hsize=13 addsize=0
+        highposav=0 posav=0
+  [0x14] FILE crc=dab7 flags=0x8020 hsize=40 addsize=87
+        pack=87 unp=8800 host=3 crc=f57b75de time=2020-09-13 12:26:40 unpver=29 method=0x33 attr=0x81a4
+        name=b'text.txt'
+  [0x93] END crc=3dc4 flags=0x4000 hsize=7 addsize=0
+        rest=

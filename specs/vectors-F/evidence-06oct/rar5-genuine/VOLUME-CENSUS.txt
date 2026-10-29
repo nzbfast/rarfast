@@ -1,0 +1,25 @@
+RAR 5 checksum field of a LAST fragment, stored clear member
+         6  equals the CRC32 of the whole member
+RAR 5 checksum field of a fragment that continues
+        19  version 50, clear: equals the CRC32 of this fragment's packed bytes
+RAR 5 continues-from flag
+        19  on the first file header of a volume
+RAR 5 continues-into flag
+        19  on the last file header of a volume
+RAR 5 digit width of partN names
+         3  [1]
+         1  [2]
+RAR 5 end flag 0x0001
+         4  clear, last volume
+        19  set, not last
+RAR 5 fragment header against the previous fragment's
+        19  name equal, unpacked size equal, other fields equal
+RAR 5 volume flag in the main (archive) header
+        23  set
+RAR 5 volume number field
+         4  absent in volume 1
+        19  equals the volume's index counted from 0
+sets
+         1  RAR 5, named partN, 12 volumes
+         2  RAR 5, named partN, 3 volumes
+         1  RAR 5, named partN, 5 volumes

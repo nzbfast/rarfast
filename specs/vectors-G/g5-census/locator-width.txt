@@ -1,0 +1,20 @@
+one member, 5 byte name, at 2^21-1           sum       511  predicted 3  found 3
+one member, 5 byte name, at 2^21+0           sum       512  predicted 4  found 4
+one member, 41 byte name, at 2^21-1          sum       511  predicted 3  found 3
+one member, 41 byte name, at 2^21+0          sum       512  predicted 4  found 4
+one member, 120 byte name, at 2^21-1         sum       511  predicted 3  found 3
+one member, 120 byte name, at 2^21+0         sum       512  predicted 4  found 4
+one member, 62 byte name, at 2^21-1          sum       511  predicted 3  found 3
+one member, 62 byte name, at 2^21+0          sum       512  predicted 4  found 3
+one member, 5 byte name, at 2^28-1           sum     65535  predicted 4  found 4
+one member, 5 byte name, at 2^28+0           sum     65536  predicted 5  found 5
+one member, 41 byte name, at 2^28-1          sum     65535  predicted 4  found 4
+one member, 41 byte name, at 2^28+0          sum     65536  predicted 5  found 5
+one member, 120 byte name, at 2^28-1         sum     65535  predicted 4  found 4
+one member, 120 byte name, at 2^28+0         sum     65536  predicted 5  found 5
+one member, 62 byte name, at 2^28-1          sum     65535  predicted 4  found 4
+one member, 62 byte name, at 2^28+0          sum     65536  predicted 5  found 4
+10 members, at 2^28-1                        sum     65535  predicted 4  found 4
+10 members, at 2^28+0                        sum     65536  predicted 5  found 4
+100 members, at 2^28-1                       sum     65535  predicted 4  found 4
+100 members, at 2^28+0                       sum     65536  predicted 5  found 4

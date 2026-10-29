@@ -1,0 +1,3 @@
+generation	algorithm_version	alphabet	alphabet_size	slot_first	slot_last	extra_bits_first	extra_bits_last	answer	section
+rar5	1	distance	80	66	79	32	38	zeros	SPEC-H2 3.5, slots 66 to 79 read as zeros (squared 14 Oct 2026)
+rar5	0	distance	64	64	64	-	-	DistanceSlot	SPEC-H2 3.5, a slot past the distance alphabet (added 14 Oct 2026)

@@ -1,0 +1,96 @@
+arm: end-absent-zeros
+about: no end block and 100 zero bytes after the last member
+file: x.rar  257 bytes  sha256 7ca82ea579082411691b531741dccebb28cdd9a3999d074364a0bffb55fe509e
+$ unrar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+stderr:
+  Corrupt header is found
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         26%  OK
+  Testing     b.txt                                                         47%  OK
+  Testing     c.txt                                                         67%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.rar
+exit 3
+  Archive: x.rar
+  Details: RAR 1.5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0 -md=64k
+stderr:
+  Corrupt header is found
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     a.txt                                                         26%  OK
+  Testing     b.txt                                                         47%  OK
+  Testing     c.txt                                                         67%  OK
+  Total errors: 1
+stderr:
+  Corrupt header is found

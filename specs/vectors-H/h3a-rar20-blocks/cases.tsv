@@ -1,0 +1,77 @@
+case	section	kind	member	declared size	stated verdict	stated bytes	sha256/64 of stated bytes	variants that give other bytes
+h31-second-header-bit5	3.1	variants	m1.bin	40	ok	40	0fe5441a802b06e1	hdr-byte-aligned
+h31-second-header-bit0	3.1	variants	m1.bin	41	ok	41	d57905ef3b5de093	-
+h31-second-header-bit3	3.1	variants	m1.bin	42	ok	42	82af64ddef483d85	hdr-byte-aligned
+h31-second-header-bit6	3.1	variants	m1.bin	43	ok	43	747655ae73d4b8c0	hdr-byte-aligned
+h31-second-header-bit1	3.1	variants	m1.bin	44	ok	44	997e184e51aa84ed	hdr-byte-aligned
+h31-second-header-bit4	3.1	variants	m1.bin	45	ok	45	76529617ec8d0b5f	hdr-byte-aligned
+h31-second-header-bit7	3.1	variants	m1.bin	46	ok	46	dd7cb3b94279d228	hdr-byte-aligned
+h31-second-header-bit2	3.1	variants	m1.bin	47	ok	47	4e611f5cb895e3ed	hdr-byte-aligned
+h31-keep-bit	3.1	variants	m1.bin	30	ok	30	4f36cabd0994e8be	hdr-keep-first hdr-chan-always len-sub
+h31-multimedia-header	3.1, 3.2, 3.4	variants	m1.bin	24	ok	24	eeab0a81e6904e83	hdr-chan-before-keep mm-no-advance mm-tables-reversed hdr-keep-first
+h31-channel-resumes	3.1, 3.4	variants	m1.bin	10	ok	10	081d5d90b8516503	chan-reset-always chan-reset-on-lz mm-256-advances
+h31-channel-above-count	3.1	variants	m1.bin	7	ok	7	0e9817e425d43ae2	chan-wrap-mod
+h31-channel-equal-count	3.1	variants	m1.bin	6	ok	6	2fb2b09432896ea5	-
+h31-channel-below-count	3.1	variants	m1.bin	6	ok	6	983a1d2f662dfa3f	chan-reset-always
+h32-level-lengths-15	3.2	variants	m1.bin	60	ok	60	c90a5f94af926eeb	level-escape15 level-20 levels-rar29
+h32-run-counts	3.2	variants	m1.bin	4890	ok	4890	aafc720af1778b00	lv16-base-1 lv16-base+1 lv16-bits-1 lv16-bits+1 lv17-base-1 lv17-base+1 lv17-bits-1 lv17-bits+1 lv18-base-1 lv18-base+1 lv18-bits-1 lv18-bits+1 levels-rar29 order-main-len-dist ties-high-first level-20
+h32-kept-lengths	3.2	variants	m1.bin	504	ok	504	7b9e93dbd649fa5e	len-plain len-sub rep16-old rep16-additive zeros-additive hdr-keep-first level-kept
+h32-one-stored-array	3.2	variants	m1.bin	125	ok	125	9a3738f9119f26e4	keep-separate-arrays len-plain
+h32-clear-keep-zeroes-all	3.2	variants	m1.bin	116	ok	116	d11f72cfc8c56add	keep-zero-partial keep-separate-arrays
+h32-incomplete-tables-used	3.2	variants	m1.bin	69	ok	69	e40862c34d4abb56	incomplete-refused
+h32-run-past-end	3.2	variants	m1.bin	52	ok	52	75e42be844ca0fe9	overrun-error
+h32-run-past-end-multimedia	3.2	variants	m1.bin	20	ok	20	67b88270bc829c0f	overrun-error
+h32-oversubscribed-main	3.2	variants	m1.bin	9	ok	9	12f09e683f8ce90d	over-refused
+h32-no-codeword-main	3.2	variants	m1.bin	11	ok	11	3a0f8a5ae40ee173	hole-refused
+h32-all-zero-distance	3.2	variants	m1.bin	68	ok	68	92084e6ec57b699e	hole-refused
+h32-no-codeword-length	3.2	variants	m1.bin	68	ok	68	72d0bd1c0ac1e7bf	hole-refused
+h32-no-codeword-audio	3.2	variants	m1.bin	7	ok	7	5281bcd9a7059ea0	hole-refused
+h32-oversubscribed-distance	3.2	variants	m1.bin	60	ok	60	ea88763cc79934e8	over-refused
+h32-oversubscribed-level	3.2	variants	m1.bin	45	ok	45	62a4002bba36f0a1	over-refused
+x32-repeat-at-first-length-keep0	3.2	explore	m1.bin	6	refused (repeat at position 0)	0	e3b0c44298fc1c14	-
+x32-repeat-at-first-length-keep1	3.2	explore	m1.bin	9	refused (repeat at position 0)	3	039058c6f2c0cb49	-
+h33-every-ladder-slot	3.3	variants	m1.bin	1064472	ok	1064472	57d3bb7cef5dc99e	LEN_BASE[0]+1 LEN_BASE[1]+1 LEN_BASE[2]+1 LEN_BASE[3]+1 LEN_BASE[4]+1 LEN_BASE[5]+1 LEN_BASE[6]+1 LEN_BASE[7]+1 LEN_BASE[8]+1 LEN_BASE[9]+1 LEN_BASE[10]+1 LEN_BASE[11]+1 LEN_BASE[12]+1 LEN_BASE[13]+1 LEN_BASE[14]+1 LEN_BASE[15]+1 LEN_BASE[16]+1 LEN_BASE[17]+1 LEN_BASE[18]+1 LEN_BASE[19]+1 LEN_BASE[20]+1 LEN_BASE[21]+1 LEN_BASE[22]+1 LEN_BASE[23]+1 LEN_BASE[24]+1 LEN_BASE[25]+1 LEN_BASE[26]+1 LEN_BASE[27]+1 LEN_BITS[0]+1 LEN_BITS[1]+1 LEN_BITS[2]+1 LEN_BITS[3]+1 LEN_BITS[4]+1 LEN_BITS[5]+1 LEN_BITS[6]+1 LEN_BITS[7]+1 LEN_BITS[8]+1 LEN_BITS[9]+1 LEN_BITS[10]+1 LEN_BITS[11]+1 LEN_BITS[12]+1 LEN_BITS[13]+1 LEN_BITS[14]+1 LEN_BITS[15]+1 LEN_BITS[16]+1 LEN_BITS[17]+1 LEN_BITS[18]+1 LEN_BITS[19]+1 LEN_BITS[20]+1 LEN_BITS[21]+1 LEN_BITS[22]+1 LEN_BITS[23]+1 LEN_BITS[24]+1 LEN_BITS[25]+1 LEN_BITS[26]+1 LEN_BITS[27]+1 OFF_BASE[0]+1 OFF_BASE[1]+1 OFF_BASE[2]+1 OFF_BASE[3]+1 OFF_BASE[4]+1 OFF_BASE[5]+1 OFF_BASE[6]+1 OFF_BASE[7]+1 OFF_BASE[8]+1 OFF_BASE[9]+1 OFF_BASE[10]+1 OFF_BASE[11]+1 OFF_BASE[12]+1 OFF_BASE[13]+1 OFF_BASE[14]+1 OFF_BASE[15]+1 OFF_BASE[16]+1 OFF_BASE[17]+1 OFF_BASE[18]+1 OFF_BASE[19]+1 OFF_BASE[20]+1 OFF_BASE[21]+1 OFF_BASE[22]+1 OFF_BASE[23]+1 OFF_BASE[24]+1 OFF_BASE[25]+1 OFF_BASE[26]+1 OFF_BASE[27]+1 OFF_BASE[28]+1 OFF_BASE[29]+1 OFF_BASE[30]+1 OFF_BASE[31]+1 OFF_BASE[32]+1 OFF_BASE[33]+1 OFF_BASE[34]+1 OFF_BASE[35]+1 OFF_BASE[36]+1 OFF_BASE[37]+1 OFF_BASE[38]+1 OFF_BASE[39]+1 OFF_BASE[40]+1 OFF_BASE[41]+1 OFF_BASE[42]+1 OFF_BASE[43]+1 OFF_BASE[44]+1 OFF_BASE[45]+1 OFF_BASE[46]+1 OFF_BASE[47]+1 OFF_BITS[0]+1 OFF_BITS[1]+1 OFF_BITS[2]+1 OFF_BITS[3]+1 OFF_BITS[4]+1 OFF_BITS[5]+1 OFF_BITS[6]+1 OFF_BITS[7]+1 OFF_BITS[8]+1 OFF_BITS[9]+1 OFF_BITS[10]+1 OFF_BITS[11]+1 OFF_BITS[12]+1 OFF_BITS[13]+1 OFF_BITS[14]+1 OFF_BITS[15]+1 OFF_BITS[16]+1 OFF_BITS[17]+1 OFF_BITS[18]+1 OFF_BITS[19]+1 OFF_BITS[20]+1 OFF_BITS[21]+1 OFF_BITS[22]+1 OFF_BITS[23]+1 OFF_BITS[24]+1 OFF_BITS[25]+1 OFF_BITS[26]+1 OFF_BITS[27]+1 OFF_BITS[28]+1 OFF_BITS[29]+1 OFF_BITS[30]+1 OFF_BITS[31]+1 OFF_BITS[32]+1 OFF_BITS[33]+1 OFF_BITS[34]+1 OFF_BITS[35]+1 OFF_BITS[36]+1 OFF_BITS[37]+1 OFF_BITS[38]+1 OFF_BITS[39]+1 OFF_BITS[40]+1 OFF_BITS[41]+1 OFF_BITS[42]+1 OFF_BITS[43]+1 OFF_BITS[44]+1 OFF_BITS[45]+1 OFF_BITS[46]+1 OFF_BITS[47]+1 SHORT_BASE[0]+1 SHORT_BASE[1]+1 SHORT_BASE[2]+1 SHORT_BASE[3]+1 SHORT_BASE[4]+1 SHORT_BASE[5]+1 SHORT_BASE[6]+1 SHORT_BASE[7]+1 SHORT_BITS[0]+1 SHORT_BITS[1]+1 SHORT_BITS[2]+1 SHORT_BITS[3]+1 SHORT_BITS[4]+1 SHORT_BITS[5]+1 SHORT_BITS[6]+1 SHORT_BITS[7]+1 dist-plus0 short-plus0 fresh-dist-first fresh-base2 rep-base3 short-len3 ties-high-first
+h33-length-bonus	3.3	variants	m1.bin	265360	ok	265360	689e7e93076ca46b	rep-thr-101-1 rep-thr-101+1 rep-thr-no-101 rep-thr-2000-1 rep-thr-2000+1 rep-thr-no-2000 rep-thr-40000-1 rep-thr-40000+1 rep-thr-no-40000 fresh-thr-2000-1 fresh-thr-2000+1 fresh-thr-no-2000 fresh-thr-40000-1 fresh-thr-40000+1 fresh-thr-no-40000 fresh-thr-101
+h33-distance-history-001	3.3	variants	m1.bin	11716	ok	11716	4b9ebdee03673af4	256-nopush 256-prebonus rep-rotate rep-nopush short-nopush short-keeps-last
+h33-256-before-any-match	3.3	variants	m1.bin	12	ok	12	a74052a496e05afa	256-first-stop
+h33-history-across-blocks	3.3	variants	m1.bin	381	ok	381	dc61c4441fc618df	block-resets-history
+x33-repeated-distance-unset-first	3.3, 3.5	explore	m1.bin	36	refused (distance 0)	20	e12f08743344c0ea	-
+x33-repeated-distance-unset-fourth	3.3, 3.5	explore	m1.bin	40	refused (distance 0)	24	27aa53d6b01754bd	-
+x33-distance-past-start-by-1	3.5	explore	m1.bin	60	refused (distance beyond what was produced)	20	e12f08743344c0ea	-
+x33-distance-past-start-by-40	3.5	explore	m1.bin	60	refused (distance beyond what was produced)	20	e12f08743344c0ea	-
+x33-distance-past-start-far	3.5	explore	m1.bin	60	refused (distance beyond what was produced)	20	e12f08743344c0ea	-
+x33-distance-past-start-1mib	3.5	explore	m1.bin	60	refused (distance beyond what was produced)	20	e12f08743344c0ea	-
+h34-multimedia-and-window	3.4	variants	m1.bin	533	ok	533	64560e915cb13a0b	mm-not-in-window mm-no-advance
+h35-past-declared-dictionary	3.5	variants	m1.bin	150084	ok	150084	5b0532b25da961a0	far-refused
+h35-three-megabytes	3.5	variants	m1.bin	3216532	ok	3216532	4bd8c9e2a81f471f	dist-plus0
+h35-solid-chain	3.5	variants	m1.bin	371	ok	371	9dcad73612ab398a	-
+h35-solid-chain	3.5	variants	m2.bin	85	ok	85	e272717763f510e8	-
+h35-solid-kept-lengths	3.2, 3.5	variants	m1.bin	54	ok	54	08a6f4af8ca593b8	solid-lengths-reset len-sub
+h35-solid-kept-lengths	3.2, 3.5	variants	m2.bin	29	ok	29	b0ef34243f595bd1	solid-lengths-reset len-sub
+x35-match-past-declared-size	3.5	explore	m1.bin	346	ok	346	5f188dfed84bee99	-
+x35-match-past-declared-size	3.5	explore	m2.bin	71	ok	71	7724b08d8c1b9258	-
+x35-match-past-declared-size-crc-of-whole	3.5	explore	m1.bin	346	ok	346	5f188dfed84bee99	-
+x35-match-past-declared-size-crc-of-whole	3.5	explore	m2.bin	71	ok	71	7724b08d8c1b9258	-
+h35-member-not-solid	3.5	variants	m1.bin	323	ok	323	887e60d0708d3ed7	nonsolid-keeps-state
+h35-member-not-solid	3.5	variants	m2.bin	6	ok	6	0b2feb75ea56fd43	nonsolid-keeps-state
+x35-not-solid-distances-and-window	3.5	explore	m1.bin	323	ok	323	99f411f86f10b724	-
+x35-not-solid-distances-and-window	3.5	explore	m2.bin	76	refused (distance 0)	20	e12f08743344c0ea	-
+x35-input-runs-out	3.5	explore	m1.bin	300	short	100	118d8da4c17fb2aa	-
+x35-unpack-version-13	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-14	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-15	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-16	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-17	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-18	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-19	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-20	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-21	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-22	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-23	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-24	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-25	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-26	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-27	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-28	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-29	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-
+x35-unpack-version-30	1	explore	m1.bin	100	ok	100	29c20120775cfc3f	-

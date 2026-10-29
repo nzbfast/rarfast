@@ -1,0 +1,213 @@
+files walked
+          54  g5/*  RAR 5
+rar5 archive flags
+          53  (headers counted)
+          23  0x0001
+          19  0x0002
+           5  0x0004
+           1  0x0008
+           1  0x0010
+rar5 archives
+           1  headers encrypted (walk stops at type 4)
+rar5 block order
+          53  main first, end last
+rar5 bytes after the end block
+          19  all zero
+          34  none
+rar5 data flag set with a data size of 0, type 2
+         123  seen
+rar5 dictionary power, version 0, compressed members
+          97  0
+          28  2
+          15  3
+           1  8
+rar5 directory entries
+          69  unpacked size 0, data size 0, compression field 0x0
+           5  unpacked size 0, data size 0, compression field 0x40
+rar5 end flags
+          53  (headers counted)
+          19  0x0001
+rar5 extra areas
+         399  filled exactly by their records
+rar5 extra record types, file header
+          17  1
+          17  2
+         140  3
+           2  4
+          30  5
+          10  6
+rar5 extra record types, main header
+          52  1
+           1  2
+rar5 extra record types, service header
+           1  7
+rar5 file attributes, host 1, type bits (octal)
+         220  10
+          20  12
+          74  4
+rar5 file compression version
+         314  0
+rar5 file encryption record
+          17  version 0, flags 0x3, 45 bytes after the flags
+rar5 file flags
+         314  (headers counted)
+          74  0x0001
+         164  0x0002
+         223  0x0004
+rar5 file host OS
+         314  1
+rar5 file method
+         173  0
+           5  1
+         131  3
+           5  5
+rar5 file name
+          20  holds a backslash
+          20  holds a character above U+007F
+          74  holds a forward slash
+         314  valid UTF-8
+rar5 file solid bit
+         292  0
+          22  1
+rar5 hash record
+          17  type 0, 32 bytes
+rar5 header CRC32 over size field to header end
+         453  match
+rar5 header flags, type 1
+          53  (headers counted)
+          52  0x0001
+          53  0x0004
+rar5 header flags, type 2
+         314  (headers counted)
+         173  0x0001
+         314  0x0002
+          19  0x0008
+          19  0x0010
+rar5 header flags, type 3
+          32  (headers counted)
+           1  0x0001
+          32  0x0002
+          31  0x0004
+rar5 header flags, type 4
+           1  (headers counted)
+rar5 header flags, type 5
+          53  (headers counted)
+          53  0x0004
+rar5 header size field, bytes
+         453  1
+rar5 header size, value
+         453  1 to 127
+rar5 header type
+          53  1
+         314  2
+          32  3
+           1  4
+          53  5
+rar5 largest header size
+         106  max
+rar5 locator bytes after its fields
+          52  0
+rar5 locator flags
+          52  (headers counted)
+          52  0x0001
+           1  0x0002
+rar5 locator quick open offset
+          22  0
+          30  lands on a type 3 block named QO
+rar5 locator recovery offset
+           1  lands on a type 3 block named RR
+rar5 metadata flags
+           1  (headers counted)
+           1  0x0001
+           1  0x0002
+           1  0x0004
+           1  0x0008
+rar5 metadata name
+           1  no zero byte at its end
+rar5 metadata time
+           1  flags 0xf: 8 bytes
+rar5 owner record flags
+          10  0x3
+rar5 quick open cached header
+          45  equals the bytes at header start minus distance
+rar5 quick open cached header type
+          45  2
+rar5 quick open data
+          30  filled exactly by its entries
+rar5 quick open entry
+          45  cached bytes fill the entry
+rar5 quick open entry CRC32 over size field to entry end
+          45  match
+rar5 quick open entry flags
+          45  0
+rar5 redirection flags
+          26  0x0
+           4  0x1
+rar5 redirection member: stored CRC32, compression field
+          11  00000000, 0x0
+           7  00000000, 0x40
+           6  absent, 0x0
+           6  d17a9f03, 0x0
+rar5 redirection record
+          30  target fills the record
+rar5 redirection type
+          20  1
+           5  4
+           5  5
+rar5 redirection type 1: file flags, unpacked size, data size, mode
+           5  0x0, 0, 0, 120777
+          15  0x4, 0, 0, 120777
+rar5 redirection type 4: file flags, unpacked size, data size, mode
+           1  0x2, >0, 0, 100644
+           4  0x6, >0, 0, 100644
+rar5 redirection type 5: file flags, unpacked size, data size, mode
+           5  0x6, >0, 0, 100644
+rar5 service CMT: method, flags
+           1  method 0, file flags 0x4, header flags 0x2
+rar5 service QO: method, flags
+          30  method 0, file flags 0x0, header flags 0x6
+rar5 service RR: method, flags
+           1  method 0, file flags 0x0, header flags 0x7
+rar5 service compression version
+          32  0
+rar5 service data record
+           1  1 bytes
+rar5 service flags
+          32  (headers counted)
+           1  0x0004
+rar5 service host OS
+          32  1
+rar5 service method
+          32  0
+rar5 service name
+           1  CMT
+          30  QO
+           1  RR
+rar5 signature offset
+          54  0
+rar5 split file headers
+           8  from previous 0, into next 1
+           8  from previous 1, into next 0
+          11  from previous 1, into next 1
+rar5 time record body
+         140  exactly the fields its flags name
+rar5 time record flags
+         120  0x13
+          10  0x15
+          10  0x1f
+rar5 time record nanoseconds
+         160  0 to 999999999
+rar5 type 1 position
+          53  first block
+rar5 type 4 header size
+           1  33
+rar5 type 4 position
+           1  first block
+rar5 version record
+           1  flags 0, version 1, 0 bytes after
+           1  flags 0, version 2, 0 bytes after
+rar5 volume number field
+          19  1 and up
+           4  absent on a volume
+notes
+    none

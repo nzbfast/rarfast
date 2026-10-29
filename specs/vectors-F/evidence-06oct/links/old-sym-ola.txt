@@ -1,0 +1,38 @@
+arm: old-sym-ola
+about: the same, -ola
+file: x.rar  647 bytes  sha256 12ba560bab4df3d0193a4296b3dc02743f364dfe9e276e562b2b42bfa4ec7533
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Extracting  o/a.txt                                                       10%  OK
+  Extracting  o/top.txt                                                     18%  OK
+  Creating    o/d                                                       OK
+  Extracting  o/sym_rel                                                     31%  OK
+  Extracting  o/sym_abs                                                     39%  OK
+  Extracting  o/sym_up                                                      47%  OK
+  Extracting  o/d/up_in                                                     55%  OK
+  Extracting  o/d/up_out                                                    63%  OK
+  Extracting  o/dotdot_mid                                                  72%  OK
+  Extracting  o/sym_dangling                                                80%  OK
+  Extracting  o/sym_nul                                                     88%  OK
+  Extracting  o/sym_empty                                                   94%
+  Extracting  o/sym_bad_crc                                                100%  OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+  dir   o/d
+  link  o/dotdot_mid           -> d/../top.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_abs              -> /etc/hostname   (mtime the member's, read in this machine's zone)
+  link  o/sym_bad_crc          -> a.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_dangling         -> nothere   (mtime the member's, read in this machine's zone)
+  link  o/sym_nul              -> a.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_rel              -> a.txt   (mtime the member's, read in this machine's zone)
+  link  o/sym_up               -> ../../escape   (mtime the member's, read in this machine's zone)
+  file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+  link  o/d/up_in              -> ../top.txt   (mtime the member's, read in this machine's zone)
+  link  o/d/up_out             -> ../../top.txt   (mtime the member's, read in this machine's zone)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

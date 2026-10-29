@@ -1,0 +1,422 @@
+d155_cmt.rar: 0 LZ members decoded
+d155_m0.rar: 0 LZ members decoded
+d155_m1.rar: 0 LZ members decoded
+d155_m2.rar: 0 LZ members decoded
+d155_m3.rar: 0 LZ members decoded
+d155_m4.rar: 0 LZ members decoded
+d155_m5.rar: 0 LZ members decoded
+d155_pw.rar: 0 LZ members decoded
+d155_sol.rar: 0 LZ members decoded
+d155_vol.rar: 0 LZ members decoded
+d250_cmt.rar: 0 LZ members decoded
+d250_m0.rar: 0 LZ members decoded
+d250_m1.rar: 0 LZ members decoded
+d250_m2.rar: 0 LZ members decoded
+d250_m3.rar: 0 LZ members decoded
+d250_m4.rar: 0 LZ members decoded
+d250_m5.rar: 0 LZ members decoded
+d250_mm.rar: 0 LZ members decoded
+d250_pw.rar: 0 LZ members decoded
+d250_rr.rar: 0 LZ members decoded
+d250_rr8.rar: 0 LZ members decoded
+d250_se.rar: 0 LZ members decoded
+d250_sol.rar: 0 LZ members decoded
+d250_vol.rar: 0 LZ members decoded
+d250_vrr.rar: 0 LZ members decoded
+r393_m0.rar: 0 LZ members decoded
+r393_m3.rar: 9 LZ members decoded
+r393_m5.rar: 6 LZ members decoded
+r393_md.rar: 6 LZ members decoded
+r393_pw.rar: 0 LZ members decoded
+r393_rr.rar: 9 LZ members decoded
+r393_rv.part1.rar: 1 LZ members decoded
+r393_rv.part2.rar: 4 LZ members decoded
+r393_rv.part3.rar: 0 LZ members decoded
+r393_solid.rar: 3 LZ members decoded
+r393_txt.rar: 0 LZ members decoded
+r393_vol.part1.rar: 1 LZ members decoded
+r393_vol.part2.rar: 5 LZ members decoded
+r393_voln.rar: 1 LZ members decoded
+r393_x.rar: 7 LZ members decoded
+r420_f_audio.rar: 1 LZ members decoded
+r420_f_bmp.rar: 1 LZ members decoded
+r420_f_delta.rar: 1 LZ members decoded
+r420_f_ia64.rar: 1 LZ members decoded
+r420_f_mixed.rar: 7 LZ members decoded
+r420_f_rgb.rar: 1 LZ members decoded
+r420_f_wav.rar: 1 LZ members decoded
+r420_f_x86.rar: 1 LZ members decoded
+r420_m0.rar: 0 LZ members decoded
+r420_m3.rar: 9 LZ members decoded
+r420_m5.rar: 9 LZ members decoded
+r420_md.rar: 9 LZ members decoded
+r420_pw.rar: 0 LZ members decoded
+r420_rr.rar: 9 LZ members decoded
+r420_rv.part1.rar: 1 LZ members decoded
+r420_rv.part2.rar: 5 LZ members decoded
+r420_rv.part3.rar: 1 LZ members decoded
+r420_solid.rar: 9 LZ members decoded
+r420_txt.rar: 0 LZ members decoded
+r420_vol.part1.rar: 1 LZ members decoded
+r420_vol.part2.rar: 6 LZ members decoded
+r420_vol.part3.rar: 0 LZ members decoded
+r420_voln.rar: 1 LZ members decoded
+r420_x.rar: 9 LZ members decoded
+r550_cmt.rar: 7 LZ members decoded
+r550_m0.rar: 0 LZ members decoded
+r550_m3.rar: 7 LZ members decoded
+r550_m5.rar: 7 LZ members decoded
+r550_md.rar: 7 LZ members decoded
+r550_pw.rar: 0 LZ members decoded
+r550_rr.rar: 7 LZ members decoded
+r550_solid.rar: 9 LZ members decoded
+r550_txt.rar: 0 LZ members decoded
+r550_vol.part1.rar: 1 LZ members decoded
+r550_vol.part2.rar: 6 LZ members decoded
+r550_vol.part3.rar: 0 LZ members decoded
+r550_voln.rar: 1 LZ members decoded
+r550_x.rar: 8 LZ members decoded
+r393_m5.rar: 2 LZ members decoded
+r420_m5.rar: 4 LZ members decoded
+r550ma4_m5.rar: 3 LZ members decoded
+i01_t1_default.rar: 0 LZ members decoded
+i02_t1_o2_m1.rar: 0 LZ members decoded
+i03_t1_o63_m128.rar: 0 LZ members decoded
+i04_t1_o16_m8.rar: 0 LZ members decoded
+i05_t1_o17_m8.rar: 0 LZ members decoded
+i06_solid3.rar: 0 LZ members decoded
+i07_nonsolid3.rar: 0 LZ members decoded
+i08_esc.rar: 0 LZ members decoded
+i09_bin_forced.rar: 0 LZ members decoded
+i11_runs.rar: 0 LZ members decoded
+i12_one.rar: 0 LZ members decoded
+i13_empty_and_one.rar: 1 LZ members decoded
+i18_solid_mixed_auto.rar: 1 LZ members decoded
+i19_solid_ppm_then_lz.rar: 0 LZ members decoded
+sweep_m1.rar: 0 LZ members decoded
+sweep_m128.rar: 0 LZ members decoded
+sweep_m129.rar: 0 LZ members decoded
+sweep_o16.rar: 0 LZ members decoded
+sweep_o17.rar: 0 LZ members decoded
+sweep_o19.rar: 0 LZ members decoded
+sweep_o2.rar: 0 LZ members decoded
+sweep_o61.rar: 0 LZ members decoded
+sweep_o64.rar: 0 LZ members decoded
+r393_bigrgb_c.rar: 1 LZ members decoded
+r393_mixed_solid.rar: 2 LZ members decoded
+r420_bigrgb_c.rar: 1 LZ members decoded
+r420_bmp_auto.rar: 1 LZ members decoded
+r420_ia64_i.rar: 1 LZ members decoded
+r420_mixed_nonsolid.rar: 5 LZ members decoded
+r420_mixed_solid.rar: 7 LZ members decoded
+r420_pcm_a2.rar: 1 LZ members decoded
+r420_pcm_a4.rar: 1 LZ members decoded
+r420_rgb_c.rar: 1 LZ members decoded
+r420_tab_auto.rar: 1 LZ members decoded
+r420_tab_d3.rar: 1 LZ members decoded
+r420_wav_auto.rar: 1 LZ members decoded
+r420_x86_auto.rar: 1 LZ members decoded
+r420_x86_e.rar: 1 LZ members decoded
+archives with at least one LZ member decoded: 61
+LZ members decoded                                         232
+after the declared size: reading stopped at an end of block that ends the member 232
+bytes decoded                                              4502171
+distance slot 00                                           5293
+distance slot 01                                           170
+distance slot 02                                           235
+distance slot 03                                           197
+distance slot 04                                           588
+distance slot 05                                           712
+distance slot 06                                           1105
+distance slot 07                                           1321
+distance slot 08                                           2307
+distance slot 09                                           2599
+distance slot 10                                           3987
+distance slot 11                                           3693
+distance slot 12                                           6214
+distance slot 13                                           5388
+distance slot 14                                           9101
+distance slot 15                                           7852
+distance slot 16                                           12475
+distance slot 17                                           9072
+distance slot 18                                           14403
+distance slot 19                                           10358
+distance slot 20                                           14873
+distance slot 21                                           9546
+distance slot 22                                           13149
+distance slot 23                                           9595
+distance slot 24                                           12946
+distance slot 25                                           8543
+distance slot 26                                           12725
+distance slot 27                                           8619
+distance slot 28                                           10693
+distance slot 29                                           7392
+distance slot 30                                           8076
+distance slot 31                                           4000
+distance slot 32                                           1471
+distance slot 33                                           20
+distance slot 34                                           3
+distance table all zero                                    316
+distance table complete                                    248
+end of block, bits 0 0                                     26
+end of block, bits 0 1                                     206
+end of block, bits 1                                       356
+filter record                                              126
+filter record, length in its first byte                    19
+filter record, length in one more byte                     107
+fresh match, bonus 0                                       165722
+fresh match, bonus 1                                       52999
+fresh matches made after the stream passed its declared dictionary 2155
+length table all zero                                      380
+length table complete                                      184
+level delta wrapping past 15                               1058
+level escape, z > 0                                        709
+level symbol 00                                            4484
+level symbol 01                                            825
+level symbol 02                                            719
+level symbol 03                                            1348
+level symbol 04                                            1676
+level symbol 05                                            1840
+level symbol 06                                            1977
+level symbol 07                                            5427
+level symbol 08                                            6195
+level symbol 09                                            5084
+level symbol 10                                            4212
+level symbol 11                                            2824
+level symbol 12                                            941
+level symbol 13                                            490
+level symbol 14                                            286
+level symbol 15                                            191
+level symbol 16                                            1862
+level symbol 17                                            447
+level symbol 18                                            2426
+level symbol 19                                            2453
+low distance symbol 00                                     12798
+low distance symbol 01                                     12700
+low distance symbol 02                                     12721
+low distance symbol 03                                     12955
+low distance symbol 04                                     12354
+low distance symbol 05                                     12737
+low distance symbol 06                                     12726
+low distance symbol 07                                     12900
+low distance symbol 08                                     12249
+low distance symbol 09                                     12272
+low distance symbol 10                                     12941
+low distance symbol 11                                     12712
+low distance symbol 12                                     12600
+low distance symbol 13                                     13052
+low distance symbol 14                                     12513
+low distance symbol 15                                     12604
+low distance symbol 16                                     85
+low distance table all zero                                390
+low distance table complete                                174
+low part taken inside a run                                1275
+main table complete                                        564
+main: 256                                                  588
+main: 257                                                  126
+main: 258                                                  2071
+main: fresh, length slot 00                                17184
+main: fresh, length slot 01                                17619
+main: fresh, length slot 02                                17740
+main: fresh, length slot 03                                22275
+main: fresh, length slot 04                                28096
+main: fresh, length slot 05                                24086
+main: fresh, length slot 06                                20854
+main: fresh, length slot 07                                15907
+main: fresh, length slot 08                                23623
+main: fresh, length slot 09                                14138
+main: fresh, length slot 10                                8109
+main: fresh, length slot 11                                3575
+main: fresh, length slot 12                                2169
+main: fresh, length slot 13                                352
+main: fresh, length slot 14                                156
+main: fresh, length slot 15                                279
+main: fresh, length slot 16                                238
+main: fresh, length slot 17                                262
+main: fresh, length slot 18                                246
+main: fresh, length slot 19                                147
+main: fresh, length slot 20                                429
+main: fresh, length slot 21                                330
+main: fresh, length slot 22                                90
+main: fresh, length slot 23                                86
+main: fresh, length slot 24                                132
+main: fresh, length slot 25                                110
+main: fresh, length slot 26                                96
+main: fresh, length slot 27                                393
+main: literal                                              1976563
+main: repeated distance 0                                  2391
+main: repeated distance 1                                  2380
+main: repeated distance 2                                  1620
+main: repeated distance 3                                  996
+main: short distance slot 0                                401
+main: short distance slot 1                                382
+main: short distance slot 2                                832
+main: short distance slot 3                                1179
+main: short distance slot 4                                1563
+main: short distance slot 5                                2148
+main: short distance slot 6                                1073
+main: short distance slot 7                                1003
+member begins at a block header                            208
+member begins inside a block                               24
+member declaring a dictionary of 1024 KiB                  39
+member declaring a dictionary of 128 KiB                   176
+member declaring a dictionary of 512 KiB                   2
+member declaring a dictionary of 64 KiB                    15
+member's declared size met with 0 bytes of packed data not yet begun 11
+member's declared size met with 1 bytes of packed data not yet begun 95
+member's declared size met with 2 bytes of packed data not yet begun 99
+member's declared size met with 8 bytes of packed data not yet begun 16
+member's declared size met with 9 bytes of packed data not yet begun 11
+members with filter records (bytes not checked)            98
+members without filter records: CRC32 as in the header     134
+of those, at a distance in the last sixteenth of the dictionary 48
+repeated distance match, length slot 00                    2604
+repeated distance match, length slot 01                    1046
+repeated distance match, length slot 02                    280
+repeated distance match, length slot 03                    128
+repeated distance match, length slot 04                    162
+repeated distance match, length slot 05                    93
+repeated distance match, length slot 06                    64
+repeated distance match, length slot 08                    215
+repeated distance match, length slot 09                    280
+repeated distance match, length slot 10                    146
+repeated distance match, length slot 11                    145
+repeated distance match, length slot 12                    257
+repeated distance match, length slot 13                    104
+repeated distance match, length slot 14                    39
+repeated distance match, length slot 15                    67
+repeated distance match, length slot 16                    142
+repeated distance match, length slot 17                    123
+repeated distance match, length slot 18                    488
+repeated distance match, length slot 19                    89
+repeated distance match, length slot 20                    214
+repeated distance match, length slot 21                    181
+repeated distance match, length slot 22                    48
+repeated distance match, length slot 23                    70
+repeated distance match, length slot 24                    96
+repeated distance match, length slot 25                    87
+repeated distance match, length slot 26                    99
+repeated distance match, length slot 27                    120
+table read after the declared size was produced            27
+table read, keep bit 0                                     352
+table read, keep bit 1                                     212
+the same, dictionary of 64 KiB                             2155
+zero size member at a header expected point with 8 packed bytes 16
+not counted: d140_m0.rar: not a clear RAR 4 family archive
+not counted: d140_m1.rar: not a clear RAR 4 family archive
+not counted: d140_m2.rar: not a clear RAR 4 family archive
+not counted: d140_m3.rar: not a clear RAR 4 family archive
+not counted: d140_m4.rar: not a clear RAR 4 family archive
+not counted: d140_m5.rar: not a clear RAR 4 family archive
+not counted: d140_pw.rar: not a clear RAR 4 family archive
+not counted: d140_sol.rar: not a clear RAR 4 family archive
+not counted: d140_vol.rar: not a clear RAR 4 family archive
+not counted: r393_hp.rar: not a clear RAR 4 family archive
+not counted: r393_m5.rar: BIG.TXT: a PPM block
+not counted: r393_m5.rar: ONE.DAT: a PPM block
+not counted: r393_m5.rar: HELLO.TXT: a PPM block
+not counted: r393_md.rar: BIG.TXT: a PPM block
+not counted: r393_md.rar: ONE.DAT: a PPM block
+not counted: r393_md.rar: HELLO.TXT: a PPM block
+not counted: r393_pw.rar: AUDIO.RAW: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: EMPTY.DAT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: ONE.DAT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: SUB\SIB.TXT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: SUB\NESTED\DEEP.TXT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: TABLE.BIN: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: HELLO.TXT: split, encrypted or over 4 GiB
+not counted: r393_pw.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r393_rv.part1.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_rv.part2.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_rv.part2.rar: ONE.DAT: a PPM block
+not counted: r393_rv.part2.rar: HELLO.TXT: a PPM block
+not counted: r393_rv.part2.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r393_rv.part3.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r393_solid.rar: ONE.DAT: a PPM block
+not counted: r393_solid.rar: AUDIO.RAW: its chain was dropped at an earlier member
+not counted: r393_solid.rar: BIG.TXT: its chain was dropped at an earlier member
+not counted: r393_solid.rar: SUB\NESTED\DEEP.TXT: its chain was dropped at an earlier member
+not counted: r393_solid.rar: HELLO.TXT: its chain was dropped at an earlier member
+not counted: r393_solid.rar: SUB\SIB.TXT: its chain was dropped at an earlier member
+not counted: r393_txt.rar: BIG.TXT: a PPM block
+not counted: r393_vol.part1.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_vol.part2.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_vol.part2.rar: ONE.DAT: a PPM block
+not counted: r393_vol.part2.rar: HELLO.TXT: a PPM block
+not counted: r393_voln.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_x.rar: X86.BIN: a PPM block
+not counted: r393_x.rar: a-long-file-name-that-no-8.3-writer-could-store.txt: a PPM block
+not counted: r420_hp.rar: not a clear RAR 4 family archive
+not counted: r420_pw.rar: AUDIO.RAW: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: EMPTY.DAT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: ONE.DAT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: SUB\SIB.TXT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: SUB\NESTED\DEEP.TXT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: TABLE.BIN: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: HELLO.TXT: split, encrypted or over 4 GiB
+not counted: r420_pw.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r420_rv.part1.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r420_rv.part2.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r420_rv.part2.rar: HELLO.TXT: split, encrypted or over 4 GiB
+not counted: r420_rv.part3.rar: HELLO.TXT: split, encrypted or over 4 GiB
+not counted: r420_txt.rar: BIG.TXT: a PPM block
+not counted: r420_vol.part1.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r420_vol.part2.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r420_vol.part2.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r420_vol.part3.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r420_voln.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r550_hp.rar: not a clear RAR 4 family archive
+not counted: r550_pw.rar: AUDIO.RAW: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: EMPTY.DAT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: ONE.DAT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: SUB\SIB.TXT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: SUB\NESTED\DEEP.TXT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: TABLE.BIN: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: HELLO.TXT: split, encrypted or over 4 GiB
+not counted: r550_pw.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r550_txt.rar: BIG.TXT: a PPM block
+not counted: r550_vol.part1.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r550_vol.part2.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r550_vol.part2.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r550_vol.part3.rar: DATA.BIN: split, encrypted or over 4 GiB
+not counted: r550_voln.rar: BIG.TXT: split, encrypted or over 4 GiB
+not counted: r393_m5.rar: SUB\NESTED\DEEP.TXT: a PPM block
+not counted: r393_m5.rar: HELLO.TXT: a PPM block
+not counted: i01_t1_default.rar: T1.TXT: a PPM block
+not counted: i02_t1_o2_m1.rar: T1.TXT: a PPM block
+not counted: i03_t1_o63_m128.rar: T1.TXT: a PPM block
+not counted: i04_t1_o16_m8.rar: T1.TXT: a PPM block
+not counted: i05_t1_o17_m8.rar: T1.TXT: a PPM block
+not counted: i06_solid3.rar: T1.TXT: a PPM block
+not counted: i06_solid3.rar: T2.TXT: its chain was dropped at an earlier member
+not counted: i06_solid3.rar: T3.TXT: its chain was dropped at an earlier member
+not counted: i07_nonsolid3.rar: T1.TXT: a PPM block
+not counted: i07_nonsolid3.rar: T2.TXT: a PPM block
+not counted: i07_nonsolid3.rar: T3.TXT: a PPM block
+not counted: i08_esc.rar: ESC.TXT: a PPM block
+not counted: i09_bin_forced.rar: BIN.DAT: a PPM block
+not counted: i11_runs.rar: RUNS.TXT: a PPM block
+not counted: i12_one.rar: ONE.TXT: a PPM block
+not counted: i13_empty_and_one.rar: ONE.TXT: a PPM block
+not counted: i13_empty_and_one.rar: T2.TXT: its chain was dropped at an earlier member
+not counted: i18_solid_mixed_auto.rar: T1.TXT: a PPM block
+not counted: i18_solid_mixed_auto.rar: T2.TXT: its chain was dropped at an earlier member
+not counted: i19_solid_ppm_then_lz.rar: T1.TXT: a PPM block
+not counted: i19_solid_ppm_then_lz.rar: ZBIN.TXT: its chain was dropped at an earlier member
+not counted: sweep_m1.rar: T2.TXT: a PPM block
+not counted: sweep_m128.rar: T2.TXT: a PPM block
+not counted: sweep_m129.rar: T2.TXT: a PPM block
+not counted: sweep_o16.rar: T2.TXT: a PPM block
+not counted: sweep_o17.rar: T2.TXT: a PPM block
+not counted: sweep_o19.rar: T2.TXT: a PPM block
+not counted: sweep_o2.rar: T2.TXT: a PPM block
+not counted: sweep_o61.rar: T2.TXT: a PPM block
+not counted: sweep_o64.rar: T2.TXT: a PPM block
+not counted: r393_mixed_solid.rar: X86.BIN: a PPM block
+not counted: r393_mixed_solid.rar: IMAGE.BMP: its chain was dropped at an earlier member
+not counted: r393_mixed_solid.rar: PCM.RAW: its chain was dropped at an earlier member
+not counted: r393_mixed_solid.rar: RGB.RAW: its chain was dropped at an earlier member
+not counted: r393_mixed_solid.rar: SOUND.WAV: its chain was dropped at an earlier member

@@ -1,0 +1,140 @@
+arm: cmt-m5-genuine-stream
+about: a CMT header declaring compression information 0x0280, 73 packed bytes written by rar -m5 for the same text; unpacked size and CRC32 those of the text
+file: x.rar  233 bytes  sha256 40c0d369686aa1653c1b4baf849c3ea0c4ea0007d52d092128a660e116686e64
+$ unrar lt -p- x.rar
+exit 0
+  Archive comment:
+  comment line 000 of the probe
+  comment line 001 of the probe
+  comment line 002 of the probe
+  comment line 003 of the probe
+  comment line 004 of the probe
+  comment line 005 of the probe
+  comment line 006 of the probe
+  comment line 007 of the probe
+  comment line 008 of the probe
+  comment line 009 of the probe
+  comment line 010 of the probe
+  comment line 011 of the probe
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.rar
+exit 0
+  Archive comment:
+  comment line 000 of the probe
+  comment line 001 of the probe
+  comment line 002 of the probe
+  comment line 003 of the probe
+  comment line 004 of the probe
+  comment line 005 of the probe
+  comment line 006 of the probe
+  comment line 007 of the probe
+  comment line 008 of the probe
+  comment line 009 of the probe
+  comment line 010 of the probe
+  comment line 011 of the probe
+  Testing archive x.rar
+  Testing     a.txt                                                         70%  OK
+  Testing     b.txt                                                         89%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive comment:
+  comment line 000 of the probe
+  comment line 001 of the probe
+  comment line 002 of the probe
+  comment line 003 of the probe
+  comment line 004 of the probe
+  comment line 005 of the probe
+  comment line 006 of the probe
+  comment line 007 of the probe
+  comment line 008 of the probe
+  comment line 009 of the probe
+  comment line 010 of the probe
+  comment line 011 of the probe
+  Archive: x.rar
+  Details: RAR 5
+          Name: a.txt
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9F606EEC
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.rar
+exit 0
+  Archive comment:
+  comment line 000 of the probe
+  comment line 001 of the probe
+  comment line 002 of the probe
+  comment line 003 of the probe
+  comment line 004 of the probe
+  comment line 005 of the probe
+  comment line 006 of the probe
+  comment line 007 of the probe
+  comment line 008 of the probe
+  comment line 009 of the probe
+  comment line 010 of the probe
+  comment line 011 of the probe
+  Testing archive x.rar
+  Testing     a.txt                                                         70%  OK
+  Testing     b.txt                                                         89%  OK
+  Testing     c.txt                                                        100%  OK
+  All OK

@@ -1,0 +1,54 @@
+arm: s5-select-c-a-damaged
+about: a's packed data damaged, the command selecting c.txt alone [archive flags 0x4; a.txt clear method 3 packed 2017, b.txt solid method 3 packed 108, c.txt solid method 3 packed 116, d.txt solid method 3 packed 82]
+file: x.rar  2475 bytes  sha256 069b4f76e3af81062648056c0b7e559e0d931806807fa70b8f0b43eb07df3439
+$ unrar lt -p- x.rar c.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar c.txt
+exit 3
+  Testing archive x.rar
+  Skipping    a.txt                                                         84%
+  Skipping    b.txt                                                         89%
+  Testing     c.txt                                                         95%
+  Total errors: 1
+stderr:
+  c.txt                - checksum error
+$ unrar p -inul -p- x.rar c.txt
+exit 3
+stdout: 5200 bytes, b'ba ark ri ilyto kenimsan ark ily nimilyongark pla vor tosanestpla chuong ongkeni' ...
+$ rar lt -p- x.rar c.txt
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: c.txt
+          Type: File
+          Size: 5200
+   Packed size: 116
+         Ratio: 2%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: C3D415D2
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar c.txt
+exit 3
+  Testing archive x.rar
+  Skipping    a.txt                                                         84%
+  Skipping    b.txt                                                         89%
+  Testing     c.txt                                                         95%
+  Total errors: 1
+stderr:
+  c.txt                - checksum error

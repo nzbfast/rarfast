@@ -1,0 +1,83 @@
+arm	data volumes	written as	renamed to	recovery command	name given	exit	recovery volumes	their names
+001	3	set.part1.rar .. set.part3.rar	as written	rv	set.part1.rar	0	1	set.part1.rev
+002	3	set.part1.rar .. set.part3.rar	as written	at creation -rv	set.part1.rar	0	1	set.part1.rev
+003	7	set.part1.rar .. set.part7.rar	as written	rv	set.part1.rar	0	1	set.part1.rev
+004	7	set.part1.rar .. set.part7.rar	as written	at creation -rv	set.part1.rar	0	1	set.part1.rev
+005	9	set.part01.rar .. set.part09.rar	as written	rv	set.part01.rar	0	1	set.part01.rev
+006	9	set.part01.rar .. set.part09.rar	as written	at creation -rv	set.part01.rar	0	1	set.part01.rev
+007	10	set.part01.rar .. set.part10.rar	as written	rv	set.part01.rar	0	1	set.part01.rev
+008	10	set.part01.rar .. set.part10.rar	as written	at creation -rv	set.part01.rar	0	1	set.part01.rev
+009	11	set.part01.rar .. set.part11.rar	as written	rv	set.part01.rar	0	2	set.part01.rev set.part02.rev
+010	11	set.part01.rar .. set.part11.rar	as written	at creation -rv	set.part01.rar	0	2	set.part01.rev set.part02.rev
+011	101	set.part001.rar .. set.part101.rar	as written	rv	set.part001.rar	0	11	set.part001.rev set.part002.rev set.part003.rev ... set.part010.rev set.part011.rev
+012	101	set.part001.rar .. set.part101.rar	as written	at creation -rv	set.part001.rar	0	11	set.part001.rev set.part002.rev set.part003.rev ... set.part010.rev set.part011.rev
+013	7	set.part1.rar .. set.part7.rar	two digits (all): set.part01.rar set.part02.rar	rv	set.part01.rar	0	1	set.part01.rev
+014	7	set.part1.rar .. set.part7.rar	three digits (all): set.part001.rar set.part002.rar	rv	set.part001.rar	0	1	set.part001.rev
+015	7	set.part1.rar .. set.part7.rar	five digits (all): set.part00001.rar set.part00002.rar	rv	set.part00001.rar	0	1	set.part00001.rev
+016	3	set.part1.rar .. set.part3.rar	two digits (all): set.part01.rar set.part02.rar	rv	set.part01.rar	0	1	set.part01.rev
+017	3	set.part1.rar .. set.part3.rar	three digits (all): set.part001.rar set.part002.rar	rv	set.part001.rar	0	1	set.part001.rev
+018	9	set.part01.rar .. set.part09.rar	two digits (all): set.part01.rar set.part02.rar	rv	set.part01.rar	0	1	set.part01.rev
+019	10	set.part01.rar .. set.part10.rar	no padding (all): set.part1.rar set.part2.rar	rv	set.part1.rar	0	1	set.part1.rev
+020	10	set.part01.rar .. set.part10.rar	three digits (all): set.part001.rar set.part002.rar	rv	set.part001.rar	0	1	set.part001.rev
+021	11	set.part01.rar .. set.part11.rar	no padding (all): set.part1.rar set.part2.rar	rv	set.part1.rar	0	2	set.part1.rev set.part2.rev
+022	11	set.part01.rar .. set.part11.rar	three digits (all): set.part001.rar set.part002.rar	rv	set.part001.rar	0	2	set.part001.rev set.part002.rev
+023	11	set.part01.rar .. set.part11.rar	one digit more (all): set.part001.rar set.part002.rar	rv	set.part001.rar	0	2	set.part001.rev set.part002.rev
+024	101	set.part001.rar .. set.part101.rar	no padding (all): set.part1.rar set.part2.rar	rv	set.part1.rar	0	11	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+025	101	set.part001.rar .. set.part101.rar	two digits (all): set.part01.rar set.part02.rar	rv	set.part01.rar	0	11	set.part01.rev set.part02.rev set.part03.rev ... set.part10.rev set.part11.rev
+026	101	set.part001.rar .. set.part101.rar	five digits (all): set.part00001.rar set.part00002.rar	rv	set.part00001.rar	0	11	set.part00001.rev set.part00002.rev set.part00003.rev ... set.part00010.rev set.part00011.rev
+027	7	set.part1.rar .. set.part7.rar	all upper case (all): SET.PART1.RAR SET.PART2.RAR	rv	SET.PART1.RAR	0	1	SET.PART1.rev
+028	7	set.part1.rar .. set.part7.rar	PART upper case (all): set.PART1.rar set.PART2.rar	rv	set.PART1.rar	0	1	set.PART1.rev
+029	7	set.part1.rar .. set.part7.rar	Part capital (all): set.Part1.rar set.Part2.rar	rv	set.Part1.rar	0	1	set.Part1.rev
+030	7	set.part1.rar .. set.part7.rar	RAR upper case (all): set.part1.RAR set.part2.RAR	rv	set.part1.RAR	0	1	set.part1.rev
+031	7	set.part1.rar .. set.part7.rar	base upper case (all): SET.part1.rar SET.part2.rar	rv	SET.part1.rar	0	1	SET.part1.rev
+032	7	set.part1.rar .. set.part7.rar	all upper case, two digits (all): SET.PART01.RAR SET.PART02.RAR	rv	SET.PART01.RAR	0	1	SET.PART01.rev
+033	11	set.part01.rar .. set.part11.rar	all upper case (all): SET.PART01.RAR SET.PART02.RAR	rv	SET.PART01.RAR	0	2	SET.PART01.rev SET.PART02.rev
+034	7	set.part1.rar .. set.part7.rar	another base (all): other.name.part1.rar other.name.part2.rar	rv	other.name.part1.rar	0	1	other.name.part1.rev
+035	7	set.part1.rar .. set.part7.rar	base with digits (all): v2.2024.part1.rar v2.2024.part2.rar	rv	v2.2024.part1.rar	0	1	v2.2024.part1.rev
+036	7	set.part1.rar .. set.part7.rar	base with a part field (all): a.part7.part1.rar a.part7.part2.rar	rv	a.part7.part1.rar	0	1	a.part7.part1.rev
+037	7	set.part1.rar .. set.part7.rar	base with a space (all): my set.part1.rar my set.part2.rar	rv	my set.part1.rar	0	1	my set.part1.rev
+038	7	set.part1.rar .. set.part7.rar	word p (all): set.p1.rar set.p2.rar	rv	set.p1.rar	0	1	set.p1.rev
+039	7	set.part1.rar .. set.part7.rar	word vol (all): set.vol1.rar set.vol2.rar	rv	set.vol1.rar	0	1	set.vol1.rev
+040	7	set.part1.rar .. set.part7.rar	no word (all): set.1.rar set.2.rar	rv	set.1.rar	0	1	set.1.rev
+041	7	set.part1.rar .. set.part7.rar	two digits (first alone): set.part01.rar set.part2.rar	rv	set.part01.rar	0	0	-
+042	7	set.part1.rar .. set.part7.rar	two digits (all but the first): set.part1.rar set.part02.rar	rv	set.part1.rar	0	0	-
+043	7	set.part1.rar .. set.part7.rar	all upper case (first alone): SET.PART1.RAR set.part2.rar	rv	SET.PART1.RAR	0	0	-
+044	7	set.part1.rar .. set.part7.rar	all upper case (all but the first): set.part1.rar SET.PART2.RAR	rv	set.part1.rar	0	0	-
+045	11	set.part01.rar .. set.part11.rar	no padding (first alone): set.part1.rar set.part02.rar	rv	set.part1.rar	0	0	-
+046	11	set.part01.rar .. set.part11.rar	no padding (all but the first): set.part01.rar set.part2.rar	rv	set.part01.rar	0	0	-
+047	7	set.part1.rar .. set.part7.rar	three digits (first alone): set.part001.rar set.part2.rar	rv	set.part001.rar	0	0	-
+048	7	set.part1.rar .. set.part7.rar	three digits (all but the first): set.part1.rar set.part002.rar	rv	set.part1.rar	0	0	-
+049	7	set.part1.rar .. set.part7.rar	another base (first alone): other.name.part1.rar set.part2.rar	rv	other.name.part1.rar	0	0	-
+050	7	set.part1.rar .. set.part7.rar	another base (all but the first): set.part1.rar other.name.part2.rar	rv	set.part1.rar	0	0	-
+051	7	set.part1.rar .. set.part7.rar	as written	rv3	set.part1.rar	0	3	set.part1.rev set.part2.rev set.part3.rev
+052	7	set.part1.rar .. set.part7.rar	as written	rv9	set.part1.rar	0	9	set.part1.rev set.part2.rev set.part3.rev ... set.part8.rev set.part9.rev
+053	7	set.part1.rar .. set.part7.rar	as written	rv10	set.part1.rar	0	10	set.part1.rev set.part10.rev set.part2.rev ... set.part8.rev set.part9.rev
+054	7	set.part1.rar .. set.part7.rar	as written	rv12	set.part1.rar	0	12	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+055	7	set.part1.rar .. set.part7.rar	two digits (all): set.part01.rar set.part02.rar	rv12	set.part01.rar	0	12	set.part01.rev set.part02.rev set.part03.rev ... set.part11.rev set.part12.rev
+056	7	set.part1.rar .. set.part7.rar	three digits (all): set.part001.rar set.part002.rar	rv3	set.part001.rar	0	3	set.part001.rev set.part002.rev set.part003.rev
+057	11	set.part01.rar .. set.part11.rar	no padding (all): set.part1.rar set.part2.rar	rv12	set.part1.rar	0	12	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+058	11	set.part01.rar .. set.part11.rar	as written	rv12	set.part01.rar	0	12	set.part01.rev set.part02.rev set.part03.rev ... set.part11.rev set.part12.rev
+059	3	set.part1.rar .. set.part3.rar	as written	rv30	set.part1.rar	0	30	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+060	3	set.part1.rar .. set.part3.rar	two digits (all): set.part01.rar set.part02.rar	rv30	set.part01.rar	0	30	set.part01.rev set.part02.rev set.part03.rev ... set.part29.rev set.part30.rev
+061	7	set.part1.rar .. set.part7.rar	all upper case (all): SET.PART1.RAR SET.PART2.RAR	rv12	SET.PART1.RAR	0	12	SET.PART1.rev SET.PART10.rev SET.PART11.rev ... SET.PART8.rev SET.PART9.rev
+062	7	set.part1.rar .. set.part7.rar	as written	at creation -rv3	set.part1.rar	0	3	set.part1.rev set.part2.rev set.part3.rev
+063	7	set.part1.rar .. set.part7.rar	as written	at creation -rv10	set.part1.rar	0	10	set.part1.rev set.part10.rev set.part2.rev ... set.part8.rev set.part9.rev
+064	7	set.part1.rar .. set.part7.rar	as written	at creation -rv12	set.part1.rar	0	12	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+065	11	set.part01.rar .. set.part11.rar	as written	at creation -rv12	set.part01.rar	0	12	set.part01.rev set.part02.rev set.part03.rev ... set.part11.rev set.part12.rev
+066	3	set.part1.rar .. set.part3.rar	as written	at creation -rv30	set.part1.rar	0	30	set.part1.rev set.part10.rev set.part11.rev ... set.part8.rev set.part9.rev
+067	7	set.part1.rar .. set.part7.rar	two digits (all): set.part01.rar set.part02.rar	rv, named by its last volume	set.part07.rar	0	0	-
+068	7	set.part1.rar .. set.part7.rar	as written	rv, named by its last volume	set.part7.rar	0	0	-
+069	7	set.part1.rar .. set.part7.rar	two digits (all): set.part01.rar set.part02.rar	rv, recovery volumes already there	set.part01.rar	0	1	set.part01.rev
+070	7	set.part1.rar .. set.part7.rar	extension exe (all): set.part1.exe set.part2.exe	rv	set.part1.exe	0	0	-
+071	7	set.part1.rar .. set.part7.rar	extension EXE (all): set.part1.EXE set.part2.EXE	rv	set.part1.EXE	0	0	-
+072	7	set.part1.rar .. set.part7.rar	extension sfx (all): set.part1.sfx set.part2.sfx	rv	set.part1.sfx	0	0	-
+073	7	set.part1.rar .. set.part7.rar	extension zip (all): set.part1.zip set.part2.zip	rv	set.part1.zip	0	1	set.part1.rev
+074	7	set.part1.rar .. set.part7.rar	extension 001 (all): set.part1.001 set.part2.001	rv	set.part1.001	0	0	-
+075	7	set.part1.rar .. set.part7.rar	no extension (all): set.part1 set.part2	rv	set.part1	0	1	set.part1.rev
+076	7	set.part1.rar .. set.part7.rar	extension exe (first alone): set.part1.exe set.part2.rar	rv	set.part1.exe	0	1	set.part1.rev
+077	7	set.part1.rar .. set.part7.rar	extension sfx (first alone): set.part1.sfx set.part2.rar	rv	set.part1.sfx	0	1	set.part1.rev
+078	7	set.part1.rar .. set.part7.rar	extension zip (first alone): set.part1.zip set.part2.rar	rv	set.part1.zip	0	0	-
+079	7	set.part1.rar .. set.part7.rar	extension exe (all but the first): set.part1.rar set.part2.exe	rv	set.part1.rar	0	0	-
+080	11	set.part01.rar .. set.part11.rar	extension exe (all): set.part01.exe set.part02.exe	rv	set.part01.exe	0	0	-
+081	7	set.part1.rar .. set.part7.rar	extension exe (all): set.part1.exe set.part2.exe	rv3	set.part1.exe	0	0	-
+082	2	r393_voln.r00 .. r393_voln.rar	old volume names, a kept set	rv	r393_voln.rar	0	1	r393_voln1.rev

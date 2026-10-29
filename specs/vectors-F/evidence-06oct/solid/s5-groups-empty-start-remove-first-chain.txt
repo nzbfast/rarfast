@@ -1,0 +1,68 @@
+arm: s5-groups-empty-start-remove-first-chain
+about: a.x1 and b.x1 removed [archive flags 0x4; e.x2 clear method 3 packed 119, t.x3 solid method 3 packed 1248]
+file: x.rar  1453 bytes  sha256 47aa21179c9458af494bdaad02f1d15a7019d39f077d201c5aa866545fa22c6d
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: e.x2
+          Type: File
+          Size: 0
+   Packed size: 119
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1248
+         Ratio: 60%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     e.x2                                                          11%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 2050 bytes, b"\xa5M\xca\x18%0\xbb\x1dm\x13,\xde\xd6#{.\xd9\x1e?r\x1f\xcb\x19q\x17D\x94\xd6I<\x9d\\4`\xbe1 \x1ei\xfe\xda\xa0\xee\xe8\xb9\x99\x7f\\|)\x99\xfd\xaf\xe5\x93%<\xd6T\xafM\xfa\xd7\x14'\xa0\xae\xb3\xfe\xe9#/\x8a\xf2!\x1f\x9e\xe4\x91\xc5" ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 5, solid
+          Name: e.x2
+          Type: File
+          Size: 0
+   Packed size: 119
+         Ratio: 0%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+          Name: t.x3
+          Type: File
+          Size: 2050
+   Packed size: 1248
+         Ratio: 60%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 9E284797
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m3 -md=1m
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     e.x2                                                          11%  OK
+  Testing     t.x3                                                         100%  OK
+  All OK

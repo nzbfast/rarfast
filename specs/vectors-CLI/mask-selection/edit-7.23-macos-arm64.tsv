@@ -1,0 +1,100 @@
+# members: a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx
+mask	d exit	d removed	rn exit	rn renamed
+*	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	a.b.txt a.txt noext s
+*.*	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	a.b.txt a.txt noext s
+*.	0	noext s s/d s/d/e s/d/e/e s/dx	0	noext s
+*.txt	0	a.b.txt a.txt s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/dd.txt	0	a.b.txt a.txt
+*.txt.	0	a.b.txt	0	a.b.txt
+a.txt	0	a.txt	0	a.txt
+a.txt.	0	a.txt	0	a.txt
+a.txt..	0	a.txt	0	a.txt
+noext	0	noext	0	noext
+noext.	0	noext	0	noext
+dx	10	-	0	-
+d	10	-	0	-
+s	0	s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx
+s/d	0	s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat	0	s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat
+s/d/e	0	s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat	0	s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat
+s/d/e/e	0	s/d/e/e s/d/e/e/z.txt	0	s/d/e/e s/d/e/e/z.txt
+s/dd.txt	0	s/dd.txt s/dd.txt/k.bin	0	s/dd.txt s/dd.txt/k.bin
+s/dx	0	s/dx	0	s/dx
+s/dx.	0	s/dx	0	s/dx
+s/d.	0	s/d	0	s/d
+d*	0	s/d s/dd.txt s/dx	0	-
+?	0	s s/d s/d/e s/d/e/e	0	s
+??	0	s/dx	0	-
+a*	0	a.b.txt a.txt s/a.txt s/d/a.txt	0	a.b.txt a.txt
+a.*	0	a.b.txt a.txt s/a.txt s/d/a.txt	0	a.b.txt a.txt
+a.b.*	0	a.b.txt	0	a.b.txt
+*.b.txt	0	a.b.txt	0	a.b.txt
+*.*.*	0	a.b.txt a.txt s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin	0	a.b.txt a.txt
+*.*.*.*	0	a.b.txt	0	a.b.txt
+n*	0	noext	0	noext
+n*.	0	noext	0	noext
+*t	0	a.b.txt a.txt noext s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/d/e/f.dat s/dd.txt	0	a.b.txt a.txt noext
+*t.	0	a.b.txt a.txt noext s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/d/e/f.dat s/dd.txt	0	a.b.txt a.txt noext
+*.t?t	0	a.b.txt a.txt s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/dd.txt	0	a.b.txt a.txt
+*x	0	s/dx	0	-
+s*	0	s	0	s
+S	10	-	0	-
+S*	10	-	0	-
+A.TXT	10	-	0	-
+*.TXT	10	-	0	-
+s/*	0	s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	s/a.txt s/b.txt s/d s/dd.txt s/dx
+s/*.*	0	s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	s/a.txt s/b.txt s/d s/dd.txt s/dx
+s/*.	0	s/d s/d/e s/d/e/e s/dx	0	s/d s/dx
+s/*.txt	0	s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/dd.txt	0	s/a.txt s/b.txt s/dd.txt
+s/d*	0	s/d s/dd.txt s/dx	0	s/d s/dd.txt s/dx
+s/?	0	s/d s/d/e s/d/e/e	0	s/d
+s/a*	0	s/a.txt s/d/a.txt	0	s/a.txt
+s/d/*	0	s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat	0	s/d/a.txt s/d/c.txt s/d/e
+s/d/*.txt	0	s/d/a.txt s/d/c.txt s/d/e/e/z.txt	0	s/d/a.txt s/d/c.txt
+s/d/e/*	0	s/d/e/e s/d/e/e/z.txt s/d/e/f.dat	0	s/d/e/e s/d/e/f.dat
+s/d/e/e/*	0	s/d/e/e/z.txt	0	s/d/e/e/z.txt
+s/dd.txt/*	0	s/dd.txt/k.bin	0	s/dd.txt/k.bin
+s/q*	10	-	0	-
+*/a.txt	0	s/a.txt s/d/a.txt	0	-
+*/*.txt	0	s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/dd.txt	0	-
+*/*	0	s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+*/*/*	0	s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt/k.bin	0	-
+*/d	0	s/d	0	-
+*/d/*	0	s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat	0	-
+*/dx	0	s/dx	0	-
+s/*/a.txt	0	s/d/a.txt	0	-
+s/*/*	0	s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt/k.bin	0	-
+s?a.txt	10	-	0	-
+s/d?c.txt	10	-	0	-
+?/a.txt	0	s/a.txt	0	-
+*/c.txt	0	s/d/c.txt	0	-
+**/a.txt	0	s/a.txt s/d/a.txt	0	-
+s*/dx	0	s/dx	0	-
+*s/dx	0	s/dx	0	-
+s/	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+s/d/	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+*/	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+./s/dx	10	-	0	-
+./a.txt	10	-	0	-
+/a.txt	10	-	0	-
+./*	10	-	0	-
+s//a.txt	10	-	0	-
+.	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+..	0	a.b.txt a.txt noext s s/a.txt s/b.txt s/d s/d/a.txt s/d/c.txt s/d/e s/d/e/e s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin s/dx	0	-
+*..	10	-	0	-
+a.*.	0	a.txt s/a.txt s/d/a.txt	0	a.txt
+*.*.	0	a.b.txt a.txt s/a.txt s/b.txt s/d/a.txt s/d/c.txt s/d/e/e/z.txt s/d/e/f.dat s/dd.txt s/dd.txt/k.bin	0	a.b.txt a.txt
+e	10	-	0	-
+f.dat	10	-	0	-
+z.txt	10	-	0	-
+c.txt	10	-	0	-
+k.bin	10	-	0	-
+s/d/e/f.dat	0	s/d/e/f.dat	0	s/d/e/f.dat
+s/d/e/f.*	0	s/d/e/f.dat	0	s/d/e/f.dat
+s/d/e/*.dat	0	s/d/e/f.dat	0	s/d/e/f.dat
+*.dat	0	s/d/e/f.dat	0	-
+e/*	10	-	0	-
+d/*	10	-	0	-
+dd.txt	10	-	0	-
+s/dd.txt.	0	s/dd.txt	0	s/dd.txt
+s/*.txt.	10	-	0	-
+*.zz	10	-	0	-
+nosuch	10	-	0	-

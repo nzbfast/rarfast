@@ -1,0 +1,41 @@
+archives with an LZ coded member of unpack version 29: 91
+members traced whole: 247; members cut at a PPM block: 48
+archives with a record: 57; records: 126
+records by writer (from the archive's name): r393 41, r420 64, r550 21
+
+first byte of a record, with its count: 14 x8, 34 x7, 36 x1, 56 x3, 76 x9, 93 x1, 95 x1, a6 x11, b5 x1, b6 x84
+length code (first byte mod 8), with its count: 3 x1, 4 x15, 5 x2, 6 x108
+records with bit 3 (global data): 0
+
+programs defined (length, CRC32, XOR of all bytes, definitions):
+   29  0e06077d  xor 0  x34  delta
+   53  ad576887  xor 0  x2  x86 call
+  120  3769893f  xor 0  x9  IA-64
+  149  1c2c5dc8  xor 0  x15  RGB
+  216  bc85e701  xor 0  x35  audio
+
+registers sent, by program (which registers, records):
+  IA-64    none       x9
+  RGB      R0,R1      x29
+  audio    R0         x44
+  delta    R0         x42
+  x86 call none       x2
+records of a delta, RGB or audio slot that send no register: 0
+parameter values (program, registers 0 and 1, records):
+  RGB    (291, 0)     x14
+  RGB    (771, 0)     x4
+  RGB    (771, 1)     x5
+  RGB    (771, 2)     x4
+  RGB    (774, 2)     x2
+  audio  (2,)         x1
+  audio  (4,)         x43
+  delta  (3,)         x36
+  delta  (6,)         x6
+
+longest span, by program: IA-64 8192, RGB 65536, audio 35840, delta 15000, x86 call 12000
+most filters waiting at once in one stream: 8
+most slots defined in one stream: 4
+records whose span starts before the end of an earlier record's span in the same stream: 0
+records with selector 0 that are not the first of their stream: 0
+
+records that section 3.9's rules rebuild byte for byte: 126 of 126

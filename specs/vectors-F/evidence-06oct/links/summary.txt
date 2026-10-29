@@ -1,0 +1,977 @@
+sym-default
+    unrar t -p- x.rar: rc=0 Testing a.txt  4% OK | Testing top.txt  8% OK | Testing d OK | Testing d/e OK | Testing sym_rel  OK | Testing sym_dangling  OK | Testing sym_abs  OK | Testing sym_up  OK | Testing sym_up1  OK | Testing dotdot_only  OK | Testing d/up_in  OK | Testing d/e/up_in2  OK | Testing d/up_out  OK | Testing d/e/up_out3  OK | Testing dotdot_mid  OK | Testing dotdot_mid2  OK | Testing d/dotdot_late  OK | Testing dotslash  OK | Testing dotslash_up  OK | Testing d/dot_then_up  OK | Testing dslash  OK | Testing d/dslash_up  OK | Testing trail  OK | Testing sym_dir  OK | Testing dots3  OK | Testing tilde  OK | All OK
+    unrar x -p- x.rar o/: rc=1 Extracting o/a.txt  4% OK | Extracting o/top.txt  8% OK | Creating o/d OK | Creating o/d/e OK | Extracting o/sym_rel  OK | Extracting o/sym_dangling  OK | Extracting o/sym_abs | Extracting o/sym_up | Extracting o/sym_up1 | Extracting o/dotdot_only | Extracting o/d/up_in  OK | Extracting o/d/e/up_in2  OK | Extracting o/d/up_out | Extracting o/d/e/up_out3 | Extracting o/dotdot_mid | Extracting o/dotdot_mid2 | Extracting o/d/dotdot_late | Extracting o/dotslash  OK | Extracting o/dotslash_up | Extracting o/d/dot_then_up  OK | Extracting o/dslash  OK | Extracting o/d/dslash_up  OK | Extracting o/trail  OK | Extracting o/sym_dir  OK | Extracting o/dots3  OK | Extracting o/tilde  OK | Total errors: 10 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    link  o/dots3                -> .../a.txt   (mtime the member's)
+    link  o/dotslash             -> ./top.txt   (mtime the member's)
+    link  o/dslash               -> d//e   (mtime the member's)
+    link  o/sym_dangling         -> nothere   (mtime the member's)
+    link  o/sym_dir              -> d   (mtime the member's)
+    link  o/sym_rel              -> a.txt   (mtime the member's)
+    link  o/tilde                -> ~/a.txt   (mtime the member's)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  o/trail                -> d/   (mtime the member's)
+    link  o/d/dot_then_up        -> ./../top.txt   (mtime the member's)
+    link  o/d/dslash_up          -> ..//top.txt   (mtime the member's)
+    dir   o/d/e
+    link  o/d/up_in              -> ../top.txt   (mtime the member's)
+    link  o/d/e/up_in2           -> ../../top.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-ola
+    unrar t -p- x.rar: rc=0 Testing a.txt  4% OK | Testing top.txt  8% OK | Testing d OK | Testing d/e OK | Testing sym_rel  OK | Testing sym_dangling  OK | Testing sym_abs  OK | Testing sym_up  OK | Testing sym_up1  OK | Testing dotdot_only  OK | Testing d/up_in  OK | Testing d/e/up_in2  OK | Testing d/up_out  OK | Testing d/e/up_out3  OK | Testing dotdot_mid  OK | Testing dotdot_mid2  OK | Testing d/dotdot_late  OK | Testing dotslash  OK | Testing dotslash_up  OK | Testing d/dot_then_up  OK | Testing dslash  OK | Testing d/dslash_up  OK | Testing trail  OK | Testing sym_dir  OK | Testing dots3  OK | Testing tilde  OK | All OK
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  4% OK | Extracting o/top.txt  8% OK | Creating o/d OK | Creating o/d/e OK | Extracting o/sym_rel  OK | Extracting o/sym_dangling  OK | Extracting o/sym_abs  OK | Extracting o/sym_up  OK | Extracting o/sym_up1  OK | Extracting o/dotdot_only  OK | Extracting o/d/up_in  OK | Extracting o/d/e/up_in2  OK | Extracting o/d/up_out  OK | Extracting o/d/e/up_out3  OK | Extracting o/dotdot_mid  OK | Extracting o/dotdot_mid2  OK | Extracting o/d/dotdot_late  OK | Extracting o/dotslash  OK | Extracting o/dotslash_up  OK | Extracting o/d/dot_then_up  OK | Extracting o/dslash  OK | Extracting o/d/dslash_up  OK | Extracting o/trail  OK | Extracting o/sym_dir  OK | Extracting o/dots3  OK | Extracting o/tilde  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    link  o/dotdot_mid           -> d/../top.txt   (mtime the member's)
+    link  o/dotdot_mid2          -> d/e/../../../x   (mtime the member's)
+    link  o/dotdot_only          -> ..   (mtime the member's)
+    link  o/dots3                -> .../a.txt   (mtime the member's)
+    link  o/dotslash             -> ./top.txt   (mtime the member's)
+    link  o/dotslash_up          -> ./../victim/t   (mtime the member's)
+    link  o/dslash               -> d//e   (mtime the member's)
+    link  o/sym_abs              -> /etc/hostname   (mtime the member's)
+    link  o/sym_dangling         -> nothere   (mtime the member's)
+    link  o/sym_dir              -> d   (mtime the member's)
+    link  o/sym_rel              -> a.txt   (mtime the member's)
+    link  o/sym_up               -> ../../escape   (mtime the member's)
+    link  o/sym_up1              -> ../victim/t   (mtime the member's)
+    link  o/tilde                -> ~/a.txt   (mtime the member's)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  o/trail                -> d/   (mtime the member's)
+    link  o/d/dot_then_up        -> ./../top.txt   (mtime the member's)
+    link  o/d/dotdot_late        -> ../d/../top.txt   (mtime the member's)
+    link  o/d/dslash_up          -> ..//top.txt   (mtime the member's)
+    dir   o/d/e
+    link  o/d/up_in              -> ../top.txt   (mtime the member's)
+    link  o/d/up_out             -> ../../top.txt   (mtime the member's)
+    link  o/d/e/up_in2           -> ../../top.txt   (mtime the member's)
+    link  o/d/e/up_out3          -> ../../../victim/t   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-ol-minus
+    unrar t -p- x.rar: rc=0 Testing a.txt  4% OK | Testing top.txt  8% OK | Testing d OK | Testing d/e OK | Testing sym_rel  OK | Testing sym_dangling  OK | Testing sym_abs  OK | Testing sym_up  OK | Testing sym_up1  OK | Testing dotdot_only  OK | Testing d/up_in  OK | Testing d/e/up_in2  OK | Testing d/up_out  OK | Testing d/e/up_out3  OK | Testing dotdot_mid  OK | Testing dotdot_mid2  OK | Testing d/dotdot_late  OK | Testing dotslash  OK | Testing dotslash_up  OK | Testing d/dot_then_up  OK | Testing dslash  OK | Testing d/dslash_up  OK | Testing trail  OK | Testing sym_dir  OK | Testing dots3  OK | Testing tilde  OK | All OK
+    unrar x -p- -ol- x.rar o/: rc=0 Extracting o/a.txt  4% OK | Extracting o/top.txt  8% OK | Creating o/d OK | Creating o/d/e OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    dir   o/d/e
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-e
+    unrar e -p- x.rar o/: rc=1 Extracting o/a.txt  4% OK | Extracting o/top.txt  8% OK | Extracting o/sym_rel  OK | Extracting o/sym_dangling  OK | Extracting o/sym_abs | Extracting o/sym_up | Extracting o/sym_up1 | Extracting o/dotdot_only | Extracting o/up_in | Extracting o/up_in2 | Extracting o/up_out | Extracting o/up_out3 | Extracting o/dotdot_mid | Extracting o/dotdot_mid2 | Extracting o/dotdot_late | Extracting o/dotslash  OK | Extracting o/dotslash_up | Extracting o/dot_then_up | Extracting o/dslash  OK | Extracting o/dslash_up | Extracting o/trail  OK | Extracting o/sym_dir  OK | Extracting o/dots3  OK | Extracting o/tilde  OK | Total errors: 14 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_in -> ../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_in2 -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dot_then_up -> ./../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dslash_up -> ..//top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/dots3                -> .../a.txt   (mtime the member's)
+    link  o/dotslash             -> ./top.txt   (mtime the member's)
+    link  o/dslash               -> d//e   (mtime the member's)
+    link  o/sym_dangling         -> nothere   (mtime the member's)
+    link  o/sym_dir              -> d   (mtime the member's)
+    link  o/sym_rel              -> a.txt   (mtime the member's)
+    link  o/tilde                -> ~/a.txt   (mtime the member's)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  o/trail                -> d/   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-dest-deep
+    unrar x -p- x.rar p/q/: rc=1 Creating p OK | Creating p/q OK | Extracting p/q/a.txt  4% OK | Extracting p/q/top.txt  8% OK | Creating p/q/d OK | Creating p/q/d/e OK | Extracting p/q/sym_rel  OK | Extracting p/q/sym_dangling  OK | Extracting p/q/sym_abs | Extracting p/q/sym_up | Extracting p/q/sym_up1 | Extracting p/q/dotdot_only | Extracting p/q/d/up_in  OK | Extracting p/q/d/e/up_in2  OK | Extracting p/q/d/up_out | Extracting p/q/d/e/up_out3 | Extracting p/q/dotdot_mid | Extracting p/q/dotdot_mid2 | Extracting p/q/d/dotdot_late | Extracting p/q/dotslash  OK | Extracting p/q/dotslash_up | Extracting p/q/d/dot_then_up  OK | Extracting p/q/dslash  OK | Extracting p/q/d/dslash_up  OK | Extracting p/q/trail  OK | Extracting p/q/sym_dir  OK | Extracting p/q/dots3  OK | Extracting p/q/tilde  OK | Total errors: 10 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   p
+    dir   victim
+    dir   p/q
+    file  p/q/a.txt                   6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   p/q/d
+    link  p/q/dots3              -> .../a.txt   (mtime the member's)
+    link  p/q/dotslash           -> ./top.txt   (mtime the member's)
+    link  p/q/dslash             -> d//e   (mtime the member's)
+    link  p/q/sym_dangling       -> nothere   (mtime the member's)
+    link  p/q/sym_dir            -> d   (mtime the member's)
+    link  p/q/sym_rel            -> a.txt   (mtime the member's)
+    link  p/q/tilde              -> ~/a.txt   (mtime the member's)
+    file  p/q/top.txt                16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  p/q/trail              -> d/   (mtime the member's)
+    link  p/q/d/dot_then_up      -> ./../top.txt   (mtime the member's)
+    link  p/q/d/dslash_up        -> ..//top.txt   (mtime the member's)
+    dir   p/q/d/e
+    link  p/q/d/up_in            -> ../top.txt   (mtime the member's)
+    link  p/q/d/e/up_in2         -> ../../top.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-dest-none
+    unrar x -p- x.rar: rc=1 Extracting a.txt  4% OK | Extracting top.txt  8% OK | Creating d OK | Creating d/e OK | Extracting sym_rel  OK | Extracting sym_dangling  OK | Extracting sym_abs | Extracting sym_up | Extracting sym_up1 | Extracting dotdot_only | Extracting d/up_in  OK | Extracting d/e/up_in2  OK | Extracting d/up_out | Extracting d/e/up_out3 | Extracting dotdot_mid | Extracting dotdot_mid2 | Extracting d/dotdot_late | Extracting dotslash  OK | Extracting dotslash_up | Extracting d/dot_then_up  OK | Extracting dslash  OK | Extracting d/dslash_up  OK | Extracting trail  OK | Extracting sym_dir  OK | Extracting dots3  OK | Extracting tilde  OK | Total errors: 10 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway.
+    file  a.txt                       6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   d
+    link  dots3                  -> .../a.txt   (mtime the member's)
+    link  dotslash               -> ./top.txt   (mtime the member's)
+    link  dslash                 -> d//e   (mtime the member's)
+    dir   o
+    link  sym_dangling           -> nothere   (mtime the member's)
+    link  sym_dir                -> d   (mtime the member's)
+    link  sym_rel                -> a.txt   (mtime the member's)
+    link  tilde                  -> ~/a.txt   (mtime the member's)
+    file  top.txt                    16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  trail                  -> d/   (mtime the member's)
+    dir   victim
+    link  d/dot_then_up          -> ./../top.txt   (mtime the member's)
+    link  d/dslash_up            -> ..//top.txt   (mtime the member's)
+    dir   d/e
+    link  d/up_in                -> ../top.txt   (mtime the member's)
+    link  d/e/up_in2             -> ../../top.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-ep
+    unrar x -p- -ep x.rar o/: rc=1 Extracting o/a.txt  4% OK | Extracting o/top.txt  8% OK | Extracting o/sym_rel  OK | Extracting o/sym_dangling  OK | Extracting o/sym_abs | Extracting o/sym_up | Extracting o/sym_up1 | Extracting o/dotdot_only | Extracting o/up_in | Extracting o/up_in2 | Extracting o/up_out | Extracting o/up_out3 | Extracting o/dotdot_mid | Extracting o/dotdot_mid2 | Extracting o/dotdot_late | Extracting o/dotslash  OK | Extracting o/dotslash_up | Extracting o/dot_then_up | Extracting o/dslash  OK | Extracting o/dslash_up | Extracting o/trail  OK | Extracting o/sym_dir  OK | Extracting o/dots3  OK | Extracting o/tilde  OK | Total errors: 14 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_only -> .. link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_in -> ../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_in2 -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/e/up_out3 -> ../../../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid2 -> d/e/../../../x link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dotdot_late -> ../d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotslash_up -> ./../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dot_then_up -> ./../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/dslash_up -> ..//top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/dots3                -> .../a.txt   (mtime the member's)
+    link  o/dotslash             -> ./top.txt   (mtime the member's)
+    link  o/dslash               -> d//e   (mtime the member's)
+    link  o/sym_dangling         -> nothere   (mtime the member's)
+    link  o/sym_dir              -> d   (mtime the member's)
+    link  o/sym_rel              -> a.txt   (mtime the member's)
+    link  o/tilde                -> ~/a.txt   (mtime the member's)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's)
+    link  o/trail                -> d/   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-nul
+    unrar t -p- x.rar: rc=0 Testing a.txt  27% OK | Testing nul_mid  OK | Testing nul_abs  OK | Testing nul_first  OK | All OK
+    unrar x -p- x.rar o/: rc=1 Extracting o/a.txt  27% OK | Extracting o/nul_mid  OK | Extracting o/nul_abs | Extracting o/nul_first | Total errors: 1 | stderr: | Skipping the potentially unsafe nul_abs -> /etc link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/nul_mid              -> a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-nul-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  27% OK | Extracting o/nul_mid  OK | Extracting o/nul_abs  OK | Extracting o/nul_first | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/nul_abs              -> /etc   (mtime the member's)
+    link  o/nul_mid              -> a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+win-default
+    unrar t -p- x.rar: rc=0 Testing a.txt  5% OK | Testing d OK | Testing w_rel  OK | Testing w_drive  OK | Testing w_drive_fwd  OK | Testing w_up  OK | Testing w_up1  OK | Testing w_root  OK | Testing w_unc  OK | Testing w_slash_abs  OK | Testing w_dir  OK | Testing d/w_up_in  OK | Testing j_abs  OK | Testing j_abs_fwd  OK | Testing j_rel  OK | Testing j_unix_abs  OK | Testing j_victim  OK | Testing j_qq_victim  OK | Testing j_qq_fwd_victim  OK | All OK
+    unrar x -p- x.rar o/: rc=1 Extracting o/a.txt  5% OK | Creating o/d OK | Extracting o/w_rel  OK | Extracting o/w_drive  OK | Extracting o/w_drive_fwd  OK | Extracting o/w_up | Extracting o/w_up1 | Extracting o/w_root | Extracting o/w_unc | Extracting o/w_slash_abs | Extracting o/w_dir  OK | Extracting o/d/w_up_in  OK | Extracting o/j_abs  OK | Extracting o/j_abs_fwd  OK | Extracting o/j_rel  OK | Extracting o/j_unix_abs | Extracting o/j_victim | Extracting o/j_qq_victim | Extracting o/j_qq_fwd_victim  OK | Total errors: 8 | stderr: | Skipping the potentially unsafe w_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe w_up1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe w_root -> /abs/a.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe w_unc -> //server/share/a.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe w_slash_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe j_unix_abs -> /etc link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe j_victim -> <VICTIM> link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe j_qq_victim -> <VICTIM> link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    link  o/j_abs                -> C:/x   (mtime the member's)
+    link  o/j_abs_fwd            -> C:/x   (mtime the member's)
+    link  o/j_qq_fwd_victim      -> tmp/spec-f-links-probe-victim   (mtime the member's)
+    link  o/j_rel                -> d   (mtime the member's)
+    link  o/w_dir                -> d   (mtime the member's)
+    link  o/w_drive              -> C:/x/a.txt   (mtime the member's)
+    link  o/w_drive_fwd          -> C:/x/a.txt   (mtime the member's)
+    link  o/w_rel                -> a.txt   (mtime the member's)
+    link  o/d/w_up_in            -> ../a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+win-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  5% OK | Creating o/d OK | Extracting o/w_rel  OK | Extracting o/w_drive  OK | Extracting o/w_drive_fwd  OK | Extracting o/w_up  OK | Extracting o/w_up1  OK | Extracting o/w_root  OK | Extracting o/w_unc  OK | Extracting o/w_slash_abs  OK | Extracting o/w_dir  OK | Extracting o/d/w_up_in  OK | Extracting o/j_abs  OK | Extracting o/j_abs_fwd  OK | Extracting o/j_rel  OK | Extracting o/j_unix_abs  OK | Extracting o/j_victim  OK | Extracting o/j_qq_victim  OK | Extracting o/j_qq_fwd_victim  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    link  o/j_abs                -> C:/x   (mtime the member's)
+    link  o/j_abs_fwd            -> C:/x   (mtime the member's)
+    link  o/j_qq_fwd_victim      -> tmp/spec-f-links-probe-victim   (mtime the member's)
+    link  o/j_qq_victim          -> <VICTIM>   (mtime the member's)
+    link  o/j_rel                -> d   (mtime the member's)
+    link  o/j_unix_abs           -> /etc   (mtime the member's)
+    link  o/j_victim             -> <VICTIM>   (mtime the member's)
+    link  o/w_dir                -> d   (mtime the member's)
+    link  o/w_drive              -> C:/x/a.txt   (mtime the member's)
+    link  o/w_drive_fwd          -> C:/x/a.txt   (mtime the member's)
+    link  o/w_rel                -> a.txt   (mtime the member's)
+    link  o/w_root               -> /abs/a.txt   (mtime the member's)
+    link  o/w_slash_abs          -> /etc/hostname   (mtime the member's)
+    link  o/w_unc                -> //server/share/a.txt   (mtime the member's)
+    link  o/w_up                 -> ../../escape   (mtime the member's)
+    link  o/w_up1                -> ../victim/t   (mtime the member's)
+    link  o/d/w_up_in            -> ../a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+win-ol-minus
+    unrar x -p- -ol- x.rar o/: rc=0 Extracting o/a.txt  5% OK | Creating o/d OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-link-over-file
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  70% OK | Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/s                    -> a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-link-over-file-o-minus
+    unrar x -p- -o- x.rar o/: rc=0 Extracting o/a.txt  70% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  o/s                         6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-link-over-file-ask
+    unrar x -p- x.rar o/: rc=12 Extracting o/a.txt  70% OK | Program aborted | stderr: | Would you like to replace the existing file o/s | 6 bytes, modified on 2026-09-17 04:00 | with a new one | 0 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  o/s                         6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-file-over-link
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  70% OK | Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/s                    -> a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 700   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-file-over-link-default
+    unrar x -p- x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/a.txt | 7 bytes, modified on 2026-09-18 04:00 | with a new one | 6 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    link  o/a.txt                -> ../victim/t   (mtime the time of the run)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-file-over-dangling-link
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  70% OK | Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    link  o/a.txt                -> ../victim/new   (mtime the time of the run)
+    link  o/s                    -> a.txt   (mtime the member's)
+    file  victim/new                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+replace-link-over-link
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  70% OK | Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    link  o/s                    -> a.txt   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 700   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-default
+    unrar t -p- x.rar: rc=0 Testing dl  OK | Testing dl2  OK | Testing dl3  OK | Testing sub OK | Testing sub/keep  68% OK | Testing dl/evil  80% OK | Testing dl2/evil2  92% OK | Testing dl3/evil3 100% OK | All OK
+    unrar x -p- x.rar o/: rc=1 Extracting o/dl | Extracting o/dl2  OK | Extracting o/dl3 | Creating o/sub OK | Extracting o/sub/keep  68% OK | Creating o/dl OK | Extracting o/dl/evil  80% OK | Creating o/dl2 OK | Extracting o/dl2/evil2  92% OK | Creating o/dl3 OK | Extracting o/dl3/evil3 100% OK | Total errors: 2 | stderr: | Skipping the potentially unsafe dl -> <VICTIM> link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    dir   o/dl
+    dir   o/dl2
+    dir   o/dl3
+    dir   o/sub
+    file  o/dl/evil                   5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    file  o/dl2/evil2                 6 bytes  sha256 42f1a54055f5  mode 644   (mtime the member's)
+    file  o/dl3/evil3                 6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/dl  OK | Extracting o/dl2  OK | Extracting o/dl3  OK | Creating o/sub OK | Extracting o/sub/keep  68% OK | Extracting o/dl/evil  80% OK | Extracting o/dl2/evil2  92% OK | Extracting o/dl3/evil3 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/dl                   -> <VICTIM>   (mtime the member's)
+    link  o/dl2                  -> sub   (mtime the member's)
+    link  o/dl3                  -> ../victim   (mtime the member's)
+    dir   o/sub
+    file  o/sub/evil2                 6 bytes  sha256 42f1a54055f5  mode 644   (mtime the member's)
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/evil3                6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  evil                        5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-planted
+    unrar x -p- x.rar o/: rc=12 Program aborted | stderr: | Would you like to replace the existing file o/dl | 4096 bytes, modified on 2026-10-06 10:23 | with a new one | 0 bytes, modified on 2026-09-18 04:00 | [Y]es, [N]o, [A]ll, n[E]ver, [Q]uit Read error in the file stdin | Inappropriate ioctl for device
+    dir   o
+    dir   victim
+    link  o/dl                   -> <VICTIM>   (mtime the time of the run)
+    link  o/dl2                  -> sub   (mtime the time of the run)
+    link  o/dl3                  -> ../victim   (mtime the time of the run)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-planted-o-plus
+    unrar x -p- -o+ x.rar o/: rc=1 Extracting o/dl | Extracting o/dl2  OK | Extracting o/dl3 | Creating o/sub OK | Extracting o/sub/keep  68% OK | Creating o/dl OK | Extracting o/dl/evil  80% OK | Creating o/dl2 OK | Extracting o/dl2/evil2  92% OK | Creating o/dl3 OK | Extracting o/dl3/evil3 100% OK | Total errors: 2 | stderr: | Skipping the potentially unsafe dl -> <VICTIM> link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    dir   o/dl
+    dir   o/dl2
+    dir   o/dl3
+    dir   o/sub
+    file  o/dl/evil                   5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    file  o/dl2/evil2                 6 bytes  sha256 42f1a54055f5  mode 644   (mtime the member's)
+    file  o/dl3/evil3                 6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-planted-no-link-members
+    unrar x -p- x.rar o/: rc=0 Creating o/sub OK | Extracting o/sub/keep  42% OK | Creating o/dl OK | Extracting o/dl/evil  63% OK | Creating o/dl3 OK | Extracting o/dl3/evil3  85% OK | Extracting o/dl3/t 100% OK | All OK
+    dir   o
+    dir   victim
+    dir   o/dl
+    dir   o/dl3
+    dir   o/sub
+    file  o/dl/evil                   5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    file  o/dl3/evil3                 6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  o/dl3/t                    12 bytes  sha256 12584bd8a1e4  mode 644   (mtime the member's)
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-planted-no-link-members-o-plus
+    unrar x -p- -o+ x.rar o/: rc=0 Creating o/sub OK | Extracting o/sub/keep  42% OK | Creating o/dl OK | Extracting o/dl/evil  63% OK | Creating o/dl3 OK | Extracting o/dl3/evil3  85% OK | Extracting o/dl3/t 100% OK | All OK
+    dir   o
+    dir   victim
+    dir   o/dl
+    dir   o/dl3
+    dir   o/sub
+    file  o/dl/evil                   5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    file  o/dl3/evil3                 6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  o/dl3/t                    12 bytes  sha256 12584bd8a1e4  mode 644   (mtime the member's)
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-planted-no-link-members-ola
+    unrar x -p- -ola -o+ x.rar o/: rc=0 Creating o/sub OK | Extracting o/sub/keep  42% OK | Extracting o/dl/evil  63% OK | Extracting o/dl3/evil3  85% OK | Extracting o/dl3/t 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/dl                   -> <VICTIM>   (mtime the time of the run)
+    link  o/dl3                  -> ../victim   (mtime the time of the run)
+    dir   o/sub
+    file  o/sub/keep                  6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/evil3                6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's)
+    file  victim/t                   12 bytes  sha256 12584bd8a1e4  mode 644   (mtime the member's)
+    <VICTIM>/file  evil                        5 bytes  sha256 886b67480dbe  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-dir-member
+    unrar x -p- x.rar o/: rc=1 Extracting o/dl3 | Creating o/dl3 OK | Creating o/dl3/newdir OK | Total errors: 1 | stderr: | Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    dir   o/dl3
+    dir   o/dl3/newdir
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-link-members
+    unrar x -p- x.rar o/: rc=1 Extracting o/dl3 | Extracting o/a.txt  60% OK | Extracting o/dl3/h | Creating o/dl3 OK OK | Extracting o/dl3/s  OK | Total errors: 1 | stderr: | Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/dl3
+    file  o/dl3/h                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    link  o/dl3/s                -> t   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-safe-link-other-members
+    unrar x -p- x.rar o/: rc=0 Creating o/sub OK | Extracting o/dl2  OK | Extracting o/a.txt  45% OK | Extracting o/dl2/h | Creating o/dl2 OK OK | Extracting o/dl2/s  OK | Extracting o/dl2/c  0% OK | Creating o/dl2/newdir OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/dl2
+    dir   o/sub
+    file  o/dl2/c                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  o/dl2/h                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/dl2/newdir
+    link  o/dl2/s                -> t   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+through-safe-link-other-members-ola
+    unrar x -p- -ola x.rar o/: rc=0 Creating o/sub OK | Extracting o/dl2  OK | Extracting o/a.txt  45% OK | Extracting o/dl2/h  OK | Extracting o/dl2/s  OK | Extracting o/dl2/c  0% OK | Creating o/dl2/newdir OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    link  o/dl2                  -> sub   (mtime the member's)
+    dir   o/sub
+    file  o/sub/c                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  o/sub/h                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/sub/newdir
+    link  o/sub/s                -> t   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-all
+    unrar t -p- x.rar: rc=0 Testing a.txt  36% OK | Testing hard_a  OK | Testing d OK | Testing d/hard_b  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  36% OK | Extracting o/hard_a  OK | Creating o/d OK | Extracting o/d/hard_b  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    dir   o/d
+    file  o/hard_a                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  o/d/hard_b                  6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-select
+    unrar t -p- x.rar hard_a: rc=0 Testing hard_a  OK | All OK
+    unrar x -p- x.rar hard_a o/: rc=9 Extracting o/hard_a | Total errors: 1 | stderr: | Cannot create hard link o/hard_a | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-select-stale
+    unrar x -p- x.rar hard_a o/: rc=0 Extracting o/hard_a  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 44ea8ede9025  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  o/hard_a                    6 bytes  sha256 44ea8ede9025  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-ol-minus
+    unrar x -p- -ol- x.rar o/: rc=0 Extracting o/a.txt  36% OK | Extracting o/hard_a  OK | Creating o/d OK | Extracting o/d/hard_b  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    dir   o/d
+    file  o/hard_a                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  o/d/hard_b                  6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-e
+    unrar e -p- x.rar o/: rc=0 Extracting o/a.txt  36% OK | Extracting o/hard_a  OK | Extracting o/hard_b  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  o/hard_a                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  o/hard_b                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-x-exclude
+    unrar x -p- -xa.txt x.rar o/: rc=9 Extracting o/hard_a | Creating o/d OK | Extracting o/d/hard_b | Total errors: 2 | stderr: | Cannot create hard link o/hard_a | You need to unpack the link target first | Cannot create hard link o/d/hard_b | You need to unpack the link target first
+    dir   o
+    dir   victim
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-abs
+    unrar t -p- x.rar: rc=0 Testing a.txt  51% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  51% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-abs-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  51% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-up
+    unrar t -p- x.rar: rc=0 Testing a.txt  52% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  52% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-up-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  52% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-abs-victim
+    unrar t -p- x.rar: rc=0 Testing a.txt  42% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  42% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-abs-victim-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  42% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-missing
+    unrar t -p- x.rar: rc=0 Testing a.txt  54% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  54% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-missing-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  54% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-self
+    unrar t -p- x.rar: rc=0 Testing a.txt  57% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  57% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-self-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  57% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-dir
+    unrar t -p- x.rar: rc=0 Testing a.txt  57% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  57% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | Operation not permitted
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-dir-ola
+    unrar x -p- -ola x.rar o/: rc=9 Extracting o/a.txt  57% OK | Creating o/d OK | Extracting o/h | Total errors: 1 | stderr: | Cannot create hard link o/h | Operation not permitted
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-dotslash
+    unrar t -p- x.rar: rc=0 Testing a.txt  54% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  54% OK | Creating o/d OK | Extracting o/h  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/d
+    file  o/h                         6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-dotslash-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  54% OK | Creating o/d OK | Extracting o/h  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/d
+    file  o/h                         6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-mid-dotdot
+    unrar t -p- x.rar: rc=0 Testing a.txt  52% OK | Testing d OK | Testing h  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  52% OK | Creating o/d OK | Extracting o/h  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/d
+    file  o/h                         6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-mid-dotdot-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  52% OK | Creating o/d OK | Extracting o/h  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    dir   o/d
+    file  o/h                         6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-up-planted
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  41% OK | Extracting o/h  OK | Extracting o/h2  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    dir   o/etc
+    file  o/h                         7 bytes  sha256 7b2441693c86  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  o/h2                        8 bytes  sha256 4b11a50b57d8  mode 644  one inode with group B, 2 links   (mtime the planted file's)
+    dir   o/victim
+    file  o/etc/hostname              8 bytes  sha256 4b11a50b57d8  mode 644  one inode with group B, 2 links   (mtime the planted file's)
+    file  o/victim/t                  7 bytes  sha256 7b2441693c86  mode 644  one inode with group A, 2 links   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-is-link-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/lnk  OK | Extracting o/h  OK | All OK
+    dir   o
+    dir   victim
+    link  o/h                    -> ../victim/t   (mtime the member's)
+    link  o/lnk                  -> ../victim/t   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-forward
+    unrar t -p- x.rar: rc=0 Testing h  OK | Testing a.txt 100% OK | All OK
+    unrar x -p- x.rar o/: rc=9 Extracting o/h | Extracting o/a.txt 100% OK | Total errors: 1 | stderr: | Cannot create hard link o/h | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-over-file
+    unrar x -p- -o+ x.rar o/: rc=0 Extracting o/a.txt  36% OK | Extracting o/hard_a  OK | Creating o/d OK | Extracting o/d/hard_b  OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    dir   o/d
+    file  o/hard_a                    6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  o/d/hard_b                  6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 3 links   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+hard-target-failed
+    unrar t -p- x.rar: rc=3 Testing a.txt  66% | Testing hard_a  OK | Total errors: 1 | stderr: | a.txt - checksum error
+    unrar x -p- x.rar o/: rc=9 Extracting o/a.txt  66% | Extracting o/hard_a | Total errors: 2 | stderr: | a.txt - checksum error | Cannot create hard link o/hard_a | You need to unpack the link target first
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-all
+    unrar t -p- x.rar: rc=0 Testing big1  97% OK | Testing big2  OK | Testing e OK | Testing e/big3  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/big1  97% OK | Extracting o/big2  0% OK | Creating o/e OK | Extracting o/e/big3  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/big2                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/e
+    file  o/e/big3                 3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's, a day later)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-select
+    unrar t -p- x.rar big2: rc=0 Testing big2  OK | All OK
+    unrar x -p- x.rar big2 o/: rc=0 Extracting o/__tmp_reference_source_3345206.33648.rartemp  97% OK | Extracting o/big2  OK | All OK
+    dir   o
+    dir   victim
+    file  o/big2                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-select-stale
+    unrar x -p- x.rar big2 o/: rc=0 Extracting o/__tmp_reference_source_3345207.33648.rartemp  97% OK | Extracting o/big2  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+    file  o/big2                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-x-exclude
+    unrar x -p- -xbig1 x.rar o/: rc=6 Extracting o/big2 | Creating o/e OK | Extracting o/e/big3 | Total errors: 2 | stderr: | Cannot open o/big1 | No such file or directory | Cannot copy o/big1 to o/big2. | You need to unpack the entire archive to create file reference entries. | Cannot open o/big1 | No such file or directory | Cannot copy o/big1 to o/e/big3. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    dir   o/e
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-x-exclude-stale
+    unrar x -p- -xbig1 x.rar o/: rc=0 Extracting o/big2  0% OK | Creating o/e OK | Extracting o/e/big3  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the planted file's)
+    file  o/big2                      6 bytes  sha256 44ea8ede9025  mode 644   (mtime the member's)
+    dir   o/e
+    file  o/e/big3                    6 bytes  sha256 44ea8ede9025  mode 644   (mtime the member's, a day later)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-e
+    unrar e -p- x.rar o/: rc=0 Extracting o/big1  97% OK | Extracting o/big2  0% OK | Extracting o/big3  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/big2                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/big3                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's, a day later)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-ol-minus
+    unrar x -p- -ol- x.rar o/: rc=0 Extracting o/big1  97% OK | Extracting o/big2  0% OK | Creating o/e OK | Extracting o/e/big3  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/big2                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/e
+    file  o/e/big3                 3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's, a day later)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-up
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c | Total errors: 1 | stderr: | Cannot open o/victim/t | No such file or directory | Cannot copy o/victim/t to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-abs
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c | Total errors: 1 | stderr: | Cannot open o/etc/hostname | No such file or directory | Cannot copy o/etc/hostname to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-abs-victim
+    unrar t -p- x.rar: rc=0 Testing big1  97% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1  97% OK | Creating o/d OK | Extracting o/c | Total errors: 1 | stderr: | Cannot open o<VICTIM>/t | No such file or directory | Cannot copy o<VICTIM>/t to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-missing
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c | Total errors: 1 | stderr: | Cannot open o/nothere | No such file or directory | Cannot copy o/nothere to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-self
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c  OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/c                         0 bytes  sha256 e3b0c44298fc  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-dir
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=12 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c | Program aborted | stderr: | Read error in the file o/d | Is a directory | Choose 'Ignore' to continue with the already read file part only, 'Ignore all' to do it for all read errors, 'Retry' to repeat read and 'Quit' to abort. | [I]gnore, i[G]nore all, [R]etry, [Q]uit Read error in the file stdin | Is a directory
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-mid-dotdot
+    unrar t -p- x.rar: rc=0 Testing big1  98% OK | Testing d OK | Testing c  OK | All OK
+    unrar x -p- x.rar o/: rc=0 Extracting o/big1  98% OK | Creating o/d OK | Extracting o/c  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/c                      3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    dir   o/d
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-up-ola
+    unrar x -p- -ola x.rar o/: rc=6 Extracting o/big1  99% OK | Extracting o/c | Total errors: 1 | stderr: | Cannot open o/victim/t | No such file or directory | Cannot copy o/victim/t to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-target-up-planted
+    unrar x -p- x.rar o/: rc=0 Extracting o/big1  99% OK | Extracting o/c  0% OK | All OK
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  o/c                         7 bytes  sha256 7b2441693c86  mode 644   (mtime the member's)
+    dir   o/victim
+    file  o/victim/t                  7 bytes  sha256 7b2441693c86  mode 644   (mtime the planted file's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-forward
+    unrar t -p- x.rar: rc=0 Testing c  OK | Testing big1 100% OK | All OK
+    unrar x -p- x.rar o/: rc=6 Extracting o/c | Extracting o/big1 100% OK | Total errors: 1 | stderr: | Cannot open o/big1 | No such file or directory | Cannot copy o/big1 to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  o/big1                   3000 bytes  sha256 24490eb9f4ac  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-source-failed
+    unrar t -p- x.rar: rc=3 Testing big1  99% | Testing c  OK | Total errors: 1 | stderr: | big1 - checksum error
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1  99% | Extracting o/c | Total errors: 2 | stderr: | big1 - checksum error | Cannot open o/big1 | No such file or directory | Cannot copy o/big1 to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-source-is-link
+    unrar x -p- x.rar o/: rc=6 Extracting o/big1 | Extracting o/c | Total errors: 2 | stderr: | Skipping the potentially unsafe big1 -> ../victim/t link. For archives from a trustworthy source use -ola to extract it anyway. | Cannot open o/big1 | No such file or directory | Cannot copy o/big1 to o/c. | You need to unpack the entire archive to create file reference entries.
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-source-is-link-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/big1  OK | Extracting o/c  0% OK | All OK
+    dir   o
+    dir   victim
+    link  o/big1                 -> ../victim/t   (mtime the member's)
+    file  o/c                         7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+copy-source-planted-link
+    unrar x -p- x.rar big2 o/: rc=0 Extracting o/__tmp_reference_source_3345243.33648.rartemp  97% OK | Extracting o/big2  0% OK | All OK
+    dir   o
+    dir   victim
+    link  o/big1                 -> ../victim/t   (mtime the time of the run)
+    file  o/big2                      7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+unknown-type
+    unrar t -p- x.rar: rc=0 Testing a.txt  33% OK | Testing u9 | Testing u0  82% OK | Testing empty_target 100% OK | All OK | stderr: | Unknown extra field in u9.
+    unrar x -p- x.rar o/: rc=0 Extracting o/a.txt  33% OK | Extracting o/u9 | Extracting o/u0  82% OK | Extracting o/empty_target 100% OK | All OK | stderr: | Unknown extra field in u9.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+    file  o/empty_target              0 bytes  sha256 e3b0c44298fc  mode 777   (mtime the member's)
+    file  o/u0                        0 bytes  sha256 e3b0c44298fc  mode 644   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-default
+    unrar t -p- x.rar: rc=0 Testing a.txt  10% OK | Testing top.txt  18% OK | Testing d OK | Testing sym_rel | Testing sym_abs | Testing sym_up | Testing d/up_in | Testing d/up_out | Testing dotdot_mid | Testing sym_dangling | Testing sym_nul | Testing sym_empty | Testing sym_bad_crc | All OK
+    unrar x -p- x.rar o/: rc=1 Extracting o/a.txt  10% OK | Extracting o/top.txt  18% OK | Creating o/d OK | Extracting o/sym_rel  31% OK | Extracting o/sym_abs  39% | Extracting o/sym_up  47% | Extracting o/d/up_in  55% OK | Extracting o/d/up_out  63% | Extracting o/dotdot_mid  72% | Extracting o/sym_dangling  80% OK | Extracting o/sym_nul  88% OK | Extracting o/sym_empty  94% | Extracting o/sym_bad_crc 100% OK | Total errors: 4 | stderr: | Skipping the potentially unsafe sym_abs -> /etc/hostname link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe sym_up -> ../../escape link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe d/up_out -> ../../top.txt link. For archives from a trustworthy source use -ola to extract it anyway. | Skipping the potentially unsafe dotdot_mid -> d/../top.txt link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+    dir   o/d
+    link  o/sym_bad_crc          -> a.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_dangling         -> nothere   (mtime the member's, read in this machine's zone)
+    link  o/sym_nul              -> a.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_rel              -> a.txt   (mtime the member's, read in this machine's zone)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+    link  o/d/up_in              -> ../top.txt   (mtime the member's, read in this machine's zone)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/a.txt  10% OK | Extracting o/top.txt  18% OK | Creating o/d OK | Extracting o/sym_rel  31% OK | Extracting o/sym_abs  39% OK | Extracting o/sym_up  47% OK | Extracting o/d/up_in  55% OK | Extracting o/d/up_out  63% OK | Extracting o/dotdot_mid  72% OK | Extracting o/sym_dangling  80% OK | Extracting o/sym_nul  88% OK | Extracting o/sym_empty  94% | Extracting o/sym_bad_crc 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+    dir   o/d
+    link  o/dotdot_mid           -> d/../top.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_abs              -> /etc/hostname   (mtime the member's, read in this machine's zone)
+    link  o/sym_bad_crc          -> a.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_dangling         -> nothere   (mtime the member's, read in this machine's zone)
+    link  o/sym_nul              -> a.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_rel              -> a.txt   (mtime the member's, read in this machine's zone)
+    link  o/sym_up               -> ../../escape   (mtime the member's, read in this machine's zone)
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+    link  o/d/up_in              -> ../top.txt   (mtime the member's, read in this machine's zone)
+    link  o/d/up_out             -> ../../top.txt   (mtime the member's, read in this machine's zone)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-ol-minus
+    unrar x -p- -ol- x.rar o/: rc=0 Extracting o/a.txt  10% OK | Extracting o/top.txt  18% OK | Creating o/d OK | All OK
+    dir   o
+    dir   victim
+    file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's, read in this machine's zone)
+    dir   o/d
+    file  o/top.txt                  16 bytes  sha256 0e2d082ed770  mode 644   (mtime the member's, read in this machine's zone)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-through-default
+    unrar x -p- x.rar o/: rc=1 Extracting o/dl3  67% | Creating o/dl3 OK | Extracting o/dl3/evil3 100% OK | Total errors: 1 | stderr: | Skipping the potentially unsafe dl3 -> ../victim link. For archives from a trustworthy source use -ola to extract it anyway.
+    dir   o
+    dir   victim
+    dir   o/dl3
+    file  o/dl3/evil3                 6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's, read in this machine's zone)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-through-ola
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/dl3  67% OK | Extracting o/dl3/evil3 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/dl3                  -> ../victim   (mtime the member's, read in this machine's zone)
+    file  victim/evil3                6 bytes  sha256 8820d4930f2a  mode 644   (mtime the member's, read in this machine's zone)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-1023
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 1023 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-1023
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 1023 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-1024
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 1024 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-1024
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 1024 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-4095
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s 100% OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 4095 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-4095
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s  OK | All OK
+    dir   o
+    dir   victim
+    link  o/s                    -> (a target of 4095 bytes)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-4096
+    unrar x -p- -ola x.rar o/: rc=1 Extracting o/s 100% | Total errors: 1 | stderr: | Cannot create symbolic link o/s
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-4096
+    unrar x -p- -ola x.rar o/: rc=1 Extracting o/s | Total errors: 1 | stderr: | Cannot create symbolic link o/s
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-65535
+    unrar x -p- -ola x.rar o/: rc=1 Extracting o/s 100% | Total errors: 1 | stderr: | Cannot create symbolic link o/s
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-65535
+    unrar x -p- -ola x.rar o/: rc=1 Extracting o/s | Total errors: 1 | stderr: | Cannot create symbolic link o/s
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-65536
+    unrar x -p- -ola x.rar o/: rc=1 Extracting o/s 100% | Total errors: 1 | stderr: | Cannot create symbolic link o/s
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+sym-len-65536
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s 100% OK | All OK
+    dir   o
+    dir   victim
+    file  o/s                         0 bytes  sha256 e3b0c44298fc  mode 777   (mtime the member's)
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+old-sym-len-70000
+    unrar x -p- -ola x.rar o/: rc=0 Extracting o/s | All OK
+    dir   o
+    dir   victim
+    file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+    <VICTIM>/file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

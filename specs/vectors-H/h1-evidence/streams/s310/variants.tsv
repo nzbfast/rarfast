@@ -1,0 +1,6 @@
+reading	what it is
+oversubscribed-fails	an oversubscribed table fails the member
+unowned-always-0	a lookahead no code owns gives symbol 0 whatever its offset
+unowned-always-first	a lookahead no code owns gives the first ranked symbol whatever its offset
+unowned-fails	a lookahead no code owns fails the member
+unowned-width-14	a lookahead no code owns consumes 14 bits

@@ -1,0 +1,7 @@
+case	members	reading in the file headers	readings that give other bytes	what
+low-unused	1	stated	unowned-fails unowned-always-0 unowned-always-first unowned-width-14	low distance lengths 1 and 2 on symbols 1 and 2 (Kraft sum 3/4); far matches whose low symbol is a 15 bit lookahead in the unused quarter at offsets 0, 14, 15 and the last, and by each codeword
+low-all-zero	1	stated	unowned-fails unowned-width-14	every low distance length zero; far matches whose low symbol is the 15 bits 0x0000, 0x5555 and 0x7FFF
+low-oversubscribed	1	stated	oversubscribed-fails	low distance lengths 1, 1 and 1 on symbols 3, 4 and 5 (Kraft sum 3/2); far matches with low bits 0, 1, 1, 0
+length-unused	1	stated	unowned-fails unowned-always-0 unowned-always-first unowned-width-14	length alphabet lengths 1 and 2 on slots 1 and 2 (Kraft sum 3/4); repeated distance matches whose length symbol is a lookahead in the unused quarter at offsets 0, 25, 26 and the last, and by each codeword
+length-all-zero	1	stated	unowned-fails unowned-width-14	every length alphabet length zero; repeated distance matches whose length symbol is the 15 bits 0x0000, 0x5555 and 0x7FFF
+length-oversubscribed	1	stated	oversubscribed-fails	length alphabet lengths 1, 1 and 1 on slots 2, 3 and 4 (Kraft sum 3/2); repeated distance matches with length bits 0, 1, 1, 0

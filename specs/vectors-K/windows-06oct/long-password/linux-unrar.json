@@ -1,0 +1,78 @@
+{
+ "unrar_sha256": "926d3a00775ed96afccfdef69c3781334b71ccdb733931edf30f4866e4f08410",
+ "t_rar_sha256": "3429af05b5d17571deac519d04f0fddcb68bea3b88e19d802994ef143fc6dfb5",
+ "runs": [
+  {
+   "locale": "C.UTF-8",
+   "arm": "whole password, 128 code points",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  },
+  {
+   "locale": "C.UTF-8",
+   "arm": "cut after y: 127 code points, 128 UTF-16 units",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  },
+  {
+   "locale": "C.UTF-8",
+   "arm": "cut after U+1F511: 126 code points, 127 UTF-16 units",
+   "exit": 0,
+   "stdout_last": [
+    "All OK"
+   ],
+   "stderr": ""
+  },
+  {
+   "locale": "C.UTF-8",
+   "arm": "cut before U+1F511: 125 code points",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  },
+  {
+   "locale": "en_US.UTF-8",
+   "arm": "whole password, 128 code points",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  },
+  {
+   "locale": "en_US.UTF-8",
+   "arm": "cut after y: 127 code points, 128 UTF-16 units",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  },
+  {
+   "locale": "en_US.UTF-8",
+   "arm": "cut after U+1F511: 126 code points, 127 UTF-16 units",
+   "exit": 0,
+   "stdout_last": [
+    "All OK"
+   ],
+   "stderr": ""
+  },
+  {
+   "locale": "en_US.UTF-8",
+   "arm": "cut before U+1F511: 125 code points",
+   "exit": 11,
+   "stdout_last": [
+    "Total errors: 1"
+   ],
+   "stderr": "Incorrect password for hello.txt"
+  }
+ ]
+}

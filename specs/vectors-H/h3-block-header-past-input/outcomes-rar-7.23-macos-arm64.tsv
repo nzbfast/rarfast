@@ -1,0 +1,1696 @@
+archive	t exit	t marks	x exit	ONE.BIN bytes	declared	ONE.BIN is	TWO.BIN is	TAKE values that give both
+ladder.z.k000.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k000.made.solid.rar	0	all-ok	0	44	44	model	model (T2)	1 to 24
+ladder.z.k000.more.true.rar	3	checksum-error:1	3	52	64	model	right	1 to 24
+ladder.z.k000.more.model.rar	0	all-ok	0	52	64	model	model (T2)	1 to 24
+ladder.z.k001.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k001.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	2 to 24
+ladder.z.k001.more.true.rar	3	checksum-error:1	3	52	65	model	right	2 to 24
+ladder.z.k001.more.model.rar	0	all-ok	0	52	65	model	model (T2)	2 to 24
+ladder.z.k002.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k002.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	3 to 24
+ladder.z.k002.more.true.rar	3	checksum-error:1	3	52	66	model	right	3 to 24
+ladder.z.k002.more.model.rar	0	all-ok	0	52	66	model	model (T2)	3 to 24
+ladder.z.k003.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k003.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	4 to 24
+ladder.z.k003.more.true.rar	3	checksum-error:1	3	52	67	model	right	4 to 24
+ladder.z.k003.more.model.rar	0	all-ok	0	52	67	model	model (T2)	4 to 24
+ladder.z.k004.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k004.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	5 to 24
+ladder.z.k004.more.true.rar	3	checksum-error:1	3	44	60	model	right	5 to 24
+ladder.z.k004.more.model.rar	0	all-ok	0	44	60	model	model (T2)	5 to 24
+ladder.z.k005.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k005.made.solid.rar	0	all-ok	0	41	41	model	model (T2)	6 to 24
+ladder.z.k005.more.true.rar	3	checksum-error:1	3	44	61	model	right	6 to 24
+ladder.z.k005.more.model.rar	0	all-ok	0	44	61	model	model (T2)	6 to 24
+ladder.z.k006.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k006.made.solid.rar	0	all-ok	0	42	42	model	model (T2)	7 to 24
+ladder.z.k006.more.true.rar	3	checksum-error:1	3	44	62	model	right	7 to 24
+ladder.z.k006.more.model.rar	0	all-ok	0	44	62	model	model (T2)	7 to 24
+ladder.z.k007.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k007.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	8 to 24
+ladder.z.k007.more.true.rar	3	checksum-error:1	3	44	63	model	right	8 to 24
+ladder.z.k007.more.model.rar	0	all-ok	0	44	63	model	model (T2)	8 to 24
+ladder.z.k008.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k008.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 20
+ladder.z.k008.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k008.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 20
+ladder.z.k009.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k009.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 21
+ladder.z.k009.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k009.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 21
+ladder.z.k010.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k010.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 22
+ladder.z.k010.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k010.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 22
+ladder.z.k011.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k011.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 23
+ladder.z.k011.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k011.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 23
+ladder.z.k012.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k012.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k012.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k012.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k013.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k013.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k013.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k013.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k014.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k014.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k014.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k014.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k015.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k015.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k015.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k015.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k016.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k016.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k016.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k016.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k017.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k017.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k017.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k017.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k018.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k018.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k018.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k018.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k019.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k019.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k019.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k019.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k020.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k020.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k020.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k020.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k021.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k021.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k021.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k021.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k022.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k022.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k022.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k022.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k023.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k023.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k023.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k023.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k024.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k024.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k024.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k024.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k025.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k025.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k025.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k025.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k026.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k026.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k026.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k026.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k027.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k027.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k027.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k027.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k028.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k028.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k028.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k028.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k029.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k029.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k029.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k029.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k030.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k030.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k030.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k030.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k031.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k031.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k031.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k031.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k032.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k032.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k032.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k032.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k033.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k033.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k033.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k033.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k034.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k034.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k034.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k034.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k035.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k035.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k035.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k035.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k036.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k036.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k036.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k036.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k037.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k037.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k037.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k037.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k038.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k038.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k038.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k038.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k039.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k039.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k039.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k039.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k040.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k040.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k040.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k040.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k041.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k041.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k041.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k041.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k042.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k042.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k042.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k042.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k043.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k043.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k043.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k043.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k044.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k044.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k044.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k044.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k045.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k045.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k045.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k045.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k046.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k046.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k046.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k046.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k047.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k047.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k047.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k047.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k048.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k048.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k048.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k048.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k049.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k049.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k049.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k049.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k050.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k050.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k050.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k050.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k051.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k051.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k051.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k051.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k052.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k052.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k052.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k052.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k053.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k053.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k053.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k053.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k054.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k054.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k054.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k054.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k055.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k055.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k055.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k055.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k056.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k056.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k056.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k056.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k057.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k057.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k057.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k057.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k058.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k058.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k058.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k058.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k059.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k059.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k059.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k059.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k060.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k060.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k060.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k060.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k061.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k061.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k061.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k061.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k062.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k062.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k062.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k062.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k063.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k063.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k063.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k063.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k064.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k064.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k064.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k064.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k065.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k065.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k065.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k065.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k066.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k066.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k066.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k066.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k067.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k067.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k067.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k067.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k068.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k068.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k068.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k068.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k069.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k069.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k069.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k069.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k070.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k070.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k070.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k070.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k071.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k071.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k071.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k071.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k072.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k072.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k072.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k072.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k073.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k073.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k073.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k073.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k074.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k074.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k074.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k074.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k075.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k075.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k075.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k075.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k076.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k076.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k076.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k076.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k077.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k077.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k077.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k077.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k078.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k078.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k078.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k078.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k079.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k079.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k079.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k079.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k080.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k080.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k080.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k080.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k081.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k081.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k081.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k081.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k082.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k082.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k082.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k082.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k083.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k083.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k083.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k083.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k084.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k084.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k084.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k084.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k085.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k085.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k085.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k085.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k086.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k086.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k086.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k086.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k087.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k087.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k087.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k087.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k088.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k088.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k088.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k088.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k089.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k089.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k089.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k089.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k090.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k090.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k090.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k090.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k091.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k091.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k091.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k091.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k092.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k092.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k092.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k092.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k093.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k093.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k093.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k093.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k094.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k094.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k094.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k094.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k095.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k095.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k095.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k095.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k096.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k096.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k096.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k096.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k097.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k097.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k097.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k097.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k098.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k098.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k098.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k098.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k099.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k099.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k099.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k099.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k100.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k100.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k100.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k100.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k101.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k101.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k101.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k101.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k102.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k102.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k102.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k102.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k103.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k103.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k103.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k103.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k104.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k104.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k104.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k104.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k105.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k105.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k105.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k105.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k106.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k106.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k106.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k106.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k107.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k107.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k107.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k107.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k108.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k108.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k108.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k108.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k109.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k109.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k109.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k109.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k110.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k110.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k110.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k110.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k111.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k111.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k111.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k111.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k112.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k112.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k112.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k112.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k113.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k113.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k113.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k113.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k114.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k114.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k114.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k114.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k115.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k115.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k115.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k115.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k116.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k116.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k116.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k116.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k117.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k117.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k117.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k117.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k118.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k118.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k118.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k118.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k119.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k119.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k119.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k119.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k120.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k120.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k120.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k120.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k121.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k121.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k121.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k121.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k122.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k122.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k122.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k122.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k123.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k123.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k123.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k123.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k124.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k124.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k124.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k124.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k125.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k125.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k125.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k125.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k126.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k126.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k126.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k126.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.z.k127.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.z.k127.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.z.k127.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.z.k127.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.z.k128.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.z.k128.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.z.k128.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.z.k128.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.z.k129.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.z.k129.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.z.k129.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.z.k129.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.z.k130.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.z.k130.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.z.k130.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.z.k130.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.z.k131.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.z.k131.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.z.k131.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.z.k131.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.z.k132.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.z.k132.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.z.k132.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.z.k132.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.z.k133.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.z.k133.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.z.k133.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.z.k133.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.z.k134.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.z.k134.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.z.k134.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.z.k134.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k000.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k000.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	1 to 24
+ladder.o.k000.more.true.rar	3	checksum-error:1	3	54	66	model	right	1 to 24
+ladder.o.k000.more.model.rar	0	all-ok	0	54	66	model	model (T2)	1 to 24
+ladder.o.k001.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k001.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	2 to 24
+ladder.o.k001.more.true.rar	3	checksum-error:1	3	54	67	model	right	2 to 24
+ladder.o.k001.more.model.rar	0	all-ok	0	54	67	model	model (T2)	2 to 24
+ladder.o.k002.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k002.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	3 to 24
+ladder.o.k002.more.true.rar	3	checksum-error:1	3	46	60	model	right	3 to 24
+ladder.o.k002.more.model.rar	0	all-ok	0	46	60	model	model (T2)	3 to 24
+ladder.o.k003.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k003.made.solid.rar	0	all-ok	0	41	41	model	model (T2)	4 to 24
+ladder.o.k003.more.true.rar	3	checksum-error:1	3	46	61	model	right	4 to 24
+ladder.o.k003.more.model.rar	0	all-ok	0	46	61	model	model (T2)	4 to 24
+ladder.o.k004.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k004.made.solid.rar	0	all-ok	0	42	42	model	model (T2)	5 to 24
+ladder.o.k004.more.true.rar	3	checksum-error:1	3	46	62	model	right	5 to 24
+ladder.o.k004.more.model.rar	0	all-ok	0	46	62	model	model (T2)	5 to 24
+ladder.o.k005.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k005.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	6 to 24
+ladder.o.k005.more.true.rar	3	checksum-error:1	3	46	63	model	right	6 to 24
+ladder.o.k005.more.model.rar	0	all-ok	0	46	63	model	model (T2)	6 to 24
+ladder.o.k006.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k006.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k006.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k006.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k007.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k007.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k007.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k007.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k008.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k008.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k008.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k008.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k009.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k009.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k009.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k009.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k010.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k010.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k010.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k010.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k011.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k011.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k011.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k011.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k012.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k012.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k012.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k012.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k013.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k013.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k013.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k013.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k014.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k014.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k014.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k014.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k015.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k015.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k015.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k015.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k016.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k016.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k016.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k016.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k017.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k017.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k017.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k017.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k018.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k018.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k018.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k018.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k019.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k019.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k019.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k019.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k020.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k020.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k020.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k020.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k021.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k021.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k021.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k021.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k022.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k022.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k022.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k022.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k023.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k023.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k023.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k023.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k024.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k024.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k024.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k024.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k025.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k025.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k025.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k025.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k026.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k026.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k026.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k026.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k027.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k027.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k027.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k027.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k028.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k028.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k028.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k028.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k029.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k029.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k029.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k029.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k030.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k030.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k030.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k030.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k031.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k031.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k031.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k031.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k032.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k032.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k032.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k032.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k033.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k033.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k033.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k033.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k034.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k034.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k034.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k034.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k035.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k035.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k035.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k035.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k036.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k036.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k036.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k036.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k037.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k037.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k037.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k037.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k038.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k038.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k038.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k038.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k039.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k039.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k039.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k039.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k040.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k040.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k040.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k040.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k041.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k041.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k041.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k041.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k042.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k042.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k042.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k042.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k043.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k043.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k043.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k043.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k044.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k044.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k044.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k044.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k045.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k045.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k045.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k045.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k046.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k046.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k046.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k046.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k047.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k047.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k047.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k047.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k048.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k048.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k048.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k048.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k049.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k049.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k049.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k049.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k050.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k050.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k050.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k050.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k051.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k051.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k051.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k051.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k052.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k052.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k052.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k052.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k053.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k053.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k053.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k053.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k054.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k054.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k054.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k054.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k055.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k055.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k055.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k055.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k056.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k056.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k056.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k056.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k057.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k057.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k057.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k057.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k058.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k058.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k058.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k058.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k059.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k059.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k059.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k059.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k060.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k060.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k060.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k060.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k061.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k061.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k061.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k061.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k062.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k062.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k062.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k062.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k063.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k063.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k063.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k063.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k064.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k064.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k064.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k064.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k065.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k065.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k065.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k065.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k066.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k066.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k066.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k066.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k067.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k067.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k067.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k067.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k068.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k068.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k068.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k068.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k069.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k069.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k069.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k069.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k070.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k070.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k070.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k070.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k071.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k071.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k071.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k071.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k072.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k072.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k072.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k072.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k073.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k073.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k073.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k073.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k074.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k074.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k074.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k074.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k075.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k075.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k075.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k075.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k076.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k076.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k076.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k076.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k077.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k077.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k077.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k077.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k078.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k078.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k078.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k078.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k079.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k079.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k079.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k079.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k080.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k080.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k080.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k080.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k081.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k081.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k081.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k081.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k082.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k082.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k082.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k082.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k083.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k083.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k083.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k083.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k084.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k084.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k084.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k084.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k085.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k085.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k085.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k085.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k086.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k086.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k086.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k086.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k087.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k087.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k087.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k087.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k088.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k088.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k088.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k088.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k089.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k089.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k089.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k089.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k090.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k090.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k090.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k090.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k091.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k091.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k091.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k091.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k092.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k092.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k092.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k092.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k093.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k093.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k093.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k093.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k094.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k094.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k094.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k094.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k095.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k095.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k095.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k095.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k096.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k096.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k096.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k096.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k097.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k097.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k097.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k097.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k098.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k098.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k098.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k098.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k099.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k099.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k099.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k099.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k100.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k100.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k100.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k100.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k101.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k101.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k101.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k101.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k102.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k102.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k102.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k102.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k103.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k103.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k103.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k103.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k104.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k104.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k104.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k104.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k105.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k105.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k105.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k105.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k106.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k106.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k106.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k106.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k107.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k107.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k107.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k107.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k108.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k108.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k108.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k108.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k109.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k109.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k109.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k109.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k110.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k110.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k110.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k110.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k111.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k111.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k111.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k111.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k112.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k112.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k112.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k112.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k113.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k113.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k113.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k113.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k114.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k114.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k114.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k114.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k115.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k115.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k115.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k115.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k116.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k116.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k116.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k116.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+ladder.o.k117.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+ladder.o.k117.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+ladder.o.k117.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+ladder.o.k117.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+ladder.o.k118.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+ladder.o.k118.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 24
+ladder.o.k118.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+ladder.o.k118.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 24
+ladder.o.k119.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+ladder.o.k119.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 24
+ladder.o.k119.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+ladder.o.k119.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 24
+ladder.o.k120.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+ladder.o.k120.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+ladder.o.k120.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+ladder.o.k120.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+ladder.o.k121.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+ladder.o.k121.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+ladder.o.k121.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+ladder.o.k121.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+ladder.o.k122.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+ladder.o.k122.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+ladder.o.k122.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+ladder.o.k122.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+ladder.o.k123.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+ladder.o.k123.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+ladder.o.k123.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+ladder.o.k123.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+ladder.o.k124.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+ladder.o.k124.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+ladder.o.k124.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+ladder.o.k124.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w2.k1.j0.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j0.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	2 to 24
+edge.w2.k1.j0.more.true.rar	3	checksum-error:1	3	50	63	model	right	2 to 24
+edge.w2.k1.j0.more.model.rar	0	all-ok	0	50	63	model	model (T2)	2 to 24
+edge.w2.k1.j1.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j1.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	4 to 24
+edge.w2.k1.j1.more.true.rar	3	checksum-error:1	3	48	63	model	right	4 to 24
+edge.w2.k1.j1.more.model.rar	0	all-ok	0	48	63	model	model (T2)	4 to 24
+edge.w2.k1.j2.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j2.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	6 to 24
+edge.w2.k1.j2.more.true.rar	3	checksum-error:1	3	46	63	model	right	6 to 24
+edge.w2.k1.j2.more.model.rar	0	all-ok	0	46	63	model	model (T2)	6 to 24
+edge.w2.k1.j3.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j3.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	8 to 24
+edge.w2.k1.j3.more.true.rar	3	checksum-error:1	3	44	63	model	right	8 to 24
+edge.w2.k1.j3.more.model.rar	0	all-ok	0	44	63	model	model (T2)	8 to 24
+edge.w2.k1.j4.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j4.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 9
+edge.w2.k1.j4.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w2.k1.j4.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 9
+edge.w2.k1.j5.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j5.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 11
+edge.w2.k1.j5.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w2.k1.j5.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 11
+edge.w2.k1.j6.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j6.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 13
+edge.w2.k1.j6.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w2.k1.j6.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 13
+edge.w2.k1.j7.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j7.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 15
+edge.w2.k1.j7.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w2.k1.j7.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 15
+edge.w2.k1.j8.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w2.k1.j8.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 17
+edge.w2.k1.j8.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w2.k1.j8.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 17
+edge.w2.k2.j0.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j0.made.solid.rar	0	all-ok	0	44	44	model	model (T2)	3 to 24
+edge.w2.k2.j0.more.true.rar	3	checksum-error:1	3	50	64	model	right	3 to 24
+edge.w2.k2.j0.more.model.rar	0	all-ok	0	50	64	model	model (T2)	3 to 24
+edge.w2.k2.j1.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j1.made.solid.rar	0	all-ok	0	44	44	model	model (T2)	5 to 24
+edge.w2.k2.j1.more.true.rar	3	checksum-error:1	3	48	64	model	right	5 to 24
+edge.w2.k2.j1.more.model.rar	0	all-ok	0	48	64	model	model (T2)	5 to 24
+edge.w2.k2.j2.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j2.made.solid.rar	0	all-ok	0	44	44	model	model (T2)	7 to 24
+edge.w2.k2.j2.more.true.rar	3	checksum-error:1	3	46	64	model	right	7 to 24
+edge.w2.k2.j2.more.model.rar	0	all-ok	0	46	64	model	model (T2)	7 to 24
+edge.w2.k2.j3.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j3.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 8
+edge.w2.k2.j3.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j3.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 8
+edge.w2.k2.j4.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j4.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 10
+edge.w2.k2.j4.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j4.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 10
+edge.w2.k2.j5.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j5.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 12
+edge.w2.k2.j5.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j5.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 12
+edge.w2.k2.j6.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j6.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 14
+edge.w2.k2.j6.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j6.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 14
+edge.w2.k2.j7.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j7.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 16
+edge.w2.k2.j7.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j7.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 16
+edge.w2.k2.j8.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w2.k2.j8.made.solid.rar	0	all-ok	0	44	44	model	model (T1)	0 to 18
+edge.w2.k2.j8.more.true.rar	3	checksum-error:1	3	44	64	model	right	0 to 24
+edge.w2.k2.j8.more.model.rar	0	all-ok	0	44	64	model	model (T1)	0 to 18
+edge.w2.k3.j0.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j0.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	4 to 24
+edge.w2.k3.j0.more.true.rar	3	checksum-error:1	3	50	65	model	right	4 to 24
+edge.w2.k3.j0.more.model.rar	0	all-ok	0	50	65	model	model (T2)	4 to 24
+edge.w2.k3.j1.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j1.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	6 to 24
+edge.w2.k3.j1.more.true.rar	3	checksum-error:1	3	48	65	model	right	6 to 24
+edge.w2.k3.j1.more.model.rar	0	all-ok	0	48	65	model	model (T2)	6 to 24
+edge.w2.k3.j2.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j2.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	8 to 24
+edge.w2.k3.j2.more.true.rar	3	checksum-error:1	3	46	65	model	right	8 to 24
+edge.w2.k3.j2.more.model.rar	0	all-ok	0	46	65	model	model (T2)	8 to 24
+edge.w2.k3.j3.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j3.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 9
+edge.w2.k3.j3.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j3.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 9
+edge.w2.k3.j4.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j4.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 11
+edge.w2.k3.j4.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j4.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 11
+edge.w2.k3.j5.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j5.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 13
+edge.w2.k3.j5.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j5.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 13
+edge.w2.k3.j6.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j6.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 15
+edge.w2.k3.j6.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j6.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 15
+edge.w2.k3.j7.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j7.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 17
+edge.w2.k3.j7.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j7.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 17
+edge.w2.k3.j8.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+edge.w2.k3.j8.made.solid.rar	0	all-ok	0	45	45	model	model (T1)	0 to 19
+edge.w2.k3.j8.more.true.rar	3	checksum-error:1	3	45	65	model	right	0 to 24
+edge.w2.k3.j8.more.model.rar	0	all-ok	0	45	65	model	model (T1)	0 to 19
+edge.w2.k4.j0.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j0.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	5 to 24
+edge.w2.k4.j0.more.true.rar	3	checksum-error:1	3	50	66	model	right	5 to 24
+edge.w2.k4.j0.more.model.rar	0	all-ok	0	50	66	model	model (T2)	5 to 24
+edge.w2.k4.j1.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j1.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	7 to 24
+edge.w2.k4.j1.more.true.rar	3	checksum-error:1	3	48	66	model	right	7 to 24
+edge.w2.k4.j1.more.model.rar	0	all-ok	0	48	66	model	model (T2)	7 to 24
+edge.w2.k4.j2.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j2.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 8
+edge.w2.k4.j2.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j2.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 8
+edge.w2.k4.j3.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j3.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 10
+edge.w2.k4.j3.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j3.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 10
+edge.w2.k4.j4.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j4.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 12
+edge.w2.k4.j4.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j4.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 12
+edge.w2.k4.j5.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j5.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 14
+edge.w2.k4.j5.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j5.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 14
+edge.w2.k4.j6.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j6.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 16
+edge.w2.k4.j6.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j6.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 16
+edge.w2.k4.j7.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j7.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 18
+edge.w2.k4.j7.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j7.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 18
+edge.w2.k4.j8.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w2.k4.j8.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 20
+edge.w2.k4.j8.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w2.k4.j8.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 20
+edge.w2.k5.j0.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j0.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	6 to 24
+edge.w2.k5.j0.more.true.rar	3	checksum-error:1	3	50	67	model	right	6 to 24
+edge.w2.k5.j0.more.model.rar	0	all-ok	0	50	67	model	model (T2)	6 to 24
+edge.w2.k5.j1.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j1.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	8 to 24
+edge.w2.k5.j1.more.true.rar	3	checksum-error:1	3	48	67	model	right	8 to 24
+edge.w2.k5.j1.more.model.rar	0	all-ok	0	48	67	model	model (T2)	8 to 24
+edge.w2.k5.j2.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j2.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 9
+edge.w2.k5.j2.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j2.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 9
+edge.w2.k5.j3.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j3.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 11
+edge.w2.k5.j3.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j3.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 11
+edge.w2.k5.j4.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j4.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 13
+edge.w2.k5.j4.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j4.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 13
+edge.w2.k5.j5.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j5.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 15
+edge.w2.k5.j5.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j5.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 15
+edge.w2.k5.j6.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j6.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 17
+edge.w2.k5.j6.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j6.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 17
+edge.w2.k5.j7.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j7.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 19
+edge.w2.k5.j7.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j7.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 19
+edge.w2.k5.j8.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w2.k5.j8.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 21
+edge.w2.k5.j8.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w2.k5.j8.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 21
+edge.w2.k6.j0.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w2.k6.j0.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	7 to 24
+edge.w2.k6.j0.more.true.rar	3	checksum-error:1	3	42	60	model	right	7 to 24
+edge.w2.k6.j0.more.model.rar	0	all-ok	0	42	60	model	model (T2)	7 to 24
+edge.w3.k1.j0.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j0.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	2 to 24
+edge.w3.k1.j0.more.true.rar	3	checksum-error:1	3	54	67	model	right	2 to 24
+edge.w3.k1.j0.more.model.rar	0	all-ok	0	54	67	model	model (T2)	2 to 24
+edge.w3.k1.j1.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j1.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	5 to 24
+edge.w3.k1.j1.more.true.rar	3	checksum-error:1	3	51	67	model	right	5 to 24
+edge.w3.k1.j1.more.model.rar	0	all-ok	0	51	67	model	model (T2)	5 to 24
+edge.w3.k1.j2.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j2.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	8 to 24
+edge.w3.k1.j2.more.true.rar	3	checksum-error:1	3	48	67	model	right	8 to 24
+edge.w3.k1.j2.more.model.rar	0	all-ok	0	48	67	model	model (T2)	8 to 24
+edge.w3.k1.j3.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j3.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 10
+edge.w3.k1.j3.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j3.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 10
+edge.w3.k1.j4.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j4.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 13
+edge.w3.k1.j4.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j4.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 13
+edge.w3.k1.j5.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j5.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 16
+edge.w3.k1.j5.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j5.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 16
+edge.w3.k1.j6.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j6.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 19
+edge.w3.k1.j6.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j6.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 19
+edge.w3.k1.j7.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j7.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 22
+edge.w3.k1.j7.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j7.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 22
+edge.w3.k1.j8.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w3.k1.j8.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+edge.w3.k1.j8.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w3.k1.j8.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+edge.w3.k2.j0.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j0.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	3 to 24
+edge.w3.k2.j0.more.true.rar	3	checksum-error:1	3	46	60	model	right	3 to 24
+edge.w3.k2.j0.more.model.rar	0	all-ok	0	46	60	model	model (T2)	3 to 24
+edge.w3.k2.j1.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j1.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	6 to 24
+edge.w3.k2.j1.more.true.rar	3	checksum-error:1	3	43	60	model	right	6 to 24
+edge.w3.k2.j1.more.model.rar	0	all-ok	0	43	60	model	model (T2)	6 to 24
+edge.w3.k2.j2.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j2.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 8
+edge.w3.k2.j2.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j2.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 8
+edge.w3.k2.j3.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j3.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 11
+edge.w3.k2.j3.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j3.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 11
+edge.w3.k2.j4.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j4.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 14
+edge.w3.k2.j4.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j4.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 14
+edge.w3.k2.j5.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j5.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 17
+edge.w3.k2.j5.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j5.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 17
+edge.w3.k2.j6.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j6.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 20
+edge.w3.k2.j6.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j6.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 20
+edge.w3.k2.j7.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j7.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 23
+edge.w3.k2.j7.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j7.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 23
+edge.w3.k2.j8.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w3.k2.j8.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+edge.w3.k2.j8.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w3.k2.j8.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+edge.w3.k3.j0.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j0.made.solid.rar	0	all-ok	0	41	41	model	model (T2)	4 to 24
+edge.w3.k3.j0.more.true.rar	3	checksum-error:1	3	46	61	model	right	4 to 24
+edge.w3.k3.j0.more.model.rar	0	all-ok	0	46	61	model	model (T2)	4 to 24
+edge.w3.k3.j1.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j1.made.solid.rar	0	all-ok	0	41	41	model	model (T2)	7 to 24
+edge.w3.k3.j1.more.true.rar	3	checksum-error:1	3	43	61	model	right	7 to 24
+edge.w3.k3.j1.more.model.rar	0	all-ok	0	43	61	model	model (T2)	7 to 24
+edge.w3.k3.j2.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j2.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 9
+edge.w3.k3.j2.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j2.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 9
+edge.w3.k3.j3.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j3.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 12
+edge.w3.k3.j3.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j3.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 12
+edge.w3.k3.j4.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j4.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 15
+edge.w3.k3.j4.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j4.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 15
+edge.w3.k3.j5.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j5.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 18
+edge.w3.k3.j5.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j5.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 18
+edge.w3.k3.j6.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j6.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 21
+edge.w3.k3.j6.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j6.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 21
+edge.w3.k3.j7.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j7.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w3.k3.j7.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j7.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w3.k3.j8.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w3.k3.j8.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w3.k3.j8.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w3.k3.j8.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w3.k4.j0.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j0.made.solid.rar	0	all-ok	0	42	42	model	model (T2)	5 to 24
+edge.w3.k4.j0.more.true.rar	3	checksum-error:1	3	46	62	model	right	5 to 24
+edge.w3.k4.j0.more.model.rar	0	all-ok	0	46	62	model	model (T2)	5 to 24
+edge.w3.k4.j1.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j1.made.solid.rar	0	all-ok	0	42	42	model	model (T2)	8 to 24
+edge.w3.k4.j1.more.true.rar	3	checksum-error:1	3	43	62	model	right	8 to 24
+edge.w3.k4.j1.more.model.rar	0	all-ok	0	43	62	model	model (T2)	8 to 24
+edge.w3.k4.j2.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j2.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 10
+edge.w3.k4.j2.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j2.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 10
+edge.w3.k4.j3.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j3.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 13
+edge.w3.k4.j3.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j3.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 13
+edge.w3.k4.j4.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j4.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 16
+edge.w3.k4.j4.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j4.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 16
+edge.w3.k4.j5.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j5.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 19
+edge.w3.k4.j5.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j5.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 19
+edge.w3.k4.j6.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j6.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 22
+edge.w3.k4.j6.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j6.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 22
+edge.w3.k4.j7.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j7.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w3.k4.j7.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j7.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w3.k4.j8.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w3.k4.j8.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w3.k4.j8.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w3.k4.j8.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w3.k5.j0.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j0.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	6 to 24
+edge.w3.k5.j0.more.true.rar	3	checksum-error:1	3	46	63	model	right	6 to 24
+edge.w3.k5.j0.more.model.rar	0	all-ok	0	46	63	model	model (T2)	6 to 24
+edge.w3.k5.j1.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j1.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 8
+edge.w3.k5.j1.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j1.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 8
+edge.w3.k5.j2.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j2.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 11
+edge.w3.k5.j2.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j2.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 11
+edge.w3.k5.j3.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j3.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 14
+edge.w3.k5.j3.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j3.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 14
+edge.w3.k5.j4.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j4.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 17
+edge.w3.k5.j4.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j4.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 17
+edge.w3.k5.j5.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j5.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 20
+edge.w3.k5.j5.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j5.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 20
+edge.w3.k5.j6.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j6.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 23
+edge.w3.k5.j6.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j6.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 23
+edge.w3.k5.j7.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j7.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+edge.w3.k5.j7.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j7.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+edge.w3.k5.j8.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w3.k5.j8.made.solid.rar	0	all-ok	0	43	43	model	model (T1)	0 to 24
+edge.w3.k5.j8.more.true.rar	3	checksum-error:1	3	43	63	model	right	0 to 24
+edge.w3.k5.j8.more.model.rar	0	all-ok	0	43	63	model	model (T1)	0 to 24
+edge.w3.k6.j0.made.stored.rar	0	all-ok	0	44	44	model	right	0 to 24
+edge.w3.k6.j0.made.solid.rar	0	all-ok	0	44	44	model	model (T2)	7 to 24
+edge.w3.k6.j0.more.true.rar	3	checksum-error:1	3	46	64	model	right	7 to 24
+edge.w3.k6.j0.more.model.rar	0	all-ok	0	46	64	model	model (T2)	7 to 24
+edge.w4.k1.j0.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j0.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	2 to 24
+edge.w4.k1.j0.more.true.rar	3	checksum-error:1	3	53	66	model	right	2 to 24
+edge.w4.k1.j0.more.model.rar	0	all-ok	0	53	66	model	model (T2)	2 to 24
+edge.w4.k1.j1.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j1.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	6 to 24
+edge.w4.k1.j1.more.true.rar	3	checksum-error:1	3	49	66	model	right	6 to 24
+edge.w4.k1.j1.more.model.rar	0	all-ok	0	49	66	model	model (T2)	6 to 24
+edge.w4.k1.j2.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j2.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 9
+edge.w4.k1.j2.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j2.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 9
+edge.w4.k1.j3.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j3.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 13
+edge.w4.k1.j3.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j3.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 13
+edge.w4.k1.j4.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j4.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 17
+edge.w4.k1.j4.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j4.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 17
+edge.w4.k1.j5.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j5.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 21
+edge.w4.k1.j5.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j5.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 21
+edge.w4.k1.j6.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j6.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+edge.w4.k1.j6.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j6.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+edge.w4.k1.j7.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j7.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+edge.w4.k1.j7.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j7.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+edge.w4.k1.j8.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+edge.w4.k1.j8.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 24
+edge.w4.k1.j8.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+edge.w4.k1.j8.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 24
+edge.w4.k2.j0.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j0.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	3 to 24
+edge.w4.k2.j0.more.true.rar	3	checksum-error:1	3	53	67	model	right	3 to 24
+edge.w4.k2.j0.more.model.rar	0	all-ok	0	53	67	model	model (T2)	3 to 24
+edge.w4.k2.j1.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j1.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	7 to 24
+edge.w4.k2.j1.more.true.rar	3	checksum-error:1	3	49	67	model	right	7 to 24
+edge.w4.k2.j1.more.model.rar	0	all-ok	0	49	67	model	model (T2)	7 to 24
+edge.w4.k2.j2.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j2.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 10
+edge.w4.k2.j2.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j2.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 10
+edge.w4.k2.j3.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j3.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 14
+edge.w4.k2.j3.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j3.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 14
+edge.w4.k2.j4.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j4.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 18
+edge.w4.k2.j4.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j4.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 18
+edge.w4.k2.j5.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j5.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 22
+edge.w4.k2.j5.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j5.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 22
+edge.w4.k2.j6.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j6.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+edge.w4.k2.j6.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j6.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+edge.w4.k2.j7.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j7.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+edge.w4.k2.j7.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j7.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+edge.w4.k2.j8.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+edge.w4.k2.j8.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 24
+edge.w4.k2.j8.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+edge.w4.k2.j8.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 24
+edge.w4.k3.j0.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j0.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	4 to 24
+edge.w4.k3.j0.more.true.rar	3	checksum-error:1	3	45	60	model	right	4 to 24
+edge.w4.k3.j0.more.model.rar	0	all-ok	0	45	60	model	model (T2)	4 to 24
+edge.w4.k3.j1.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j1.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	8 to 24
+edge.w4.k3.j1.more.true.rar	3	checksum-error:1	3	41	60	model	right	8 to 24
+edge.w4.k3.j1.more.model.rar	0	all-ok	0	41	60	model	model (T2)	8 to 24
+edge.w4.k3.j2.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j2.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 11
+edge.w4.k3.j2.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j2.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 11
+edge.w4.k3.j3.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j3.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 15
+edge.w4.k3.j3.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j3.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 15
+edge.w4.k3.j4.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j4.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 19
+edge.w4.k3.j4.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j4.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 19
+edge.w4.k3.j5.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j5.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 23
+edge.w4.k3.j5.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j5.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 23
+edge.w4.k3.j6.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j6.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+edge.w4.k3.j6.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j6.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+edge.w4.k3.j7.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j7.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+edge.w4.k3.j7.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j7.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+edge.w4.k3.j8.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+edge.w4.k3.j8.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 24
+edge.w4.k3.j8.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+edge.w4.k3.j8.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 24
+edge.w4.k4.j0.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j0.made.solid.rar	0	all-ok	0	41	41	model	model (T2)	5 to 24
+edge.w4.k4.j0.more.true.rar	3	checksum-error:1	3	45	61	model	right	5 to 24
+edge.w4.k4.j0.more.model.rar	0	all-ok	0	45	61	model	model (T2)	5 to 24
+edge.w4.k4.j1.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j1.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 8
+edge.w4.k4.j1.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j1.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 8
+edge.w4.k4.j2.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j2.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 12
+edge.w4.k4.j2.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j2.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 12
+edge.w4.k4.j3.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j3.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 16
+edge.w4.k4.j3.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j3.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 16
+edge.w4.k4.j4.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j4.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 20
+edge.w4.k4.j4.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j4.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 20
+edge.w4.k4.j5.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j5.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w4.k4.j5.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j5.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w4.k4.j6.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j6.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w4.k4.j6.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j6.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w4.k4.j7.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j7.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w4.k4.j7.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j7.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w4.k4.j8.made.stored.rar	0	all-ok	0	41	41	model	right	0 to 24
+edge.w4.k4.j8.made.solid.rar	0	all-ok	0	41	41	model	model (T1)	0 to 24
+edge.w4.k4.j8.more.true.rar	3	checksum-error:1	3	41	61	model	right	0 to 24
+edge.w4.k4.j8.more.model.rar	0	all-ok	0	41	61	model	model (T1)	0 to 24
+edge.w4.k5.j0.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j0.made.solid.rar	0	all-ok	0	42	42	model	model (T2)	6 to 24
+edge.w4.k5.j0.more.true.rar	3	checksum-error:1	3	45	62	model	right	6 to 24
+edge.w4.k5.j0.more.model.rar	0	all-ok	0	45	62	model	model (T2)	6 to 24
+edge.w4.k5.j1.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j1.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 9
+edge.w4.k5.j1.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j1.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 9
+edge.w4.k5.j2.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j2.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 13
+edge.w4.k5.j2.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j2.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 13
+edge.w4.k5.j3.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j3.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 17
+edge.w4.k5.j3.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j3.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 17
+edge.w4.k5.j4.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j4.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 21
+edge.w4.k5.j4.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j4.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 21
+edge.w4.k5.j5.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j5.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w4.k5.j5.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j5.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w4.k5.j6.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j6.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w4.k5.j6.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j6.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w4.k5.j7.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j7.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w4.k5.j7.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j7.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w4.k5.j8.made.stored.rar	0	all-ok	0	42	42	model	right	0 to 24
+edge.w4.k5.j8.made.solid.rar	0	all-ok	0	42	42	model	model (T1)	0 to 24
+edge.w4.k5.j8.more.true.rar	3	checksum-error:1	3	42	62	model	right	0 to 24
+edge.w4.k5.j8.more.model.rar	0	all-ok	0	42	62	model	model (T1)	0 to 24
+edge.w4.k6.j0.made.stored.rar	0	all-ok	0	43	43	model	right	0 to 24
+edge.w4.k6.j0.made.solid.rar	0	all-ok	0	43	43	model	model (T2)	7 to 24
+edge.w4.k6.j0.more.true.rar	3	checksum-error:1	3	45	63	model	right	7 to 24
+edge.w4.k6.j0.more.model.rar	0	all-ok	0	45	63	model	model (T2)	7 to 24
+stale.z.k001.more.true.rar	3	checksum-error:1	3	49	65	model-with-earlier-supplied	-	none
+stale.z.k002.more.true.rar	3	checksum-error:1	3	49	66	model-with-earlier-supplied	-	none
+stale.z.k003.more.true.rar	3	checksum-error:1	3	50	67	model-with-earlier-supplied	-	none
+stale.z.k004.more.true.rar	3	checksum-error:1	3	42	60	model-with-earlier-supplied	-	none
+stale.z.k005.more.true.rar	3	checksum-error:1	3	43	61	model-with-earlier-supplied	-	none
+stale.z.k006.more.true.rar	3	checksum-error:1	3	43	62	model-with-earlier-supplied	-	none
+stale.z.k007.more.true.rar	3	checksum-error:1	3	44	63	model	-	8 to 24
+over.k1.j1.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j1.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	3 to 24
+over.k1.j1.more.true.rar	3	checksum-error:1	3	51	65	model	right	3 to 24
+over.k1.j1.more.model.rar	0	all-ok	0	51	65	model	model (T2)	3 to 24
+over.k1.j2.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j2.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	4 to 24
+over.k1.j2.more.true.rar	3	checksum-error:1	3	50	65	model	right	4 to 24
+over.k1.j2.more.model.rar	0	all-ok	0	50	65	model	model (T2)	4 to 24
+over.k1.j3.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j3.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	5 to 24
+over.k1.j3.more.true.rar	3	checksum-error:1	3	49	65	model	right	5 to 24
+over.k1.j3.more.model.rar	0	all-ok	0	49	65	model	model (T2)	5 to 24
+over.k1.j4.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j4.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	6 to 24
+over.k1.j4.more.true.rar	3	checksum-error:1	3	48	65	model	right	6 to 24
+over.k1.j4.more.model.rar	0	all-ok	0	48	65	model	model (T2)	6 to 24
+over.k1.j5.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j5.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	7 to 24
+over.k1.j5.more.true.rar	3	checksum-error:1	3	47	65	model	right	7 to 24
+over.k1.j5.more.model.rar	0	all-ok	0	47	65	model	model (T2)	7 to 24
+over.k1.j6.made.stored.rar	0	all-ok	0	45	45	model	right	0 to 24
+over.k1.j6.made.solid.rar	0	all-ok	0	45	45	model	model (T2)	8 to 24
+over.k1.j6.more.true.rar	3	checksum-error:1	3	46	65	model	right	8 to 24
+over.k1.j6.more.model.rar	0	all-ok	0	46	65	model	model (T2)	8 to 24
+over.k2.j1.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j1.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	4 to 24
+over.k2.j1.more.true.rar	3	checksum-error:1	3	51	66	model	right	4 to 24
+over.k2.j1.more.model.rar	0	all-ok	0	51	66	model	model (T2)	4 to 24
+over.k2.j2.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j2.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	5 to 24
+over.k2.j2.more.true.rar	3	checksum-error:1	3	50	66	model	right	5 to 24
+over.k2.j2.more.model.rar	0	all-ok	0	50	66	model	model (T2)	5 to 24
+over.k2.j3.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j3.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	6 to 24
+over.k2.j3.more.true.rar	3	checksum-error:1	3	49	66	model	right	6 to 24
+over.k2.j3.more.model.rar	0	all-ok	0	49	66	model	model (T2)	6 to 24
+over.k2.j4.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j4.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	7 to 24
+over.k2.j4.more.true.rar	3	checksum-error:1	3	48	66	model	right	7 to 24
+over.k2.j4.more.model.rar	0	all-ok	0	48	66	model	model (T2)	7 to 24
+over.k2.j5.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j5.made.solid.rar	0	all-ok	0	46	46	model	model (T2)	8 to 24
+over.k2.j5.more.true.rar	3	checksum-error:1	3	47	66	model	right	8 to 24
+over.k2.j5.more.model.rar	0	all-ok	0	47	66	model	model (T2)	8 to 24
+over.k2.j6.made.stored.rar	0	all-ok	0	46	46	model	right	0 to 24
+over.k2.j6.made.solid.rar	0	all-ok	0	46	46	model	model (T1)	0 to 8
+over.k2.j6.more.true.rar	3	checksum-error:1	3	46	66	model	right	0 to 24
+over.k2.j6.more.model.rar	0	all-ok	0	46	66	model	model (T1)	0 to 8
+over.k3.j1.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j1.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	5 to 24
+over.k3.j1.more.true.rar	3	checksum-error:1	3	51	67	model	right	5 to 24
+over.k3.j1.more.model.rar	0	all-ok	0	51	67	model	model (T2)	5 to 24
+over.k3.j2.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j2.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	6 to 24
+over.k3.j2.more.true.rar	3	checksum-error:1	3	50	67	model	right	6 to 24
+over.k3.j2.more.model.rar	0	all-ok	0	50	67	model	model (T2)	6 to 24
+over.k3.j3.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j3.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	7 to 24
+over.k3.j3.more.true.rar	3	checksum-error:1	3	49	67	model	right	7 to 24
+over.k3.j3.more.model.rar	0	all-ok	0	49	67	model	model (T2)	7 to 24
+over.k3.j4.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j4.made.solid.rar	0	all-ok	0	47	47	model	model (T2)	8 to 24
+over.k3.j4.more.true.rar	3	checksum-error:1	3	48	67	model	right	8 to 24
+over.k3.j4.more.model.rar	0	all-ok	0	48	67	model	model (T2)	8 to 24
+over.k3.j5.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j5.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 8
+over.k3.j5.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+over.k3.j5.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 8
+over.k3.j6.made.stored.rar	0	all-ok	0	47	47	model	right	0 to 24
+over.k3.j6.made.solid.rar	0	all-ok	0	47	47	model	model (T1)	0 to 9
+over.k3.j6.more.true.rar	3	checksum-error:1	3	47	67	model	right	0 to 24
+over.k3.j6.more.model.rar	0	all-ok	0	47	67	model	model (T1)	0 to 9
+over.k4.j1.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j1.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	6 to 24
+over.k4.j1.more.true.rar	3	checksum-error:1	3	43	60	model	right	6 to 24
+over.k4.j1.more.model.rar	0	all-ok	0	43	60	model	model (T2)	6 to 24
+over.k4.j2.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j2.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	7 to 24
+over.k4.j2.more.true.rar	3	checksum-error:1	3	42	60	model	right	7 to 24
+over.k4.j2.more.model.rar	0	all-ok	0	42	60	model	model (T2)	7 to 24
+over.k4.j3.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j3.made.solid.rar	0	all-ok	0	40	40	model	model (T2)	8 to 24
+over.k4.j3.more.true.rar	3	checksum-error:1	3	41	60	model	right	8 to 24
+over.k4.j3.more.model.rar	0	all-ok	0	41	60	model	model (T2)	8 to 24
+over.k4.j4.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j4.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 8
+over.k4.j4.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+over.k4.j4.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 8
+over.k4.j5.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j5.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 9
+over.k4.j5.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+over.k4.j5.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 9
+over.k4.j6.made.stored.rar	0	all-ok	0	40	40	model	right	0 to 24
+over.k4.j6.made.solid.rar	0	all-ok	0	40	40	model	model (T1)	0 to 10
+over.k4.j6.more.true.rar	3	checksum-error:1	3	40	60	model	right	0 to 24
+over.k4.j6.more.model.rar	0	all-ok	0	40	60	model	model (T1)	0 to 10

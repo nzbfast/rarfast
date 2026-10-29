@@ -1,0 +1,5 @@
+case	members	reading in the file headers	readings that give other bytes	what
+length-in-one-byte	1	stated	record-byte-plus-6 record-byte-plus-8	the genuine x86 record as its writer framed it (low bits 6, then a byte of 51: 58 body bytes), 12,000 bytes of filler and three literals
+length-in-two-bytes	1	stated	record-word-8-bits	the same record framed with low bits 7 and a 16 bit length of 58
+length-in-first-byte	1	stated	record-short-plus-0 record-short-plus-2	the x86 record, filler, then the genuine 5 byte record as its writer framed it (low bits 4), filler and literals
+short-record-in-two-bytes	1	stated	record-word-8-bits	the same with the 5 byte record framed with low bits 7 and a 16 bit length of 5

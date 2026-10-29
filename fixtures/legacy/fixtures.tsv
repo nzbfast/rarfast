@@ -1,0 +1,107 @@
+# The declarative fixture set. One row per archive; build.py turns each row
+# into exactly one writer command line and one MANIFEST.tsv row.
+#
+# id       the archive's base name; the first volume is <id>.rar (DOS: .RAR).
+#          A DOS row's id must fit 8.3, or the 16-bit writer silently
+#          truncates it and the archive is written under a name nothing
+#          looks for. build.py refuses such a row rather than losing it.
+# writer   d140 d155 d250 (DOS, under dosbox) | r393 r420 r550 (Linux)
+# tree     IN (8.3 upper-case, every writer) | INX (Linux only)
+# switches passed verbatim after `a`; DOS rows also get `-r -y`, Linux rows
+#          `-idq` and, for tree IN, `-r`. `@CMT@` becomes the path of the
+#          comment file CMT.TXT as that writer's platform spells it.
+# files    what to archive; `.` means the whole tree (DOS: `*.*`)
+# covers   the format ground this row is here for
+#
+# Tabs separate the fields. A line starting with # is a comment.
+#
+id	writer	tree	switches	files	covers
+#--- RAR 1.3/1.4: DOS RAR 1.40.2 beta (Feb 1994). No -z, no -rr, no -hp. ---
+d140_m0	d140	IN	-m0	.	stored; directories; zero-length and one-byte members
+d140_m1	d140	IN	-m1	.	method 1 (fastest)
+d140_m2	d140	IN	-m2	.	method 2 (fast)
+d140_m3	d140	IN	-m3	.	method 3 (normal, the default)
+d140_m4	d140	IN	-m4	.	method 4 (good)
+d140_m5	d140	IN	-m5	.	method 5 (best)
+d140_sol	d140	IN	-m5 -s	.	solid
+d140_pw	d140	IN	-m3 -pSecret	.	file data encrypted, RAR 1.3 cipher
+d140_vol	d140	IN	-m5 -v30k	.	multi-volume, old naming (.r00)
+#--- RAR 1.5: DOS RAR 1.55 (Aug 1995). Adds -z. Still no -rr, no -hp. ---
+d155_m0	d155	IN	-m0	.	stored; the DOS-attribute-only directory entry
+d155_m1	d155	IN	-m1	.	method 1
+d155_m2	d155	IN	-m2	.	method 2
+d155_m3	d155	IN	-m3	.	method 3
+d155_m4	d155	IN	-m4	.	method 4
+d155_m5	d155	IN	-m5	.	method 5
+d155_sol	d155	IN	-m5 -s	.	solid
+d155_pw	d155	IN	-m3 -pSecret	.	file data encrypted, RAR 1.5 cipher
+d155_cmt	d155	IN	-m3 -z@CMT@	.	archive comment
+d155_vol	d155	IN	-m5 -v30k	.	multi-volume, old naming
+#--- RAR 2.0: DOS RAR 2.50 (Mar 1999). Adds -rr, -mm, -se. No -hp. ---
+d250_m0	d250	IN	-m0	.	stored; flags-word directory marking (0x00e0)
+d250_m1	d250	IN	-m1	.	method 1
+d250_m2	d250	IN	-m2	.	method 2
+d250_m3	d250	IN	-m3	.	method 3
+d250_m4	d250	IN	-m4	.	method 4
+d250_m5	d250	IN	-m5	.	method 5
+d250_sol	d250	IN	-m5 -s	.	solid
+d250_se	d250	IN	-m5 -se	.	solid groups by extension
+d250_pw	d250	IN	-m3 -pSecret	.	file data encrypted, RAR 2.0 cipher
+d250_cmt	d250	IN	-m3 -z@CMT@	.	archive comment
+d250_rr	d250	IN	-m3 -rr	.	protect sectors (recovery record), default size
+d250_rr8	d250	IN	-m3 -rr8	.	protect sectors, 8 (the DOS maximum)
+d250_mm	d250	IN	-m3 -mmf	.	multimedia compression forced, RAR 2.0 audio codec
+d250_vol	d250	IN	-m5 -v30k	.	multi-volume, old naming
+d250_vrr	d250	IN	-m5 -v30k -rr	.	multi-volume with a protect record per volume
+#--- RAR 2.9: Linux rar 3.9.3 (i386 static) ---
+r393_m0	r393	IN	-m0	.	stored (headers read unpack version 20, not 29)
+r393_m3	r393	IN	-m3	.	method 3, RAR 2.9 codec
+r393_m5	r393	IN	-m5	.	method 5, RAR 2.9 codec
+r393_solid	r393	IN	-m5 -s	.	solid
+r393_pw	r393	IN	-m3 -pSecret	.	file data encrypted, RAR 2.9 AES
+r393_hp	r393	IN	-m3 -hpSecret	.	headers encrypted
+r393_rr	r393	IN	-m3 -rr	.	recovery record
+r393_md	r393	IN	-m5 -md64	.	64 KB dictionary: the smallest window a RAR 2.9 reader must handle
+r393_txt	r393	IN	-m5 -mct+	BIG.TXT	text model forced (PPMd)
+r393_vol	r393	IN	-m5 -v30k	.	multi-volume, NEW naming (.partN.rar)
+r393_voln	r393	IN	-m5 -v30k -vn	.	multi-volume, OLD naming (.r00)
+r393_rv	r393	IN	-m5 -v25k -rr -rv1	.	recovery volumes (.rev)
+r393_x	r393	INX	-m5	.	long name, non-ASCII name, filters chosen automatically
+#--- RAR 2.9: Linux rar 4.2.0 (x86-64 static) ---
+r420_m0	r420	IN	-m0	.	stored
+r420_m3	r420	IN	-m3	.	method 3
+r420_m5	r420	IN	-m5	.	method 5
+r420_solid	r420	IN	-m5 -s	.	solid
+r420_pw	r420	IN	-m3 -pSecret	.	file data encrypted
+r420_hp	r420	IN	-m3 -hpSecret	.	headers encrypted
+r420_rr	r420	IN	-m3 -rr	.	recovery record
+r420_md	r420	IN	-m5 -md64	.	64 KB dictionary, smallest window
+r420_txt	r420	IN	-m5 -mct+	BIG.TXT	text model forced (PPMd)
+r420_vol	r420	IN	-m5 -v30k	.	multi-volume, new naming
+r420_voln	r420	IN	-m5 -v30k -vn	.	multi-volume, old naming
+r420_rv	r420	IN	-m5 -v25k -rr -rv1	.	recovery volumes
+r420_x	r420	INX	-m5	.	long name, non-ASCII name, filters automatic
+#--- the RAR 3 standard filters, each forced, from the 4.2.0 writer ---
+r420_f_x86	r420	INX	-m3 -mcE+	X86.BIN	x86 filter (E)
+r420_f_ia64	r420	INX	-m3 -mcI+	IA64.BIN	Itanium filter (I)
+r420_f_rgb	r420	INX	-m3 -mcC+	RGB.RAW	true colour filter (C)
+r420_f_bmp	r420	INX	-m5	IMAGE.BMP	true colour chosen automatically
+r420_f_audio	r420	INX	-m3 -mc4A+	PCM.RAW	audio filter (A), 4 channels
+r420_f_wav	r420	INX	-m5	SOUND.WAV	audio chosen automatically
+r420_f_delta	r420	INX	-m3 -mc3D+	DELTA.BIN	delta filter (D), 3 channels
+r420_f_mixed	r420	INX	-m5 -s	X86.BIN IA64.BIN IMAGE.BMP SOUND.WAV DELTA.BIN RGB.RAW PCM.RAW	several filters in one solid stream
+#--- RAR 2.9: Linux rar 5.5.0, forced back to RAR 4 with -ma4 ---
+r550_m0	r550	IN	-ma4 -m0	.	stored, written by a modern build
+r550_m3	r550	IN	-ma4 -m3	.	method 3
+r550_m5	r550	IN	-ma4 -m5	.	method 5
+r550_solid	r550	IN	-ma4 -m5 -s	.	solid
+r550_pw	r550	IN	-ma4 -m3 -pSecret	.	file data encrypted
+r550_hp	r550	IN	-ma4 -m3 -hpSecret	.	headers encrypted
+r550_rr	r550	IN	-ma4 -m3 -rr	.	recovery record
+r550_md	r550	IN	-ma4 -m5 -md64	.	64 KB dictionary, smallest window
+r550_txt	r550	IN	-ma4 -m5 -mct+	BIG.TXT	text model forced (PPMd)
+r550_vol	r550	IN	-ma4 -m5 -v30k	.	multi-volume, new naming
+r550_voln	r550	IN	-ma4 -m5 -v30k -vn	.	multi-volume, old naming
+r550_cmt	r550	IN	-ma4 -m3 -z@CMT@	.	archive comment
+r550_x	r550	INX	-ma4 -m5	X86.BIN IA64.BIN IMAGE.BMP SOUND.WAV DELTA.BIN RGB.RAW PCM.RAW a-long-file-name-that-no-8.3-writer-could-store.txt	long name, filters automatic (the non-ASCII name is r550_uni, below)
+r550_uni	r550	INX	-ma4 -m5	.	the whole INX tree, non-ASCII name included: EXPECTED TO BE REFUSED, see README section 6

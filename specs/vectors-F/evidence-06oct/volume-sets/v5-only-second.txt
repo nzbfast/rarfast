@@ -1,0 +1,68 @@
+arm: v5-only-second
+about: RAR 5: only the second volume is present
+file: x.part2.rar  97 bytes  sha256 d446b51747c55ce3eeb7c8c22ee2f128f9c43b25f451f1673f7a9232e00e45f8
+$ unrar lt -p- x.part2.rar
+exit 0
+  Archive: x.part2.rar
+  Details: RAR 5, volume 2
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ unrar t -p- x.part2.rar
+exit 6
+  Testing archive x.part2.rar
+  Testing     c.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack b.txt
+$ unrar p -inul -p- x.part2.rar
+exit 6
+stdout: 8 bytes, b'charlie\n'
+$ rar lt -p- x.part2.rar
+exit 0
+  Archive: x.part2.rar
+  Details: RAR 5, volume 2
+          Name: b.txt
+          Type: File
+          Size: 12
+   Packed size: 6
+         Ratio: <--
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 7560865C
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+          Name: c.txt
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 04:00:00,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0D0CDB0B
+       Host OS: Unix
+   Compression: RAR 5.0(v50) -m0 -md=128k
+$ rar t -p- x.part2.rar
+exit 6
+  Testing archive x.part2.rar
+  Testing     c.txt                                                        100%  OK
+  Total errors: 1
+stderr:
+  WARNING: You need to start extraction from a previous volume to unpack b.txt

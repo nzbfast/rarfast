@@ -1,0 +1,10 @@
+variant	arms that settle it	first arms
+the channel count is the field, not the field plus 1	262	N1-n1,N1-n2,N1-n3,N1-n5
+the channel count is the field plus 2	230	N1-n2,N1-n3,N1-n5,N1-n100
+each stored byte is added	379	N1-n1,N1-n2,N1-n3,N1-n5
+the running value carries from one channel to the next	342	N2-n2,N2-n3,N2-n4,N2-n5
+the stored bytes are interleaved like the original	221	N2-n3,N2-n4,N2-n5,N2-n8
+the channels are stored last first	339	N2-n2,N2-n3,N2-n4,N2-n5
+a channel's first byte is stored as itself	379	N1-n1,N1-n2,N1-n3,N1-n5
+the running value starts at 0xFF	380	N1-n1,N1-n2,N1-n3,N1-n5
+the running value starts from the span's position	377	N1-n1,N1-n2,N1-n3,N1-n5

@@ -1,0 +1,31 @@
+program	archive	member	packed bytes	fails with every piece of n bytes, n =	fails with a piece of 1 and then pieces of n, n =
+unrar-7.23-linux-x86-64	r420_bigrgb_c.rar	BIGRGB.RAW	70702	1	1 2
+unrar-7.23-linux-x86-64	r420_bmp_auto.rar	IMAGE.BMP	3499	1 2 3	1 2 3
+unrar-7.23-linux-x86-64	r420_ia64_i.rar	IA64.BIN	7734	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_mixed_nonsolid.rar	X86.BIN	6920	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_mixed_nonsolid.rar	IA64.BIN	7734	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_mixed_nonsolid.rar	IMAGE.BMP	3499	1 2 3	1 2 3
+unrar-7.23-linux-x86-64	r420_mixed_nonsolid.rar	SOUND.WAV	9837	1 2 3	1 2
+unrar-7.23-linux-x86-64	r420_mixed_nonsolid.rar	TABLE.BIN	2928	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_mixed_solid.rar	IA64.BIN	8264	1 2 3 4 5	1 2 3 4 5 6 7 8 9
+unrar-7.23-linux-x86-64	r420_pcm_a2.rar	PCM.RAW	11558	1 2	1 2
+unrar-7.23-linux-x86-64	r420_pcm_a4.rar	PCM.RAW	9625	1 2 3	1 2
+unrar-7.23-linux-x86-64	r420_rgb_c.rar	RGB.RAW	2863	1 2 3	1 2 3
+unrar-7.23-linux-x86-64	r420_tab_auto.rar	TABLE.BIN	2928	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_tab_d3.rar	TABLE.BIN	2690	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r420_wav_auto.rar	SOUND.WAV	9837	1 2 3	1 2
+unrar-7.23-linux-x86-64	r420_x86_auto.rar	X86.BIN	6920	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r420_x86_e.rar	X86.BIN	7064	1 2 3 4	1 2 3 4 5 6 7 8
+unrar-7.23-linux-x86-64	r393_m5.rar	EMPTY.DAT	8	1	1
+unrar-7.23-linux-x86-64	r393_m5.rar	SUB\NESTED\DEEP.TXT	40	1 2	1 2 3 4
+unrar-7.23-linux-x86-64	r393_m5.rar	HELLO.TXT	481	1 2	1 2 3 4
+unrar-7.23-linux-x86-64	r393_m5.rar	DATA.BIN	12345	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r420_m5.rar	EMPTY.DAT	8	1	1
+unrar-7.23-linux-x86-64	r420_m5.rar	SUB\NESTED\DEEP.TXT	33	1 2	1 2 3 4
+unrar-7.23-linux-x86-64	r420_m5.rar	HELLO.TXT	417	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r420_m5.rar	DATA.BIN	12344	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r550ma4_m5.rar	SUB\NESTED\DEEP.TXT	32	1 2	1 2 3
+unrar-7.23-linux-x86-64	r550ma4_m5.rar	HELLO.TXT	417	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r550ma4_m5.rar	DATA.BIN	12344	1 2 3 4	1 2 3 4 5 6 7
+unrar-7.23-linux-x86-64	r4_m3.rar	text.txt	87	1 2 3	1 2 3 4 5 6
+unrar-7.23-linux-x86-64	r4_solid.rar	hello.txt	52	1 2 3	1 2 3 4 5

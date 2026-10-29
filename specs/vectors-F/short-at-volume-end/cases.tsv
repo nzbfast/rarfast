@@ -1,0 +1,54 @@
+file	sha256	what
+rar5.long-in-set/x.part1.rar	bb871df16402e2401f2c05ea0b38a0cb79801e794dcfd52b7a3306cf6c8a9713	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar5.long-in-set/x.part2.rar	fd9fed6667c184ada055ebf3cb0e323924c660568578c2e8862d9c6e45ef54b3	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar5.long-single/x.part1.rar	905951aaec5e30254315413f68bf02d1c8efecebe281ab694838859b895da054	the same m.bin in a single archive (no volume flag)
+rar4-v29.long-in-set/x.part1.rar	87e041d01d75b03fea318f7b382fd1254f33c75ac0ecc12c4a27c0b209d5c640	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar4-v29.long-in-set/x.part2.rar	70c53de33305d8b46146f6dfe28b9e0f6267aa9c8a110774032fe2c278355256	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar4-v29.long-single/x.part1.rar	dbdb1e9debb1eed2ab16ffb31c115f40893965211c75bac6da5260f1852b34eb	the same m.bin in a single archive (no volume flag)
+rar4-v20.long-in-set/x.part1.rar	a2164effcf9b59a3a8fb8115af87c70db0e2073ea27e54cbfa31b713690f1746	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar4-v20.long-in-set/x.part2.rar	96d84e51cf265b05a2e6a018b7f2ea3cd69f0bcbd3bb94f41d39101244f5df3c	m.bin whole and short in a volume, checksum of its own bytes; c.bin split after it
+rar4-v20.long-single/x.part1.rar	74989aa26d683c699e56cb2e104120e8cfd2819d1ac4ff8ea2a90302b03891c2	the same m.bin in a single archive (no volume flag)
+rar5.control/x.part1.rar	70c9bb8b010bda9c1b4e761108603727d3512531216af3f4ee082263dd0c4f19	a sound set
+rar5.control/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	a sound set
+rar5.control.alone/x.part1.rar	70c9bb8b010bda9c1b4e761108603727d3512531216af3f4ee082263dd0c4f19	the sound set's first volume alone
+rar5.no-flag.crc-fragment/x.part1.rar	afcd74148924157ea4bb12437a284d2a8272997812526be4e51022d31e7fb7f3	continues-in flag cleared, checksum field: fragment
+rar5.no-flag.crc-fragment/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	continues-in flag cleared, checksum field: fragment
+rar5.no-flag.crc-fragment.end-says-last/x.part1.rar	a9954a302dfb093602b3bb00f49dab291f11a67b2a38cd07d3057885e5a7043d	the same, and the end header says no volume follows
+rar5.no-flag.crc-fragment.end-says-last/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	the same, and the end header says no volume follows
+rar5.no-flag.crc-fragment.alone/x.part1.rar	afcd74148924157ea4bb12437a284d2a8272997812526be4e51022d31e7fb7f3	the same first volume, no second volume present
+rar5.no-flag.crc-whole/x.part1.rar	55da0536fe314e7931f598c5dbc95b93ef6111aabdeb363d7960416789c882e8	continues-in flag cleared, checksum field: whole
+rar5.no-flag.crc-whole/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	continues-in flag cleared, checksum field: whole
+rar5.no-flag.crc-whole.end-says-last/x.part1.rar	61db39e9fb40dd2604d973ea5350d326eb7161ee32df1bbaf206ca5fe02dd91e	the same, and the end header says no volume follows
+rar5.no-flag.crc-whole.end-says-last/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	the same, and the end header says no volume follows
+rar5.no-flag.crc-whole.alone/x.part1.rar	55da0536fe314e7931f598c5dbc95b93ef6111aabdeb363d7960416789c882e8	the same first volume, no second volume present
+rar5.no-flag.no-crc/x.part1.rar	0ea6efe1c298a15e1c38c28ffe406339ff5c6d6cde00abf09c0d3c1252fdfb50	continues-in flag cleared, checksum field: none
+rar5.no-flag.no-crc/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	continues-in flag cleared, checksum field: none
+rar5.no-flag.no-crc.end-says-last/x.part1.rar	8fb1813e667ef1b1716e1a8f77e9a24e87da04cef1e4c6f7de96265b1408e4c6	the same, and the end header says no volume follows
+rar5.no-flag.no-crc.end-says-last/x.part2.rar	3ae2890f20e432a7b465658fc50d0d4a445ab4967744462364f9f85191efe16b	the same, and the end header says no volume follows
+rar5.no-flag.no-crc.alone/x.part1.rar	0ea6efe1c298a15e1c38c28ffe406339ff5c6d6cde00abf09c0d3c1252fdfb50	the same first volume, no second volume present
+rar4-v29.control/x.part1.rar	ab65d5f4a36591e63fb10ae8491a0a24111678234ac737a3dae28795416aebf2	a sound set
+rar4-v29.control/x.part2.rar	78cab08a78eb1a5c0e33a47cf72e1e7301d62e0008f4497812df7fdeaef49ab0	a sound set
+rar4-v29.control.alone/x.part1.rar	ab65d5f4a36591e63fb10ae8491a0a24111678234ac737a3dae28795416aebf2	the sound set's first volume alone
+rar4-v29.no-flag.crc-fragment/x.part1.rar	e09481431c8187eb8339f9a6f2cebf89bb002df4c411df325e6d3ab4d30eb476	continues-in flag cleared, checksum field: fragment
+rar4-v29.no-flag.crc-fragment/x.part2.rar	78cab08a78eb1a5c0e33a47cf72e1e7301d62e0008f4497812df7fdeaef49ab0	continues-in flag cleared, checksum field: fragment
+rar4-v29.no-flag.crc-fragment.end-says-last/x.part1.rar	150e0a3e68dfae52ca3b99eeaf18bc55d40c52f4345486f06bccce03ebd4da51	the same, and the end header says no volume follows
+rar4-v29.no-flag.crc-fragment.end-says-last/x.part2.rar	78cab08a78eb1a5c0e33a47cf72e1e7301d62e0008f4497812df7fdeaef49ab0	the same, and the end header says no volume follows
+rar4-v29.no-flag.crc-fragment.alone/x.part1.rar	e09481431c8187eb8339f9a6f2cebf89bb002df4c411df325e6d3ab4d30eb476	the same first volume, no second volume present
+rar4-v29.no-flag.crc-whole/x.part1.rar	633d6a68b6d95208ca8b31711c2f5d1e3f2de3b98c8cd5674dc739a0bd61f4ce	continues-in flag cleared, checksum field: whole
+rar4-v29.no-flag.crc-whole/x.part2.rar	78cab08a78eb1a5c0e33a47cf72e1e7301d62e0008f4497812df7fdeaef49ab0	continues-in flag cleared, checksum field: whole
+rar4-v29.no-flag.crc-whole.end-says-last/x.part1.rar	df44fd3a0c08b50748c19c65f3f05dbede42b0ca5aeb5c3c8031778d3b4392aa	the same, and the end header says no volume follows
+rar4-v29.no-flag.crc-whole.end-says-last/x.part2.rar	78cab08a78eb1a5c0e33a47cf72e1e7301d62e0008f4497812df7fdeaef49ab0	the same, and the end header says no volume follows
+rar4-v29.no-flag.crc-whole.alone/x.part1.rar	633d6a68b6d95208ca8b31711c2f5d1e3f2de3b98c8cd5674dc739a0bd61f4ce	the same first volume, no second volume present
+rar4-v20.control/x.part1.rar	505cb8a4ab178cdc6da7e5358420c8b9f35ee2f10783d129e8790a8191162041	a sound set
+rar4-v20.control/x.part2.rar	42ba13209acbbb1b9f8b2ccd302f23b1f5c85da6dd3be986ebb5e9267ca80077	a sound set
+rar4-v20.control.alone/x.part1.rar	505cb8a4ab178cdc6da7e5358420c8b9f35ee2f10783d129e8790a8191162041	the sound set's first volume alone
+rar4-v20.no-flag.crc-fragment/x.part1.rar	1853a68928dff57a004f9aa114dc56855802c46e49551ea05f5d8587c89a2248	continues-in flag cleared, checksum field: fragment
+rar4-v20.no-flag.crc-fragment/x.part2.rar	42ba13209acbbb1b9f8b2ccd302f23b1f5c85da6dd3be986ebb5e9267ca80077	continues-in flag cleared, checksum field: fragment
+rar4-v20.no-flag.crc-fragment.end-says-last/x.part1.rar	907a5522c0f6ce0f9a0b4b84adc285db251df9db52fcebba66e351588dbee1fc	the same, and the end header says no volume follows
+rar4-v20.no-flag.crc-fragment.end-says-last/x.part2.rar	42ba13209acbbb1b9f8b2ccd302f23b1f5c85da6dd3be986ebb5e9267ca80077	the same, and the end header says no volume follows
+rar4-v20.no-flag.crc-fragment.alone/x.part1.rar	1853a68928dff57a004f9aa114dc56855802c46e49551ea05f5d8587c89a2248	the same first volume, no second volume present
+rar4-v20.no-flag.crc-whole/x.part1.rar	2abc052b566ad3c42fc375c840bab6c913f188fd42089b517298679bf13bbbfe	continues-in flag cleared, checksum field: whole
+rar4-v20.no-flag.crc-whole/x.part2.rar	42ba13209acbbb1b9f8b2ccd302f23b1f5c85da6dd3be986ebb5e9267ca80077	continues-in flag cleared, checksum field: whole
+rar4-v20.no-flag.crc-whole.end-says-last/x.part1.rar	9a51c4b1569590f4ea1035239b604ca7bbf65f427b98df95a71a00e4f7372cfd	the same, and the end header says no volume follows
+rar4-v20.no-flag.crc-whole.end-says-last/x.part2.rar	42ba13209acbbb1b9f8b2ccd302f23b1f5c85da6dd3be986ebb5e9267ca80077	the same, and the end header says no volume follows
+rar4-v20.no-flag.crc-whole.alone/x.part1.rar	2abc052b566ad3c42fc375c840bab6c913f188fd42089b517298679bf13bbbfe	the same first volume, no second volume present

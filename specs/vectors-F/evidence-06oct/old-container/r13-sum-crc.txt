@@ -1,0 +1,80 @@
+arm: r13-sum-crc
+about: member B's checksum is the low 16 bits of the CRC32
+file: x.rar  111 bytes  sha256 221e99fc4a2e18df7621d78c9c5edecd50336e36168b188db0859b7953fa239d
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: B.TXT
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ unrar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     A.TXT                                                         44%  OK
+  Testing     B.TXT                                                         87%
+  Testing     C.TXT                                                        100%  OK
+  Total errors: 1
+stderr:
+  B.TXT                - checksum error
+$ unrar p -inul -p- x.rar
+exit 3
+stdout: 26 bytes, b'alpha\nbravo bravo\ncharlie\n'
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.4
+          Name: A.TXT
+          Type: File
+          Size: 6
+   Packed size: 6
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: B.TXT
+          Type: File
+          Size: 12
+   Packed size: 12
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+          Name: C.TXT
+          Type: File
+          Size: 8
+   Packed size: 8
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+   Compression: RAR 5.0(v13) -m0 -md=64k
+$ rar t -p- x.rar
+exit 3
+  Testing archive x.rar
+  Testing     A.TXT                                                         44%  OK
+  Testing     B.TXT                                                         87%
+  Testing     C.TXT                                                        100%  OK
+  Total errors: 1
+stderr:
+  B.TXT                - checksum error

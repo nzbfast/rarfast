@@ -1,0 +1,27 @@
+arm: through-safe-link-other-members-ola
+about: the same, -ola
+file: x.rar  262 bytes  sha256 7ff322676d833502ecd468be0d0d5d9ec3822a073f777ba0d64cfc31fb52c5a1
+$ unrar x -p- -ola x.rar o/
+exit 0
+  Extracting from x.rar
+  Creating    o/sub                                                     OK
+  Extracting  o/dl2                                                          OK
+  Extracting  o/a.txt                                                       45%  OK
+  Extracting  o/dl2/h                                                        OK
+  Extracting  o/dl2/s                                                        OK
+  Extracting  o/dl2/c                                                        0%  OK
+  Creating    o/dl2/newdir                                              OK
+  All OK
+the arm's directory after the run:
+  dir   o
+  dir   victim
+  file  o/a.txt                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+  link  o/dl2                  -> sub   (mtime the member's)
+  dir   o/sub
+  file  o/sub/c                     6 bytes  sha256 b6a98d9ce9a2  mode 644   (mtime the member's)
+  file  o/sub/h                     6 bytes  sha256 b6a98d9ce9a2  mode 644  one inode with group A, 2 links   (mtime the member's)
+  dir   o/sub/newdir
+  link  o/sub/s                -> t   (mtime the member's)
+  file  victim/t                    7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)
+the absolute victim directory after the run:
+  file  t                           7 bytes  sha256 5cac7e188734  mode 644   (mtime the member's)

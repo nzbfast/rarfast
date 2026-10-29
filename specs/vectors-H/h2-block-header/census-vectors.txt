@@ -1,0 +1,32 @@
+h5_delta_m5.rar: 1 members walked
+h5_delta_off.rar: 1 members walked
+h5_empty.rar: 0 members walked
+h5_far_m5.rar: 1 members walked
+h5_far_small_md.rar: 1 members walked
+h5_lit_m1.rar: 1 members walked
+h5_md_max.rar: 1 members walked
+h5_rand_m5.rar: 0 members walked
+h5_runs_m5.rar: 1 members walked
+h5_solid.rar: 4 members walked
+h5_solid_mixed.rar: 3 members walked
+h5_text_m3.rar: 1 members walked
+h5_text_m5.rar: 1 members walked
+h5_tiny.rar: 0 members walked
+h5_x86_m5.rar: 1 members walked
+h5_x86_nofilter.rar: 1 members walked
+members walked                              18
+blocks                                      42
+blocks whose check relation fails           0
+members whose chain ends on the last byte,
+  at a block flagged last                   18
+members ending any other way                0
+blocks flagged last that are not the final  0
+blocks without the tables flag              1
+  of them, first block of a non solid member 0
+blocks with an empty payload                0
+blocks with flag bit 0x20 set               0
+blocks whose size width is not the smallest 0
+largest payload, bytes                      37471
+size width field + 1, blocks by value       {1: 3, 2: 39}
+low three flag bits, blocks by value        {0: 5, 1: 3, 2: 7, 3: 10, 4: 2, 5: 5, 6: 4, 7: 6}
+blocks per member, members by count         {1: 12, 2: 3, 6: 1, 9: 2}

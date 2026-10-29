@@ -1,0 +1,314 @@
+arm: s4-v29-stored-between-set
+about: r420_solid.rar: a STORED member of 20 bytes, file flag 0x0010 set, inserted after the first file [archive flags 0x0008; DATA.BIN clear version 29 method 0x35 packed 16244 unpacked 20192, Z.BIN solid version 29 method 0x30 packed 20 unpacked 20, TABLE.BIN solid version 29 method 0x35 packed 3200 unpacked 15000, EMPTY.DAT solid version 29 method 0x35 packed 2 unpacked 0, ONE.DAT solid version 29 method 0x35 packed 9 unpacked 1, AUDIO.RAW solid version 29 method 0x35 packed 21174 unpacked 36000, BIG.TXT solid version 29 method 0x35 packed 22482 unpacked 90000, SUB\NESTED\DEEP.TXT solid version 29 method 0x35 packed 170 unpacked 700, HELLO.TXT solid version 29 method 0x35 packed 3883 unpacked 16800, SUB\SIB.TXT solid version 29 method 0x35 packed 72 unpacked 300, SUB\NESTED solid dir version 20 method 0x30 packed 0 unpacked 0, EMPTYDIR solid dir version 20 method 0x30 packed 0 unpacked 0, SUB solid dir version 20 method 0x30 packed 0 unpacked 0]
+file: x.rar  67813 bytes  sha256 00f45662a7ce14d0e09aba64f3b04e1ef4bb2fb3df81ab109dedbd7ec3eb1b4a
+$ unrar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: DATA.BIN
+          Type: File
+          Size: 20192
+   Packed size: 16244
+         Ratio: 80%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5A96618B
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+          Name: Z.BIN
+          Type: File
+          Size: 20
+   Packed size: 20
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+         CRC32: 75C6E677
+       Host OS: DOS
+   Compression: RAR 1.5(v29) -m0 -md=64k
+         Flags: solid
+          Name: TABLE.BIN
+          Type: File
+          Size: 15000
+   Packed size: 3200
+         Ratio: 21%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 078BDBE7
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: EMPTY.DAT
+          Type: File
+          Size: 0
+   Packed size: 2
+         Ratio: 0%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: ONE.DAT
+          Type: File
+          Size: 1
+   Packed size: 9
+         Ratio: 900%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: D3D99E8B
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 21174
+         Ratio: 58%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 4E28FC11
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: BIG.TXT
+          Type: File
+          Size: 90000
+   Packed size: 22482
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: C372F3FD
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/NESTED/DEEP.TXT
+          Type: File
+          Size: 700
+   Packed size: 170
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: A57840D0
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: HELLO.TXT
+          Type: File
+          Size: 16800
+   Packed size: 3883
+         Ratio: 23%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0EA1AFB6
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 72
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F17E393
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/NESTED
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+          Name: EMPTYDIR
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+          Name: SUB
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+$ unrar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     DATA.BIN                                                      24%  OK
+  Testing     Z.BIN                                                         24%  OK
+  Testing     TABLE.BIN                                                     28%  OK
+  Testing     EMPTY.DAT                                                     28%  OK
+  Testing     ONE.DAT                                                       29%  OK
+  Testing     AUDIO.RAW                                                     60%  OK
+  Testing     BIG.TXT                                                       93%  OK
+  Testing     SUB/NESTED/DEEP.TXT                                           93%  OK
+  Testing     HELLO.TXT                                                     99%  OK
+  Testing     SUB/SIB.TXT                                                   99%  OK
+  Testing     SUB/NESTED                                                OK
+  Testing     EMPTYDIR                                                  OK
+  Testing     SUB                                                       OK
+  All OK
+$ unrar p -inul -p- x.rar
+exit 0
+stdout: 179013 bytes, b'S\xc5N\xc5\xc7\x9a"Z\xa7\xe8\xf4\xde\x08f\xf8V`\x7f\x8cZ\xc1\xd2\xa7\xacO\xb6*\x00(\r\n\x13;\xa0~\x01:\xf24\xd3\xf2\\m\xfb\xe8\xb7Q\x91\xa9\xb3\xdb\xc2\x99\xcc\x14\x91\x7f\xfd\x11\xf0\xe8\\\x9eFycz\xd1,\x10\xc9\xb29<\x0b7\xc8\x85\xb7\xea' ...
+$ rar lt -p- x.rar
+exit 0
+  Archive: x.rar
+  Details: RAR 1.5, solid
+          Name: DATA.BIN
+          Type: File
+          Size: 20192
+   Packed size: 16244
+         Ratio: 80%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5A96618B
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+          Name: Z.BIN
+          Type: File
+          Size: 20
+   Packed size: 20
+         Ratio: 100%
+         mtime: 2026-09-18 12:00:00,000000000
+    Attributes: ..A....
+         CRC32: 75C6E677
+       Host OS: DOS
+   Compression: RAR 1.5(v29) -m0 -md=64k
+         Flags: solid
+          Name: TABLE.BIN
+          Type: File
+          Size: 15000
+   Packed size: 3200
+         Ratio: 21%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 078BDBE7
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: EMPTY.DAT
+          Type: File
+          Size: 0
+   Packed size: 2
+         Ratio: 0%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: ONE.DAT
+          Type: File
+          Size: 1
+   Packed size: 9
+         Ratio: 900%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: D3D99E8B
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: AUDIO.RAW
+          Type: File
+          Size: 36000
+   Packed size: 21174
+         Ratio: 58%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 4E28FC11
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: BIG.TXT
+          Type: File
+          Size: 90000
+   Packed size: 22482
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: C372F3FD
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/NESTED/DEEP.TXT
+          Type: File
+          Size: 700
+   Packed size: 170
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: A57840D0
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: HELLO.TXT
+          Type: File
+          Size: 16800
+   Packed size: 3883
+         Ratio: 23%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 0EA1AFB6
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/SIB.TXT
+          Type: File
+          Size: 300
+   Packed size: 72
+         Ratio: 24%
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: -rw-r--r--
+         CRC32: 5F17E393
+       Host OS: Unix
+   Compression: RAR 1.5(v29) -m5 -md=1m
+         Flags: solid
+          Name: SUB/NESTED
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+          Name: EMPTYDIR
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+          Name: SUB
+          Type: Directory
+         mtime: 2020-09-13 12:26:40,000000000
+    Attributes: drwxr-xr-x
+         CRC32: 00000000
+       Host OS: Unix
+   Compression: RAR 1.5(v20) -m0
+         Flags: solid
+$ rar t -p- x.rar
+exit 0
+  Testing archive x.rar
+  Testing     DATA.BIN                                                      24%  OK
+  Testing     Z.BIN                                                         24%  OK
+  Testing     TABLE.BIN                                                     28%  OK
+  Testing     EMPTY.DAT                                                     28%  OK
+  Testing     ONE.DAT                                                       29%  OK
+  Testing     AUDIO.RAW                                                     60%  OK
+  Testing     BIG.TXT                                                       93%  OK
+  Testing     SUB/NESTED/DEEP.TXT                                           93%  OK
+  Testing     HELLO.TXT                                                     99%  OK
+  Testing     SUB/SIB.TXT                                                   99%  OK
+  Testing     SUB/NESTED                                                OK
+  Testing     EMPTYDIR                                                  OK
+  Testing     SUB                                                       OK
+  All OK

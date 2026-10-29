@@ -1,0 +1,22 @@
+arm: sfx-reach-miss
+about: 4,194,283 bytes ahead of the signature
+file: x.rar  4194420 bytes  sha256 b818988ed8dd0cfbbfef9965d0b0bf74b2e15d577576cc90b22350037be62a98
+$ unrar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ unrar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
+$ unrar p -inul -p- x.rar
+exit 13
+stdout: 0 bytes, b''
+$ rar lt -p- x.rar
+exit 0
+  x.rar is not RAR archive
+$ rar t -p- x.rar
+exit 13
+  No files to extract
+stderr:
+  ERROR: Bad archive x.rar
